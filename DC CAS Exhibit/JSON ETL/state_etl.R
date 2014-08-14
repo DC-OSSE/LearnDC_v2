@@ -1,6 +1,5 @@
 setwd("U:/LearnDC ETL V2/DC CAS Exhibit/JSON ETL")
 
-source("./imports/subproc.R")
 source("U:/R/tomkit.R")
 library(jsonlite)
 
@@ -45,20 +44,19 @@ newfile <- file("DCCAS_state_lv.JSON", encoding="UTF-8")
 
 
 
-
 sink(newfile)
 cat('{', fill=TRUE)
-
 
 cat('"timestamp": "',date(),'",', sep="", fill=TRUE)
 cat('"org_type": "state",', sep="", fill=TRUE)
 cat('"org_name": "District of Columbia",', sep="", fill=TRUE)
-
-cat('"id": "dccas",', fill=TRUE)
+cat('"org_code": "dc",', sep="", fill=TRUE)
+cat('"exhibit_id": "dccas",', fill=TRUE)
 cat('"data": ',json, fill=TRUE)
 cat('}', fill=TRUE)
 
 sink()
+close(newfile)
 
 ## VALIDATE JSON
 test <- readLines("DCCAS_state_lv.JSON")

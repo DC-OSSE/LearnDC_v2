@@ -1,4 +1,6 @@
-source("subproc.R")
+setwd("U:/LearnDC ETL V2/DC CAS Exhibit/JSON ETL")
+
+source("./imports/subproc.R")
 source("U:/R/tomkit.R")
 
 
@@ -37,7 +39,6 @@ for(g in c(1:2)){
 
 			for(j in subgroups_list){
 				tmp_2 <- subproc(tmp, j)
-				# print(paste0("   Subgroup: ",j," ## Rows :",nrow(tmp_2)))
 
 				.subgroup <- j
 
@@ -49,7 +50,6 @@ for(g in c(1:2)){
 						.grade <- unique(tmp_2$tested_grade)[k]
 						tmp_3 <- subset(tmp_2, tested_grade == .grade)
 					}
-					# print(paste0("      Grade: ", .grade, " ## Rows: ", nrow(tmp_3)))
 
 
 					.n_eligible <- nrow(tmp_3)

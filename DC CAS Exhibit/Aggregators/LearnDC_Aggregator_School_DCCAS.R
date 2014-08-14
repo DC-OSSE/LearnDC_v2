@@ -1,16 +1,21 @@
-source("subproc.R")
+setwd("U:/LearnDC ETL V2/DC CAS Exhibit/JSON ETL")
+source("./imports/subproc.R")
 source("U:/R/tomkit.R")
 
 
 cas <- sqlQuery(dbrepcard, "SELECT * FROM [dbo].[assessment_v2]") 
+dir <- sqlQuery(dbrepcard, "SELECT * FROM [dbo].[school_mapping_sy1314]")
+
+
+cas <- merge(cas, dir, by.x = c("ea_year","school_grade","school_code"), by.y= c("ea_year","grade","school_code"), all.x=TRUE)
+
+cas$sy1314_school_name <- toupper(cas$sy1314_school_name)
 
 
 subgroups_list <- c("All","MALE","FEMALE","AM7","AS7","BL7","HI7","MU7","PI7","WH7","SPED","LEP","Economy","Direct Cert")
 
 
 
-
-## WITH ACCT RULES
 school_subgroups_df <- data.frame()
 
 cas_no_inv <- subset(cas, math_invalidation %notin% c("A","M"))
@@ -28,33 +33,30 @@ for(g in c(1:2)){
 		cas_year <- subset(cas_acct, year == h)
 		.year <- h
 
-		for(i in unique(cas_year$school_code)){
+		for(i in unique(cas_year$sy1314_school_code)){
 
-			tmp <- subset(cas_year, school_code == i)
+			tmp <- subset(cas_year, sy1314_school_code == i)
 			print(paste0("Year: ",h," ## School: ",i, " ## Rows: ",nrow(tmp)))
 
 			.lea_code <- tmp$lea_code[1]
 			.lea_name <- tmp$lea_name[1] 
 			.school_code <- i
-			.school_name <- tmp$school_name[1]
+			.school_name <- tmp$sy1314_school_name[1]
 
 
 			for(j in subgroups_list){
 				tmp_2 <- subproc(tmp, j)
-				# print(paste0("   Subgroup: ",j," ## Rows :",nrow(tmp_2)))
 
 				.subgroup <- j
 
 				for(k in 0:length(unique(tmp_2$tested_grade))){
 					if(k == 0){
 						tmp_3 <- tmp_2
-						.grade <- "All"
+						.grade <- "all"
 					} else{
 						.grade <- unique(tmp_2$tested_grade)[k]
 						tmp_3 <- subset(tmp_2, tested_grade == .grade)
 					}
-					# print(paste0("      Grade: ", .grade, " ## Rows: ", nrow(tmp_3)))
-
 
 					.n_eligible <- nrow(tmp_3)
 
