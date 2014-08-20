@@ -1,6 +1,4 @@
 
-
-
 subproc <- function(x, subgroup){
 	if(subgroup == "All"){
 		return(x)
@@ -18,3 +16,4 @@ subproc <- function(x, subgroup){
 		return(subset(x, direct_cert == 1))
 	}
 }
+

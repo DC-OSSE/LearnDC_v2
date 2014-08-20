@@ -28,21 +28,7 @@ json <- gsub("]]","",json, fixed=TRUE)
 
 
 ## write to file
-
-org_type <- "state"
-org_code <- "STATE"
-
-state_version <- sqlQuery(dbrepcard, "SELECT TOP 1 
-        [version_number],
-        [timestamp]
-    FROM [dbo].[ver_control_statefile]
-    ORDER BY [version_number] DESC")
-
-next_version <- state_version$version_number + 0.1
-
 newfile <- file("DCCAS_state_lv.JSON", encoding="UTF-8")
-
-
 
 sink(newfile)
 cat('{', fill=TRUE)
