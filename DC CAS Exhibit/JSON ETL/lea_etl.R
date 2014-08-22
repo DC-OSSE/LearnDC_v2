@@ -3,12 +3,12 @@ setwd("U:/LearnDC ETL V2/DC CAS Exhibit/JSON ETL")
 source("U:/R/tomkit.R")
 library(jsonlite)
 
-lea_cas <- sqlQuery(dbrepcard_prod, "SELECT * FROM [dbo].[LEA_cas_exhibit]")
+lea_cas <- sqlQuery(dbrepcard_prod, "SELECT * FROM [dbo].[cas_lea_exhibit]")
 
 
 lea_cas <- subset(lea_cas, (enrollment_status == "full_year" & n_test_takers >= 25) | (enrollment_status == "all" & n_test_takers >= 10))
 
-setwd('./Data/DCCAS_lea_lv_csv')
+setwd('./Data')
 write.csv(lea_cas, "DCCAS_lea_lv.csv", row.names=FALSE)
 
 

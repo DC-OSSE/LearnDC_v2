@@ -3,21 +3,21 @@ setwd("U:/LearnDC ETL V2/DC CAS Exhibit/JSON ETL")
 source("U:/R/tomkit.R")
 library(jsonlite)
 
-school_cas <- sqlQuery(dbrepcard_prod, "SELECT * FROM [dbo].[school_cas_exhibit]")
-
+school_cas <- sqlQuery(dbrepcard_prod, "SELECT * FROM [dbo].[cas_school_exhibit]")
+school_cas$rownames <- NULL
 
 
 school_cas <- subset(school_cas, (enrollment_status == "full_year" & n_test_takers >= 25) | (enrollment_status == "all" & n_test_takers >= 10))
 
-setwd('./Data/DCCAS_school_lv_csv')
+setwd('./Data')
 write.csv(school_cas, "DCCAS_school_lv.csv", row.names=FALSE)
 
 
 setwd('U:/LearnDC ETL V2/DC CAS Exhibit/JSON ETL/Data/DCCAS_school_lv_JSON')
 
 
-key_index <- c(2,5:8)
-value_index <- 9:15
+key_index <- c(1,6:9)
+value_index <- 10:15
 
 
 for(i in unique(school_cas$school_code)){

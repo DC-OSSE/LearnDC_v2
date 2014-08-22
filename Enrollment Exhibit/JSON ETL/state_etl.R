@@ -1,0 +1,56 @@
+setwd("U:/LearnDC ETL V2/Enrollment Exhibit/JSON ETL")
+
+source("U:/R/tomkit.R")
+library(jsonlite)
+
+
+state_enr <- sqlQuery(dbrepcard_prod, "SELECT * FROM [dbo].[enrollment_state_exhibit]")
+
+state_enr <- subset(state_enr, enrollment >= 10)
+
+
+setwd('./Data/Enrollment_state_lv_csv')
+write.csv(state_enr, "state_enrollment.csv", row.names=FALSE)
+
+
+setwd("U:/LearnDC ETL V2/Enrollment Exhibit/JSON ETL/Data/Enrollment_state_lv_json")
+
+
+
+
+
+
+key_index <- c(1,2,3)
+value_index <- 4
+
+
+nested_list <- lapply(1:nrow(state_enr), FUN = function(i){ 
+                         list(key = list(state_enr[i,key_index]), 
+                         	val = list(state_enr[i,value_index]))
+                       })
+
+json <- toJSON(nested_list)
+json <- gsub("[[","",json, fixed=TRUE)
+json <- gsub("]]","",json, fixed=TRUE)
+
+
+newfile <- file("Enrollment_state_lv.JSON", encoding="UTF-8")
+sink(newfile)
+
+cat('{', fill=TRUE)
+
+cat('"timestamp": "',date(),'",', sep="", fill=TRUE)
+cat('"org_type": "state",', sep="", fill=TRUE)
+cat('"org_name": "District of Columbia",', sep="", fill=TRUE)
+cat('"org_code": "dc",', sep="", fill=TRUE)
+cat('"exhibit_id": "enrollment",', fill=TRUE)
+cat('"data": ',json, fill=TRUE)
+cat('}', fill=TRUE)
+
+sink()
+close(newfile)
+
+## VALIDATE JSON
+test <- readLines("Enrollment_state_lv.JSON")
+validate(test)
+

@@ -3,7 +3,7 @@ setwd("U:/LearnDC ETL V2/DC CAS Exhibit/JSON ETL")
 source("U:/R/tomkit.R")
 library(jsonlite)
 
-state_cas <- sqlQuery(dbrepcard_prod, "SELECT * FROM [dbo].[State_cas_exhibit]")
+state_cas <- sqlQuery(dbrepcard_prod, "SELECT * FROM [dbo].[cas_state_exhibit]")
 
 state_cas <- subset(state_cas, (enrollment_status == "full_year" & n_test_takers >= 25) | (enrollment_status == "all" & n_test_takers >= 10))
  
