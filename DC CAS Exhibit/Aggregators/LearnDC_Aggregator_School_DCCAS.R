@@ -36,13 +36,11 @@ for(g in c(1:2)){
 		for(i in unique(cas_year$sy1314_school_code)){
 
 			tmp <- subset(cas_year, sy1314_school_code == i)
-			print(paste0("Year: ",h," ## School: ",i, " ## Rows: ",nrow(tmp)))
 
 			.lea_code <- tmp$lea_code[1]
 			.lea_name <- tmp$lea_name[1] 
 			.school_code <- i
 			.school_name <- tmp$sy1314_school_name[1]
-
 
 			for(j in subgroups_list){
 				tmp_2 <- subproc(tmp, j)
@@ -91,9 +89,7 @@ for(g in c(1:2)){
 	}
 }
 
-colnames(school_subgroups_df) <- c("year", "lea_code", "lea_name", "school_code", "school_name",
-						"subgroup", "grade", "subject", ".enrollment_status", "n_eligible", "n_test_takers",
-						"proficient_or_advanced", "below_basic", "basic", "proficient", "advanced")
+colnames(school_subgroups_df) <- c("year", "lea_code", "lea_name", "school_code", "school_name","subgroup", "grade", "subject", ".enrollment_status", "n_eligible", "n_test_takers","proficient_or_advanced", "below_basic", "basic", "proficient", "advanced")
 
 
 
@@ -111,6 +107,6 @@ school_subgroups_df <- subset(school_subgroups_df, n_eligible > 0)
 
 
 
-sqlSave(dbrepcard_prod, school_subgroups_df, tablename = "school_cas_exhibit", append = FALSE)
+sqlSave(dbrepcard_prod, school_subgroups_df, tablename = "cas_school_exhibit", append = FALSE)
 
 

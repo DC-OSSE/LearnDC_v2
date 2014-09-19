@@ -66,7 +66,6 @@ for(g in c(1:2)){
 						.n_test_takers <- length(.profs)
 						.n_proficient_advanced <- length(.profs[which(.profs %in% c("Proficient","Advanced"))])
 						.n_below_basic <- length(.profs[which(.profs == "Below Basic")])
-
 						.n_basic <- length(.profs[which(.profs == "Basic")])	
 						.n_proficient <- length(.profs[which(.profs == "Proficient")])					
 						.n_advanced <- length(.profs[which(.profs == "Advanced")])
@@ -103,5 +102,5 @@ lea_subgroups_df$grade[which(lea_subgroups_df$grade == 10)] <- "grade 10"
 lea_subgroups_df <- subset(lea_subgroups_df, n_eligible > 0)
 
 
-sqlSave(dbrepcard_prod, lea_subgroups_df, tablename = "LEA_cas_exhibit", append = FALSE, rownames=FALSE)
+sqlSave(dbrepcard_prod, lea_subgroups_df, tablename = "cas_lea_exhibit", append = FALSE, rownames=FALSE)
 

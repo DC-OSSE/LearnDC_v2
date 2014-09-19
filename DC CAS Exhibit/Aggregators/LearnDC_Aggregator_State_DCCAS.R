@@ -29,8 +29,6 @@ for(g in c(1:2)){
 		tmp <- subset(cas_acct, year == h)
 		.year <- h
 
-		print(paste0("Year: ",h,"Rows: ",nrow(tmp)))
-
 		for(j in subgroups_list){
 			tmp_2 <- subproc(tmp, j)
 			# print(paste0("   Subgroup: ",j," ## Rows :",nrow(tmp_2)))
@@ -94,4 +92,4 @@ state_subgroups_df$grade[which(state_subgroups_df$grade == 8)] <- "grade 8"
 state_subgroups_df$grade[which(state_subgroups_df$grade == 10)] <- "grade 10"
 
 
-sqlSave(dbrepcard_prod, state_subgroups_df, tablename = "State_cas_exhibit", append = FALSE, rownames=FALSE)
+sqlSave(dbrepcard_prod, state_subgroups_df, tablename = "cas_state_exhibit", append = FALSE, rownames=FALSE)

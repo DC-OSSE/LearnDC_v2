@@ -12,8 +12,6 @@ enr$race[which(enr$ethnicity == "YES")] <- "HI7"
 enr <- subset(enr, lea_code %notin% c(4001))
 
 
-
-
 dir <- sqlQuery(dbrepcard, "SELECT * FROM [dbo].[school_mapping_sy1314]")
 dir$school_code <- sapply(dir$school_code, leadgr, 4)
 dir$grade <- sapply(dir$grade, leadgr, 2)
