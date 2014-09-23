@@ -9,18 +9,23 @@ school_grad <- sqlQuery(dbrepcard_prod, "SELECT * FROM [dbo].[graduation_school_
 school_grad <- subset(school_grad, cohort_size >= 10)
 
 
-setwd('./data')
+setwd('U:/LearnDC ETL V2/Export/CSV/school')
 write.csv(school_grad, "Graduation_School.csv", row.names=FALSE)
 
+
+school_grad$school_code <- sapply(school_grad$school_code, leadgr, 4)
 
 key_index <- c(3,4)
 value_index <- c(5,6)
 
 
-setwd('U:/LearnDC ETL V2/Graduation Exhibit/JSON ETL/data/Graduation_School_lv_JSON')
-
-
 for(i in unique(school_grad$school_code)){
+	setwd("U:/LearnDC ETL V2/Export/JSON/school")
+
+	if(file.exists(paste("./School ", i, sep= ""))){
+	    setwd(file.path(paste("./School ",i, sep= "")))
+	}	
+
 	.tmp <- subset(school_grad, school_code == i)
 
 	.nested_list <- lapply(1:nrow(.tmp), FUN = function(i){ 

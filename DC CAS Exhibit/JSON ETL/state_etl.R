@@ -7,9 +7,12 @@ state_cas <- sqlQuery(dbrepcard_prod, "SELECT * FROM [dbo].[cas_state_exhibit]")
 
 state_cas <- subset(state_cas, (enrollment_status == "full_year" & n_test_takers >= 25) | (enrollment_status == "all" & n_test_takers >= 10))
  
-setwd('./Data/')
 
-write.csv(state_cas, "DCCAS_state_lv.csv", row.names=FALSE)
+setwd('U:/LearnDC ETL V2/Export/CSV/state')
+write.csv(state_cas, "DCCAS_State.csv", row.names=FALSE)
+
+
+setwd("U:/LearnDC ETL V2/Export/JSON/state")
 
 
 key_index <- 1:5

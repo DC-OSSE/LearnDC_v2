@@ -9,14 +9,11 @@ state_enr <- sqlQuery(dbrepcard_prod, "SELECT * FROM [dbo].[enrollment_state_exh
 state_enr <- subset(state_enr, enrollment >= 10)
 
 
-setwd('./Data/Enrollment_state_lv_csv')
-write.csv(state_enr, "state_enrollment.csv", row.names=FALSE)
+setwd('U:/LearnDC ETL V2/Export/CSV/state')
+write.csv(state_enr, "Enrollment_State.csv", row.names=FALSE)
 
 
-setwd("U:/LearnDC ETL V2/Enrollment Exhibit/JSON ETL/Data/Enrollment_state_lv_json")
-
-
-
+setwd("U:/LearnDC ETL V2/Export/JSON/state")
 
 
 

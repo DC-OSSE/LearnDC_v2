@@ -8,11 +8,11 @@ lea_cas <- sqlQuery(dbrepcard_prod, "SELECT * FROM [dbo].[cas_lea_exhibit]")
 
 lea_cas <- subset(lea_cas, (enrollment_status == "full_year" & n_test_takers >= 25) | (enrollment_status == "all" & n_test_takers >= 10))
 
-setwd('./Data')
+setwd('U:/LearnDC ETL V2/Export/CSV/lea')
 write.csv(lea_cas, "DCCAS_lea_lv.csv", row.names=FALSE)
 
 
-setwd('U:/LearnDC ETL V2/DC CAS Exhibit/JSON ETL/Data/DCCAS_lea_lv_JSON')
+lea_cas$lea_code <- sapply(lea_cas$lea_code, leadgr, 4)
 
 
 key_index <- c(1,4:7)
@@ -20,6 +20,12 @@ value_index <- 8:14
 
 
 for(i in unique(lea_cas$lea_code)){
+	setwd("U:/LearnDC ETL V2/Export/JSON/lea")
+
+	if (file.exists(paste("./LEA ", i, sep= ""))){
+	    setwd(file.path(paste("./LEA ",i, sep= "")))
+	}
+
 	.tmp <- subset(lea_cas, lea_code == i)
 
 	.nested_list <- lapply(1:nrow(.tmp), FUN = function(i){ 

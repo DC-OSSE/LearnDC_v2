@@ -4,24 +4,29 @@ source("U:/R/tomkit.R")
 library(jsonlite)
 
 
-
 lea_grad <- sqlQuery(dbrepcard_prod, "SELECT * FROM [dbo].[graduation_lea_exhibit]")
-
 lea_grad <- subset(lea_grad, cohort_size >= 10)
 
 
-setwd('./data')
+setwd('U:/LearnDC ETL V2/Export/CSV/lea')
 write.csv(lea_grad, "Graduation_LEA.csv", row.names=FALSE)
+
+
+lea_grad$lea_code <- sapply(lea_grad$lea_code, leadgr, 4)
 
 
 key_index <- c(3,4)
 value_index <- c(5,6)
 
 
-setwd('U:/LearnDC ETL V2/Graduation Exhibit/JSON ETL/data/Graduation_lea_lv_JSON')
-
 
 for(i in unique(lea_grad$lea_code)){
+	setwd("U:/LearnDC ETL V2/Export/JSON/lea")
+
+	if (file.exists(paste("./LEA ", i, sep= ""))){
+	    setwd(file.path(paste("./LEA ",i, sep= "")))
+	}
+
 	.tmp <- subset(lea_grad, lea_code == i)
 
 	.nested_list <- lapply(1:nrow(.tmp), FUN = function(i){ 

@@ -9,13 +9,11 @@ school_enr <- sqlQuery(dbrepcard_prod, "SELECT * FROM [dbo].[enrollment_school_e
 school_enr <- subset(school_enr, enrollment >= 10)
 
 
-setwd('./Data')
-write.csv(school_enr, "school_enrollment.csv", row.names=FALSE)
+setwd('U:/LearnDC ETL V2/Export/CSV/school')
+write.csv(school_enr, "Enrollment_School.csv", row.names=FALSE)
 
 
-setwd("U:/LearnDC ETL V2/Enrollment Exhibit/JSON ETL/Data/Enrollment_school_lv_json")
-
-
+school_enr$school_code <- sapply(school_enr$school_code, leadgr, 4)
 
 
 key_index <- c(5,6,7)
@@ -24,6 +22,15 @@ value_index <- 8
 
 
 for(i in unique(school_enr$school_code)){
+	setwd("U:/LearnDC ETL V2/Export/JSON/school")
+
+	if (file.exists(paste("./School ", i, sep= ""))){
+	    setwd(file.path(paste("./School ",i, sep= "")))
+	} else {
+	    dir.create(file.path(paste("School ", i, sep= "")))
+	    setwd(file.path(paste("./School ",i, sep= "")))
+	}
+
 	.tmp <- subset(school_enr, school_code == i)
 
 	.nested_list <- lapply(1:nrow(.tmp), FUN = function(i){ 

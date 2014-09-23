@@ -9,11 +9,11 @@ state_grad <- sqlQuery(dbrepcard_prod, "SELECT * FROM [dbo].[graduation_state_ex
 state_grad <- subset(state_grad, cohort_size >= 10)
 
 
-setwd('./data')
+setwd('U:/LearnDC ETL V2/Export/CSV/state')
 write.csv(state_grad, "Graduation_State.csv", row.names=FALSE)
 
 
-
+setwd("U:/LearnDC ETL V2/Export/JSON/state")
 
 key_index <- c(1,2)
 value_index <- c(3,4)

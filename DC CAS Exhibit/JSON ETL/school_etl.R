@@ -9,18 +9,23 @@ school_cas$rownames <- NULL
 
 school_cas <- subset(school_cas, (enrollment_status == "full_year" & n_test_takers >= 25) | (enrollment_status == "all" & n_test_takers >= 10))
 
-setwd('./Data')
-write.csv(school_cas, "DCCAS_school_lv.csv", row.names=FALSE)
-
-
-setwd('U:/LearnDC ETL V2/DC CAS Exhibit/JSON ETL/Data/DCCAS_school_lv_JSON')
+setwd('U:/LearnDC ETL V2/Export/CSV/school')
+write.csv(school_cas, "DCCAS_School.csv", row.names=FALSE)
 
 
 key_index <- c(1,6:9)
 value_index <- 10:15
 
+school_cas$school_code <- sapply(school_cas$school_code, leadgr, 4)
+
 
 for(i in unique(school_cas$school_code)){
+	setwd("U:/LearnDC ETL V2/Export/JSON/school")
+
+	if (file.exists(paste("./School ", i, sep= ""))){
+	    setwd(file.path(paste("./School ",i, sep= "")))
+	} 
+
 	.tmp <- subset(school_cas, school_code == i)
 
 	.nested_list <- lapply(1:nrow(.tmp), FUN = function(i){ 
