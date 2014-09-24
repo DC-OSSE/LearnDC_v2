@@ -15,8 +15,8 @@ write.csv(school_grad, "Graduation_School.csv", row.names=FALSE)
 
 school_grad$school_code <- sapply(school_grad$school_code, leadgr, 4)
 
-key_index <- c(3,4)
-value_index <- c(5,6)
+key_index <- c(5,6)
+value_index <- c(7,8)
 
 
 for(i in unique(school_grad$school_code)){

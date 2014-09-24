@@ -1,11 +1,11 @@
 {
-"timestamp": "Wed Sep 24 13:34:37 2014",
+"timestamp": "Wed Sep 24 14:16:43 2014",
 "org_type": "school",
 "org_name": "KIPP DC COLLEGE PREP PCS",
 "org_code": "1123",
 "exhibit": {
 	"id": "graduation",
 	"data":  
-[{"key":{"school_code":"1123","school_name":"KIPP DC COLLEGE PREP PCS"},"val":{"subgroup":"All","year":2013}},{"key":{"school_code":"1123","school_name":"KIPP DC COLLEGE PREP PCS"},"val":{"subgroup":"MALE","year":2013}},{"key":{"school_code":"1123","school_name":"KIPP DC COLLEGE PREP PCS"},"val":{"subgroup":"FEMALE","year":2013}},{"key":{"school_code":"1123","school_name":"KIPP DC COLLEGE PREP PCS"},"val":{"subgroup":"BL7","year":2013}},{"key":{"school_code":"1123","school_name":"KIPP DC COLLEGE PREP PCS"},"val":{"subgroup":"Economy","year":2013}}]
+[{"key":{"subgroup":"All","year":2013},"val":{"graduates":78,"cohort_size":82}},{"key":{"subgroup":"MALE","year":2013},"val":{"graduates":32,"cohort_size":35}},{"key":{"subgroup":"FEMALE","year":2013},"val":{"graduates":46,"cohort_size":47}},{"key":{"subgroup":"BL7","year":2013},"val":{"graduates":75,"cohort_size":79}},{"key":{"subgroup":"Economy","year":2013},"val":{"graduates":60,"cohort_size":63}}]
 	}
 }
