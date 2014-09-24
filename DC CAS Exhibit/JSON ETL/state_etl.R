@@ -31,7 +31,7 @@ json <- gsub("]]","",json, fixed=TRUE)
 
 
 ## write to file
-newfile <- file("DCCAS_state_lv.JSON", encoding="UTF-8")
+newfile <- file("dccas.json", encoding="UTF-8")
 
 sink(newfile)
 cat('{', fill=TRUE)
@@ -40,13 +40,17 @@ cat('"timestamp": "',date(),'",', sep="", fill=TRUE)
 cat('"org_type": "state",', sep="", fill=TRUE)
 cat('"org_name": "District of Columbia",', sep="", fill=TRUE)
 cat('"org_code": "dc",', sep="", fill=TRUE)
-cat('"exhibit_id": "dccas",', fill=TRUE)
-cat('"data": ',json, fill=TRUE)
+cat('"exhibit": {', fill=TRUE)
+cat('\t"id": "dccas",', fill=TRUE)
+cat('\t"data": ',json, fill=TRUE)
+cat('\t}', fill=TRUE)
 cat('}', fill=TRUE)
+
+
 
 sink()
 close(newfile)
 
 ## VALIDATE JSON
-test <- readLines("DCCAS_state_lv.JSON")
+test <- readLines("dccas.json")
 validate(test)

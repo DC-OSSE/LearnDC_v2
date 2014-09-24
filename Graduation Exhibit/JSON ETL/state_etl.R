@@ -29,7 +29,7 @@ json <- gsub("[[","",json, fixed=TRUE)
 json <- gsub("]]","",json, fixed=TRUE)
 
 
-newfile <- file("Graduation_state_lv.JSON", encoding="UTF-8")
+newfile <- file("graduation.json", encoding="UTF-8")
 sink(newfile)
 
 cat('{', fill=TRUE)
@@ -38,15 +38,19 @@ cat('"timestamp": "',date(),'",', sep="", fill=TRUE)
 cat('"org_type": "state",', sep="", fill=TRUE)
 cat('"org_name": "District of Columbia",', sep="", fill=TRUE)
 cat('"org_code": "dc",', sep="", fill=TRUE)
-cat('"exhibit_id": "graduation",', fill=TRUE)
-cat('"data": ',json, fill=TRUE)
+cat('"exhibit": {', fill=TRUE)
+cat('\t"id": "graduation",', fill=TRUE)
+cat('\t"data": ',json, fill=TRUE)
+cat('\t}', fill=TRUE)
 cat('}', fill=TRUE)
+
+
 
 sink()
 close(newfile)
 
 ## VALIDATE JSON
-test <- readLines("Graduation_state_lv.JSON")
+test <- readLines("graduation.json")
 validate(test)
 
 

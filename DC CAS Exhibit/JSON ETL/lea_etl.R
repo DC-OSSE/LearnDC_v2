@@ -9,7 +9,7 @@ lea_cas <- sqlQuery(dbrepcard_prod, "SELECT * FROM [dbo].[cas_lea_exhibit]")
 lea_cas <- subset(lea_cas, (enrollment_status == "full_year" & n_test_takers >= 25) | (enrollment_status == "all" & n_test_takers >= 10))
 
 setwd('U:/LearnDC ETL V2/Export/CSV/lea')
-write.csv(lea_cas, "DCCAS_lea_lv.csv", row.names=FALSE)
+write.csv(lea_cas, "DCCAS_LEA.csv", row.names=FALSE)
 
 
 lea_cas$lea_code <- sapply(lea_cas$lea_code, leadgr, 4)
@@ -22,8 +22,8 @@ value_index <- 8:14
 for(i in unique(lea_cas$lea_code)){
 	setwd("U:/LearnDC ETL V2/Export/JSON/lea")
 
-	if (file.exists(paste("./LEA ", i, sep= ""))){
-	    setwd(file.path(paste("./LEA ",i, sep= "")))
+	if (file.exists(i)){
+	    setwd(file.path(i))
 	}
 
 	.tmp <- subset(lea_cas, lea_code == i)
@@ -39,7 +39,7 @@ for(i in unique(lea_cas$lea_code)){
 
 	.lea_name <- .tmp$lea_name[1]
 
-	newfile <- file(paste0("DCCAS_LEA_",i,".JSON"), encoding="UTF-8")
+	newfile <- file("dccas.json", encoding="UTF-8")
 	sink(newfile)
 
 	cat('{', fill=TRUE)
@@ -47,9 +47,11 @@ for(i in unique(lea_cas$lea_code)){
 	cat('"timestamp": "',date(),'",', sep="", fill=TRUE)
 	cat('"org_type": "lea",', sep="", fill=TRUE)
 	cat('"org_name": "',.lea_name,'",', sep="", fill=TRUE)
-	cat('"org_code": ',i,',', sep="", fill=TRUE)
-	cat('"exhibit_id": "dccas",', fill=TRUE)
-	cat('"data": ',.json, fill=TRUE)
+	cat('"org_code": "',i,'"',',', sep="", fill=TRUE)
+	cat('"exhibit": {', fill=TRUE)
+	cat('\t"id": "dccas",', fill=TRUE)
+	cat('\t"data": ',.json, fill=TRUE)
+	cat('\t}', fill=TRUE)
 	cat('}', fill=TRUE)
 
 	sink()

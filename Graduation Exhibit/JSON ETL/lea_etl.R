@@ -23,8 +23,8 @@ value_index <- c(5,6)
 for(i in unique(lea_grad$lea_code)){
 	setwd("U:/LearnDC ETL V2/Export/JSON/lea")
 
-	if (file.exists(paste("./LEA ", i, sep= ""))){
-	    setwd(file.path(paste("./LEA ",i, sep= "")))
+	if (file.exists(i)){
+	    setwd(file.path(i))
 	}
 
 	.tmp <- subset(lea_grad, lea_code == i)
@@ -40,7 +40,7 @@ for(i in unique(lea_grad$lea_code)){
 
 	.lea_name <- .tmp$lea_name[1]
 
-	newfile <- file(paste0("Graduation_LEA_",i,".JSON"), encoding="UTF-8")
+	newfile <- file("graduation.json", encoding="UTF-8")
 	sink(newfile)
 
 	cat('{', fill=TRUE)
@@ -48,9 +48,11 @@ for(i in unique(lea_grad$lea_code)){
 	cat('"timestamp": "',date(),'",', sep="", fill=TRUE)
 	cat('"org_type": "lea",', sep="", fill=TRUE)
 	cat('"org_name": "',.lea_name,'",', sep="", fill=TRUE)
-	cat('"org_code": ',i,',', sep="", fill=TRUE)
-	cat('"exhibit_id": "graduation",', fill=TRUE)
-	cat('"data": ',.json, fill=TRUE)
+	cat('"org_code": "',i,'",', sep="", fill=TRUE)
+	cat('"exhibit": {', fill=TRUE)
+	cat('\t"id": "graduation",', fill=TRUE)
+	cat('\t"data": ', .json, fill=TRUE)
+	cat('\t}', fill=TRUE)
 	cat('}', fill=TRUE)
 
 	sink()
