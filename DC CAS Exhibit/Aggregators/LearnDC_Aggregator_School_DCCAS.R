@@ -3,7 +3,7 @@ source("./imports/subproc.R")
 source("U:/R/tomkit.R")
 
 
-cas <- sqlQuery(dbrepcard, "SELECT * FROM [dbo].[assessment_v2]") 
+cas <- sqlQuery(dbrepcard, "SELECT * FROM [dbo].[assessment]") 
 dir <- sqlQuery(dbrepcard, "SELECT * FROM [dbo].[school_mapping_sy1314]")
 
 
@@ -67,6 +67,9 @@ for(g in c(1:2)){
 							.profs <- tmp_3$read_level[which(tmp_3$read_acct == 1)]
 						}
 
+						print(paste0("Year: ",h," ## School Code: ",i, " ## Rows: ",nrow(tmp_3)," # Group:", .subgroup," # Grade:",.grade))
+
+
 						.n_test_takers <- length(.profs)
 						.n_proficient_advanced <- length(.profs[which(.profs %in% c("Proficient","Advanced"))])
 						.n_below_basic <- length(.profs[which(.profs == "Below Basic")])
@@ -76,9 +79,7 @@ for(g in c(1:2)){
 						.n_advanced <- length(.profs[which(.profs == "Advanced")])
 										
 
-						new_row <- c(.year, .lea_code, .lea_name, .school_code, .school_name,
-							.subgroup, .grade, .subject, .enrollment_status,.n_eligible, .n_test_takers,
-							.n_proficient_advanced, .n_below_basic, .n_basic, .n_proficient, .n_advanced
+						new_row <- c(.year, .lea_code, .lea_name, .school_code, .school_name, .subgroup, .grade, .subject, .enrollment_status,.n_eligible, .n_test_takers, .n_proficient_advanced, .n_below_basic, .n_basic, .n_proficient, .n_advanced
 							)
 
 						school_subgroups_df <- rbind(school_subgroups_df, new_row)
@@ -90,6 +91,90 @@ for(g in c(1:2)){
 }
 
 colnames(school_subgroups_df) <- c("year", "lea_code", "lea_name", "school_code", "school_name","subgroup", "grade", "subject", ".enrollment_status", "n_eligible", "n_test_takers","proficient_or_advanced", "below_basic", "basic", "proficient", "advanced")
+
+
+
+
+comp <- sqlQuery(dbrepcard, "SELECT * FROM [dbo].[assm_comp]") 
+science <- sqlQuery(dbrepcard, "SELECT * FROM [dbo].[assm_science]") 
+
+
+comp <- merge(comp, dir, by.x = c("ea_year","tested_grade","school_code"), by.y= c("ea_year","grade","school_code"), all.x=TRUE)
+science <- merge(science, dir, by.x = c("ea_year","tested_grade","school_code"), by.y= c("ea_year","grade","school_code"), all.x=TRUE)
+
+
+
+.enrollment_status <- "all"
+.subgroup <- "All"
+.grade <- "All"
+.subject <- "composition"
+
+for(x in unique(comp$year)){
+	tmp <- subset(comp, year == x)
+	.year <- x
+
+	for(y in unique(tmp$sy1314_school_code)){
+		tmp2 <- subset(tmp, sy1314_school_code == y)
+
+		.lea_code <- tmp2$lea_code[1]
+		.lea_name <- tmp2$lea_name[1]
+		.school_code <- y
+		.school_name <-  tmp2$sy1314_school_name[1]
+
+		.profs <- tmp2$comp_level[which(tmp2$comp_empty == 0)]
+
+		.n_eligible <- nrow(tmp2)
+		.n_test_takers <- length(.profs)
+		.n_proficient_advanced <- length(.profs[which(.profs %in% c("Proficient","Advanced"))])
+		.n_below_basic <- length(.profs[which(.profs == "Below Basic")])
+
+		.n_basic <- length(.profs[which(.profs == "Basic")])	
+		.n_proficient <- length(.profs[which(.profs == "Proficient")])					
+		.n_advanced <- length(.profs[which(.profs == "Advanced")])
+
+		new_row <- c(.year, .lea_code, .lea_name, .school_code, .school_name,
+			.subgroup, .grade, .subject, .enrollment_status,.n_eligible, .n_test_takers,
+			.n_proficient_advanced, .n_below_basic, .n_basic, .n_proficient, .n_advanced
+			)
+
+		school_subgroups_df <- rbind(school_subgroups_df, new_row)
+	}
+}
+
+
+
+.subject <- "science"
+
+for(x in unique(science$year)){
+	tmp <- subset(science, year == x)
+	.year <- x
+
+	for(y in unique(tmp$sy1314_school_code)){
+		tmp2 <- subset(tmp, sy1314_school_code == y)
+
+		.lea_code <- tmp2$lea_code[1]
+		.lea_name <- tmp2$lea_name[1]
+		.school_code <- y
+		.school_name <-  tmp2$sy1314_school_name[1]
+
+		.profs <- tmp2$science_level[which(tmp2$science_empty == 0)]
+
+		.n_eligible <- nrow(tmp2)
+		.n_test_takers <- length(.profs)
+		.n_proficient_advanced <- length(.profs[which(.profs %in% c("Proficient","Advanced"))])
+		.n_below_basic <- length(.profs[which(.profs == "Below Basic")])
+
+		.n_basic <- length(.profs[which(.profs == "Basic")])	
+		.n_proficient <- length(.profs[which(.profs == "Proficient")])					
+		.n_advanced <- length(.profs[which(.profs == "Advanced")])
+
+		new_row <- c(.year, .lea_code, .lea_name, .school_code, .school_name, .subgroup, .grade, .subject, .enrollment_status,.n_eligible, .n_test_takers, .n_proficient_advanced, .n_below_basic, .n_basic, .n_proficient, .n_advanced)
+
+		school_subgroups_df <- rbind(school_subgroups_df, new_row)
+	}
+}
+
+
 
 
 

@@ -2,7 +2,7 @@ setwd("U:/LearnDC ETL V2/DC CAS Exhibit/JSON ETL")
 source("./imports/subproc.R")
 source("U:/R/tomkit.R")
 
-cas <- sqlQuery(dbrepcard, "SELECT * FROM [dbo].[assessment_v2]") 
+cas <- sqlQuery(dbrepcard, "SELECT * FROM [dbo].[assessment]") 
 
 
 subgroups_list <- c("All","MALE","FEMALE","AM7","AS7","BL7","HI7","MU7","PI7","WH7","SPED","LEP","Economy","Direct Cert")
@@ -31,7 +31,6 @@ for(g in c(1:2)){
 
 		for(j in subgroups_list){
 			tmp_2 <- subproc(tmp, j)
-			# print(paste0("   Subgroup: ",j," ## Rows :",nrow(tmp_2)))
 
 			.subgroup <- j
 
@@ -43,7 +42,6 @@ for(g in c(1:2)){
 					.grade <- unique(tmp_2$tested_grade)[k]
 					tmp_3 <- subset(tmp_2, tested_grade == .grade)
 				}
-				# print(paste0("      Grade: ", .grade, " ## Rows: ", nrow(tmp_3)))
 
 
 				.n_eligible <- nrow(tmp_3)
@@ -78,9 +76,68 @@ for(g in c(1:2)){
 	}
 }
 
-colnames(state_subgroups_df) <- c("year",
-						"subgroup", "grade", "subject", ".enrollment_status", "n_eligible", "n_test_takers",
-						"proficient_or_advanced", "below_basic", "basic", "proficient", "advanced")
+colnames(state_subgroups_df) <- c("year","subgroup", "grade", "subject", ".enrollment_status", "n_eligible", "n_test_takers","proficient_or_advanced", "below_basic", "basic", "proficient", "advanced")
+
+
+
+
+comp <- sqlQuery(dbrepcard, "SELECT * FROM [dbo].[assm_comp]") 
+science <- sqlQuery(dbrepcard, "SELECT * FROM [dbo].[assm_science]") 
+
+
+
+.enrollment_status <- "all"
+.subgroup <- "All"
+.grade <- "All"
+.subject <- "composition"
+
+for(x in unique(comp$year)){
+	tmp <- subset(comp, year == x)
+	.year <- x
+
+	.profs <- tmp$comp_level[which(tmp$comp_empty == 0)]
+
+	.n_eligible <- nrow(tmp)
+	.n_test_takers <- length(.profs)
+	.n_proficient_advanced <- length(.profs[which(.profs %in% c("Proficient","Advanced"))])
+	.n_below_basic <- length(.profs[which(.profs == "Below Basic")])
+
+	.n_basic <- length(.profs[which(.profs == "Basic")])	
+	.n_proficient <- length(.profs[which(.profs == "Proficient")])					
+	.n_advanced <- length(.profs[which(.profs == "Advanced")])
+
+	new_row <- c(.year, .subgroup, .grade, .subject, .enrollment_status,.n_eligible, .n_test_takers, .n_proficient_advanced, .n_below_basic, .n_basic, .n_proficient, .n_advanced)
+
+	state_subgroups_df <- rbind(state_subgroups_df, new_row)
+}
+
+
+
+
+
+.subject <- "science"
+
+for(x in unique(science$year)){
+	tmp <- subset(science, year == x)
+	.year <- x
+
+	.profs <- tmp$science_level[which(tmp$science_empty == 0)]
+
+	.n_eligible <- nrow(tmp)
+	.n_test_takers <- length(.profs)
+	.n_proficient_advanced <- length(.profs[which(.profs %in% c("Proficient","Advanced"))])
+	.n_below_basic <- length(.profs[which(.profs == "Below Basic")])
+
+	.n_basic <- length(.profs[which(.profs == "Basic")])	
+	.n_proficient <- length(.profs[which(.profs == "Proficient")])					
+	.n_advanced <- length(.profs[which(.profs == "Advanced")])
+
+	new_row <- c(.year, .subgroup, .grade, .subject, .enrollment_status,.n_eligible, .n_test_takers, .n_proficient_advanced, .n_below_basic, .n_basic, .n_proficient, .n_advanced)
+
+	state_subgroups_df <- rbind(state_subgroups_df, new_row)
+}
+
+
 
 
 state_subgroups_df$grade[which(state_subgroups_df$grade == 3)] <- "grade 3"

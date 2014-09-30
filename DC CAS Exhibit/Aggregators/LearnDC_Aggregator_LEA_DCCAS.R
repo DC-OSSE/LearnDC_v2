@@ -4,7 +4,7 @@ source("./imports/subproc.R")
 source("U:/R/tomkit.R")
 
 
-cas <- sqlQuery(dbrepcard, "SELECT * FROM [dbo].[assessment_v2]") 
+cas <- sqlQuery(dbrepcard, "SELECT * FROM [dbo].[assessment]") 
 
 
 subgroups_list <- c("All","MALE","FEMALE","AM7","AS7","BL7","HI7","MU7","PI7","WH7","SPED","LEP","Economy","Direct Cert")
@@ -31,7 +31,6 @@ for(g in c(1:2)){
 		for(i in unique(cas_year$lea_code)){
 
 			tmp <- subset(cas_year, lea_code == i)
-			print(paste0("Year: ",h," ## LEA Code: ",i, " ## Rows: ",nrow(tmp)))
 
 			.lea_code <- i
 			.lea_name <- tmp$lea_name[1] 
@@ -87,6 +86,85 @@ for(g in c(1:2)){
 colnames(lea_subgroups_df) <- c("year", "lea_code", "lea_name",
 						"subgroup", "grade", "subject", ".enrollment_status", "n_eligible", "n_test_takers",
 						"proficient_or_advanced", "below_basic", "basic", "proficient", "advanced")
+
+
+
+comp <- sqlQuery(dbrepcard, "SELECT * FROM [dbo].[assm_comp]") 
+science <- sqlQuery(dbrepcard, "SELECT * FROM [dbo].[assm_science]") 
+
+
+.enrollment_status <- "all"
+.subgroup <- "All"
+.grade <- "All"
+.subject <- "composition"
+
+for(x in unique(comp$year)){
+	tmp_c <- subset(comp, year == x)
+	.year <- x
+
+	for(y in unique(tmp_c$lea_code)){
+		tmp_c2 <- subset(tmp_c, lea_code == y)
+
+		.lea_code <- y
+		.lea_name <- tmp_c2$lea_name[1]
+
+		.profs <- tmp_c2$comp_level[which(tmp_c2$comp_empty == 0)]
+
+		.n_eligible <- nrow(tmp_c2)
+		.n_test_takers <- length(.profs)
+		.n_proficient_advanced <- length(.profs[which(.profs %in% c("Proficient","Advanced"))])
+		.n_below_basic <- length(.profs[which(.profs == "Below Basic")])
+
+		.n_basic <- length(.profs[which(.profs == "Basic")])	
+		.n_proficient <- length(.profs[which(.profs == "Proficient")])					
+		.n_advanced <- length(.profs[which(.profs == "Advanced")])
+
+		new_row <- c(.year, .lea_code, .lea_name,
+			.subgroup, .grade, .subject, .enrollment_status,.n_eligible, .n_test_takers,
+			.n_proficient_advanced, .n_below_basic, .n_basic, .n_proficient, .n_advanced
+			)
+
+		lea_subgroups_df <- rbind(lea_subgroups_df, new_row)
+	}
+}
+
+
+
+.subject <- "science"
+
+for(x in unique(science$year)){
+	tmp <- subset(science, year == x)
+	.year <- x
+
+	for(y in unique(tmp$lea_code)){
+		tmp2 <- subset(tmp, lea_code == y)
+
+		.lea_code <- y
+		.lea_name <- tmp2$lea_name[1]
+
+		.profs <- tmp2$science_level[which(tmp2$science_empty == 0)]
+
+		.n_eligible <- nrow(tmp2)
+		.n_test_takers <- length(.profs)
+		.n_proficient_advanced <- length(.profs[which(.profs %in% c("Proficient","Advanced"))])
+		.n_below_basic <- length(.profs[which(.profs == "Below Basic")])
+
+		.n_basic <- length(.profs[which(.profs == "Basic")])	
+		.n_proficient <- length(.profs[which(.profs == "Proficient")])					
+		.n_advanced <- length(.profs[which(.profs == "Advanced")])
+
+		new_row <- c(.year, .lea_code, .lea_name,
+			.subgroup, .grade, .subject, .enrollment_status,.n_eligible, .n_test_takers,
+			.n_proficient_advanced, .n_below_basic, .n_basic, .n_proficient, .n_advanced
+			)
+
+		lea_subgroups_df <- rbind(lea_subgroups_df, new_row)
+	}
+}
+
+
+
+
 
 
 
