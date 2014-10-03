@@ -4,8 +4,8 @@ source("U:/R/tomkit.R")
 library(jsonlite)
 
 
-lea_grad <- sqlQuery(dbrepcard_prod, "SELECT * FROM [dbo].[graduation_lea_exhibit]")
-lea_grad <- subset(lea_grad, cohort_size >= 10)
+lea_grad <- sqlQuery(dbrepcard_prod, "SELECT * FROM [dbo].[graduation_lea_exhibit_w2014]")
+lea_grad <- subset(lea_grad, cohort_size >= 25)
 
 
 setwd('U:/LearnDC ETL V2/Export/CSV/lea')

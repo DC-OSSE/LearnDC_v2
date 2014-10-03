@@ -4,9 +4,7 @@ source("U:/R/tomkit.R")
 
 source("./imports/subproc.R")
 
-grads <- sqlQuery(dbrepcard, "SELECT * FROM [dbo].[graduation] WHERE [cohort_status] = 1")
-
-
+grads <- sqlQuery(dbrepcard, "SELECT * FROM [dbo].[graduation_w2014] WHERE [cohort_status] = 1")
 
 
 subgroups_list <- c("All","MALE","FEMALE","AM7","AS7","BL7","HI7","MU7","PI7","WH7","SPED","LEP","Economy")
@@ -42,4 +40,4 @@ for(h in unique(grads$lea_code)){
 colnames(lea_subgroups_df) <- c("lea_code","lea_name","subgroup","year","graduates","cohort_size")
 
 
-sqlSave(dbrepcard_prod, lea_subgroups_df, tablename = "graduation_lea_exhibit", append = FALSE, rownames=FALSE)
+sqlSave(dbrepcard_prod, lea_subgroups_df, tablename = "graduation_lea_exhibit_w2014", append = FALSE, rownames=FALSE)
