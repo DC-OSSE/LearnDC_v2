@@ -4,7 +4,7 @@ source("U:/R/tomkit.R")
 library(jsonlite)
 
 
-lea_sped <- sqlQuery(dbrepcard, "SELECT * FROM [dbo].[SPED_APR_Indicators_1314]")
+lea_sped <- sqlQuery(dbrepcard_prod, "SELECT * FROM [dbo].[sped_apr_LEA_fy2012]")
 
 
 setwd('U:/LearnDC ETL V2/Export/CSV/lea')
@@ -14,11 +14,10 @@ write.csv(lea_sped, "SPED_APR_LEA.csv", row.names=FALSE)
 lea_sped$lea_code <- sapply(lea_sped$lea_code, leadgr, 4)
 
 
-key_index <- 1
-value_index <- 3:14
+key_index <- c(1,4)
+value_index <- 5:9
 
 
-colnames(lea_sped) <- gsub("indicator_","", colnames(lea_sped))
 
 for(i in unique(lea_sped$lea_code)){
 	setwd("U:/LearnDC ETL V2/Export/JSON/lea")
