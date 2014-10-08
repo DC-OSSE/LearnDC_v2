@@ -17,7 +17,6 @@ subgroups_list <- c("All","MALE","FEMALE","AM7","AS7","BL7","HI7","MU7","PI7","W
 
 
 
-
 lea_subgroups_df <- data.frame()
 
 for(h in unique(enr$lea_code)){

@@ -20,7 +20,14 @@ key_index <- c(3,4,5)
 value_index <- 6
 
 
-for(i in unique(lea_enr$lea_code)){
+
+school_dir <- sqlFetch(dbrepcard, 'schooldir_sy1314')
+lea_dir <- unique(school_dir[c("lea_code","lea_name")])
+lea_dir$lea_code <- sprintf("%04d", lea_dir$lea_code)
+
+
+
+for(i in unique(lea_dir$lea_code)){
 	setwd("U:/LearnDC ETL V2/Export/JSON/lea")
 
 	if (file.exists(i)){
