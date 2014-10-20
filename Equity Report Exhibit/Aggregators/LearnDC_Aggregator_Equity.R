@@ -15,6 +15,8 @@ equity$Month <- ""
 
 
 
+## NOTE I ALSO CHANGED SCHOOL YEAR FORMAT TO XXXX-XXXX AND RENAMED SUBGROUPS (TO DC CAS NOMENCLATURE) IN THE SQL DATA 
+
 
 equity <- select(equity, Key, School_Code, School_Year, Student_Group, Metric, SchoolScore, AverageScore, ReportType, NSize, Month)
 equity_final <- rbind(equity, movement, equity_prior)

@@ -25,7 +25,7 @@ move_wide$withdrawal_n <- NULL
 
 
 
-move_wide <- select(move_wide, school_code, year,subgroup, entry, withdrawal, net_cumulative, state_entry, state_withdrawal, state_net_cumulative)
+move_wide <- select(move_wide, school_code, year, month, entry, withdrawal, net_cumulative, state_entry, state_withdrawal, state_net_cumulative)
 
 move_wide$school_code <- sapply(move_wide$school_code, leadgr, 4)
 

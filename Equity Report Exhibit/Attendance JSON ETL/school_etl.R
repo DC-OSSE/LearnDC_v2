@@ -25,11 +25,12 @@ att_wide$state_in_seat_attendance <- att_wide$state_in_seat_attendance/100
 
 
 
+
+
+
 att_wide <- select(att_wide, school_code, year,subgroup, in_seat_attendance, state_in_seat_attendance)
-att_wide$average_daily_attendance <- NA
-att_wide$state_average_daily_attendance <- NA
-
-
+att_wide$average_daily_attendance <- 'null'
+att_wide$state_average_daily_attendance <- 'null'
 
 
 att_wide$school_code <- sapply(att_wide$school_code, leadgr, 4)
@@ -37,7 +38,6 @@ att_wide$school_code <- sapply(att_wide$school_code, leadgr, 4)
 
 # setwd('U:/LearnDC ETL V2/Export/CSV/school')
 # write.csv(att_wide, "Equity_Report_Attendance_School.csv", row.names=FALSE)
-
 
 
 
@@ -62,6 +62,8 @@ for(i in unique(att_wide$school_code)){
 	.json <- toJSON(.nested_list)
 	.json <- gsub("[[","",.json, fixed=TRUE)
 	.json <- gsub("]]","",.json, fixed=TRUE)
+	.json <- gsub('"null"','null',.json, fixed=TRUE)
+
 
 	.school_name <- .tmp$school_name[1]
 
