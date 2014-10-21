@@ -19,6 +19,7 @@ value_index <- 10:15
 school_cas$school_code <- sapply(school_cas$school_code, leadgr, 4)
 
 
+
 for(i in unique(school_cas$school_code)){
 	setwd("U:/LearnDC ETL V2/Export/JSON/school")
 
