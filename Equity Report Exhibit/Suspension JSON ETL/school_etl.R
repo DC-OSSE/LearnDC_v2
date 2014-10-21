@@ -63,7 +63,7 @@ for(i in unique(susp_wide$school_code)){
 	.school_name <- .tmp$school_name[1]
 
 
-	newfile <- file("suspension.json", encoding="UTF-8")
+	newfile <- file("suspensions.json", encoding="UTF-8")
 	sink(newfile)
 
 	cat('{', fill=TRUE)
@@ -73,7 +73,7 @@ for(i in unique(susp_wide$school_code)){
 	cat('"org_name": "',.school_name,'",', sep="", fill=TRUE)
 	cat('"org_code": "',i,'",', sep="", fill=TRUE)
 	cat('"exhibit": {', fill=TRUE)
-	cat('\t"id": "suspension",', fill=TRUE)
+	cat('\t"id": "suspensions",', fill=TRUE)
 	cat('\t"data": ', .json, fill=TRUE)
 	cat('\t}', fill=TRUE)
 	cat('}', fill=TRUE)
