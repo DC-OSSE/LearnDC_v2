@@ -2,8 +2,8 @@ setwd("U:/LearnDC ETL V2/Equity Report Exhibit/Aggregators")
 source("U:/R/tomkit.R")
 library(dplyr)
 
-equity <- read.csv("./Equity Report Data from Tembo/equity.csv")
-movement <- read.csv("./Equity Report Data from Tembo/movement.csv")
+equity <- read.csv("./Equity Report Data from Tembo/Second Iteration/equity.csv")
+movement <- read.csv("./Equity Report Data from Tembo/Second Iteration/movement.csv")
 
 
 

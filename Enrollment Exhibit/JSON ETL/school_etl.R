@@ -51,7 +51,7 @@ for(i in unique(school_enr$school_code)){
 
 	cat('"timestamp": "',date(),'",', sep="", fill=TRUE)
 	cat('"org_type": "school",', sep="", fill=TRUE)
-	cat('"org_name": "',.school_name,'",', sep="", fill=TRUE)
+	# cat('"org_name": "','",', sep="", fill=TRUE)
 	cat('"org_code": "',i,'"',',', sep="", fill=TRUE)
 	cat('"exhibit": {', fill=TRUE)
 	cat('\t"id": "enrollment",', fill=TRUE)

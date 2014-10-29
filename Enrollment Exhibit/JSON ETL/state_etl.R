@@ -13,7 +13,7 @@ setwd('U:/LearnDC ETL V2/Export/CSV/state')
 write.csv(state_enr, "Enrollment_State.csv", row.names=FALSE)
 
 
-setwd("U:/LearnDC ETL V2/Export/JSON/state")
+setwd("U:/LearnDC ETL V2/Export/JSON/state/DC")
 
 
 

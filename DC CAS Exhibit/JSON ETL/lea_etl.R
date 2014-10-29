@@ -22,6 +22,8 @@ value_index <- 8:14
 school_dir <- sqlFetch(dbrepcard, 'schooldir_sy1314')
 lea_dir <- unique(school_dir[c("lea_code","lea_name")])
 lea_dir$lea_code <- sprintf("%04d", lea_dir$lea_code)
+lea_dir <- subset(lea_dir, lea_code %in% lea_cas$lea_code)
+
 
 
 for(i in unique(lea_dir$lea_code)){
