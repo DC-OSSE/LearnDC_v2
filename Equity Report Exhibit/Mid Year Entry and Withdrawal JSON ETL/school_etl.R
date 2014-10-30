@@ -4,8 +4,7 @@ library(jsonlite)
 library(reshape2)
 library(dplyr)
 
-move <- sqlQuery(dbrepcard_prod, "SELECT [School_Code], [School_Year], [Student_Group], [Month],[Metric], [NSize], [SchoolScore], [AverageScore]
-		FROM [dbo].[equity_longitudinal] WHERE [Metric] in ('Entry','Withdrawal','Net Cumulative')")
+move <- sqlQuery(dbrepcard_prod, "SELECT [School_Code], [School_Year], [Student_Group], [Month],[Metric], [NSize], [SchoolScore], [AverageScore] FROM [dbo].[equity_longitudinal] WHERE [Metric] in ('Entry','Withdrawal','Net Cumulative')")
 
 
 move_long <- melt(move, id.vars = c("School_Year", "School_Code", "Student_Group","Month", "Metric"))
@@ -19,7 +18,7 @@ move_wide$entry_n <- NULL
 move_wide$net_cumulative_n <- NULL
 move_wide$withdrawal_n <- NULL
 
-
+move_wide$withdrawal <- round(move_wide$withdrawal,2)
 
 
 
@@ -36,7 +35,6 @@ move_wide$school_code <- sapply(move_wide$school_code, leadgr, 4)
 
 key_index <- c(2,3)
 value_index <- c(4:9)
-
 
 
 for(i in unique(move_wide$school_code)){
