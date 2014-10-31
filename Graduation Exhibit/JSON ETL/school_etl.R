@@ -37,6 +37,10 @@ for(i in unique(school_grad$school_code)){
 	.json <- gsub("[[","",.json, fixed=TRUE)
 	.json <- gsub("]]","",.json, fixed=TRUE)
 	.json <- gsub('"null"','null',.json, fixed=TRUE)
+	.json <- gsub('"graduates_5yr":"','"graduates_5yr":',.json, fixed=TRUE)
+	.json <- gsub('","cohort',',"cohort',.json, fixed=TRUE)
+
+
 
 	.lea_name <- .tmp$lea_name[1]
 	.school_name <- .tmp$school_name[1]

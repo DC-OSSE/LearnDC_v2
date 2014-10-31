@@ -28,6 +28,8 @@ json <- toJSON(nested_list)
 json <- gsub("[[","",json, fixed=TRUE)
 json <- gsub("]]","",json, fixed=TRUE)
 json <- gsub('"null"','null',json, fixed=TRUE)
+json <- gsub('"graduates_5yr":"','"graduates_5yr":',json, fixed=TRUE)
+json <- gsub('","cohort',',"cohort',json, fixed=TRUE)
 
 
 newfile <- file("graduation.json", encoding="UTF-8")

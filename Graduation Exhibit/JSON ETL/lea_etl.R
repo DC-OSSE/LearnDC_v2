@@ -42,6 +42,8 @@ for(i in unique(lea_dir$lea_code)){
 	.json <- gsub("[[","",.json, fixed=TRUE)
 	.json <- gsub("]]","",.json, fixed=TRUE)
 	.json <- gsub('"null"','null',.json, fixed=TRUE)
+	.json <- gsub('"graduates_5yr":"','"graduates_5yr":',.json, fixed=TRUE)
+	.json <- gsub('","cohort',',"cohort',.json, fixed=TRUE)
 
 	.lea_name <- .tmp$lea_name[1]
 
