@@ -5,7 +5,7 @@ library(jsonlite)
 
 
 lea_grad <- sqlQuery(dbrepcard_prod, "SELECT * FROM [dbo].[graduation_lea_exhibit_w2014]")
-lea_grad <- subset(lea_grad, cohort_size >= 25)
+lea_grad <- subset(lea_grad, cohort_size >= 25 & !is.na(graduates))
 
 
 setwd('U:/LearnDC ETL V2/Export/CSV/lea')
@@ -15,8 +15,8 @@ write.csv(lea_grad, "Graduation_LEA.csv", row.names=FALSE)
 lea_grad$lea_code <- sapply(lea_grad$lea_code, leadgr, 4)
 
 
-key_index <- c(3,4)
-value_index <- c(5,6,7)
+key_index <- c(3,4,5)
+value_index <- c(6,7)
 
 school_dir <- sqlFetch(dbrepcard, 'schooldir_sy1314')
 lea_dir <- unique(school_dir[c("lea_code","lea_name")])
@@ -41,9 +41,6 @@ for(i in unique(lea_dir$lea_code)){
 	.json <- toJSON(.nested_list)
 	.json <- gsub("[[","",.json, fixed=TRUE)
 	.json <- gsub("]]","",.json, fixed=TRUE)
-	.json <- gsub('"null"','null',.json, fixed=TRUE)
-	.json <- gsub('"graduates_5yr":"','"graduates_5yr":',.json, fixed=TRUE)
-	.json <- gsub('","cohort',',"cohort',.json, fixed=TRUE)
 
 	.lea_name <- .tmp$lea_name[1]
 

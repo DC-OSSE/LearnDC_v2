@@ -35,36 +35,51 @@ subgroups_list <- c("All","MALE","FEMALE","AM7","AS7","BL7","HI7","MU7","PI7","W
 grads_lim <- subset(grads, cohort_status == 1)
 
 school_subgroups_df <- data.frame()
-for(h in unique(grads_lim$sy1314_school_code)){
-	.school_grads <- subset(grads_lim, sy1314_school_code == h)
+for(g in c("Four Year ACGR","Five Year ACGR")){
+	.type <- g
 
-	.lea_code <- .school_grads$lea_code[1]
-	.lea_name <- .school_grads$lea_name[1]
-	.school_code <- h
-	.school_name <- .school_grads$sy1314_school_name[1]
+	for(h in unique(grads_lim$sy1314_school_code)){
+		.school_grads <- subset(grads_lim, sy1314_school_code == h)
 
-	for(i in unique(.school_grads$cohort_year)){
-		.grads_year <- subset(.school_grads, cohort_year == i)
-		.year <- i + 4
+		.lea_code <- .school_grads$lea_code[1]
+		.lea_name <- .school_grads$lea_name[1]
+		.school_code <- h
+		.school_name <- .school_grads$sy1314_school_name[1]
 
-		for(j in subgroups_list){
+		for(i in unique(.school_grads$cohort_year)){
+			.grads_year <- subset(.school_grads, cohort_year == i)
 
-			.tmp <- subproc(.grads_year, j)
-			.subgroup <- j
-			.graduates <- sum(.tmp$graduated, na.rm=TRUE)
-			.graduates_5yr <- sum(.tmp$graduated_5yr, na.rm=TRUE)
-			if(.graduates_5yr == 0){.graduates_5yr <- "null"}
+			if(.type == "Four Year ACGR"){
+				.year <- i + 4
+			}
+			else if (.type == "Five Year ACGR"){	
+				.year <- i + 5
+			}
 
-			.cohort_size <- nrow(.tmp)
 
-			new_row <- c(.lea_code, .lea_name, .school_code, .school_name, .subgroup, .year, .graduates, .graduates_5yr, .cohort_size)
-							
-			school_subgroups_df <- rbind(school_subgroups_df, new_row)
+			for(j in subgroups_list){
+
+				.tmp <- subproc(.grads_year, j)
+				.subgroup <- j
+
+				if(.type == "Four Year ACGR"){
+					.graduates <- sum(.tmp$graduated, na.rm=TRUE)
+				}
+				else if (.type == "Five Year ACGR"){	
+					.graduates <- sum(.tmp$graduated_5yr, na.rm=TRUE)
+					if(.graduates == 0){.graduates <- NA}
+				}
+
+				.cohort_size <- nrow(.tmp)
+
+				new_row <- c(.lea_code, .lea_name, .school_code, .school_name, .subgroup, .year, .type, .graduates, .cohort_size)
+								
+				school_subgroups_df <- rbind(school_subgroups_df, new_row)
+			}
 		}
 	}
 }
-
-colnames(school_subgroups_df) <- c("lea_code","lea_name","school_code","school_name","subgroup","year","graduates","graduates_5yr","cohort_size")
+colnames(school_subgroups_df) <- c("lea_code","lea_name","school_code","school_name","subgroup","year",".type","graduates","cohort_size")
 
 
 sqlSave(dbrepcard_prod, school_subgroups_df, tablename = "graduation_school_exhibit_2014", append = FALSE, rownames=FALSE)

@@ -6,7 +6,7 @@ library(jsonlite)
 
 state_grad <- sqlQuery(dbrepcard_prod, "SELECT * FROM [dbo].[graduation_state_exhibit_w2014]")
 
-state_grad <- subset(state_grad, cohort_size >= 10)
+state_grad <- subset(state_grad, cohort_size >= 10 & !is.na(graduates))
 
 
 # setwd('U:/LearnDC ETL V2/Export/CSV/state')
@@ -15,8 +15,8 @@ state_grad <- subset(state_grad, cohort_size >= 10)
 
 setwd("U:/LearnDC ETL V2/Export/JSON/state/DC")
 
-key_index <- c(1,2)
-value_index <- c(3,4,5)
+key_index <- c(1,2,3)
+value_index <- c(4,5)
 
 
 nested_list <- lapply(1:nrow(state_grad), FUN = function(i){ 
@@ -27,10 +27,6 @@ nested_list <- lapply(1:nrow(state_grad), FUN = function(i){
 json <- toJSON(nested_list)
 json <- gsub("[[","",json, fixed=TRUE)
 json <- gsub("]]","",json, fixed=TRUE)
-json <- gsub('"null"','null',json, fixed=TRUE)
-json <- gsub('"graduates_5yr":"','"graduates_5yr":',json, fixed=TRUE)
-json <- gsub('","cohort',',"cohort',json, fixed=TRUE)
-
 
 newfile <- file("graduation.json", encoding="UTF-8")
 sink(newfile)
