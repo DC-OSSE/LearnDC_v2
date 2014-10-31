@@ -8,8 +8,8 @@ lea_grad <- sqlQuery(dbrepcard_prod, "SELECT * FROM [dbo].[graduation_lea_exhibi
 lea_grad <- subset(lea_grad, cohort_size >= 25 & !is.na(graduates))
 
 
-setwd('U:/LearnDC ETL V2/Export/CSV/lea')
-write.csv(lea_grad, "Graduation_LEA.csv", row.names=FALSE)
+# setwd('U:/LearnDC ETL V2/Export/CSV/lea')
+# write.csv(lea_grad, "Graduation_LEA.csv", row.names=FALSE)
 
 
 lea_grad$lea_code <- sapply(lea_grad$lea_code, leadgr, 4)
