@@ -9,14 +9,14 @@ school_grad <- sqlQuery(dbrepcard_prod, "SELECT * FROM [dbo].[graduation_school_
 school_grad <- subset(school_grad, cohort_size >= 25)
 
 
-setwd('U:/LearnDC ETL V2/Export/CSV/school')
-write.csv(school_grad, "Graduation_School.csv", row.names=FALSE)
+# setwd('U:/LearnDC ETL V2/Export/CSV/school')
+# write.csv(school_grad, "Graduation_School.csv", row.names=FALSE)
 
 
 school_grad$school_code <- sapply(school_grad$school_code, leadgr, 4)
 
 key_index <- c(5,6)
-value_index <- c(7,8)
+value_index <- c(7,8,9)
 
 
 for(i in unique(school_grad$school_code)){
@@ -36,6 +36,7 @@ for(i in unique(school_grad$school_code)){
 	.json <- toJSON(.nested_list)
 	.json <- gsub("[[","",.json, fixed=TRUE)
 	.json <- gsub("]]","",.json, fixed=TRUE)
+	.json <- gsub('"null"','null',.json, fixed=TRUE)
 
 	.lea_name <- .tmp$lea_name[1]
 	.school_name <- .tmp$school_name[1]

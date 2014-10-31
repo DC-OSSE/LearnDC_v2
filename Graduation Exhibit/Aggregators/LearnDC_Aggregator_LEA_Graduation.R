@@ -4,7 +4,7 @@ source("U:/R/tomkit.R")
 
 source("./imports/subproc.R")
 
-grads <- sqlQuery(dbrepcard, "SELECT * FROM [dbo].[graduation_w2014] WHERE [cohort_status] = 1")
+grads <- sqlQuery(dbrepcard, "SELECT * FROM [dbo].[graduation_w2014_5yr] WHERE [cohort_status] = 1 and [lea_code] not in ('2','3')")
 
 
 subgroups_list <- c("All","MALE","FEMALE","AM7","AS7","BL7","HI7","MU7","PI7","WH7","SPED","LEP","Economy")
@@ -28,16 +28,19 @@ for(h in unique(grads$lea_code)){
 			.tmp <- subproc(.grads_year, j)
 			.subgroup <- j
 			.graduates <- sum(.tmp$graduated, na.rm=TRUE)
+			.graduates_5yr <- sum(.tmp$graduated_5yr, na.rm=TRUE)
+			if(.graduates_5yr == 0){.graduates_5yr <- "null"}
+
 			.cohort_size <- nrow(.tmp)
 
-			new_row <- c(.lea_code, .lea_name,.subgroup, .year, .graduates, .cohort_size)
+			new_row <- c(.lea_code, .lea_name,.subgroup, .year, .graduates, .graduates_5yr, .cohort_size)
 							
 			lea_subgroups_df <- rbind(lea_subgroups_df, new_row)
 		}
 	}
 }
 
-colnames(lea_subgroups_df) <- c("lea_code","lea_name","subgroup","year","graduates","cohort_size")
+colnames(lea_subgroups_df) <- c("lea_code","lea_name","subgroup","year","graduates","graduates_5yr","cohort_size")
 
 
 sqlSave(dbrepcard_prod, lea_subgroups_df, tablename = "graduation_lea_exhibit_w2014", append = FALSE, rownames=FALSE)

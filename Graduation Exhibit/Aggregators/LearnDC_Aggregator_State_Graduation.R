@@ -5,7 +5,7 @@ source("U:/R/tomkit.R")
 source("./imports/subproc.R")
 
 
-grads <- sqlQuery(dbrepcard, "SELECT * FROM [dbo].[graduation_w2014] WHERE [cohort_status] = 1")
+grads <- sqlQuery(dbrepcard, "SELECT * FROM [dbo].[graduation_w2014_5yr] WHERE [cohort_status] = 1")
 
 
 
@@ -26,16 +26,18 @@ for(i in unique(grads$cohort_year)){
 		.tmp <- subproc(.grads_year, j)
 		.subgroup <- j
 		.graduates <- sum(.tmp$graduated, na.rm=TRUE)
+		.graduates_5yr <- sum(.tmp$graduated_5yr, na.rm=TRUE)
+		if(.graduates_5yr == 0){.graduates_5yr <- "null"}
 		.cohort_size <- nrow(.tmp)
 
-		new_row <- c(.subgroup, .year, .graduates, .cohort_size)
+		new_row <- c(.subgroup, .year, .graduates, .graduates_5yr, .cohort_size)
 						
 		state_subgroups_df <- rbind(state_subgroups_df, new_row)
 	}
 }
 
 
-colnames(state_subgroups_df) <- c("subgroup","year","graduates","cohort_size")
+colnames(state_subgroups_df) <- c("subgroup","year","graduates","graduates_5yr","cohort_size")
 
 
 sqlSave(dbrepcard_prod, state_subgroups_df, tablename = "graduation_state_exhibit_w2014", append = FALSE, rownames=FALSE)

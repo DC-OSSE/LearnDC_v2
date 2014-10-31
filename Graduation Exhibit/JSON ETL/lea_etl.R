@@ -16,7 +16,7 @@ lea_grad$lea_code <- sapply(lea_grad$lea_code, leadgr, 4)
 
 
 key_index <- c(3,4)
-value_index <- c(5,6)
+value_index <- c(5,6,7)
 
 school_dir <- sqlFetch(dbrepcard, 'schooldir_sy1314')
 lea_dir <- unique(school_dir[c("lea_code","lea_name")])
@@ -41,6 +41,7 @@ for(i in unique(lea_dir$lea_code)){
 	.json <- toJSON(.nested_list)
 	.json <- gsub("[[","",.json, fixed=TRUE)
 	.json <- gsub("]]","",.json, fixed=TRUE)
+	.json <- gsub('"null"','null',.json, fixed=TRUE)
 
 	.lea_name <- .tmp$lea_name[1]
 
