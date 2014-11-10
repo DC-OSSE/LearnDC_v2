@@ -41,7 +41,6 @@ key_index <- c(2,3)
 value_index <- c(4,5,6,7)
 
 
-
 for(i in unique(susp_wide$school_code)){
 	setwd("U:/LearnDC ETL V2/Export/JSON/school")
 

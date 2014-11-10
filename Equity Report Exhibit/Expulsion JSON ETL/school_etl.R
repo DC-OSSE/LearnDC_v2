@@ -9,7 +9,8 @@ exp <- sqlQuery(dbrepcard_prod, "SELECT [School_Code], [School_Year], [Student_G
 
 
 exp_long <- melt(exp, id.vars = c("School_Year", "School_Code", "Student_Group", "Metric"))
-exp_long$Metric<- paste0(exp_long$Metric, "_",exp_long$variable)
+exp_long$Metric <- paste0(exp_long$Metric, "_",exp_long$variable)
+exp_long$Metric <- gsub(" ","_",exp_long$Metric)
 exp_long$variable <- NULL
 exp_wide <- dcast(exp_long, School_Year + School_Code + Student_Group ~ Metric, value.var = "value")
 
@@ -20,8 +21,13 @@ colnames(exp_wide) <- c("year","school_code","subgroup","state_expulsion_rate","
 exp_wide$explusion_rate_n <- NULL
 exp_wide$expulsions_n <- NULL
 
-exp_wide$expulsion_rate <- exp_wide$expulsion_rate/100
+
+
+
 exp_wide$state_expulsion_rate <- exp_wide$state_expulsion_rate/100
+exp_wide$expulsion_rate <- exp_wide$expulsion_rate/100
+
+
 
 exp_wide <- select(exp_wide, school_code, year,subgroup, expulsions, expulsion_rate, state_expulsions, state_expulsion_rate)
 

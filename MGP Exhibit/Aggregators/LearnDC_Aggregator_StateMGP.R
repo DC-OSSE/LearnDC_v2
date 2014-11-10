@@ -9,17 +9,12 @@ eq_state <- sqlQuery(dbrepcard_prod, "SELECT DISTINCT [School_Year],[Student_Gro
   FROM [dbo].[equity_longitudinal] WHERE [metric] in ('CAS Math Growth','CAS Math 2-year Growth','CAS Reading Growth','CAS Reading 2-year Growth')")
 
 
-
-
-
-eq <- sqlQuery(dbrepcard_prod, "SELECT DISTINCT * 
+eq <- sqlQuery(dbrepcard_prod,
+ "SELECT DISTINCT * 
   FROM [dbo].[equity_longitudinal] WHERE [metric] in ('CAS Math Growth','CAS Reading Growth')")
 
 
 rep <- sqlQuery(dbrepcard, "SELECT * FROM [dbo].[mgp_longitudinal]")
-
-
-
 
 
 
