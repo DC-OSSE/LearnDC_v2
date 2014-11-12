@@ -5,7 +5,8 @@ library(reshape2)
 library(dplyr)
 
 susp <- sqlQuery(dbrepcard_prod, "SELECT [School_Code], [School_Year], [Student_Group], [Metric], [NSize], [SchoolScore], [AverageScore]
-		FROM [dbo].[equity_longitudinal] WHERE [Metric] in ('Suspended 1+','Suspended 11+')")
+		FROM [dbo].[equity_longitudinal] WHERE [Metric] in ('Suspended 1+','Suspended 11+','Total Suspensions')")
+
 
 
 susp_long <- melt(susp, id.vars = c("School_Year", "School_Code", "Student_Group", "Metric"))
@@ -15,10 +16,11 @@ susp_wide <- dcast(susp_long, School_Year + School_Code + Student_Group ~ Metric
 
 
 
-
-colnames(susp_wide) <- c("year","school_code","subgroup","state_suspended_1","suspended_1_n","suspended_1","state_suspended_11","suspended_11_n","suspended_11")
+colnames(susp_wide) <- c("year","school_code","subgroup","state_suspended_1","suspended_1_n","suspended_1","state_suspended_11","suspended_11_n","suspended_11","state_incidents","incidents_n","incidents")
 susp_wide$suspended_11_n <- NULL
 susp_wide$suspended_1_n <- NULL
+susp_wide$incidents_n <- NULL
+susp_wide$state_incidents <- NULL
 
 susp_wide$state_suspended_1 <- susp_wide$state_suspended_1/100
 susp_wide$suspended_1 <- susp_wide$suspended_1/100
@@ -26,7 +28,7 @@ susp_wide$state_suspended_11 <- susp_wide$state_suspended_11/100
 susp_wide$suspended_11 <- susp_wide$suspended_11/100
 
 
-susp_wide <- select(susp_wide, school_code, year,subgroup, suspended_1, suspended_11, state_suspended_1, state_suspended_11)
+susp_wide <- select(susp_wide, school_code, year,subgroup, suspended_1, suspended_11, state_suspended_1, state_suspended_11, incidents)
 
 susp_wide$school_code <- sapply(susp_wide$school_code, leadgr, 4)
 
@@ -38,8 +40,7 @@ susp_wide$school_code <- sapply(susp_wide$school_code, leadgr, 4)
 
 
 key_index <- c(2,3)
-value_index <- c(4,5,6,7)
-
+value_index <- c(4,5,6,7,8)
 
 for(i in unique(susp_wide$school_code)){
 	setwd("U:/LearnDC ETL V2/Export/JSON/school")

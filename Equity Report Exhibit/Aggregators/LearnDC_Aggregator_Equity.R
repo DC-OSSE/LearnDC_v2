@@ -19,14 +19,11 @@ equity_prior$Description <- NULL
 new_eq$Month <- ""
 
 
-
 new_eq <- select(new_eq, Key, School_Code, School_Year, Student_Group, Metric, SchoolScore, AverageScore, Month,ReportType, NSize)
 
 new_move$count <- NULL
 equity_final <- rbind(new_eq, new_move, equity_prior)
 equity_final <- subset(equity_final, ReportType == "External")
-
-
 
 
 mgp <- sqlQuery(dbrepcard, "SELECT * FROM [dbo].[mgp_longitudinal] WHERE test_year = '2014'")
@@ -116,8 +113,8 @@ colnames(gender_mgp) <- colnames(equity_final)
 ## end gender mgp prepare
 
 
-
 mgp_state <- read.csv('./Equity Report Data from Tembo/statewide_mgp.csv')
+mgp_state <- subset(mgp_state, School_Year == "2013-14")
 
 mgp_state$Student_Group[mgp_state$Student_Group == 'Asian'] <- 'AS7'
 mgp_state$Student_Group[mgp_state$Student_Group == 'American Indian / Alaskan Native'] <- 'AM7'
@@ -131,9 +128,14 @@ mgp_state$Student_Group[mgp_state$Student_Group == 'Special Education'] <- 'SPED
 
 
 
-mgp_m <- merge(mgp, mgp_state, by.x = c("subgroup","Metric"), by.y= c("Student_Group","Metric"), all.x=TRUE)
+mgp_m <- merge(mgp, mgp_state, by.x = c("subgroup","subject","Metric"), by.y= c("Student_Group","subject","Metric"), all.x=TRUE)
+
+
 mgp_m <- select(mgp_m, Key, school_code, test_year, subgroup, Metric, SchoolScore, AverageScore, Month, ReportType, group_fay_size)
 colnames(mgp_m) <- colnames(equity_final)
+
+
+
 
 
 mgp_m$AverageScore[which(mgp_m$Student_Group == "All")] <- 50
@@ -184,6 +186,6 @@ equity_final$Key[which(equity_final$Key == "")] <- paste(equity_final$School_Cod
 
 equity_final <- arrange(equity_final, School_Year, Metric, School_Code)
 
-sqlSave(dbrepcard_prod, equity_final, tablename = "equity_longitudinal_4", rownames=FALSE)
+sqlSave(dbrepcard_prod, equity_final, tablename = "equity_longitudinal_2", rownames=FALSE)
 
 
