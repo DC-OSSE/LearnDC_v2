@@ -4,6 +4,7 @@ library(jsonlite)
 library(reshape2)
 library(dplyr)
 
+
 mgp_m <- sqlQuery(dbrepcard_prod, "SELECT [School_Code], [School_Year], [Student_Group], [Metric], [NSize], [SchoolScore]
 	FROM [dbo].[equity_longitudinal] WHERE [Metric] in ('CAS Math Growth','CAS Math 2-year Growth')")
 
@@ -30,6 +31,9 @@ mgp_wide$school_code <- sapply(mgp_wide$school_code, leadgr, 4)
 # setwd('U:/LearnDC ETL V2/Export/CSV/school')
 # write.csv(susp_wide, "Equity_Report_MGP_School.csv", row.names=FALSE)
 
+mgp_wide$mgp_1yr[which(is.na(mgp_wide$mgp_1yr))] <- 'null'
+mgp_wide$mgp_2yr[which(is.na(mgp_wide$mgp_2yr))] <- 'null'
+
 
 key_index <- c(2,3,4)
 value_index <- c(5,6)
@@ -52,6 +56,7 @@ for(i in unique(mgp_wide$school_code)){
 	.json <- toJSON(.nested_list)
 	.json <- gsub("[[","",.json, fixed=TRUE)
 	.json <- gsub("]]","",.json, fixed=TRUE)
+	.json <- gsub('"null"','null',.json, fixed=TRUE)
 
 	.school_name <- .tmp$school_name[1]
 

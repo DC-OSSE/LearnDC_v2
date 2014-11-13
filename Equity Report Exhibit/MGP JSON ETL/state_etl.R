@@ -25,6 +25,10 @@ mgp_wide <- dcast(mgp, School_Year + Student_Group + subject ~ Metric, value.var
 colnames(mgp_wide) <- c("year","subgroup","subject","mgp_1yr","mgp_2yr")
 
 
+mgp_wide$mgp_1yr[which(is.na(mgp_wide$mgp_1yr))] <- 'null'
+mgp_wide$mgp_2yr[which(is.na(mgp_wide$mgp_2yr))] <- 'null'
+
+
 # setwd('U:/LearnDC ETL V2/Export/CSV/state')
 # write.csv(susp_wide, "Equity_Report_MGP_State.csv", row.names=FALSE)
 key_index <- c(1,2,3)
@@ -32,7 +36,7 @@ value_index <- c(4,5)
 
 
 
-setwd("U:/LearnDC ETL V2/Export/JSON/state")
+setwd("U:/LearnDC ETL V2/Export/JSON/state/DC")
 
 
 .nested_list <- lapply(1:nrow(mgp_wide), FUN = function(i){ 
@@ -43,6 +47,7 @@ setwd("U:/LearnDC ETL V2/Export/JSON/state")
 .json <- toJSON(.nested_list)
 .json <- gsub("[[","",.json, fixed=TRUE)
 .json <- gsub("]]","",.json, fixed=TRUE)
+.json <- gsub('"null"','null',.json, fixed=TRUE)
 
 
 newfile <- file("mgp_scores.json", encoding="UTF-8")

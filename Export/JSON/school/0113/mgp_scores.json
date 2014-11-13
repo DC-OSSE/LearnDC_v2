@@ -1,11 +1,11 @@
 {
-"timestamp": "Thu Nov 13 10:14:10 2014",
+"timestamp": "Thu Nov 13 16:05:16 2014",
 "org_type": "school",
 "org_name": "",
 "org_code": "0113",
 "exhibit": {
 	"id": "mgp_scores",
 	"data":  
-[{"key":{"year":2012,"subgroup":"SPED","subject":"Math"},"val":{"mgp_1yr":67}},{"key":{"year":2012,"subgroup":"SPED","subject":"Reading"},"val":{"mgp_1yr":54}},{"key":{"year":2013,"subgroup":"SPED","subject":"Math"},"val":{"mgp_2yr":71}},{"key":{"year":2013,"subgroup":"SPED","subject":"Reading"},"val":{"mgp_2yr":58}},{"key":{"year":2014,"subgroup":"FEMALE","subject":"Math"},"val":{"mgp_1yr":72}},{"key":{"year":2014,"subgroup":"FEMALE","subject":"Reading"},"val":{"mgp_1yr":50}},{"key":{"year":2014,"subgroup":"MALE","subject":"Math"},"val":{"mgp_1yr":64.5}},{"key":{"year":2014,"subgroup":"MALE","subject":"Reading"},"val":{"mgp_1yr":53}},{"key":{"year":2014,"subgroup":"SPED","subject":"Math"},"val":{"mgp_1yr":66.5}},{"key":{"year":2014,"subgroup":"SPED","subject":"Reading"},"val":{"mgp_1yr":61}}]
+[{"key":{"year":2012,"subgroup":"SPED","subject":"Math"},"val":{"mgp_1yr":"67","mgp_2yr":null}},{"key":{"year":2012,"subgroup":"SPED","subject":"Reading"},"val":{"mgp_1yr":"54","mgp_2yr":null}},{"key":{"year":2013,"subgroup":"SPED","subject":"Math"},"val":{"mgp_1yr":null,"mgp_2yr":"71"}},{"key":{"year":2013,"subgroup":"SPED","subject":"Reading"},"val":{"mgp_1yr":null,"mgp_2yr":"58"}},{"key":{"year":2014,"subgroup":"FEMALE","subject":"Math"},"val":{"mgp_1yr":"72","mgp_2yr":null}},{"key":{"year":2014,"subgroup":"FEMALE","subject":"Reading"},"val":{"mgp_1yr":"50","mgp_2yr":null}},{"key":{"year":2014,"subgroup":"MALE","subject":"Math"},"val":{"mgp_1yr":"64.5","mgp_2yr":null}},{"key":{"year":2014,"subgroup":"MALE","subject":"Reading"},"val":{"mgp_1yr":"53","mgp_2yr":null}},{"key":{"year":2014,"subgroup":"SPED","subject":"Math"},"val":{"mgp_1yr":"66.5","mgp_2yr":null}},{"key":{"year":2014,"subgroup":"SPED","subject":"Reading"},"val":{"mgp_1yr":"61","mgp_2yr":null}}]
 	}
 }

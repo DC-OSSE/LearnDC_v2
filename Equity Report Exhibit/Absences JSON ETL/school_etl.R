@@ -31,7 +31,6 @@ abs_wide$school_code <- sapply(abs_wide$school_code, leadgr, 4)
 
 
 
-
 key_index <- c(2,3)
 value_index <- c(4:13)
 
