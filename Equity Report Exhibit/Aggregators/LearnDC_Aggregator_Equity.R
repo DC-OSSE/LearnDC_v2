@@ -145,7 +145,6 @@ mgp_m <- subset(mgp_m, Student_Group %notin% c("Not-FARMS","Not-LEP","Not-SPED",
 
 equity_final <- rbind(equity_final, mgp_m, gender_mgp)
 
-
 equity_final$Student_Group[which(equity_final$Student_Group == "All Students")] <- "All"
 equity_final$Student_Group[which(equity_final$Student_Group == "Asian")] <- "AS7"
 equity_final$Student_Group[which(equity_final$Student_Group == "Black non-Hispanic")] <- "BL7"
