@@ -54,63 +54,63 @@ mgp$subgroup[which(mgp$subgroup == "FARMS")] <- 'Economy'
 
 
 ## mgp for gender
-sgp <- sqlQuery(dbrepcard, "SELECT * FROM [dbo].[sgp_longitudinal] WHERE [test_year] = '2014'")
+# sgp <- sqlQuery(dbrepcard, "SELECT * FROM [dbo].[sgp_longitudinal] WHERE [test_year] = '2014'")
 
-cas <- sqlQuery(dbrepcard, "SELECT * FROM [dbo].[assessment] WHERE [year] = '2014'" )
+# cas <- sqlQuery(dbrepcard, "SELECT * FROM [dbo].[assessment] WHERE [year] = '2014'" )
 
-sgp$fay <- 0
-sgp$fay[which(sgp$usi %in% cas$usi[which(cas$full_academic_year == 'School')])] <- 1
+# sgp$fay <- 0
+# sgp$fay[which(sgp$usi %in% cas$usi[which(cas$full_academic_year == 'School')])] <- 1
 
-sgp <- subset(sgp, fay == 1)
+# sgp <- subset(sgp, fay == 1)
 
-tab_gender <- sgp %.%
-	group_by(lea_code, lea_name, school_code, school_name, gender) %.%
-	summarize(
-		NSize = length(usi),
-		math_mgp = median(math_sgp, na.rm=TRUE),
-		read_mgp = median(read_sgp, na.rm=TRUE))
+# tab_gender <- sgp %.%
+# 	group_by(lea_code, lea_name, school_code, school_name, gender) %.%
+# 	summarize(
+# 		NSize = length(usi),
+# 		math_mgp = median(math_sgp, na.rm=TRUE),
+# 		read_mgp = median(read_sgp, na.rm=TRUE))
 
-gender_mgp1 <- select(tab_gender, lea_code, lea_name, school_code, school_name, gender, math_mgp, NSize)
-gender_mgp2 <- select(tab_gender, lea_code, lea_name, school_code, school_name, gender, read_mgp, NSize)
-colnames(gender_mgp1)[6] <- "SchoolScore"
-colnames(gender_mgp2)[6] <- "SchoolScore"
+# gender_mgp1 <- select(tab_gender, lea_code, lea_name, school_code, school_name, gender, math_mgp, NSize)
+# gender_mgp2 <- select(tab_gender, lea_code, lea_name, school_code, school_name, gender, read_mgp, NSize)
+# colnames(gender_mgp1)[6] <- "SchoolScore"
+# colnames(gender_mgp2)[6] <- "SchoolScore"
 
-gender_mgp1$Metric <- "CAS Math Growth"
-gender_mgp2$Metric <- "CAS Reading Growth"
+# gender_mgp1$Metric <- "CAS Math Growth"
+# gender_mgp2$Metric <- "CAS Reading Growth"
 
-gender_mgp <- rbind(gender_mgp1, gender_mgp2)
+# gender_mgp <- rbind(gender_mgp1, gender_mgp2)
 
-gender_mgp$ReportType <- "External"
-gender_mgp$Key  <- ""
-gender_mgp$Month  <- ""
-gender_mgp$school_year  <- "sy2013-2014"
-gender_mgp$ea_year  <- 2013
-gender_mgp$test_year  <- 2014
+# gender_mgp$ReportType <- "External"
+# gender_mgp$Key  <- ""
+# gender_mgp$Month  <- ""
+# gender_mgp$school_year  <- "sy2013-2014"
+# gender_mgp$ea_year  <- 2013
+# gender_mgp$test_year  <- 2014
 
-colnames(gender_mgp)[5] <- "Student_Group"
-gender_mgp$Student_Group[which(gender_mgp$Student_Group == "F")] <- "FEMALE" 
-gender_mgp$Student_Group[which(gender_mgp$Student_Group == "M")] <- "MALE" 
-
-
-state_tab_gender <- tab_gender <- sgp %.%
-	group_by(gender) %.%
-	summarize(
-		NSize = length(usi),
-		math_mgp = median(math_sgp, na.rm=TRUE),
-		read_mgp = median(read_sgp, na.rm=TRUE))
+# colnames(gender_mgp)[5] <- "Student_Group"
+# gender_mgp$Student_Group[which(gender_mgp$Student_Group == "F")] <- "FEMALE" 
+# gender_mgp$Student_Group[which(gender_mgp$Student_Group == "M")] <- "MALE" 
 
 
-gender_mgp$AverageScore <- NA
-gender_mgp$AverageScore[which(gender_mgp$Metric == "CAS Math Growth" & gender_mgp$Student_Group == "MALE")] <- 48
-gender_mgp$AverageScore[which(gender_mgp$Metric == "CAS Reading Growth" & gender_mgp$Student_Group == "MALE")] <- 47 
-gender_mgp$AverageScore[which(gender_mgp$Metric == "CAS Math Growth" & gender_mgp$Student_Group == "FEMALE")] <- 52
-gender_mgp$AverageScore[which(gender_mgp$Metric == "CAS Reading Growth" & gender_mgp$Student_Group == "FEMALE")] <- 53
+# state_tab_gender <- tab_gender <- sgp %.%
+# 	group_by(gender) %.%
+# 	summarize(
+# 		NSize = length(usi),
+# 		math_mgp = median(math_sgp, na.rm=TRUE),
+# 		read_mgp = median(read_sgp, na.rm=TRUE))
 
 
-gender_mgp <- gender_mgp[,c("Key", "school_code", "test_year", "Student_Group", "Metric", "SchoolScore", "AverageScore", "Month", "ReportType", "NSize")]
+# gender_mgp$AverageScore <- NA
+# gender_mgp$AverageScore[which(gender_mgp$Metric == "CAS Math Growth" & gender_mgp$Student_Group == "MALE")] <- 48
+# gender_mgp$AverageScore[which(gender_mgp$Metric == "CAS Reading Growth" & gender_mgp$Student_Group == "MALE")] <- 47 
+# gender_mgp$AverageScore[which(gender_mgp$Metric == "CAS Math Growth" & gender_mgp$Student_Group == "FEMALE")] <- 52
+# gender_mgp$AverageScore[which(gender_mgp$Metric == "CAS Reading Growth" & gender_mgp$Student_Group == "FEMALE")] <- 53
 
-colnames(gender_mgp) <- colnames(equity_final)
-## end gender mgp prepare
+
+# gender_mgp <- gender_mgp[,c("Key", "school_code", "test_year", "Student_Group", "Metric", "SchoolScore", "AverageScore", "Month", "ReportType", "NSize")]
+
+# colnames(gender_mgp) <- colnames(equity_final)
+# ## end gender mgp prepare
 
 
 mgp_state <- read.csv('./Equity Report Data from Tembo/statewide_mgp.csv')

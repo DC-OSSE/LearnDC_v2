@@ -6,14 +6,13 @@ library(dplyr)
 
 susp <- sqlQuery(dbrepcard_prod, "SELECT [School_Code], [School_Year], [Student_Group], [Metric], [NSize], [SchoolScore], [AverageScore]
 		FROM [dbo].[equity_longitudinal] WHERE [Metric] in ('Suspended 1+','Suspended 11+','Total Suspensions')")
-
+susp <- subset(susp, !is.na(School_Code))
 
 
 susp_long <- melt(susp, id.vars = c("School_Year", "School_Code", "Student_Group", "Metric"))
 susp_long$Metric<- paste0(susp_long$Metric, "_",susp_long$variable)
 susp_long$variable <- NULL
 susp_wide <- dcast(susp_long, School_Year + School_Code + Student_Group ~ Metric, value.var = "value")
-
 
 
 colnames(susp_wide) <- c("year","school_code","subgroup","state_suspended_1","suspended_1_n","suspended_1","state_suspended_11","suspended_11_n","suspended_11","state_incidents","incidents_n","incidents")
@@ -35,8 +34,6 @@ susp_wide$school_code <- sapply(susp_wide$school_code, leadgr, 4)
 
 # setwd('U:/LearnDC ETL V2/Export/CSV/school')
 # write.csv(susp_wide, "Equity_Report_Suspension_School.csv", row.names=FALSE)
-
-
 
 
 key_index <- c(2,3)
