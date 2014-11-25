@@ -1,149 +1,148 @@
-setwd("U:/LearnDC ETL V2/Equity Report Exhibit/Aggregators")
 source("U:/R/tomkit.R")
 library(dplyr)
+library(reshape2)
 
+setwd("U:/LearnDC ETL V2/Equity Report Exhibit/Aggregators/Equity Report Data from Tembo/Fifth Iteration")
 
-new_eq <- read.csv("./Equity Report Data from Tembo/Fourth Iteration/equityReports_temboMetrics_10 Nov 2014.csv")
-
-new_move <- read.csv("./Equity Report Data from Tembo/Fourth Iteration/Tembo_StudentMovementResults_2014_ 7 Nov 2014.csv")
-
-
-new_move <- subset(new_move, School_Code %notin% c(175, 861, 137, 480, 104, 462))
-
-
-
-equity_prior <- sqlQuery(dbrepcard, "SELECT * FROM [dbo].[equity_report_prelim]")
+## LOAD PRIOR DATA TO USE AS TEMPLATE
+equity_prior <- sqlQuery(dbrepcard, "SELECT * FROM [dbo].[equity_report_prelim] WHERE ReportType = 'External' and
+	[Metric] not in ('CAS Math Growth','CAS Reading Growth','CAS Math 2-year Growth','CAS Reading 2-year Growth','CAS Math Proficiency','CAS Reading Proficiency')")
 equity_prior$Description <- NULL
 
 
-new_eq$Month <- ""
+
+exp_isa <- read.csv("BothSector_ExpulsionMetrics - DCPS_ ISA_TotalSuspensions UPDATED 11.20.2014.csv")
+exp_isa <- exp_isa[,1:11]
+exp_isa <- subset(exp_isa, !is.na(exp_isa$School_Code))
+exp_isa$LEA.Code <- NULL
+exp_isa$school.name <- NULL
+exp_isa$Month <- ""
+exp_isa <- select(exp_isa, Key, School_Code, School_Year, Student_Group, Metric, SchoolScore, AverageScore, Month, ReportType, NSize)
 
 
-new_eq <- select(new_eq, Key, School_Code, School_Year, Student_Group, Metric, SchoolScore, AverageScore, Month,ReportType, NSize)
+## FIXING DUPLICATES IN THE EXPULSION DATA
+exp_isa$SchoolScore[which(exp_isa$School_Code == "1110" & exp_isa$Student_Group == "All Students" & exp_isa$Metric == "Expulsion Rate")] <- 0.23
+exp_isa$AverageScore[which(exp_isa$School_Code == "1110" & exp_isa$Student_Group == "All Students" & exp_isa$Metric == "Expulsion Rate")] <- 0.02
 
-new_move$count <- NULL
-equity_final <- rbind(new_eq, new_move, equity_prior)
-equity_final <- subset(equity_final, ReportType == "External")
+exp_isa$SchoolScore[which(exp_isa$School_Code == "1110" & exp_isa$Student_Group == "All Students" & exp_isa$Metric == "Expulsions")] <- 1
+exp_isa$AverageScore[which(exp_isa$School_Code == "1110" & exp_isa$Student_Group == "All Students" & exp_isa$Metric == "Expulsions")] <- 6
 
+exp_isa$SchoolScore[which(exp_isa$School_Code == "137" & exp_isa$Student_Group == "All Students" & exp_isa$Metric == "Expulsion Rate")] <- 0.67
+exp_isa$AverageScore[which(exp_isa$School_Code == "137" & exp_isa$Student_Group == "All Students" & exp_isa$Metric == "Expulsion Rate")] <- 0.06
 
-mgp <- sqlQuery(dbrepcard, "SELECT * FROM [dbo].[mgp_longitudinal] WHERE test_year = '2014'")
-mgp$Key <- ""
-mgp$Month <- ""
-mgp$ReportType <- "External"
-
-
-mgp1 <- mgp
-mgp2 <- mgp
-mgp1$mgp_2yr <- NULL
-mgp2$mgp_1yr <- NULL
-
-mgp1$Metric <- NA
-mgp2$Metric <- NA
-mgp1$Metric[which(mgp1$subject == "Reading")] <- "CAS Reading Growth"
-mgp2$Metric[which(mgp2$subject == "Reading")] <- "CAS Reading 2-year Growth"
-mgp1$Metric[which(mgp1$subject == "Math")] <- "CAS Math Growth"
-mgp2$Metric[which(mgp2$subject == "Math")] <- "CAS Math 2-year Growth"
-
-colnames(mgp1)[11] <- "SchoolScore"
-colnames(mgp2)[11] <- "SchoolScore"
-
-mgp <- rbind(mgp1, mgp2)
-
-mgp$subgroup[which(mgp$subgroup == "All Students")]<- 'All'
-mgp$subgroup[which(mgp$subgroup == "FARMS")] <- 'Economy'
+exp_isa$SchoolScore[which(exp_isa$School_Code == "137" & exp_isa$Student_Group == "All Students" & exp_isa$Metric == "Expulsions")] <- 1
+exp_isa$AverageScore[which(exp_isa$School_Code == "137" & exp_isa$Student_Group == "All Students" & exp_isa$Metric == "Expulsions")] <- 3
 
 
-## mgp for gender
-# sgp <- sqlQuery(dbrepcard, "SELECT * FROM [dbo].[sgp_longitudinal] WHERE [test_year] = '2014'")
-
-# cas <- sqlQuery(dbrepcard, "SELECT * FROM [dbo].[assessment] WHERE [year] = '2014'" )
-
-# sgp$fay <- 0
-# sgp$fay[which(sgp$usi %in% cas$usi[which(cas$full_academic_year == 'School')])] <- 1
-
-# sgp <- subset(sgp, fay == 1)
-
-# tab_gender <- sgp %.%
-# 	group_by(lea_code, lea_name, school_code, school_name, gender) %.%
-# 	summarize(
-# 		NSize = length(usi),
-# 		math_mgp = median(math_sgp, na.rm=TRUE),
-# 		read_mgp = median(read_sgp, na.rm=TRUE))
-
-# gender_mgp1 <- select(tab_gender, lea_code, lea_name, school_code, school_name, gender, math_mgp, NSize)
-# gender_mgp2 <- select(tab_gender, lea_code, lea_name, school_code, school_name, gender, read_mgp, NSize)
-# colnames(gender_mgp1)[6] <- "SchoolScore"
-# colnames(gender_mgp2)[6] <- "SchoolScore"
-
-# gender_mgp1$Metric <- "CAS Math Growth"
-# gender_mgp2$Metric <- "CAS Reading Growth"
-
-# gender_mgp <- rbind(gender_mgp1, gender_mgp2)
-
-# gender_mgp$ReportType <- "External"
-# gender_mgp$Key  <- ""
-# gender_mgp$Month  <- ""
-# gender_mgp$school_year  <- "sy2013-2014"
-# gender_mgp$ea_year  <- 2013
-# gender_mgp$test_year  <- 2014
-
-# colnames(gender_mgp)[5] <- "Student_Group"
-# gender_mgp$Student_Group[which(gender_mgp$Student_Group == "F")] <- "FEMALE" 
-# gender_mgp$Student_Group[which(gender_mgp$Student_Group == "M")] <- "MALE" 
-
-
-# state_tab_gender <- tab_gender <- sgp %.%
-# 	group_by(gender) %.%
-# 	summarize(
-# 		NSize = length(usi),
-# 		math_mgp = median(math_sgp, na.rm=TRUE),
-# 		read_mgp = median(read_sgp, na.rm=TRUE))
-
-
-# gender_mgp$AverageScore <- NA
-# gender_mgp$AverageScore[which(gender_mgp$Metric == "CAS Math Growth" & gender_mgp$Student_Group == "MALE")] <- 48
-# gender_mgp$AverageScore[which(gender_mgp$Metric == "CAS Reading Growth" & gender_mgp$Student_Group == "MALE")] <- 47 
-# gender_mgp$AverageScore[which(gender_mgp$Metric == "CAS Math Growth" & gender_mgp$Student_Group == "FEMALE")] <- 52
-# gender_mgp$AverageScore[which(gender_mgp$Metric == "CAS Reading Growth" & gender_mgp$Student_Group == "FEMALE")] <- 53
-
-
-# gender_mgp <- gender_mgp[,c("Key", "school_code", "test_year", "Student_Group", "Metric", "SchoolScore", "AverageScore", "Month", "ReportType", "NSize")]
-
-# colnames(gender_mgp) <- colnames(equity_final)
-# ## end gender mgp prepare
-
-
-mgp_state <- read.csv('./Equity Report Data from Tembo/statewide_mgp.csv')
-mgp_state <- subset(mgp_state, School_Year == "2013-14")
-
-mgp_state$Student_Group[mgp_state$Student_Group == 'Asian'] <- 'AS7'
-mgp_state$Student_Group[mgp_state$Student_Group == 'American Indian / Alaskan Native'] <- 'AM7'
-mgp_state$Student_Group[mgp_state$Student_Group == 'Black'] <- 'BL7'
-mgp_state$Student_Group[mgp_state$Student_Group == 'Hispanic'] <- 'HI7'
-mgp_state$Student_Group[mgp_state$Student_Group == 'Multiracial'] <- 'MU7'
-mgp_state$Student_Group[mgp_state$Student_Group == 'White'] <- 'WH7'
-mgp_state$Student_Group[mgp_state$Student_Group == 'Free or Reduced Lunch'] <- 'Economy'
-mgp_state$Student_Group[mgp_state$Student_Group == 'Limited English Proficiency'] <- 'LEP'
-mgp_state$Student_Group[mgp_state$Student_Group == 'Special Education'] <- 'SPED'
+exp_isa <- unique(exp_isa)
+## END FIXING DUPLICATES IN THE EXPULSION DATA
 
 
 
-mgp_m <- merge(mgp, mgp_state, by.x = c("subgroup","subject","Metric"), by.y= c("Student_Group","subject","Metric"), all.x=TRUE)
+
+susp_counts <- read.csv("BothSectors-SuspensionRates_1plus_11plus.csv")
+susp_counts$Month <- ""
+susp_counts <- select(susp_counts, Key, School_Code, School_Year, Student_Group, Metric, SchoolScore, AverageScore, Month, ReportType, NSize)
 
 
-mgp_m <- select(mgp_m, Key, school_code, test_year, subgroup, Metric, SchoolScore, AverageScore, Month, ReportType, group_fay_size)
-colnames(mgp_m) <- colnames(equity_final)
+
+
+dcps_myew <- read.csv("DCPS MYE MYW data_tembo_updated_2014_november 19.csv")
+dcps_myew <- select(dcps_myew, Key, School_Code, School_Year, Student_Group, Metric, SchoolScore, AverageScore, Month, ReportType, NSize)
+
+dir <- sqlQuery(dbrepcard, "SELECT * FROM [dbo].[schooldir_sy1314]")
+dcps_myew <- subset(dcps_myew, School_Code %notin% dir$school_code[which(dir$lea_code != 1)])
+
+
+pcs_mye <- read.csv("PCS MYE data.csv")
+pcs_myw <- read.csv("PCS MYW data.csv")
+
+colnames(pcs_mye) <- paste0("entry_",colnames(pcs_mye))
+colnames(pcs_myw) <- paste0("withd_",colnames(pcs_myw))
+
+pcs_myew <- merge(pcs_mye, pcs_myw, by.x = c("entry_school_code","entry_entry_month"), by.y= c("withd_school_code","withd_exit_month"))
+
+
+pcs_myew$entry_School.Name <- NULL
+pcs_myew$withd_School.Name <- NULL
+pcs_myew$withd_enrollment <- NULL
+
+pcs_myew$NetCumulative <- pcs_myew$entry_Pct.Entry - pcs_myew$withd_pct_exits
+
+
+
+pcs_myew_melt <- melt(pcs_myew,  id.vars = c("entry_school_code", "entry_entry_month","entry_enrollment"))
+pcs_myew_melt <- subset(pcs_myew_melt, variable %in% c("entry_Pct.Entry","withd_pct_exits","NetCumulative"))
+
+colnames(pcs_myew_melt) <- c("School_Code","Month","NSize","Metric","SchoolScore")
+
+pcs_myew_melt$Metric <- as.character(pcs_myew_melt$Metric)
+pcs_myew_melt$Metric[which(pcs_myew_melt$Metric == "entry_Pct.Entry")] <- "Entry"
+pcs_myew_melt$Metric[which(pcs_myew_melt$Metric == "withd_pct_exits")] <- "Withdrawal"
+pcs_myew_melt$Metric[which(pcs_myew_melt$Metric == "NetCumulative")] <- "Net Cumulative"
+
+pcs_myew_melt$Student_Group <- "All Students"
+pcs_myew_melt$School_Year <- "2013-14"
+pcs_myew_melt$ReportType <- "External"
+pcs_myew_melt$AverageScore <- NA
+
+pcs_myew_melt$Key <- paste(pcs_myew_melt$School_Code, pcs_myew_melt$School_Year, pcs_myew_melt$Student_Group, pcs_myew_melt$Metric, pcs_myew_melt$ReportType)
+
+pcs_myew_melt <- select(pcs_myew_melt, Key, School_Code, School_Year, Student_Group, Metric, SchoolScore, AverageScore, Month, ReportType, NSize)
 
 
 
 
 
-mgp_m$AverageScore[which(mgp_m$Student_Group == "All")] <- 50
-mgp_m <- subset(mgp_m, Student_Group %notin% c("Not-FARMS","Not-LEP","Not-SPED","Grade 4","Grade 5","Grade 6","Grade 7","Grade 8","Grade 10"))
+pcs_total_susp <- read.csv("PCS Total Suspensions.csv")
+pcs_total_susp$SCHOOL_NAME <- NULL
+
+colnames(pcs_total_susp) <- c("School_Code","SchoolScore")
+pcs_total_susp$Student_Group <- "All Students"
+pcs_total_susp$School_Year <- "2013-14"
+pcs_total_susp$ReportType <- "External"
+pcs_total_susp$AverageScore <- NA
+pcs_total_susp$Metric <- "Total Suspensions"
+pcs_total_susp$Month <- ""
+pcs_total_susp$NSize <- NA
+pcs_total_susp$Key <- paste(pcs_total_susp$School_Code, pcs_total_susp$School_Year, pcs_total_susp$Student_Group, pcs_total_susp$Metric, pcs_total_susp$ReportType)
+pcs_total_susp <- select(pcs_total_susp, Key, School_Code, School_Year, Student_Group, Metric, SchoolScore, AverageScore, Month, ReportType, NSize)
 
 
 
-equity_final <- rbind(equity_final, mgp_m, gender_mgp)
+
+pcs_isa <- read.csv("PCS All students ISA campus pct.csv")
+pcs_isa$SCHOOL_NAME <- NULL
+pcs_isa$ISA.Adult.Only <- NULL
+pcs_isa <- subset(pcs_isa, !is.na(ISA..entire.campus.PK..12.))
+colnames(pcs_isa) <- c("School_Code","SchoolScore")
+pcs_isa$Student_Group <- "All Students"
+pcs_isa$School_Year <- "2013-14"
+pcs_isa$ReportType <- "External"
+pcs_isa$AverageScore <- NA
+pcs_isa$Metric <- "In-Seat Attendance Rate"
+pcs_isa$Month <- ""
+pcs_isa$NSize <- NA
+pcs_isa$Key <- paste(pcs_isa$School_Code, pcs_isa$School_Year, pcs_isa$Student_Group, pcs_isa$Metric, pcs_isa$ReportType)
+pcs_isa <- select(pcs_isa, Key, School_Code, School_Year, Student_Group, Metric, SchoolScore, AverageScore, Month, ReportType, NSize)
+
+
+
+## ONLY USING THIS FILE FOR PCS ISA SUBGROUPS, WHICH WERE MISSING FROM OTHER FILES
+pcs_isa_subgroups <- read.csv("Tembo Attendance and Discipline File plus PCSB changes to all student campus ISA rates and expulsion rates.csv")
+pcs_isa_subgroups <- subset(pcs_isa_subgroups, Metric == "In-Seat Attendance Rate")
+pcs_isa_subgroups <- subset(pcs_isa_subgroups, Student_Group != "All Students")
+pcs_isa_subgroups <- subset(pcs_isa_subgroups, School_Code %in% pcs_isa$School_Code)
+pcs_isa_subgroups$Month <- ""
+pcs_isa_subgroups <- select(pcs_isa_subgroups, Key, School_Code, School_Year, Student_Group, Metric, SchoolScore, AverageScore, Month, ReportType, NSize)
+
+
+
+
+
+
+
+equity_final <- rbind(equity_prior, exp_isa, susp_counts, dcps_myew, pcs_myew_melt, pcs_total_susp, pcs_isa, pcs_isa_subgroups)
 
 equity_final$Student_Group[which(equity_final$Student_Group == "All Students")] <- "All"
 equity_final$Student_Group[which(equity_final$Student_Group == "Asian")] <- "AS7"
@@ -158,11 +157,9 @@ equity_final$Student_Group[which(equity_final$Student_Group == "Limited English 
 equity_final$Student_Group[which(equity_final$Student_Group == "Special Education")] <- "SPED"
 
 
-
 equity_final$School_Year[which(equity_final$School_Year == "2011-12")] <- "2012"
 equity_final$School_Year[which(equity_final$School_Year == "2012-13")] <- "2013"
 equity_final$School_Year[which(equity_final$School_Year == "2013-14")] <- "2014"
-
 
 
 equity_final$Month[which(equity_final$Month == "January")] <- 1
@@ -176,15 +173,7 @@ equity_final$Month[which(equity_final$Month == "December")] <- 12
 equity_final$Month <- as.numeric(equity_final$Month)
 
 
-equity_final$Key[which(equity_final$Key == "")] <- paste(equity_final$School_Code[which(equity_final$Key == "")],
-	equity_final$School_Year[which(equity_final$Key == "")], 
-	equity_final$Student_Group[which(equity_final$Key == "")], 
-	equity_final$Metric[which(equity_final$Key == "")], 
-	equity_final$ReportType[which(equity_final$Key == "")], 
-	sep = "-")
-
 equity_final <- arrange(equity_final, School_Year, Metric, School_Code)
 
-sqlSave(dbrepcard_prod, equity_final, tablename = "equity_longitudinal_2", rownames=FALSE)
 
-
+sqlSave(dbrepcard_prod, equity_final, tablename = "equity_longitudinal2", rownames=FALSE)
