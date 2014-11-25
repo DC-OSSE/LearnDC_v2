@@ -15,12 +15,13 @@ mgp <- subset(mgp, group_fay_size >= 10)
 
 minmax <- sqlQuery(dbrepcard, "SELECT * FROM [dbo].[mgp_minmax]")
 
-mgp <- merge(mgp, minmax, by = c("test_year","subgroup","subject"), all.x=TRUE)
+mgp <- merge(mgp, minmax, by = c("year","subgroup","subject"), all.x=TRUE)
 
 mgp$mgp_1yr[which(is.na(mgp$mgp_1yr))] <- 'null'
 mgp$mgp_2yr[which(is.na(mgp$mgp_2yr))] <- 'null'
 mgp$min_mgp[which(is.na(mgp$min_mgp))] <- 'null'
 mgp$max_mgp[which(is.na(mgp$max_mgp))] <- 'null'
+
 
 mgp$school_code <- sapply(mgp$school_code, leadgr, 4)
 
@@ -45,6 +46,14 @@ for(i in unique(mgp$school_code)){
 	.json <- gsub("[[","",.json, fixed=TRUE)
 	.json <- gsub("]]","",.json, fixed=TRUE)
 	.json <- gsub('"null"','null',.json, fixed=TRUE)
+	.json <- gsub('"mgp_1yr":"','"mgp_1yr":',.json, fixed=TRUE)
+	.json <- gsub('","mgp_2yr"',',"mgp_2yr"',.json, fixed=TRUE)
+	.json <- gsub('"mgp_2yr":"','"mgp_2yr":',.json, fixed=TRUE)
+	.json <- gsub('","min_mgp"',',"min_mgp"',.json, fixed=TRUE)
+	.json <- gsub('"min_mgp":"','"min_mgp":',.json, fixed=TRUE)
+	.json <- gsub('","max_mgp"',',"max_mgp"',.json, fixed=TRUE)
+	.json <- gsub('"max_mgp":"','"max_mgp":',.json, fixed=TRUE)
+	.json <- gsub('"}}','}}',.json, fixed=TRUE)
 
 	.school_name <- .tmp$school_name[1]
 

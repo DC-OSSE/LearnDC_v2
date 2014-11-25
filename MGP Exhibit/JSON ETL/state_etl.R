@@ -1,9 +1,7 @@
-setwd("U:/LearnDC ETL V2/Equity Report Exhibit/MGP JSON ETL")
 source("U:/R/tomkit.R")
 library(jsonlite)
 library(reshape2)
 library(dplyr)
-
 
 
 mgp <- sqlQuery(dbrepcard, "SELECT * FROM [dbo].[mgp_state_longitudinal]")
@@ -18,7 +16,7 @@ mgp$mgp_2yr[which(is.na(mgp$mgp_2yr))] <- 'null'
 # write.csv(mgp, "Equity_Report_MGP_State.csv", row.names=FALSE)
 
 key_index <- c(1,2,3)
-value_index <- c(4,5)
+value_index <- c(5,6)
 
 
 setwd("U:/LearnDC ETL V2/Export/JSON/state/DC")
@@ -29,10 +27,14 @@ setwd("U:/LearnDC ETL V2/Export/JSON/state/DC")
                              	val = list(mgp[i,value_index]))
                         })
 
-.json <- toJSON(.nested_list)
+.json <- toJSON(.nested_list, na = 'null')
 .json <- gsub("[[","",.json, fixed=TRUE)
 .json <- gsub("]]","",.json, fixed=TRUE)
 .json <- gsub('"null"','null',.json, fixed=TRUE)
+.json <- gsub('"mgp_1yr":"','"mgp_1yr":',.json, fixed=TRUE)
+.json <- gsub('","mgp_2yr"',',"mgp_2yr"',.json, fixed=TRUE)
+.json <- gsub('"mgp_2yr":"','"mgp_2yr":',.json, fixed=TRUE)
+.json <- gsub('"}}','}}',.json, fixed=TRUE)
 
 
 newfile <- file("mgp_scores.json", encoding="UTF-8")
