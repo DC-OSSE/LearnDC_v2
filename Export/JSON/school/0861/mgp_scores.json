@@ -1,10 +1,11 @@
 {
-"timestamp": "Tue Nov 25 11:57:20 2014",
+"timestamp": "Tue Nov 25 12:24:06 2014",
 "org_type": "school",
 "org_name": "",
 "org_code": "0861",
 "exhibit": {
 	"id": "mgp_scores",
-	"data":  [{"key":{"test_year":2011,"subgroup":"All Students","subject":"Reading"},"val":{"mgp_1yr":15,"mgp_2yr":19.4}}]
+	"data":  
+[{"key":{"test_year":2011,"subgroup":"All Students","subject":"Reading"},"val":{"mgp_1yr":"15","mgp_2yr":"19.4","minscore":null,"maxscore":null}}]
 	}
 }

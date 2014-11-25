@@ -17,6 +17,10 @@ minmax <- sqlQuery(dbrepcard, "SELECT * FROM [dbo].[mgp_minmax]")
 
 mgp <- merge(mgp, minmax, by = c("test_year","subgroup","subject"), all.x=TRUE)
 
+mgp$mgp_1yr[which(is.na(mgp$mgp_1yr))] <- 'null'
+mgp$mgp_2yr[which(is.na(mgp$mgp_2yr))] <- 'null'
+mgp$minscore[which(is.na(mgp$minscore))] <- 'null'
+mgp$maxscore[which(is.na(mgp$maxscore))] <- 'null'
 
 mgp$school_code <- sapply(mgp$school_code, leadgr, 4)
 
