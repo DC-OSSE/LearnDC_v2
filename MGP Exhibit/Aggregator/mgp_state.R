@@ -44,4 +44,20 @@ mgp_state <- merge(mgp_state1, mgp_state2, by = c("Student_Group","School_Year",
 colnames(mgp_state) <- c("subgroup","test_year","subject","NSize","mgp_1yr","mgp_2yr")
 
 
+df_all <- c("subgroup","test_year","subject","NSize","mgp_1yr","mgp_2yr")
+
+df_all <-  as.data.frame(rbind(c("All","2014","Math",NA,50,50)
+	,c("All","2014","Reading",NA,50,50)
+	,c("All","2013","Math",NA,50,50)
+	,c("All","2013","Reading",NA,50,50)
+	,c("All","2012","Math",NA,50,50)
+	,c("All","2012","Reading",NA,50,50)	
+	,c("All","2011","Math",NA,50,50)
+	,c("All","2011","Reading",NA,50,50)))
+colnames(df_all) <- c("subgroup","test_year","subject","NSize","mgp_1yr","mgp_2yr")
+
+
+
+mgp_state <- rbind(mgp_state, df_all)
+
 sqlSave(dbrepcard, mgp_state, tablename = "mgp_state_longitudinal", rownames=FALSE)

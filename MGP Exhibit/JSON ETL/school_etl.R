@@ -6,7 +6,7 @@ library(dplyr)
 
 
 mgp <- sqlQuery(dbrepcard, "SELECT * FROM [dbo].[mgp_longitudinal]")
-
+mgp <- subset(mgp, subgroup %notin% c("Not-LEP","Not-Economy","Not-SPED"))
 # setwd('U:/LearnDC ETL V2/Export/CSV/school')
 # write.csv(susp_wide, "Equity_Report_MGP_School.csv", row.names=FALSE)
 
