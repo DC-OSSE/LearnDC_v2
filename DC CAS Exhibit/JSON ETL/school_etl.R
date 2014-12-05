@@ -1,5 +1,5 @@
 setwd("U:/LearnDC ETL V2/DC CAS Exhibit/JSON ETL")
-
+source("U:/R/RODBC_Connections.R")
 source("U:/R/tomkit.R")
 library(jsonlite)
 
@@ -7,7 +7,7 @@ school_cas <- sqlQuery(dbrepcard_prod, "SELECT * FROM [dbo].[cas_school_exhibit]
 school_cas$rownames <- NULL
 
 
-school_cas <- subset(school_cas, (enrollment_status == "full_year" & n_test_takers >= 25) | (enrollment_status == "all" & n_test_takers >= 10))
+school_cas <- subset(school_cas, (enrollment_status == "full_year" & n_test_takers >= 25) | (enrollment_status == "all" & n_test_takers >= 25))
 
 setwd('U:/LearnDC ETL V2/Export/CSV/school')
 write.csv(school_cas, "DCCAS_School.csv", row.names=FALSE)

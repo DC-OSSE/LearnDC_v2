@@ -1,11 +1,11 @@
 {
-"timestamp": "Mon Nov 24 11:26:37 2014",
+"timestamp": "Fri Dec 05 15:01:22 2014",
 "org_type": "school",
 "org_name": "",
 "org_code": "0363",
 "exhibit": {
 	"id": "mid_year_entry_and_withdrawal",
 	"data":  
-[{"key":{"year":2014,"month":1},"val":{"entry":0.0081,"withdrawal":0.02,"net_cumulative":-0.0109}},{"key":{"year":2014,"month":2},"val":{"entry":0.0108,"withdrawal":0.02,"net_cumulative":-0.0132}},{"key":{"year":2014,"month":3},"val":{"entry":0.0108,"withdrawal":0.03,"net_cumulative":-0.0162}},{"key":{"year":2014,"month":4},"val":{"entry":0.0108,"withdrawal":0.03,"net_cumulative":-0.0162}},{"key":{"year":2014,"month":5},"val":{"entry":0.0108,"withdrawal":0.03,"net_cumulative":-0.0162}},{"key":{"year":2014,"month":10},"val":{"entry":0,"withdrawal":0,"net_cumulative":-0.003}},{"key":{"year":2014,"month":11},"val":{"entry":0,"withdrawal":0.01,"net_cumulative":-0.008}},{"key":{"year":2014,"month":12},"val":{"entry":0,"withdrawal":0.01,"net_cumulative":-0.008}}]
+[{"key":{"year":2014,"month":1},"val":{"entry":0.0081,"withdrawal":0.02,"net_cumulative":-0.0108,"state_entry":0.0328,"state_withdrawal":0.0363,"state_net_cumulative":-0.0035}},{"key":{"year":2014,"month":2},"val":{"entry":0.0108,"withdrawal":0.02,"net_cumulative":-0.0135,"state_entry":0.038,"state_withdrawal":0.0433,"state_net_cumulative":-0.0053}},{"key":{"year":2014,"month":3},"val":{"entry":0.0108,"withdrawal":0.03,"net_cumulative":-0.0162,"state_entry":0.043,"state_withdrawal":0.05,"state_net_cumulative":-0.007}},{"key":{"year":2014,"month":4},"val":{"entry":0.0108,"withdrawal":0.03,"net_cumulative":-0.0162,"state_entry":0.0492,"state_withdrawal":0.0554,"state_net_cumulative":-0.0062}},{"key":{"year":2014,"month":5},"val":{"entry":0.0108,"withdrawal":0.03,"net_cumulative":-0.0162,"state_entry":0.054,"state_withdrawal":0.0593,"state_net_cumulative":-0.0053}},{"key":{"year":2014,"month":10},"val":{"entry":0,"withdrawal":0,"net_cumulative":-0.0027,"state_entry":0.0143,"state_withdrawal":0.0131,"state_net_cumulative":0.0012}},{"key":{"year":2014,"month":11},"val":{"entry":0,"withdrawal":0.01,"net_cumulative":-0.0081,"state_entry":0.0206,"state_withdrawal":0.0206,"state_net_cumulative":-0}},{"key":{"year":2014,"month":12},"val":{"entry":0,"withdrawal":0.01,"net_cumulative":-0.0081,"state_entry":0.0244,"state_withdrawal":0.0276,"state_net_cumulative":-0.0032}}]
 	}
 }

@@ -12,21 +12,10 @@ mgp <- subset(mgp, subgroup %notin% c("Not-LEP","Not-Economy","Not-SPED"))
 
 mgp <- subset(mgp, group_fay_size >= 10)
 
-
-minmax <- sqlQuery(dbrepcard, "SELECT * FROM [dbo].[mgp_minmax]")
-
-mgp <- merge(mgp, minmax, by = c("year","subgroup","subject"), all.x=TRUE)
-
-mgp$mgp_1yr[which(is.na(mgp$mgp_1yr))] <- 'null'
-mgp$mgp_2yr[which(is.na(mgp$mgp_2yr))] <- 'null'
-mgp$min_mgp[which(is.na(mgp$min_mgp))] <- 'null'
-mgp$max_mgp[which(is.na(mgp$max_mgp))] <- 'null'
-
-
 mgp$school_code <- sapply(mgp$school_code, leadgr, 4)
 
 key_index <- c(1,2,3)
-value_index <- c(6,7,8,9)
+value_index <- c(6,7)
 
 for(i in unique(mgp$school_code)){
 	setwd("U:/LearnDC ETL V2/Export/JSON/school")
@@ -42,18 +31,9 @@ for(i in unique(mgp$school_code)){
                              	val = list(.tmp[i,value_index]))
                            })
 
-	.json <- toJSON(.nested_list)
+	.json <- toJSON(.nested_list, na="null")
 	.json <- gsub("[[","",.json, fixed=TRUE)
 	.json <- gsub("]]","",.json, fixed=TRUE)
-	.json <- gsub('"null"','null',.json, fixed=TRUE)
-	.json <- gsub('"mgp_1yr":"','"mgp_1yr":',.json, fixed=TRUE)
-	.json <- gsub('","mgp_2yr"',',"mgp_2yr"',.json, fixed=TRUE)
-	.json <- gsub('"mgp_2yr":"','"mgp_2yr":',.json, fixed=TRUE)
-	.json <- gsub('","min_mgp"',',"min_mgp"',.json, fixed=TRUE)
-	.json <- gsub('"min_mgp":"','"min_mgp":',.json, fixed=TRUE)
-	.json <- gsub('","max_mgp"',',"max_mgp"',.json, fixed=TRUE)
-	.json <- gsub('"max_mgp":"','"max_mgp":',.json, fixed=TRUE)
-	.json <- gsub('"}}','}}',.json, fixed=TRUE)
 
 	.school_name <- .tmp$school_name[1]
 

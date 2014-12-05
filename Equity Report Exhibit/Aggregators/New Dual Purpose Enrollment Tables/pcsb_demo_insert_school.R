@@ -1,5 +1,5 @@
 source("U:/R/tomkit.R")
-
+setwd("U:/LearnDC ETL V2/Equity Report Exhibit/Aggregators/New Dual Purpose Enrollment Tables")
 
 enr <- sqlQuery(dbrepcard_prod, "SELECT * FROM [dbo].[enrollment_school_exhibit]")
 

@@ -1,11 +1,11 @@
 setwd("U:/LearnDC ETL V2/Graduation Exhibit/JSON ETL")
-
+source("U:/R/RODBC_Connections.R")
 source("U:/R/tomkit.R")
 library(jsonlite)
 
 
 lea_grad <- sqlQuery(dbrepcard_prod, "SELECT * FROM [dbo].[graduation_lea_exhibit_w2014]")
-lea_grad <- subset(lea_grad, cohort_size >= 25 & !is.na(graduates))
+lea_grad <- subset(lea_grad, cohort_size >= 10 & !is.na(graduates))
 
 
 # setwd('U:/LearnDC ETL V2/Export/CSV/lea')

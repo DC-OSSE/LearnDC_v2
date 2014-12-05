@@ -6,17 +6,15 @@ library(dplyr)
 
 mgp <- sqlQuery(dbrepcard, "SELECT * FROM [dbo].[mgp_state_longitudinal]")
 
+minmax <- sqlQuery(dbrepcard, "SELECT * FROM [dbo].[mgp_minmax]")
 
-
-mgp$mgp_1yr[which(is.na(mgp$mgp_1yr))] <- 'null'
-mgp$mgp_2yr[which(is.na(mgp$mgp_2yr))] <- 'null'
-
+mgp <- merge(mgp, minmax, by = c("year","subgroup","subject"), all.x=TRUE)
 
 # setwd('U:/LearnDC ETL V2/Export/CSV/state')
 # write.csv(mgp, "Equity_Report_MGP_State.csv", row.names=FALSE)
 
 key_index <- c(1,2,3)
-value_index <- c(5,6)
+value_index <- c(5,6,7,8)
 
 
 setwd("U:/LearnDC ETL V2/Export/JSON/state/DC")
@@ -30,12 +28,6 @@ setwd("U:/LearnDC ETL V2/Export/JSON/state/DC")
 .json <- toJSON(.nested_list, na = 'null')
 .json <- gsub("[[","",.json, fixed=TRUE)
 .json <- gsub("]]","",.json, fixed=TRUE)
-.json <- gsub('"null"','null',.json, fixed=TRUE)
-.json <- gsub('"mgp_1yr":"','"mgp_1yr":',.json, fixed=TRUE)
-.json <- gsub('","mgp_2yr"',',"mgp_2yr"',.json, fixed=TRUE)
-.json <- gsub('"mgp_2yr":"','"mgp_2yr":',.json, fixed=TRUE)
-.json <- gsub('"}}','}}',.json, fixed=TRUE)
-
 
 newfile <- file("mgp_scores.json", encoding="UTF-8")
 sink(newfile)

@@ -1,11 +1,11 @@
 {
-"timestamp": "Wed Nov 26 11:23:19 2014",
+"timestamp": "Thu Dec 04 16:57:56 2014",
 "org_type": "school",
 "org_name": "",
 "org_code": "0947",
 "exhibit": {
 	"id": "mgp_scores",
 	"data":  
-[{"key":{"year":2011,"subgroup":"All","subject":"Math"},"val":{"mgp_1yr":18,"mgp_2yr":24.9,"min_mgp":null,"max_mgp":null}},{"key":{"year":2011,"subgroup":"All","subject":"Reading"},"val":{"mgp_1yr":25,"mgp_2yr":31.4,"min_mgp":null,"max_mgp":null}}]
+[{"key":{"year":2011,"school_code":"0947","subject":"Math"},"val":{"mgp_1yr":18,"mgp_2yr":24.9}},{"key":{"year":2011,"school_code":"0947","subject":"Reading"},"val":{"mgp_1yr":25,"mgp_2yr":31.4}}]
 	}
 }
