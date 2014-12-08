@@ -14,7 +14,7 @@ mgp <- subset(mgp, group_fay_size >= 10)
 
 mgp$school_code <- sapply(mgp$school_code, leadgr, 4)
 
-key_index <- c(1,2,3)
+key_index <- c(1,3,4)
 value_index <- c(6,7)
 
 for(i in unique(mgp$school_code)){

@@ -22,9 +22,13 @@ value_index <- c(8,9)
 for(i in unique(school_grad$school_code)){
 	setwd("U:/LearnDC ETL V2/Export/JSON/school")
 
+	num_orphans <- 0
 	if(file.exists(i)){
 	    setwd(file.path(i))
-	}	
+	} else {
+		num_orphans <- num_orphans + 1
+	}
+	print(paste0("There are ",num_orphans," orphaned files."))
 
 	.tmp <- subset(school_grad, school_code == i)
 
