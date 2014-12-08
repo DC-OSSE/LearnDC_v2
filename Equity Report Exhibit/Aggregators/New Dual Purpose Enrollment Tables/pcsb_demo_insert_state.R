@@ -38,7 +38,8 @@ state_all <- read.csv("1_line.csv")
 state_agg <- rbind(state_agg, state_all)
 
 enr <- sqlQuery(dbrepcard_prod, "SELECT * FROM [dbo].[enrollment_state_exhibit]")
-enr <- subset(enr, (year==2013 & subgroup=='All' & grade!='All') & (year==2013 & subgroup %in% c('All', 'SPED Level 1', 'SPED Level 2','SPED Level 3', 'SPED Level 4')))
+enr <- subset(enr, (year==2013 & subgroup=='All' & grade!='All') | (year==2013 & grade=='All' & subgroup %in% c('SPED Level 1', 'SPED Level 2','SPED Level 3', 'SPED Level 4')))
+enr$enrollment[which(enr$subgroup %in% c('SPED Level 1', 'SPED Level 2','SPED Level 3', 'SPED Level 4'))] <- (enr$enrollment/82913)
 
 state_agg <- rbind(state_agg, enr)
 
