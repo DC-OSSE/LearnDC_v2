@@ -55,29 +55,38 @@ enr_option2 <- subset(enr_option2, subgroup == "All" | grade == "All")
 
 option2_final <- data.frame()
 for(i in unique(enr_option2$school_code)){
-	.tmp <- subset(enr_option2, school_code == i)
+    .tmp <- subset(enr_option2, school_code == i)
 
-	for(j in unique(.tmp$grade)){
-		.tmp2 <- subset(.tmp, grade == j)
+    for(j in unique(.tmp$grade)){
+        .tmp2 <- subset(.tmp, grade == j)
 
-		if(j == "All"){
-			for(k in unique(.tmp2$subgroup)){
+        if(j == "All"){
+            sped_denom <- .tmp2$enrollment[which(.tmp2$subgroup == "SPED")]
+            for(k in unique(.tmp2$subgroup)){
 
-				if(k !="All"){
-					.tmp2$enrollment[which(
-						.tmp2$subgroup == k)] <- 
-						.tmp2$enrollment[which(.tmp2$subgroup == k)]  / 
-						.tmp2$enrollment[which(.tmp2$subgroup == "All")]
-				}
-			}
-		}
-		option2_final <- rbind(option2_final, .tmp2 )
-	}
+                if (k %in% c('SPED Level 1', 'SPED Level 2', 'SPED Level 3', 'SPED Level 4')) {
+                    .tmp2$enrollment[which(
+                        .tmp2$subgroup == k)] <- 
+                        .tmp2$enrollment[which(.tmp2$subgroup == k)]  / sped_denom
+                } else if (k !="All") {
+                    .tmp2$enrollment[which(
+                        .tmp2$subgroup == k)] <- 
+                        .tmp2$enrollment[which(.tmp2$subgroup == k)]  / 
+                        .tmp2$enrollment[which(.tmp2$subgroup == "All")]
+                }
+            }
+        }
+        option2_final <- rbind(option2_final, .tmp2 )
+    }
 }
+
+
 
 option2_final$enrollment <- round(option2_final$enrollment,3)
 
-
 sqlSave(dbrepcard_prod, option2_final, tablename = "enrollment_school_exhibit_mixed_values", rownames = FALSE)
+
+
+
 
 
