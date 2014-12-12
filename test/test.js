@@ -86,35 +86,79 @@ describe('LearnDC data files', function () {
     _.each(jsonFiles, function (file) {
         describe(file, function () {
             var parseError, data,
-                filename = _.last(file.split('/'));
+                filename = _.last(file.split('/')),
+                json = fs.readFileSync(file);
 
-            before(function () {
-                var json = fs.readFileSync(file);
-                try {
-                    data = JSON.parse(json);
-                } catch (e) {
-                    parseError = new Error('File is not valid JSON. ' + e);
-                }
-            });
+            try {
+                data = JSON.parse(json);
+            } catch (e) {
+                parseError = new Error('File is not valid JSON. ' + e);
+            }
 
             it('should be valid JSON', function () {
                 if (parseError) { throw parseError; }
             });
 
             it('should be in a subdirectory', function () {
-                assert.equal(file.split('/').length, 5, file + ' is not at the correct depth.');
+                assert.equal(file.split('/').length, 5);
             });
 
             it('should match a known exhibit type', function () {
-                assert.equal(_.difference([filename], EXHIBITS).length, 0, file + ' is not a known exhibit type.');
+                assert.equal(_.difference([filename], EXHIBITS).length, 0);
             });
 
-            switch (filename) {
-            case 'dccas.json':
-                it('should do something', function () {
-                    //
+            function validSubgroups() {
+                it('should have valid subgroups', function () {
+                    var subgroups = [
+                        'all',
+                        'male', 'female',
+                        'bl7', 'wh7', 'hi7', 'as7', 'pi7', 'am7', 'mu7',
+                        'sped', 'lep', 'economy', 'direct cert',
+                        'sped level 1', 'sped level 2', 'sped level 3', 'sped level 4'
+                    ];
+                    _.each(data.exhibit.data, function (obj) {
+                        if (!_.contains(subgroups, obj.key.subgroup.toLowerCase())) {
+                            throw new Error(obj.key.subgroup + ' is not a valid subgroup.');
+                        }
+                    });
                 });
-                break;
+            }
+
+            if (!parseError) {
+                switch (filename) {
+                case 'amo_targets.json':
+                    break;
+                case 'attendance.json':
+                    validSubgroups();
+                    break;
+                case 'dccas.json':
+                    validSubgroups();
+                    break;
+                case 'enrollment_equity.json':
+                    validSubgroups();
+                    break;
+                case 'enrollment.json':
+                    validSubgroups();
+                    break;
+                case 'expulsions.json':
+                    break;
+                case 'graduation.json':
+                    validSubgroups();
+                    break;
+                case 'mgp_scores.json':
+                    validSubgroups();
+                    break;
+                case 'mid_year_entry_and_withdrawal.json':
+                    break;
+                case 'sped_apr.json':
+                    break;
+                case 'suspensions.json':
+                    validSubgroups();
+                    break;
+                case 'unexcused_absences.json':
+                    validSubgroups();
+                    break;
+                }
             }
         });
     });
