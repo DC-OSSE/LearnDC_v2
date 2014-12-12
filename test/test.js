@@ -11,6 +11,7 @@ var _ = require('lodash'),
 var EXPORT = 'Export/JSON/';
 
 var EXHIBITS = [
+    'amo_targets.json',
     'attendance.json',
     'dccas.json',
     'enrollment_equity.json',
@@ -19,6 +20,7 @@ var EXHIBITS = [
     'graduation.json',
     'mgp_scores.json',
     'mid_year_entry_and_withdrawal.json',
+    'sped_apr.json',
     'suspensions.json',
     'unexcused_absences.json'
 ];
@@ -34,18 +36,6 @@ describe('LearnDC data files', function () {
 
     describe('Directory structure', function () {
 
-        it('all JSON files should be in a subdirectory', function () {
-            _.each(jsonFiles, function (file) {
-                assert.equal(file.split('/').length, 5, file + ' is not at the correct depth.');
-            });
-        });
-
-        it('all JSON files should match a known exhibit type', function () {
-            _.each(jsonFiles, function (file) {
-                assert(_.difference(_.last(file.split('/')), EXHIBITS).length, 0, file + 'is not a known exhibit type.');
-            });
-        });
-
         it('should have a school, lea and state directory', function (done) {
             fs.readdir(EXPORT, function (err, list) {
                 if (err) { throw err; }
@@ -56,7 +46,7 @@ describe('LearnDC data files', function () {
             });
         });
 
-        it('school directories should be four-digit codes', function () {
+        it('school directories should be four-digit codes', function (done) {
             fs.readdir(EXPORT + 'school', function (err, list) {
                 if (err) { throw err; }
                 list = removeHiddenFiles(list);
@@ -65,10 +55,11 @@ describe('LearnDC data files', function () {
                         throw new Error('School code ' + file + ' is not a four digit number.');
                     }
                 });
+                done();
             });
         });
 
-        it('lea directories should be four-digit codes', function () {
+        it('lea directories should be four-digit codes', function (done) {
             fs.readdir(EXPORT + 'lea', function (err, list) {
                 if (err) { throw err; }
                 list = removeHiddenFiles(list);
@@ -77,6 +68,7 @@ describe('LearnDC data files', function () {
                         throw new Error('LEA code ' + file + ' is not a four digit number.');
                     }
                 });
+                done();
             });
         });
 
@@ -85,7 +77,8 @@ describe('LearnDC data files', function () {
                 if (err) { throw err; }
                 list = removeHiddenFiles(list);
                 if (list.length !== 1) { throw new Error('There are multiple directories in "state".'); }
-                if (list[0] === 'DC') { done(); }
+                if (list[0] !== 'DC') { throw new Error('State directory should be named "DC".'); }
+                done();
             });
         });
     });
@@ -105,6 +98,14 @@ describe('LearnDC data files', function () {
 
             it('should be valid JSON', function () {
                 if (parseError) { throw parseError; }
+            });
+
+            it('should be in a subdirectory', function () {
+                assert.equal(file.split('/').length, 5, file + ' is not at the correct depth.');
+            });
+
+            it('should match a known exhibit type', function () {
+                assert.equal(_.difference([_.last(file.split('/'))], EXHIBITS).length, 0, file + ' is not a known exhibit type.');
             });
         });
     });
