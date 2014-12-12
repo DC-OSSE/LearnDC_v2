@@ -85,7 +85,8 @@ describe('LearnDC data files', function () {
 
     _.each(jsonFiles, function (file) {
         describe(file, function () {
-            var parseError, data;
+            var parseError, data,
+                filename = _.last(file.split('/'));
 
             before(function () {
                 var json = fs.readFileSync(file);
@@ -105,8 +106,16 @@ describe('LearnDC data files', function () {
             });
 
             it('should match a known exhibit type', function () {
-                assert.equal(_.difference([_.last(file.split('/'))], EXHIBITS).length, 0, file + ' is not a known exhibit type.');
+                assert.equal(_.difference([filename], EXHIBITS).length, 0, file + ' is not a known exhibit type.');
             });
+
+            switch (filename) {
+            case 'dccas.json':
+                it('should do something', function () {
+                    //
+                });
+                break;
+            }
         });
     });
 });
