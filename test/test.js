@@ -30,11 +30,7 @@ function removeHiddenFiles(list) {
 }
 
 describe('LearnDC data files', function () {
-    var jsonFiles;
-
-    before(function () {
-        jsonFiles = glob.sync(EXPORT + '/**/*.+(json|JSON)');
-    });
+    var jsonFiles = glob.sync(EXPORT + '/**/*.+(json|JSON)');
 
     describe('Directory structure', function () {
 
@@ -94,18 +90,21 @@ describe('LearnDC data files', function () {
         });
     });
 
-    describe('JSON', function () {
+    _.each(jsonFiles, function (file) {
+        describe(file, function () {
+            var parseError, data;
 
-        it('all JSON files should be valid JSON', function () {
-            _.each(jsonFiles, function (file) {
-                fs.readFile(file, function (err, json) {
-                    if (err) { throw err; }
-                    try {
-                        JSON.parse(json);
-                    } catch (e) {
-                        throw new Error('File ' + file + ' is not valid JSON. ' + e);
-                    }
-                });
+            before(function () {
+                var json = fs.readFileSync(file);
+                try {
+                    data = JSON.parse(json);
+                } catch (e) {
+                    parseError = new Error('File is not valid JSON. ' + e);
+                }
+            });
+
+            it('should be valid JSON', function () {
+                if (parseError) { throw parseError; }
             });
         });
     });
