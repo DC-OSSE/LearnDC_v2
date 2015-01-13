@@ -136,15 +136,34 @@ pcs_isa_subgroups <- subset(pcs_isa_subgroups, School_Code %in% pcs_isa$School_C
 pcs_isa_subgroups$Month <- ""
 pcs_isa_subgroups <- select(pcs_isa_subgroups, Key, School_Code, School_Year, Student_Group, Metric, SchoolScore, AverageScore, Month, ReportType, NSize)
 
+briya_adult <- read.csv("PCS All students ISA campus pct.csv")
+briya_adult <- subset(briya_adult,School.Code==126)
+briya_adult$SCHOOL_NAME <- NULL
+briya_adult$ISA..entire.campus.PK..12. <- NULL
+briya_adult <- subset(briya_adult, !is.na(ISA..entire.campus.PK..12.))
+colnames(briya_adult) <- c("School_Code","SchoolScore")
+briya_adult$Student_Group <- "Adult Only"
+briya_adult$School_Year <- "2013-14"
+briya_adult$ReportType <- "External"
+briya_adult$AverageScore <- NA
+briya_adult$Metric <- "In-Seat Attendance Rate"
+briya_adult$Month <- ""
+briya_adult$NSize <- NA
+briya_adult$Key <- paste(briya_adult$School_Code, briya_adult$School_Year, briya_adult$Student_Group, briya_adult$Metric, briya_adult$ReportType)
+briya_adult <- select(briya_adult, Key, School_Code, School_Year, Student_Group, Metric, SchoolScore, AverageScore, Month, ReportType, NSize)
 
 
 
 
 
 
-equity_final <- rbind(equity_prior, exp_isa, susp_counts, dcps_myew, pcs_myew_melt, pcs_total_susp, pcs_isa, pcs_isa_subgroups)
+
+
+
+equity_final <- rbind(equity_prior, exp_isa, susp_counts, dcps_myew, pcs_myew_melt, pcs_total_susp, pcs_isa, pcs_isa_subgroups,briya_adult)
 
 equity_final$Student_Group[which(equity_final$Student_Group == "All Students")] <- "All"
+equity_final$Student_Group[which(equity_final$Student_Group == "Adult Only")] <- "AO"
 equity_final$Student_Group[which(equity_final$Student_Group == "Asian")] <- "AS7"
 equity_final$Student_Group[which(equity_final$Student_Group == "Black non-Hispanic")] <- "BL7"
 equity_final$Student_Group[which(equity_final$Student_Group == "Hispanic / Latino")] <- "HI7"

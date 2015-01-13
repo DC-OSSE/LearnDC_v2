@@ -14,6 +14,10 @@ mgp_state$Student_Group[mgp_state$Student_Group == 'White'] <- 'WH7'
 mgp_state$Student_Group[mgp_state$Student_Group == 'Free or Reduced Lunch'] <- 'Economy'
 mgp_state$Student_Group[mgp_state$Student_Group == 'Limited English Proficiency'] <- 'LEP'
 mgp_state$Student_Group[mgp_state$Student_Group == 'Special Education'] <- 'SPED'
+mgp_state$Student_Group[mgp_state$Student_Group == 'Female'] <- 'FEMALE'
+mgp_state$Student_Group[mgp_state$Student_Group == 'Male'] <- 'MALE'
+mgp_state$Student_Group[mgp_state$Student_Group == 'Pacific Islander'] <- 'PI7'
+
 
 
 mgp_state$School_Year[which(mgp_state$School_Yea == "2012-13")] <- "2013"
@@ -41,10 +45,10 @@ mgp_state2$NSize <- NULL
 mgp_state <- merge(mgp_state1, mgp_state2, by = c("Student_Group","School_Year","subject"), all.x=TRUE)
 
 
-colnames(mgp_state) <- c("subgroup","test_year","subject","NSize","mgp_1yr","mgp_2yr")
+colnames(mgp_state) <- c("subgroup","year","subject","NSize","mgp_1yr","mgp_2yr")
 
 
-df_all <- c("subgroup","test_year","subject","NSize","mgp_1yr","mgp_2yr")
+df_all <- c("subgroup","year","subject","NSize","mgp_1yr","mgp_2yr")
 
 df_all <-  as.data.frame(rbind(c("All","2014","Math",NA,50,50)
 	,c("All","2014","Reading",NA,50,50)
@@ -54,7 +58,7 @@ df_all <-  as.data.frame(rbind(c("All","2014","Math",NA,50,50)
 	,c("All","2012","Reading",NA,50,50)	
 	,c("All","2011","Math",NA,50,50)
 	,c("All","2011","Reading",NA,50,50)))
-colnames(df_all) <- c("subgroup","test_year","subject","NSize","mgp_1yr","mgp_2yr")
+colnames(df_all) <- c("subgroup","year","subject","NSize","mgp_1yr","mgp_2yr")
 
 
 

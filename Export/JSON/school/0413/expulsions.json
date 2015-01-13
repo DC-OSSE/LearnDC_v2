@@ -1,11 +1,53 @@
 {
-"timestamp": "Mon Dec 01 14:47:29 2014",
+"timestamp": "Wed Jan 07 11:28:16 2015",
 "org_type": "school",
 "org_name": "",
 "org_code": "0413",
 "exhibit": {
 	"id": "expulsions",
 	"data":  
-[{"key":{"year":2013,"subgroup":"All"},"val":{"expulsions":0,"expulsion_rate":0,"state_expulsions":58,"state_expulsion_rate":0.0043}},{"key":{"year":2014,"subgroup":"All"},"val":{"expulsions":1,"expulsion_rate":0.0018,"state_expulsions":42,"state_expulsion_rate":0.0031}}]
+[
+    {
+        "key": [
+            [
+                {
+                    "year": 2013,
+                    "subgroup": "All"
+                }
+            ]
+        ],
+        "val": [
+            [
+                {
+                    "expulsions": 0,
+                    "expulsion_rate": 0,
+                    "state_expulsions": 58,
+                    "state_expulsion_rate": 0.0043
+                }
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2014,
+                    "subgroup": "All"
+                }
+            ]
+        ],
+        "val": [
+            [
+                {
+                    "expulsions": 1,
+                    "expulsion_rate": 0.0018,
+                    "state_expulsions": 42,
+                    "state_expulsion_rate": 0.0031
+                }
+            ]
+        ]
+    }
+]
+
 	}
 }

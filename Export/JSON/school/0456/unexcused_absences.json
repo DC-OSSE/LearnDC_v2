@@ -1,11 +1,39 @@
 {
-"timestamp": "Fri Nov 21 17:47:07 2014",
+"timestamp": "Wed Jan 07 11:29:36 2015",
 "org_type": "school",
 "org_name": "",
 "org_code": "0456",
 "exhibit": {
 	"id": "unexcused_absences",
 	"data":  
-[{"key":{"year":2013,"subgroup":"All"},"val":{"1-5_days":17,"6-10_days":12,"11-15_days":8,"16-25_days":13,"more_than_25_days":44}}]
+[
+    {
+        "key": [
+            [
+                {
+                    "year": 2013,
+                    "subgroup": "All"
+                }
+            ]
+        ],
+        "val": [
+            [
+                {
+                    "1-5_days": 17,
+                    "6-10_days": 12,
+                    "11-15_days": 8,
+                    "16-25_days": 13,
+                    "more_than_25_days": 44,
+                    "state_1_5_days": null,
+                    "state_6-10_days": null,
+                    "state_11-15_days": null,
+                    "state_16-25_days": null,
+                    "state_more_than_25_days": null
+                }
+            ]
+        ]
+    }
+]
+
 	}
 }

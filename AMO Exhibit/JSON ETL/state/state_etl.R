@@ -40,10 +40,7 @@ nested_list <- lapply(1:nrow(amo), FUN = function(i){
                            })
 
 
-json <- toJSON(nested_list)
-json <- gsub("[[","",json, fixed=TRUE)
-json <- gsub("]]","",json, fixed=TRUE)
-
+json <- prettify(toJSON(nested_list, na="null"))
 
 
 ## write to file

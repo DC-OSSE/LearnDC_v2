@@ -1,11 +1,89 @@
 {
-"timestamp": "Thu Dec 04 12:17:15 2014",
+"timestamp": "Tue Jan 06 17:02:54 2015",
 "org_type": "school",
 "org_name": "YOUTH SERVICES CENTER",
 "org_code": "0861",
 "exhibit": {
 	"id": "graduation",
 	"data":  
-[{"key":{"subgroup":"All","year":2014,"type":"Four Year ACGR"},"val":{"graduates":0,"cohort_size":30}},{"key":{"subgroup":"MALE","year":2014,"type":"Four Year ACGR"},"val":{"graduates":0,"cohort_size":27}},{"key":{"subgroup":"BL7","year":2014,"type":"Four Year ACGR"},"val":{"graduates":0,"cohort_size":30}},{"key":{"subgroup":"Economy","year":2014,"type":"Four Year ACGR"},"val":{"graduates":0,"cohort_size":18}}]
+[
+    {
+        "key": [
+            [
+                {
+                    "subgroup": "All",
+                    "year": 2014,
+                    "type": "Four Year ACGR"
+                }
+            ]
+        ],
+        "val": [
+            [
+                {
+                    "graduates": 0,
+                    "cohort_size": 30
+                }
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "subgroup": "MALE",
+                    "year": 2014,
+                    "type": "Four Year ACGR"
+                }
+            ]
+        ],
+        "val": [
+            [
+                {
+                    "graduates": 0,
+                    "cohort_size": 27
+                }
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "subgroup": "BL7",
+                    "year": 2014,
+                    "type": "Four Year ACGR"
+                }
+            ]
+        ],
+        "val": [
+            [
+                {
+                    "graduates": 0,
+                    "cohort_size": 30
+                }
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "subgroup": "Economy",
+                    "year": 2014,
+                    "type": "Four Year ACGR"
+                }
+            ]
+        ],
+        "val": [
+            [
+                {
+                    "graduates": 0,
+                    "cohort_size": 18
+                }
+            ]
+        ]
+    }
+]
+
 	}
 }

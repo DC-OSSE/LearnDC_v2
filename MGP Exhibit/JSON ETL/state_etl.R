@@ -8,6 +8,16 @@ mgp <- sqlQuery(dbrepcard, "SELECT * FROM [dbo].[mgp_state_longitudinal]")
 
 minmax <- sqlQuery(dbrepcard, "SELECT * FROM [dbo].[mgp_minmax]")
 
+year <- c(2014,2014,2014,2014,2013,2013,2013,2013)
+subject <- c('Math','Math','Reading','Reading','Math','Math','Reading','Reading')
+subgroup <- c('FEMALE','MALE','FEMALE','MALE','FEMALE','MALE','FEMALE','MALE')
+min_mgp <- c(10,8.5,15,8,1,1,7,2)
+max_mgp <- c(85.5,93,83,86,91,92,86,99)
+
+mm <- data.frame(year,subject,subgroup,min_mgp,max_mgp)
+
+minmax = rbind(minmax,mm)
+
 mgp <- merge(mgp, minmax, by = c("year","subgroup","subject"), all.x=TRUE)
 
 # setwd('U:/LearnDC ETL V2/Export/CSV/state')
@@ -25,9 +35,8 @@ setwd("U:/LearnDC ETL V2/Export/JSON/state/DC")
                              	val = list(mgp[i,value_index]))
                         })
 
-.json <- toJSON(.nested_list, na = 'null')
-.json <- gsub("[[","",.json, fixed=TRUE)
-.json <- gsub("]]","",.json, fixed=TRUE)
+.json <- prettify(toJSON(.nested_list, na="null"))
+
 
 newfile <- file("mgp_scores.json", encoding="UTF-8")
 sink(newfile)

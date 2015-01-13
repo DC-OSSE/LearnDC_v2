@@ -16,15 +16,18 @@ lea_sped$lea_code <- sapply(lea_sped$lea_code, leadgr, 4)
 
 key_index <- c(1,4)
 value_index <- 5:9
-
+num_orphans <- 0
 
 
 for(i in unique(lea_sped$lea_code)){
 	setwd("U:/LearnDC ETL V2/Export/JSON/lea")
 
-	if (file.exists(i)){
+	if(file.exists(i)){
 	    setwd(file.path(i))
+	} else {
+		num_orphans <- num_orphans + 1
 	}
+
 
 	.tmp <- subset(lea_sped, lea_code == i)
 
@@ -33,9 +36,8 @@ for(i in unique(lea_sped$lea_code)){
                              	val = list(.tmp[i,value_index]))
                            })
 
-	.json <- toJSON(.nested_list)
-	.json <- gsub("[[","",.json, fixed=TRUE)
-	.json <- gsub("]]","",.json, fixed=TRUE)
+	.json <- prettify(toJSON(.nested_list, na="null"))
+
 
 	.lea_name <- .tmp$lea_name[1]
 
@@ -46,7 +48,7 @@ for(i in unique(lea_sped$lea_code)){
 
 	cat('"timestamp": "',date(),'",', sep="", fill=TRUE)
 	cat('"org_type": "lea",', sep="", fill=TRUE)
-	cat('"org_name": "',.lea_name,'",', sep="", fill=TRUE)
+	cat('"org_name": "',gsub("\n", "",.lea_name),'",', sep="", fill=TRUE)
 	cat('"org_code": "',i,'"',',', sep="", fill=TRUE)
 	cat('"exhibit": {', fill=TRUE)
 	cat('\t"id": "sped_apr",', fill=TRUE)
@@ -58,3 +60,4 @@ for(i in unique(lea_sped$lea_code)){
 	close(newfile)
 }
 
+print(paste0("There are ",num_orphans," orphaned files."))

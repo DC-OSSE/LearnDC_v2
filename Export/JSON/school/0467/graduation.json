@@ -1,11 +1,583 @@
 {
-"timestamp": "Thu Dec 04 12:17:14 2014",
+"timestamp": "Tue Jan 06 17:02:52 2015",
 "org_type": "school",
 "org_name": "DUNBAR HS",
 "org_code": "0467",
 "exhibit": {
 	"id": "graduation",
 	"data":  
-[{"key":{"subgroup":"All","year":2011,"type":"Four Year ACGR"},"val":{"graduates":147,"cohort_size":244}},{"key":{"subgroup":"MALE","year":2011,"type":"Four Year ACGR"},"val":{"graduates":66,"cohort_size":109}},{"key":{"subgroup":"FEMALE","year":2011,"type":"Four Year ACGR"},"val":{"graduates":81,"cohort_size":134}},{"key":{"subgroup":"BL7","year":2011,"type":"Four Year ACGR"},"val":{"graduates":145,"cohort_size":235}},{"key":{"subgroup":"SPED","year":2011,"type":"Four Year ACGR"},"val":{"graduates":25,"cohort_size":50}},{"key":{"subgroup":"Economy","year":2011,"type":"Four Year ACGR"},"val":{"graduates":99,"cohort_size":162}},{"key":{"subgroup":"All","year":2012,"type":"Four Year ACGR"},"val":{"graduates":141,"cohort_size":239}},{"key":{"subgroup":"MALE","year":2012,"type":"Four Year ACGR"},"val":{"graduates":61,"cohort_size":119}},{"key":{"subgroup":"FEMALE","year":2012,"type":"Four Year ACGR"},"val":{"graduates":80,"cohort_size":120}},{"key":{"subgroup":"BL7","year":2012,"type":"Four Year ACGR"},"val":{"graduates":132,"cohort_size":228}},{"key":{"subgroup":"SPED","year":2012,"type":"Four Year ACGR"},"val":{"graduates":22,"cohort_size":45}},{"key":{"subgroup":"Economy","year":2012,"type":"Four Year ACGR"},"val":{"graduates":86,"cohort_size":157}},{"key":{"subgroup":"All","year":2013,"type":"Four Year ACGR"},"val":{"graduates":122,"cohort_size":199}},{"key":{"subgroup":"MALE","year":2013,"type":"Four Year ACGR"},"val":{"graduates":60,"cohort_size":108}},{"key":{"subgroup":"FEMALE","year":2013,"type":"Four Year ACGR"},"val":{"graduates":62,"cohort_size":91}},{"key":{"subgroup":"BL7","year":2013,"type":"Four Year ACGR"},"val":{"graduates":119,"cohort_size":194}},{"key":{"subgroup":"SPED","year":2013,"type":"Four Year ACGR"},"val":{"graduates":33,"cohort_size":55}},{"key":{"subgroup":"Economy","year":2013,"type":"Four Year ACGR"},"val":{"graduates":122,"cohort_size":197}},{"key":{"subgroup":"All","year":2014,"type":"Four Year ACGR"},"val":{"graduates":136,"cohort_size":254}},{"key":{"subgroup":"MALE","year":2014,"type":"Four Year ACGR"},"val":{"graduates":61,"cohort_size":135}},{"key":{"subgroup":"FEMALE","year":2014,"type":"Four Year ACGR"},"val":{"graduates":75,"cohort_size":119}},{"key":{"subgroup":"BL7","year":2014,"type":"Four Year ACGR"},"val":{"graduates":131,"cohort_size":243}},{"key":{"subgroup":"SPED","year":2014,"type":"Four Year ACGR"},"val":{"graduates":20,"cohort_size":46}},{"key":{"subgroup":"Economy","year":2014,"type":"Four Year ACGR"},"val":{"graduates":132,"cohort_size":225}},{"key":{"subgroup":"All","year":2014,"type":"Five Year ACGR"},"val":{"graduates":136,"cohort_size":199}},{"key":{"subgroup":"MALE","year":2014,"type":"Five Year ACGR"},"val":{"graduates":68,"cohort_size":108}},{"key":{"subgroup":"FEMALE","year":2014,"type":"Five Year ACGR"},"val":{"graduates":68,"cohort_size":91}},{"key":{"subgroup":"BL7","year":2014,"type":"Five Year ACGR"},"val":{"graduates":133,"cohort_size":194}},{"key":{"subgroup":"SPED","year":2014,"type":"Five Year ACGR"},"val":{"graduates":37,"cohort_size":55}},{"key":{"subgroup":"Economy","year":2014,"type":"Five Year ACGR"},"val":{"graduates":136,"cohort_size":197}}]
+[
+    {
+        "key": [
+            [
+                {
+                    "subgroup": "All",
+                    "year": 2011,
+                    "type": "Four Year ACGR"
+                }
+            ]
+        ],
+        "val": [
+            [
+                {
+                    "graduates": 147,
+                    "cohort_size": 244
+                }
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "subgroup": "MALE",
+                    "year": 2011,
+                    "type": "Four Year ACGR"
+                }
+            ]
+        ],
+        "val": [
+            [
+                {
+                    "graduates": 66,
+                    "cohort_size": 109
+                }
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "subgroup": "FEMALE",
+                    "year": 2011,
+                    "type": "Four Year ACGR"
+                }
+            ]
+        ],
+        "val": [
+            [
+                {
+                    "graduates": 81,
+                    "cohort_size": 134
+                }
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "subgroup": "BL7",
+                    "year": 2011,
+                    "type": "Four Year ACGR"
+                }
+            ]
+        ],
+        "val": [
+            [
+                {
+                    "graduates": 145,
+                    "cohort_size": 235
+                }
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "subgroup": "SPED",
+                    "year": 2011,
+                    "type": "Four Year ACGR"
+                }
+            ]
+        ],
+        "val": [
+            [
+                {
+                    "graduates": 25,
+                    "cohort_size": 50
+                }
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "subgroup": "Economy",
+                    "year": 2011,
+                    "type": "Four Year ACGR"
+                }
+            ]
+        ],
+        "val": [
+            [
+                {
+                    "graduates": 99,
+                    "cohort_size": 162
+                }
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "subgroup": "All",
+                    "year": 2012,
+                    "type": "Four Year ACGR"
+                }
+            ]
+        ],
+        "val": [
+            [
+                {
+                    "graduates": 141,
+                    "cohort_size": 239
+                }
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "subgroup": "MALE",
+                    "year": 2012,
+                    "type": "Four Year ACGR"
+                }
+            ]
+        ],
+        "val": [
+            [
+                {
+                    "graduates": 61,
+                    "cohort_size": 119
+                }
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "subgroup": "FEMALE",
+                    "year": 2012,
+                    "type": "Four Year ACGR"
+                }
+            ]
+        ],
+        "val": [
+            [
+                {
+                    "graduates": 80,
+                    "cohort_size": 120
+                }
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "subgroup": "BL7",
+                    "year": 2012,
+                    "type": "Four Year ACGR"
+                }
+            ]
+        ],
+        "val": [
+            [
+                {
+                    "graduates": 132,
+                    "cohort_size": 228
+                }
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "subgroup": "SPED",
+                    "year": 2012,
+                    "type": "Four Year ACGR"
+                }
+            ]
+        ],
+        "val": [
+            [
+                {
+                    "graduates": 22,
+                    "cohort_size": 45
+                }
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "subgroup": "Economy",
+                    "year": 2012,
+                    "type": "Four Year ACGR"
+                }
+            ]
+        ],
+        "val": [
+            [
+                {
+                    "graduates": 86,
+                    "cohort_size": 157
+                }
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "subgroup": "All",
+                    "year": 2013,
+                    "type": "Four Year ACGR"
+                }
+            ]
+        ],
+        "val": [
+            [
+                {
+                    "graduates": 122,
+                    "cohort_size": 199
+                }
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "subgroup": "MALE",
+                    "year": 2013,
+                    "type": "Four Year ACGR"
+                }
+            ]
+        ],
+        "val": [
+            [
+                {
+                    "graduates": 60,
+                    "cohort_size": 108
+                }
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "subgroup": "FEMALE",
+                    "year": 2013,
+                    "type": "Four Year ACGR"
+                }
+            ]
+        ],
+        "val": [
+            [
+                {
+                    "graduates": 62,
+                    "cohort_size": 91
+                }
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "subgroup": "BL7",
+                    "year": 2013,
+                    "type": "Four Year ACGR"
+                }
+            ]
+        ],
+        "val": [
+            [
+                {
+                    "graduates": 119,
+                    "cohort_size": 194
+                }
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "subgroup": "SPED",
+                    "year": 2013,
+                    "type": "Four Year ACGR"
+                }
+            ]
+        ],
+        "val": [
+            [
+                {
+                    "graduates": 33,
+                    "cohort_size": 55
+                }
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "subgroup": "Economy",
+                    "year": 2013,
+                    "type": "Four Year ACGR"
+                }
+            ]
+        ],
+        "val": [
+            [
+                {
+                    "graduates": 122,
+                    "cohort_size": 197
+                }
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "subgroup": "All",
+                    "year": 2014,
+                    "type": "Four Year ACGR"
+                }
+            ]
+        ],
+        "val": [
+            [
+                {
+                    "graduates": 136,
+                    "cohort_size": 254
+                }
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "subgroup": "MALE",
+                    "year": 2014,
+                    "type": "Four Year ACGR"
+                }
+            ]
+        ],
+        "val": [
+            [
+                {
+                    "graduates": 61,
+                    "cohort_size": 135
+                }
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "subgroup": "FEMALE",
+                    "year": 2014,
+                    "type": "Four Year ACGR"
+                }
+            ]
+        ],
+        "val": [
+            [
+                {
+                    "graduates": 75,
+                    "cohort_size": 119
+                }
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "subgroup": "BL7",
+                    "year": 2014,
+                    "type": "Four Year ACGR"
+                }
+            ]
+        ],
+        "val": [
+            [
+                {
+                    "graduates": 131,
+                    "cohort_size": 243
+                }
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "subgroup": "SPED",
+                    "year": 2014,
+                    "type": "Four Year ACGR"
+                }
+            ]
+        ],
+        "val": [
+            [
+                {
+                    "graduates": 20,
+                    "cohort_size": 46
+                }
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "subgroup": "Economy",
+                    "year": 2014,
+                    "type": "Four Year ACGR"
+                }
+            ]
+        ],
+        "val": [
+            [
+                {
+                    "graduates": 132,
+                    "cohort_size": 225
+                }
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "subgroup": "All",
+                    "year": 2014,
+                    "type": "Five Year ACGR"
+                }
+            ]
+        ],
+        "val": [
+            [
+                {
+                    "graduates": 136,
+                    "cohort_size": 199
+                }
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "subgroup": "MALE",
+                    "year": 2014,
+                    "type": "Five Year ACGR"
+                }
+            ]
+        ],
+        "val": [
+            [
+                {
+                    "graduates": 68,
+                    "cohort_size": 108
+                }
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "subgroup": "FEMALE",
+                    "year": 2014,
+                    "type": "Five Year ACGR"
+                }
+            ]
+        ],
+        "val": [
+            [
+                {
+                    "graduates": 68,
+                    "cohort_size": 91
+                }
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "subgroup": "BL7",
+                    "year": 2014,
+                    "type": "Five Year ACGR"
+                }
+            ]
+        ],
+        "val": [
+            [
+                {
+                    "graduates": 133,
+                    "cohort_size": 194
+                }
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "subgroup": "SPED",
+                    "year": 2014,
+                    "type": "Five Year ACGR"
+                }
+            ]
+        ],
+        "val": [
+            [
+                {
+                    "graduates": 37,
+                    "cohort_size": 55
+                }
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "subgroup": "Economy",
+                    "year": 2014,
+                    "type": "Five Year ACGR"
+                }
+            ]
+        ],
+        "val": [
+            [
+                {
+                    "graduates": 136,
+                    "cohort_size": 197
+                }
+            ]
+        ]
+    }
+]
+
 	}
 }

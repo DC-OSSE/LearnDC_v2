@@ -75,10 +75,6 @@ for(i in unique(enr_option2$school_code)){
 
                 if (k %in% c('SPED Level 1', 'SPED Level 2', 'SPED Level 3', 'SPED Level 4')) {
 
-                	if (i==102 & k=='SPED Level 1'){
-                        	print(.tmp2$enrollment[which(.tmp2$subgroup == k)])
-                        	print(sped_denom)
-                        }
                     .tmp2$enrollment[which(
                         .tmp2$subgroup == k)] <- 
                         .tmp2$enrollment[which(.tmp2$subgroup == k)]  / sped_denom

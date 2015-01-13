@@ -1,10 +1,4364 @@
 {
-"timestamp": "Thu Dec 11 13:13:36 2014",
+"timestamp": "Tue Jan 13 11:01:28 2015",
 "org_type": "school",
 "org_code": "0109",
 "exhibit": {
 	"id": "enrollment",
 	"data":  
-[{"key":{"year":2006,"subgroup":"All","grade":"All"},"val":315},{"key":{"year":2006,"subgroup":"All","grade":"grade 9"},"val":155},{"key":{"year":2006,"subgroup":"All","grade":"grade 10"},"val":97},{"key":{"year":2006,"subgroup":"All","grade":"grade 11"},"val":45},{"key":{"year":2006,"subgroup":"All","grade":"grade 12"},"val":18},{"key":{"year":2006,"subgroup":"MALE","grade":"All"},"val":150},{"key":{"year":2006,"subgroup":"MALE","grade":"grade 9"},"val":76},{"key":{"year":2006,"subgroup":"MALE","grade":"grade 10"},"val":49},{"key":{"year":2006,"subgroup":"MALE","grade":"grade 11"},"val":18},{"key":{"year":2006,"subgroup":"FEMALE","grade":"All"},"val":165},{"key":{"year":2006,"subgroup":"FEMALE","grade":"grade 9"},"val":79},{"key":{"year":2006,"subgroup":"FEMALE","grade":"grade 10"},"val":48},{"key":{"year":2006,"subgroup":"FEMALE","grade":"grade 11"},"val":27},{"key":{"year":2006,"subgroup":"FEMALE","grade":"grade 12"},"val":11},{"key":{"year":2006,"subgroup":"BL7","grade":"All"},"val":267},{"key":{"year":2006,"subgroup":"BL7","grade":"grade 9"},"val":136},{"key":{"year":2006,"subgroup":"BL7","grade":"grade 10"},"val":89},{"key":{"year":2006,"subgroup":"BL7","grade":"grade 11"},"val":31},{"key":{"year":2006,"subgroup":"BL7","grade":"grade 12"},"val":11},{"key":{"year":2006,"subgroup":"HI7","grade":"All"},"val":44},{"key":{"year":2006,"subgroup":"HI7","grade":"grade 9"},"val":18},{"key":{"year":2006,"subgroup":"HI7","grade":"grade 11"},"val":14},{"key":{"year":2006,"subgroup":"SPED","grade":"All"},"val":34},{"key":{"year":2006,"subgroup":"SPED","grade":"grade 9"},"val":18},{"key":{"year":2006,"subgroup":"SPED","grade":"grade 10"},"val":14},{"key":{"year":2006,"subgroup":"SPED Level 2","grade":"All"},"val":14},{"key":{"year":2007,"subgroup":"All","grade":"All"},"val":288},{"key":{"year":2007,"subgroup":"All","grade":"grade 9"},"val":122},{"key":{"year":2007,"subgroup":"All","grade":"grade 10"},"val":99},{"key":{"year":2007,"subgroup":"All","grade":"grade 11"},"val":33},{"key":{"year":2007,"subgroup":"All","grade":"grade 12"},"val":34},{"key":{"year":2007,"subgroup":"MALE","grade":"All"},"val":143},{"key":{"year":2007,"subgroup":"MALE","grade":"grade 9"},"val":56},{"key":{"year":2007,"subgroup":"MALE","grade":"grade 10"},"val":55},{"key":{"year":2007,"subgroup":"MALE","grade":"grade 11"},"val":16},{"key":{"year":2007,"subgroup":"MALE","grade":"grade 12"},"val":16},{"key":{"year":2007,"subgroup":"FEMALE","grade":"All"},"val":145},{"key":{"year":2007,"subgroup":"FEMALE","grade":"grade 9"},"val":66},{"key":{"year":2007,"subgroup":"FEMALE","grade":"grade 10"},"val":44},{"key":{"year":2007,"subgroup":"FEMALE","grade":"grade 11"},"val":17},{"key":{"year":2007,"subgroup":"FEMALE","grade":"grade 12"},"val":18},{"key":{"year":2007,"subgroup":"BL7","grade":"All"},"val":245},{"key":{"year":2007,"subgroup":"BL7","grade":"grade 9"},"val":103},{"key":{"year":2007,"subgroup":"BL7","grade":"grade 10"},"val":87},{"key":{"year":2007,"subgroup":"BL7","grade":"grade 11"},"val":31},{"key":{"year":2007,"subgroup":"BL7","grade":"grade 12"},"val":24},{"key":{"year":2007,"subgroup":"HI7","grade":"All"},"val":38},{"key":{"year":2007,"subgroup":"HI7","grade":"grade 9"},"val":17},{"key":{"year":2007,"subgroup":"HI7","grade":"grade 10"},"val":10},{"key":{"year":2007,"subgroup":"HI7","grade":"grade 12"},"val":10},{"key":{"year":2007,"subgroup":"SPED","grade":"All"},"val":35},{"key":{"year":2007,"subgroup":"SPED","grade":"grade 9"},"val":16},{"key":{"year":2007,"subgroup":"SPED","grade":"grade 10"},"val":13},{"key":{"year":2007,"subgroup":"SPED Level 1","grade":"All"},"val":14},{"key":{"year":2007,"subgroup":"SPED Level 2","grade":"All"},"val":15},{"key":{"year":2008,"subgroup":"All","grade":"All"},"val":335},{"key":{"year":2008,"subgroup":"All","grade":"grade 9"},"val":148},{"key":{"year":2008,"subgroup":"All","grade":"grade 10"},"val":108},{"key":{"year":2008,"subgroup":"All","grade":"grade 11"},"val":50},{"key":{"year":2008,"subgroup":"All","grade":"grade 12"},"val":29},{"key":{"year":2008,"subgroup":"MALE","grade":"All"},"val":128},{"key":{"year":2008,"subgroup":"MALE","grade":"grade 9"},"val":50},{"key":{"year":2008,"subgroup":"MALE","grade":"grade 10"},"val":41},{"key":{"year":2008,"subgroup":"MALE","grade":"grade 11"},"val":23},{"key":{"year":2008,"subgroup":"MALE","grade":"grade 12"},"val":14},{"key":{"year":2008,"subgroup":"FEMALE","grade":"All"},"val":188},{"key":{"year":2008,"subgroup":"FEMALE","grade":"grade 9"},"val":87},{"key":{"year":2008,"subgroup":"FEMALE","grade":"grade 10"},"val":63},{"key":{"year":2008,"subgroup":"FEMALE","grade":"grade 11"},"val":23},{"key":{"year":2008,"subgroup":"FEMALE","grade":"grade 12"},"val":15},{"key":{"year":2008,"subgroup":"BL7","grade":"All"},"val":303},{"key":{"year":2008,"subgroup":"BL7","grade":"grade 9"},"val":139},{"key":{"year":2008,"subgroup":"BL7","grade":"grade 10"},"val":93},{"key":{"year":2008,"subgroup":"BL7","grade":"grade 11"},"val":42},{"key":{"year":2008,"subgroup":"BL7","grade":"grade 12"},"val":29},{"key":{"year":2008,"subgroup":"HI7","grade":"All"},"val":29},{"key":{"year":2008,"subgroup":"HI7","grade":"grade 10"},"val":14},{"key":{"year":2008,"subgroup":"SPED","grade":"All"},"val":41},{"key":{"year":2008,"subgroup":"SPED","grade":"grade 9"},"val":17},{"key":{"year":2008,"subgroup":"SPED","grade":"grade 10"},"val":11},{"key":{"year":2008,"subgroup":"SPED Level 1","grade":"All"},"val":19},{"key":{"year":2008,"subgroup":"SPED Level 2","grade":"All"},"val":17},{"key":{"year":2008,"subgroup":"Economy","grade":"All"},"val":23},{"key":{"year":2008,"subgroup":"Economy","grade":"grade 9"},"val":14},{"key":{"year":2009,"subgroup":"All","grade":"All"},"val":378},{"key":{"year":2009,"subgroup":"All","grade":"grade 9"},"val":152},{"key":{"year":2009,"subgroup":"All","grade":"grade 10"},"val":107},{"key":{"year":2009,"subgroup":"All","grade":"grade 11"},"val":81},{"key":{"year":2009,"subgroup":"All","grade":"grade 12"},"val":38},{"key":{"year":2009,"subgroup":"MALE","grade":"All"},"val":153},{"key":{"year":2009,"subgroup":"MALE","grade":"grade 9"},"val":56},{"key":{"year":2009,"subgroup":"MALE","grade":"grade 10"},"val":43},{"key":{"year":2009,"subgroup":"MALE","grade":"grade 11"},"val":36},{"key":{"year":2009,"subgroup":"MALE","grade":"grade 12"},"val":18},{"key":{"year":2009,"subgroup":"FEMALE","grade":"All"},"val":225},{"key":{"year":2009,"subgroup":"FEMALE","grade":"grade 9"},"val":96},{"key":{"year":2009,"subgroup":"FEMALE","grade":"grade 10"},"val":64},{"key":{"year":2009,"subgroup":"FEMALE","grade":"grade 11"},"val":45},{"key":{"year":2009,"subgroup":"FEMALE","grade":"grade 12"},"val":20},{"key":{"year":2009,"subgroup":"BL7","grade":"All"},"val":336},{"key":{"year":2009,"subgroup":"BL7","grade":"grade 9"},"val":134},{"key":{"year":2009,"subgroup":"BL7","grade":"grade 10"},"val":101},{"key":{"year":2009,"subgroup":"BL7","grade":"grade 11"},"val":71},{"key":{"year":2009,"subgroup":"BL7","grade":"grade 12"},"val":30},{"key":{"year":2009,"subgroup":"HI7","grade":"All"},"val":36},{"key":{"year":2009,"subgroup":"HI7","grade":"grade 9"},"val":15},{"key":{"year":2009,"subgroup":"SPED","grade":"All"},"val":49},{"key":{"year":2009,"subgroup":"SPED","grade":"grade 9"},"val":20},{"key":{"year":2009,"subgroup":"SPED","grade":"grade 10"},"val":16},{"key":{"year":2009,"subgroup":"SPED","grade":"grade 11"},"val":12},{"key":{"year":2009,"subgroup":"SPED Level 1","grade":"All"},"val":15},{"key":{"year":2009,"subgroup":"SPED Level 2","grade":"All"},"val":26},{"key":{"year":2009,"subgroup":"SPED Level 2","grade":"grade 9"},"val":13},{"key":{"year":2009,"subgroup":"SPED Level 2","grade":"grade 10"},"val":10},{"key":{"year":2009,"subgroup":"LEP","grade":"All"},"val":13},{"key":{"year":2009,"subgroup":"Economy","grade":"All"},"val":76},{"key":{"year":2009,"subgroup":"Economy","grade":"grade 10"},"val":75},{"key":{"year":2010,"subgroup":"All","grade":"All"},"val":408},{"key":{"year":2010,"subgroup":"All","grade":"grade 9"},"val":163},{"key":{"year":2010,"subgroup":"All","grade":"grade 10"},"val":115},{"key":{"year":2010,"subgroup":"All","grade":"grade 11"},"val":69},{"key":{"year":2010,"subgroup":"All","grade":"grade 12"},"val":61},{"key":{"year":2010,"subgroup":"MALE","grade":"All"},"val":161},{"key":{"year":2010,"subgroup":"MALE","grade":"grade 9"},"val":73},{"key":{"year":2010,"subgroup":"MALE","grade":"grade 10"},"val":40},{"key":{"year":2010,"subgroup":"MALE","grade":"grade 11"},"val":25},{"key":{"year":2010,"subgroup":"MALE","grade":"grade 12"},"val":23},{"key":{"year":2010,"subgroup":"FEMALE","grade":"All"},"val":247},{"key":{"year":2010,"subgroup":"FEMALE","grade":"grade 9"},"val":90},{"key":{"year":2010,"subgroup":"FEMALE","grade":"grade 10"},"val":75},{"key":{"year":2010,"subgroup":"FEMALE","grade":"grade 11"},"val":44},{"key":{"year":2010,"subgroup":"FEMALE","grade":"grade 12"},"val":38},{"key":{"year":2010,"subgroup":"BL7","grade":"All"},"val":374},{"key":{"year":2010,"subgroup":"BL7","grade":"grade 9"},"val":148},{"key":{"year":2010,"subgroup":"BL7","grade":"grade 10"},"val":105},{"key":{"year":2010,"subgroup":"BL7","grade":"grade 11"},"val":67},{"key":{"year":2010,"subgroup":"BL7","grade":"grade 12"},"val":54},{"key":{"year":2010,"subgroup":"HI7","grade":"All"},"val":31},{"key":{"year":2010,"subgroup":"HI7","grade":"grade 9"},"val":15},{"key":{"year":2010,"subgroup":"SPED","grade":"All"},"val":59},{"key":{"year":2010,"subgroup":"SPED","grade":"grade 9"},"val":27},{"key":{"year":2010,"subgroup":"SPED","grade":"grade 10"},"val":15},{"key":{"year":2010,"subgroup":"SPED","grade":"grade 11"},"val":10},{"key":{"year":2010,"subgroup":"SPED Level 1","grade":"All"},"val":16},{"key":{"year":2010,"subgroup":"SPED Level 2","grade":"All"},"val":33},{"key":{"year":2010,"subgroup":"SPED Level 2","grade":"grade 9"},"val":18},{"key":{"year":2010,"subgroup":"SPED Level 3","grade":"All"},"val":10},{"key":{"year":2010,"subgroup":"LEP","grade":"All"},"val":13},{"key":{"year":2010,"subgroup":"Economy","grade":"All"},"val":256},{"key":{"year":2010,"subgroup":"Economy","grade":"grade 9"},"val":90},{"key":{"year":2010,"subgroup":"Economy","grade":"grade 10"},"val":82},{"key":{"year":2010,"subgroup":"Economy","grade":"grade 11"},"val":31},{"key":{"year":2010,"subgroup":"Economy","grade":"grade 12"},"val":53},{"key":{"year":2010,"subgroup":"Direct Cert","grade":"All"},"val":158},{"key":{"year":2010,"subgroup":"Direct Cert","grade":"grade 9"},"val":72},{"key":{"year":2010,"subgroup":"Direct Cert","grade":"grade 10"},"val":39},{"key":{"year":2010,"subgroup":"Direct Cert","grade":"grade 11"},"val":25},{"key":{"year":2010,"subgroup":"Direct Cert","grade":"grade 12"},"val":22},{"key":{"year":2011,"subgroup":"All","grade":"All"},"val":376},{"key":{"year":2011,"subgroup":"All","grade":"grade 9"},"val":126},{"key":{"year":2011,"subgroup":"All","grade":"grade 10"},"val":114},{"key":{"year":2011,"subgroup":"All","grade":"grade 11"},"val":90},{"key":{"year":2011,"subgroup":"All","grade":"grade 12"},"val":46},{"key":{"year":2011,"subgroup":"MALE","grade":"All"},"val":149},{"key":{"year":2011,"subgroup":"MALE","grade":"grade 9"},"val":60},{"key":{"year":2011,"subgroup":"MALE","grade":"grade 10"},"val":46},{"key":{"year":2011,"subgroup":"MALE","grade":"grade 11"},"val":30},{"key":{"year":2011,"subgroup":"MALE","grade":"grade 12"},"val":13},{"key":{"year":2011,"subgroup":"FEMALE","grade":"All"},"val":227},{"key":{"year":2011,"subgroup":"FEMALE","grade":"grade 9"},"val":66},{"key":{"year":2011,"subgroup":"FEMALE","grade":"grade 10"},"val":68},{"key":{"year":2011,"subgroup":"FEMALE","grade":"grade 11"},"val":60},{"key":{"year":2011,"subgroup":"FEMALE","grade":"grade 12"},"val":33},{"key":{"year":2011,"subgroup":"BL7","grade":"All"},"val":346},{"key":{"year":2011,"subgroup":"BL7","grade":"grade 9"},"val":119},{"key":{"year":2011,"subgroup":"BL7","grade":"grade 10"},"val":100},{"key":{"year":2011,"subgroup":"BL7","grade":"grade 11"},"val":83},{"key":{"year":2011,"subgroup":"BL7","grade":"grade 12"},"val":44},{"key":{"year":2011,"subgroup":"HI7","grade":"All"},"val":24},{"key":{"year":2011,"subgroup":"HI7","grade":"grade 10"},"val":13},{"key":{"year":2011,"subgroup":"SPED","grade":"All"},"val":48},{"key":{"year":2011,"subgroup":"SPED","grade":"grade 9"},"val":15},{"key":{"year":2011,"subgroup":"SPED","grade":"grade 10"},"val":14},{"key":{"year":2011,"subgroup":"SPED","grade":"grade 11"},"val":13},{"key":{"year":2011,"subgroup":"SPED Level 2","grade":"All"},"val":29},{"key":{"year":2011,"subgroup":"SPED Level 2","grade":"grade 9"},"val":11},{"key":{"year":2011,"subgroup":"Economy","grade":"All"},"val":287},{"key":{"year":2011,"subgroup":"Economy","grade":"grade 9"},"val":102},{"key":{"year":2011,"subgroup":"Economy","grade":"grade 10"},"val":88},{"key":{"year":2011,"subgroup":"Economy","grade":"grade 11"},"val":64},{"key":{"year":2011,"subgroup":"Economy","grade":"grade 12"},"val":33},{"key":{"year":2011,"subgroup":"Direct Cert","grade":"All"},"val":174},{"key":{"year":2011,"subgroup":"Direct Cert","grade":"grade 9"},"val":71},{"key":{"year":2011,"subgroup":"Direct Cert","grade":"grade 10"},"val":51},{"key":{"year":2011,"subgroup":"Direct Cert","grade":"grade 11"},"val":34},{"key":{"year":2011,"subgroup":"Direct Cert","grade":"grade 12"},"val":18},{"key":{"year":2012,"subgroup":"All","grade":"All"},"val":391},{"key":{"year":2012,"subgroup":"All","grade":"grade 9"},"val":138},{"key":{"year":2012,"subgroup":"All","grade":"grade 10"},"val":86},{"key":{"year":2012,"subgroup":"All","grade":"grade 11"},"val":94},{"key":{"year":2012,"subgroup":"All","grade":"grade 12"},"val":73},{"key":{"year":2012,"subgroup":"MALE","grade":"All"},"val":165},{"key":{"year":2012,"subgroup":"MALE","grade":"grade 9"},"val":70},{"key":{"year":2012,"subgroup":"MALE","grade":"grade 10"},"val":36},{"key":{"year":2012,"subgroup":"MALE","grade":"grade 11"},"val":38},{"key":{"year":2012,"subgroup":"MALE","grade":"grade 12"},"val":21},{"key":{"year":2012,"subgroup":"FEMALE","grade":"All"},"val":226},{"key":{"year":2012,"subgroup":"FEMALE","grade":"grade 9"},"val":68},{"key":{"year":2012,"subgroup":"FEMALE","grade":"grade 10"},"val":50},{"key":{"year":2012,"subgroup":"FEMALE","grade":"grade 11"},"val":56},{"key":{"year":2012,"subgroup":"FEMALE","grade":"grade 12"},"val":52},{"key":{"year":2012,"subgroup":"BL7","grade":"All"},"val":357},{"key":{"year":2012,"subgroup":"BL7","grade":"grade 9"},"val":125},{"key":{"year":2012,"subgroup":"BL7","grade":"grade 10"},"val":82},{"key":{"year":2012,"subgroup":"BL7","grade":"grade 11"},"val":84},{"key":{"year":2012,"subgroup":"BL7","grade":"grade 12"},"val":66},{"key":{"year":2012,"subgroup":"HI7","grade":"All"},"val":23},{"key":{"year":2012,"subgroup":"WH7","grade":"All"},"val":11},{"key":{"year":2012,"subgroup":"SPED","grade":"All"},"val":48},{"key":{"year":2012,"subgroup":"SPED","grade":"grade 9"},"val":19},{"key":{"year":2012,"subgroup":"SPED","grade":"grade 11"},"val":13},{"key":{"year":2012,"subgroup":"SPED Level 2","grade":"All"},"val":25},{"key":{"year":2012,"subgroup":"SPED Level 3","grade":"All"},"val":15},{"key":{"year":2012,"subgroup":"Economy","grade":"All"},"val":171},{"key":{"year":2012,"subgroup":"Economy","grade":"grade 9"},"val":64},{"key":{"year":2012,"subgroup":"Economy","grade":"grade 10"},"val":44},{"key":{"year":2012,"subgroup":"Economy","grade":"grade 11"},"val":39},{"key":{"year":2012,"subgroup":"Economy","grade":"grade 12"},"val":24},{"key":{"year":2012,"subgroup":"Direct Cert","grade":"All"},"val":184},{"key":{"year":2012,"subgroup":"Direct Cert","grade":"grade 9"},"val":72},{"key":{"year":2012,"subgroup":"Direct Cert","grade":"grade 10"},"val":45},{"key":{"year":2012,"subgroup":"Direct Cert","grade":"grade 11"},"val":40},{"key":{"year":2012,"subgroup":"Direct Cert","grade":"grade 12"},"val":27},{"key":{"year":2013,"subgroup":"All","grade":"All"},"val":373},{"key":{"year":2013,"subgroup":"All","grade":"grade 9"},"val":113},{"key":{"year":2013,"subgroup":"All","grade":"grade 10"},"val":108},{"key":{"year":2013,"subgroup":"All","grade":"grade 11"},"val":71},{"key":{"year":2013,"subgroup":"All","grade":"grade 12"},"val":81},{"key":{"year":2013,"subgroup":"MALE","grade":"All"},"val":175},{"key":{"year":2013,"subgroup":"MALE","grade":"grade 9"},"val":64},{"key":{"year":2013,"subgroup":"MALE","grade":"grade 10"},"val":48},{"key":{"year":2013,"subgroup":"MALE","grade":"grade 11"},"val":32},{"key":{"year":2013,"subgroup":"MALE","grade":"grade 12"},"val":31},{"key":{"year":2013,"subgroup":"FEMALE","grade":"All"},"val":198},{"key":{"year":2013,"subgroup":"FEMALE","grade":"grade 9"},"val":49},{"key":{"year":2013,"subgroup":"FEMALE","grade":"grade 10"},"val":60},{"key":{"year":2013,"subgroup":"FEMALE","grade":"grade 11"},"val":39},{"key":{"year":2013,"subgroup":"FEMALE","grade":"grade 12"},"val":50},{"key":{"year":2013,"subgroup":"BL7","grade":"All"},"val":337},{"key":{"year":2013,"subgroup":"BL7","grade":"grade 9"},"val":99},{"key":{"year":2013,"subgroup":"BL7","grade":"grade 10"},"val":97},{"key":{"year":2013,"subgroup":"BL7","grade":"grade 11"},"val":68},{"key":{"year":2013,"subgroup":"BL7","grade":"grade 12"},"val":73},{"key":{"year":2013,"subgroup":"HI7","grade":"All"},"val":35},{"key":{"year":2013,"subgroup":"HI7","grade":"grade 9"},"val":14},{"key":{"year":2013,"subgroup":"HI7","grade":"grade 10"},"val":10},{"key":{"year":2013,"subgroup":"SPED","grade":"All"},"val":44},{"key":{"year":2013,"subgroup":"SPED","grade":"grade 9"},"val":17},{"key":{"year":2013,"subgroup":"SPED","grade":"grade 10"},"val":11},{"key":{"year":2013,"subgroup":"SPED","grade":"grade 12"},"val":10},{"key":{"year":2013,"subgroup":"SPED Level 2","grade":"All"},"val":27},{"key":{"year":2013,"subgroup":"LEP","grade":"All"},"val":15},{"key":{"year":2013,"subgroup":"Economy","grade":"All"},"val":373},{"key":{"year":2013,"subgroup":"Economy","grade":"grade 9"},"val":113},{"key":{"year":2013,"subgroup":"Economy","grade":"grade 10"},"val":108},{"key":{"year":2013,"subgroup":"Economy","grade":"grade 11"},"val":71},{"key":{"year":2013,"subgroup":"Economy","grade":"grade 12"},"val":81},{"key":{"year":2013,"subgroup":"Direct Cert","grade":"All"},"val":198},{"key":{"year":2013,"subgroup":"Direct Cert","grade":"grade 9"},"val":69},{"key":{"year":2013,"subgroup":"Direct Cert","grade":"grade 10"},"val":53},{"key":{"year":2013,"subgroup":"Direct Cert","grade":"grade 11"},"val":41},{"key":{"year":2013,"subgroup":"Direct Cert","grade":"grade 12"},"val":35}]
+[
+    {
+        "key": [
+            [
+                {
+                    "year": 2006,
+                    "subgroup": "All",
+                    "grade": "All"
+                }
+            ]
+        ],
+        "val": [
+            [
+                315
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2006,
+                    "subgroup": "All",
+                    "grade": "grade 9"
+                }
+            ]
+        ],
+        "val": [
+            [
+                155
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2006,
+                    "subgroup": "All",
+                    "grade": "grade 10"
+                }
+            ]
+        ],
+        "val": [
+            [
+                97
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2006,
+                    "subgroup": "All",
+                    "grade": "grade 11"
+                }
+            ]
+        ],
+        "val": [
+            [
+                45
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2006,
+                    "subgroup": "All",
+                    "grade": "grade 12"
+                }
+            ]
+        ],
+        "val": [
+            [
+                18
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2006,
+                    "subgroup": "MALE",
+                    "grade": "All"
+                }
+            ]
+        ],
+        "val": [
+            [
+                150
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2006,
+                    "subgroup": "MALE",
+                    "grade": "grade 9"
+                }
+            ]
+        ],
+        "val": [
+            [
+                76
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2006,
+                    "subgroup": "MALE",
+                    "grade": "grade 10"
+                }
+            ]
+        ],
+        "val": [
+            [
+                49
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2006,
+                    "subgroup": "MALE",
+                    "grade": "grade 11"
+                }
+            ]
+        ],
+        "val": [
+            [
+                18
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2006,
+                    "subgroup": "FEMALE",
+                    "grade": "All"
+                }
+            ]
+        ],
+        "val": [
+            [
+                165
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2006,
+                    "subgroup": "FEMALE",
+                    "grade": "grade 9"
+                }
+            ]
+        ],
+        "val": [
+            [
+                79
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2006,
+                    "subgroup": "FEMALE",
+                    "grade": "grade 10"
+                }
+            ]
+        ],
+        "val": [
+            [
+                48
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2006,
+                    "subgroup": "FEMALE",
+                    "grade": "grade 11"
+                }
+            ]
+        ],
+        "val": [
+            [
+                27
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2006,
+                    "subgroup": "FEMALE",
+                    "grade": "grade 12"
+                }
+            ]
+        ],
+        "val": [
+            [
+                11
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2006,
+                    "subgroup": "BL7",
+                    "grade": "All"
+                }
+            ]
+        ],
+        "val": [
+            [
+                267
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2006,
+                    "subgroup": "BL7",
+                    "grade": "grade 9"
+                }
+            ]
+        ],
+        "val": [
+            [
+                136
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2006,
+                    "subgroup": "BL7",
+                    "grade": "grade 10"
+                }
+            ]
+        ],
+        "val": [
+            [
+                89
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2006,
+                    "subgroup": "BL7",
+                    "grade": "grade 11"
+                }
+            ]
+        ],
+        "val": [
+            [
+                31
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2006,
+                    "subgroup": "BL7",
+                    "grade": "grade 12"
+                }
+            ]
+        ],
+        "val": [
+            [
+                11
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2006,
+                    "subgroup": "HI7",
+                    "grade": "All"
+                }
+            ]
+        ],
+        "val": [
+            [
+                44
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2006,
+                    "subgroup": "HI7",
+                    "grade": "grade 9"
+                }
+            ]
+        ],
+        "val": [
+            [
+                18
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2006,
+                    "subgroup": "HI7",
+                    "grade": "grade 11"
+                }
+            ]
+        ],
+        "val": [
+            [
+                14
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2006,
+                    "subgroup": "SPED",
+                    "grade": "All"
+                }
+            ]
+        ],
+        "val": [
+            [
+                34
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2006,
+                    "subgroup": "SPED",
+                    "grade": "grade 9"
+                }
+            ]
+        ],
+        "val": [
+            [
+                18
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2006,
+                    "subgroup": "SPED",
+                    "grade": "grade 10"
+                }
+            ]
+        ],
+        "val": [
+            [
+                14
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2006,
+                    "subgroup": "SPED Level 2",
+                    "grade": "All"
+                }
+            ]
+        ],
+        "val": [
+            [
+                14
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2007,
+                    "subgroup": "All",
+                    "grade": "All"
+                }
+            ]
+        ],
+        "val": [
+            [
+                288
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2007,
+                    "subgroup": "All",
+                    "grade": "grade 9"
+                }
+            ]
+        ],
+        "val": [
+            [
+                122
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2007,
+                    "subgroup": "All",
+                    "grade": "grade 10"
+                }
+            ]
+        ],
+        "val": [
+            [
+                99
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2007,
+                    "subgroup": "All",
+                    "grade": "grade 11"
+                }
+            ]
+        ],
+        "val": [
+            [
+                33
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2007,
+                    "subgroup": "All",
+                    "grade": "grade 12"
+                }
+            ]
+        ],
+        "val": [
+            [
+                34
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2007,
+                    "subgroup": "MALE",
+                    "grade": "All"
+                }
+            ]
+        ],
+        "val": [
+            [
+                143
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2007,
+                    "subgroup": "MALE",
+                    "grade": "grade 9"
+                }
+            ]
+        ],
+        "val": [
+            [
+                56
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2007,
+                    "subgroup": "MALE",
+                    "grade": "grade 10"
+                }
+            ]
+        ],
+        "val": [
+            [
+                55
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2007,
+                    "subgroup": "MALE",
+                    "grade": "grade 11"
+                }
+            ]
+        ],
+        "val": [
+            [
+                16
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2007,
+                    "subgroup": "MALE",
+                    "grade": "grade 12"
+                }
+            ]
+        ],
+        "val": [
+            [
+                16
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2007,
+                    "subgroup": "FEMALE",
+                    "grade": "All"
+                }
+            ]
+        ],
+        "val": [
+            [
+                145
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2007,
+                    "subgroup": "FEMALE",
+                    "grade": "grade 9"
+                }
+            ]
+        ],
+        "val": [
+            [
+                66
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2007,
+                    "subgroup": "FEMALE",
+                    "grade": "grade 10"
+                }
+            ]
+        ],
+        "val": [
+            [
+                44
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2007,
+                    "subgroup": "FEMALE",
+                    "grade": "grade 11"
+                }
+            ]
+        ],
+        "val": [
+            [
+                17
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2007,
+                    "subgroup": "FEMALE",
+                    "grade": "grade 12"
+                }
+            ]
+        ],
+        "val": [
+            [
+                18
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2007,
+                    "subgroup": "BL7",
+                    "grade": "All"
+                }
+            ]
+        ],
+        "val": [
+            [
+                245
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2007,
+                    "subgroup": "BL7",
+                    "grade": "grade 9"
+                }
+            ]
+        ],
+        "val": [
+            [
+                103
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2007,
+                    "subgroup": "BL7",
+                    "grade": "grade 10"
+                }
+            ]
+        ],
+        "val": [
+            [
+                87
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2007,
+                    "subgroup": "BL7",
+                    "grade": "grade 11"
+                }
+            ]
+        ],
+        "val": [
+            [
+                31
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2007,
+                    "subgroup": "BL7",
+                    "grade": "grade 12"
+                }
+            ]
+        ],
+        "val": [
+            [
+                24
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2007,
+                    "subgroup": "HI7",
+                    "grade": "All"
+                }
+            ]
+        ],
+        "val": [
+            [
+                38
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2007,
+                    "subgroup": "HI7",
+                    "grade": "grade 9"
+                }
+            ]
+        ],
+        "val": [
+            [
+                17
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2007,
+                    "subgroup": "HI7",
+                    "grade": "grade 10"
+                }
+            ]
+        ],
+        "val": [
+            [
+                10
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2007,
+                    "subgroup": "HI7",
+                    "grade": "grade 12"
+                }
+            ]
+        ],
+        "val": [
+            [
+                10
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2007,
+                    "subgroup": "SPED",
+                    "grade": "All"
+                }
+            ]
+        ],
+        "val": [
+            [
+                35
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2007,
+                    "subgroup": "SPED",
+                    "grade": "grade 9"
+                }
+            ]
+        ],
+        "val": [
+            [
+                16
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2007,
+                    "subgroup": "SPED",
+                    "grade": "grade 10"
+                }
+            ]
+        ],
+        "val": [
+            [
+                13
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2007,
+                    "subgroup": "SPED Level 1",
+                    "grade": "All"
+                }
+            ]
+        ],
+        "val": [
+            [
+                14
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2007,
+                    "subgroup": "SPED Level 2",
+                    "grade": "All"
+                }
+            ]
+        ],
+        "val": [
+            [
+                15
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2008,
+                    "subgroup": "All",
+                    "grade": "All"
+                }
+            ]
+        ],
+        "val": [
+            [
+                335
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2008,
+                    "subgroup": "All",
+                    "grade": "grade 9"
+                }
+            ]
+        ],
+        "val": [
+            [
+                148
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2008,
+                    "subgroup": "All",
+                    "grade": "grade 10"
+                }
+            ]
+        ],
+        "val": [
+            [
+                108
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2008,
+                    "subgroup": "All",
+                    "grade": "grade 11"
+                }
+            ]
+        ],
+        "val": [
+            [
+                50
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2008,
+                    "subgroup": "All",
+                    "grade": "grade 12"
+                }
+            ]
+        ],
+        "val": [
+            [
+                29
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2008,
+                    "subgroup": "MALE",
+                    "grade": "All"
+                }
+            ]
+        ],
+        "val": [
+            [
+                128
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2008,
+                    "subgroup": "MALE",
+                    "grade": "grade 9"
+                }
+            ]
+        ],
+        "val": [
+            [
+                50
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2008,
+                    "subgroup": "MALE",
+                    "grade": "grade 10"
+                }
+            ]
+        ],
+        "val": [
+            [
+                41
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2008,
+                    "subgroup": "MALE",
+                    "grade": "grade 11"
+                }
+            ]
+        ],
+        "val": [
+            [
+                23
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2008,
+                    "subgroup": "MALE",
+                    "grade": "grade 12"
+                }
+            ]
+        ],
+        "val": [
+            [
+                14
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2008,
+                    "subgroup": "FEMALE",
+                    "grade": "All"
+                }
+            ]
+        ],
+        "val": [
+            [
+                188
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2008,
+                    "subgroup": "FEMALE",
+                    "grade": "grade 9"
+                }
+            ]
+        ],
+        "val": [
+            [
+                87
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2008,
+                    "subgroup": "FEMALE",
+                    "grade": "grade 10"
+                }
+            ]
+        ],
+        "val": [
+            [
+                63
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2008,
+                    "subgroup": "FEMALE",
+                    "grade": "grade 11"
+                }
+            ]
+        ],
+        "val": [
+            [
+                23
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2008,
+                    "subgroup": "FEMALE",
+                    "grade": "grade 12"
+                }
+            ]
+        ],
+        "val": [
+            [
+                15
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2008,
+                    "subgroup": "BL7",
+                    "grade": "All"
+                }
+            ]
+        ],
+        "val": [
+            [
+                303
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2008,
+                    "subgroup": "BL7",
+                    "grade": "grade 9"
+                }
+            ]
+        ],
+        "val": [
+            [
+                139
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2008,
+                    "subgroup": "BL7",
+                    "grade": "grade 10"
+                }
+            ]
+        ],
+        "val": [
+            [
+                93
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2008,
+                    "subgroup": "BL7",
+                    "grade": "grade 11"
+                }
+            ]
+        ],
+        "val": [
+            [
+                42
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2008,
+                    "subgroup": "BL7",
+                    "grade": "grade 12"
+                }
+            ]
+        ],
+        "val": [
+            [
+                29
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2008,
+                    "subgroup": "HI7",
+                    "grade": "All"
+                }
+            ]
+        ],
+        "val": [
+            [
+                29
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2008,
+                    "subgroup": "HI7",
+                    "grade": "grade 10"
+                }
+            ]
+        ],
+        "val": [
+            [
+                14
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2008,
+                    "subgroup": "SPED",
+                    "grade": "All"
+                }
+            ]
+        ],
+        "val": [
+            [
+                41
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2008,
+                    "subgroup": "SPED",
+                    "grade": "grade 9"
+                }
+            ]
+        ],
+        "val": [
+            [
+                17
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2008,
+                    "subgroup": "SPED",
+                    "grade": "grade 10"
+                }
+            ]
+        ],
+        "val": [
+            [
+                11
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2008,
+                    "subgroup": "SPED Level 1",
+                    "grade": "All"
+                }
+            ]
+        ],
+        "val": [
+            [
+                19
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2008,
+                    "subgroup": "SPED Level 2",
+                    "grade": "All"
+                }
+            ]
+        ],
+        "val": [
+            [
+                17
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2008,
+                    "subgroup": "Economy",
+                    "grade": "All"
+                }
+            ]
+        ],
+        "val": [
+            [
+                23
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2008,
+                    "subgroup": "Economy",
+                    "grade": "grade 9"
+                }
+            ]
+        ],
+        "val": [
+            [
+                14
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2009,
+                    "subgroup": "All",
+                    "grade": "All"
+                }
+            ]
+        ],
+        "val": [
+            [
+                378
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2009,
+                    "subgroup": "All",
+                    "grade": "grade 9"
+                }
+            ]
+        ],
+        "val": [
+            [
+                152
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2009,
+                    "subgroup": "All",
+                    "grade": "grade 10"
+                }
+            ]
+        ],
+        "val": [
+            [
+                107
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2009,
+                    "subgroup": "All",
+                    "grade": "grade 11"
+                }
+            ]
+        ],
+        "val": [
+            [
+                81
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2009,
+                    "subgroup": "All",
+                    "grade": "grade 12"
+                }
+            ]
+        ],
+        "val": [
+            [
+                38
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2009,
+                    "subgroup": "MALE",
+                    "grade": "All"
+                }
+            ]
+        ],
+        "val": [
+            [
+                153
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2009,
+                    "subgroup": "MALE",
+                    "grade": "grade 9"
+                }
+            ]
+        ],
+        "val": [
+            [
+                56
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2009,
+                    "subgroup": "MALE",
+                    "grade": "grade 10"
+                }
+            ]
+        ],
+        "val": [
+            [
+                43
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2009,
+                    "subgroup": "MALE",
+                    "grade": "grade 11"
+                }
+            ]
+        ],
+        "val": [
+            [
+                36
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2009,
+                    "subgroup": "MALE",
+                    "grade": "grade 12"
+                }
+            ]
+        ],
+        "val": [
+            [
+                18
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2009,
+                    "subgroup": "FEMALE",
+                    "grade": "All"
+                }
+            ]
+        ],
+        "val": [
+            [
+                225
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2009,
+                    "subgroup": "FEMALE",
+                    "grade": "grade 9"
+                }
+            ]
+        ],
+        "val": [
+            [
+                96
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2009,
+                    "subgroup": "FEMALE",
+                    "grade": "grade 10"
+                }
+            ]
+        ],
+        "val": [
+            [
+                64
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2009,
+                    "subgroup": "FEMALE",
+                    "grade": "grade 11"
+                }
+            ]
+        ],
+        "val": [
+            [
+                45
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2009,
+                    "subgroup": "FEMALE",
+                    "grade": "grade 12"
+                }
+            ]
+        ],
+        "val": [
+            [
+                20
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2009,
+                    "subgroup": "BL7",
+                    "grade": "All"
+                }
+            ]
+        ],
+        "val": [
+            [
+                336
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2009,
+                    "subgroup": "BL7",
+                    "grade": "grade 9"
+                }
+            ]
+        ],
+        "val": [
+            [
+                134
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2009,
+                    "subgroup": "BL7",
+                    "grade": "grade 10"
+                }
+            ]
+        ],
+        "val": [
+            [
+                101
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2009,
+                    "subgroup": "BL7",
+                    "grade": "grade 11"
+                }
+            ]
+        ],
+        "val": [
+            [
+                71
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2009,
+                    "subgroup": "BL7",
+                    "grade": "grade 12"
+                }
+            ]
+        ],
+        "val": [
+            [
+                30
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2009,
+                    "subgroup": "HI7",
+                    "grade": "All"
+                }
+            ]
+        ],
+        "val": [
+            [
+                36
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2009,
+                    "subgroup": "HI7",
+                    "grade": "grade 9"
+                }
+            ]
+        ],
+        "val": [
+            [
+                15
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2009,
+                    "subgroup": "SPED",
+                    "grade": "All"
+                }
+            ]
+        ],
+        "val": [
+            [
+                49
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2009,
+                    "subgroup": "SPED",
+                    "grade": "grade 9"
+                }
+            ]
+        ],
+        "val": [
+            [
+                20
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2009,
+                    "subgroup": "SPED",
+                    "grade": "grade 10"
+                }
+            ]
+        ],
+        "val": [
+            [
+                16
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2009,
+                    "subgroup": "SPED",
+                    "grade": "grade 11"
+                }
+            ]
+        ],
+        "val": [
+            [
+                12
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2009,
+                    "subgroup": "SPED Level 1",
+                    "grade": "All"
+                }
+            ]
+        ],
+        "val": [
+            [
+                15
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2009,
+                    "subgroup": "SPED Level 2",
+                    "grade": "All"
+                }
+            ]
+        ],
+        "val": [
+            [
+                26
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2009,
+                    "subgroup": "SPED Level 2",
+                    "grade": "grade 9"
+                }
+            ]
+        ],
+        "val": [
+            [
+                13
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2009,
+                    "subgroup": "SPED Level 2",
+                    "grade": "grade 10"
+                }
+            ]
+        ],
+        "val": [
+            [
+                10
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2009,
+                    "subgroup": "LEP",
+                    "grade": "All"
+                }
+            ]
+        ],
+        "val": [
+            [
+                13
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2009,
+                    "subgroup": "Economy",
+                    "grade": "All"
+                }
+            ]
+        ],
+        "val": [
+            [
+                76
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2009,
+                    "subgroup": "Economy",
+                    "grade": "grade 10"
+                }
+            ]
+        ],
+        "val": [
+            [
+                75
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2010,
+                    "subgroup": "All",
+                    "grade": "All"
+                }
+            ]
+        ],
+        "val": [
+            [
+                408
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2010,
+                    "subgroup": "All",
+                    "grade": "grade 9"
+                }
+            ]
+        ],
+        "val": [
+            [
+                163
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2010,
+                    "subgroup": "All",
+                    "grade": "grade 10"
+                }
+            ]
+        ],
+        "val": [
+            [
+                115
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2010,
+                    "subgroup": "All",
+                    "grade": "grade 11"
+                }
+            ]
+        ],
+        "val": [
+            [
+                69
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2010,
+                    "subgroup": "All",
+                    "grade": "grade 12"
+                }
+            ]
+        ],
+        "val": [
+            [
+                61
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2010,
+                    "subgroup": "MALE",
+                    "grade": "All"
+                }
+            ]
+        ],
+        "val": [
+            [
+                161
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2010,
+                    "subgroup": "MALE",
+                    "grade": "grade 9"
+                }
+            ]
+        ],
+        "val": [
+            [
+                73
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2010,
+                    "subgroup": "MALE",
+                    "grade": "grade 10"
+                }
+            ]
+        ],
+        "val": [
+            [
+                40
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2010,
+                    "subgroup": "MALE",
+                    "grade": "grade 11"
+                }
+            ]
+        ],
+        "val": [
+            [
+                25
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2010,
+                    "subgroup": "MALE",
+                    "grade": "grade 12"
+                }
+            ]
+        ],
+        "val": [
+            [
+                23
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2010,
+                    "subgroup": "FEMALE",
+                    "grade": "All"
+                }
+            ]
+        ],
+        "val": [
+            [
+                247
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2010,
+                    "subgroup": "FEMALE",
+                    "grade": "grade 9"
+                }
+            ]
+        ],
+        "val": [
+            [
+                90
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2010,
+                    "subgroup": "FEMALE",
+                    "grade": "grade 10"
+                }
+            ]
+        ],
+        "val": [
+            [
+                75
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2010,
+                    "subgroup": "FEMALE",
+                    "grade": "grade 11"
+                }
+            ]
+        ],
+        "val": [
+            [
+                44
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2010,
+                    "subgroup": "FEMALE",
+                    "grade": "grade 12"
+                }
+            ]
+        ],
+        "val": [
+            [
+                38
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2010,
+                    "subgroup": "BL7",
+                    "grade": "All"
+                }
+            ]
+        ],
+        "val": [
+            [
+                374
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2010,
+                    "subgroup": "BL7",
+                    "grade": "grade 9"
+                }
+            ]
+        ],
+        "val": [
+            [
+                148
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2010,
+                    "subgroup": "BL7",
+                    "grade": "grade 10"
+                }
+            ]
+        ],
+        "val": [
+            [
+                105
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2010,
+                    "subgroup": "BL7",
+                    "grade": "grade 11"
+                }
+            ]
+        ],
+        "val": [
+            [
+                67
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2010,
+                    "subgroup": "BL7",
+                    "grade": "grade 12"
+                }
+            ]
+        ],
+        "val": [
+            [
+                54
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2010,
+                    "subgroup": "HI7",
+                    "grade": "All"
+                }
+            ]
+        ],
+        "val": [
+            [
+                31
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2010,
+                    "subgroup": "HI7",
+                    "grade": "grade 9"
+                }
+            ]
+        ],
+        "val": [
+            [
+                15
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2010,
+                    "subgroup": "SPED",
+                    "grade": "All"
+                }
+            ]
+        ],
+        "val": [
+            [
+                59
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2010,
+                    "subgroup": "SPED",
+                    "grade": "grade 9"
+                }
+            ]
+        ],
+        "val": [
+            [
+                27
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2010,
+                    "subgroup": "SPED",
+                    "grade": "grade 10"
+                }
+            ]
+        ],
+        "val": [
+            [
+                15
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2010,
+                    "subgroup": "SPED",
+                    "grade": "grade 11"
+                }
+            ]
+        ],
+        "val": [
+            [
+                10
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2010,
+                    "subgroup": "SPED Level 1",
+                    "grade": "All"
+                }
+            ]
+        ],
+        "val": [
+            [
+                16
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2010,
+                    "subgroup": "SPED Level 2",
+                    "grade": "All"
+                }
+            ]
+        ],
+        "val": [
+            [
+                33
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2010,
+                    "subgroup": "SPED Level 2",
+                    "grade": "grade 9"
+                }
+            ]
+        ],
+        "val": [
+            [
+                18
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2010,
+                    "subgroup": "SPED Level 3",
+                    "grade": "All"
+                }
+            ]
+        ],
+        "val": [
+            [
+                10
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2010,
+                    "subgroup": "LEP",
+                    "grade": "All"
+                }
+            ]
+        ],
+        "val": [
+            [
+                13
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2010,
+                    "subgroup": "Economy",
+                    "grade": "All"
+                }
+            ]
+        ],
+        "val": [
+            [
+                256
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2010,
+                    "subgroup": "Economy",
+                    "grade": "grade 9"
+                }
+            ]
+        ],
+        "val": [
+            [
+                90
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2010,
+                    "subgroup": "Economy",
+                    "grade": "grade 10"
+                }
+            ]
+        ],
+        "val": [
+            [
+                82
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2010,
+                    "subgroup": "Economy",
+                    "grade": "grade 11"
+                }
+            ]
+        ],
+        "val": [
+            [
+                31
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2010,
+                    "subgroup": "Economy",
+                    "grade": "grade 12"
+                }
+            ]
+        ],
+        "val": [
+            [
+                53
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2010,
+                    "subgroup": "Direct Cert",
+                    "grade": "All"
+                }
+            ]
+        ],
+        "val": [
+            [
+                158
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2010,
+                    "subgroup": "Direct Cert",
+                    "grade": "grade 9"
+                }
+            ]
+        ],
+        "val": [
+            [
+                72
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2010,
+                    "subgroup": "Direct Cert",
+                    "grade": "grade 10"
+                }
+            ]
+        ],
+        "val": [
+            [
+                39
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2010,
+                    "subgroup": "Direct Cert",
+                    "grade": "grade 11"
+                }
+            ]
+        ],
+        "val": [
+            [
+                25
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2010,
+                    "subgroup": "Direct Cert",
+                    "grade": "grade 12"
+                }
+            ]
+        ],
+        "val": [
+            [
+                22
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2011,
+                    "subgroup": "All",
+                    "grade": "All"
+                }
+            ]
+        ],
+        "val": [
+            [
+                376
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2011,
+                    "subgroup": "All",
+                    "grade": "grade 9"
+                }
+            ]
+        ],
+        "val": [
+            [
+                126
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2011,
+                    "subgroup": "All",
+                    "grade": "grade 10"
+                }
+            ]
+        ],
+        "val": [
+            [
+                114
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2011,
+                    "subgroup": "All",
+                    "grade": "grade 11"
+                }
+            ]
+        ],
+        "val": [
+            [
+                90
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2011,
+                    "subgroup": "All",
+                    "grade": "grade 12"
+                }
+            ]
+        ],
+        "val": [
+            [
+                46
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2011,
+                    "subgroup": "MALE",
+                    "grade": "All"
+                }
+            ]
+        ],
+        "val": [
+            [
+                149
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2011,
+                    "subgroup": "MALE",
+                    "grade": "grade 9"
+                }
+            ]
+        ],
+        "val": [
+            [
+                60
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2011,
+                    "subgroup": "MALE",
+                    "grade": "grade 10"
+                }
+            ]
+        ],
+        "val": [
+            [
+                46
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2011,
+                    "subgroup": "MALE",
+                    "grade": "grade 11"
+                }
+            ]
+        ],
+        "val": [
+            [
+                30
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2011,
+                    "subgroup": "MALE",
+                    "grade": "grade 12"
+                }
+            ]
+        ],
+        "val": [
+            [
+                13
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2011,
+                    "subgroup": "FEMALE",
+                    "grade": "All"
+                }
+            ]
+        ],
+        "val": [
+            [
+                227
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2011,
+                    "subgroup": "FEMALE",
+                    "grade": "grade 9"
+                }
+            ]
+        ],
+        "val": [
+            [
+                66
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2011,
+                    "subgroup": "FEMALE",
+                    "grade": "grade 10"
+                }
+            ]
+        ],
+        "val": [
+            [
+                68
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2011,
+                    "subgroup": "FEMALE",
+                    "grade": "grade 11"
+                }
+            ]
+        ],
+        "val": [
+            [
+                60
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2011,
+                    "subgroup": "FEMALE",
+                    "grade": "grade 12"
+                }
+            ]
+        ],
+        "val": [
+            [
+                33
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2011,
+                    "subgroup": "BL7",
+                    "grade": "All"
+                }
+            ]
+        ],
+        "val": [
+            [
+                346
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2011,
+                    "subgroup": "BL7",
+                    "grade": "grade 9"
+                }
+            ]
+        ],
+        "val": [
+            [
+                119
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2011,
+                    "subgroup": "BL7",
+                    "grade": "grade 10"
+                }
+            ]
+        ],
+        "val": [
+            [
+                100
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2011,
+                    "subgroup": "BL7",
+                    "grade": "grade 11"
+                }
+            ]
+        ],
+        "val": [
+            [
+                83
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2011,
+                    "subgroup": "BL7",
+                    "grade": "grade 12"
+                }
+            ]
+        ],
+        "val": [
+            [
+                44
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2011,
+                    "subgroup": "HI7",
+                    "grade": "All"
+                }
+            ]
+        ],
+        "val": [
+            [
+                24
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2011,
+                    "subgroup": "HI7",
+                    "grade": "grade 10"
+                }
+            ]
+        ],
+        "val": [
+            [
+                13
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2011,
+                    "subgroup": "SPED",
+                    "grade": "All"
+                }
+            ]
+        ],
+        "val": [
+            [
+                48
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2011,
+                    "subgroup": "SPED",
+                    "grade": "grade 9"
+                }
+            ]
+        ],
+        "val": [
+            [
+                15
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2011,
+                    "subgroup": "SPED",
+                    "grade": "grade 10"
+                }
+            ]
+        ],
+        "val": [
+            [
+                14
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2011,
+                    "subgroup": "SPED",
+                    "grade": "grade 11"
+                }
+            ]
+        ],
+        "val": [
+            [
+                13
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2011,
+                    "subgroup": "SPED Level 2",
+                    "grade": "All"
+                }
+            ]
+        ],
+        "val": [
+            [
+                29
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2011,
+                    "subgroup": "SPED Level 2",
+                    "grade": "grade 9"
+                }
+            ]
+        ],
+        "val": [
+            [
+                11
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2011,
+                    "subgroup": "Economy",
+                    "grade": "All"
+                }
+            ]
+        ],
+        "val": [
+            [
+                287
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2011,
+                    "subgroup": "Economy",
+                    "grade": "grade 9"
+                }
+            ]
+        ],
+        "val": [
+            [
+                102
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2011,
+                    "subgroup": "Economy",
+                    "grade": "grade 10"
+                }
+            ]
+        ],
+        "val": [
+            [
+                88
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2011,
+                    "subgroup": "Economy",
+                    "grade": "grade 11"
+                }
+            ]
+        ],
+        "val": [
+            [
+                64
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2011,
+                    "subgroup": "Economy",
+                    "grade": "grade 12"
+                }
+            ]
+        ],
+        "val": [
+            [
+                33
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2011,
+                    "subgroup": "Direct Cert",
+                    "grade": "All"
+                }
+            ]
+        ],
+        "val": [
+            [
+                174
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2011,
+                    "subgroup": "Direct Cert",
+                    "grade": "grade 9"
+                }
+            ]
+        ],
+        "val": [
+            [
+                71
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2011,
+                    "subgroup": "Direct Cert",
+                    "grade": "grade 10"
+                }
+            ]
+        ],
+        "val": [
+            [
+                51
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2011,
+                    "subgroup": "Direct Cert",
+                    "grade": "grade 11"
+                }
+            ]
+        ],
+        "val": [
+            [
+                34
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2011,
+                    "subgroup": "Direct Cert",
+                    "grade": "grade 12"
+                }
+            ]
+        ],
+        "val": [
+            [
+                18
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2012,
+                    "subgroup": "All",
+                    "grade": "All"
+                }
+            ]
+        ],
+        "val": [
+            [
+                391
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2012,
+                    "subgroup": "All",
+                    "grade": "grade 9"
+                }
+            ]
+        ],
+        "val": [
+            [
+                138
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2012,
+                    "subgroup": "All",
+                    "grade": "grade 10"
+                }
+            ]
+        ],
+        "val": [
+            [
+                86
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2012,
+                    "subgroup": "All",
+                    "grade": "grade 11"
+                }
+            ]
+        ],
+        "val": [
+            [
+                94
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2012,
+                    "subgroup": "All",
+                    "grade": "grade 12"
+                }
+            ]
+        ],
+        "val": [
+            [
+                73
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2012,
+                    "subgroup": "MALE",
+                    "grade": "All"
+                }
+            ]
+        ],
+        "val": [
+            [
+                165
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2012,
+                    "subgroup": "MALE",
+                    "grade": "grade 9"
+                }
+            ]
+        ],
+        "val": [
+            [
+                70
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2012,
+                    "subgroup": "MALE",
+                    "grade": "grade 10"
+                }
+            ]
+        ],
+        "val": [
+            [
+                36
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2012,
+                    "subgroup": "MALE",
+                    "grade": "grade 11"
+                }
+            ]
+        ],
+        "val": [
+            [
+                38
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2012,
+                    "subgroup": "MALE",
+                    "grade": "grade 12"
+                }
+            ]
+        ],
+        "val": [
+            [
+                21
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2012,
+                    "subgroup": "FEMALE",
+                    "grade": "All"
+                }
+            ]
+        ],
+        "val": [
+            [
+                226
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2012,
+                    "subgroup": "FEMALE",
+                    "grade": "grade 9"
+                }
+            ]
+        ],
+        "val": [
+            [
+                68
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2012,
+                    "subgroup": "FEMALE",
+                    "grade": "grade 10"
+                }
+            ]
+        ],
+        "val": [
+            [
+                50
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2012,
+                    "subgroup": "FEMALE",
+                    "grade": "grade 11"
+                }
+            ]
+        ],
+        "val": [
+            [
+                56
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2012,
+                    "subgroup": "FEMALE",
+                    "grade": "grade 12"
+                }
+            ]
+        ],
+        "val": [
+            [
+                52
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2012,
+                    "subgroup": "BL7",
+                    "grade": "All"
+                }
+            ]
+        ],
+        "val": [
+            [
+                357
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2012,
+                    "subgroup": "BL7",
+                    "grade": "grade 9"
+                }
+            ]
+        ],
+        "val": [
+            [
+                125
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2012,
+                    "subgroup": "BL7",
+                    "grade": "grade 10"
+                }
+            ]
+        ],
+        "val": [
+            [
+                82
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2012,
+                    "subgroup": "BL7",
+                    "grade": "grade 11"
+                }
+            ]
+        ],
+        "val": [
+            [
+                84
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2012,
+                    "subgroup": "BL7",
+                    "grade": "grade 12"
+                }
+            ]
+        ],
+        "val": [
+            [
+                66
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2012,
+                    "subgroup": "HI7",
+                    "grade": "All"
+                }
+            ]
+        ],
+        "val": [
+            [
+                23
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2012,
+                    "subgroup": "WH7",
+                    "grade": "All"
+                }
+            ]
+        ],
+        "val": [
+            [
+                11
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2012,
+                    "subgroup": "SPED",
+                    "grade": "All"
+                }
+            ]
+        ],
+        "val": [
+            [
+                48
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2012,
+                    "subgroup": "SPED",
+                    "grade": "grade 9"
+                }
+            ]
+        ],
+        "val": [
+            [
+                19
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2012,
+                    "subgroup": "SPED",
+                    "grade": "grade 11"
+                }
+            ]
+        ],
+        "val": [
+            [
+                13
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2012,
+                    "subgroup": "SPED Level 2",
+                    "grade": "All"
+                }
+            ]
+        ],
+        "val": [
+            [
+                25
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2012,
+                    "subgroup": "SPED Level 3",
+                    "grade": "All"
+                }
+            ]
+        ],
+        "val": [
+            [
+                15
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2012,
+                    "subgroup": "Economy",
+                    "grade": "All"
+                }
+            ]
+        ],
+        "val": [
+            [
+                171
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2012,
+                    "subgroup": "Economy",
+                    "grade": "grade 9"
+                }
+            ]
+        ],
+        "val": [
+            [
+                64
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2012,
+                    "subgroup": "Economy",
+                    "grade": "grade 10"
+                }
+            ]
+        ],
+        "val": [
+            [
+                44
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2012,
+                    "subgroup": "Economy",
+                    "grade": "grade 11"
+                }
+            ]
+        ],
+        "val": [
+            [
+                39
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2012,
+                    "subgroup": "Economy",
+                    "grade": "grade 12"
+                }
+            ]
+        ],
+        "val": [
+            [
+                24
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2012,
+                    "subgroup": "Direct Cert",
+                    "grade": "All"
+                }
+            ]
+        ],
+        "val": [
+            [
+                184
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2012,
+                    "subgroup": "Direct Cert",
+                    "grade": "grade 9"
+                }
+            ]
+        ],
+        "val": [
+            [
+                72
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2012,
+                    "subgroup": "Direct Cert",
+                    "grade": "grade 10"
+                }
+            ]
+        ],
+        "val": [
+            [
+                45
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2012,
+                    "subgroup": "Direct Cert",
+                    "grade": "grade 11"
+                }
+            ]
+        ],
+        "val": [
+            [
+                40
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2012,
+                    "subgroup": "Direct Cert",
+                    "grade": "grade 12"
+                }
+            ]
+        ],
+        "val": [
+            [
+                27
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2013,
+                    "subgroup": "All",
+                    "grade": "All"
+                }
+            ]
+        ],
+        "val": [
+            [
+                373
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2013,
+                    "subgroup": "All",
+                    "grade": "grade 9"
+                }
+            ]
+        ],
+        "val": [
+            [
+                113
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2013,
+                    "subgroup": "All",
+                    "grade": "grade 10"
+                }
+            ]
+        ],
+        "val": [
+            [
+                108
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2013,
+                    "subgroup": "All",
+                    "grade": "grade 11"
+                }
+            ]
+        ],
+        "val": [
+            [
+                71
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2013,
+                    "subgroup": "All",
+                    "grade": "grade 12"
+                }
+            ]
+        ],
+        "val": [
+            [
+                81
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2013,
+                    "subgroup": "MALE",
+                    "grade": "All"
+                }
+            ]
+        ],
+        "val": [
+            [
+                175
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2013,
+                    "subgroup": "MALE",
+                    "grade": "grade 9"
+                }
+            ]
+        ],
+        "val": [
+            [
+                64
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2013,
+                    "subgroup": "MALE",
+                    "grade": "grade 10"
+                }
+            ]
+        ],
+        "val": [
+            [
+                48
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2013,
+                    "subgroup": "MALE",
+                    "grade": "grade 11"
+                }
+            ]
+        ],
+        "val": [
+            [
+                32
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2013,
+                    "subgroup": "MALE",
+                    "grade": "grade 12"
+                }
+            ]
+        ],
+        "val": [
+            [
+                31
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2013,
+                    "subgroup": "FEMALE",
+                    "grade": "All"
+                }
+            ]
+        ],
+        "val": [
+            [
+                198
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2013,
+                    "subgroup": "FEMALE",
+                    "grade": "grade 9"
+                }
+            ]
+        ],
+        "val": [
+            [
+                49
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2013,
+                    "subgroup": "FEMALE",
+                    "grade": "grade 10"
+                }
+            ]
+        ],
+        "val": [
+            [
+                60
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2013,
+                    "subgroup": "FEMALE",
+                    "grade": "grade 11"
+                }
+            ]
+        ],
+        "val": [
+            [
+                39
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2013,
+                    "subgroup": "FEMALE",
+                    "grade": "grade 12"
+                }
+            ]
+        ],
+        "val": [
+            [
+                50
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2013,
+                    "subgroup": "BL7",
+                    "grade": "All"
+                }
+            ]
+        ],
+        "val": [
+            [
+                337
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2013,
+                    "subgroup": "BL7",
+                    "grade": "grade 9"
+                }
+            ]
+        ],
+        "val": [
+            [
+                99
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2013,
+                    "subgroup": "BL7",
+                    "grade": "grade 10"
+                }
+            ]
+        ],
+        "val": [
+            [
+                97
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2013,
+                    "subgroup": "BL7",
+                    "grade": "grade 11"
+                }
+            ]
+        ],
+        "val": [
+            [
+                68
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2013,
+                    "subgroup": "BL7",
+                    "grade": "grade 12"
+                }
+            ]
+        ],
+        "val": [
+            [
+                73
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2013,
+                    "subgroup": "HI7",
+                    "grade": "All"
+                }
+            ]
+        ],
+        "val": [
+            [
+                35
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2013,
+                    "subgroup": "HI7",
+                    "grade": "grade 9"
+                }
+            ]
+        ],
+        "val": [
+            [
+                14
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2013,
+                    "subgroup": "HI7",
+                    "grade": "grade 10"
+                }
+            ]
+        ],
+        "val": [
+            [
+                10
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2013,
+                    "subgroup": "SPED",
+                    "grade": "All"
+                }
+            ]
+        ],
+        "val": [
+            [
+                44
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2013,
+                    "subgroup": "SPED",
+                    "grade": "grade 9"
+                }
+            ]
+        ],
+        "val": [
+            [
+                17
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2013,
+                    "subgroup": "SPED",
+                    "grade": "grade 10"
+                }
+            ]
+        ],
+        "val": [
+            [
+                11
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2013,
+                    "subgroup": "SPED",
+                    "grade": "grade 12"
+                }
+            ]
+        ],
+        "val": [
+            [
+                10
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2013,
+                    "subgroup": "SPED Level 2",
+                    "grade": "All"
+                }
+            ]
+        ],
+        "val": [
+            [
+                27
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2013,
+                    "subgroup": "LEP",
+                    "grade": "All"
+                }
+            ]
+        ],
+        "val": [
+            [
+                15
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2013,
+                    "subgroup": "Economy",
+                    "grade": "All"
+                }
+            ]
+        ],
+        "val": [
+            [
+                373
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2013,
+                    "subgroup": "Economy",
+                    "grade": "grade 9"
+                }
+            ]
+        ],
+        "val": [
+            [
+                113
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2013,
+                    "subgroup": "Economy",
+                    "grade": "grade 10"
+                }
+            ]
+        ],
+        "val": [
+            [
+                108
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2013,
+                    "subgroup": "Economy",
+                    "grade": "grade 11"
+                }
+            ]
+        ],
+        "val": [
+            [
+                71
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2013,
+                    "subgroup": "Economy",
+                    "grade": "grade 12"
+                }
+            ]
+        ],
+        "val": [
+            [
+                81
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2013,
+                    "subgroup": "Direct Cert",
+                    "grade": "All"
+                }
+            ]
+        ],
+        "val": [
+            [
+                198
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2013,
+                    "subgroup": "Direct Cert",
+                    "grade": "grade 9"
+                }
+            ]
+        ],
+        "val": [
+            [
+                69
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2013,
+                    "subgroup": "Direct Cert",
+                    "grade": "grade 10"
+                }
+            ]
+        ],
+        "val": [
+            [
+                53
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2013,
+                    "subgroup": "Direct Cert",
+                    "grade": "grade 11"
+                }
+            ]
+        ],
+        "val": [
+            [
+                41
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2013,
+                    "subgroup": "Direct Cert",
+                    "grade": "grade 12"
+                }
+            ]
+        ],
+        "val": [
+            [
+                35
+            ]
+        ]
+    }
+]
+
 	}
 }

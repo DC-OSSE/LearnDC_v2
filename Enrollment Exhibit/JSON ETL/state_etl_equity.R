@@ -24,9 +24,7 @@ nested_list <- lapply(1:nrow(state_enr), FUN = function(i){
                          	val = list(state_enr[i,value_index]))
                        })
 
-json <- toJSON(nested_list)
-json <- gsub("[[","",json, fixed=TRUE)
-json <- gsub("]]","",json, fixed=TRUE)
+json <- prettify(toJSON(nested_list, na="null"))
 
 
 newfile <- file("enrollment_equity.json", encoding="UTF-8")
@@ -48,6 +46,6 @@ sink()
 close(newfile)
 
 ## VALIDATE JSON
-test <- readLines("enrollment.json")
+test <- readLines("enrollment_equity.json")
 validate(test)
 

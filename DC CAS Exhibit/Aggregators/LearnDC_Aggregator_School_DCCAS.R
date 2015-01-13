@@ -193,5 +193,3 @@ school_subgroups_df <- subset(school_subgroups_df, n_eligible > 0)
 
 
 sqlSave(dbrepcard_prod, school_subgroups_df, tablename = "cas_school_exhibit", append = FALSE)
-
-

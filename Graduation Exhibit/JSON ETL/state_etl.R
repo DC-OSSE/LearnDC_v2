@@ -24,9 +24,7 @@ nested_list <- lapply(1:nrow(state_grad), FUN = function(i){
                          	val = list(state_grad[i,value_index]))
                        })
 
-json <- toJSON(nested_list)
-json <- gsub("[[","",json, fixed=TRUE)
-json <- gsub("]]","",json, fixed=TRUE)
+json <- prettify(toJSON(nested_list, na="null"))
 
 newfile <- file("graduation.json", encoding="UTF-8")
 sink(newfile)

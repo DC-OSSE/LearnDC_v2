@@ -1,11 +1,70 @@
 {
-"timestamp": "Thu Dec 04 12:17:15 2014",
+"timestamp": "Tue Jan 06 17:02:54 2015",
 "org_type": "school",
 "org_name": "SHARPE HEALTH SCHOOL",
 "org_code": "0312",
 "exhibit": {
 	"id": "graduation",
 	"data":  
-[{"key":{"subgroup":"All","year":2014,"type":"Four Year ACGR"},"val":{"graduates":0,"cohort_size":11}},{"key":{"subgroup":"SPED","year":2014,"type":"Four Year ACGR"},"val":{"graduates":0,"cohort_size":11}},{"key":{"subgroup":"Economy","year":2014,"type":"Four Year ACGR"},"val":{"graduates":0,"cohort_size":10}}]
+[
+    {
+        "key": [
+            [
+                {
+                    "subgroup": "All",
+                    "year": 2014,
+                    "type": "Four Year ACGR"
+                }
+            ]
+        ],
+        "val": [
+            [
+                {
+                    "graduates": 0,
+                    "cohort_size": 11
+                }
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "subgroup": "SPED",
+                    "year": 2014,
+                    "type": "Four Year ACGR"
+                }
+            ]
+        ],
+        "val": [
+            [
+                {
+                    "graduates": 0,
+                    "cohort_size": 11
+                }
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "subgroup": "Economy",
+                    "year": 2014,
+                    "type": "Four Year ACGR"
+                }
+            ]
+        ],
+        "val": [
+            [
+                {
+                    "graduates": 0,
+                    "cohort_size": 10
+                }
+            ]
+        ]
+    }
+]
+
 	}
 }

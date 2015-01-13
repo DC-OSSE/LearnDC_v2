@@ -1,4 +1,5 @@
 setwd("U:/LearnDC ETL V2/DC CAS Exhibit/JSON ETL")
+
 source("./imports/subproc.R")
 source("U:/R/tomkit.R")
 
@@ -18,7 +19,7 @@ cas_no_inv <- subset(cas, math_invalidation %notin% c("A","M"))
 for(g in c(1:2)){
 
 	if(g == 1){
-		cas_acct <- subset(cas_no_inv, full_academic_year %in% c("School","LEA","State"))
+		cas_acct <- subset(cas_no_inv, full_academic_year %in% c("School","LEA","DC"))
 		.enrollment_status <- "full_year"
 	} else if (g == 2){
 		cas_acct <- cas_no_inv

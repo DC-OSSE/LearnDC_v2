@@ -1,11 +1,621 @@
 {
-"timestamp": "Mon Dec 08 11:37:04 2014",
+"timestamp": "Thu Jan 08 09:56:34 2015",
 "org_type": "school",
 "org_name": "",
 "org_code": "0221",
 "exhibit": {
 	"id": "mgp_scores",
 	"data":  
-[{"key":{"year":2012,"subject":"Reading","subgroup":"BL7"},"val":{"mgp_1yr":26,"mgp_2yr":null}},{"key":{"year":2012,"subject":"Reading","subgroup":"Grade 4"},"val":{"mgp_1yr":24,"mgp_2yr":null}},{"key":{"year":2012,"subject":"Reading","subgroup":"All"},"val":{"mgp_1yr":26,"mgp_2yr":38.7}},{"key":{"year":2012,"subject":"Math","subgroup":"Grade 4"},"val":{"mgp_1yr":21,"mgp_2yr":null}},{"key":{"year":2012,"subject":"Reading","subgroup":"Grade 5"},"val":{"mgp_1yr":27,"mgp_2yr":null}},{"key":{"year":2013,"subject":"Math","subgroup":"BL7"},"val":{"mgp_1yr":41,"mgp_2yr":32}},{"key":{"year":2014,"subject":"Math","subgroup":"All"},"val":{"mgp_1yr":34,"mgp_2yr":37.6}},{"key":{"year":2011,"subject":"Math","subgroup":"All"},"val":{"mgp_1yr":55,"mgp_2yr":43.3}},{"key":{"year":2012,"subject":"Reading","subgroup":"SPED"},"val":{"mgp_1yr":26,"mgp_2yr":null}},{"key":{"year":2011,"subject":"Reading","subgroup":"All"},"val":{"mgp_1yr":50,"mgp_2yr":42.7}},{"key":{"year":2012,"subject":"Math","subgroup":"All"},"val":{"mgp_1yr":25,"mgp_2yr":40.7}},{"key":{"year":2012,"subject":"Math","subgroup":"SPED"},"val":{"mgp_1yr":43.5,"mgp_2yr":null}},{"key":{"year":2012,"subject":"Math","subgroup":"BL7"},"val":{"mgp_1yr":24,"mgp_2yr":null}},{"key":{"year":2012,"subject":"Math","subgroup":"Economy"},"val":{"mgp_1yr":25,"mgp_2yr":null}},{"key":{"year":2013,"subject":"Reading","subgroup":"BL7"},"val":{"mgp_1yr":42,"mgp_2yr":34}},{"key":{"year":2012,"subject":"Math","subgroup":"Grade 5"},"val":{"mgp_1yr":34.5,"mgp_2yr":null}},{"key":{"year":2012,"subject":"Reading","subgroup":"Economy"},"val":{"mgp_1yr":27,"mgp_2yr":null}},{"key":{"year":2013,"subject":"Reading","subgroup":"Grade 4"},"val":{"mgp_1yr":33.5,"mgp_2yr":null}},{"key":{"year":2013,"subject":"Reading","subgroup":"Grade 5"},"val":{"mgp_1yr":46,"mgp_2yr":null}},{"key":{"year":2014,"subject":"Math","subgroup":"Grade 4"},"val":{"mgp_1yr":46,"mgp_2yr":null}},{"key":{"year":2013,"subject":"Reading","subgroup":"All"},"val":{"mgp_1yr":42,"mgp_2yr":33.6}},{"key":{"year":2013,"subject":"Math","subgroup":"Economy"},"val":{"mgp_1yr":41,"mgp_2yr":33}},{"key":{"year":2013,"subject":"Math","subgroup":"Grade 5"},"val":{"mgp_1yr":59,"mgp_2yr":null}},{"key":{"year":2014,"subject":"Math","subgroup":"Grade 5"},"val":{"mgp_1yr":28,"mgp_2yr":null}},{"key":{"year":2014,"subject":"Math","subgroup":"BL7"},"val":{"mgp_1yr":34,"mgp_2yr":37.6}},{"key":{"year":2013,"subject":"Math","subgroup":"Grade 4"},"val":{"mgp_1yr":16,"mgp_2yr":null}},{"key":{"year":2014,"subject":"Reading","subgroup":"Grade 5"},"val":{"mgp_1yr":34,"mgp_2yr":null}},{"key":{"year":2014,"subject":"Reading","subgroup":"Grade 4"},"val":{"mgp_1yr":48,"mgp_2yr":null}},{"key":{"year":2014,"subject":"Math","subgroup":"Economy"},"val":{"mgp_1yr":34,"mgp_2yr":37.6}},{"key":{"year":2013,"subject":"Math","subgroup":"All"},"val":{"mgp_1yr":41,"mgp_2yr":32.4}},{"key":{"year":2014,"subject":"Reading","subgroup":"All"},"val":{"mgp_1yr":40,"mgp_2yr":41.1}},{"key":{"year":2014,"subject":"Reading","subgroup":"Economy"},"val":{"mgp_1yr":40,"mgp_2yr":41.1}},{"key":{"year":2013,"subject":"Reading","subgroup":"Economy"},"val":{"mgp_1yr":42,"mgp_2yr":35}},{"key":{"year":2014,"subject":"Reading","subgroup":"BL7"},"val":{"mgp_1yr":40,"mgp_2yr":41.1}}]
+[
+    {
+        "key": [
+            [
+                {
+                    "year": 2013,
+                    "subject": "Reading",
+                    "subgroup": "All"
+                }
+            ]
+        ],
+        "val": [
+            [
+                {
+                    "mgp_1yr": 42,
+                    "mgp_2yr": 33.6
+                }
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2013,
+                    "subject": "Math",
+                    "subgroup": "Economy"
+                }
+            ]
+        ],
+        "val": [
+            [
+                {
+                    "mgp_1yr": 41,
+                    "mgp_2yr": 33
+                }
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2014,
+                    "subject": "Math",
+                    "subgroup": "BL7"
+                }
+            ]
+        ],
+        "val": [
+            [
+                {
+                    "mgp_1yr": 34,
+                    "mgp_2yr": 37.6
+                }
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2014,
+                    "subject": "Math",
+                    "subgroup": "Economy"
+                }
+            ]
+        ],
+        "val": [
+            [
+                {
+                    "mgp_1yr": 34,
+                    "mgp_2yr": 37.6
+                }
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2013,
+                    "subject": "Math",
+                    "subgroup": "All"
+                }
+            ]
+        ],
+        "val": [
+            [
+                {
+                    "mgp_1yr": 41,
+                    "mgp_2yr": 32.4
+                }
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2014,
+                    "subject": "Reading",
+                    "subgroup": "All"
+                }
+            ]
+        ],
+        "val": [
+            [
+                {
+                    "mgp_1yr": 40,
+                    "mgp_2yr": 41.1
+                }
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2014,
+                    "subject": "Reading",
+                    "subgroup": "Economy"
+                }
+            ]
+        ],
+        "val": [
+            [
+                {
+                    "mgp_1yr": 40,
+                    "mgp_2yr": 41.1
+                }
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2013,
+                    "subject": "Reading",
+                    "subgroup": "Economy"
+                }
+            ]
+        ],
+        "val": [
+            [
+                {
+                    "mgp_1yr": 42,
+                    "mgp_2yr": 35
+                }
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2014,
+                    "subject": "Reading",
+                    "subgroup": "BL7"
+                }
+            ]
+        ],
+        "val": [
+            [
+                {
+                    "mgp_1yr": 40,
+                    "mgp_2yr": 41.1
+                }
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2012,
+                    "subject": "Reading",
+                    "subgroup": "BL7"
+                }
+            ]
+        ],
+        "val": [
+            [
+                {
+                    "mgp_1yr": 26,
+                    "mgp_2yr": null
+                }
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2012,
+                    "subject": "Reading",
+                    "subgroup": "All"
+                }
+            ]
+        ],
+        "val": [
+            [
+                {
+                    "mgp_1yr": 26,
+                    "mgp_2yr": 38.7
+                }
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2013,
+                    "subject": "Math",
+                    "subgroup": "BL7"
+                }
+            ]
+        ],
+        "val": [
+            [
+                {
+                    "mgp_1yr": 41,
+                    "mgp_2yr": 32
+                }
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2014,
+                    "subject": "Math",
+                    "subgroup": "All"
+                }
+            ]
+        ],
+        "val": [
+            [
+                {
+                    "mgp_1yr": 34,
+                    "mgp_2yr": 37.6
+                }
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2011,
+                    "subject": "Math",
+                    "subgroup": "All"
+                }
+            ]
+        ],
+        "val": [
+            [
+                {
+                    "mgp_1yr": 55,
+                    "mgp_2yr": 43.3
+                }
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2011,
+                    "subject": "Reading",
+                    "subgroup": "All"
+                }
+            ]
+        ],
+        "val": [
+            [
+                {
+                    "mgp_1yr": 50,
+                    "mgp_2yr": 42.7
+                }
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2012,
+                    "subject": "Math",
+                    "subgroup": "All"
+                }
+            ]
+        ],
+        "val": [
+            [
+                {
+                    "mgp_1yr": 25,
+                    "mgp_2yr": 40.7
+                }
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2012,
+                    "subject": "Math",
+                    "subgroup": "BL7"
+                }
+            ]
+        ],
+        "val": [
+            [
+                {
+                    "mgp_1yr": 24,
+                    "mgp_2yr": null
+                }
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2012,
+                    "subject": "Math",
+                    "subgroup": "Economy"
+                }
+            ]
+        ],
+        "val": [
+            [
+                {
+                    "mgp_1yr": 25,
+                    "mgp_2yr": null
+                }
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2013,
+                    "subject": "Reading",
+                    "subgroup": "BL7"
+                }
+            ]
+        ],
+        "val": [
+            [
+                {
+                    "mgp_1yr": 42,
+                    "mgp_2yr": 34
+                }
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2012,
+                    "subject": "Reading",
+                    "subgroup": "Economy"
+                }
+            ]
+        ],
+        "val": [
+            [
+                {
+                    "mgp_1yr": 27,
+                    "mgp_2yr": null
+                }
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2014,
+                    "subject": "Reading",
+                    "subgroup": "FEMALE"
+                }
+            ]
+        ],
+        "val": [
+            [
+                {
+                    "mgp_1yr": 53,
+                    "mgp_2yr": 50.8182
+                }
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2014,
+                    "subject": "Reading",
+                    "subgroup": "MALE"
+                }
+            ]
+        ],
+        "val": [
+            [
+                {
+                    "mgp_1yr": 31,
+                    "mgp_2yr": 32.1429
+                }
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2013,
+                    "subject": "Reading",
+                    "subgroup": "FEMALE"
+                }
+            ]
+        ],
+        "val": [
+            [
+                {
+                    "mgp_1yr": 48.5,
+                    "mgp_2yr": 36.6901
+                }
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2013,
+                    "subject": "Reading",
+                    "subgroup": "MALE"
+                }
+            ]
+        ],
+        "val": [
+            [
+                {
+                    "mgp_1yr": 33,
+                    "mgp_2yr": 28.25
+                }
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2012,
+                    "subject": "Reading",
+                    "subgroup": "FEMALE"
+                }
+            ]
+        ],
+        "val": [
+            [
+                {
+                    "mgp_1yr": 27,
+                    "mgp_2yr": null
+                }
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2012,
+                    "subject": "Reading",
+                    "subgroup": "MALE"
+                }
+            ]
+        ],
+        "val": [
+            [
+                {
+                    "mgp_1yr": 23.5,
+                    "mgp_2yr": null
+                }
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2014,
+                    "subject": "Math",
+                    "subgroup": "FEMALE"
+                }
+            ]
+        ],
+        "val": [
+            [
+                {
+                    "mgp_1yr": 34,
+                    "mgp_2yr": 42.4848
+                }
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2014,
+                    "subject": "Math",
+                    "subgroup": "MALE"
+                }
+            ]
+        ],
+        "val": [
+            [
+                {
+                    "mgp_1yr": 34,
+                    "mgp_2yr": 36.8571
+                }
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2013,
+                    "subject": "Math",
+                    "subgroup": "FEMALE"
+                }
+            ]
+        ],
+        "val": [
+            [
+                {
+                    "mgp_1yr": 51.5,
+                    "mgp_2yr": 34.4718
+                }
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2013,
+                    "subject": "Math",
+                    "subgroup": "MALE"
+                }
+            ]
+        ],
+        "val": [
+            [
+                {
+                    "mgp_1yr": 39,
+                    "mgp_2yr": 39.5
+                }
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2012,
+                    "subject": "Math",
+                    "subgroup": "FEMALE"
+                }
+            ]
+        ],
+        "val": [
+            [
+                {
+                    "mgp_1yr": 20.5,
+                    "mgp_2yr": null
+                }
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "year": 2012,
+                    "subject": "Math",
+                    "subgroup": "MALE"
+                }
+            ]
+        ],
+        "val": [
+            [
+                {
+                    "mgp_1yr": 40,
+                    "mgp_2yr": null
+                }
+            ]
+        ]
+    }
+]
+
 	}
 }

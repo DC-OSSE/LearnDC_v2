@@ -18,17 +18,18 @@ school_enr$school_code <- sapply(school_enr$school_code, leadgr, 4)
 
 key_index <- c(5,6,7)
 value_index <- 8
-
+num_orphans <- 0
 
 
 for(i in unique(school_enr$school_code)){
 	setwd("U:/LearnDC ETL V2/Export/JSON/school")
-
+	
 	if (file.exists(i)){
 	    setwd(file.path(i))
 	} else {
 	    dir.create(file.path(i))
 	    setwd(file.path(i))
+		num_orphans <- num_orphans + 1
 	}
 
 	.tmp <- subset(school_enr, school_code == i)
@@ -38,9 +39,7 @@ for(i in unique(school_enr$school_code)){
                              	val = list(.tmp[i,value_index]))
                            })
 
-	.json <- toJSON(.nested_list)
-	.json <- gsub("[[","",.json, fixed=TRUE)
-	.json <- gsub("]]","",.json, fixed=TRUE)
+	.json <- prettify(toJSON(.nested_list, na="null"))
 
 	.school_name <- .tmp$school_name[1]
 
@@ -64,4 +63,4 @@ for(i in unique(school_enr$school_code)){
 	close(newfile)
 }
 
-
+print(paste0("There are ",num_orphans," orphaned files."))

@@ -1,11 +1,127 @@
 {
-"timestamp": "Thu Dec 04 12:18:17 2014",
+"timestamp": "Tue Jan 06 17:04:35 2015",
 "org_type": "lea",
 "org_name": "NA",
 "org_code": "0145",
 "exhibit": {
 	"id": "graduation",
 	"data":  
-[{"key":{"subgroup":"All","year":2014,"type":"Four Year ACGR"},"val":{"graduates":0,"cohort_size":26}},{"key":{"subgroup":"MALE","year":2014,"type":"Four Year ACGR"},"val":{"graduates":0,"cohort_size":13}},{"key":{"subgroup":"FEMALE","year":2014,"type":"Four Year ACGR"},"val":{"graduates":0,"cohort_size":13}},{"key":{"subgroup":"HI7","year":2014,"type":"Four Year ACGR"},"val":{"graduates":0,"cohort_size":16}},{"key":{"subgroup":"LEP","year":2014,"type":"Four Year ACGR"},"val":{"graduates":0,"cohort_size":20}},{"key":{"subgroup":"Economy","year":2014,"type":"Four Year ACGR"},"val":{"graduates":0,"cohort_size":21}}]
+[
+    {
+        "key": [
+            [
+                {
+                    "subgroup": "All",
+                    "year": 2014,
+                    "type": "Four Year ACGR"
+                }
+            ]
+        ],
+        "val": [
+            [
+                {
+                    "graduates": 0,
+                    "cohort_size": 26
+                }
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "subgroup": "MALE",
+                    "year": 2014,
+                    "type": "Four Year ACGR"
+                }
+            ]
+        ],
+        "val": [
+            [
+                {
+                    "graduates": 0,
+                    "cohort_size": 13
+                }
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "subgroup": "FEMALE",
+                    "year": 2014,
+                    "type": "Four Year ACGR"
+                }
+            ]
+        ],
+        "val": [
+            [
+                {
+                    "graduates": 0,
+                    "cohort_size": 13
+                }
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "subgroup": "HI7",
+                    "year": 2014,
+                    "type": "Four Year ACGR"
+                }
+            ]
+        ],
+        "val": [
+            [
+                {
+                    "graduates": 0,
+                    "cohort_size": 16
+                }
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "subgroup": "LEP",
+                    "year": 2014,
+                    "type": "Four Year ACGR"
+                }
+            ]
+        ],
+        "val": [
+            [
+                {
+                    "graduates": 0,
+                    "cohort_size": 20
+                }
+            ]
+        ]
+    },
+    {
+        "key": [
+            [
+                {
+                    "subgroup": "Economy",
+                    "year": 2014,
+                    "type": "Four Year ACGR"
+                }
+            ]
+        ],
+        "val": [
+            [
+                {
+                    "graduates": 0,
+                    "cohort_size": 21
+                }
+            ]
+        ]
+    }
+]
+
 	}
 }

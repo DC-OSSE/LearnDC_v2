@@ -17,18 +17,18 @@ school_grad$school_code <- sapply(school_grad$school_code, leadgr, 4)
 
 key_index <- c(5,6,7)
 value_index <- c(8,9)
+num_orphans <- 0
 
 
 for(i in unique(school_grad$school_code)){
 	setwd("U:/LearnDC ETL V2/Export/JSON/school")
 
-	num_orphans <- 0
 	if(file.exists(i)){
 	    setwd(file.path(i))
 	} else {
 		num_orphans <- num_orphans + 1
 	}
-	print(paste0("There are ",num_orphans," orphaned files."))
+	
 
 	.tmp <- subset(school_grad, school_code == i)
 
@@ -37,9 +37,7 @@ for(i in unique(school_grad$school_code)){
                              	val = list(.tmp[i,value_index]))
                            })
 
-	.json <- toJSON(.nested_list)
-	.json <- gsub("[[","",.json, fixed=TRUE)
-	.json <- gsub("]]","",.json, fixed=TRUE)
+	.json <- prettify(toJSON(.nested_list, na="null"))
 
 	.lea_name <- .tmp$lea_name[1]
 	.school_name <- .tmp$school_name[1]
@@ -52,7 +50,7 @@ for(i in unique(school_grad$school_code)){
 
 	cat('"timestamp": "',date(),'",', sep="", fill=TRUE)
 	cat('"org_type": "school",', sep="", fill=TRUE)
-	cat('"org_name": "',.school_name,'",', sep="", fill=TRUE)
+	cat('"org_name": "',gsub("\n", "",.school_name),'",', sep="", fill=TRUE)
 	cat('"org_code": "',i,'",', sep="", fill=TRUE)
 	cat('"exhibit": {', fill=TRUE)
 	cat('\t"id": "graduation",', fill=TRUE)
@@ -65,3 +63,4 @@ for(i in unique(school_grad$school_code)){
 	close(newfile)
 }
 
+print(paste0("There are ",num_orphans," orphaned files."))
