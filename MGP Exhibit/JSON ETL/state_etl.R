@@ -35,7 +35,10 @@ setwd("U:/LearnDC ETL V2/Export/JSON/state/DC")
                              	val = list(mgp[i,value_index]))
                         })
 
-.json <- prettify(toJSON(.nested_list, na="null"))
+.json <- toJSON(.nested_list, na="null")
+.json <- gsub("[[","",.json, fixed=TRUE)
+.json <- gsub("]]","",.json, fixed=TRUE)
+.json <- prettify(.json)
 
 
 newfile <- file("mgp_scores.json", encoding="UTF-8")

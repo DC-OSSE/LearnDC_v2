@@ -54,7 +54,10 @@ for(i in unique(abs_wide$school_code)){
                              	val = list(.tmp[i,value_index]))
                            })
 
-	.json <- prettify(toJSON(.nested_list, na="null"))
+	.json <- toJSON(.nested_list, na="null")
+	.json <- gsub("[[","",.json, fixed=TRUE)
+	.json <- gsub("]]","",.json, fixed=TRUE)
+	.json <- prettify(.json)
 
 
 	.school_name <- .tmp$school_name[1]

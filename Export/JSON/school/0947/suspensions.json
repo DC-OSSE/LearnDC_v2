@@ -1,5 +1,5 @@
 {
-"timestamp": "Wed Jan 07 11:27:26 2015",
+"timestamp": "Wed Jan 14 11:22:46 2015",
 "org_type": "school",
 "org_name": "",
 "org_code": "0947",
@@ -8,46 +8,30 @@
 	"data":  
 [
     {
-        "key": [
-            [
-                {
-                    "year": 2013,
-                    "subgroup": "All"
-                }
-            ]
-        ],
-        "val": [
-            [
-                {
-                    "suspended_1": 0.8,
-                    "suspended_11": 0.1,
-                    "state_suspended_1": 0.02,
-                    "state_suspended_11": 0,
-                    "incidents": null
-                }
-            ]
-        ]
+        "key": {
+            "year": 2013,
+            "subgroup": "All"
+        },
+        "val": {
+            "suspended_1": 0.8,
+            "suspended_11": 0.1,
+            "state_suspended_1": 0.02,
+            "state_suspended_11": 0,
+            "incidents": null
+        }
     },
     {
-        "key": [
-            [
-                {
-                    "year": 2013,
-                    "subgroup": "BL7"
-                }
-            ]
-        ],
-        "val": [
-            [
-                {
-                    "suspended_1": 0.8,
-                    "suspended_11": 0.1,
-                    "state_suspended_1": 0.03,
-                    "state_suspended_11": 0,
-                    "incidents": null
-                }
-            ]
-        ]
+        "key": {
+            "year": 2013,
+            "subgroup": "BL7"
+        },
+        "val": {
+            "suspended_1": 0.8,
+            "suspended_11": 0.1,
+            "state_suspended_1": 0.03,
+            "state_suspended_11": 0,
+            "incidents": null
+        }
     }
 ]
 

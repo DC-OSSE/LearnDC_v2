@@ -1,5 +1,5 @@
 {
-"timestamp": "Thu Jan 08 09:56:37 2015",
+"timestamp": "Wed Jan 14 11:10:27 2015",
 "org_type": "school",
 "org_name": "",
 "org_code": "3064",
@@ -8,42 +8,26 @@
 	"data":  
 [
     {
-        "key": [
-            [
-                {
-                    "year": 2014,
-                    "subject": "Math",
-                    "subgroup": "All"
-                }
-            ]
-        ],
-        "val": [
-            [
-                {
-                    "mgp_1yr": 29,
-                    "mgp_2yr": 36
-                }
-            ]
-        ]
+        "key": {
+            "year": 2014,
+            "subject": "Math",
+            "subgroup": "All"
+        },
+        "val": {
+            "mgp_1yr": 29,
+            "mgp_2yr": 36
+        }
     },
     {
-        "key": [
-            [
-                {
-                    "year": 2014,
-                    "subject": "Reading",
-                    "subgroup": "All"
-                }
-            ]
-        ],
-        "val": [
-            [
-                {
-                    "mgp_1yr": 41.5,
-                    "mgp_2yr": 47.7
-                }
-            ]
-        ]
+        "key": {
+            "year": 2014,
+            "subject": "Reading",
+            "subgroup": "All"
+        },
+        "val": {
+            "mgp_1yr": 41.5,
+            "mgp_2yr": 47.7
+        }
     }
 ]
 

@@ -1,5 +1,5 @@
 {
-"timestamp": "Wed Jan 07 11:27:13 2015",
+"timestamp": "Wed Jan 14 11:22:22 2015",
 "org_type": "school",
 "org_name": "",
 "org_code": "0288",
@@ -8,235 +8,147 @@
 	"data":  
 [
     {
-        "key": [
-            [
-                {
-                    "year": 2013,
-                    "subgroup": "All"
-                }
-            ]
-        ],
-        "val": [
-            [
-                {
-                    "suspended_1": 0.15,
-                    "suspended_11": 0,
-                    "state_suspended_1": 0.05,
-                    "state_suspended_11": 0,
-                    "incidents": null
-                }
-            ]
-        ]
+        "key": {
+            "year": 2013,
+            "subgroup": "All"
+        },
+        "val": {
+            "suspended_1": 0.15,
+            "suspended_11": 0,
+            "state_suspended_1": 0.05,
+            "state_suspended_11": 0,
+            "incidents": null
+        }
     },
     {
-        "key": [
-            [
-                {
-                    "year": 2013,
-                    "subgroup": "BL7"
-                }
-            ]
-        ],
-        "val": [
-            [
-                {
-                    "suspended_1": 0.16,
-                    "suspended_11": 0,
-                    "state_suspended_1": 0.07,
-                    "state_suspended_11": 0,
-                    "incidents": null
-                }
-            ]
-        ]
+        "key": {
+            "year": 2013,
+            "subgroup": "BL7"
+        },
+        "val": {
+            "suspended_1": 0.16,
+            "suspended_11": 0,
+            "state_suspended_1": 0.07,
+            "state_suspended_11": 0,
+            "incidents": null
+        }
     },
     {
-        "key": [
-            [
-                {
-                    "year": 2013,
-                    "subgroup": "Economy"
-                }
-            ]
-        ],
-        "val": [
-            [
-                {
-                    "suspended_1": 0.16,
-                    "suspended_11": 0,
-                    "state_suspended_1": 0.07,
-                    "state_suspended_11": 0,
-                    "incidents": null
-                }
-            ]
-        ]
+        "key": {
+            "year": 2013,
+            "subgroup": "Economy"
+        },
+        "val": {
+            "suspended_1": 0.16,
+            "suspended_11": 0,
+            "state_suspended_1": 0.07,
+            "state_suspended_11": 0,
+            "incidents": null
+        }
     },
     {
-        "key": [
-            [
-                {
-                    "year": 2013,
-                    "subgroup": "HI7"
-                }
-            ]
-        ],
-        "val": [
-            [
-                {
-                    "suspended_1": 0,
-                    "suspended_11": 0,
-                    "state_suspended_1": 0.02,
-                    "state_suspended_11": 0,
-                    "incidents": null
-                }
-            ]
-        ]
+        "key": {
+            "year": 2013,
+            "subgroup": "HI7"
+        },
+        "val": {
+            "suspended_1": 0,
+            "suspended_11": 0,
+            "state_suspended_1": 0.02,
+            "state_suspended_11": 0,
+            "incidents": null
+        }
     },
     {
-        "key": [
-            [
-                {
-                    "year": 2013,
-                    "subgroup": "SPED"
-                }
-            ]
-        ],
-        "val": [
-            [
-                {
-                    "suspended_1": 0.24,
-                    "suspended_11": 0,
-                    "state_suspended_1": 0.11,
-                    "state_suspended_11": 0,
-                    "incidents": null
-                }
-            ]
-        ]
+        "key": {
+            "year": 2013,
+            "subgroup": "SPED"
+        },
+        "val": {
+            "suspended_1": 0.24,
+            "suspended_11": 0,
+            "state_suspended_1": 0.11,
+            "state_suspended_11": 0,
+            "incidents": null
+        }
     },
     {
-        "key": [
-            [
-                {
-                    "year": 2014,
-                    "subgroup": "All"
-                }
-            ]
-        ],
-        "val": [
-            [
-                {
-                    "suspended_1": 0.0949,
-                    "suspended_11": 0,
-                    "state_suspended_1": 0.057,
-                    "state_suspended_11": 0.0001,
-                    "incidents": 62
-                }
-            ]
-        ]
+        "key": {
+            "year": 2014,
+            "subgroup": "All"
+        },
+        "val": {
+            "suspended_1": 0.0949,
+            "suspended_11": 0,
+            "state_suspended_1": 0.057,
+            "state_suspended_11": 0.0001,
+            "incidents": 62
+        }
     },
     {
-        "key": [
-            [
-                {
-                    "year": 2014,
-                    "subgroup": "BL7"
-                }
-            ]
-        ],
-        "val": [
-            [
-                {
-                    "suspended_1": 0.0997,
-                    "suspended_11": 0,
-                    "state_suspended_1": 0.0769,
-                    "state_suspended_11": 0.0001,
-                    "incidents": null
-                }
-            ]
-        ]
+        "key": {
+            "year": 2014,
+            "subgroup": "BL7"
+        },
+        "val": {
+            "suspended_1": 0.0997,
+            "suspended_11": 0,
+            "state_suspended_1": 0.0769,
+            "state_suspended_11": 0.0001,
+            "incidents": null
+        }
     },
     {
-        "key": [
-            [
-                {
-                    "year": 2014,
-                    "subgroup": "Economy"
-                }
-            ]
-        ],
-        "val": [
-            [
-                {
-                    "suspended_1": 0.0949,
-                    "suspended_11": 0,
-                    "state_suspended_1": 0.0687,
-                    "state_suspended_11": 0.0001,
-                    "incidents": null
-                }
-            ]
-        ]
+        "key": {
+            "year": 2014,
+            "subgroup": "Economy"
+        },
+        "val": {
+            "suspended_1": 0.0949,
+            "suspended_11": 0,
+            "state_suspended_1": 0.0687,
+            "state_suspended_11": 0.0001,
+            "incidents": null
+        }
     },
     {
-        "key": [
-            [
-                {
-                    "year": 2014,
-                    "subgroup": "FEMALE"
-                }
-            ]
-        ],
-        "val": [
-            [
-                {
-                    "suspended_1": 0.0649,
-                    "suspended_11": 0,
-                    "state_suspended_1": 0.0352,
-                    "state_suspended_11": 0,
-                    "incidents": null
-                }
-            ]
-        ]
+        "key": {
+            "year": 2014,
+            "subgroup": "FEMALE"
+        },
+        "val": {
+            "suspended_1": 0.0649,
+            "suspended_11": 0,
+            "state_suspended_1": 0.0352,
+            "state_suspended_11": 0,
+            "incidents": null
+        }
     },
     {
-        "key": [
-            [
-                {
-                    "year": 2014,
-                    "subgroup": "MALE"
-                }
-            ]
-        ],
-        "val": [
-            [
-                {
-                    "suspended_1": 0.125,
-                    "suspended_11": 0,
-                    "state_suspended_1": 0.0787,
-                    "state_suspended_11": 0.0001,
-                    "incidents": null
-                }
-            ]
-        ]
+        "key": {
+            "year": 2014,
+            "subgroup": "MALE"
+        },
+        "val": {
+            "suspended_1": 0.125,
+            "suspended_11": 0,
+            "state_suspended_1": 0.0787,
+            "state_suspended_11": 0.0001,
+            "incidents": null
+        }
     },
     {
-        "key": [
-            [
-                {
-                    "year": 2014,
-                    "subgroup": "SPED"
-                }
-            ]
-        ],
-        "val": [
-            [
-                {
-                    "suspended_1": 0.1795,
-                    "suspended_11": 0,
-                    "state_suspended_1": 0.1105,
-                    "state_suspended_11": 0,
-                    "incidents": null
-                }
-            ]
-        ]
+        "key": {
+            "year": 2014,
+            "subgroup": "SPED"
+        },
+        "val": {
+            "suspended_1": 0.1795,
+            "suspended_11": 0,
+            "state_suspended_1": 0.1105,
+            "state_suspended_11": 0,
+            "incidents": null
+        }
     }
 ]
 

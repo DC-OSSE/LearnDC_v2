@@ -1,5 +1,5 @@
 {
-"timestamp": "Tue Jan 06 17:02:54 2015",
+"timestamp": "Wed Jan 14 11:36:59 2015",
 "org_type": "school",
 "org_name": "YOUTH SERVICES CENTER",
 "org_code": "0861",
@@ -8,80 +8,48 @@
 	"data":  
 [
     {
-        "key": [
-            [
-                {
-                    "subgroup": "All",
-                    "year": 2014,
-                    "type": "Four Year ACGR"
-                }
-            ]
-        ],
-        "val": [
-            [
-                {
-                    "graduates": 0,
-                    "cohort_size": 30
-                }
-            ]
-        ]
+        "key": {
+            "subgroup": "All",
+            "year": 2014,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "graduates": 0,
+            "cohort_size": 30
+        }
     },
     {
-        "key": [
-            [
-                {
-                    "subgroup": "MALE",
-                    "year": 2014,
-                    "type": "Four Year ACGR"
-                }
-            ]
-        ],
-        "val": [
-            [
-                {
-                    "graduates": 0,
-                    "cohort_size": 27
-                }
-            ]
-        ]
+        "key": {
+            "subgroup": "MALE",
+            "year": 2014,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "graduates": 0,
+            "cohort_size": 27
+        }
     },
     {
-        "key": [
-            [
-                {
-                    "subgroup": "BL7",
-                    "year": 2014,
-                    "type": "Four Year ACGR"
-                }
-            ]
-        ],
-        "val": [
-            [
-                {
-                    "graduates": 0,
-                    "cohort_size": 30
-                }
-            ]
-        ]
+        "key": {
+            "subgroup": "BL7",
+            "year": 2014,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "graduates": 0,
+            "cohort_size": 30
+        }
     },
     {
-        "key": [
-            [
-                {
-                    "subgroup": "Economy",
-                    "year": 2014,
-                    "type": "Four Year ACGR"
-                }
-            ]
-        ],
-        "val": [
-            [
-                {
-                    "graduates": 0,
-                    "cohort_size": 18
-                }
-            ]
-        ]
+        "key": {
+            "subgroup": "Economy",
+            "year": 2014,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "graduates": 0,
+            "cohort_size": 18
+        }
     }
 ]
 

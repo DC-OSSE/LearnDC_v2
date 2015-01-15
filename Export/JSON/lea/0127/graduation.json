@@ -1,5 +1,5 @@
 {
-"timestamp": "Tue Jan 06 17:04:34 2015",
+"timestamp": "Wed Jan 14 19:30:11 2015",
 "org_type": "lea",
 "org_name": "Ideal Academy PCS",
 "org_code": "0127",
@@ -8,137 +8,81 @@
 	"data":  
 [
     {
-        "key": [
-            [
-                {
-                    "subgroup": "All",
-                    "year": 2012,
-                    "type": "Four Year ACGR"
-                }
-            ]
-        ],
-        "val": [
-            [
-                {
-                    "graduates": 0,
-                    "cohort_size": 17
-                }
-            ]
-        ]
+        "key": {
+            "subgroup": "All",
+            "year": 2011,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "graduates": 24,
+            "cohort_size": 35
+        }
     },
     {
-        "key": [
-            [
-                {
-                    "subgroup": "BL7",
-                    "year": 2012,
-                    "type": "Four Year ACGR"
-                }
-            ]
-        ],
-        "val": [
-            [
-                {
-                    "graduates": 0,
-                    "cohort_size": 17
-                }
-            ]
-        ]
+        "key": {
+            "subgroup": "MALE",
+            "year": 2011,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "graduates": 16,
+            "cohort_size": 21
+        }
     },
     {
-        "key": [
-            [
-                {
-                    "subgroup": "All",
-                    "year": 2011,
-                    "type": "Four Year ACGR"
-                }
-            ]
-        ],
-        "val": [
-            [
-                {
-                    "graduates": 24,
-                    "cohort_size": 35
-                }
-            ]
-        ]
+        "key": {
+            "subgroup": "FEMALE",
+            "year": 2011,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "graduates": 8,
+            "cohort_size": 14
+        }
     },
     {
-        "key": [
-            [
-                {
-                    "subgroup": "MALE",
-                    "year": 2011,
-                    "type": "Four Year ACGR"
-                }
-            ]
-        ],
-        "val": [
-            [
-                {
-                    "graduates": 16,
-                    "cohort_size": 21
-                }
-            ]
-        ]
+        "key": {
+            "subgroup": "BL7",
+            "year": 2011,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "graduates": 24,
+            "cohort_size": 35
+        }
     },
     {
-        "key": [
-            [
-                {
-                    "subgroup": "FEMALE",
-                    "year": 2011,
-                    "type": "Four Year ACGR"
-                }
-            ]
-        ],
-        "val": [
-            [
-                {
-                    "graduates": 8,
-                    "cohort_size": 14
-                }
-            ]
-        ]
+        "key": {
+            "subgroup": "Economy",
+            "year": 2011,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "graduates": 24,
+            "cohort_size": 32
+        }
     },
     {
-        "key": [
-            [
-                {
-                    "subgroup": "BL7",
-                    "year": 2011,
-                    "type": "Four Year ACGR"
-                }
-            ]
-        ],
-        "val": [
-            [
-                {
-                    "graduates": 24,
-                    "cohort_size": 35
-                }
-            ]
-        ]
+        "key": {
+            "subgroup": "All",
+            "year": 2012,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "graduates": 0,
+            "cohort_size": 17
+        }
     },
     {
-        "key": [
-            [
-                {
-                    "subgroup": "Economy",
-                    "year": 2011,
-                    "type": "Four Year ACGR"
-                }
-            ]
-        ],
-        "val": [
-            [
-                {
-                    "graduates": 24,
-                    "cohort_size": 32
-                }
-            ]
-        ]
+        "key": {
+            "subgroup": "BL7",
+            "year": 2012,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "graduates": 0,
+            "cohort_size": 17
+        }
     }
 ]
 

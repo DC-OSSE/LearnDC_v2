@@ -1,5 +1,5 @@
 {
-"timestamp": "Wed Jan 07 11:29:21 2015",
+"timestamp": "Wed Jan 14 11:20:50 2015",
 "org_type": "school",
 "org_name": "",
 "org_code": "0115",
@@ -8,30 +8,22 @@
 	"data":  
 [
     {
-        "key": [
-            [
-                {
-                    "year": 2013,
-                    "subgroup": "All"
-                }
-            ]
-        ],
-        "val": [
-            [
-                {
-                    "1-5_days": 36,
-                    "6-10_days": 30,
-                    "11-15_days": 16,
-                    "16-25_days": 7,
-                    "more_than_25_days": 3,
-                    "state_1_5_days": 48,
-                    "state_6-10_days": 21,
-                    "state_11-15_days": 6,
-                    "state_16-25_days": 4,
-                    "state_more_than_25_days": 2
-                }
-            ]
-        ]
+        "key": {
+            "year": 2013,
+            "subgroup": "All"
+        },
+        "val": {
+            "1-5_days": 36,
+            "6-10_days": 30,
+            "11-15_days": 16,
+            "16-25_days": 7,
+            "more_than_25_days": 3,
+            "state_1_5_days": 48,
+            "state_6-10_days": 21,
+            "state_11-15_days": 6,
+            "state_16-25_days": 4,
+            "state_more_than_25_days": 2
+        }
     }
 ]
 

@@ -1,5 +1,4 @@
 setwd("U:/LearnDC ETL V2/Graduation Exhibit/JSON ETL")
-source("U:/R/RODBC_Connections.R")
 source("U:/R/tomkit.R")
 library(jsonlite)
 
@@ -24,7 +23,10 @@ nested_list <- lapply(1:nrow(state_grad), FUN = function(i){
                          	val = list(state_grad[i,value_index]))
                        })
 
-json <- prettify(toJSON(nested_list, na="null"))
+json <- toJSON(nested_list, na="null")
+json <- gsub("[[","",json, fixed=TRUE)
+json <- gsub("]]","",json, fixed=TRUE)
+json <- prettify(json)
 
 newfile <- file("graduation.json", encoding="UTF-8")
 sink(newfile)

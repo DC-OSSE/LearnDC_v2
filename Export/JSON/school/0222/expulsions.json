@@ -1,5 +1,5 @@
 {
-"timestamp": "Wed Jan 07 11:28:24 2015",
+"timestamp": "Wed Jan 14 11:22:33 2015",
 "org_type": "school",
 "org_name": "",
 "org_code": "0222",
@@ -8,24 +8,16 @@
 	"data":  
 [
     {
-        "key": [
-            [
-                {
-                    "year": 2014,
-                    "subgroup": "All"
-                }
-            ]
-        ],
-        "val": [
-            [
-                {
-                    "expulsions": 4,
-                    "expulsion_rate": 0.0158,
-                    "state_expulsions": 60,
-                    "state_expulsion_rate": 0.0057
-                }
-            ]
-        ]
+        "key": {
+            "year": 2014,
+            "subgroup": "All"
+        },
+        "val": {
+            "expulsions": 4,
+            "expulsion_rate": 0.0158,
+            "state_expulsions": 60,
+            "state_expulsion_rate": 0.0057
+        }
     }
 ]
 

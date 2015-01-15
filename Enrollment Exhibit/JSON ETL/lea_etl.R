@@ -25,6 +25,7 @@ num_orphans <- 0
 school_dir <- sqlFetch(dbrepcard, 'schooldir_sy1314')
 lea_dir <- unique(school_dir[c("lea_code","lea_name")])
 lea_dir$lea_code <- sprintf("%04d", lea_dir$lea_code)
+lea_dir <- subset(lea_dir,lea_code!=4002)
 
 
 
@@ -46,7 +47,10 @@ for(i in unique(lea_dir$lea_code)){
                              	val = list(.tmp[i,value_index]))
                            })
 
-	.json <- prettify(toJSON(.nested_list, na="null"))
+	.json <- toJSON(.nested_list, na="null")
+	.json <- gsub("[[","",.json, fixed=TRUE)
+	.json <- gsub("]]","",.json, fixed=TRUE)
+	.json <- prettify(.json)
 
 
 	.lea_name <- .tmp$lea_name[1]

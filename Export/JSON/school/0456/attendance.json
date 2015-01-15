@@ -1,5 +1,5 @@
 {
-"timestamp": "Tue Jan 13 14:32:52 2015",
+"timestamp": "Wed Jan 14 11:22:05 2015",
 "org_type": "school",
 "org_name": "",
 "org_code": "0456",
@@ -8,164 +8,100 @@
 	"data":  
 [
     {
-        "key": [
-            [
-                {
-                    "year": 2013,
-                    "subgroup": "All"
-                }
-            ]
-        ],
-        "val": [
-            [
-                {
-                    "in_seat_attendance": 0.66,
-                    "state_in_seat_attendance": null,
-                    "average_daily_attendance": "null",
-                    "state_average_daily_attendance": "null"
-                }
-            ]
-        ]
+        "key": {
+            "year": 2013,
+            "subgroup": "All"
+        },
+        "val": {
+            "in_seat_attendance": 0.66,
+            "state_in_seat_attendance": null,
+            "average_daily_attendance": "null",
+            "state_average_daily_attendance": "null"
+        }
     },
     {
-        "key": [
-            [
-                {
-                    "year": 2014,
-                    "subgroup": "All"
-                }
-            ]
-        ],
-        "val": [
-            [
-                {
-                    "in_seat_attendance": 0.59,
-                    "state_in_seat_attendance": 0.73,
-                    "average_daily_attendance": "null",
-                    "state_average_daily_attendance": "null"
-                }
-            ]
-        ]
+        "key": {
+            "year": 2014,
+            "subgroup": "All"
+        },
+        "val": {
+            "in_seat_attendance": 0.59,
+            "state_in_seat_attendance": 0.73,
+            "average_daily_attendance": "null",
+            "state_average_daily_attendance": "null"
+        }
     },
     {
-        "key": [
-            [
-                {
-                    "year": 2014,
-                    "subgroup": "BL7"
-                }
-            ]
-        ],
-        "val": [
-            [
-                {
-                    "in_seat_attendance": 0.59,
-                    "state_in_seat_attendance": 0.72,
-                    "average_daily_attendance": "null",
-                    "state_average_daily_attendance": "null"
-                }
-            ]
-        ]
+        "key": {
+            "year": 2014,
+            "subgroup": "BL7"
+        },
+        "val": {
+            "in_seat_attendance": 0.59,
+            "state_in_seat_attendance": 0.72,
+            "average_daily_attendance": "null",
+            "state_average_daily_attendance": "null"
+        }
     },
     {
-        "key": [
-            [
-                {
-                    "year": 2014,
-                    "subgroup": "Economy"
-                }
-            ]
-        ],
-        "val": [
-            [
-                {
-                    "in_seat_attendance": 0.56,
-                    "state_in_seat_attendance": 0.73,
-                    "average_daily_attendance": "null",
-                    "state_average_daily_attendance": "null"
-                }
-            ]
-        ]
+        "key": {
+            "year": 2014,
+            "subgroup": "Economy"
+        },
+        "val": {
+            "in_seat_attendance": 0.56,
+            "state_in_seat_attendance": 0.73,
+            "average_daily_attendance": "null",
+            "state_average_daily_attendance": "null"
+        }
     },
     {
-        "key": [
-            [
-                {
-                    "year": 2014,
-                    "subgroup": "FEMALE"
-                }
-            ]
-        ],
-        "val": [
-            [
-                {
-                    "in_seat_attendance": 0.58,
-                    "state_in_seat_attendance": 0.72,
-                    "average_daily_attendance": "null",
-                    "state_average_daily_attendance": "null"
-                }
-            ]
-        ]
+        "key": {
+            "year": 2014,
+            "subgroup": "FEMALE"
+        },
+        "val": {
+            "in_seat_attendance": 0.58,
+            "state_in_seat_attendance": 0.72,
+            "average_daily_attendance": "null",
+            "state_average_daily_attendance": "null"
+        }
     },
     {
-        "key": [
-            [
-                {
-                    "year": 2014,
-                    "subgroup": "HI7"
-                }
-            ]
-        ],
-        "val": [
-            [
-                {
-                    "in_seat_attendance": 0.61,
-                    "state_in_seat_attendance": 0.74,
-                    "average_daily_attendance": "null",
-                    "state_average_daily_attendance": "null"
-                }
-            ]
-        ]
+        "key": {
+            "year": 2014,
+            "subgroup": "HI7"
+        },
+        "val": {
+            "in_seat_attendance": 0.61,
+            "state_in_seat_attendance": 0.74,
+            "average_daily_attendance": "null",
+            "state_average_daily_attendance": "null"
+        }
     },
     {
-        "key": [
-            [
-                {
-                    "year": 2014,
-                    "subgroup": "MALE"
-                }
-            ]
-        ],
-        "val": [
-            [
-                {
-                    "in_seat_attendance": 0.6,
-                    "state_in_seat_attendance": 0.74,
-                    "average_daily_attendance": "null",
-                    "state_average_daily_attendance": "null"
-                }
-            ]
-        ]
+        "key": {
+            "year": 2014,
+            "subgroup": "MALE"
+        },
+        "val": {
+            "in_seat_attendance": 0.6,
+            "state_in_seat_attendance": 0.74,
+            "average_daily_attendance": "null",
+            "state_average_daily_attendance": "null"
+        }
     },
     {
-        "key": [
-            [
-                {
-                    "year": 2014,
-                    "subgroup": "SPED"
-                }
-            ]
-        ],
-        "val": [
-            [
-                {
-                    "in_seat_attendance": 0.33,
-                    "state_in_seat_attendance": 0.83,
-                    "average_daily_attendance": "null",
-                    "state_average_daily_attendance": "null"
-                }
-            ]
-        ]
+        "key": {
+            "year": 2014,
+            "subgroup": "SPED"
+        },
+        "val": {
+            "in_seat_attendance": 0.33,
+            "state_in_seat_attendance": 0.83,
+            "average_daily_attendance": "null",
+            "state_average_daily_attendance": "null"
+        }
     }
 ]
 

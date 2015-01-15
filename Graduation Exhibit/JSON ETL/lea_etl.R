@@ -42,7 +42,10 @@ for(i in unique(lea_dir$lea_code)){
                              	val = list(.tmp[i,value_index]))
                            })
 
-	.json <- prettify(toJSON(.nested_list, na="null"))
+	.json <- toJSON(.nested_list, na="null")
+	.json <- gsub("[[","",.json, fixed=TRUE)
+	.json <- gsub("]]","",.json, fixed=TRUE)
+	.json <- prettify(.json)
 
 
 	.lea_name <- .tmp$lea_name[1]

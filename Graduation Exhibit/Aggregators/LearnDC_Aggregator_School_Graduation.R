@@ -4,7 +4,7 @@ source("U:/R/tomkit.R")
 
 source("./imports/subproc.R")
 
-grads <- sqlQuery(dbrepcard, "SELECT * FROM [dbo].[graduation_w2014_5yr] WHERE [cohort_status] = 1 and [lea_code] not in ('2','3')")
+grads <- sqlQuery(dbworking, "SELECT * FROM dbo.equity_report_grad_remake_v2 WHERE [cohort_status] = 1")
 
 
 dir <- sqlQuery(dbrepcard, "SELECT * FROM [dbo].[school_mapping_sy1314]")
@@ -16,13 +16,13 @@ grads <- merge(grads, dir, by.x = c("year","grade","school_code"), by.y= c("ea_y
 
 
 
-grads$sy1314_school_code[which(grads$school_name == "CAPITAL CITY UPPER SCHOOL")] <- "1207"
-grads$sy1314_school_name[which(grads$school_name == "CAPITAL CITY UPPER SCHOOL")] <- "CAPITAL CITY HIGH SCHOOL PCS"
+# grads$sy1314_school_code[which(grads$school_name == "CAPITAL CITY UPPER SCHOOL")] <- "1207"
+# grads$sy1314_school_name[which(grads$school_name == "CAPITAL CITY UPPER SCHOOL")] <- "CAPITAL CITY HIGH SCHOOL PCS"
 
-grads$sy1314_school_code[which(grads$school_name == "Cesar Chavez Parkside HS")] <- "109"
-grads$sy1314_school_name[which(grads$school_name == "Cesar Chavez Parkside HS")] <- "Cesar Chavez PCS for Public Policy-Parkside HS"
-grads$sy1314_school_code[which(grads$school_name == "BALLOU STAY")] <- "462"
-grads$sy1314_school_name[which(grads$school_name == "BALLOU STAY")] <- "BALLOU STAY"
+# grads$sy1314_school_code[which(grads$school_name == "Cesar Chavez Parkside HS")] <- "109"
+# grads$sy1314_school_name[which(grads$school_name == "Cesar Chavez Parkside HS")] <- "Cesar Chavez PCS for Public Policy-Parkside HS"
+# grads$sy1314_school_code[which(grads$school_name == "BALLOU STAY")] <- "462"
+# grads$sy1314_school_name[which(grads$school_name == "BALLOU STAY")] <- "BALLOU STAY"
 
 
 grads <- subset(grads, sy1314_school_name != "NULL")
@@ -35,8 +35,10 @@ subgroups_list <- c("All","MALE","FEMALE","AM7","AS7","BL7","HI7","MU7","PI7","W
 grads_lim <- subset(grads, cohort_status == 1)
 
 school_subgroups_df <- data.frame()
-for(g in c("Four Year ACGR","Five Year ACGR")){
+for(g in c("Four Year ACGR")){
 	.type <- g
+# for(g in c("Four Year ACGR","Five Year ACGR")){
+# 	.type <- g
 
 	for(h in unique(grads_lim$sy1314_school_code)){
 		.school_grads <- subset(grads_lim, sy1314_school_code == h)
@@ -52,9 +54,9 @@ for(g in c("Four Year ACGR","Five Year ACGR")){
 			if(.type == "Four Year ACGR"){
 				.year <- i + 4
 			}
-			else if (.type == "Five Year ACGR"){	
-				.year <- i + 5
-			}
+			# else if (.type == "Five Year ACGR"){	
+			# 	.year <- i + 5
+			# }
 
 
 			for(j in subgroups_list){
@@ -65,10 +67,10 @@ for(g in c("Four Year ACGR","Five Year ACGR")){
 				if(.type == "Four Year ACGR"){
 					.graduates <- sum(.tmp$graduated, na.rm=TRUE)
 				}
-				else if (.type == "Five Year ACGR"){	
-					.graduates <- sum(.tmp$graduated_5yr, na.rm=TRUE)
-					if(.graduates == 0){.graduates <- NA}
-				}
+				# else if (.type == "Five Year ACGR"){	
+				# 	.graduates <- sum(.tmp$graduated_5yr, na.rm=TRUE)
+				# 	if(.graduates == 0){.graduates <- NA}
+				# }
 
 				.cohort_size <- nrow(.tmp)
 
@@ -82,4 +84,4 @@ for(g in c("Four Year ACGR","Five Year ACGR")){
 colnames(school_subgroups_df) <- c("lea_code","lea_name","school_code","school_name","subgroup","year",".type","graduates","cohort_size")
 
 
-sqlSave(dbrepcard_prod, school_subgroups_df, tablename = "graduation_school_exhibit_2014", append = FALSE, rownames=FALSE)
+sqlSave(dbrepcard_prod, school_subgroups_df, tablename = "graduation_school_exhibit_w2014", append = FALSE, rownames=FALSE)

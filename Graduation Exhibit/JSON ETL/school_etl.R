@@ -1,10 +1,9 @@
 setwd("U:/LearnDC ETL V2/Graduation Exhibit/JSON ETL")
-source("U:/R/RODBC_Connections.R")
 source("U:/R/tomkit.R")
 library(jsonlite)
 
 
-school_grad <- sqlQuery(dbrepcard_prod, "SELECT * FROM [dbo].[graduation_school_exhibit_2014]")
+school_grad <- sqlQuery(dbrepcard_prod, "SELECT * FROM [dbo].[graduation_school_exhibit_w2014]")
 
 school_grad <- subset(school_grad, cohort_size >= 10 & !is.na(graduates))
 
@@ -37,7 +36,10 @@ for(i in unique(school_grad$school_code)){
                              	val = list(.tmp[i,value_index]))
                            })
 
-	.json <- prettify(toJSON(.nested_list, na="null"))
+	.json <- toJSON(.nested_list, na="null")
+	.json <- gsub("[[","",.json, fixed=TRUE)
+	.json <- gsub("]]","",.json, fixed=TRUE)
+	.json <- prettify(.json)
 
 	.lea_name <- .tmp$lea_name[1]
 	.school_name <- .tmp$school_name[1]

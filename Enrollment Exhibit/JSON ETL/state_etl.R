@@ -26,7 +26,10 @@ nested_list <- lapply(1:nrow(state_enr), FUN = function(i){
                          	val = list(state_enr[i,value_index]))
                        })
 
-json <- prettify(toJSON(nested_list, na="null"))
+json <- toJSON(nested_list, na="null")
+json <- gsub("[[","",json, fixed=TRUE)
+json <- gsub("]]","",json, fixed=TRUE)
+json <- prettify(json)
 
 
 

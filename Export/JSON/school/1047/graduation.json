@@ -1,5 +1,5 @@
 {
-"timestamp": "Tue Jan 06 17:02:55 2015",
+"timestamp": "Wed Jan 14 11:36:59 2015",
 "org_type": "school",
 "org_name": "ST. COLETTA SPECIAL EDUCATION PCS",
 "org_code": "1047",
@@ -8,80 +8,48 @@
 	"data":  
 [
     {
-        "key": [
-            [
-                {
-                    "subgroup": "All",
-                    "year": 2014,
-                    "type": "Four Year ACGR"
-                }
-            ]
-        ],
-        "val": [
-            [
-                {
-                    "graduates": 0,
-                    "cohort_size": 13
-                }
-            ]
-        ]
+        "key": {
+            "subgroup": "All",
+            "year": 2014,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "graduates": 0,
+            "cohort_size": 13
+        }
     },
     {
-        "key": [
-            [
-                {
-                    "subgroup": "BL7",
-                    "year": 2014,
-                    "type": "Four Year ACGR"
-                }
-            ]
-        ],
-        "val": [
-            [
-                {
-                    "graduates": 0,
-                    "cohort_size": 11
-                }
-            ]
-        ]
+        "key": {
+            "subgroup": "BL7",
+            "year": 2014,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "graduates": 0,
+            "cohort_size": 11
+        }
     },
     {
-        "key": [
-            [
-                {
-                    "subgroup": "SPED",
-                    "year": 2014,
-                    "type": "Four Year ACGR"
-                }
-            ]
-        ],
-        "val": [
-            [
-                {
-                    "graduates": 0,
-                    "cohort_size": 13
-                }
-            ]
-        ]
+        "key": {
+            "subgroup": "SPED",
+            "year": 2014,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "graduates": 0,
+            "cohort_size": 13
+        }
     },
     {
-        "key": [
-            [
-                {
-                    "subgroup": "Economy",
-                    "year": 2014,
-                    "type": "Four Year ACGR"
-                }
-            ]
-        ],
-        "val": [
-            [
-                {
-                    "graduates": 0,
-                    "cohort_size": 10
-                }
-            ]
-        ]
+        "key": {
+            "subgroup": "Economy",
+            "year": 2014,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "graduates": 0,
+            "cohort_size": 10
+        }
     }
 ]
 

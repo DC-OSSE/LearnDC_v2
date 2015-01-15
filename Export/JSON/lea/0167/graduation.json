@@ -1,5 +1,5 @@
 {
-"timestamp": "Tue Jan 06 17:04:37 2015",
+"timestamp": "Wed Jan 14 19:30:15 2015",
 "org_type": "lea",
 "org_name": "Richard Wright PCS for Journalism and Media Arts",
 "org_code": "0167",
@@ -8,61 +8,26 @@
 	"data":  
 [
     {
-        "key": [
-            [
-                {
-                    "subgroup": "All",
-                    "year": 2014,
-                    "type": "Four Year ACGR"
-                }
-            ]
-        ],
-        "val": [
-            [
-                {
-                    "graduates": 0,
-                    "cohort_size": 11
-                }
-            ]
-        ]
+        "key": {
+            "subgroup": "All",
+            "year": 2014,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "graduates": 0,
+            "cohort_size": 11
+        }
     },
     {
-        "key": [
-            [
-                {
-                    "subgroup": "BL7",
-                    "year": 2014,
-                    "type": "Four Year ACGR"
-                }
-            ]
-        ],
-        "val": [
-            [
-                {
-                    "graduates": 0,
-                    "cohort_size": 11
-                }
-            ]
-        ]
-    },
-    {
-        "key": [
-            [
-                {
-                    "subgroup": "Economy",
-                    "year": 2014,
-                    "type": "Four Year ACGR"
-                }
-            ]
-        ],
-        "val": [
-            [
-                {
-                    "graduates": 0,
-                    "cohort_size": 11
-                }
-            ]
-        ]
+        "key": {
+            "subgroup": "BL7",
+            "year": 2014,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "graduates": 0,
+            "cohort_size": 11
+        }
     }
 ]
 

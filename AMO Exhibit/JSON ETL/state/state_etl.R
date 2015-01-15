@@ -40,8 +40,10 @@ nested_list <- lapply(1:nrow(amo), FUN = function(i){
                            })
 
 
-json <- prettify(toJSON(nested_list, na="null"))
-
+json <- toJSON(nested_list, na="null")
+json <- gsub("[[","",json, fixed=TRUE)
+json <- gsub("]]","",json, fixed=TRUE)
+json <- prettify(json)
 
 ## write to file
 newfile <- file("amo_targets.json", encoding="UTF-8")

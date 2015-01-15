@@ -1,5 +1,5 @@
 {
-"timestamp": "Fri Jan 09 11:59:40 2015",
+"timestamp": "Wed Jan 14 12:35:27 2015",
 "org_type": "school",
 "org_code": "1207",
 "exhibit": {
@@ -7,356 +7,180 @@
 	"data":  
 [
     {
-        "key": [
-            [
-                {
-                    "year": 2013,
-                    "subgroup": "All",
-                    "grade": "All"
-                }
-            ]
-        ],
-        "val": [
-            [
-                337
-            ]
-        ]
+        "key": {
+            "year": 2013,
+            "subgroup": "All",
+            "grade": "All"
+        },
+        "val": 337
     },
     {
-        "key": [
-            [
-                {
-                    "year": 2013,
-                    "subgroup": "MALE",
-                    "grade": "All"
-                }
-            ]
-        ],
-        "val": [
-            [
-                0.43
-            ]
-        ]
+        "key": {
+            "year": 2013,
+            "subgroup": "MALE",
+            "grade": "All"
+        },
+        "val": 0.43
     },
     {
-        "key": [
-            [
-                {
-                    "year": 2013,
-                    "subgroup": "FEMALE",
-                    "grade": "All"
-                }
-            ]
-        ],
-        "val": [
-            [
-                0.57
-            ]
-        ]
+        "key": {
+            "year": 2013,
+            "subgroup": "FEMALE",
+            "grade": "All"
+        },
+        "val": 0.57
     },
     {
-        "key": [
-            [
-                {
-                    "year": 2013,
-                    "subgroup": "AM7",
-                    "grade": "All"
-                }
-            ]
-        ],
-        "val": [
-            [
-                0
-            ]
-        ]
+        "key": {
+            "year": 2013,
+            "subgroup": "AM7",
+            "grade": "All"
+        },
+        "val": 0
     },
     {
-        "key": [
-            [
-                {
-                    "year": 2013,
-                    "subgroup": "AS7",
-                    "grade": "All"
-                }
-            ]
-        ],
-        "val": [
-            [
-                0.03
-            ]
-        ]
+        "key": {
+            "year": 2013,
+            "subgroup": "AS7",
+            "grade": "All"
+        },
+        "val": 0.03
     },
     {
-        "key": [
-            [
-                {
-                    "year": 2013,
-                    "subgroup": "BL7",
-                    "grade": "All"
-                }
-            ]
-        ],
-        "val": [
-            [
-                0.377
-            ]
-        ]
+        "key": {
+            "year": 2013,
+            "subgroup": "BL7",
+            "grade": "All"
+        },
+        "val": 0.377
     },
     {
-        "key": [
-            [
-                {
-                    "year": 2013,
-                    "subgroup": "HI7",
-                    "grade": "All"
-                }
-            ]
-        ],
-        "val": [
-            [
-                0.564
-            ]
-        ]
+        "key": {
+            "year": 2013,
+            "subgroup": "HI7",
+            "grade": "All"
+        },
+        "val": 0.564
     },
     {
-        "key": [
-            [
-                {
-                    "year": 2013,
-                    "subgroup": "MU7",
-                    "grade": "All"
-                }
-            ]
-        ],
-        "val": [
-            [
-                0.018
-            ]
-        ]
+        "key": {
+            "year": 2013,
+            "subgroup": "MU7",
+            "grade": "All"
+        },
+        "val": 0.018
     },
     {
-        "key": [
-            [
-                {
-                    "year": 2013,
-                    "subgroup": "PI7",
-                    "grade": "All"
-                }
-            ]
-        ],
-        "val": [
-            [
-                0.003
-            ]
-        ]
+        "key": {
+            "year": 2013,
+            "subgroup": "PI7",
+            "grade": "All"
+        },
+        "val": 0.003
     },
     {
-        "key": [
-            [
-                {
-                    "year": 2013,
-                    "subgroup": "WH7",
-                    "grade": "All"
-                }
-            ]
-        ],
-        "val": [
-            [
-                0.009
-            ]
-        ]
+        "key": {
+            "year": 2013,
+            "subgroup": "WH7",
+            "grade": "All"
+        },
+        "val": 0.009
     },
     {
-        "key": [
-            [
-                {
-                    "year": 2013,
-                    "subgroup": "SPED",
-                    "grade": "All"
-                }
-            ]
-        ],
-        "val": [
-            [
-                0.19
-            ]
-        ]
+        "key": {
+            "year": 2013,
+            "subgroup": "SPED",
+            "grade": "All"
+        },
+        "val": 0.19
     },
     {
-        "key": [
-            [
-                {
-                    "year": 2013,
-                    "subgroup": "SPED Level 1",
-                    "grade": "All"
-                }
-            ]
-        ],
-        "val": [
-            [
-                0.077
-            ]
-        ]
+        "key": {
+            "year": 2013,
+            "subgroup": "SPED Level 1",
+            "grade": "All"
+        },
+        "val": 0.077
     },
     {
-        "key": [
-            [
-                {
-                    "year": 2013,
-                    "subgroup": "SPED Level 2",
-                    "grade": "All"
-                }
-            ]
-        ],
-        "val": [
-            [
-                0.385
-            ]
-        ]
+        "key": {
+            "year": 2013,
+            "subgroup": "SPED Level 2",
+            "grade": "All"
+        },
+        "val": 0.385
     },
     {
-        "key": [
-            [
-                {
-                    "year": 2013,
-                    "subgroup": "SPED Level 3",
-                    "grade": "All"
-                }
-            ]
-        ],
-        "val": [
-            [
-                0.308
-            ]
-        ]
+        "key": {
+            "year": 2013,
+            "subgroup": "SPED Level 3",
+            "grade": "All"
+        },
+        "val": 0.308
     },
     {
-        "key": [
-            [
-                {
-                    "year": 2013,
-                    "subgroup": "SPED Level 4",
-                    "grade": "All"
-                }
-            ]
-        ],
-        "val": [
-            [
-                0.231
-            ]
-        ]
+        "key": {
+            "year": 2013,
+            "subgroup": "SPED Level 4",
+            "grade": "All"
+        },
+        "val": 0.231
     },
     {
-        "key": [
-            [
-                {
-                    "year": 2013,
-                    "subgroup": "LEP",
-                    "grade": "All"
-                }
-            ]
-        ],
-        "val": [
-            [
-                0.139
-            ]
-        ]
+        "key": {
+            "year": 2013,
+            "subgroup": "LEP",
+            "grade": "All"
+        },
+        "val": 0.139
     },
     {
-        "key": [
-            [
-                {
-                    "year": 2013,
-                    "subgroup": "Economy",
-                    "grade": "All"
-                }
-            ]
-        ],
-        "val": [
-            [
-                0.786
-            ]
-        ]
+        "key": {
+            "year": 2013,
+            "subgroup": "Economy",
+            "grade": "All"
+        },
+        "val": 0.786
     },
     {
-        "key": [
-            [
-                {
-                    "year": 2013,
-                    "subgroup": "Direct Cert",
-                    "grade": "All"
-                }
-            ]
-        ],
-        "val": [
-            [
-                0.315
-            ]
-        ]
+        "key": {
+            "year": 2013,
+            "subgroup": "Direct Cert",
+            "grade": "All"
+        },
+        "val": 0.315
     },
     {
-        "key": [
-            [
-                {
-                    "year": 2013,
-                    "subgroup": "All",
-                    "grade": "grade 9"
-                }
-            ]
-        ],
-        "val": [
-            [
-                91
-            ]
-        ]
+        "key": {
+            "year": 2013,
+            "subgroup": "All",
+            "grade": "grade 9"
+        },
+        "val": 91
     },
     {
-        "key": [
-            [
-                {
-                    "year": 2013,
-                    "subgroup": "All",
-                    "grade": "grade 10"
-                }
-            ]
-        ],
-        "val": [
-            [
-                85
-            ]
-        ]
+        "key": {
+            "year": 2013,
+            "subgroup": "All",
+            "grade": "grade 10"
+        },
+        "val": 85
     },
     {
-        "key": [
-            [
-                {
-                    "year": 2013,
-                    "subgroup": "All",
-                    "grade": "grade 11"
-                }
-            ]
-        ],
-        "val": [
-            [
-                83
-            ]
-        ]
+        "key": {
+            "year": 2013,
+            "subgroup": "All",
+            "grade": "grade 11"
+        },
+        "val": 83
     },
     {
-        "key": [
-            [
-                {
-                    "year": 2013,
-                    "subgroup": "All",
-                    "grade": "grade 12"
-                }
-            ]
-        ],
-        "val": [
-            [
-                78
-            ]
-        ]
+        "key": {
+            "year": 2013,
+            "subgroup": "All",
+            "grade": "grade 12"
+        },
+        "val": 78
     }
 ]
 
