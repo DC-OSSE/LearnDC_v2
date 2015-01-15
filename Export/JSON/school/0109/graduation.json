@@ -1,5 +1,5 @@
 {
-"timestamp": "Wed Jan 14 19:28:06 2015",
+"timestamp": "Thu Jan 15 16:37:10 2015",
 "org_type": "school",
 "org_name": "CESAR CHAVEZ PCS PARKSIDE UPPER",
 "org_code": "0109",
@@ -214,6 +214,83 @@
         "val": {
             "graduates": 36,
             "cohort_size": 58
+        }
+    },
+    {
+        "key": {
+            "subgroup": "All",
+            "year": 2014,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 67,
+            "cohort_size": 87
+        }
+    },
+    {
+        "key": {
+            "subgroup": "MALE",
+            "year": 2014,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 19,
+            "cohort_size": 28
+        }
+    },
+    {
+        "key": {
+            "subgroup": "FEMALE",
+            "year": 2014,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 48,
+            "cohort_size": 59
+        }
+    },
+    {
+        "key": {
+            "subgroup": "BL7",
+            "year": 2014,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 62,
+            "cohort_size": 76
+        }
+    },
+    {
+        "key": {
+            "subgroup": "HI7",
+            "year": 2014,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 5,
+            "cohort_size": 10
+        }
+    },
+    {
+        "key": {
+            "subgroup": "SPED",
+            "year": 2014,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 8,
+            "cohort_size": 12
+        }
+    },
+    {
+        "key": {
+            "subgroup": "Economy",
+            "year": 2014,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 53,
+            "cohort_size": 70
         }
     }
 ]

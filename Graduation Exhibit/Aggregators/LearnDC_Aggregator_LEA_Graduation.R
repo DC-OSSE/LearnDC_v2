@@ -4,9 +4,12 @@ source("U:/R/tomkit.R")
 
 source("./imports/subproc.R")
 
-grads <- sqlQuery(dbworking, "SELECT * FROM dbo.equity_report_grad_remake_v2 WHERE [cohort_status] = 1")
+grads <- sqlQuery(dbworking, "SELECT * FROM dbo.equity_report_grad_remake_all WHERE [cohort_status] = 1")
 
+##7000 lea_code and lea_name "State Level Reporting LEA" for records with school_code == 480 (Incarcerated Youth Program, Correctional)
 
+grads$lea_code[which(grads$school_code==480)] <- 7000
+grads$lea_name[which(grads$school_code==480)] <- 'State Level Reporting LEA'
 
 subgroups_list <- c("All","MALE","FEMALE","AM7","AS7","BL7","HI7","MU7","PI7","WH7","SPED","LEP","Economy")
 
@@ -14,10 +17,7 @@ subgroups_list <- c("All","MALE","FEMALE","AM7","AS7","BL7","HI7","MU7","PI7","W
 
 
 lea_subgroups_df <- data.frame()
-# for(g in c("Four Year ACGR","Five Year ACGR")){
-# 	for(h in unique(grads$lea_code)){
-# 		.lea_grads <- subset(grads, lea_code == h)
-for(g in c("Four Year ACGR")){
+for(g in c("Four Year ACGR","Five Year ACGR")){
 	for(h in unique(grads$lea_code)){
 		.lea_grads <- subset(grads, lea_code == h)
 
@@ -31,9 +31,9 @@ for(g in c("Four Year ACGR")){
 			if(.type == "Four Year ACGR"){
 				.year <- i + 4
 			}
-			# else if (.type == "Five Year ACGR"){	
-			# 	.year <- i + 5
-			# }
+			else if (.type == "Five Year ACGR"){	
+				.year <- i + 5
+			}
 
 			for(j in subgroups_list){
 
@@ -41,12 +41,12 @@ for(g in c("Four Year ACGR")){
 				.subgroup <- j
 
 				if(.type == "Four Year ACGR"){
-					.graduates <- sum(.tmp$graduated, na.rm=TRUE)
+					.graduates <- sum(.tmp$graduated_4yr, na.rm=TRUE)
 				}
-				# else if (.type == "Five Year ACGR"){	
-				# 	.graduates <- sum(.tmp$graduated_5yr, na.rm=TRUE)
-				# 	if(.graduates == 0){.graduates <- NA}
-				# }
+				else if (.type == "Five Year ACGR"){	
+					.graduates <- sum(.tmp$graduated_5yr, na.rm=TRUE)
+					if(.graduates == 0){.graduates <- NA}
+				}
 
 				.cohort_size <- nrow(.tmp)
 

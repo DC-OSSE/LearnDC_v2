@@ -1,5 +1,5 @@
 {
-"timestamp": "Wed Jan 14 19:28:13 2015",
+"timestamp": "Thu Jan 15 16:37:23 2015",
 "org_type": "school",
 "org_name": "DUNBAR HS",
 "org_code": "0467",
@@ -269,6 +269,72 @@
         "val": {
             "graduates": 94,
             "cohort_size": 176
+        }
+    },
+    {
+        "key": {
+            "subgroup": "All",
+            "year": 2014,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 134,
+            "cohort_size": 199
+        }
+    },
+    {
+        "key": {
+            "subgroup": "MALE",
+            "year": 2014,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 67,
+            "cohort_size": 108
+        }
+    },
+    {
+        "key": {
+            "subgroup": "FEMALE",
+            "year": 2014,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 67,
+            "cohort_size": 91
+        }
+    },
+    {
+        "key": {
+            "subgroup": "BL7",
+            "year": 2014,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 131,
+            "cohort_size": 194
+        }
+    },
+    {
+        "key": {
+            "subgroup": "SPED",
+            "year": 2014,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 35,
+            "cohort_size": 55
+        }
+    },
+    {
+        "key": {
+            "subgroup": "Economy",
+            "year": 2014,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 134,
+            "cohort_size": 197
         }
     }
 ]

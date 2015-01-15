@@ -1,12 +1,89 @@
 {
-"timestamp": "Wed Jan 14 19:30:14 2015",
+"timestamp": "Thu Jan 15 16:37:00 2015",
 "org_type": "lea",
-"org_name": "Capital City PCS",
+"org_name": "CAPITAL CITY PCS",
 "org_code": "0108",
 "exhibit": {
 	"id": "graduation",
 	"data":  
 [
+    {
+        "key": {
+            "subgroup": "All",
+            "year": 2013,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "graduates": 48,
+            "cohort_size": 61
+        }
+    },
+    {
+        "key": {
+            "subgroup": "MALE",
+            "year": 2013,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "graduates": 21,
+            "cohort_size": 28
+        }
+    },
+    {
+        "key": {
+            "subgroup": "FEMALE",
+            "year": 2013,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "graduates": 27,
+            "cohort_size": 33
+        }
+    },
+    {
+        "key": {
+            "subgroup": "BL7",
+            "year": 2013,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "graduates": 25,
+            "cohort_size": 31
+        }
+    },
+    {
+        "key": {
+            "subgroup": "HI7",
+            "year": 2013,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "graduates": 20,
+            "cohort_size": 27
+        }
+    },
+    {
+        "key": {
+            "subgroup": "SPED",
+            "year": 2013,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "graduates": 8,
+            "cohort_size": 11
+        }
+    },
+    {
+        "key": {
+            "subgroup": "Economy",
+            "year": 2013,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "graduates": 35,
+            "cohort_size": 40
+        }
+    },
     {
         "key": {
             "subgroup": "All",
@@ -164,30 +241,30 @@
     {
         "key": {
             "subgroup": "All",
-            "year": 2013,
-            "type": "Four Year ACGR"
+            "year": 2014,
+            "type": "Five Year ACGR"
         },
         "val": {
-            "graduates": 48,
+            "graduates": 51,
             "cohort_size": 61
         }
     },
     {
         "key": {
             "subgroup": "MALE",
-            "year": 2013,
-            "type": "Four Year ACGR"
+            "year": 2014,
+            "type": "Five Year ACGR"
         },
         "val": {
-            "graduates": 21,
+            "graduates": 24,
             "cohort_size": 28
         }
     },
     {
         "key": {
             "subgroup": "FEMALE",
-            "year": 2013,
-            "type": "Four Year ACGR"
+            "year": 2014,
+            "type": "Five Year ACGR"
         },
         "val": {
             "graduates": 27,
@@ -197,44 +274,44 @@
     {
         "key": {
             "subgroup": "BL7",
-            "year": 2013,
-            "type": "Four Year ACGR"
+            "year": 2014,
+            "type": "Five Year ACGR"
         },
         "val": {
-            "graduates": 25,
+            "graduates": 26,
             "cohort_size": 31
         }
     },
     {
         "key": {
             "subgroup": "HI7",
-            "year": 2013,
-            "type": "Four Year ACGR"
+            "year": 2014,
+            "type": "Five Year ACGR"
         },
         "val": {
-            "graduates": 20,
+            "graduates": 22,
             "cohort_size": 27
         }
     },
     {
         "key": {
             "subgroup": "SPED",
-            "year": 2013,
-            "type": "Four Year ACGR"
+            "year": 2014,
+            "type": "Five Year ACGR"
         },
         "val": {
-            "graduates": 8,
+            "graduates": 9,
             "cohort_size": 11
         }
     },
     {
         "key": {
             "subgroup": "Economy",
-            "year": 2013,
-            "type": "Four Year ACGR"
+            "year": 2014,
+            "type": "Five Year ACGR"
         },
         "val": {
-            "graduates": 35,
+            "graduates": 38,
             "cohort_size": 40
         }
     }

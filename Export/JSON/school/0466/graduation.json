@@ -1,5 +1,5 @@
 {
-"timestamp": "Wed Jan 14 19:28:13 2015",
+"timestamp": "Thu Jan 15 16:37:22 2015",
 "org_type": "school",
 "org_name": "SCHOOL WITHOUT WALLS HS",
 "org_code": "0466",
@@ -302,6 +302,83 @@
         "val": {
             "graduates": 10,
             "cohort_size": 10
+        }
+    },
+    {
+        "key": {
+            "subgroup": "All",
+            "year": 2014,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 130,
+            "cohort_size": 140
+        }
+    },
+    {
+        "key": {
+            "subgroup": "MALE",
+            "year": 2014,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 39,
+            "cohort_size": 44
+        }
+    },
+    {
+        "key": {
+            "subgroup": "FEMALE",
+            "year": 2014,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 91,
+            "cohort_size": 96
+        }
+    },
+    {
+        "key": {
+            "subgroup": "BL7",
+            "year": 2014,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 63,
+            "cohort_size": 66
+        }
+    },
+    {
+        "key": {
+            "subgroup": "HI7",
+            "year": 2014,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 10,
+            "cohort_size": 10
+        }
+    },
+    {
+        "key": {
+            "subgroup": "WH7",
+            "year": 2014,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 38,
+            "cohort_size": 45
+        }
+    },
+    {
+        "key": {
+            "subgroup": "Economy",
+            "year": 2014,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 22,
+            "cohort_size": 23
         }
     }
 ]

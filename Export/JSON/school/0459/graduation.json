@@ -1,5 +1,5 @@
 {
-"timestamp": "Wed Jan 14 19:28:12 2015",
+"timestamp": "Thu Jan 15 16:37:21 2015",
 "org_type": "school",
 "org_name": "ROOSEVELT HS AT MACFARLAND",
 "org_code": "0459",
@@ -357,6 +357,94 @@
         "val": {
             "graduates": 82,
             "cohort_size": 130
+        }
+    },
+    {
+        "key": {
+            "subgroup": "All",
+            "year": 2014,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 102,
+            "cohort_size": 183
+        }
+    },
+    {
+        "key": {
+            "subgroup": "MALE",
+            "year": 2014,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 52,
+            "cohort_size": 107
+        }
+    },
+    {
+        "key": {
+            "subgroup": "FEMALE",
+            "year": 2014,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 50,
+            "cohort_size": 76
+        }
+    },
+    {
+        "key": {
+            "subgroup": "BL7",
+            "year": 2014,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 69,
+            "cohort_size": 125
+        }
+    },
+    {
+        "key": {
+            "subgroup": "HI7",
+            "year": 2014,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 32,
+            "cohort_size": 55
+        }
+    },
+    {
+        "key": {
+            "subgroup": "SPED",
+            "year": 2014,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 23,
+            "cohort_size": 46
+        }
+    },
+    {
+        "key": {
+            "subgroup": "LEP",
+            "year": 2014,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 17,
+            "cohort_size": 25
+        }
+    },
+    {
+        "key": {
+            "subgroup": "Economy",
+            "year": 2014,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 102,
+            "cohort_size": 182
         }
     }
 ]

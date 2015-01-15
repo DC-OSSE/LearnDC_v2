@@ -1,5 +1,5 @@
 {
-"timestamp": "Wed Jan 14 19:30:11 2015",
+"timestamp": "Thu Jan 15 16:36:56 2015",
 "org_type": "lea",
 "org_name": "KIPP DC PCS",
 "org_code": "0129",
@@ -7,6 +7,61 @@
 	"id": "graduation",
 	"data":  
 [
+    {
+        "key": {
+            "subgroup": "All",
+            "year": 2013,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "graduates": 78,
+            "cohort_size": 82
+        }
+    },
+    {
+        "key": {
+            "subgroup": "MALE",
+            "year": 2013,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "graduates": 32,
+            "cohort_size": 35
+        }
+    },
+    {
+        "key": {
+            "subgroup": "FEMALE",
+            "year": 2013,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "graduates": 46,
+            "cohort_size": 47
+        }
+    },
+    {
+        "key": {
+            "subgroup": "BL7",
+            "year": 2013,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "graduates": 75,
+            "cohort_size": 79
+        }
+    },
+    {
+        "key": {
+            "subgroup": "Economy",
+            "year": 2013,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "graduates": 60,
+            "cohort_size": 63
+        }
+    },
     {
         "key": {
             "subgroup": "All",
@@ -76,30 +131,30 @@
     {
         "key": {
             "subgroup": "All",
-            "year": 2013,
-            "type": "Four Year ACGR"
+            "year": 2014,
+            "type": "Five Year ACGR"
         },
         "val": {
-            "graduates": 78,
+            "graduates": 80,
             "cohort_size": 82
         }
     },
     {
         "key": {
             "subgroup": "MALE",
-            "year": 2013,
-            "type": "Four Year ACGR"
+            "year": 2014,
+            "type": "Five Year ACGR"
         },
         "val": {
-            "graduates": 32,
+            "graduates": 34,
             "cohort_size": 35
         }
     },
     {
         "key": {
             "subgroup": "FEMALE",
-            "year": 2013,
-            "type": "Four Year ACGR"
+            "year": 2014,
+            "type": "Five Year ACGR"
         },
         "val": {
             "graduates": 46,
@@ -109,22 +164,22 @@
     {
         "key": {
             "subgroup": "BL7",
-            "year": 2013,
-            "type": "Four Year ACGR"
+            "year": 2014,
+            "type": "Five Year ACGR"
         },
         "val": {
-            "graduates": 75,
+            "graduates": 77,
             "cohort_size": 79
         }
     },
     {
         "key": {
             "subgroup": "Economy",
-            "year": 2013,
-            "type": "Four Year ACGR"
+            "year": 2014,
+            "type": "Five Year ACGR"
         },
         "val": {
-            "graduates": 60,
+            "graduates": 61,
             "cohort_size": 63
         }
     }

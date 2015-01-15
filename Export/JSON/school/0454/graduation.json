@@ -1,5 +1,5 @@
 {
-"timestamp": "Wed Jan 14 19:28:11 2015",
+"timestamp": "Thu Jan 15 16:37:18 2015",
 "org_type": "school",
 "org_name": "CARDOZO EC",
 "org_code": "0454",
@@ -357,6 +357,94 @@
         "val": {
             "graduates": 38,
             "cohort_size": 103
+        }
+    },
+    {
+        "key": {
+            "subgroup": "All",
+            "year": 2014,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 80,
+            "cohort_size": 168
+        }
+    },
+    {
+        "key": {
+            "subgroup": "MALE",
+            "year": 2014,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 38,
+            "cohort_size": 99
+        }
+    },
+    {
+        "key": {
+            "subgroup": "FEMALE",
+            "year": 2014,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 42,
+            "cohort_size": 69
+        }
+    },
+    {
+        "key": {
+            "subgroup": "BL7",
+            "year": 2014,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 66,
+            "cohort_size": 121
+        }
+    },
+    {
+        "key": {
+            "subgroup": "HI7",
+            "year": 2014,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 13,
+            "cohort_size": 44
+        }
+    },
+    {
+        "key": {
+            "subgroup": "SPED",
+            "year": 2014,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 18,
+            "cohort_size": 40
+        }
+    },
+    {
+        "key": {
+            "subgroup": "LEP",
+            "year": 2014,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 14,
+            "cohort_size": 20
+        }
+    },
+    {
+        "key": {
+            "subgroup": "Economy",
+            "year": 2014,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 79,
+            "cohort_size": 166
         }
     }
 ]

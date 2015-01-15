@@ -1,5 +1,5 @@
 {
-"timestamp": "Wed Jan 14 19:28:14 2015",
+"timestamp": "Thu Jan 15 16:37:24 2015",
 "org_type": "school",
 "org_name": "ELLINGTON SCHOOL OF THE ARTS",
 "org_code": "0471",
@@ -269,6 +269,72 @@
         "val": {
             "graduates": 24,
             "cohort_size": 27
+        }
+    },
+    {
+        "key": {
+            "subgroup": "All",
+            "year": 2014,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 116,
+            "cohort_size": 122
+        }
+    },
+    {
+        "key": {
+            "subgroup": "MALE",
+            "year": 2014,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 32,
+            "cohort_size": 35
+        }
+    },
+    {
+        "key": {
+            "subgroup": "FEMALE",
+            "year": 2014,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 84,
+            "cohort_size": 87
+        }
+    },
+    {
+        "key": {
+            "subgroup": "BL7",
+            "year": 2014,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 92,
+            "cohort_size": 97
+        }
+    },
+    {
+        "key": {
+            "subgroup": "HI7",
+            "year": 2014,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 12,
+            "cohort_size": 12
+        }
+    },
+    {
+        "key": {
+            "subgroup": "Economy",
+            "year": 2014,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 42,
+            "cohort_size": 45
         }
     }
 ]

@@ -1,5 +1,5 @@
 {
-"timestamp": "Wed Jan 14 19:28:07 2015",
+"timestamp": "Thu Jan 15 16:37:12 2015",
 "org_type": "school",
 "org_name": "HOSPITALITY PCS",
 "org_code": "0160",
@@ -236,6 +236,72 @@
         "val": {
             "graduates": 8,
             "cohort_size": 32
+        }
+    },
+    {
+        "key": {
+            "subgroup": "All",
+            "year": 2014,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 37,
+            "cohort_size": 46
+        }
+    },
+    {
+        "key": {
+            "subgroup": "MALE",
+            "year": 2014,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 14,
+            "cohort_size": 17
+        }
+    },
+    {
+        "key": {
+            "subgroup": "FEMALE",
+            "year": 2014,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 23,
+            "cohort_size": 29
+        }
+    },
+    {
+        "key": {
+            "subgroup": "BL7",
+            "year": 2014,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 33,
+            "cohort_size": 40
+        }
+    },
+    {
+        "key": {
+            "subgroup": "SPED",
+            "year": 2014,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 6,
+            "cohort_size": 10
+        }
+    },
+    {
+        "key": {
+            "subgroup": "Economy",
+            "year": 2014,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 37,
+            "cohort_size": 46
         }
     }
 ]

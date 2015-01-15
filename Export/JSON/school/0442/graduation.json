@@ -1,5 +1,5 @@
 {
-"timestamp": "Wed Jan 14 19:28:10 2015",
+"timestamp": "Thu Jan 15 16:37:16 2015",
 "org_type": "school",
 "org_name": "COLUMBIA HEIGHTS EC (CHEC)",
 "org_code": "0442",
@@ -357,6 +357,94 @@
         "val": {
             "graduates": 70,
             "cohort_size": 86
+        }
+    },
+    {
+        "key": {
+            "subgroup": "All",
+            "year": 2014,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 183,
+            "cohort_size": 234
+        }
+    },
+    {
+        "key": {
+            "subgroup": "MALE",
+            "year": 2014,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 96,
+            "cohort_size": 129
+        }
+    },
+    {
+        "key": {
+            "subgroup": "FEMALE",
+            "year": 2014,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 87,
+            "cohort_size": 105
+        }
+    },
+    {
+        "key": {
+            "subgroup": "BL7",
+            "year": 2014,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 59,
+            "cohort_size": 73
+        }
+    },
+    {
+        "key": {
+            "subgroup": "HI7",
+            "year": 2014,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 118,
+            "cohort_size": 154
+        }
+    },
+    {
+        "key": {
+            "subgroup": "SPED",
+            "year": 2014,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 8,
+            "cohort_size": 12
+        }
+    },
+    {
+        "key": {
+            "subgroup": "LEP",
+            "year": 2014,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 28,
+            "cohort_size": 35
+        }
+    },
+    {
+        "key": {
+            "subgroup": "Economy",
+            "year": 2014,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 183,
+            "cohort_size": 233
         }
     }
 ]

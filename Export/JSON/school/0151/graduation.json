@@ -1,5 +1,5 @@
 {
-"timestamp": "Wed Jan 14 19:28:06 2015",
+"timestamp": "Thu Jan 15 16:37:11 2015",
 "org_type": "school",
 "org_name": "BOOKER T  WASHINGTON PCS",
 "org_code": "0151",
@@ -269,6 +269,72 @@
         "val": {
             "graduates": 23,
             "cohort_size": 54
+        }
+    },
+    {
+        "key": {
+            "subgroup": "All",
+            "year": 2014,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 43,
+            "cohort_size": 66
+        }
+    },
+    {
+        "key": {
+            "subgroup": "MALE",
+            "year": 2014,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 21,
+            "cohort_size": 34
+        }
+    },
+    {
+        "key": {
+            "subgroup": "FEMALE",
+            "year": 2014,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 22,
+            "cohort_size": 32
+        }
+    },
+    {
+        "key": {
+            "subgroup": "BL7",
+            "year": 2014,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 40,
+            "cohort_size": 61
+        }
+    },
+    {
+        "key": {
+            "subgroup": "SPED",
+            "year": 2014,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 8,
+            "cohort_size": 14
+        }
+    },
+    {
+        "key": {
+            "subgroup": "Economy",
+            "year": 2014,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 41,
+            "cohort_size": 59
         }
     }
 ]

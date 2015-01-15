@@ -1,5 +1,5 @@
 {
-"timestamp": "Wed Jan 14 19:28:12 2015",
+"timestamp": "Thu Jan 15 16:37:20 2015",
 "org_type": "school",
 "org_name": "MCKINLEY TECHNOLOGY HS",
 "org_code": "0458",
@@ -247,6 +247,61 @@
         "val": {
             "graduates": 51,
             "cohort_size": 52
+        }
+    },
+    {
+        "key": {
+            "subgroup": "All",
+            "year": 2014,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 143,
+            "cohort_size": 152
+        }
+    },
+    {
+        "key": {
+            "subgroup": "MALE",
+            "year": 2014,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 58,
+            "cohort_size": 62
+        }
+    },
+    {
+        "key": {
+            "subgroup": "FEMALE",
+            "year": 2014,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 85,
+            "cohort_size": 90
+        }
+    },
+    {
+        "key": {
+            "subgroup": "BL7",
+            "year": 2014,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 132,
+            "cohort_size": 139
+        }
+    },
+    {
+        "key": {
+            "subgroup": "Economy",
+            "year": 2014,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 74,
+            "cohort_size": 79
         }
     }
 ]

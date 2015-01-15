@@ -1,5 +1,5 @@
 {
-"timestamp": "Wed Jan 14 19:28:10 2015",
+"timestamp": "Thu Jan 15 16:37:17 2015",
 "org_type": "school",
 "org_name": "ANACOSTIA HS",
 "org_code": "0450",
@@ -280,6 +280,72 @@
         "val": {
             "graduates": 88,
             "cohort_size": 235
+        }
+    },
+    {
+        "key": {
+            "subgroup": "All",
+            "year": 2014,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 141,
+            "cohort_size": 278
+        }
+    },
+    {
+        "key": {
+            "subgroup": "MALE",
+            "year": 2014,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 59,
+            "cohort_size": 132
+        }
+    },
+    {
+        "key": {
+            "subgroup": "FEMALE",
+            "year": 2014,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 82,
+            "cohort_size": 146
+        }
+    },
+    {
+        "key": {
+            "subgroup": "BL7",
+            "year": 2014,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 140,
+            "cohort_size": 277
+        }
+    },
+    {
+        "key": {
+            "subgroup": "SPED",
+            "year": 2014,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 26,
+            "cohort_size": 65
+        }
+    },
+    {
+        "key": {
+            "subgroup": "Economy",
+            "year": 2014,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 141,
+            "cohort_size": 276
         }
     }
 ]

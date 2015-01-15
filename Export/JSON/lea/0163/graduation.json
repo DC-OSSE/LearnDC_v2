@@ -1,5 +1,5 @@
 {
-"timestamp": "Wed Jan 14 19:30:15 2015",
+"timestamp": "Thu Jan 15 16:37:02 2015",
 "org_type": "lea",
 "org_name": "National Collegiate Preparatory PCS",
 "org_code": "0163",
@@ -136,6 +136,72 @@
         },
         "val": {
             "graduates": 48,
+            "cohort_size": 60
+        }
+    },
+    {
+        "key": {
+            "subgroup": "All",
+            "year": 2014,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 56,
+            "cohort_size": 67
+        }
+    },
+    {
+        "key": {
+            "subgroup": "MALE",
+            "year": 2014,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 21,
+            "cohort_size": 28
+        }
+    },
+    {
+        "key": {
+            "subgroup": "FEMALE",
+            "year": 2014,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 35,
+            "cohort_size": 39
+        }
+    },
+    {
+        "key": {
+            "subgroup": "BL7",
+            "year": 2014,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 56,
+            "cohort_size": 67
+        }
+    },
+    {
+        "key": {
+            "subgroup": "SPED",
+            "year": 2014,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 7,
+            "cohort_size": 10
+        }
+    },
+    {
+        "key": {
+            "subgroup": "Economy",
+            "year": 2014,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 50,
             "cohort_size": 60
         }
     }

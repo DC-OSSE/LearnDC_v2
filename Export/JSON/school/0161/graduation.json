@@ -1,5 +1,5 @@
 {
-"timestamp": "Wed Jan 14 19:28:07 2015",
+"timestamp": "Thu Jan 15 16:37:13 2015",
 "org_type": "school",
 "org_name": "PERRY STREET PREP PCS",
 "org_code": "0161",
@@ -258,6 +258,72 @@
         "val": {
             "graduates": 51,
             "cohort_size": 80
+        }
+    },
+    {
+        "key": {
+            "subgroup": "All",
+            "year": 2014,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 83,
+            "cohort_size": 102
+        }
+    },
+    {
+        "key": {
+            "subgroup": "MALE",
+            "year": 2014,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 42,
+            "cohort_size": 54
+        }
+    },
+    {
+        "key": {
+            "subgroup": "FEMALE",
+            "year": 2014,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 41,
+            "cohort_size": 48
+        }
+    },
+    {
+        "key": {
+            "subgroup": "BL7",
+            "year": 2014,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 82,
+            "cohort_size": 101
+        }
+    },
+    {
+        "key": {
+            "subgroup": "SPED",
+            "year": 2014,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 12,
+            "cohort_size": 14
+        }
+    },
+    {
+        "key": {
+            "subgroup": "Economy",
+            "year": 2014,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 57,
+            "cohort_size": 71
         }
     }
 ]

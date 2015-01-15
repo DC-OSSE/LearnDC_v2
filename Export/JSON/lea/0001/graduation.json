@@ -1,5 +1,5 @@
 {
-"timestamp": "Wed Jan 14 19:30:14 2015",
+"timestamp": "Thu Jan 15 16:36:59 2015",
 "org_type": "lea",
 "org_name": "District of Columbia Public Schools",
 "org_code": "0001",
@@ -388,8 +388,8 @@
             "type": "Four Year ACGR"
         },
         "val": {
-            "graduates": 2058,
-            "cohort_size": 3620
+            "graduates": 2053,
+            "cohort_size": 3600
         }
     },
     {
@@ -399,8 +399,8 @@
             "type": "Four Year ACGR"
         },
         "val": {
-            "graduates": 884,
-            "cohort_size": 1822
+            "graduates": 879,
+            "cohort_size": 1802
         }
     },
     {
@@ -432,8 +432,8 @@
             "type": "Four Year ACGR"
         },
         "val": {
-            "graduates": 1557,
-            "cohort_size": 2908
+            "graduates": 1553,
+            "cohort_size": 2891
         }
     },
     {
@@ -443,8 +443,8 @@
             "type": "Four Year ACGR"
         },
         "val": {
-            "graduates": 281,
-            "cohort_size": 458
+            "graduates": 280,
+            "cohort_size": 455
         }
     },
     {
@@ -476,8 +476,8 @@
             "type": "Four Year ACGR"
         },
         "val": {
-            "graduates": 276,
-            "cohort_size": 722
+            "graduates": 275,
+            "cohort_size": 715
         }
     },
     {
@@ -498,8 +498,129 @@
             "type": "Four Year ACGR"
         },
         "val": {
-            "graduates": 1504,
-            "cohort_size": 2884
+            "graduates": 1502,
+            "cohort_size": 2871
+        }
+    },
+    {
+        "key": {
+            "subgroup": "All",
+            "year": 2014,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 2280,
+            "cohort_size": 3600
+        }
+    },
+    {
+        "key": {
+            "subgroup": "MALE",
+            "year": 2014,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 1013,
+            "cohort_size": 1802
+        }
+    },
+    {
+        "key": {
+            "subgroup": "FEMALE",
+            "year": 2014,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 1267,
+            "cohort_size": 1798
+        }
+    },
+    {
+        "key": {
+            "subgroup": "AS7",
+            "year": 2014,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 44,
+            "cohort_size": 50
+        }
+    },
+    {
+        "key": {
+            "subgroup": "BL7",
+            "year": 2014,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 1747,
+            "cohort_size": 2891
+        }
+    },
+    {
+        "key": {
+            "subgroup": "HI7",
+            "year": 2014,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 307,
+            "cohort_size": 455
+        }
+    },
+    {
+        "key": {
+            "subgroup": "MU7",
+            "year": 2014,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 36,
+            "cohort_size": 39
+        }
+    },
+    {
+        "key": {
+            "subgroup": "WH7",
+            "year": 2014,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 139,
+            "cohort_size": 158
+        }
+    },
+    {
+        "key": {
+            "subgroup": "SPED",
+            "year": 2014,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 342,
+            "cohort_size": 715
+        }
+    },
+    {
+        "key": {
+            "subgroup": "LEP",
+            "year": 2014,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 83,
+            "cohort_size": 115
+        }
+    },
+    {
+        "key": {
+            "subgroup": "Economy",
+            "year": 2014,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 1702,
+            "cohort_size": 2871
         }
     }
 ]

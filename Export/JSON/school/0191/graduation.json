@@ -1,5 +1,5 @@
 {
-"timestamp": "Wed Jan 14 19:28:09 2015",
+"timestamp": "Thu Jan 15 16:37:16 2015",
 "org_type": "school",
 "org_name": "THURGOOD MARSHALL ACADEMY PCS",
 "org_code": "0191",
@@ -224,6 +224,61 @@
         },
         "val": {
             "graduates": 36,
+            "cohort_size": 50
+        }
+    },
+    {
+        "key": {
+            "subgroup": "All",
+            "year": 2014,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 60,
+            "cohort_size": 65
+        }
+    },
+    {
+        "key": {
+            "subgroup": "MALE",
+            "year": 2014,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 16,
+            "cohort_size": 19
+        }
+    },
+    {
+        "key": {
+            "subgroup": "FEMALE",
+            "year": 2014,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 44,
+            "cohort_size": 46
+        }
+    },
+    {
+        "key": {
+            "subgroup": "BL7",
+            "year": 2014,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 60,
+            "cohort_size": 65
+        }
+    },
+    {
+        "key": {
+            "subgroup": "Economy",
+            "year": 2014,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 45,
             "cohort_size": 50
         }
     }

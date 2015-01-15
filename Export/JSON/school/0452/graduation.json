@@ -1,5 +1,5 @@
 {
-"timestamp": "Wed Jan 14 19:28:10 2015",
+"timestamp": "Thu Jan 15 16:37:17 2015",
 "org_type": "school",
 "org_name": "BALLOU HS",
 "org_code": "0452",
@@ -280,6 +280,72 @@
         "val": {
             "graduates": 104,
             "cohort_size": 209
+        }
+    },
+    {
+        "key": {
+            "subgroup": "All",
+            "year": 2014,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 158,
+            "cohort_size": 294
+        }
+    },
+    {
+        "key": {
+            "subgroup": "MALE",
+            "year": 2014,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 81,
+            "cohort_size": 162
+        }
+    },
+    {
+        "key": {
+            "subgroup": "FEMALE",
+            "year": 2014,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 77,
+            "cohort_size": 132
+        }
+    },
+    {
+        "key": {
+            "subgroup": "BL7",
+            "year": 2014,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 156,
+            "cohort_size": 292
+        }
+    },
+    {
+        "key": {
+            "subgroup": "SPED",
+            "year": 2014,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 46,
+            "cohort_size": 95
+        }
+    },
+    {
+        "key": {
+            "subgroup": "Economy",
+            "year": 2014,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 158,
+            "cohort_size": 294
         }
     }
 ]
