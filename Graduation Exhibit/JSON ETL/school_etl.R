@@ -3,7 +3,7 @@ source("U:/R/tomkit.R")
 library(jsonlite)
 
 
-school_grad <- sqlQuery(dbrepcard_prod, "SELECT * FROM [dbo].[graduation_school_exhibit_w2014_bk]")
+school_grad <- sqlQuery(dbrepcard_prod, "SELECT * FROM [dbo].[graduation_school_exhibit_w2014]")
 
 school_grad <- subset(school_grad, cohort_size >= 10 & !is.na(graduates))
 

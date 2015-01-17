@@ -7,8 +7,8 @@ source("./imports/subproc.R")
 grads <- sqlQuery(dbworking, "SELECT * FROM dbo.equity_report_grad_remake_all WHERE [cohort_status] = 1")
 ##7000 lea_code and lea_name "State Level Reporting LEA" for records with school_code == 480 (Incarcerated Youth Program, Correctional)
 
-grads$lea_code[which(grads$school_code==480)] <- 7000
-grads$lea_name[which(grads$school_code==480)] <- 'State Level Reporting LEA'
+grads$lea_code[which(grads$school_code==480)] <- 4001
+grads$lea_name[which(grads$school_code==480)] <- 'State-Level Reporting LEA'
 
 dir <- sqlQuery(dbrepcard, "SELECT * FROM [dbo].[school_mapping_sy1314]")
 
@@ -82,7 +82,7 @@ for(g in c("Four Year ACGR","Five Year ACGR")){
 		}
 	}
 }
-colnames(school_subgroups_df) <- c("lea_code","lea_name","school_code","school_name","subgroup","year",".type","graduates","cohort_size")
+colnames(school_subgroups_df) <- c("lea_code","lea_name","school_code","school_name","subgroup","year","type","graduates","cohort_size")
 
 
 sqlSave(dbrepcard_prod, school_subgroups_df, tablename = "graduation_school_exhibit_w2014", append = FALSE, rownames=FALSE)

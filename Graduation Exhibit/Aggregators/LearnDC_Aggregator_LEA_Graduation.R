@@ -8,8 +8,8 @@ grads <- sqlQuery(dbworking, "SELECT * FROM dbo.equity_report_grad_remake_all WH
 
 ##7000 lea_code and lea_name "State Level Reporting LEA" for records with school_code == 480 (Incarcerated Youth Program, Correctional)
 
-grads$lea_code[which(grads$school_code==480)] <- 7000
-grads$lea_name[which(grads$school_code==480)] <- 'State Level Reporting LEA'
+grads$lea_code[which(grads$school_code==480)] <- 4001
+grads$lea_name[which(grads$school_code==480)] <- 'State-Level Reporting LEA'
 
 subgroups_list <- c("All","MALE","FEMALE","AM7","AS7","BL7","HI7","MU7","PI7","WH7","SPED","LEP","Economy")
 

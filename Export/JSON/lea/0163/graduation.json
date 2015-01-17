@@ -1,78 +1,12 @@
 {
-"timestamp": "Thu Jan 15 16:37:02 2015",
+"timestamp": "Fri Jan 16 17:06:11 2015",
 "org_type": "lea",
-"org_name": "National Collegiate Preparatory PCS",
+"org_name": "National Collegiate Prep PCS",
 "org_code": "0163",
 "exhibit": {
 	"id": "graduation",
 	"data":  
 [
-    {
-        "key": {
-            "subgroup": "All",
-            "year": 2014,
-            "type": "Four Year ACGR"
-        },
-        "val": {
-            "graduates": 63,
-            "cohort_size": 87
-        }
-    },
-    {
-        "key": {
-            "subgroup": "MALE",
-            "year": 2014,
-            "type": "Four Year ACGR"
-        },
-        "val": {
-            "graduates": 20,
-            "cohort_size": 29
-        }
-    },
-    {
-        "key": {
-            "subgroup": "FEMALE",
-            "year": 2014,
-            "type": "Four Year ACGR"
-        },
-        "val": {
-            "graduates": 43,
-            "cohort_size": 58
-        }
-    },
-    {
-        "key": {
-            "subgroup": "BL7",
-            "year": 2014,
-            "type": "Four Year ACGR"
-        },
-        "val": {
-            "graduates": 62,
-            "cohort_size": 86
-        }
-    },
-    {
-        "key": {
-            "subgroup": "SPED",
-            "year": 2014,
-            "type": "Four Year ACGR"
-        },
-        "val": {
-            "graduates": 9,
-            "cohort_size": 13
-        }
-    },
-    {
-        "key": {
-            "subgroup": "Economy",
-            "year": 2014,
-            "type": "Four Year ACGR"
-        },
-        "val": {
-            "graduates": 40,
-            "cohort_size": 58
-        }
-    },
     {
         "key": {
             "subgroup": "All",
@@ -137,6 +71,72 @@
         "val": {
             "graduates": 48,
             "cohort_size": 60
+        }
+    },
+    {
+        "key": {
+            "subgroup": "All",
+            "year": 2014,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "graduates": 63,
+            "cohort_size": 87
+        }
+    },
+    {
+        "key": {
+            "subgroup": "MALE",
+            "year": 2014,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "graduates": 20,
+            "cohort_size": 29
+        }
+    },
+    {
+        "key": {
+            "subgroup": "FEMALE",
+            "year": 2014,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "graduates": 43,
+            "cohort_size": 58
+        }
+    },
+    {
+        "key": {
+            "subgroup": "BL7",
+            "year": 2014,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "graduates": 62,
+            "cohort_size": 86
+        }
+    },
+    {
+        "key": {
+            "subgroup": "SPED",
+            "year": 2014,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "graduates": 9,
+            "cohort_size": 13
+        }
+    },
+    {
+        "key": {
+            "subgroup": "Economy",
+            "year": 2014,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "graduates": 40,
+            "cohort_size": 58
         }
     },
     {

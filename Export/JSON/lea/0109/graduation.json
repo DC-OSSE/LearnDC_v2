@@ -1,5 +1,5 @@
 {
-"timestamp": "Thu Jan 15 16:36:55 2015",
+"timestamp": "Fri Jan 16 17:05:56 2015",
 "org_type": "lea",
 "org_name": "Cesar Chavez Public PCS",
 "org_code": "0109",
@@ -7,6 +7,94 @@
 	"id": "graduation",
 	"data":  
 [
+    {
+        "key": {
+            "subgroup": "All",
+            "year": 2012,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "graduates": 87,
+            "cohort_size": 133
+        }
+    },
+    {
+        "key": {
+            "subgroup": "MALE",
+            "year": 2012,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "graduates": 36,
+            "cohort_size": 58
+        }
+    },
+    {
+        "key": {
+            "subgroup": "FEMALE",
+            "year": 2012,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "graduates": 51,
+            "cohort_size": 75
+        }
+    },
+    {
+        "key": {
+            "subgroup": "BL7",
+            "year": 2012,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "graduates": 80,
+            "cohort_size": 118
+        }
+    },
+    {
+        "key": {
+            "subgroup": "HI7",
+            "year": 2012,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "graduates": 7,
+            "cohort_size": 15
+        }
+    },
+    {
+        "key": {
+            "subgroup": "SPED",
+            "year": 2012,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "graduates": 10,
+            "cohort_size": 24
+        }
+    },
+    {
+        "key": {
+            "subgroup": "LEP",
+            "year": 2012,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "graduates": 5,
+            "cohort_size": 10
+        }
+    },
+    {
+        "key": {
+            "subgroup": "Economy",
+            "year": 2012,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "graduates": 58,
+            "cohort_size": 84
+        }
+    },
     {
         "key": {
             "subgroup": "All",
@@ -236,94 +324,6 @@
         "val": {
             "graduates": 71,
             "cohort_size": 113
-        }
-    },
-    {
-        "key": {
-            "subgroup": "All",
-            "year": 2012,
-            "type": "Four Year ACGR"
-        },
-        "val": {
-            "graduates": 87,
-            "cohort_size": 133
-        }
-    },
-    {
-        "key": {
-            "subgroup": "MALE",
-            "year": 2012,
-            "type": "Four Year ACGR"
-        },
-        "val": {
-            "graduates": 36,
-            "cohort_size": 58
-        }
-    },
-    {
-        "key": {
-            "subgroup": "FEMALE",
-            "year": 2012,
-            "type": "Four Year ACGR"
-        },
-        "val": {
-            "graduates": 51,
-            "cohort_size": 75
-        }
-    },
-    {
-        "key": {
-            "subgroup": "BL7",
-            "year": 2012,
-            "type": "Four Year ACGR"
-        },
-        "val": {
-            "graduates": 80,
-            "cohort_size": 118
-        }
-    },
-    {
-        "key": {
-            "subgroup": "HI7",
-            "year": 2012,
-            "type": "Four Year ACGR"
-        },
-        "val": {
-            "graduates": 7,
-            "cohort_size": 15
-        }
-    },
-    {
-        "key": {
-            "subgroup": "SPED",
-            "year": 2012,
-            "type": "Four Year ACGR"
-        },
-        "val": {
-            "graduates": 10,
-            "cohort_size": 24
-        }
-    },
-    {
-        "key": {
-            "subgroup": "LEP",
-            "year": 2012,
-            "type": "Four Year ACGR"
-        },
-        "val": {
-            "graduates": 5,
-            "cohort_size": 10
-        }
-    },
-    {
-        "key": {
-            "subgroup": "Economy",
-            "year": 2012,
-            "type": "Four Year ACGR"
-        },
-        "val": {
-            "graduates": 58,
-            "cohort_size": 84
         }
     },
     {

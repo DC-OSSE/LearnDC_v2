@@ -1,5 +1,5 @@
 {
-"timestamp": "Thu Jan 15 16:36:57 2015",
+"timestamp": "Fri Jan 16 17:06:00 2015",
 "org_type": "lea",
 "org_name": "Booker T. Washington PCS",
 "org_code": "0106",
@@ -7,6 +7,72 @@
 	"id": "graduation",
 	"data":  
 [
+    {
+        "key": {
+            "subgroup": "All",
+            "year": 2012,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "graduates": 56,
+            "cohort_size": 73
+        }
+    },
+    {
+        "key": {
+            "subgroup": "MALE",
+            "year": 2012,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "graduates": 25,
+            "cohort_size": 32
+        }
+    },
+    {
+        "key": {
+            "subgroup": "FEMALE",
+            "year": 2012,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "graduates": 31,
+            "cohort_size": 41
+        }
+    },
+    {
+        "key": {
+            "subgroup": "BL7",
+            "year": 2012,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "graduates": 56,
+            "cohort_size": 73
+        }
+    },
+    {
+        "key": {
+            "subgroup": "SPED",
+            "year": 2012,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "graduates": 10,
+            "cohort_size": 15
+        }
+    },
+    {
+        "key": {
+            "subgroup": "Economy",
+            "year": 2012,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "graduates": 35,
+            "cohort_size": 46
+        }
+    },
     {
         "key": {
             "subgroup": "All",
@@ -203,72 +269,6 @@
         "val": {
             "graduates": 23,
             "cohort_size": 54
-        }
-    },
-    {
-        "key": {
-            "subgroup": "All",
-            "year": 2012,
-            "type": "Four Year ACGR"
-        },
-        "val": {
-            "graduates": 56,
-            "cohort_size": 73
-        }
-    },
-    {
-        "key": {
-            "subgroup": "MALE",
-            "year": 2012,
-            "type": "Four Year ACGR"
-        },
-        "val": {
-            "graduates": 25,
-            "cohort_size": 32
-        }
-    },
-    {
-        "key": {
-            "subgroup": "FEMALE",
-            "year": 2012,
-            "type": "Four Year ACGR"
-        },
-        "val": {
-            "graduates": 31,
-            "cohort_size": 41
-        }
-    },
-    {
-        "key": {
-            "subgroup": "BL7",
-            "year": 2012,
-            "type": "Four Year ACGR"
-        },
-        "val": {
-            "graduates": 56,
-            "cohort_size": 73
-        }
-    },
-    {
-        "key": {
-            "subgroup": "SPED",
-            "year": 2012,
-            "type": "Four Year ACGR"
-        },
-        "val": {
-            "graduates": 10,
-            "cohort_size": 15
-        }
-    },
-    {
-        "key": {
-            "subgroup": "Economy",
-            "year": 2012,
-            "type": "Four Year ACGR"
-        },
-        "val": {
-            "graduates": 35,
-            "cohort_size": 46
         }
     },
     {
