@@ -6,7 +6,8 @@ library(jsonlite)
 
 school_enr <- sqlQuery(dbrepcard_prod, "SELECT * FROM [dbo].[enrollment_school_exhibit_mixed_values]")
 
-school_enr <- subset(school_enr, enrollment >= 10 | (enrollment <= 1 & subgroup !="All"))
+##Not subsetting on enrollment for Equity Reports (normally n>10 applied to ensure stuent privacy)
+# school_enr <- subset(school_enr, enrollment >= 10 | (enrollment <= 1 & subgroup !="All"))
 
 
 # setwd('U:/LearnDC ETL V2/Export/CSV/school')
