@@ -1,5 +1,5 @@
 {
-"timestamp": "Wed Jan 14 11:22:18 2015",
+"timestamp": "Fri Jan 23 17:52:16 2015",
 "org_type": "school",
 "org_name": "",
 "org_code": "0264",
@@ -134,6 +134,32 @@
             "suspended_11": 0,
             "state_suspended_1": 0.0731,
             "state_suspended_11": 0.0017,
+            "incidents": null
+        }
+    },
+    {
+        "key": {
+            "year": 2014,
+            "subgroup": "HI7"
+        },
+        "val": {
+            "suspended_1": 0.0455,
+            "suspended_11": 0,
+            "state_suspended_1": 0.0972,
+            "state_suspended_11": 0.0003,
+            "incidents": null
+        }
+    },
+    {
+        "key": {
+            "year": 2014,
+            "subgroup": "LEP"
+        },
+        "val": {
+            "suspended_1": 0.0319,
+            "suspended_11": 0,
+            "state_suspended_1": 0.029,
+            "state_suspended_11": 0,
             "incidents": null
         }
     },

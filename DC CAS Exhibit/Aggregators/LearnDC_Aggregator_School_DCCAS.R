@@ -3,21 +3,25 @@ source("./imports/subproc.R")
 source("U:/R/tomkit.R")
 
 
-cas <- sqlQuery(dbrepcard, "SELECT * FROM [dbo].[assessment]") 
+cas <- sqlQuery(dbrepcard, "SELECT * FROM [dbo].[assessment]")
 dir <- sqlQuery(dbrepcard, "SELECT * FROM [dbo].[school_mapping_sy1314]")
 
+cas$school_grade[which(cas$school_grade=='AO')] <- 13
+cas$school_grade <- as.integer(cas$school_grade)
+cas$school_grade[which(cas$school_grade==13)] <- 'AO'
 
-cas <- merge(cas, dir, by.x = c("ea_year","tested_grade","school_code"), by.y= c("ea_year","grade","school_code"), all.x=TRUE)
+
+cas <- merge(cas, dir, by.x = c("ea_year","school_grade","school_code"), by.y= c("ea_year","grade","school_code"), all.x=TRUE)
 
 cas$sy1314_school_name <- toupper(cas$sy1314_school_name)
-
+cas$lea_name <- toupper(cas$lea_name)
 
 subgroups_list <- c("All","MALE","FEMALE","AM7","AS7","BL7","HI7","MU7","PI7","WH7","SPED","LEP","Economy","Direct Cert")
 
 
 
 school_subgroups_df <- data.frame()
-
+start.time <- Sys.time()
 cas_no_inv <- subset(cas, math_invalidation %notin% c("A","M"))
 for(g in c(1:2)){
 
@@ -77,7 +81,8 @@ for(g in c(1:2)){
 						.n_advanced <- length(.profs[which(.profs == "Advanced")])
 										
 
-						new_row <- c(.year, .lea_code, .lea_name, .school_code, .school_name, .subgroup, .grade, .subject, .enrollment_status,.n_eligible, .n_test_takers, .n_proficient_advanced, .n_below_basic, .n_basic, .n_proficient, .n_advanced)
+						new_row <- c(.year, .lea_code, .lea_name, .school_code, .school_name, .subgroup, .grade, .subject, .enrollment_status,.n_eligible, .n_test_takers, .n_proficient_advanced, .n_below_basic, .n_basic, .n_proficient, .n_advanced
+							)
 
 						school_subgroups_df <- rbind(school_subgroups_df, new_row)
 					}			
@@ -86,6 +91,9 @@ for(g in c(1:2)){
 		}
 	}
 }
+end.time <- Sys.time()
+time.taken <- end.time - start.time
+time.taken
 
 colnames(school_subgroups_df) <- c("year", "lea_code", "lea_name", "school_code", "school_name","subgroup", "grade", "subject", "enrollment_status", "n_eligible", "n_test_takers","proficient_or_advanced", "below_basic", "basic", "proficient", "advanced")
 
@@ -183,7 +191,7 @@ school_subgroups_df$grade[which(school_subgroups_df$grade == 6)] <- "grade 6"
 school_subgroups_df$grade[which(school_subgroups_df$grade == 7)] <- "grade 7"
 school_subgroups_df$grade[which(school_subgroups_df$grade == 8)] <- "grade 8"
 school_subgroups_df$grade[which(school_subgroups_df$grade == 10)] <- "grade 10"
-
+school_subgroups_df$grade[which(school_subgroups_df$grade == "All")] <- "all"
 
 school_subgroups_df <- subset(school_subgroups_df, n_eligible > 0)
 

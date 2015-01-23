@@ -5,7 +5,7 @@ library(reshape2)
 setwd("U:/LearnDC ETL V2/Equity Report Exhibit/Aggregators/Equity Report Data from Tembo/Fifth Iteration")
 
 ## LOAD PRIOR DATA TO USE AS TEMPLATE
-equity_prior <- sqlQuery(dbrepcard, "SELECT * FROM [dbo].[equity_report_prelim] WHERE ReportType = 'External' and
+equity_prior <- sqlQuery(dbrepcard_prod, "SELECT * FROM [dbo].[equity_longitudinal] WHERE ReportType = 'External' and
 	[Metric] not in ('CAS Math Growth','CAS Reading Growth','CAS Math 2-year Growth','CAS Reading 2-year Growth','CAS Math Proficiency','CAS Reading Proficiency')")
 equity_prior$Description <- NULL
 
@@ -136,21 +136,21 @@ pcs_isa_subgroups <- subset(pcs_isa_subgroups, School_Code %in% pcs_isa$School_C
 pcs_isa_subgroups$Month <- ""
 pcs_isa_subgroups <- select(pcs_isa_subgroups, Key, School_Code, School_Year, Student_Group, Metric, SchoolScore, AverageScore, Month, ReportType, NSize)
 
-briya_adult <- read.csv("PCS All students ISA campus pct.csv")
-briya_adult <- subset(briya_adult,School.Code==126)
-briya_adult$SCHOOL_NAME <- NULL
-briya_adult$ISA..entire.campus.PK..12. <- NULL
-briya_adult <- subset(briya_adult, !is.na(ISA..entire.campus.PK..12.))
-colnames(briya_adult) <- c("School_Code","SchoolScore")
-briya_adult$Student_Group <- "Adult Only"
-briya_adult$School_Year <- "2013-14"
-briya_adult$ReportType <- "External"
-briya_adult$AverageScore <- NA
-briya_adult$Metric <- "In-Seat Attendance Rate"
-briya_adult$Month <- ""
-briya_adult$NSize <- NA
-briya_adult$Key <- paste(briya_adult$School_Code, briya_adult$School_Year, briya_adult$Student_Group, briya_adult$Metric, briya_adult$ReportType)
-briya_adult <- select(briya_adult, Key, School_Code, School_Year, Student_Group, Metric, SchoolScore, AverageScore, Month, ReportType, NSize)
+# briya_adult <- read.csv("PCS All students ISA campus pct.csv")
+# briya_adult <- subset(briya_adult,School.Code==126)
+# briya_adult$SCHOOL_NAME <- NULL
+# briya_adult$ISA..entire.campus.PK..12. <- NULL
+# briya_adult <- subset(briya_adult, !is.na(ISA..entire.campus.PK..12.))
+# colnames(briya_adult) <- c("School_Code","SchoolScore")
+# briya_adult$Student_Group <- "Adult Only"
+# briya_adult$School_Year <- "2013-14"
+# briya_adult$ReportType <- "External"
+# briya_adult$AverageScore <- NA
+# briya_adult$Metric <- "In-Seat Attendance Rate"
+# briya_adult$Month <- ""
+# briya_adult$NSize <- NA
+# briya_adult$Key <- paste(briya_adult$School_Code, briya_adult$School_Year, briya_adult$Student_Group, briya_adult$Metric, briya_adult$ReportType)
+# briya_adult <- select(briya_adult, Key, School_Code, School_Year, Student_Group, Metric, SchoolScore, AverageScore, Month, ReportType, NSize)
 
 
 

@@ -4,7 +4,7 @@ library(jsonlite)
 library(reshape2)
 library(dplyr)
 
-move <- sqlQuery(dbrepcard_prod, "SELECT [School_Code], [School_Year], [Student_Group], [Month],[Metric], [NSize], [SchoolScore], [AverageScore] FROM [dbo].[equity_longitudinal] WHERE [Metric] in ('Entry','Withdrawal','Net Cumulative')")
+move <- sqlQuery(dbrepcard_prod, "SELECT [School_Code], [School_Year], [Student_Group], [Month],[Metric], [NSize], [SchoolScore], [AverageScore] FROM [dbo].[equity_longitudinal3] WHERE [Metric] in ('Entry','Withdrawal','Net Cumulative')")
 
 move <- subset(move, move$School_Code!=1119 & move$School_Code!=216 & move$School_Code!=104 & move$School_Code !=137 & move$School_Code!=168 & move$School_Code!=128 & move$School_Code!=462 & move$School_Code!=456)
 

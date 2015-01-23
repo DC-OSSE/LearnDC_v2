@@ -5,7 +5,7 @@ library(reshape2)
 library(dplyr)
 
 abs <- sqlQuery(dbrepcard_prod, "SELECT [School_Code], [School_Year], [Student_Group], [Metric], [NSize], [SchoolScore], [AverageScore]
-		FROM [dbo].[equity_longitudinal] WHERE [Metric] in ('Unexcused Absences 1-5','Unexcused Absences 6-10','Unexcused Absences 11-15','Unexcused Absences 16-25','Unexcused Absences > 25')")
+		FROM [dbo].[equity_longitudinal3] WHERE [Metric] in ('Unexcused Absences 1-5','Unexcused Absences 6-10','Unexcused Absences 11-15','Unexcused Absences 16-25','Unexcused Absences > 25')")
 
 
 abs_long <- melt(abs, id.vars = c("School_Year", "School_Code", "Student_Group", "Metric"))

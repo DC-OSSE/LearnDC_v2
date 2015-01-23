@@ -5,7 +5,7 @@ library(reshape2)
 library(dplyr)
 
 susp <- sqlQuery(dbrepcard_prod, "SELECT [School_Code], [School_Year], [Student_Group], [Metric], [NSize], [SchoolScore], [AverageScore]
-		FROM [dbo].[equity_longitudinal] WHERE [Metric] in ('Suspended 1+','Suspended 11+','Total Suspensions')")
+		FROM [dbo].[equity_longitudinal3] WHERE [Metric] in ('Suspended 1+','Suspended 11+','Total Suspensions')")
 susp <- subset(susp, !is.na(School_Code))
 
 

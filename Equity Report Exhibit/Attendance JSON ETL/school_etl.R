@@ -5,7 +5,7 @@ library(reshape2)
 library(dplyr)
 
 att <- sqlQuery(dbrepcard_prod, "SELECT [School_Code], [School_Year], [Student_Group], [Metric], [NSize], [SchoolScore], [AverageScore]
-		FROM [dbo].[equity_longitudinal] WHERE [Metric] in ('In-Seat Attendance Rate')")
+		FROM [dbo].[equity_longitudinal3] WHERE [Metric] in ('In-Seat Attendance Rate')")
 
 
 att_long <- melt(att, id.vars = c("School_Year", "School_Code", "Student_Group", "Metric"))
