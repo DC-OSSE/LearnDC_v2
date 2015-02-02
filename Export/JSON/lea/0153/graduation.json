@@ -1,12 +1,34 @@
 {
-"timestamp": "Fri Jan 16 17:06:11 2015",
+"timestamp": "Mon Feb 02 15:50:27 2015",
 "org_type": "lea",
-"org_name": "William E. Doar Jr PCS",
+"org_name": "WILLIAM E. DOAR JR PCS",
 "org_code": "0153",
 "exhibit": {
 	"id": "graduation",
 	"data":  
 [
+    {
+        "key": {
+            "subgroup": "All",
+            "year": 2013,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "graduates": 0,
+            "cohort_size": 13
+        }
+    },
+    {
+        "key": {
+            "subgroup": "BL7",
+            "year": 2013,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "graduates": 0,
+            "cohort_size": 13
+        }
+    },
     {
         "key": {
             "subgroup": "All",
@@ -71,28 +93,6 @@
         "val": {
             "graduates": 8,
             "cohort_size": 19
-        }
-    },
-    {
-        "key": {
-            "subgroup": "All",
-            "year": 2013,
-            "type": "Four Year ACGR"
-        },
-        "val": {
-            "graduates": 0,
-            "cohort_size": 13
-        }
-    },
-    {
-        "key": {
-            "subgroup": "BL7",
-            "year": 2013,
-            "type": "Four Year ACGR"
-        },
-        "val": {
-            "graduates": 0,
-            "cohort_size": 13
         }
     }
 ]

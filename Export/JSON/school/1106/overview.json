@@ -1,0 +1,75 @@
+{
+	"timestamp": "Thu Jan 29 15:19:35 2015",
+	"org_type": "school",
+	"org_name": "Center City PCS – Petworth",
+	"org_code": "1106",
+	"closed": false,
+	"charter": true,
+	"school_type": [
+		"Regular school"
+	 ],
+	"pmf": {
+		"id": "pcsb_pmf",
+		"data": [
+			{
+				"key": {"year": "2011", "category": "ESMS"}, 
+				"val": {"score": 0.6999, "tier": "1", "url": "dashboard.dcpcsb.org/detailed/21"}
+			},
+			{
+				"key": {"year": "2012", "category": "ESMS"}, 
+				"val": {"score": 0.693, "tier": "1", "url": "dashboard.dcpcsb.org/detailed/21"}
+			},
+			{
+				"key": {"year": "2013", "category": "ESMS"}, 
+				"val": {"score": 0.702, "tier": "1", "url": "dashboard.dcpcsb.org/detailed/21"}
+			},
+			{
+				"key": {"year": "2014"}, 
+				"val": {"score": 0.562, "tier": "2", "url": "dashboard.dcpcsb.org/detailed/21"}
+			}
+		]
+	},
+	"great_schools": {
+		"gs_url": "http://www.greatschools.org/washington-dc/washington/596-Center-City-PCS---Petworth"
+	},
+	"ward": "4",
+	"grades_serviced": ["01","02","03","04","05","06","07","08","KG","PK4"],
+	"grades_accepted": ["06","05","PK4","08","02","03","KG","01","07","04"],
+	"description": "The Center City Public Charter Schools (Center City PCS) empower our children for success through a rigorous academic program and strong character education while challenging students to pursue personal excellence in character, conduct, and scholarship in order to develop the skills necessary to both serve and lead others in the 21st century.",
+	 "address": {
+		"line_1": "510 Webster St NW",
+		"line_2": null,
+		"city": "Washington",
+		"state": "DC",
+		"zip": "20011",
+		"lat": 38.94387,
+		"long": -77.02091
+	 },
+	"transit": "Georgia Avenue-Petworth Metro Station/70; H8",
+	"website": "http://www.centercitypcs.org",
+	"facebook": null,
+	"twitter": null,
+	"external_report_card": "http://issuu.com/pcsb/docs/dcpcsb_pmf_2013/75",
+	"equity_report_url": 
+"http://osse.dc.gov/sites/default/files/dc/sites/osse/publication/attachments/2013_Equity_Report_PCSB_External_Center%20City%20PCS%20%E2%80%93%20Petworth%20%20.pdf",
+	"contact": [
+		{
+			"name": "Ralph F. Boyd, Jr.",
+			"title": "Board Chair",
+			"phone": null,
+			"email": null
+		},
+		{
+			"name": "LaShada Ham and Toni Barton",
+			"title": "Principal",
+			"phone": null,
+			"email": null
+		},
+		{
+			"name": "Russ Williams",
+			"title": "Executive Director",
+			"phone": null,
+			"email": null
+		}
+	]
+}

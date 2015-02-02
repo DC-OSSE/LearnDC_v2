@@ -1,0 +1,57 @@
+{
+	"timestamp": "Thu Jan 29 15:19:47 2015",
+	"org_type": "school",
+	"org_name": "DC Scholars PCS",
+	"org_code": "3070",
+	"closed": false,
+	"charter": true,
+	"school_type": [
+		"Regular school"
+	 ],
+	"pmf": {
+		"id": "pcsb_pmf",
+		"data": [
+			{
+				"key": {"year": "2014"}, 
+				"val": {"score": 0.509, "tier": "2", "url": "dashboard.dcpcsb.org/detailed/40"}
+			}
+		]
+	},
+	"great_schools": {
+		"gs_url": "http://www.greatschools.org/washington-dc/washington/849-DC-Scholars-PCS"
+	},
+	"ward": "7",
+	"grades_serviced": ["01","02","03","04","05","KG","PK3","PK4"],
+	"grades_accepted": ["03","KG","01","02","PK3","PK4","04","05","06"],
+	"description": "DC Scholars PCS prepares students to attend and succeed academically in high school and college, and provides them with a foundation of life skills required to become productive members of their communities.",
+	 "address": {
+		"line_1": "5601 E  Capitol SE",
+		"line_2": null,
+		"city": "Washington",
+		"state": "DC",
+		"zip": "20011",
+		"lat": 38.88948,
+		"long": -76.92174
+	 },
+	"transit": "",
+	"website": "http://www.dcscholars.org",
+	"facebook": null,
+	"twitter": null,
+	"external_report_card": "http://issuu.com/pcsb/docs/dcpcsb_pmf_2013/125",
+	"equity_report_url": 
+"http://osse.dc.gov/sites/default/files/dc/sites/osse/publication/attachments/2013_Equity_Report_PCSB_External_DC%20Scholars%20PCS.pdf",
+	"contact": [
+		{
+			"name": "Mieka Wick",
+			"title": "Board Chair",
+			"phone": null,
+			"email": null
+		},
+		{
+			"name": "Rebecca Crouch",
+			"title": "Principal",
+			"phone": null,
+			"email": null
+		}
+	]
+}

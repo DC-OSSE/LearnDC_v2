@@ -1,12 +1,67 @@
 {
-"timestamp": "Fri Jan 16 17:06:10 2015",
+"timestamp": "Mon Feb 02 15:50:27 2015",
 "org_type": "lea",
-"org_name": "Thurgood Marshall Academy PCS",
+"org_name": "THURGOOD MARSHALL ACADEMY PCS",
 "org_code": "0146",
 "exhibit": {
 	"id": "graduation",
 	"data":  
 [
+    {
+        "key": {
+            "subgroup": "All",
+            "year": 2013,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "graduates": 49,
+            "cohort_size": 65
+        }
+    },
+    {
+        "key": {
+            "subgroup": "MALE",
+            "year": 2013,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "graduates": 11,
+            "cohort_size": 19
+        }
+    },
+    {
+        "key": {
+            "subgroup": "FEMALE",
+            "year": 2013,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "graduates": 38,
+            "cohort_size": 46
+        }
+    },
+    {
+        "key": {
+            "subgroup": "BL7",
+            "year": 2013,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "graduates": 49,
+            "cohort_size": 65
+        }
+    },
+    {
+        "key": {
+            "subgroup": "Economy",
+            "year": 2013,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "graduates": 37,
+            "cohort_size": 50
+        }
+    },
     {
         "key": {
             "subgroup": "All",
@@ -115,61 +170,6 @@
         "val": {
             "graduates": 33,
             "cohort_size": 38
-        }
-    },
-    {
-        "key": {
-            "subgroup": "All",
-            "year": 2013,
-            "type": "Four Year ACGR"
-        },
-        "val": {
-            "graduates": 49,
-            "cohort_size": 65
-        }
-    },
-    {
-        "key": {
-            "subgroup": "MALE",
-            "year": 2013,
-            "type": "Four Year ACGR"
-        },
-        "val": {
-            "graduates": 11,
-            "cohort_size": 19
-        }
-    },
-    {
-        "key": {
-            "subgroup": "FEMALE",
-            "year": 2013,
-            "type": "Four Year ACGR"
-        },
-        "val": {
-            "graduates": 38,
-            "cohort_size": 46
-        }
-    },
-    {
-        "key": {
-            "subgroup": "BL7",
-            "year": 2013,
-            "type": "Four Year ACGR"
-        },
-        "val": {
-            "graduates": 49,
-            "cohort_size": 65
-        }
-    },
-    {
-        "key": {
-            "subgroup": "Economy",
-            "year": 2013,
-            "type": "Four Year ACGR"
-        },
-        "val": {
-            "graduates": 37,
-            "cohort_size": 50
         }
     },
     {

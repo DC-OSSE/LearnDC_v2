@@ -1,5 +1,5 @@
 {
-"timestamp": "Wed Jan 14 11:20:25 2015",
+"timestamp": "Mon Jan 26 15:48:46 2015",
 "org_type": "school",
 "org_name": "HYDE ADDISON ES",
 "org_code": "0252",
@@ -7,210 +7,6 @@
 	"id": "dccas",
 	"data":  
 [
-    {
-        "key": {
-            "year": 2009,
-            "subgroup": "All",
-            "grade": "all",
-            "subject": "math",
-            "enrollment_status": "full_year"
-        },
-        "val": {
-            "n_eligible": 77,
-            "n_test_takers": 76,
-            "proficient_or_advanced": 65,
-            "below_basic": 1,
-            "basic": 10,
-            "proficient": 42
-        }
-    },
-    {
-        "key": {
-            "year": 2009,
-            "subgroup": "All",
-            "grade": "all",
-            "subject": "read",
-            "enrollment_status": "full_year"
-        },
-        "val": {
-            "n_eligible": 77,
-            "n_test_takers": 76,
-            "proficient_or_advanced": 63,
-            "below_basic": 3,
-            "basic": 10,
-            "proficient": 56
-        }
-    },
-    {
-        "key": {
-            "year": 2009,
-            "subgroup": "All",
-            "grade": "grade 5",
-            "subject": "math",
-            "enrollment_status": "full_year"
-        },
-        "val": {
-            "n_eligible": 31,
-            "n_test_takers": 31,
-            "proficient_or_advanced": 28,
-            "below_basic": 0,
-            "basic": 3,
-            "proficient": 18
-        }
-    },
-    {
-        "key": {
-            "year": 2009,
-            "subgroup": "All",
-            "grade": "grade 5",
-            "subject": "read",
-            "enrollment_status": "full_year"
-        },
-        "val": {
-            "n_eligible": 31,
-            "n_test_takers": 31,
-            "proficient_or_advanced": 29,
-            "below_basic": 1,
-            "basic": 1,
-            "proficient": 25
-        }
-    },
-    {
-        "key": {
-            "year": 2009,
-            "subgroup": "MALE",
-            "grade": "all",
-            "subject": "math",
-            "enrollment_status": "full_year"
-        },
-        "val": {
-            "n_eligible": 34,
-            "n_test_takers": 34,
-            "proficient_or_advanced": 27,
-            "below_basic": 1,
-            "basic": 6,
-            "proficient": 15
-        }
-    },
-    {
-        "key": {
-            "year": 2009,
-            "subgroup": "MALE",
-            "grade": "all",
-            "subject": "read",
-            "enrollment_status": "full_year"
-        },
-        "val": {
-            "n_eligible": 34,
-            "n_test_takers": 34,
-            "proficient_or_advanced": 25,
-            "below_basic": 2,
-            "basic": 7,
-            "proficient": 22
-        }
-    },
-    {
-        "key": {
-            "year": 2009,
-            "subgroup": "FEMALE",
-            "grade": "all",
-            "subject": "math",
-            "enrollment_status": "full_year"
-        },
-        "val": {
-            "n_eligible": 43,
-            "n_test_takers": 42,
-            "proficient_or_advanced": 38,
-            "below_basic": 0,
-            "basic": 4,
-            "proficient": 27
-        }
-    },
-    {
-        "key": {
-            "year": 2009,
-            "subgroup": "FEMALE",
-            "grade": "all",
-            "subject": "read",
-            "enrollment_status": "full_year"
-        },
-        "val": {
-            "n_eligible": 43,
-            "n_test_takers": 42,
-            "proficient_or_advanced": 38,
-            "below_basic": 1,
-            "basic": 3,
-            "proficient": 34
-        }
-    },
-    {
-        "key": {
-            "year": 2009,
-            "subgroup": "BL7",
-            "grade": "all",
-            "subject": "math",
-            "enrollment_status": "full_year"
-        },
-        "val": {
-            "n_eligible": 38,
-            "n_test_takers": 38,
-            "proficient_or_advanced": 30,
-            "below_basic": 1,
-            "basic": 7,
-            "proficient": 27
-        }
-    },
-    {
-        "key": {
-            "year": 2009,
-            "subgroup": "BL7",
-            "grade": "all",
-            "subject": "read",
-            "enrollment_status": "full_year"
-        },
-        "val": {
-            "n_eligible": 38,
-            "n_test_takers": 38,
-            "proficient_or_advanced": 30,
-            "below_basic": 1,
-            "basic": 7,
-            "proficient": 29
-        }
-    },
-    {
-        "key": {
-            "year": 2009,
-            "subgroup": "WH7",
-            "grade": "all",
-            "subject": "math",
-            "enrollment_status": "full_year"
-        },
-        "val": {
-            "n_eligible": 29,
-            "n_test_takers": 28,
-            "proficient_or_advanced": 28,
-            "below_basic": 0,
-            "basic": 0,
-            "proficient": 13
-        }
-    },
-    {
-        "key": {
-            "year": 2009,
-            "subgroup": "WH7",
-            "grade": "all",
-            "subject": "read",
-            "enrollment_status": "full_year"
-        },
-        "val": {
-            "n_eligible": 29,
-            "n_test_takers": 28,
-            "proficient_or_advanced": 27,
-            "below_basic": 0,
-            "basic": 1,
-            "proficient": 21
-        }
-    },
     {
         "key": {
             "year": 2010,
@@ -3473,6 +3269,210 @@
             "below_basic": 2,
             "basic": 15,
             "proficient": 14
+        }
+    },
+    {
+        "key": {
+            "year": 2009,
+            "subgroup": "All",
+            "grade": "all",
+            "subject": "math",
+            "enrollment_status": "full_year"
+        },
+        "val": {
+            "n_eligible": 77,
+            "n_test_takers": 76,
+            "proficient_or_advanced": 65,
+            "below_basic": 1,
+            "basic": 10,
+            "proficient": 42
+        }
+    },
+    {
+        "key": {
+            "year": 2009,
+            "subgroup": "All",
+            "grade": "all",
+            "subject": "read",
+            "enrollment_status": "full_year"
+        },
+        "val": {
+            "n_eligible": 77,
+            "n_test_takers": 76,
+            "proficient_or_advanced": 63,
+            "below_basic": 3,
+            "basic": 10,
+            "proficient": 56
+        }
+    },
+    {
+        "key": {
+            "year": 2009,
+            "subgroup": "All",
+            "grade": "grade 5",
+            "subject": "math",
+            "enrollment_status": "full_year"
+        },
+        "val": {
+            "n_eligible": 31,
+            "n_test_takers": 31,
+            "proficient_or_advanced": 28,
+            "below_basic": 0,
+            "basic": 3,
+            "proficient": 18
+        }
+    },
+    {
+        "key": {
+            "year": 2009,
+            "subgroup": "All",
+            "grade": "grade 5",
+            "subject": "read",
+            "enrollment_status": "full_year"
+        },
+        "val": {
+            "n_eligible": 31,
+            "n_test_takers": 31,
+            "proficient_or_advanced": 29,
+            "below_basic": 1,
+            "basic": 1,
+            "proficient": 25
+        }
+    },
+    {
+        "key": {
+            "year": 2009,
+            "subgroup": "MALE",
+            "grade": "all",
+            "subject": "math",
+            "enrollment_status": "full_year"
+        },
+        "val": {
+            "n_eligible": 34,
+            "n_test_takers": 34,
+            "proficient_or_advanced": 27,
+            "below_basic": 1,
+            "basic": 6,
+            "proficient": 15
+        }
+    },
+    {
+        "key": {
+            "year": 2009,
+            "subgroup": "MALE",
+            "grade": "all",
+            "subject": "read",
+            "enrollment_status": "full_year"
+        },
+        "val": {
+            "n_eligible": 34,
+            "n_test_takers": 34,
+            "proficient_or_advanced": 25,
+            "below_basic": 2,
+            "basic": 7,
+            "proficient": 22
+        }
+    },
+    {
+        "key": {
+            "year": 2009,
+            "subgroup": "FEMALE",
+            "grade": "all",
+            "subject": "math",
+            "enrollment_status": "full_year"
+        },
+        "val": {
+            "n_eligible": 43,
+            "n_test_takers": 42,
+            "proficient_or_advanced": 38,
+            "below_basic": 0,
+            "basic": 4,
+            "proficient": 27
+        }
+    },
+    {
+        "key": {
+            "year": 2009,
+            "subgroup": "FEMALE",
+            "grade": "all",
+            "subject": "read",
+            "enrollment_status": "full_year"
+        },
+        "val": {
+            "n_eligible": 43,
+            "n_test_takers": 42,
+            "proficient_or_advanced": 38,
+            "below_basic": 1,
+            "basic": 3,
+            "proficient": 34
+        }
+    },
+    {
+        "key": {
+            "year": 2009,
+            "subgroup": "BL7",
+            "grade": "all",
+            "subject": "math",
+            "enrollment_status": "full_year"
+        },
+        "val": {
+            "n_eligible": 38,
+            "n_test_takers": 38,
+            "proficient_or_advanced": 30,
+            "below_basic": 1,
+            "basic": 7,
+            "proficient": 27
+        }
+    },
+    {
+        "key": {
+            "year": 2009,
+            "subgroup": "BL7",
+            "grade": "all",
+            "subject": "read",
+            "enrollment_status": "full_year"
+        },
+        "val": {
+            "n_eligible": 38,
+            "n_test_takers": 38,
+            "proficient_or_advanced": 30,
+            "below_basic": 1,
+            "basic": 7,
+            "proficient": 29
+        }
+    },
+    {
+        "key": {
+            "year": 2009,
+            "subgroup": "WH7",
+            "grade": "all",
+            "subject": "math",
+            "enrollment_status": "full_year"
+        },
+        "val": {
+            "n_eligible": 29,
+            "n_test_takers": 28,
+            "proficient_or_advanced": 28,
+            "below_basic": 0,
+            "basic": 0,
+            "proficient": 13
+        }
+    },
+    {
+        "key": {
+            "year": 2009,
+            "subgroup": "WH7",
+            "grade": "all",
+            "subject": "read",
+            "enrollment_status": "full_year"
+        },
+        "val": {
+            "n_eligible": 29,
+            "n_test_takers": 28,
+            "proficient_or_advanced": 27,
+            "below_basic": 0,
+            "basic": 1,
+            "proficient": 21
         }
     }
 ]

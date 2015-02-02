@@ -1,4 +1,4 @@
-"fiscal_year","lea_code","lea_name","indicator","value","target","weight","target_dir","on_target"
+"year","lea_code","lea_name","indicator","val","target","weight","target_dir","on_target"
 2012,1,"District of Columbia Public Schools","1",0.3065,0.85,1,"up",FALSE
 2012,1,"District of Columbia Public Schools","10",1,0,1,"down",FALSE
 2012,1,"District of Columbia Public Schools","11",0.96,1,1,"up",FALSE
@@ -15,10 +15,10 @@
 2012,1,"District of Columbia Public Schools","3a",0,0.5,0.3333,"up",FALSE
 2012,1,"District of Columbia Public Schools","3b_math",0.986,0.95,0.1667,"up",TRUE
 2012,1,"District of Columbia Public Schools","3b_reading",0.989,0.95,0.1667,"up",TRUE
-2012,1,"District of Columbia Public Schools","3c_elem.math",0.2047,NA,NA,NA,NA
-2012,1,"District of Columbia Public Schools","3c_elem.reading",0.1853,NA,NA,NA,NA
-2012,1,"District of Columbia Public Schools","3c_sec.math",0.2027,NA,NA,NA,NA
-2012,1,"District of Columbia Public Schools","3c_sec.reading",0.1749,NA,NA,NA,NA
+2012,1,"District of Columbia Public Schools","3c_elem_math",0.2047,NA,NA,NA,NA
+2012,1,"District of Columbia Public Schools","3c_elem_reading",0.1853,NA,NA,NA,NA
+2012,1,"District of Columbia Public Schools","3c_sec_math",0.2027,NA,NA,NA,NA
+2012,1,"District of Columbia Public Schools","3c_sec_reading",0.1749,NA,NA,NA,NA
 2012,1,"District of Columbia Public Schools","4a",1,0,0.5,"down",FALSE
 2012,1,"District of Columbia Public Schools","4b_a",1,0,0.25,"down",FALSE
 2012,1,"District of Columbia Public Schools","4b_b",1,0,0.25,"down",FALSE
@@ -51,10 +51,10 @@
 2012,103,"AppleTree Early Learning Center PCS","3a",NA,0.5,0.3333,"up",NA
 2012,103,"AppleTree Early Learning Center PCS","3b_math",NA,0.95,0.1667,"up",NA
 2012,103,"AppleTree Early Learning Center PCS","3b_reading",NA,0.95,0.1667,"up",NA
-2012,103,"AppleTree Early Learning Center PCS","3c_elem.math",NA,NA,NA,NA,NA
-2012,103,"AppleTree Early Learning Center PCS","3c_elem.reading",NA,NA,NA,NA,NA
-2012,103,"AppleTree Early Learning Center PCS","3c_sec.math",NA,NA,NA,NA,NA
-2012,103,"AppleTree Early Learning Center PCS","3c_sec.reading",NA,NA,NA,NA,NA
+2012,103,"AppleTree Early Learning Center PCS","3c_elem_math",NA,NA,NA,NA,NA
+2012,103,"AppleTree Early Learning Center PCS","3c_elem_reading",NA,NA,NA,NA,NA
+2012,103,"AppleTree Early Learning Center PCS","3c_sec_math",NA,NA,NA,NA,NA
+2012,103,"AppleTree Early Learning Center PCS","3c_sec_reading",NA,NA,NA,NA,NA
 2012,103,"AppleTree Early Learning Center PCS","4a",NA,0,0.5,"down",NA
 2012,103,"AppleTree Early Learning Center PCS","4b_a",NA,0,0.25,"down",NA
 2012,103,"AppleTree Early Learning Center PCS","4b_b",NA,0,0.25,"down",NA
@@ -87,10 +87,10 @@
 2012,104,"Arts and Technology PCS","3a",0,0.5,0.3333,"up",FALSE
 2012,104,"Arts and Technology PCS","3b_math",1,0.95,0.1667,"up",TRUE
 2012,104,"Arts and Technology PCS","3b_reading",1,0.95,0.1667,"up",TRUE
-2012,104,"Arts and Technology PCS","3c_elem.math",0.1429,NA,NA,NA,NA
-2012,104,"Arts and Technology PCS","3c_elem.reading",0.0857,NA,NA,NA,NA
-2012,104,"Arts and Technology PCS","3c_sec.math",NA,NA,NA,NA,NA
-2012,104,"Arts and Technology PCS","3c_sec.reading",NA,NA,NA,NA,NA
+2012,104,"Arts and Technology PCS","3c_elem_math",0.1429,NA,NA,NA,NA
+2012,104,"Arts and Technology PCS","3c_elem_reading",0.0857,NA,NA,NA,NA
+2012,104,"Arts and Technology PCS","3c_sec_math",NA,NA,NA,NA,NA
+2012,104,"Arts and Technology PCS","3c_sec_reading",NA,NA,NA,NA,NA
 2012,104,"Arts and Technology PCS","4a",1,0,0.5,"down",FALSE
 2012,104,"Arts and Technology PCS","4b_a",0,0,0.25,"down",TRUE
 2012,104,"Arts and Technology PCS","4b_b",0,0,0.25,"down",TRUE
@@ -123,10 +123,10 @@
 2012,106,"Booker T. Washington PCS","3a",NA,0.5,0.3333,"up",NA
 2012,106,"Booker T. Washington PCS","3b_math",NA,0.95,0.1667,"up",NA
 2012,106,"Booker T. Washington PCS","3b_reading",NA,0.95,0.1667,"up",NA
-2012,106,"Booker T. Washington PCS","3c_elem.math",NA,NA,NA,NA,NA
-2012,106,"Booker T. Washington PCS","3c_elem.reading",NA,NA,NA,NA,NA
-2012,106,"Booker T. Washington PCS","3c_sec.math",0.0833,NA,NA,NA,NA
-2012,106,"Booker T. Washington PCS","3c_sec.reading",0,NA,NA,NA,NA
+2012,106,"Booker T. Washington PCS","3c_elem_math",NA,NA,NA,NA,NA
+2012,106,"Booker T. Washington PCS","3c_elem_reading",NA,NA,NA,NA,NA
+2012,106,"Booker T. Washington PCS","3c_sec_math",0.0833,NA,NA,NA,NA
+2012,106,"Booker T. Washington PCS","3c_sec_reading",0,NA,NA,NA,NA
 2012,106,"Booker T. Washington PCS","4a",NA,0,0.5,"down",NA
 2012,106,"Booker T. Washington PCS","4b_a",NA,0,0.25,"down",NA
 2012,106,"Booker T. Washington PCS","4b_b",NA,0,0.25,"down",NA
@@ -159,10 +159,10 @@
 2012,107,"Bridges PCS","3a",NA,0.5,0.3333,"up",NA
 2012,107,"Bridges PCS","3b_math",NA,0.95,0.1667,"up",NA
 2012,107,"Bridges PCS","3b_reading",NA,0.95,0.1667,"up",NA
-2012,107,"Bridges PCS","3c_elem.math",NA,NA,NA,NA,NA
-2012,107,"Bridges PCS","3c_elem.reading",NA,NA,NA,NA,NA
-2012,107,"Bridges PCS","3c_sec.math",NA,NA,NA,NA,NA
-2012,107,"Bridges PCS","3c_sec.reading",NA,NA,NA,NA,NA
+2012,107,"Bridges PCS","3c_elem_math",NA,NA,NA,NA,NA
+2012,107,"Bridges PCS","3c_elem_reading",NA,NA,NA,NA,NA
+2012,107,"Bridges PCS","3c_sec_math",NA,NA,NA,NA,NA
+2012,107,"Bridges PCS","3c_sec_reading",NA,NA,NA,NA,NA
 2012,107,"Bridges PCS","4a",NA,0,0.5,"down",NA
 2012,107,"Bridges PCS","4b_a",NA,0,0.25,"down",NA
 2012,107,"Bridges PCS","4b_b",NA,0,0.25,"down",NA
@@ -195,10 +195,10 @@
 2012,108,"Capital City PCS","3a",0,0.5,0.3333,"up",FALSE
 2012,108,"Capital City PCS","3b_math",1,0.95,0.1667,"up",TRUE
 2012,108,"Capital City PCS","3b_reading",0.977,0.95,0.1667,"up",TRUE
-2012,108,"Capital City PCS","3c_elem.math",0.1951,NA,NA,NA,NA
-2012,108,"Capital City PCS","3c_elem.reading",0.3171,NA,NA,NA,NA
-2012,108,"Capital City PCS","3c_sec.math",0.2444,NA,NA,NA,NA
-2012,108,"Capital City PCS","3c_sec.reading",0.3488,NA,NA,NA,NA
+2012,108,"Capital City PCS","3c_elem_math",0.1951,NA,NA,NA,NA
+2012,108,"Capital City PCS","3c_elem_reading",0.3171,NA,NA,NA,NA
+2012,108,"Capital City PCS","3c_sec_math",0.2444,NA,NA,NA,NA
+2012,108,"Capital City PCS","3c_sec_reading",0.3488,NA,NA,NA,NA
 2012,108,"Capital City PCS","4a",0,0,0.5,"down",TRUE
 2012,108,"Capital City PCS","4b_a",0,0,0.25,"down",TRUE
 2012,108,"Capital City PCS","4b_b",NA,0,0.25,"down",NA
@@ -231,10 +231,10 @@
 2012,109,"Cesar Chavez PCS","3a",0,0.5,0.3333,"up",FALSE
 2012,109,"Cesar Chavez PCS","3b_math",0.94,0.95,0.1667,"up",FALSE
 2012,109,"Cesar Chavez PCS","3b_reading",0.94,0.95,0.1667,"up",FALSE
-2012,109,"Cesar Chavez PCS","3c_elem.math",0.1379,NA,NA,NA,NA
-2012,109,"Cesar Chavez PCS","3c_elem.reading",0,NA,NA,NA,NA
-2012,109,"Cesar Chavez PCS","3c_sec.math",0.3077,NA,NA,NA,NA
-2012,109,"Cesar Chavez PCS","3c_sec.reading",0.1846,NA,NA,NA,NA
+2012,109,"Cesar Chavez PCS","3c_elem_math",0.1379,NA,NA,NA,NA
+2012,109,"Cesar Chavez PCS","3c_elem_reading",0,NA,NA,NA,NA
+2012,109,"Cesar Chavez PCS","3c_sec_math",0.3077,NA,NA,NA,NA
+2012,109,"Cesar Chavez PCS","3c_sec_reading",0.1846,NA,NA,NA,NA
 2012,109,"Cesar Chavez PCS","4a",NA,0,0.5,"down",NA
 2012,109,"Cesar Chavez PCS","4b_a",NA,0,0.25,"down",NA
 2012,109,"Cesar Chavez PCS","4b_b",NA,0,0.25,"down",NA
@@ -267,10 +267,10 @@
 2012,113,"Community Academy PCS","3a",0,0.5,0.3333,"up",FALSE
 2012,113,"Community Academy PCS","3b_math",1,0.95,0.1667,"up",TRUE
 2012,113,"Community Academy PCS","3b_reading",0.99,0.95,0.1667,"up",TRUE
-2012,113,"Community Academy PCS","3c_elem.math",0.2078,NA,NA,NA,NA
-2012,113,"Community Academy PCS","3c_elem.reading",0.1316,NA,NA,NA,NA
-2012,113,"Community Academy PCS","3c_sec.math",0.125,NA,NA,NA,NA
-2012,113,"Community Academy PCS","3c_sec.reading",0,NA,NA,NA,NA
+2012,113,"Community Academy PCS","3c_elem_math",0.2078,NA,NA,NA,NA
+2012,113,"Community Academy PCS","3c_elem_reading",0.1316,NA,NA,NA,NA
+2012,113,"Community Academy PCS","3c_sec_math",0.125,NA,NA,NA,NA
+2012,113,"Community Academy PCS","3c_sec_reading",0,NA,NA,NA,NA
 2012,113,"Community Academy PCS","4a",1,0,0.5,"down",FALSE
 2012,113,"Community Academy PCS","4b_a",0,0,0.25,"down",TRUE
 2012,113,"Community Academy PCS","4b_b",0,0,0.25,"down",TRUE
@@ -303,10 +303,10 @@
 2012,114,"D.C. Bilingual PCS","3a",NA,0.5,0.3333,"up",NA
 2012,114,"D.C. Bilingual PCS","3b_math",NA,0.95,0.1667,"up",NA
 2012,114,"D.C. Bilingual PCS","3b_reading",NA,0.95,0.1667,"up",NA
-2012,114,"D.C. Bilingual PCS","3c_elem.math",0.125,NA,NA,NA,NA
-2012,114,"D.C. Bilingual PCS","3c_elem.reading",0.0833,NA,NA,NA,NA
-2012,114,"D.C. Bilingual PCS","3c_sec.math",NA,NA,NA,NA,NA
-2012,114,"D.C. Bilingual PCS","3c_sec.reading",NA,NA,NA,NA,NA
+2012,114,"D.C. Bilingual PCS","3c_elem_math",0.125,NA,NA,NA,NA
+2012,114,"D.C. Bilingual PCS","3c_elem_reading",0.0833,NA,NA,NA,NA
+2012,114,"D.C. Bilingual PCS","3c_sec_math",NA,NA,NA,NA,NA
+2012,114,"D.C. Bilingual PCS","3c_sec_reading",NA,NA,NA,NA,NA
 2012,114,"D.C. Bilingual PCS","4a",0,0,0.5,"down",TRUE
 2012,114,"D.C. Bilingual PCS","4b_a",0,0,0.25,"down",TRUE
 2012,114,"D.C. Bilingual PCS","4b_b",NA,0,0.25,"down",NA
@@ -339,10 +339,10 @@
 2012,115,"D.C. Preparatory Academy PCS","3a",0,0.5,0.3333,"up",FALSE
 2012,115,"D.C. Preparatory Academy PCS","3b_math",1,0.95,0.1667,"up",TRUE
 2012,115,"D.C. Preparatory Academy PCS","3b_reading",1,0.95,0.1667,"up",TRUE
-2012,115,"D.C. Preparatory Academy PCS","3c_elem.math",0.5098,NA,NA,NA,NA
-2012,115,"D.C. Preparatory Academy PCS","3c_elem.reading",0.2549,NA,NA,NA,NA
-2012,115,"D.C. Preparatory Academy PCS","3c_sec.math",1,NA,NA,NA,NA
-2012,115,"D.C. Preparatory Academy PCS","3c_sec.reading",0.5,NA,NA,NA,NA
+2012,115,"D.C. Preparatory Academy PCS","3c_elem_math",0.5098,NA,NA,NA,NA
+2012,115,"D.C. Preparatory Academy PCS","3c_elem_reading",0.2549,NA,NA,NA,NA
+2012,115,"D.C. Preparatory Academy PCS","3c_sec_math",1,NA,NA,NA,NA
+2012,115,"D.C. Preparatory Academy PCS","3c_sec_reading",0.5,NA,NA,NA,NA
 2012,115,"D.C. Preparatory Academy PCS","4a",0,0,0.5,"down",TRUE
 2012,115,"D.C. Preparatory Academy PCS","4b_a",0,0,0.25,"down",TRUE
 2012,115,"D.C. Preparatory Academy PCS","4b_b",NA,0,0.25,"down",NA
@@ -375,10 +375,10 @@
 2012,116,"E.L. Haynes PCS","3a",0,0.5,0.3333,"up",FALSE
 2012,116,"E.L. Haynes PCS","3b_math",0.983,0.95,0.1667,"up",TRUE
 2012,116,"E.L. Haynes PCS","3b_reading",0.967,0.95,0.1667,"up",TRUE
-2012,116,"E.L. Haynes PCS","3c_elem.math",0.2321,NA,NA,NA,NA
-2012,116,"E.L. Haynes PCS","3c_elem.reading",0.2222,NA,NA,NA,NA
-2012,116,"E.L. Haynes PCS","3c_sec.math",0.3651,NA,NA,NA,NA
-2012,116,"E.L. Haynes PCS","3c_sec.reading",0.3016,NA,NA,NA,NA
+2012,116,"E.L. Haynes PCS","3c_elem_math",0.2321,NA,NA,NA,NA
+2012,116,"E.L. Haynes PCS","3c_elem_reading",0.2222,NA,NA,NA,NA
+2012,116,"E.L. Haynes PCS","3c_sec_math",0.3651,NA,NA,NA,NA
+2012,116,"E.L. Haynes PCS","3c_sec_reading",0.3016,NA,NA,NA,NA
 2012,116,"E.L. Haynes PCS","4a",0,0,0.5,"down",TRUE
 2012,116,"E.L. Haynes PCS","4b_a",0,0,0.25,"down",TRUE
 2012,116,"E.L. Haynes PCS","4b_b",NA,0,0.25,"down",NA
@@ -411,10 +411,10 @@
 2012,117,"Eagle Academy PCS","3a",NA,0.5,0.3333,"up",NA
 2012,117,"Eagle Academy PCS","3b_math",NA,0.95,0.1667,"up",NA
 2012,117,"Eagle Academy PCS","3b_reading",NA,0.95,0.1667,"up",NA
-2012,117,"Eagle Academy PCS","3c_elem.math",0.2308,NA,NA,NA,NA
-2012,117,"Eagle Academy PCS","3c_elem.reading",0.2308,NA,NA,NA,NA
-2012,117,"Eagle Academy PCS","3c_sec.math",NA,NA,NA,NA,NA
-2012,117,"Eagle Academy PCS","3c_sec.reading",NA,NA,NA,NA,NA
+2012,117,"Eagle Academy PCS","3c_elem_math",0.2308,NA,NA,NA,NA
+2012,117,"Eagle Academy PCS","3c_elem_reading",0.2308,NA,NA,NA,NA
+2012,117,"Eagle Academy PCS","3c_sec_math",NA,NA,NA,NA,NA
+2012,117,"Eagle Academy PCS","3c_sec_reading",NA,NA,NA,NA,NA
 2012,117,"Eagle Academy PCS","4a",0,0,0.5,"down",TRUE
 2012,117,"Eagle Academy PCS","4b_a",0,0,0.25,"down",TRUE
 2012,117,"Eagle Academy PCS","4b_b",NA,0,0.25,"down",NA
@@ -447,10 +447,10 @@
 2012,118,"Early Childhood Academy PCS","3a",NA,0.5,0.3333,"up",NA
 2012,118,"Early Childhood Academy PCS","3b_math",NA,0.95,0.1667,"up",NA
 2012,118,"Early Childhood Academy PCS","3b_reading",NA,0.95,0.1667,"up",NA
-2012,118,"Early Childhood Academy PCS","3c_elem.math",0,NA,NA,NA,NA
-2012,118,"Early Childhood Academy PCS","3c_elem.reading",0.3333,NA,NA,NA,NA
-2012,118,"Early Childhood Academy PCS","3c_sec.math",NA,NA,NA,NA,NA
-2012,118,"Early Childhood Academy PCS","3c_sec.reading",NA,NA,NA,NA,NA
+2012,118,"Early Childhood Academy PCS","3c_elem_math",0,NA,NA,NA,NA
+2012,118,"Early Childhood Academy PCS","3c_elem_reading",0.3333,NA,NA,NA,NA
+2012,118,"Early Childhood Academy PCS","3c_sec_math",NA,NA,NA,NA,NA
+2012,118,"Early Childhood Academy PCS","3c_sec_reading",NA,NA,NA,NA,NA
 2012,118,"Early Childhood Academy PCS","4a",NA,0,0.5,"down",NA
 2012,118,"Early Childhood Academy PCS","4b_a",NA,0,0.25,"down",NA
 2012,118,"Early Childhood Academy PCS","4b_b",NA,0,0.25,"down",NA
@@ -483,10 +483,10 @@
 2012,119,"Education Strengthens Families PCS","3a",NA,0.5,0.3333,"up",NA
 2012,119,"Education Strengthens Families PCS","3b_math",NA,0.95,0.1667,"up",NA
 2012,119,"Education Strengthens Families PCS","3b_reading",NA,0.95,0.1667,"up",NA
-2012,119,"Education Strengthens Families PCS","3c_elem.math",NA,NA,NA,NA,NA
-2012,119,"Education Strengthens Families PCS","3c_elem.reading",NA,NA,NA,NA,NA
-2012,119,"Education Strengthens Families PCS","3c_sec.math",NA,NA,NA,NA,NA
-2012,119,"Education Strengthens Families PCS","3c_sec.reading",NA,NA,NA,NA,NA
+2012,119,"Education Strengthens Families PCS","3c_elem_math",NA,NA,NA,NA,NA
+2012,119,"Education Strengthens Families PCS","3c_elem_reading",NA,NA,NA,NA,NA
+2012,119,"Education Strengthens Families PCS","3c_sec_math",NA,NA,NA,NA,NA
+2012,119,"Education Strengthens Families PCS","3c_sec_reading",NA,NA,NA,NA,NA
 2012,119,"Education Strengthens Families PCS","4a",NA,0,0.5,"down",NA
 2012,119,"Education Strengthens Families PCS","4b_a",NA,0,0.25,"down",NA
 2012,119,"Education Strengthens Families PCS","4b_b",NA,0,0.25,"down",NA
@@ -519,10 +519,10 @@
 2012,120,"Friendship PCS","3a",0,0.5,0.3333,"up",FALSE
 2012,120,"Friendship PCS","3b_math",0.997,0.95,0.1667,"up",TRUE
 2012,120,"Friendship PCS","3b_reading",1,0.95,0.1667,"up",TRUE
-2012,120,"Friendship PCS","3c_elem.math",0.125,NA,NA,NA,NA
-2012,120,"Friendship PCS","3c_elem.reading",0.0625,NA,NA,NA,NA
-2012,120,"Friendship PCS","3c_sec.math",0.2189,NA,NA,NA,NA
-2012,120,"Friendship PCS","3c_sec.reading",0.1118,NA,NA,NA,NA
+2012,120,"Friendship PCS","3c_elem_math",0.125,NA,NA,NA,NA
+2012,120,"Friendship PCS","3c_elem_reading",0.0625,NA,NA,NA,NA
+2012,120,"Friendship PCS","3c_sec_math",0.2189,NA,NA,NA,NA
+2012,120,"Friendship PCS","3c_sec_reading",0.1118,NA,NA,NA,NA
 2012,120,"Friendship PCS","4a",1,0,0.5,"down",FALSE
 2012,120,"Friendship PCS","4b_a",0,0,0.25,"down",TRUE
 2012,120,"Friendship PCS","4b_b",0,0,0.25,"down",TRUE
@@ -555,10 +555,10 @@
 2012,121,"Hope Community Academy PCS","3a",0,0.5,0.3333,"up",FALSE
 2012,121,"Hope Community Academy PCS","3b_math",1,0.95,0.1667,"up",TRUE
 2012,121,"Hope Community Academy PCS","3b_reading",1,0.95,0.1667,"up",TRUE
-2012,121,"Hope Community Academy PCS","3c_elem.math",0.3415,NA,NA,NA,NA
-2012,121,"Hope Community Academy PCS","3c_elem.reading",0.2439,NA,NA,NA,NA
-2012,121,"Hope Community Academy PCS","3c_sec.math",0.3636,NA,NA,NA,NA
-2012,121,"Hope Community Academy PCS","3c_sec.reading",0.3636,NA,NA,NA,NA
+2012,121,"Hope Community Academy PCS","3c_elem_math",0.3415,NA,NA,NA,NA
+2012,121,"Hope Community Academy PCS","3c_elem_reading",0.2439,NA,NA,NA,NA
+2012,121,"Hope Community Academy PCS","3c_sec_math",0.3636,NA,NA,NA,NA
+2012,121,"Hope Community Academy PCS","3c_sec_reading",0.3636,NA,NA,NA,NA
 2012,121,"Hope Community Academy PCS","4a",0,0,0.5,"down",TRUE
 2012,121,"Hope Community Academy PCS","4b_a",0,0,0.25,"down",TRUE
 2012,121,"Hope Community Academy PCS","4b_b",NA,0,0.25,"down",NA
@@ -591,10 +591,10 @@
 2012,122,"Hospitality PCS","3a",NA,0.5,0.3333,"up",NA
 2012,122,"Hospitality PCS","3b_math",NA,0.95,0.1667,"up",NA
 2012,122,"Hospitality PCS","3b_reading",NA,0.95,0.1667,"up",NA
-2012,122,"Hospitality PCS","3c_elem.math",NA,NA,NA,NA,NA
-2012,122,"Hospitality PCS","3c_elem.reading",NA,NA,NA,NA,NA
-2012,122,"Hospitality PCS","3c_sec.math",0.1765,NA,NA,NA,NA
-2012,122,"Hospitality PCS","3c_sec.reading",0.0588,NA,NA,NA,NA
+2012,122,"Hospitality PCS","3c_elem_math",NA,NA,NA,NA,NA
+2012,122,"Hospitality PCS","3c_elem_reading",NA,NA,NA,NA,NA
+2012,122,"Hospitality PCS","3c_sec_math",0.1765,NA,NA,NA,NA
+2012,122,"Hospitality PCS","3c_sec_reading",0.0588,NA,NA,NA,NA
 2012,122,"Hospitality PCS","4a",NA,0,0.5,"down",NA
 2012,122,"Hospitality PCS","4b_a",NA,0,0.25,"down",NA
 2012,122,"Hospitality PCS","4b_b",NA,0,0.25,"down",NA
@@ -627,10 +627,10 @@
 2012,123,"Howard Road Academy PCS","3a",0,0.5,0.3333,"up",FALSE
 2012,123,"Howard Road Academy PCS","3b_math",1,0.95,0.1667,"up",TRUE
 2012,123,"Howard Road Academy PCS","3b_reading",1,0.95,0.1667,"up",TRUE
-2012,123,"Howard Road Academy PCS","3c_elem.math",0.0488,NA,NA,NA,NA
-2012,123,"Howard Road Academy PCS","3c_elem.reading",0.0732,NA,NA,NA,NA
-2012,123,"Howard Road Academy PCS","3c_sec.math",0.0833,NA,NA,NA,NA
-2012,123,"Howard Road Academy PCS","3c_sec.reading",0,NA,NA,NA,NA
+2012,123,"Howard Road Academy PCS","3c_elem_math",0.0488,NA,NA,NA,NA
+2012,123,"Howard Road Academy PCS","3c_elem_reading",0.0732,NA,NA,NA,NA
+2012,123,"Howard Road Academy PCS","3c_sec_math",0.0833,NA,NA,NA,NA
+2012,123,"Howard Road Academy PCS","3c_sec_reading",0,NA,NA,NA,NA
 2012,123,"Howard Road Academy PCS","4a",1,0,0.5,"down",FALSE
 2012,123,"Howard Road Academy PCS","4b_a",0,0,0.25,"down",TRUE
 2012,123,"Howard Road Academy PCS","4b_b",NA,0,0.25,"down",NA
@@ -663,10 +663,10 @@
 2012,124,"Howard University Middle School of Math and Science","3a",NA,0.5,0.3333,"up",NA
 2012,124,"Howard University Middle School of Math and Science","3b_math",NA,0.95,0.1667,"up",NA
 2012,124,"Howard University Middle School of Math and Science","3b_reading",NA,0.95,0.1667,"up",NA
-2012,124,"Howard University Middle School of Math and Science","3c_elem.math",0.1667,NA,NA,NA,NA
-2012,124,"Howard University Middle School of Math and Science","3c_elem.reading",0.1667,NA,NA,NA,NA
-2012,124,"Howard University Middle School of Math and Science","3c_sec.math",0.3333,NA,NA,NA,NA
-2012,124,"Howard University Middle School of Math and Science","3c_sec.reading",0.1667,NA,NA,NA,NA
+2012,124,"Howard University Middle School of Math and Science","3c_elem_math",0.1667,NA,NA,NA,NA
+2012,124,"Howard University Middle School of Math and Science","3c_elem_reading",0.1667,NA,NA,NA,NA
+2012,124,"Howard University Middle School of Math and Science","3c_sec_math",0.3333,NA,NA,NA,NA
+2012,124,"Howard University Middle School of Math and Science","3c_sec_reading",0.1667,NA,NA,NA,NA
 2012,124,"Howard University Middle School of Math and Science","4a",NA,0,0.5,"down",NA
 2012,124,"Howard University Middle School of Math and Science","4b_a",NA,0,0.25,"down",NA
 2012,124,"Howard University Middle School of Math and Science","4b_b",NA,0,0.25,"down",NA
@@ -699,10 +699,10 @@
 2012,125,"Perry Street Prep PCS","3a",0,0.5,0.3333,"up",FALSE
 2012,125,"Perry Street Prep PCS","3b_math",1,0.95,0.1667,"up",TRUE
 2012,125,"Perry Street Prep PCS","3b_reading",1,0.95,0.1667,"up",TRUE
-2012,125,"Perry Street Prep PCS","3c_elem.math",0.0769,NA,NA,NA,NA
-2012,125,"Perry Street Prep PCS","3c_elem.reading",0.1026,NA,NA,NA,NA
-2012,125,"Perry Street Prep PCS","3c_sec.math",0.122,NA,NA,NA,NA
-2012,125,"Perry Street Prep PCS","3c_sec.reading",0.0732,NA,NA,NA,NA
+2012,125,"Perry Street Prep PCS","3c_elem_math",0.0769,NA,NA,NA,NA
+2012,125,"Perry Street Prep PCS","3c_elem_reading",0.1026,NA,NA,NA,NA
+2012,125,"Perry Street Prep PCS","3c_sec_math",0.122,NA,NA,NA,NA
+2012,125,"Perry Street Prep PCS","3c_sec_reading",0.0732,NA,NA,NA,NA
 2012,125,"Perry Street Prep PCS","4a",1,0,0.5,"down",FALSE
 2012,125,"Perry Street Prep PCS","4b_a",0,0,0.25,"down",TRUE
 2012,125,"Perry Street Prep PCS","4b_b",0,0,0.25,"down",TRUE
@@ -735,10 +735,10 @@
 2012,126,"Integrated Design Electronics Academy (IDEA) PCS","3a",NA,0.5,0.3333,"up",NA
 2012,126,"Integrated Design Electronics Academy (IDEA) PCS","3b_math",NA,0.95,0.1667,"up",NA
 2012,126,"Integrated Design Electronics Academy (IDEA) PCS","3b_reading",NA,0.95,0.1667,"up",NA
-2012,126,"Integrated Design Electronics Academy (IDEA) PCS","3c_elem.math",NA,NA,NA,NA,NA
-2012,126,"Integrated Design Electronics Academy (IDEA) PCS","3c_elem.reading",NA,NA,NA,NA,NA
-2012,126,"Integrated Design Electronics Academy (IDEA) PCS","3c_sec.math",0.125,NA,NA,NA,NA
-2012,126,"Integrated Design Electronics Academy (IDEA) PCS","3c_sec.reading",0.125,NA,NA,NA,NA
+2012,126,"Integrated Design Electronics Academy (IDEA) PCS","3c_elem_math",NA,NA,NA,NA,NA
+2012,126,"Integrated Design Electronics Academy (IDEA) PCS","3c_elem_reading",NA,NA,NA,NA,NA
+2012,126,"Integrated Design Electronics Academy (IDEA) PCS","3c_sec_math",0.125,NA,NA,NA,NA
+2012,126,"Integrated Design Electronics Academy (IDEA) PCS","3c_sec_reading",0.125,NA,NA,NA,NA
 2012,126,"Integrated Design Electronics Academy (IDEA) PCS","4a",0,0,0.5,"down",TRUE
 2012,126,"Integrated Design Electronics Academy (IDEA) PCS","4b_a",0,0,0.25,"down",TRUE
 2012,126,"Integrated Design Electronics Academy (IDEA) PCS","4b_b",NA,0,0.25,"down",NA
@@ -771,10 +771,10 @@
 2012,127,"Ideal Academy PCS","3a",NA,0.5,0.3333,"up",NA
 2012,127,"Ideal Academy PCS","3b_math",NA,0.95,0.1667,"up",NA
 2012,127,"Ideal Academy PCS","3b_reading",NA,0.95,0.1667,"up",NA
-2012,127,"Ideal Academy PCS","3c_elem.math",0.125,NA,NA,NA,NA
-2012,127,"Ideal Academy PCS","3c_elem.reading",0.125,NA,NA,NA,NA
-2012,127,"Ideal Academy PCS","3c_sec.math",0.25,NA,NA,NA,NA
-2012,127,"Ideal Academy PCS","3c_sec.reading",0,NA,NA,NA,NA
+2012,127,"Ideal Academy PCS","3c_elem_math",0.125,NA,NA,NA,NA
+2012,127,"Ideal Academy PCS","3c_elem_reading",0.125,NA,NA,NA,NA
+2012,127,"Ideal Academy PCS","3c_sec_math",0.25,NA,NA,NA,NA
+2012,127,"Ideal Academy PCS","3c_sec_reading",0,NA,NA,NA,NA
 2012,127,"Ideal Academy PCS","4a",NA,0,0.5,"down",NA
 2012,127,"Ideal Academy PCS","4b_a",NA,0,0.25,"down",NA
 2012,127,"Ideal Academy PCS","4b_b",NA,0,0.25,"down",NA
@@ -807,10 +807,10 @@
 2012,129,"KIPP DC PCS","3a",0,0.5,0.3333,"up",FALSE
 2012,129,"KIPP DC PCS","3b_math",1,0.95,0.1667,"up",TRUE
 2012,129,"KIPP DC PCS","3b_reading",1,0.95,0.1667,"up",TRUE
-2012,129,"KIPP DC PCS","3c_elem.math",0.4779,NA,NA,NA,NA
-2012,129,"KIPP DC PCS","3c_elem.reading",0.2035,NA,NA,NA,NA
-2012,129,"KIPP DC PCS","3c_sec.math",0.5843,NA,NA,NA,NA
-2012,129,"KIPP DC PCS","3c_sec.reading",0.3258,NA,NA,NA,NA
+2012,129,"KIPP DC PCS","3c_elem_math",0.4779,NA,NA,NA,NA
+2012,129,"KIPP DC PCS","3c_elem_reading",0.2035,NA,NA,NA,NA
+2012,129,"KIPP DC PCS","3c_sec_math",0.5843,NA,NA,NA,NA
+2012,129,"KIPP DC PCS","3c_sec_reading",0.3258,NA,NA,NA,NA
 2012,129,"KIPP DC PCS","4a",NA,0,0.5,"down",NA
 2012,129,"KIPP DC PCS","4b_a",NA,0,0.25,"down",NA
 2012,129,"KIPP DC PCS","4b_b",NA,0,0.25,"down",NA
@@ -843,10 +843,10 @@
 2012,130,"Latin America Montessori Bilingual (LAMB) PCS","3a",NA,0.5,0.3333,"up",NA
 2012,130,"Latin America Montessori Bilingual (LAMB) PCS","3b_math",NA,0.95,0.1667,"up",NA
 2012,130,"Latin America Montessori Bilingual (LAMB) PCS","3b_reading",NA,0.95,0.1667,"up",NA
-2012,130,"Latin America Montessori Bilingual (LAMB) PCS","3c_elem.math",0.4286,NA,NA,NA,NA
-2012,130,"Latin America Montessori Bilingual (LAMB) PCS","3c_elem.reading",0.4286,NA,NA,NA,NA
-2012,130,"Latin America Montessori Bilingual (LAMB) PCS","3c_sec.math",NA,NA,NA,NA,NA
-2012,130,"Latin America Montessori Bilingual (LAMB) PCS","3c_sec.reading",NA,NA,NA,NA,NA
+2012,130,"Latin America Montessori Bilingual (LAMB) PCS","3c_elem_math",0.4286,NA,NA,NA,NA
+2012,130,"Latin America Montessori Bilingual (LAMB) PCS","3c_elem_reading",0.4286,NA,NA,NA,NA
+2012,130,"Latin America Montessori Bilingual (LAMB) PCS","3c_sec_math",NA,NA,NA,NA,NA
+2012,130,"Latin America Montessori Bilingual (LAMB) PCS","3c_sec_reading",NA,NA,NA,NA,NA
 2012,130,"Latin America Montessori Bilingual (LAMB) PCS","4a",NA,0,0.5,"down",NA
 2012,130,"Latin America Montessori Bilingual (LAMB) PCS","4b_a",NA,0,0.25,"down",NA
 2012,130,"Latin America Montessori Bilingual (LAMB) PCS","4b_b",NA,0,0.25,"down",NA
@@ -879,10 +879,10 @@
 2012,131,"Youthbuild PCS","3a",NA,0.5,0.3333,"up",NA
 2012,131,"Youthbuild PCS","3b_math",NA,0.95,0.1667,"up",NA
 2012,131,"Youthbuild PCS","3b_reading",NA,0.95,0.1667,"up",NA
-2012,131,"Youthbuild PCS","3c_elem.math",NA,NA,NA,NA,NA
-2012,131,"Youthbuild PCS","3c_elem.reading",NA,NA,NA,NA,NA
-2012,131,"Youthbuild PCS","3c_sec.math",NA,NA,NA,NA,NA
-2012,131,"Youthbuild PCS","3c_sec.reading",NA,NA,NA,NA,NA
+2012,131,"Youthbuild PCS","3c_elem_math",NA,NA,NA,NA,NA
+2012,131,"Youthbuild PCS","3c_elem_reading",NA,NA,NA,NA,NA
+2012,131,"Youthbuild PCS","3c_sec_math",NA,NA,NA,NA,NA
+2012,131,"Youthbuild PCS","3c_sec_reading",NA,NA,NA,NA,NA
 2012,131,"Youthbuild PCS","4a",NA,0,0.5,"down",NA
 2012,131,"Youthbuild PCS","4b_a",NA,0,0.25,"down",NA
 2012,131,"Youthbuild PCS","4b_b",NA,0,0.25,"down",NA
@@ -915,10 +915,10 @@
 2012,132,"Mary McLeod Bethune  PCS","3a",0,0.5,0.3333,"up",FALSE
 2012,132,"Mary McLeod Bethune  PCS","3b_math",1,0.95,0.1667,"up",TRUE
 2012,132,"Mary McLeod Bethune  PCS","3b_reading",1,0.95,0.1667,"up",TRUE
-2012,132,"Mary McLeod Bethune  PCS","3c_elem.math",0.2,NA,NA,NA,NA
-2012,132,"Mary McLeod Bethune  PCS","3c_elem.reading",0.0667,NA,NA,NA,NA
-2012,132,"Mary McLeod Bethune  PCS","3c_sec.math",0.6667,NA,NA,NA,NA
-2012,132,"Mary McLeod Bethune  PCS","3c_sec.reading",0.1667,NA,NA,NA,NA
+2012,132,"Mary McLeod Bethune  PCS","3c_elem_math",0.2,NA,NA,NA,NA
+2012,132,"Mary McLeod Bethune  PCS","3c_elem_reading",0.0667,NA,NA,NA,NA
+2012,132,"Mary McLeod Bethune  PCS","3c_sec_math",0.6667,NA,NA,NA,NA
+2012,132,"Mary McLeod Bethune  PCS","3c_sec_reading",0.1667,NA,NA,NA,NA
 2012,132,"Mary McLeod Bethune  PCS","4a",0,0,0.5,"down",TRUE
 2012,132,"Mary McLeod Bethune  PCS","4b_a",0,0,0.25,"down",TRUE
 2012,132,"Mary McLeod Bethune  PCS","4b_b",NA,0,0.25,"down",NA
@@ -951,10 +951,10 @@
 2012,133,"Maya Angelou PCS","3a",0,0.5,0.3333,"up",FALSE
 2012,133,"Maya Angelou PCS","3b_math",0.97,0.95,0.1667,"up",TRUE
 2012,133,"Maya Angelou PCS","3b_reading",0.97,0.95,0.1667,"up",TRUE
-2012,133,"Maya Angelou PCS","3c_elem.math",0,NA,NA,NA,NA
-2012,133,"Maya Angelou PCS","3c_elem.reading",0,NA,NA,NA,NA
-2012,133,"Maya Angelou PCS","3c_sec.math",0.1176,NA,NA,NA,NA
-2012,133,"Maya Angelou PCS","3c_sec.reading",0.0392,NA,NA,NA,NA
+2012,133,"Maya Angelou PCS","3c_elem_math",0,NA,NA,NA,NA
+2012,133,"Maya Angelou PCS","3c_elem_reading",0,NA,NA,NA,NA
+2012,133,"Maya Angelou PCS","3c_sec_math",0.1176,NA,NA,NA,NA
+2012,133,"Maya Angelou PCS","3c_sec_reading",0.0392,NA,NA,NA,NA
 2012,133,"Maya Angelou PCS","4a",1,0,0.5,"down",FALSE
 2012,133,"Maya Angelou PCS","4b_a",1,0,0.25,"down",FALSE
 2012,133,"Maya Angelou PCS","4b_b",1,0,0.25,"down",FALSE
@@ -987,10 +987,10 @@
 2012,135,"Meridian PCS","3a",0,0.5,0.3333,"up",FALSE
 2012,135,"Meridian PCS","3b_math",1,0.95,0.1667,"up",TRUE
 2012,135,"Meridian PCS","3b_reading",0.982,0.95,0.1667,"up",TRUE
-2012,135,"Meridian PCS","3c_elem.math",0.2558,NA,NA,NA,NA
-2012,135,"Meridian PCS","3c_elem.reading",0.3333,NA,NA,NA,NA
-2012,135,"Meridian PCS","3c_sec.math",0.5,NA,NA,NA,NA
-2012,135,"Meridian PCS","3c_sec.reading",0.1667,NA,NA,NA,NA
+2012,135,"Meridian PCS","3c_elem_math",0.2558,NA,NA,NA,NA
+2012,135,"Meridian PCS","3c_elem_reading",0.3333,NA,NA,NA,NA
+2012,135,"Meridian PCS","3c_sec_math",0.5,NA,NA,NA,NA
+2012,135,"Meridian PCS","3c_sec_reading",0.1667,NA,NA,NA,NA
 2012,135,"Meridian PCS","4a",0,0,0.5,"down",TRUE
 2012,135,"Meridian PCS","4b_a",0,0,0.25,"down",TRUE
 2012,135,"Meridian PCS","4b_b",NA,0,0.25,"down",NA
@@ -1023,10 +1023,10 @@
 2012,137,"Options PCS","3a",0,0.5,0.3333,"up",FALSE
 2012,137,"Options PCS","3b_math",1,0.95,0.1667,"up",TRUE
 2012,137,"Options PCS","3b_reading",1,0.95,0.1667,"up",TRUE
-2012,137,"Options PCS","3c_elem.math",0.2941,NA,NA,NA,NA
-2012,137,"Options PCS","3c_elem.reading",0.1765,NA,NA,NA,NA
-2012,137,"Options PCS","3c_sec.math",0.117,NA,NA,NA,NA
-2012,137,"Options PCS","3c_sec.reading",0.1277,NA,NA,NA,NA
+2012,137,"Options PCS","3c_elem_math",0.2941,NA,NA,NA,NA
+2012,137,"Options PCS","3c_elem_reading",0.1765,NA,NA,NA,NA
+2012,137,"Options PCS","3c_sec_math",0.117,NA,NA,NA,NA
+2012,137,"Options PCS","3c_sec_reading",0.1277,NA,NA,NA,NA
 2012,137,"Options PCS","4a",1,0,0.5,"down",FALSE
 2012,137,"Options PCS","4b_a",0,0,0.25,"down",TRUE
 2012,137,"Options PCS","4b_b",0,0,0.25,"down",TRUE
@@ -1059,10 +1059,10 @@
 2012,138,"Paul PCS","3a",0,0.5,0.3333,"up",FALSE
 2012,138,"Paul PCS","3b_math",0.865,0.95,0.1667,"up",FALSE
 2012,138,"Paul PCS","3b_reading",0.865,0.95,0.1667,"up",FALSE
-2012,138,"Paul PCS","3c_elem.math",0.1111,NA,NA,NA,NA
-2012,138,"Paul PCS","3c_elem.reading",0,NA,NA,NA,NA
-2012,138,"Paul PCS","3c_sec.math",0.7895,NA,NA,NA,NA
-2012,138,"Paul PCS","3c_sec.reading",0.4211,NA,NA,NA,NA
+2012,138,"Paul PCS","3c_elem_math",0.1111,NA,NA,NA,NA
+2012,138,"Paul PCS","3c_elem_reading",0,NA,NA,NA,NA
+2012,138,"Paul PCS","3c_sec_math",0.7895,NA,NA,NA,NA
+2012,138,"Paul PCS","3c_sec_reading",0.4211,NA,NA,NA,NA
 2012,138,"Paul PCS","4a",NA,0,0.5,"down",NA
 2012,138,"Paul PCS","4b_a",NA,0,0.25,"down",NA
 2012,138,"Paul PCS","4b_b",NA,0,0.25,"down",NA
@@ -1095,10 +1095,10 @@
 2012,139,"Potomac Lighthouse PCS","3a",NA,0.5,0.3333,"up",NA
 2012,139,"Potomac Lighthouse PCS","3b_math",NA,0.95,0.1667,"up",NA
 2012,139,"Potomac Lighthouse PCS","3b_reading",NA,0.95,0.1667,"up",NA
-2012,139,"Potomac Lighthouse PCS","3c_elem.math",0.0769,NA,NA,NA,NA
-2012,139,"Potomac Lighthouse PCS","3c_elem.reading",0.0769,NA,NA,NA,NA
-2012,139,"Potomac Lighthouse PCS","3c_sec.math",0.25,NA,NA,NA,NA
-2012,139,"Potomac Lighthouse PCS","3c_sec.reading",0.25,NA,NA,NA,NA
+2012,139,"Potomac Lighthouse PCS","3c_elem_math",0.0769,NA,NA,NA,NA
+2012,139,"Potomac Lighthouse PCS","3c_elem_reading",0.0769,NA,NA,NA,NA
+2012,139,"Potomac Lighthouse PCS","3c_sec_math",0.25,NA,NA,NA,NA
+2012,139,"Potomac Lighthouse PCS","3c_sec_reading",0.25,NA,NA,NA,NA
 2012,139,"Potomac Lighthouse PCS","4a",NA,0,0.5,"down",NA
 2012,139,"Potomac Lighthouse PCS","4b_a",NA,0,0.25,"down",NA
 2012,139,"Potomac Lighthouse PCS","4b_b",NA,0,0.25,"down",NA
@@ -1131,10 +1131,10 @@
 2012,140,"Roots PCS","3a",NA,0.5,0.3333,"up",NA
 2012,140,"Roots PCS","3b_math",NA,0.95,0.1667,"up",NA
 2012,140,"Roots PCS","3b_reading",NA,0.95,0.1667,"up",NA
-2012,140,"Roots PCS","3c_elem.math",0,NA,NA,NA,NA
-2012,140,"Roots PCS","3c_elem.reading",0,NA,NA,NA,NA
-2012,140,"Roots PCS","3c_sec.math",NA,NA,NA,NA,NA
-2012,140,"Roots PCS","3c_sec.reading",NA,NA,NA,NA,NA
+2012,140,"Roots PCS","3c_elem_math",0,NA,NA,NA,NA
+2012,140,"Roots PCS","3c_elem_reading",0,NA,NA,NA,NA
+2012,140,"Roots PCS","3c_sec_math",NA,NA,NA,NA,NA
+2012,140,"Roots PCS","3c_sec_reading",NA,NA,NA,NA,NA
 2012,140,"Roots PCS","4a",NA,0,0.5,"down",NA
 2012,140,"Roots PCS","4b_a",NA,0,0.25,"down",NA
 2012,140,"Roots PCS","4b_b",NA,0,0.25,"down",NA
@@ -1167,10 +1167,10 @@
 2012,142,"School for Educational Evolution and Development (SEED) PCS","3a",0,0.5,0.3333,"up",FALSE
 2012,142,"School for Educational Evolution and Development (SEED) PCS","3b_math",1,0.95,0.1667,"up",TRUE
 2012,142,"School for Educational Evolution and Development (SEED) PCS","3b_reading",1,0.95,0.1667,"up",TRUE
-2012,142,"School for Educational Evolution and Development (SEED) PCS","3c_elem.math",0.0526,NA,NA,NA,NA
-2012,142,"School for Educational Evolution and Development (SEED) PCS","3c_elem.reading",0,NA,NA,NA,NA
-2012,142,"School for Educational Evolution and Development (SEED) PCS","3c_sec.math",0.5714,NA,NA,NA,NA
-2012,142,"School for Educational Evolution and Development (SEED) PCS","3c_sec.reading",0.2143,NA,NA,NA,NA
+2012,142,"School for Educational Evolution and Development (SEED) PCS","3c_elem_math",0.0526,NA,NA,NA,NA
+2012,142,"School for Educational Evolution and Development (SEED) PCS","3c_elem_reading",0,NA,NA,NA,NA
+2012,142,"School for Educational Evolution and Development (SEED) PCS","3c_sec_math",0.5714,NA,NA,NA,NA
+2012,142,"School for Educational Evolution and Development (SEED) PCS","3c_sec_reading",0.2143,NA,NA,NA,NA
 2012,142,"School for Educational Evolution and Development (SEED) PCS","4a",1,0,0.5,"down",FALSE
 2012,142,"School for Educational Evolution and Development (SEED) PCS","4b_a",0,0,0.25,"down",TRUE
 2012,142,"School for Educational Evolution and Development (SEED) PCS","4b_b",0,0,0.25,"down",TRUE
@@ -1203,10 +1203,10 @@
 2012,143,"St. Coletta Special Education PCS","3a",0,0.5,0.3333,"up",FALSE
 2012,143,"St. Coletta Special Education PCS","3b_math",0.988,0.95,0.1667,"up",TRUE
 2012,143,"St. Coletta Special Education PCS","3b_reading",0.988,0.95,0.1667,"up",TRUE
-2012,143,"St. Coletta Special Education PCS","3c_elem.math",0.8043,NA,NA,NA,NA
-2012,143,"St. Coletta Special Education PCS","3c_elem.reading",0.8696,NA,NA,NA,NA
-2012,143,"St. Coletta Special Education PCS","3c_sec.math",0.6571,NA,NA,NA,NA
-2012,143,"St. Coletta Special Education PCS","3c_sec.reading",0.8286,NA,NA,NA,NA
+2012,143,"St. Coletta Special Education PCS","3c_elem_math",0.8043,NA,NA,NA,NA
+2012,143,"St. Coletta Special Education PCS","3c_elem_reading",0.8696,NA,NA,NA,NA
+2012,143,"St. Coletta Special Education PCS","3c_sec_math",0.6571,NA,NA,NA,NA
+2012,143,"St. Coletta Special Education PCS","3c_sec_reading",0.8286,NA,NA,NA,NA
 2012,143,"St. Coletta Special Education PCS","4a",NA,0,0.5,"down",NA
 2012,143,"St. Coletta Special Education PCS","4b_a",NA,0,0.25,"down",NA
 2012,143,"St. Coletta Special Education PCS","4b_b",NA,0,0.25,"down",NA
@@ -1239,10 +1239,10 @@
 2012,144,"Elsie Whitlow Stokes Community Freedom PCS","3a",0,0.5,0.3333,"up",FALSE
 2012,144,"Elsie Whitlow Stokes Community Freedom PCS","3b_math",1,0.95,0.1667,"up",TRUE
 2012,144,"Elsie Whitlow Stokes Community Freedom PCS","3b_reading",1,0.95,0.1667,"up",TRUE
-2012,144,"Elsie Whitlow Stokes Community Freedom PCS","3c_elem.math",0.3333,NA,NA,NA,NA
-2012,144,"Elsie Whitlow Stokes Community Freedom PCS","3c_elem.reading",0.3333,NA,NA,NA,NA
-2012,144,"Elsie Whitlow Stokes Community Freedom PCS","3c_sec.math",NA,NA,NA,NA,NA
-2012,144,"Elsie Whitlow Stokes Community Freedom PCS","3c_sec.reading",NA,NA,NA,NA,NA
+2012,144,"Elsie Whitlow Stokes Community Freedom PCS","3c_elem_math",0.3333,NA,NA,NA,NA
+2012,144,"Elsie Whitlow Stokes Community Freedom PCS","3c_elem_reading",0.3333,NA,NA,NA,NA
+2012,144,"Elsie Whitlow Stokes Community Freedom PCS","3c_sec_math",NA,NA,NA,NA,NA
+2012,144,"Elsie Whitlow Stokes Community Freedom PCS","3c_sec_reading",NA,NA,NA,NA,NA
 2012,144,"Elsie Whitlow Stokes Community Freedom PCS","4a",NA,0,0.5,"down",NA
 2012,144,"Elsie Whitlow Stokes Community Freedom PCS","4b_a",NA,0,0.25,"down",NA
 2012,144,"Elsie Whitlow Stokes Community Freedom PCS","4b_b",NA,0,0.25,"down",NA
@@ -1275,10 +1275,10 @@
 2012,145,"The Next Step PCS","3a",NA,0.5,0.3333,"up",NA
 2012,145,"The Next Step PCS","3b_math",NA,0.95,0.1667,"up",NA
 2012,145,"The Next Step PCS","3b_reading",NA,0.95,0.1667,"up",NA
-2012,145,"The Next Step PCS","3c_elem.math",NA,NA,NA,NA,NA
-2012,145,"The Next Step PCS","3c_elem.reading",NA,NA,NA,NA,NA
-2012,145,"The Next Step PCS","3c_sec.math",NA,NA,NA,NA,NA
-2012,145,"The Next Step PCS","3c_sec.reading",NA,NA,NA,NA,NA
+2012,145,"The Next Step PCS","3c_elem_math",NA,NA,NA,NA,NA
+2012,145,"The Next Step PCS","3c_elem_reading",NA,NA,NA,NA,NA
+2012,145,"The Next Step PCS","3c_sec_math",NA,NA,NA,NA,NA
+2012,145,"The Next Step PCS","3c_sec_reading",NA,NA,NA,NA,NA
 2012,145,"The Next Step PCS","4a",NA,0,0.5,"down",NA
 2012,145,"The Next Step PCS","4b_a",NA,0,0.25,"down",NA
 2012,145,"The Next Step PCS","4b_b",NA,0,0.25,"down",NA
@@ -1311,10 +1311,10 @@
 2012,146,"Thurgood Marshall Academy PCS","3a",NA,0.5,0.3333,"up",NA
 2012,146,"Thurgood Marshall Academy PCS","3b_math",NA,0.95,0.1667,"up",NA
 2012,146,"Thurgood Marshall Academy PCS","3b_reading",NA,0.95,0.1667,"up",NA
-2012,146,"Thurgood Marshall Academy PCS","3c_elem.math",NA,NA,NA,NA,NA
-2012,146,"Thurgood Marshall Academy PCS","3c_elem.reading",NA,NA,NA,NA,NA
-2012,146,"Thurgood Marshall Academy PCS","3c_sec.math",0.2857,NA,NA,NA,NA
-2012,146,"Thurgood Marshall Academy PCS","3c_sec.reading",0.2857,NA,NA,NA,NA
+2012,146,"Thurgood Marshall Academy PCS","3c_elem_math",NA,NA,NA,NA,NA
+2012,146,"Thurgood Marshall Academy PCS","3c_elem_reading",NA,NA,NA,NA,NA
+2012,146,"Thurgood Marshall Academy PCS","3c_sec_math",0.2857,NA,NA,NA,NA
+2012,146,"Thurgood Marshall Academy PCS","3c_sec_reading",0.2857,NA,NA,NA,NA
 2012,146,"Thurgood Marshall Academy PCS","4a",NA,0,0.5,"down",NA
 2012,146,"Thurgood Marshall Academy PCS","4b_a",NA,0,0.25,"down",NA
 2012,146,"Thurgood Marshall Academy PCS","4b_b",NA,0,0.25,"down",NA
@@ -1347,10 +1347,10 @@
 2012,147,"Tree of Life PCS","3a",NA,0.5,0.3333,"up",NA
 2012,147,"Tree of Life PCS","3b_math",NA,0.95,0.1667,"up",NA
 2012,147,"Tree of Life PCS","3b_reading",NA,0.95,0.1667,"up",NA
-2012,147,"Tree of Life PCS","3c_elem.math",0.1429,NA,NA,NA,NA
-2012,147,"Tree of Life PCS","3c_elem.reading",0.1429,NA,NA,NA,NA
-2012,147,"Tree of Life PCS","3c_sec.math",0.2857,NA,NA,NA,NA
-2012,147,"Tree of Life PCS","3c_sec.reading",0.3571,NA,NA,NA,NA
+2012,147,"Tree of Life PCS","3c_elem_math",0.1429,NA,NA,NA,NA
+2012,147,"Tree of Life PCS","3c_elem_reading",0.1429,NA,NA,NA,NA
+2012,147,"Tree of Life PCS","3c_sec_math",0.2857,NA,NA,NA,NA
+2012,147,"Tree of Life PCS","3c_sec_reading",0.3571,NA,NA,NA,NA
 2012,147,"Tree of Life PCS","4a",NA,0,0.5,"down",NA
 2012,147,"Tree of Life PCS","4b_a",NA,0,0.25,"down",NA
 2012,147,"Tree of Life PCS","4b_b",NA,0,0.25,"down",NA
@@ -1383,10 +1383,10 @@
 2012,149,"Two Rivers PCS","3a",0,0.5,0.3333,"up",FALSE
 2012,149,"Two Rivers PCS","3b_math",1,0.95,0.1667,"up",TRUE
 2012,149,"Two Rivers PCS","3b_reading",1,0.95,0.1667,"up",TRUE
-2012,149,"Two Rivers PCS","3c_elem.math",0.3585,NA,NA,NA,NA
-2012,149,"Two Rivers PCS","3c_elem.reading",0.283,NA,NA,NA,NA
-2012,149,"Two Rivers PCS","3c_sec.math",0.6207,NA,NA,NA,NA
-2012,149,"Two Rivers PCS","3c_sec.reading",0.5517,NA,NA,NA,NA
+2012,149,"Two Rivers PCS","3c_elem_math",0.3585,NA,NA,NA,NA
+2012,149,"Two Rivers PCS","3c_elem_reading",0.283,NA,NA,NA,NA
+2012,149,"Two Rivers PCS","3c_sec_math",0.6207,NA,NA,NA,NA
+2012,149,"Two Rivers PCS","3c_sec_reading",0.5517,NA,NA,NA,NA
 2012,149,"Two Rivers PCS","4a",0,0,0.5,"down",TRUE
 2012,149,"Two Rivers PCS","4b_a",0,0,0.25,"down",TRUE
 2012,149,"Two Rivers PCS","4b_b",NA,0,0.25,"down",NA
@@ -1419,10 +1419,10 @@
 2012,151,"Washington Latin PCS","3a",0,0.5,0.3333,"up",FALSE
 2012,151,"Washington Latin PCS","3b_math",1,0.95,0.1667,"up",TRUE
 2012,151,"Washington Latin PCS","3b_reading",1,0.95,0.1667,"up",TRUE
-2012,151,"Washington Latin PCS","3c_elem.math",0.6,NA,NA,NA,NA
-2012,151,"Washington Latin PCS","3c_elem.reading",0.6,NA,NA,NA,NA
-2012,151,"Washington Latin PCS","3c_sec.math",0.4375,NA,NA,NA,NA
-2012,151,"Washington Latin PCS","3c_sec.reading",0.5,NA,NA,NA,NA
+2012,151,"Washington Latin PCS","3c_elem_math",0.6,NA,NA,NA,NA
+2012,151,"Washington Latin PCS","3c_elem_reading",0.6,NA,NA,NA,NA
+2012,151,"Washington Latin PCS","3c_sec_math",0.4375,NA,NA,NA,NA
+2012,151,"Washington Latin PCS","3c_sec_reading",0.5,NA,NA,NA,NA
 2012,151,"Washington Latin PCS","4a",NA,0,0.5,"down",NA
 2012,151,"Washington Latin PCS","4b_a",NA,0,0.25,"down",NA
 2012,151,"Washington Latin PCS","4b_b",NA,0,0.25,"down",NA
@@ -1455,10 +1455,10 @@
 2012,152,"Washington Math Science & Technology (WMST) PCS","3a",NA,0.5,0.3333,"up",NA
 2012,152,"Washington Math Science & Technology (WMST) PCS","3b_math",NA,0.95,0.1667,"up",NA
 2012,152,"Washington Math Science & Technology (WMST) PCS","3b_reading",NA,0.95,0.1667,"up",NA
-2012,152,"Washington Math Science & Technology (WMST) PCS","3c_elem.math",NA,NA,NA,NA,NA
-2012,152,"Washington Math Science & Technology (WMST) PCS","3c_elem.reading",NA,NA,NA,NA,NA
-2012,152,"Washington Math Science & Technology (WMST) PCS","3c_sec.math",0,NA,NA,NA,NA
-2012,152,"Washington Math Science & Technology (WMST) PCS","3c_sec.reading",0,NA,NA,NA,NA
+2012,152,"Washington Math Science & Technology (WMST) PCS","3c_elem_math",NA,NA,NA,NA,NA
+2012,152,"Washington Math Science & Technology (WMST) PCS","3c_elem_reading",NA,NA,NA,NA,NA
+2012,152,"Washington Math Science & Technology (WMST) PCS","3c_sec_math",0,NA,NA,NA,NA
+2012,152,"Washington Math Science & Technology (WMST) PCS","3c_sec_reading",0,NA,NA,NA,NA
 2012,152,"Washington Math Science & Technology (WMST) PCS","4a",NA,0,0.5,"down",NA
 2012,152,"Washington Math Science & Technology (WMST) PCS","4b_a",NA,0,0.25,"down",NA
 2012,152,"Washington Math Science & Technology (WMST) PCS","4b_b",NA,0,0.25,"down",NA
@@ -1491,10 +1491,10 @@
 2012,153,"William E. Doar Jr PCS","3a",NA,0.5,0.3333,"up",NA
 2012,153,"William E. Doar Jr PCS","3b_math",NA,0.95,0.1667,"up",NA
 2012,153,"William E. Doar Jr PCS","3b_reading",NA,0.95,0.1667,"up",NA
-2012,153,"William E. Doar Jr PCS","3c_elem.math",0.1,NA,NA,NA,NA
-2012,153,"William E. Doar Jr PCS","3c_elem.reading",0.2,NA,NA,NA,NA
-2012,153,"William E. Doar Jr PCS","3c_sec.math",0.1,NA,NA,NA,NA
-2012,153,"William E. Doar Jr PCS","3c_sec.reading",0,NA,NA,NA,NA
+2012,153,"William E. Doar Jr PCS","3c_elem_math",0.1,NA,NA,NA,NA
+2012,153,"William E. Doar Jr PCS","3c_elem_reading",0.2,NA,NA,NA,NA
+2012,153,"William E. Doar Jr PCS","3c_sec_math",0.1,NA,NA,NA,NA
+2012,153,"William E. Doar Jr PCS","3c_sec_reading",0,NA,NA,NA,NA
 2012,153,"William E. Doar Jr PCS","4a",NA,0,0.5,"down",NA
 2012,153,"William E. Doar Jr PCS","4b_a",NA,0,0.25,"down",NA
 2012,153,"William E. Doar Jr PCS","4b_b",NA,0,0.25,"down",NA
@@ -1527,10 +1527,10 @@
 2012,155,"Achievement Preparatory Academy PCS","3a",0,0.5,0.3333,"up",FALSE
 2012,155,"Achievement Preparatory Academy PCS","3b_math",1,0.95,0.1667,"up",TRUE
 2012,155,"Achievement Preparatory Academy PCS","3b_reading",1,0.95,0.1667,"up",TRUE
-2012,155,"Achievement Preparatory Academy PCS","3c_elem.math",0.5472,NA,NA,NA,NA
-2012,155,"Achievement Preparatory Academy PCS","3c_elem.reading",0.2264,NA,NA,NA,NA
-2012,155,"Achievement Preparatory Academy PCS","3c_sec.math",0.6667,NA,NA,NA,NA
-2012,155,"Achievement Preparatory Academy PCS","3c_sec.reading",0.3333,NA,NA,NA,NA
+2012,155,"Achievement Preparatory Academy PCS","3c_elem_math",0.5472,NA,NA,NA,NA
+2012,155,"Achievement Preparatory Academy PCS","3c_elem_reading",0.2264,NA,NA,NA,NA
+2012,155,"Achievement Preparatory Academy PCS","3c_sec_math",0.6667,NA,NA,NA,NA
+2012,155,"Achievement Preparatory Academy PCS","3c_sec_reading",0.3333,NA,NA,NA,NA
 2012,155,"Achievement Preparatory Academy PCS","4a",NA,0,0.5,"down",NA
 2012,155,"Achievement Preparatory Academy PCS","4b_a",NA,0,0.25,"down",NA
 2012,155,"Achievement Preparatory Academy PCS","4b_b",NA,0,0.25,"down",NA
@@ -1563,10 +1563,10 @@
 2012,156,"Center City PCS","3a",0,0.5,0.3333,"up",FALSE
 2012,156,"Center City PCS","3b_math",1,0.95,0.1667,"up",TRUE
 2012,156,"Center City PCS","3b_reading",1,0.95,0.1667,"up",TRUE
-2012,156,"Center City PCS","3c_elem.math",0.2444,NA,NA,NA,NA
-2012,156,"Center City PCS","3c_elem.reading",0.1222,NA,NA,NA,NA
-2012,156,"Center City PCS","3c_sec.math",0.25,NA,NA,NA,NA
-2012,156,"Center City PCS","3c_sec.reading",0.2292,NA,NA,NA,NA
+2012,156,"Center City PCS","3c_elem_math",0.2444,NA,NA,NA,NA
+2012,156,"Center City PCS","3c_elem_reading",0.1222,NA,NA,NA,NA
+2012,156,"Center City PCS","3c_sec_math",0.25,NA,NA,NA,NA
+2012,156,"Center City PCS","3c_sec_reading",0.2292,NA,NA,NA,NA
 2012,156,"Center City PCS","4a",1,0,0.5,"down",FALSE
 2012,156,"Center City PCS","4b_a",0,0,0.25,"down",TRUE
 2012,156,"Center City PCS","4b_b",0,0,0.25,"down",TRUE
@@ -1599,10 +1599,10 @@
 2012,158,"Excel Academy PCS","3a",NA,0.5,0.3333,"up",NA
 2012,158,"Excel Academy PCS","3b_math",NA,0.95,0.1667,"up",NA
 2012,158,"Excel Academy PCS","3b_reading",NA,0.95,0.1667,"up",NA
-2012,158,"Excel Academy PCS","3c_elem.math",0,NA,NA,NA,NA
-2012,158,"Excel Academy PCS","3c_elem.reading",0,NA,NA,NA,NA
-2012,158,"Excel Academy PCS","3c_sec.math",NA,NA,NA,NA,NA
-2012,158,"Excel Academy PCS","3c_sec.reading",NA,NA,NA,NA,NA
+2012,158,"Excel Academy PCS","3c_elem_math",0,NA,NA,NA,NA
+2012,158,"Excel Academy PCS","3c_elem_reading",0,NA,NA,NA,NA
+2012,158,"Excel Academy PCS","3c_sec_math",NA,NA,NA,NA,NA
+2012,158,"Excel Academy PCS","3c_sec_reading",NA,NA,NA,NA,NA
 2012,158,"Excel Academy PCS","4a",NA,0,0.5,"down",NA
 2012,158,"Excel Academy PCS","4b_a",NA,0,0.25,"down",NA
 2012,158,"Excel Academy PCS","4b_b",NA,0,0.25,"down",NA
@@ -1635,10 +1635,10 @@
 2012,159,"Imagine Southeast PCS","3a",0,0.5,0.3333,"up",FALSE
 2012,159,"Imagine Southeast PCS","3b_math",1,0.95,0.1667,"up",TRUE
 2012,159,"Imagine Southeast PCS","3b_reading",1,0.95,0.1667,"up",TRUE
-2012,159,"Imagine Southeast PCS","3c_elem.math",0.0789,NA,NA,NA,NA
-2012,159,"Imagine Southeast PCS","3c_elem.reading",0.0789,NA,NA,NA,NA
-2012,159,"Imagine Southeast PCS","3c_sec.math",0.125,NA,NA,NA,NA
-2012,159,"Imagine Southeast PCS","3c_sec.reading",0.125,NA,NA,NA,NA
+2012,159,"Imagine Southeast PCS","3c_elem_math",0.0789,NA,NA,NA,NA
+2012,159,"Imagine Southeast PCS","3c_elem_reading",0.0789,NA,NA,NA,NA
+2012,159,"Imagine Southeast PCS","3c_sec_math",0.125,NA,NA,NA,NA
+2012,159,"Imagine Southeast PCS","3c_sec_reading",0.125,NA,NA,NA,NA
 2012,159,"Imagine Southeast PCS","4a",1,0,0.5,"down",FALSE
 2012,159,"Imagine Southeast PCS","4b_a",1,0,0.25,"down",FALSE
 2012,159,"Imagine Southeast PCS","4b_b",1,0,0.25,"down",FALSE
@@ -1671,10 +1671,10 @@
 2012,160,"Washington Yu Ying PCS","3a",NA,0.5,0.3333,"up",NA
 2012,160,"Washington Yu Ying PCS","3b_math",NA,0.95,0.1667,"up",NA
 2012,160,"Washington Yu Ying PCS","3b_reading",NA,0.95,0.1667,"up",NA
-2012,160,"Washington Yu Ying PCS","3c_elem.math",0.8235,NA,NA,NA,NA
-2012,160,"Washington Yu Ying PCS","3c_elem.reading",0.4118,NA,NA,NA,NA
-2012,160,"Washington Yu Ying PCS","3c_sec.math",NA,NA,NA,NA,NA
-2012,160,"Washington Yu Ying PCS","3c_sec.reading",NA,NA,NA,NA,NA
+2012,160,"Washington Yu Ying PCS","3c_elem_math",0.8235,NA,NA,NA,NA
+2012,160,"Washington Yu Ying PCS","3c_elem_reading",0.4118,NA,NA,NA,NA
+2012,160,"Washington Yu Ying PCS","3c_sec_math",NA,NA,NA,NA,NA
+2012,160,"Washington Yu Ying PCS","3c_sec_reading",NA,NA,NA,NA,NA
 2012,160,"Washington Yu Ying PCS","4a",NA,0,0.5,"down",NA
 2012,160,"Washington Yu Ying PCS","4b_a",NA,0,0.25,"down",NA
 2012,160,"Washington Yu Ying PCS","4b_b",NA,0,0.25,"down",NA
@@ -1707,10 +1707,10 @@
 2012,161,"Septima Clark PCS","3a",NA,0.5,0.3333,"up",NA
 2012,161,"Septima Clark PCS","3b_math",NA,0.95,0.1667,"up",NA
 2012,161,"Septima Clark PCS","3b_reading",NA,0.95,0.1667,"up",NA
-2012,161,"Septima Clark PCS","3c_elem.math",0.2308,NA,NA,NA,NA
-2012,161,"Septima Clark PCS","3c_elem.reading",0.0769,NA,NA,NA,NA
-2012,161,"Septima Clark PCS","3c_sec.math",NA,NA,NA,NA,NA
-2012,161,"Septima Clark PCS","3c_sec.reading",NA,NA,NA,NA,NA
+2012,161,"Septima Clark PCS","3c_elem_math",0.2308,NA,NA,NA,NA
+2012,161,"Septima Clark PCS","3c_elem_reading",0.0769,NA,NA,NA,NA
+2012,161,"Septima Clark PCS","3c_sec_math",NA,NA,NA,NA,NA
+2012,161,"Septima Clark PCS","3c_sec_reading",NA,NA,NA,NA,NA
 2012,161,"Septima Clark PCS","4a",NA,0,0.5,"down",NA
 2012,161,"Septima Clark PCS","4b_a",NA,0,0.25,"down",NA
 2012,161,"Septima Clark PCS","4b_b",NA,0,0.25,"down",NA
@@ -1743,10 +1743,10 @@
 2012,162,"Carlos Rosario International PCS","3a",NA,0.5,0.3333,"up",NA
 2012,162,"Carlos Rosario International PCS","3b_math",NA,0.95,0.1667,"up",NA
 2012,162,"Carlos Rosario International PCS","3b_reading",NA,0.95,0.1667,"up",NA
-2012,162,"Carlos Rosario International PCS","3c_elem.math",NA,NA,NA,NA,NA
-2012,162,"Carlos Rosario International PCS","3c_elem.reading",NA,NA,NA,NA,NA
-2012,162,"Carlos Rosario International PCS","3c_sec.math",NA,NA,NA,NA,NA
-2012,162,"Carlos Rosario International PCS","3c_sec.reading",NA,NA,NA,NA,NA
+2012,162,"Carlos Rosario International PCS","3c_elem_math",NA,NA,NA,NA,NA
+2012,162,"Carlos Rosario International PCS","3c_elem_reading",NA,NA,NA,NA,NA
+2012,162,"Carlos Rosario International PCS","3c_sec_math",NA,NA,NA,NA,NA
+2012,162,"Carlos Rosario International PCS","3c_sec_reading",NA,NA,NA,NA,NA
 2012,162,"Carlos Rosario International PCS","4a",NA,0,0.5,"down",NA
 2012,162,"Carlos Rosario International PCS","4b_a",NA,0,0.25,"down",NA
 2012,162,"Carlos Rosario International PCS","4b_b",NA,0,0.25,"down",NA
@@ -1779,10 +1779,10 @@
 2012,163,"National Collegiate Preparatory PCS","3a",NA,0.5,0.3333,"up",NA
 2012,163,"National Collegiate Preparatory PCS","3b_math",NA,0.95,0.1667,"up",NA
 2012,163,"National Collegiate Preparatory PCS","3b_reading",NA,0.95,0.1667,"up",NA
-2012,163,"National Collegiate Preparatory PCS","3c_elem.math",NA,NA,NA,NA,NA
-2012,163,"National Collegiate Preparatory PCS","3c_elem.reading",NA,NA,NA,NA,NA
-2012,163,"National Collegiate Preparatory PCS","3c_sec.math",0.0769,NA,NA,NA,NA
-2012,163,"National Collegiate Preparatory PCS","3c_sec.reading",0,NA,NA,NA,NA
+2012,163,"National Collegiate Preparatory PCS","3c_elem_math",NA,NA,NA,NA,NA
+2012,163,"National Collegiate Preparatory PCS","3c_elem_reading",NA,NA,NA,NA,NA
+2012,163,"National Collegiate Preparatory PCS","3c_sec_math",0.0769,NA,NA,NA,NA
+2012,163,"National Collegiate Preparatory PCS","3c_sec_reading",0,NA,NA,NA,NA
 2012,163,"National Collegiate Preparatory PCS","4a",NA,0,0.5,"down",NA
 2012,163,"National Collegiate Preparatory PCS","4b_a",NA,0,0.25,"down",NA
 2012,163,"National Collegiate Preparatory PCS","4b_b",NA,0,0.25,"down",NA
@@ -1815,10 +1815,10 @@
 2012,165,"Inspired Teaching Demonstration PCS","3a",NA,0.5,0.3333,"up",NA
 2012,165,"Inspired Teaching Demonstration PCS","3b_math",NA,0.95,0.1667,"up",NA
 2012,165,"Inspired Teaching Demonstration PCS","3b_reading",NA,0.95,0.1667,"up",NA
-2012,165,"Inspired Teaching Demonstration PCS","3c_elem.math",0.375,NA,NA,NA,NA
-2012,165,"Inspired Teaching Demonstration PCS","3c_elem.reading",0.25,NA,NA,NA,NA
-2012,165,"Inspired Teaching Demonstration PCS","3c_sec.math",NA,NA,NA,NA,NA
-2012,165,"Inspired Teaching Demonstration PCS","3c_sec.reading",NA,NA,NA,NA,NA
+2012,165,"Inspired Teaching Demonstration PCS","3c_elem_math",0.375,NA,NA,NA,NA
+2012,165,"Inspired Teaching Demonstration PCS","3c_elem_reading",0.25,NA,NA,NA,NA
+2012,165,"Inspired Teaching Demonstration PCS","3c_sec_math",NA,NA,NA,NA,NA
+2012,165,"Inspired Teaching Demonstration PCS","3c_sec_reading",NA,NA,NA,NA,NA
 2012,165,"Inspired Teaching Demonstration PCS","4a",NA,0,0.5,"down",NA
 2012,165,"Inspired Teaching Demonstration PCS","4b_a",NA,0,0.25,"down",NA
 2012,165,"Inspired Teaching Demonstration PCS","4b_b",NA,0,0.25,"down",NA
@@ -1851,10 +1851,10 @@
 2012,166,"Shining Stars Montessori PCS","3a",NA,0.5,0.3333,"up",NA
 2012,166,"Shining Stars Montessori PCS","3b_math",NA,0.95,0.1667,"up",NA
 2012,166,"Shining Stars Montessori PCS","3b_reading",NA,0.95,0.1667,"up",NA
-2012,166,"Shining Stars Montessori PCS","3c_elem.math",NA,NA,NA,NA,NA
-2012,166,"Shining Stars Montessori PCS","3c_elem.reading",NA,NA,NA,NA,NA
-2012,166,"Shining Stars Montessori PCS","3c_sec.math",NA,NA,NA,NA,NA
-2012,166,"Shining Stars Montessori PCS","3c_sec.reading",NA,NA,NA,NA,NA
+2012,166,"Shining Stars Montessori PCS","3c_elem_math",NA,NA,NA,NA,NA
+2012,166,"Shining Stars Montessori PCS","3c_elem_reading",NA,NA,NA,NA,NA
+2012,166,"Shining Stars Montessori PCS","3c_sec_math",NA,NA,NA,NA,NA
+2012,166,"Shining Stars Montessori PCS","3c_sec_reading",NA,NA,NA,NA,NA
 2012,166,"Shining Stars Montessori PCS","4a",NA,0,0.5,"down",NA
 2012,166,"Shining Stars Montessori PCS","4b_a",NA,0,0.25,"down",NA
 2012,166,"Shining Stars Montessori PCS","4b_b",NA,0,0.25,"down",NA
@@ -1887,10 +1887,10 @@
 2012,167,"Richard Wright PCS for Journalism and Media Arts","3a",NA,0.5,0.3333,"up",NA
 2012,167,"Richard Wright PCS for Journalism and Media Arts","3b_math",NA,0.95,0.1667,"up",NA
 2012,167,"Richard Wright PCS for Journalism and Media Arts","3b_reading",NA,0.95,0.1667,"up",NA
-2012,167,"Richard Wright PCS for Journalism and Media Arts","3c_elem.math",NA,NA,NA,NA,NA
-2012,167,"Richard Wright PCS for Journalism and Media Arts","3c_elem.reading",NA,NA,NA,NA,NA
-2012,167,"Richard Wright PCS for Journalism and Media Arts","3c_sec.math",0.1,NA,NA,NA,NA
-2012,167,"Richard Wright PCS for Journalism and Media Arts","3c_sec.reading",0.25,NA,NA,NA,NA
+2012,167,"Richard Wright PCS for Journalism and Media Arts","3c_elem_math",NA,NA,NA,NA,NA
+2012,167,"Richard Wright PCS for Journalism and Media Arts","3c_elem_reading",NA,NA,NA,NA,NA
+2012,167,"Richard Wright PCS for Journalism and Media Arts","3c_sec_math",0.1,NA,NA,NA,NA
+2012,167,"Richard Wright PCS for Journalism and Media Arts","3c_sec_reading",0.25,NA,NA,NA,NA
 2012,167,"Richard Wright PCS for Journalism and Media Arts","4a",NA,0,0.5,"down",NA
 2012,167,"Richard Wright PCS for Journalism and Media Arts","4b_a",NA,0,0.25,"down",NA
 2012,167,"Richard Wright PCS for Journalism and Media Arts","4b_b",NA,0,0.25,"down",NA
@@ -1923,10 +1923,10 @@
 2012,168,"Basis PCS ","3a",NA,0.5,0.3333,"up",NA
 2012,168,"Basis PCS ","3b_math",NA,0.95,0.1667,"up",NA
 2012,168,"Basis PCS ","3b_reading",NA,0.95,0.1667,"up",NA
-2012,168,"Basis PCS ","3c_elem.math",0.2857,NA,NA,NA,NA
-2012,168,"Basis PCS ","3c_elem.reading",0.3571,NA,NA,NA,NA
-2012,168,"Basis PCS ","3c_sec.math",0.4,NA,NA,NA,NA
-2012,168,"Basis PCS ","3c_sec.reading",0,NA,NA,NA,NA
+2012,168,"Basis PCS ","3c_elem_math",0.2857,NA,NA,NA,NA
+2012,168,"Basis PCS ","3c_elem_reading",0.3571,NA,NA,NA,NA
+2012,168,"Basis PCS ","3c_sec_math",0.4,NA,NA,NA,NA
+2012,168,"Basis PCS ","3c_sec_reading",0,NA,NA,NA,NA
 2012,168,"Basis PCS ","4a",NA,0,0.5,"down",NA
 2012,168,"Basis PCS ","4b_a",NA,0,0.25,"down",NA
 2012,168,"Basis PCS ","4b_b",NA,0,0.25,"down",NA
@@ -1959,10 +1959,10 @@
 2012,169,"Creative Minds PCS","3a",NA,0.5,0.3333,"up",NA
 2012,169,"Creative Minds PCS","3b_math",NA,0.95,0.1667,"up",NA
 2012,169,"Creative Minds PCS","3b_reading",NA,0.95,0.1667,"up",NA
-2012,169,"Creative Minds PCS","3c_elem.math",NA,NA,NA,NA,NA
-2012,169,"Creative Minds PCS","3c_elem.reading",NA,NA,NA,NA,NA
-2012,169,"Creative Minds PCS","3c_sec.math",NA,NA,NA,NA,NA
-2012,169,"Creative Minds PCS","3c_sec.reading",NA,NA,NA,NA,NA
+2012,169,"Creative Minds PCS","3c_elem_math",NA,NA,NA,NA,NA
+2012,169,"Creative Minds PCS","3c_elem_reading",NA,NA,NA,NA,NA
+2012,169,"Creative Minds PCS","3c_sec_math",NA,NA,NA,NA,NA
+2012,169,"Creative Minds PCS","3c_sec_reading",NA,NA,NA,NA,NA
 2012,169,"Creative Minds PCS","4a",NA,0,0.5,"down",NA
 2012,169,"Creative Minds PCS","4b_a",NA,0,0.25,"down",NA
 2012,169,"Creative Minds PCS","4b_b",NA,0,0.25,"down",NA
@@ -1995,10 +1995,10 @@
 2012,170,"D. C. Scholars PCS","3a",NA,0.5,0.3333,"up",NA
 2012,170,"D. C. Scholars PCS","3b_math",NA,0.95,0.1667,"up",NA
 2012,170,"D. C. Scholars PCS","3b_reading",NA,0.95,0.1667,"up",NA
-2012,170,"D. C. Scholars PCS","3c_elem.math",0.5,NA,NA,NA,NA
-2012,170,"D. C. Scholars PCS","3c_elem.reading",0,NA,NA,NA,NA
-2012,170,"D. C. Scholars PCS","3c_sec.math",NA,NA,NA,NA,NA
-2012,170,"D. C. Scholars PCS","3c_sec.reading",NA,NA,NA,NA,NA
+2012,170,"D. C. Scholars PCS","3c_elem_math",0.5,NA,NA,NA,NA
+2012,170,"D. C. Scholars PCS","3c_elem_reading",0,NA,NA,NA,NA
+2012,170,"D. C. Scholars PCS","3c_sec_math",NA,NA,NA,NA,NA
+2012,170,"D. C. Scholars PCS","3c_sec_reading",NA,NA,NA,NA,NA
 2012,170,"D. C. Scholars PCS","4a",NA,0,0.5,"down",NA
 2012,170,"D. C. Scholars PCS","4b_a",NA,0,0.25,"down",NA
 2012,170,"D. C. Scholars PCS","4b_b",NA,0,0.25,"down",NA
@@ -2031,10 +2031,10 @@
 2012,171,"Mundo Verde Bilingual PCS","3a",NA,0.5,0.3333,"up",NA
 2012,171,"Mundo Verde Bilingual PCS","3b_math",NA,0.95,0.1667,"up",NA
 2012,171,"Mundo Verde Bilingual PCS","3b_reading",NA,0.95,0.1667,"up",NA
-2012,171,"Mundo Verde Bilingual PCS","3c_elem.math",NA,NA,NA,NA,NA
-2012,171,"Mundo Verde Bilingual PCS","3c_elem.reading",NA,NA,NA,NA,NA
-2012,171,"Mundo Verde Bilingual PCS","3c_sec.math",NA,NA,NA,NA,NA
-2012,171,"Mundo Verde Bilingual PCS","3c_sec.reading",NA,NA,NA,NA,NA
+2012,171,"Mundo Verde Bilingual PCS","3c_elem_math",NA,NA,NA,NA,NA
+2012,171,"Mundo Verde Bilingual PCS","3c_elem_reading",NA,NA,NA,NA,NA
+2012,171,"Mundo Verde Bilingual PCS","3c_sec_math",NA,NA,NA,NA,NA
+2012,171,"Mundo Verde Bilingual PCS","3c_sec_reading",NA,NA,NA,NA,NA
 2012,171,"Mundo Verde Bilingual PCS","4a",NA,0,0.5,"down",NA
 2012,171,"Mundo Verde Bilingual PCS","4b_a",NA,0,0.25,"down",NA
 2012,171,"Mundo Verde Bilingual PCS","4b_b",NA,0,0.25,"down",NA
@@ -2067,10 +2067,10 @@
 2012,172,"Latin America Youth Center Youth Build (LAYC) PCS","3a",NA,0.5,0.3333,"up",NA
 2012,172,"Latin America Youth Center Youth Build (LAYC) PCS","3b_math",NA,0.95,0.1667,"up",NA
 2012,172,"Latin America Youth Center Youth Build (LAYC) PCS","3b_reading",NA,0.95,0.1667,"up",NA
-2012,172,"Latin America Youth Center Youth Build (LAYC) PCS","3c_elem.math",NA,NA,NA,NA,NA
-2012,172,"Latin America Youth Center Youth Build (LAYC) PCS","3c_elem.reading",NA,NA,NA,NA,NA
-2012,172,"Latin America Youth Center Youth Build (LAYC) PCS","3c_sec.math",NA,NA,NA,NA,NA
-2012,172,"Latin America Youth Center Youth Build (LAYC) PCS","3c_sec.reading",NA,NA,NA,NA,NA
+2012,172,"Latin America Youth Center Youth Build (LAYC) PCS","3c_elem_math",NA,NA,NA,NA,NA
+2012,172,"Latin America Youth Center Youth Build (LAYC) PCS","3c_elem_reading",NA,NA,NA,NA,NA
+2012,172,"Latin America Youth Center Youth Build (LAYC) PCS","3c_sec_math",NA,NA,NA,NA,NA
+2012,172,"Latin America Youth Center Youth Build (LAYC) PCS","3c_sec_reading",NA,NA,NA,NA,NA
 2012,172,"Latin America Youth Center Youth Build (LAYC) PCS","4a",NA,0,0.5,"down",NA
 2012,172,"Latin America Youth Center Youth Build (LAYC) PCS","4b_a",NA,0,0.25,"down",NA
 2012,172,"Latin America Youth Center Youth Build (LAYC) PCS","4b_b",NA,0,0.25,"down",NA
@@ -2103,10 +2103,10 @@
 2012,4002,"DYRS","3a",NA,0.5,0.3333,"up",NA
 2012,4002,"DYRS","3b_math",NA,0.95,0.1667,"up",NA
 2012,4002,"DYRS","3b_reading",NA,0.95,0.1667,"up",NA
-2012,4002,"DYRS","3c_elem.math",NA,NA,NA,NA,NA
-2012,4002,"DYRS","3c_elem.reading",NA,NA,NA,NA,NA
-2012,4002,"DYRS","3c_sec.math",0,NA,NA,NA,NA
-2012,4002,"DYRS","3c_sec.reading",0,NA,NA,NA,NA
+2012,4002,"DYRS","3c_elem_math",NA,NA,NA,NA,NA
+2012,4002,"DYRS","3c_elem_reading",NA,NA,NA,NA,NA
+2012,4002,"DYRS","3c_sec_math",0,NA,NA,NA,NA
+2012,4002,"DYRS","3c_sec_reading",0,NA,NA,NA,NA
 2012,4002,"DYRS","4a",NA,0,0.5,"down",NA
 2012,4002,"DYRS","4b_a",NA,0,0.25,"down",NA
 2012,4002,"DYRS","4b_b",NA,0,0.25,"down",NA

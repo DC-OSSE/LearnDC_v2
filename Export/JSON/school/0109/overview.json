@@ -1,0 +1,70 @@
+{
+	"timestamp": "Thu Jan 29 15:17:55 2015",
+	"org_type": "school",
+	"org_name": "César Chávez PCS for Public Policy – Parkside High School",
+	"org_code": "0109",
+	"closed": false,
+	"charter": true,
+	"school_type": [
+		"Regular School"
+	 ],
+	"pmf": {
+		"id": "pcsb_pmf",
+		"data": [
+			{
+				"key": {"year": "2011", "category": "ESMS"}, 
+				"val": {"score": 0.5268, "tier": "2", "url": "dashboard.dcpcsb.org/detailed/33"}
+			},
+			{
+				"key": {"year": "2012", "category": "HS"}, 
+				"val": {"score": 0.566, "tier": "2", "url": "dashboard.dcpcsb.org/detailed/33"}
+			},
+			{
+				"key": {"year": "2013", "category": "HS"}, 
+				"val": {"score": 0.627, "tier": "2", "url": "dashboard.dcpcsb.org/detailed/33"}
+			},
+			{
+				"key": {"year": "2014"}, 
+				"val": {"score": 0.652, "tier": "1", "url": "dashboard.dcpcsb.org/detailed/33"}
+			}
+		]
+	},
+	"great_schools": {
+		"gs_url": 
+"http://www.greatschools.org/washington-dc/washington/873-Cesar-Chavez-PCS-for-Public-Policy---Parkside-High-School"
+	},
+	"ward": "7",
+	"grades_serviced": ["09","10","11","12"],
+	"grades_accepted": ["10","09"],
+	"description": "The Chavez Schools mission is to prepare scholars to enter and succeed in competitive colleges and empower scholars to use public policy to create a more just, free, and equal world.",
+	 "address": {
+		"line_1": "3701 Hayes St  NE",
+		"line_2": null,
+		"city": "Washington",
+		"state": "DC",
+		"zip": "20019",
+		"lat": 38.90144,
+		"long": -76.94907
+	 },
+	"transit": "Minnesota Avenue Metro Station/U5,6",
+	"website": "http://www.chavezschools.org",
+	"facebook": null,
+	"twitter": null,
+	"external_report_card": "http://issuu.com/pcsb/docs/dcpcsb_pmf_2013/93",
+	"equity_report_url": 
+"http://osse.dc.gov/sites/default/files/dc/sites/osse/publication/attachments/2013_Equity_Report_PCSB_External_César%20Chávez%20PCS%20for%20Public%20Policy%20–%20Parkside%20High%20School.pdf",
+	"contact": [
+		{
+			"name": "Kathy Bihr",
+			"title": "Board Chair",
+			"phone": null,
+			"email": null
+		},
+		{
+			"name": "Dwan Jordan",
+			"title": "Principal",
+			"phone": null,
+			"email": null
+		}
+	]
+}

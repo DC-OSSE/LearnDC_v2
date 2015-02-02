@@ -1,12 +1,67 @@
 {
-"timestamp": "Fri Jan 16 17:06:05 2015",
+"timestamp": "Mon Feb 02 15:50:26 2015",
 "org_type": "lea",
-"org_name": "SEED PCS",
+"org_name": "SCHOOL FOR EDUCATIONAL EVOLUTION AND DEVELOPMENT (SEED) PCS",
 "org_code": "0142",
 "exhibit": {
 	"id": "graduation",
 	"data":  
 [
+    {
+        "key": {
+            "subgroup": "All",
+            "year": 2013,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "graduates": 32,
+            "cohort_size": 36
+        }
+    },
+    {
+        "key": {
+            "subgroup": "MALE",
+            "year": 2013,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "graduates": 12,
+            "cohort_size": 14
+        }
+    },
+    {
+        "key": {
+            "subgroup": "FEMALE",
+            "year": 2013,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "graduates": 20,
+            "cohort_size": 22
+        }
+    },
+    {
+        "key": {
+            "subgroup": "BL7",
+            "year": 2013,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "graduates": 31,
+            "cohort_size": 35
+        }
+    },
+    {
+        "key": {
+            "subgroup": "Economy",
+            "year": 2013,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "graduates": 27,
+            "cohort_size": 30
+        }
+    },
     {
         "key": {
             "subgroup": "All",
@@ -115,61 +170,6 @@
         "val": {
             "graduates": 27,
             "cohort_size": 29
-        }
-    },
-    {
-        "key": {
-            "subgroup": "All",
-            "year": 2013,
-            "type": "Four Year ACGR"
-        },
-        "val": {
-            "graduates": 32,
-            "cohort_size": 36
-        }
-    },
-    {
-        "key": {
-            "subgroup": "MALE",
-            "year": 2013,
-            "type": "Four Year ACGR"
-        },
-        "val": {
-            "graduates": 12,
-            "cohort_size": 14
-        }
-    },
-    {
-        "key": {
-            "subgroup": "FEMALE",
-            "year": 2013,
-            "type": "Four Year ACGR"
-        },
-        "val": {
-            "graduates": 20,
-            "cohort_size": 22
-        }
-    },
-    {
-        "key": {
-            "subgroup": "BL7",
-            "year": 2013,
-            "type": "Four Year ACGR"
-        },
-        "val": {
-            "graduates": 31,
-            "cohort_size": 35
-        }
-    },
-    {
-        "key": {
-            "subgroup": "Economy",
-            "year": 2013,
-            "type": "Four Year ACGR"
-        },
-        "val": {
-            "graduates": 27,
-            "cohort_size": 30
         }
     },
     {

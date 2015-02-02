@@ -1,0 +1,75 @@
+{
+	"timestamp": "Thu Jan 29 15:18:15 2015",
+	"org_type": "school",
+	"org_name": "Tree of Life PCS",
+	"org_code": "0183",
+	"closed": false,
+	"charter": true,
+	"school_type": [
+		"Regular school"
+	 ],
+	"pmf": {
+		"id": "pcsb_pmf",
+		"data": [
+			{
+				"key": {"year": "2011", "category": "ESMS"}, 
+				"val": {"score": 0.3392, "tier": "3", "url": "dashboard.dcpcsb.org/detailed/101"}
+			},
+			{
+				"key": {"year": "2012", "category": "ESMS"}, 
+				"val": {"score": 0.355, "tier": "2", "url": "dashboard.dcpcsb.org/detailed/101"}
+			},
+			{
+				"key": {"year": "2013", "category": "ESMS"}, 
+				"val": {"score": 0.405, "tier": "2", "url": "dashboard.dcpcsb.org/detailed/101"}
+			},
+			{
+				"key": {"year": "2014"}, 
+				"val": {"score": 0.311, "tier": "3", "url": "dashboard.dcpcsb.org/detailed/101"}
+			}
+		]
+	},
+	"great_schools": {
+		"gs_url": "http://www.greatschools.org/washington-dc/washington/287-Tree-of-Life-PCS"
+	},
+	"ward": "5",
+	"grades_serviced": ["01","02","03","04","05","06","07","08","KG","PK3","PK4"],
+	"grades_accepted": ["01","02","03","04","05","06","07","08","KG","PK3","PK4"],
+	"description": "NA",
+	 "address": {
+		"line_1": "2315 18th Place NE",
+		"line_2": null,
+		"city": "Washington",
+		"state": "DC",
+		"zip": "20018",
+		"lat": 38.92078,
+		"long": -76.97784
+	 },
+	"transit": "86; D4; E2",
+	"website": "http://www.treeoflifepcs.org",
+	"facebook": null,
+	"twitter": null,
+	"external_report_card": "http://issuu.com/pcsb/docs/dcpcsb_pmf_2013/279",
+	"equity_report_url": 
+"http://osse.dc.gov/sites/default/files/dc/sites/osse/publication/attachments/2013_Equity_Report_PCSB_External_Tree%20of%20Life%20PCS.pdf",
+	"contact": [
+		{
+			"name": "Carl J. Hampton, Psy.D.",
+			"title": "Board Chair",
+			"phone": null,
+			"email": null
+		},
+		{
+			"name": "Tenika Holden",
+			"title": "Principal",
+			"phone": null,
+			"email": null
+		},
+		{
+			"name": "Patricia L. Williams",
+			"title": "Executive Director",
+			"phone": null,
+			"email": null
+		}
+	]
+}

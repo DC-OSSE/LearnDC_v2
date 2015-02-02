@@ -148,6 +148,7 @@ state_subgroups_df$grade[which(state_subgroups_df$grade == 6)] <- "grade 6"
 state_subgroups_df$grade[which(state_subgroups_df$grade == 7)] <- "grade 7"
 state_subgroups_df$grade[which(state_subgroups_df$grade == 8)] <- "grade 8"
 state_subgroups_df$grade[which(state_subgroups_df$grade == 10)] <- "grade 10"
+state_subgroups_df$grade[which(state_subgroups_df$grade == "All")] <- "all"
 
 
 sqlSave(dbrepcard_prod, state_subgroups_df, tablename = "cas_state_exhibit", append = FALSE, rownames=FALSE)

@@ -1,0 +1,69 @@
+{
+	"timestamp": "Thu Jan 29 15:17:53 2015",
+	"org_type": "school",
+	"org_name": "Community Academy PCS – Amos 1",
+	"org_code": "0105",
+	"closed": false,
+	"charter": true,
+	"school_type": [
+		"Regular school"
+	 ],
+	"pmf": {
+		"id": "pcsb_pmf",
+		"data": [
+			{
+				"key": {"year": "2011", "category": "ESMS"}, 
+				"val": {"score": 0.4483, "tier": "2", "url": "dashboard.dcpcsb.org/detailed/25"}
+			},
+			{
+				"key": {"year": "2012", "category": "ESMS"}, 
+				"val": {"score": 0.487, "tier": "2", "url": "dashboard.dcpcsb.org/detailed/25"}
+			},
+			{
+				"key": {"year": "2013", "category": "ESMS"}, 
+				"val": {"score": 0.412, "tier": "2", "url": "dashboard.dcpcsb.org/detailed/25"}
+			},
+			{
+				"key": {"year": "2014"}, 
+				"val": {"score": 0.55, "tier": "2", "url": "dashboard.dcpcsb.org/detailed/25"}
+			}
+		]
+	},
+	"great_schools": {
+		"gs_url": "http://www.greatschools.org/washington-dc/washington/561-Community-Academy-PCS---Amos-I"
+	},
+	"ward": "4",
+	"grades_serviced": ["01","02","03","04","05","KG","PK3","PK4"],
+	"grades_accepted": ["05","PK3","PK4","01","02","03","KG","04"],
+	"description": "The mission of the Dorothy I. Height Community Academy PCS is to create a caring learning community where students acquire the knowledge, skills, and habits of mind to think critically; to read, write, speak and listen effectively; to reason mathematically; to inquire scientifically; and to develop the social competence that ensures meeting qualifications for acceptance to a competitive high school.",
+	 "address": {
+		"line_1": "1300 Allison St NW",
+		"line_2": null,
+		"city": "Washington",
+		"state": "DC",
+		"zip": "20011",
+		"lat": 38.9447,
+		"long": -77.03054
+	 },
+	"transit": "Add Bus line 70",
+	"website": "http://www.capcs.org",
+	"facebook": null,
+	"twitter": null,
+	"external_report_card": "http://issuu.com/pcsb/docs/dcpcsb_pmf_2013/95",
+	"equity_report_url": 
+"http://osse.dc.gov/sites/default/files/dc/sites/osse/publication/attachments/2013_Equity_Report_PCSB_External_Community%20Academy%20PCS%20–%20Amos%201.pdf",
+	"contact": [
+		{
+			"name": "Ernest Green, Jr.",
+			"title": "Board Chair",
+			"phone": null,
+			"email": null
+		},
+		{
+			"name": "Masi Preston",
+			"title": "Principal",
+			"phone": null,
+			"email": null
+		}
+	]
+}

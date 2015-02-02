@@ -1,0 +1,61 @@
+{
+	"timestamp": "Thu Jan 29 15:19:40 2015",
+	"org_type": "school",
+	"org_name": "KIPP DC – Promise Academy PCS",
+	"org_code": "1121",
+	"closed": false,
+	"charter": true,
+	"school_type": [
+		"Regular school"
+	 ],
+	"pmf": {
+		"id": "pcsb_pmf",
+		"data": [
+			{
+				"key": {"year": "2013", "category": "ESMS"}, 
+				"val": {"score": 0.746, "tier": "1", "url": "dashboard.dcpcsb.org/detailed/76"}
+			},
+			{
+				"key": {"year": "2014"}, 
+				"val": {"score": 0.77, "tier": "1", "url": "dashboard.dcpcsb.org/detailed/76"}
+			}
+		]
+	},
+	"great_schools": {
+		"gs_url": "http://www.greatschools.org/washington-dc/washington/611-KIPP-DC---Promise-Academy-PCS"
+	},
+	"ward": "7",
+	"grades_serviced": ["01","02","03","04"],
+	"grades_accepted": ["01","02","03","04"],
+	"description": "KIPP DC's mission is to create and sustain the highest quality school system for the communities most underserved in Washington, D.C.",
+	 "address": {
+		"line_1": "4801 Benning Rd SE",
+		"line_2": null,
+		"city": "Washington",
+		"state": "DC",
+		"zip": "20019",
+		"lat": 38.88263,
+		"long": -76.93439
+	 },
+	"transit": "Benning Road Metro Station/U5,U6,U8; W4",
+	"website": "http://www.kippdc.org",
+	"facebook": null,
+	"twitter": null,
+	"external_report_card": "http://issuu.com/pcsb/docs/dcpcsb_pmf_2013/214",
+	"equity_report_url": 
+"http://osse.dc.gov/sites/default/files/dc/sites/osse/publication/attachments/2013_Equity_Report_PCSB_External_KIPP%20DC%20–%20Promise%20Academy%20PCS.pdf",
+	"contact": [
+		{
+			"name": "Terry Golden",
+			"title": "Board Chair",
+			"phone": null,
+			"email": null
+		},
+		{
+			"name": "Casey Fullerton",
+			"title": "Principal",
+			"phone": null,
+			"email": null
+		}
+	]
+}

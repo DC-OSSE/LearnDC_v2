@@ -1,0 +1,67 @@
+{
+	"timestamp": "Thu Jan 29 15:19:37 2015",
+	"org_type": "school",
+	"org_name": "Excel Academy PCS",
+	"org_code": "1113",
+	"closed": false,
+	"charter": true,
+	"school_type": [
+		"Regular school"
+	 ],
+	"pmf": {
+		"id": "pcsb_pmf",
+		"data": [
+			{
+				"key": {"year": "2013", "category": "ESMS"}, 
+				"val": {"score": 0.465, "tier": "2", "url": "dashboard.dcpcsb.org/detailed/49"}
+			},
+			{
+				"key": {"year": "2014"}, 
+				"val": {"score": 0.376, "tier": "2", "url": "dashboard.dcpcsb.org/detailed/49"}
+			}
+		]
+	},
+	"great_schools": {
+		"gs_url": "http://www.greatschools.org/washington-dc/washington/602-Excel-Academy-PCS"
+	},
+	"ward": "8",
+	"grades_serviced": ["01","02","03","KG","PK3","PK4"],
+	"grades_accepted": ["PK3","PK4","KG","01","02","03"],
+	"description": "Excel Academy Public Charter School will provide pre-school through eighth grade girls a solid academic foundation and enrichment opportunities to prepare them to succeed in high school and college and to develop the skills and confidence they need to make healthy, positive lifestyle choices.",
+	 "address": {
+		"line_1": "2501 Martin Luther King Jr Ave SE",
+		"line_2": null,
+		"city": "Washington",
+		"state": "DC",
+		"zip": "20020",
+		"lat": 38.85976,
+		"long": -76.99535
+	 },
+	"transit": "Anacostia Metro Station",
+	"website": "http://www.excelpcs.org",
+	"facebook": null,
+	"twitter": null,
+	"external_report_card": "http://issuu.com/pcsb/docs/dcpcsb_pmf_2013/143",
+	"equity_report_url": 
+"http://osse.dc.gov/sites/default/files/dc/sites/osse/publication/attachments/2013_Equity_Report_PCSB_External_Excel%20Academy%20PCS.pdf",
+	"contact": [
+		{
+			"name": "Vito Germinario",
+			"title": "Board Chair",
+			"phone": null,
+			"email": null
+		},
+		{
+			"name": "Lela Johnson",
+			"title": "Principal",
+			"phone": null,
+			"email": null
+		},
+		{
+			"name": "Kaye Savage",
+			"title": "Executive Director",
+			"phone": null,
+			"email": null
+		}
+	]
+}

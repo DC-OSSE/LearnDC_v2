@@ -1,0 +1,69 @@
+{
+	"timestamp": "Thu Jan 29 15:17:56 2015",
+	"org_type": "school",
+	"org_name": "Hope Community PCS – Tolson",
+	"org_code": "0114",
+	"closed": false,
+	"charter": true,
+	"school_type": [
+		"Regular school"
+	 ],
+	"pmf": {
+		"id": "pcsb_pmf",
+		"data": [
+			{
+				"key": {"year": "2011", "category": "ESMS"}, 
+				"val": {"score": 0.5139, "tier": "2", "url": "dashboard.dcpcsb.org/detailed/60"}
+			},
+			{
+				"key": {"year": "2012", "category": "ESMS"}, 
+				"val": {"score": 0.542, "tier": "2", "url": "dashboard.dcpcsb.org/detailed/60"}
+			},
+			{
+				"key": {"year": "2013", "category": "ESMS"}, 
+				"val": {"score": 0.452, "tier": "2", "url": "dashboard.dcpcsb.org/detailed/60"}
+			},
+			{
+				"key": {"year": "2014"}, 
+				"val": {"score": 0.503, "tier": "2", "url": "dashboard.dcpcsb.org/detailed/60"}
+			}
+		]
+	},
+	"great_schools": {
+		"gs_url": "http://www.greatschools.org/washington-dc/washington/603-Hope-Community-PCS---Tolson"
+	},
+	"ward": "5",
+	"grades_serviced": ["01","02","03","04","05","06","07","08","KG","PK3","PK4"],
+	"grades_accepted": ["PK3","PK4","KG","01","02","03","04","05","06","07","08"],
+	"description": "Hope Community Public Charter School's mission is to shape the hearts and minds of our students positively, by providing them with an academically rigorous, content rich curriculum, an environment in which character is modeled and promoted, and a community in which to build trusting relationships with others.",
+	 "address": {
+		"line_1": "2917 8th St NE",
+		"line_2": null,
+		"city": "Washington",
+		"state": "DC",
+		"zip": "20017",
+		"lat": 38.92695,
+		"long": -76.99462
+	 },
+	"transit": "Brookland-CUA Metro Station",
+	"website": "http://www.hopecommunitycs.org",
+	"facebook": null,
+	"twitter": null,
+	"external_report_card": "http://issuu.com/pcsb/docs/dcpcsb_pmf_2013/176",
+	"equity_report_url": 
+"http://osse.dc.gov/sites/default/files/dc/sites/osse/publication/attachments/2013_Equity_Report_PCSB_External_Hope%20Community%20PCS%20–%20Tolson.pdf",
+	"contact": [
+		{
+			"name": "James Kemp",
+			"title": "Board Chair",
+			"phone": null,
+			"email": null
+		},
+		{
+			"name": "Chloe Marshall, Ph.D.",
+			"title": "Principal",
+			"phone": null,
+			"email": null
+		}
+	]
+}

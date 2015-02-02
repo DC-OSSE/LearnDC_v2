@@ -2,10 +2,15 @@ setwd("U:/LearnDC ETL V2/DC CAS Exhibit/JSON ETL")
 
 source("U:/R/tomkit.R")
 library(jsonlite)
+library(plyr)
 
 
 lea_sped <- sqlQuery(dbrepcard_prod, "SELECT * FROM [dbo].[sped_apr_LEA_fy2012]")
-
+lea_sped <- rename(lea_sped,c('fiscal_year'='year','value'='val'))
+lea_sped$indicator[which(lea_sped$indicator=='3c_elem.math')] <- '3c_elem_math'
+lea_sped$indicator[which(lea_sped$indicator=='3c_elem.reading')] <- '3c_elem_reading'
+lea_sped$indicator[which(lea_sped$indicator=='3c_sec.math')] <- '3c_sec_math'
+lea_sped$indicator[which(lea_sped$indicator=='3c_sec.reading')] <- '3c_sec_reading'
 
 setwd('U:/LearnDC ETL V2/Export/CSV/lea')
 write.csv(lea_sped, "SPED_APR_LEA.csv", row.names=FALSE)

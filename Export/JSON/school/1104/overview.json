@@ -1,0 +1,75 @@
+{
+	"timestamp": "Thu Jan 29 15:19:34 2015",
+	"org_type": "school",
+	"org_name": "Center City PCS – Capitol Hill",
+	"org_code": "1104",
+	"closed": false,
+	"charter": true,
+	"school_type": [
+		"Regular school"
+	 ],
+	"pmf": {
+		"id": "pcsb_pmf",
+		"data": [
+			{
+				"key": {"year": "2011", "category": "ESMS"}, 
+				"val": {"score": 0.5251, "tier": "2", "url": "dashboard.dcpcsb.org/detailed/19"}
+			},
+			{
+				"key": {"year": "2012", "category": "ESMS"}, 
+				"val": {"score": 0.595, "tier": "2", "url": "dashboard.dcpcsb.org/detailed/19"}
+			},
+			{
+				"key": {"year": "2013", "category": "ESMS"}, 
+				"val": {"score": 0.453, "tier": "2", "url": "dashboard.dcpcsb.org/detailed/19"}
+			},
+			{
+				"key": {"year": "2014"}, 
+				"val": {"score": 0.435, "tier": "2", "url": "dashboard.dcpcsb.org/detailed/19"}
+			}
+		]
+	},
+	"great_schools": {
+		"gs_url": "http://www.greatschools.org/washington-dc/washington/594-Center-City-PCS---Capitol-Hill"
+	},
+	"ward": "6",
+	"grades_serviced": ["01","02","03","04","05","06","07","08","KG","PK4"],
+	"grades_accepted": ["KG","02","PK4","03","04","01","06","07","08","05"],
+	"description": "The Center City Public Charter Schools (Center City PCS) empower our children for success through a rigorous academic program and strong character education while challenging students to pursue personal excellence in character, conduct, and scholarship in order to develop the skills necessary to both serve and lead others in the 21st century.",
+	 "address": {
+		"line_1": "1503 East Capitol St SE",
+		"line_2": null,
+		"city": "Washington",
+		"state": "DC",
+		"zip": "20003",
+		"lat": 38.88953,
+		"long": -76.9833
+	 },
+	"transit": "Stadium-Armory Metro Station/D6",
+	"website": "http://www.centercitypcs.org",
+	"facebook": null,
+	"twitter": null,
+	"external_report_card": "http://issuu.com/pcsb/docs/dcpcsb_pmf_2013/67",
+	"equity_report_url": 
+"http://osse.dc.gov/sites/default/files/dc/sites/osse/publication/attachments/2013_Equity_Report_PCSB_External_Center%20City%20PCS%20%E2%80%93%20Capitol%20Hill%20.pdf",
+	"contact": [
+		{
+			"name": "Ralph F. Boyd, Jr.",
+			"title": "Board Chair",
+			"phone": null,
+			"email": null
+		},
+		{
+			"name": "Sharise Deal",
+			"title": "Principal",
+			"phone": null,
+			"email": null
+		},
+		{
+			"name": "Russ Williams",
+			"title": "Executive Director",
+			"phone": null,
+			"email": null
+		}
+	]
+}

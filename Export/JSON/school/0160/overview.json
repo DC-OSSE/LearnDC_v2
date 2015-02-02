@@ -1,0 +1,69 @@
+{
+	"timestamp": "Thu Jan 29 15:18:09 2015",
+	"org_type": "school",
+	"org_name": "Hospitality High PCS",
+	"org_code": "0160",
+	"closed": false,
+	"charter": true,
+	"school_type": [
+		"Vocational Shared Time"
+	 ],
+	"pmf": {
+		"id": "pcsb_pmf",
+		"data": [
+			{
+				"key": {"year": "2011", "category": "HS"}, 
+				"val": {"score": 0.4553, "tier": "2", "url": "dashboard.dcpcsb.org/detailed/103"}
+			},
+			{
+				"key": {"year": "2012", "category": "HS"}, 
+				"val": {"score": 0.382, "tier": "2", "url": "dashboard.dcpcsb.org/detailed/103"}
+			},
+			{
+				"key": {"year": "2013", "category": "HS"}, 
+				"val": {"score": 0.369, "tier": "2", "url": "dashboard.dcpcsb.org/detailed/103"}
+			},
+			{
+				"key": {"year": "2014"}, 
+				"val": {"score": 0.265, "tier": "3", "url": "dashboard.dcpcsb.org/detailed/103"}
+			}
+		]
+	},
+	"great_schools": {
+		"gs_url": null
+	},
+	"ward": "1",
+	"grades_serviced": ["09","10","11","12"],
+	"grades_accepted": ["09","10","11","12"],
+	"description": "The mission of Hospitality Public Charter High School is to ensure that students have access to an excellent educational program designed to promote success in college and in the hospitality industry.",
+	 "address": {
+		"line_1": "1851 9th Street NW",
+		"line_2": null,
+		"city": "Washington",
+		"state": "DC",
+		"zip": "20001",
+		"lat": 38.91537,
+		"long": -77.02364
+	 },
+	"transit": "52,53,54",
+	"website": "http://www.washingtonhospitality.org",
+	"facebook": null,
+	"twitter": null,
+	"external_report_card": "http://issuu.com/pcsb/docs/dcpcsb_pmf_2013/180",
+	"equity_report_url": 
+"http://osse.dc.gov/sites/default/files/dc/sites/osse/publication/attachments/2013_Equity_Report_PCSB_External_Hospitality%20High%20PCS.pdf",
+	"contact": [
+		{
+			"name": "Michael Durso",
+			"title": "Board Chair",
+			"phone": null,
+			"email": null
+		},
+		{
+			"name": "Rodney McBride",
+			"title": "Principal",
+			"phone": null,
+			"email": null
+		}
+	]
+}

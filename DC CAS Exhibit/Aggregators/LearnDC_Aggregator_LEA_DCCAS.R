@@ -12,7 +12,7 @@ subgroups_list <- c("All","MALE","FEMALE","AM7","AS7","BL7","HI7","MU7","PI7","W
 
 ## WITH ACCT RULES
 lea_subgroups_df <- data.frame()
-
+start.time <- Sys.time()
 cas_no_inv <- subset(cas, math_invalidation %notin% c("A","M"))
 for(g in c(1:2)){
 
@@ -82,7 +82,8 @@ for(g in c(1:2)){
 		}
 	}
 }
-
+end.time <- Sys.time()
+time.taken <- end.time - start.time
 colnames(lea_subgroups_df) <- c("year", "lea_code", "lea_name",
 						"subgroup", "grade", "subject", ".enrollment_status", "n_eligible", "n_test_takers",
 						"proficient_or_advanced", "below_basic", "basic", "proficient", "advanced")
@@ -175,6 +176,7 @@ lea_subgroups_df$grade[which(lea_subgroups_df$grade == 6)] <- "grade 6"
 lea_subgroups_df$grade[which(lea_subgroups_df$grade == 7)] <- "grade 7"
 lea_subgroups_df$grade[which(lea_subgroups_df$grade == 8)] <- "grade 8"
 lea_subgroups_df$grade[which(lea_subgroups_df$grade == 10)] <- "grade 10"
+lea_subgroups_df$grade[which(lea_subgroups_df$grade == 'All')] <- "all"
 
 
 lea_subgroups_df <- subset(lea_subgroups_df, n_eligible > 0)

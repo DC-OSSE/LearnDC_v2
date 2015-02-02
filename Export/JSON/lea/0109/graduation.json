@@ -1,12 +1,89 @@
 {
-"timestamp": "Fri Jan 16 17:05:56 2015",
+"timestamp": "Mon Feb 02 15:50:23 2015",
 "org_type": "lea",
-"org_name": "Cesar Chavez Public PCS",
+"org_name": "CESAR CHAVEZ PCS",
 "org_code": "0109",
 "exhibit": {
 	"id": "graduation",
 	"data":  
 [
+    {
+        "key": {
+            "subgroup": "All",
+            "year": 2013,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "graduates": 114,
+            "cohort_size": 164
+        }
+    },
+    {
+        "key": {
+            "subgroup": "MALE",
+            "year": 2013,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "graduates": 42,
+            "cohort_size": 69
+        }
+    },
+    {
+        "key": {
+            "subgroup": "FEMALE",
+            "year": 2013,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "graduates": 72,
+            "cohort_size": 95
+        }
+    },
+    {
+        "key": {
+            "subgroup": "BL7",
+            "year": 2013,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "graduates": 99,
+            "cohort_size": 137
+        }
+    },
+    {
+        "key": {
+            "subgroup": "HI7",
+            "year": 2013,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "graduates": 15,
+            "cohort_size": 25
+        }
+    },
+    {
+        "key": {
+            "subgroup": "SPED",
+            "year": 2013,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "graduates": 5,
+            "cohort_size": 20
+        }
+    },
+    {
+        "key": {
+            "subgroup": "Economy",
+            "year": 2013,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "graduates": 84,
+            "cohort_size": 126
+        }
+    },
     {
         "key": {
             "subgroup": "All",
@@ -175,83 +252,6 @@
     {
         "key": {
             "subgroup": "All",
-            "year": 2013,
-            "type": "Four Year ACGR"
-        },
-        "val": {
-            "graduates": 115,
-            "cohort_size": 164
-        }
-    },
-    {
-        "key": {
-            "subgroup": "MALE",
-            "year": 2013,
-            "type": "Four Year ACGR"
-        },
-        "val": {
-            "graduates": 43,
-            "cohort_size": 69
-        }
-    },
-    {
-        "key": {
-            "subgroup": "FEMALE",
-            "year": 2013,
-            "type": "Four Year ACGR"
-        },
-        "val": {
-            "graduates": 72,
-            "cohort_size": 95
-        }
-    },
-    {
-        "key": {
-            "subgroup": "BL7",
-            "year": 2013,
-            "type": "Four Year ACGR"
-        },
-        "val": {
-            "graduates": 100,
-            "cohort_size": 137
-        }
-    },
-    {
-        "key": {
-            "subgroup": "HI7",
-            "year": 2013,
-            "type": "Four Year ACGR"
-        },
-        "val": {
-            "graduates": 15,
-            "cohort_size": 25
-        }
-    },
-    {
-        "key": {
-            "subgroup": "SPED",
-            "year": 2013,
-            "type": "Four Year ACGR"
-        },
-        "val": {
-            "graduates": 6,
-            "cohort_size": 20
-        }
-    },
-    {
-        "key": {
-            "subgroup": "Economy",
-            "year": 2013,
-            "type": "Four Year ACGR"
-        },
-        "val": {
-            "graduates": 85,
-            "cohort_size": 126
-        }
-    },
-    {
-        "key": {
-            "subgroup": "All",
             "year": 2014,
             "type": "Four Year ACGR"
         },
@@ -301,7 +301,7 @@
         },
         "val": {
             "graduates": 24,
-            "cohort_size": 32
+            "cohort_size": 28
         }
     },
     {
@@ -333,7 +333,7 @@
             "type": "Five Year ACGR"
         },
         "val": {
-            "graduates": 126,
+            "graduates": 125,
             "cohort_size": 164
         }
     },
@@ -344,7 +344,7 @@
             "type": "Five Year ACGR"
         },
         "val": {
-            "graduates": 48,
+            "graduates": 47,
             "cohort_size": 69
         }
     },
@@ -366,7 +366,7 @@
             "type": "Five Year ACGR"
         },
         "val": {
-            "graduates": 110,
+            "graduates": 109,
             "cohort_size": 137
         }
     },
@@ -388,7 +388,7 @@
             "type": "Five Year ACGR"
         },
         "val": {
-            "graduates": 10,
+            "graduates": 9,
             "cohort_size": 20
         }
     },
@@ -399,7 +399,7 @@
             "type": "Five Year ACGR"
         },
         "val": {
-            "graduates": 96,
+            "graduates": 95,
             "cohort_size": 126
         }
     }

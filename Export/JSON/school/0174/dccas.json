@@ -1,5 +1,5 @@
 {
-"timestamp": "Wed Jan 14 11:17:40 2015",
+"timestamp": "Mon Jan 26 15:45:44 2015",
 "org_type": "school",
 "org_name": "SCHOOL FOR EDUCATIONAL EVOLUTION AND DEVELOPMENT (SEED) PCS",
 "org_code": "0174",
@@ -515,142 +515,6 @@
             "below_basic": 0,
             "basic": 23,
             "proficient": 42
-        }
-    },
-    {
-        "key": {
-            "year": 2009,
-            "subgroup": "Economy",
-            "grade": "all",
-            "subject": "math",
-            "enrollment_status": "full_year"
-        },
-        "val": {
-            "n_eligible": 132,
-            "n_test_takers": 131,
-            "proficient_or_advanced": 89,
-            "below_basic": 7,
-            "basic": 35,
-            "proficient": 87
-        }
-    },
-    {
-        "key": {
-            "year": 2009,
-            "subgroup": "Economy",
-            "grade": "all",
-            "subject": "read",
-            "enrollment_status": "full_year"
-        },
-        "val": {
-            "n_eligible": 132,
-            "n_test_takers": 131,
-            "proficient_or_advanced": 69,
-            "below_basic": 7,
-            "basic": 55,
-            "proficient": 67
-        }
-    },
-    {
-        "key": {
-            "year": 2009,
-            "subgroup": "Economy",
-            "grade": "grade 10",
-            "subject": "math",
-            "enrollment_status": "full_year"
-        },
-        "val": {
-            "n_eligible": 34,
-            "n_test_takers": 34,
-            "proficient_or_advanced": 18,
-            "below_basic": 5,
-            "basic": 11,
-            "proficient": 18
-        }
-    },
-    {
-        "key": {
-            "year": 2009,
-            "subgroup": "Economy",
-            "grade": "grade 10",
-            "subject": "read",
-            "enrollment_status": "full_year"
-        },
-        "val": {
-            "n_eligible": 34,
-            "n_test_takers": 34,
-            "proficient_or_advanced": 19,
-            "below_basic": 2,
-            "basic": 13,
-            "proficient": 18
-        }
-    },
-    {
-        "key": {
-            "year": 2009,
-            "subgroup": "Economy",
-            "grade": "grade 7",
-            "subject": "math",
-            "enrollment_status": "full_year"
-        },
-        "val": {
-            "n_eligible": 49,
-            "n_test_takers": 49,
-            "proficient_or_advanced": 37,
-            "below_basic": 1,
-            "basic": 11,
-            "proficient": 35
-        }
-    },
-    {
-        "key": {
-            "year": 2009,
-            "subgroup": "Economy",
-            "grade": "grade 7",
-            "subject": "read",
-            "enrollment_status": "full_year"
-        },
-        "val": {
-            "n_eligible": 49,
-            "n_test_takers": 49,
-            "proficient_or_advanced": 19,
-            "below_basic": 5,
-            "basic": 25,
-            "proficient": 18
-        }
-    },
-    {
-        "key": {
-            "year": 2009,
-            "subgroup": "Economy",
-            "grade": "grade 8",
-            "subject": "math",
-            "enrollment_status": "full_year"
-        },
-        "val": {
-            "n_eligible": 49,
-            "n_test_takers": 48,
-            "proficient_or_advanced": 34,
-            "below_basic": 1,
-            "basic": 13,
-            "proficient": 34
-        }
-    },
-    {
-        "key": {
-            "year": 2009,
-            "subgroup": "Economy",
-            "grade": "grade 8",
-            "subject": "read",
-            "enrollment_status": "full_year"
-        },
-        "val": {
-            "n_eligible": 49,
-            "n_test_takers": 48,
-            "proficient_or_advanced": 31,
-            "below_basic": 0,
-            "basic": 17,
-            "proficient": 31
         }
     },
     {
@@ -9049,6 +8913,142 @@
             "below_basic": 16,
             "basic": 23,
             "proficient": 44
+        }
+    },
+    {
+        "key": {
+            "year": 2009,
+            "subgroup": "Economy",
+            "grade": "all",
+            "subject": "math",
+            "enrollment_status": "full_year"
+        },
+        "val": {
+            "n_eligible": 132,
+            "n_test_takers": 131,
+            "proficient_or_advanced": 89,
+            "below_basic": 7,
+            "basic": 35,
+            "proficient": 87
+        }
+    },
+    {
+        "key": {
+            "year": 2009,
+            "subgroup": "Economy",
+            "grade": "all",
+            "subject": "read",
+            "enrollment_status": "full_year"
+        },
+        "val": {
+            "n_eligible": 132,
+            "n_test_takers": 131,
+            "proficient_or_advanced": 69,
+            "below_basic": 7,
+            "basic": 55,
+            "proficient": 67
+        }
+    },
+    {
+        "key": {
+            "year": 2009,
+            "subgroup": "Economy",
+            "grade": "grade 10",
+            "subject": "math",
+            "enrollment_status": "full_year"
+        },
+        "val": {
+            "n_eligible": 34,
+            "n_test_takers": 34,
+            "proficient_or_advanced": 18,
+            "below_basic": 5,
+            "basic": 11,
+            "proficient": 18
+        }
+    },
+    {
+        "key": {
+            "year": 2009,
+            "subgroup": "Economy",
+            "grade": "grade 10",
+            "subject": "read",
+            "enrollment_status": "full_year"
+        },
+        "val": {
+            "n_eligible": 34,
+            "n_test_takers": 34,
+            "proficient_or_advanced": 19,
+            "below_basic": 2,
+            "basic": 13,
+            "proficient": 18
+        }
+    },
+    {
+        "key": {
+            "year": 2009,
+            "subgroup": "Economy",
+            "grade": "grade 7",
+            "subject": "math",
+            "enrollment_status": "full_year"
+        },
+        "val": {
+            "n_eligible": 49,
+            "n_test_takers": 49,
+            "proficient_or_advanced": 37,
+            "below_basic": 1,
+            "basic": 11,
+            "proficient": 35
+        }
+    },
+    {
+        "key": {
+            "year": 2009,
+            "subgroup": "Economy",
+            "grade": "grade 7",
+            "subject": "read",
+            "enrollment_status": "full_year"
+        },
+        "val": {
+            "n_eligible": 49,
+            "n_test_takers": 49,
+            "proficient_or_advanced": 19,
+            "below_basic": 5,
+            "basic": 25,
+            "proficient": 18
+        }
+    },
+    {
+        "key": {
+            "year": 2009,
+            "subgroup": "Economy",
+            "grade": "grade 8",
+            "subject": "math",
+            "enrollment_status": "full_year"
+        },
+        "val": {
+            "n_eligible": 49,
+            "n_test_takers": 48,
+            "proficient_or_advanced": 34,
+            "below_basic": 1,
+            "basic": 13,
+            "proficient": 34
+        }
+    },
+    {
+        "key": {
+            "year": 2009,
+            "subgroup": "Economy",
+            "grade": "grade 8",
+            "subject": "read",
+            "enrollment_status": "full_year"
+        },
+        "val": {
+            "n_eligible": 49,
+            "n_test_takers": 48,
+            "proficient_or_advanced": 31,
+            "below_basic": 0,
+            "basic": 17,
+            "proficient": 31
         }
     }
 ]

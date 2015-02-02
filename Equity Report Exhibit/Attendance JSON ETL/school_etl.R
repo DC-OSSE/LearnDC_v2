@@ -29,8 +29,8 @@ att_wide$state_in_seat_attendance <- att_wide$state_in_seat_attendance/100
 
 
 att_wide <- select(att_wide, school_code, year,subgroup, in_seat_attendance, state_in_seat_attendance)
-att_wide$average_daily_attendance <- 'null'
-att_wide$state_average_daily_attendance <- 'null'
+att_wide$average_daily_attendance <- NA
+att_wide$state_average_daily_attendance <- NA
 
 
 att_wide$school_code <- sapply(att_wide$school_code, leadgr, 4)

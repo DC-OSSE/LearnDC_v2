@@ -1,5 +1,5 @@
 {
-"timestamp": "Wed Jan 14 11:15:17 2015",
+"timestamp": "Mon Jan 26 15:45:28 2015",
 "org_type": "state",
 "org_name": "District of Columbia",
 "org_code": "dc",
@@ -11,16 +11,16 @@
         "key": {
             "year": 2014,
             "subgroup": "All",
-            "grade": "All",
+            "grade": "all",
             "subject": "math",
             "enrollment_status": "full_year"
         },
         "val": {
             "n_eligible": 31844,
-            "n_test_takers": 31002,
+            "n_test_takers": 31003,
             "proficient_or_advanced": 17038,
             "below_basic": 4367,
-            "basic": 9597,
+            "basic": 9598,
             "proficient": 11806,
             "advanced": 5232
         }
@@ -29,16 +29,16 @@
         "key": {
             "year": 2014,
             "subgroup": "All",
-            "grade": "All",
+            "grade": "all",
             "subject": "read",
             "enrollment_status": "full_year"
         },
         "val": {
             "n_eligible": 31844,
-            "n_test_takers": 30933,
+            "n_test_takers": 30934,
             "proficient_or_advanced": 15570,
             "below_basic": 4108,
-            "basic": 11255,
+            "basic": 11256,
             "proficient": 12702,
             "advanced": 2868
         }
@@ -161,10 +161,10 @@
         },
         "val": {
             "n_eligible": 4318,
-            "n_test_takers": 4213,
+            "n_test_takers": 4214,
             "proficient_or_advanced": 2167,
             "below_basic": 677,
-            "basic": 1369,
+            "basic": 1370,
             "proficient": 1351,
             "advanced": 816
         }
@@ -179,10 +179,10 @@
         },
         "val": {
             "n_eligible": 4318,
-            "n_test_takers": 4210,
+            "n_test_takers": 4211,
             "proficient_or_advanced": 1900,
             "below_basic": 655,
-            "basic": 1655,
+            "basic": 1656,
             "proficient": 1681,
             "advanced": 219
         }
@@ -299,7 +299,7 @@
         "key": {
             "year": 2014,
             "subgroup": "MALE",
-            "grade": "All",
+            "grade": "all",
             "subject": "math",
             "enrollment_status": "full_year"
         },
@@ -317,7 +317,7 @@
         "key": {
             "year": 2014,
             "subgroup": "MALE",
-            "grade": "All",
+            "grade": "all",
             "subject": "read",
             "enrollment_status": "full_year"
         },
@@ -587,16 +587,16 @@
         "key": {
             "year": 2014,
             "subgroup": "FEMALE",
-            "grade": "All",
+            "grade": "all",
             "subject": "math",
             "enrollment_status": "full_year"
         },
         "val": {
             "n_eligible": 15910,
-            "n_test_takers": 15510,
+            "n_test_takers": 15511,
             "proficient_or_advanced": 8949,
             "below_basic": 1884,
-            "basic": 4677,
+            "basic": 4678,
             "proficient": 6213,
             "advanced": 2736
         }
@@ -605,16 +605,16 @@
         "key": {
             "year": 2014,
             "subgroup": "FEMALE",
-            "grade": "All",
+            "grade": "all",
             "subject": "read",
             "enrollment_status": "full_year"
         },
         "val": {
             "n_eligible": 15910,
-            "n_test_takers": 15470,
+            "n_test_takers": 15471,
             "proficient_or_advanced": 8697,
             "below_basic": 1461,
-            "basic": 5312,
+            "basic": 5313,
             "proficient": 6975,
             "advanced": 1722
         }
@@ -809,10 +809,10 @@
         },
         "val": {
             "n_eligible": 2142,
-            "n_test_takers": 2094,
+            "n_test_takers": 2095,
             "proficient_or_advanced": 1141,
             "below_basic": 287,
-            "basic": 666,
+            "basic": 667,
             "proficient": 717,
             "advanced": 424
         }
@@ -827,10 +827,10 @@
         },
         "val": {
             "n_eligible": 2142,
-            "n_test_takers": 2090,
+            "n_test_takers": 2091,
             "proficient_or_advanced": 1062,
             "below_basic": 206,
-            "basic": 822,
+            "basic": 823,
             "proficient": 937,
             "advanced": 125
         }
@@ -875,7 +875,7 @@
         "key": {
             "year": 2014,
             "subgroup": "AS7",
-            "grade": "All",
+            "grade": "all",
             "subject": "math",
             "enrollment_status": "full_year"
         },
@@ -893,7 +893,7 @@
         "key": {
             "year": 2014,
             "subgroup": "AS7",
-            "grade": "All",
+            "grade": "all",
             "subject": "read",
             "enrollment_status": "full_year"
         },
@@ -1163,16 +1163,16 @@
         "key": {
             "year": 2014,
             "subgroup": "BL7",
-            "grade": "All",
+            "grade": "all",
             "subject": "math",
             "enrollment_status": "full_year"
         },
         "val": {
             "n_eligible": 23701,
-            "n_test_takers": 23074,
+            "n_test_takers": 23075,
             "proficient_or_advanced": 11224,
             "below_basic": 3847,
-            "basic": 8003,
+            "basic": 8004,
             "proficient": 8625,
             "advanced": 2599
         }
@@ -1181,16 +1181,16 @@
         "key": {
             "year": 2014,
             "subgroup": "BL7",
-            "grade": "All",
+            "grade": "all",
             "subject": "read",
             "enrollment_status": "full_year"
         },
         "val": {
             "n_eligible": 23701,
-            "n_test_takers": 23020,
+            "n_test_takers": 23021,
             "proficient_or_advanced": 10186,
             "below_basic": 3487,
-            "basic": 9347,
+            "basic": 9348,
             "proficient": 8898,
             "advanced": 1288
         }
@@ -1313,10 +1313,10 @@
         },
         "val": {
             "n_eligible": 3216,
-            "n_test_takers": 3144,
+            "n_test_takers": 3145,
             "proficient_or_advanced": 1369,
             "below_basic": 612,
-            "basic": 1163,
+            "basic": 1164,
             "proficient": 987,
             "advanced": 382
         }
@@ -1331,10 +1331,10 @@
         },
         "val": {
             "n_eligible": 3216,
-            "n_test_takers": 3144,
+            "n_test_takers": 3145,
             "proficient_or_advanced": 1198,
             "below_basic": 575,
-            "basic": 1371,
+            "basic": 1372,
             "proficient": 1110,
             "advanced": 88
         }
@@ -1451,7 +1451,7 @@
         "key": {
             "year": 2014,
             "subgroup": "HI7",
-            "grade": "All",
+            "grade": "all",
             "subject": "math",
             "enrollment_status": "full_year"
         },
@@ -1469,7 +1469,7 @@
         "key": {
             "year": 2014,
             "subgroup": "HI7",
-            "grade": "All",
+            "grade": "all",
             "subject": "read",
             "enrollment_status": "full_year"
         },
@@ -1739,7 +1739,7 @@
         "key": {
             "year": 2014,
             "subgroup": "MU7",
-            "grade": "All",
+            "grade": "all",
             "subject": "math",
             "enrollment_status": "full_year"
         },
@@ -1757,7 +1757,7 @@
         "key": {
             "year": 2014,
             "subgroup": "MU7",
-            "grade": "All",
+            "grade": "all",
             "subject": "read",
             "enrollment_status": "full_year"
         },
@@ -2027,7 +2027,7 @@
         "key": {
             "year": 2014,
             "subgroup": "PI7",
-            "grade": "All",
+            "grade": "all",
             "subject": "math",
             "enrollment_status": "full_year"
         },
@@ -2045,7 +2045,7 @@
         "key": {
             "year": 2014,
             "subgroup": "PI7",
-            "grade": "All",
+            "grade": "all",
             "subject": "read",
             "enrollment_status": "full_year"
         },
@@ -2063,7 +2063,7 @@
         "key": {
             "year": 2014,
             "subgroup": "WH7",
-            "grade": "All",
+            "grade": "all",
             "subject": "math",
             "enrollment_status": "full_year"
         },
@@ -2081,7 +2081,7 @@
         "key": {
             "year": 2014,
             "subgroup": "WH7",
-            "grade": "All",
+            "grade": "all",
             "subject": "read",
             "enrollment_status": "full_year"
         },
@@ -2351,16 +2351,16 @@
         "key": {
             "year": 2014,
             "subgroup": "SPED",
-            "grade": "All",
+            "grade": "all",
             "subject": "math",
             "enrollment_status": "full_year"
         },
         "val": {
             "n_eligible": 5657,
-            "n_test_takers": 5536,
+            "n_test_takers": 5537,
             "proficient_or_advanced": 1408,
             "below_basic": 1908,
-            "basic": 2220,
+            "basic": 2221,
             "proficient": 1036,
             "advanced": 372
         }
@@ -2369,16 +2369,16 @@
         "key": {
             "year": 2014,
             "subgroup": "SPED",
-            "grade": "All",
+            "grade": "all",
             "subject": "read",
             "enrollment_status": "full_year"
         },
         "val": {
             "n_eligible": 5657,
-            "n_test_takers": 5507,
+            "n_test_takers": 5508,
             "proficient_or_advanced": 1117,
             "below_basic": 2110,
-            "basic": 2280,
+            "basic": 2281,
             "proficient": 856,
             "advanced": 261
         }
@@ -2429,10 +2429,10 @@
         },
         "val": {
             "n_eligible": 833,
-            "n_test_takers": 812,
+            "n_test_takers": 813,
             "proficient_or_advanced": 173,
             "below_basic": 343,
-            "basic": 296,
+            "basic": 297,
             "proficient": 116,
             "advanced": 57
         }
@@ -2447,10 +2447,10 @@
         },
         "val": {
             "n_eligible": 833,
-            "n_test_takers": 812,
+            "n_test_takers": 813,
             "proficient_or_advanced": 147,
             "below_basic": 342,
-            "basic": 323,
+            "basic": 324,
             "proficient": 107,
             "advanced": 40
         }
@@ -2639,7 +2639,7 @@
         "key": {
             "year": 2014,
             "subgroup": "LEP",
-            "grade": "All",
+            "grade": "all",
             "subject": "math",
             "enrollment_status": "full_year"
         },
@@ -2657,7 +2657,7 @@
         "key": {
             "year": 2014,
             "subgroup": "LEP",
-            "grade": "All",
+            "grade": "all",
             "subject": "read",
             "enrollment_status": "full_year"
         },
@@ -2927,16 +2927,16 @@
         "key": {
             "year": 2014,
             "subgroup": "Economy",
-            "grade": "All",
+            "grade": "all",
             "subject": "math",
             "enrollment_status": "full_year"
         },
         "val": {
             "n_eligible": 24993,
-            "n_test_takers": 24439,
+            "n_test_takers": 24440,
             "proficient_or_advanced": 11622,
             "below_basic": 4156,
-            "basic": 8661,
+            "basic": 8662,
             "proficient": 9061,
             "advanced": 2561
         }
@@ -2945,16 +2945,16 @@
         "key": {
             "year": 2014,
             "subgroup": "Economy",
-            "grade": "All",
+            "grade": "all",
             "subject": "read",
             "enrollment_status": "full_year"
         },
         "val": {
             "n_eligible": 24993,
-            "n_test_takers": 24377,
+            "n_test_takers": 24378,
             "proficient_or_advanced": 10241,
             "below_basic": 3923,
-            "basic": 10213,
+            "basic": 10214,
             "proficient": 9100,
             "advanced": 1141
         }
@@ -3149,10 +3149,10 @@
         },
         "val": {
             "n_eligible": 3394,
-            "n_test_takers": 3334,
+            "n_test_takers": 3335,
             "proficient_or_advanced": 1464,
             "below_basic": 651,
-            "basic": 1219,
+            "basic": 1220,
             "proficient": 1054,
             "advanced": 410
         }
@@ -3167,10 +3167,10 @@
         },
         "val": {
             "n_eligible": 3394,
-            "n_test_takers": 3332,
+            "n_test_takers": 3333,
             "proficient_or_advanced": 1240,
             "below_basic": 616,
-            "basic": 1476,
+            "basic": 1477,
             "proficient": 1147,
             "advanced": 93
         }
@@ -3215,16 +3215,16 @@
         "key": {
             "year": 2014,
             "subgroup": "Direct Cert",
-            "grade": "All",
+            "grade": "all",
             "subject": "math",
             "enrollment_status": "full_year"
         },
         "val": {
             "n_eligible": 14763,
-            "n_test_takers": 14427,
+            "n_test_takers": 14428,
             "proficient_or_advanced": 6165,
             "below_basic": 2840,
-            "basic": 5422,
+            "basic": 5423,
             "proficient": 4980,
             "advanced": 1185
         }
@@ -3233,16 +3233,16 @@
         "key": {
             "year": 2014,
             "subgroup": "Direct Cert",
-            "grade": "All",
+            "grade": "all",
             "subject": "read",
             "enrollment_status": "full_year"
         },
         "val": {
             "n_eligible": 14763,
-            "n_test_takers": 14378,
+            "n_test_takers": 14379,
             "proficient_or_advanced": 5349,
             "below_basic": 2645,
-            "basic": 6384,
+            "basic": 6385,
             "proficient": 4821,
             "advanced": 528
         }
@@ -3437,10 +3437,10 @@
         },
         "val": {
             "n_eligible": 2031,
-            "n_test_takers": 1988,
+            "n_test_takers": 1989,
             "proficient_or_advanced": 765,
             "below_basic": 459,
-            "basic": 764,
+            "basic": 765,
             "proficient": 588,
             "advanced": 177
         }
@@ -3455,10 +3455,10 @@
         },
         "val": {
             "n_eligible": 2031,
-            "n_test_takers": 1989,
+            "n_test_takers": 1990,
             "proficient_or_advanced": 645,
             "below_basic": 418,
-            "basic": 926,
+            "basic": 927,
             "proficient": 610,
             "advanced": 35
         }
@@ -3503,7 +3503,7 @@
         "key": {
             "year": 2010,
             "subgroup": "All",
-            "grade": "All",
+            "grade": "all",
             "subject": "math",
             "enrollment_status": "full_year"
         },
@@ -3521,7 +3521,7 @@
         "key": {
             "year": 2010,
             "subgroup": "All",
-            "grade": "All",
+            "grade": "all",
             "subject": "read",
             "enrollment_status": "full_year"
         },
@@ -3791,7 +3791,7 @@
         "key": {
             "year": 2010,
             "subgroup": "MALE",
-            "grade": "All",
+            "grade": "all",
             "subject": "math",
             "enrollment_status": "full_year"
         },
@@ -3809,7 +3809,7 @@
         "key": {
             "year": 2010,
             "subgroup": "MALE",
-            "grade": "All",
+            "grade": "all",
             "subject": "read",
             "enrollment_status": "full_year"
         },
@@ -4079,7 +4079,7 @@
         "key": {
             "year": 2010,
             "subgroup": "FEMALE",
-            "grade": "All",
+            "grade": "all",
             "subject": "math",
             "enrollment_status": "full_year"
         },
@@ -4097,7 +4097,7 @@
         "key": {
             "year": 2010,
             "subgroup": "FEMALE",
-            "grade": "All",
+            "grade": "all",
             "subject": "read",
             "enrollment_status": "full_year"
         },
@@ -4367,7 +4367,7 @@
         "key": {
             "year": 2010,
             "subgroup": "AS7",
-            "grade": "All",
+            "grade": "all",
             "subject": "math",
             "enrollment_status": "full_year"
         },
@@ -4385,7 +4385,7 @@
         "key": {
             "year": 2010,
             "subgroup": "AS7",
-            "grade": "All",
+            "grade": "all",
             "subject": "read",
             "enrollment_status": "full_year"
         },
@@ -4655,7 +4655,7 @@
         "key": {
             "year": 2010,
             "subgroup": "BL7",
-            "grade": "All",
+            "grade": "all",
             "subject": "math",
             "enrollment_status": "full_year"
         },
@@ -4673,7 +4673,7 @@
         "key": {
             "year": 2010,
             "subgroup": "BL7",
-            "grade": "All",
+            "grade": "all",
             "subject": "read",
             "enrollment_status": "full_year"
         },
@@ -4943,7 +4943,7 @@
         "key": {
             "year": 2010,
             "subgroup": "HI7",
-            "grade": "All",
+            "grade": "all",
             "subject": "math",
             "enrollment_status": "full_year"
         },
@@ -4961,7 +4961,7 @@
         "key": {
             "year": 2010,
             "subgroup": "HI7",
-            "grade": "All",
+            "grade": "all",
             "subject": "read",
             "enrollment_status": "full_year"
         },
@@ -5231,7 +5231,7 @@
         "key": {
             "year": 2010,
             "subgroup": "WH7",
-            "grade": "All",
+            "grade": "all",
             "subject": "math",
             "enrollment_status": "full_year"
         },
@@ -5249,7 +5249,7 @@
         "key": {
             "year": 2010,
             "subgroup": "WH7",
-            "grade": "All",
+            "grade": "all",
             "subject": "read",
             "enrollment_status": "full_year"
         },
@@ -5519,7 +5519,7 @@
         "key": {
             "year": 2010,
             "subgroup": "SPED",
-            "grade": "All",
+            "grade": "all",
             "subject": "math",
             "enrollment_status": "full_year"
         },
@@ -5537,7 +5537,7 @@
         "key": {
             "year": 2010,
             "subgroup": "SPED",
-            "grade": "All",
+            "grade": "all",
             "subject": "read",
             "enrollment_status": "full_year"
         },
@@ -5807,7 +5807,7 @@
         "key": {
             "year": 2010,
             "subgroup": "LEP",
-            "grade": "All",
+            "grade": "all",
             "subject": "math",
             "enrollment_status": "full_year"
         },
@@ -5825,7 +5825,7 @@
         "key": {
             "year": 2010,
             "subgroup": "LEP",
-            "grade": "All",
+            "grade": "all",
             "subject": "read",
             "enrollment_status": "full_year"
         },
@@ -6095,7 +6095,7 @@
         "key": {
             "year": 2010,
             "subgroup": "Economy",
-            "grade": "All",
+            "grade": "all",
             "subject": "math",
             "enrollment_status": "full_year"
         },
@@ -6113,7 +6113,7 @@
         "key": {
             "year": 2010,
             "subgroup": "Economy",
-            "grade": "All",
+            "grade": "all",
             "subject": "read",
             "enrollment_status": "full_year"
         },
@@ -6383,7 +6383,7 @@
         "key": {
             "year": 2011,
             "subgroup": "All",
-            "grade": "All",
+            "grade": "all",
             "subject": "math",
             "enrollment_status": "full_year"
         },
@@ -6401,7 +6401,7 @@
         "key": {
             "year": 2011,
             "subgroup": "All",
-            "grade": "All",
+            "grade": "all",
             "subject": "read",
             "enrollment_status": "full_year"
         },
@@ -6671,7 +6671,7 @@
         "key": {
             "year": 2011,
             "subgroup": "MALE",
-            "grade": "All",
+            "grade": "all",
             "subject": "math",
             "enrollment_status": "full_year"
         },
@@ -6689,7 +6689,7 @@
         "key": {
             "year": 2011,
             "subgroup": "MALE",
-            "grade": "All",
+            "grade": "all",
             "subject": "read",
             "enrollment_status": "full_year"
         },
@@ -6959,7 +6959,7 @@
         "key": {
             "year": 2011,
             "subgroup": "FEMALE",
-            "grade": "All",
+            "grade": "all",
             "subject": "math",
             "enrollment_status": "full_year"
         },
@@ -6977,7 +6977,7 @@
         "key": {
             "year": 2011,
             "subgroup": "FEMALE",
-            "grade": "All",
+            "grade": "all",
             "subject": "read",
             "enrollment_status": "full_year"
         },
@@ -7247,7 +7247,7 @@
         "key": {
             "year": 2011,
             "subgroup": "AS7",
-            "grade": "All",
+            "grade": "all",
             "subject": "math",
             "enrollment_status": "full_year"
         },
@@ -7265,7 +7265,7 @@
         "key": {
             "year": 2011,
             "subgroup": "AS7",
-            "grade": "All",
+            "grade": "all",
             "subject": "read",
             "enrollment_status": "full_year"
         },
@@ -7535,7 +7535,7 @@
         "key": {
             "year": 2011,
             "subgroup": "BL7",
-            "grade": "All",
+            "grade": "all",
             "subject": "math",
             "enrollment_status": "full_year"
         },
@@ -7553,7 +7553,7 @@
         "key": {
             "year": 2011,
             "subgroup": "BL7",
-            "grade": "All",
+            "grade": "all",
             "subject": "read",
             "enrollment_status": "full_year"
         },
@@ -7823,7 +7823,7 @@
         "key": {
             "year": 2011,
             "subgroup": "HI7",
-            "grade": "All",
+            "grade": "all",
             "subject": "math",
             "enrollment_status": "full_year"
         },
@@ -7841,7 +7841,7 @@
         "key": {
             "year": 2011,
             "subgroup": "HI7",
-            "grade": "All",
+            "grade": "all",
             "subject": "read",
             "enrollment_status": "full_year"
         },
@@ -8111,7 +8111,7 @@
         "key": {
             "year": 2011,
             "subgroup": "WH7",
-            "grade": "All",
+            "grade": "all",
             "subject": "math",
             "enrollment_status": "full_year"
         },
@@ -8129,7 +8129,7 @@
         "key": {
             "year": 2011,
             "subgroup": "WH7",
-            "grade": "All",
+            "grade": "all",
             "subject": "read",
             "enrollment_status": "full_year"
         },
@@ -8399,7 +8399,7 @@
         "key": {
             "year": 2011,
             "subgroup": "SPED",
-            "grade": "All",
+            "grade": "all",
             "subject": "math",
             "enrollment_status": "full_year"
         },
@@ -8417,7 +8417,7 @@
         "key": {
             "year": 2011,
             "subgroup": "SPED",
-            "grade": "All",
+            "grade": "all",
             "subject": "read",
             "enrollment_status": "full_year"
         },
@@ -8687,7 +8687,7 @@
         "key": {
             "year": 2011,
             "subgroup": "LEP",
-            "grade": "All",
+            "grade": "all",
             "subject": "math",
             "enrollment_status": "full_year"
         },
@@ -8705,7 +8705,7 @@
         "key": {
             "year": 2011,
             "subgroup": "LEP",
-            "grade": "All",
+            "grade": "all",
             "subject": "read",
             "enrollment_status": "full_year"
         },
@@ -8975,7 +8975,7 @@
         "key": {
             "year": 2011,
             "subgroup": "Economy",
-            "grade": "All",
+            "grade": "all",
             "subject": "math",
             "enrollment_status": "full_year"
         },
@@ -8993,7 +8993,7 @@
         "key": {
             "year": 2011,
             "subgroup": "Economy",
-            "grade": "All",
+            "grade": "all",
             "subject": "read",
             "enrollment_status": "full_year"
         },
@@ -9263,7 +9263,7 @@
         "key": {
             "year": 2011,
             "subgroup": "Direct Cert",
-            "grade": "All",
+            "grade": "all",
             "subject": "math",
             "enrollment_status": "full_year"
         },
@@ -9281,7 +9281,7 @@
         "key": {
             "year": 2011,
             "subgroup": "Direct Cert",
-            "grade": "All",
+            "grade": "all",
             "subject": "read",
             "enrollment_status": "full_year"
         },
@@ -9551,7 +9551,7 @@
         "key": {
             "year": 2009,
             "subgroup": "All",
-            "grade": "All",
+            "grade": "all",
             "subject": "math",
             "enrollment_status": "full_year"
         },
@@ -9569,7 +9569,7 @@
         "key": {
             "year": 2009,
             "subgroup": "All",
-            "grade": "All",
+            "grade": "all",
             "subject": "read",
             "enrollment_status": "full_year"
         },
@@ -9839,7 +9839,7 @@
         "key": {
             "year": 2009,
             "subgroup": "MALE",
-            "grade": "All",
+            "grade": "all",
             "subject": "math",
             "enrollment_status": "full_year"
         },
@@ -9857,7 +9857,7 @@
         "key": {
             "year": 2009,
             "subgroup": "MALE",
-            "grade": "All",
+            "grade": "all",
             "subject": "read",
             "enrollment_status": "full_year"
         },
@@ -10127,7 +10127,7 @@
         "key": {
             "year": 2009,
             "subgroup": "FEMALE",
-            "grade": "All",
+            "grade": "all",
             "subject": "math",
             "enrollment_status": "full_year"
         },
@@ -10145,7 +10145,7 @@
         "key": {
             "year": 2009,
             "subgroup": "FEMALE",
-            "grade": "All",
+            "grade": "all",
             "subject": "read",
             "enrollment_status": "full_year"
         },
@@ -10415,7 +10415,7 @@
         "key": {
             "year": 2009,
             "subgroup": "AM7",
-            "grade": "All",
+            "grade": "all",
             "subject": "math",
             "enrollment_status": "full_year"
         },
@@ -10433,7 +10433,7 @@
         "key": {
             "year": 2009,
             "subgroup": "AM7",
-            "grade": "All",
+            "grade": "all",
             "subject": "read",
             "enrollment_status": "full_year"
         },
@@ -10451,7 +10451,7 @@
         "key": {
             "year": 2009,
             "subgroup": "AS7",
-            "grade": "All",
+            "grade": "all",
             "subject": "math",
             "enrollment_status": "full_year"
         },
@@ -10469,7 +10469,7 @@
         "key": {
             "year": 2009,
             "subgroup": "AS7",
-            "grade": "All",
+            "grade": "all",
             "subject": "read",
             "enrollment_status": "full_year"
         },
@@ -10739,7 +10739,7 @@
         "key": {
             "year": 2009,
             "subgroup": "BL7",
-            "grade": "All",
+            "grade": "all",
             "subject": "math",
             "enrollment_status": "full_year"
         },
@@ -10757,7 +10757,7 @@
         "key": {
             "year": 2009,
             "subgroup": "BL7",
-            "grade": "All",
+            "grade": "all",
             "subject": "read",
             "enrollment_status": "full_year"
         },
@@ -11027,7 +11027,7 @@
         "key": {
             "year": 2009,
             "subgroup": "HI7",
-            "grade": "All",
+            "grade": "all",
             "subject": "math",
             "enrollment_status": "full_year"
         },
@@ -11045,7 +11045,7 @@
         "key": {
             "year": 2009,
             "subgroup": "HI7",
-            "grade": "All",
+            "grade": "all",
             "subject": "read",
             "enrollment_status": "full_year"
         },
@@ -11315,7 +11315,7 @@
         "key": {
             "year": 2009,
             "subgroup": "WH7",
-            "grade": "All",
+            "grade": "all",
             "subject": "math",
             "enrollment_status": "full_year"
         },
@@ -11333,7 +11333,7 @@
         "key": {
             "year": 2009,
             "subgroup": "WH7",
-            "grade": "All",
+            "grade": "all",
             "subject": "read",
             "enrollment_status": "full_year"
         },
@@ -11603,7 +11603,7 @@
         "key": {
             "year": 2009,
             "subgroup": "SPED",
-            "grade": "All",
+            "grade": "all",
             "subject": "math",
             "enrollment_status": "full_year"
         },
@@ -11621,7 +11621,7 @@
         "key": {
             "year": 2009,
             "subgroup": "SPED",
-            "grade": "All",
+            "grade": "all",
             "subject": "read",
             "enrollment_status": "full_year"
         },
@@ -11891,7 +11891,7 @@
         "key": {
             "year": 2009,
             "subgroup": "LEP",
-            "grade": "All",
+            "grade": "all",
             "subject": "math",
             "enrollment_status": "full_year"
         },
@@ -11909,7 +11909,7 @@
         "key": {
             "year": 2009,
             "subgroup": "LEP",
-            "grade": "All",
+            "grade": "all",
             "subject": "read",
             "enrollment_status": "full_year"
         },
@@ -12179,7 +12179,7 @@
         "key": {
             "year": 2009,
             "subgroup": "Economy",
-            "grade": "All",
+            "grade": "all",
             "subject": "math",
             "enrollment_status": "full_year"
         },
@@ -12197,7 +12197,7 @@
         "key": {
             "year": 2009,
             "subgroup": "Economy",
-            "grade": "All",
+            "grade": "all",
             "subject": "read",
             "enrollment_status": "full_year"
         },
@@ -12467,7 +12467,7 @@
         "key": {
             "year": 2013,
             "subgroup": "All",
-            "grade": "All",
+            "grade": "all",
             "subject": "math",
             "enrollment_status": "full_year"
         },
@@ -12485,7 +12485,7 @@
         "key": {
             "year": 2013,
             "subgroup": "All",
-            "grade": "All",
+            "grade": "all",
             "subject": "read",
             "enrollment_status": "full_year"
         },
@@ -12755,7 +12755,7 @@
         "key": {
             "year": 2013,
             "subgroup": "MALE",
-            "grade": "All",
+            "grade": "all",
             "subject": "math",
             "enrollment_status": "full_year"
         },
@@ -12773,7 +12773,7 @@
         "key": {
             "year": 2013,
             "subgroup": "MALE",
-            "grade": "All",
+            "grade": "all",
             "subject": "read",
             "enrollment_status": "full_year"
         },
@@ -13043,7 +13043,7 @@
         "key": {
             "year": 2013,
             "subgroup": "FEMALE",
-            "grade": "All",
+            "grade": "all",
             "subject": "math",
             "enrollment_status": "full_year"
         },
@@ -13061,7 +13061,7 @@
         "key": {
             "year": 2013,
             "subgroup": "FEMALE",
-            "grade": "All",
+            "grade": "all",
             "subject": "read",
             "enrollment_status": "full_year"
         },
@@ -13331,7 +13331,7 @@
         "key": {
             "year": 2013,
             "subgroup": "AM7",
-            "grade": "All",
+            "grade": "all",
             "subject": "math",
             "enrollment_status": "full_year"
         },
@@ -13349,7 +13349,7 @@
         "key": {
             "year": 2013,
             "subgroup": "AM7",
-            "grade": "All",
+            "grade": "all",
             "subject": "read",
             "enrollment_status": "full_year"
         },
@@ -13367,7 +13367,7 @@
         "key": {
             "year": 2013,
             "subgroup": "AS7",
-            "grade": "All",
+            "grade": "all",
             "subject": "math",
             "enrollment_status": "full_year"
         },
@@ -13385,7 +13385,7 @@
         "key": {
             "year": 2013,
             "subgroup": "AS7",
-            "grade": "All",
+            "grade": "all",
             "subject": "read",
             "enrollment_status": "full_year"
         },
@@ -13655,7 +13655,7 @@
         "key": {
             "year": 2013,
             "subgroup": "BL7",
-            "grade": "All",
+            "grade": "all",
             "subject": "math",
             "enrollment_status": "full_year"
         },
@@ -13673,7 +13673,7 @@
         "key": {
             "year": 2013,
             "subgroup": "BL7",
-            "grade": "All",
+            "grade": "all",
             "subject": "read",
             "enrollment_status": "full_year"
         },
@@ -13943,7 +13943,7 @@
         "key": {
             "year": 2013,
             "subgroup": "HI7",
-            "grade": "All",
+            "grade": "all",
             "subject": "math",
             "enrollment_status": "full_year"
         },
@@ -13961,7 +13961,7 @@
         "key": {
             "year": 2013,
             "subgroup": "HI7",
-            "grade": "All",
+            "grade": "all",
             "subject": "read",
             "enrollment_status": "full_year"
         },
@@ -14231,7 +14231,7 @@
         "key": {
             "year": 2013,
             "subgroup": "MU7",
-            "grade": "All",
+            "grade": "all",
             "subject": "math",
             "enrollment_status": "full_year"
         },
@@ -14249,7 +14249,7 @@
         "key": {
             "year": 2013,
             "subgroup": "MU7",
-            "grade": "All",
+            "grade": "all",
             "subject": "read",
             "enrollment_status": "full_year"
         },
@@ -14519,7 +14519,7 @@
         "key": {
             "year": 2013,
             "subgroup": "WH7",
-            "grade": "All",
+            "grade": "all",
             "subject": "math",
             "enrollment_status": "full_year"
         },
@@ -14537,7 +14537,7 @@
         "key": {
             "year": 2013,
             "subgroup": "WH7",
-            "grade": "All",
+            "grade": "all",
             "subject": "read",
             "enrollment_status": "full_year"
         },
@@ -14807,7 +14807,7 @@
         "key": {
             "year": 2013,
             "subgroup": "SPED",
-            "grade": "All",
+            "grade": "all",
             "subject": "math",
             "enrollment_status": "full_year"
         },
@@ -14825,7 +14825,7 @@
         "key": {
             "year": 2013,
             "subgroup": "SPED",
-            "grade": "All",
+            "grade": "all",
             "subject": "read",
             "enrollment_status": "full_year"
         },
@@ -15095,7 +15095,7 @@
         "key": {
             "year": 2013,
             "subgroup": "LEP",
-            "grade": "All",
+            "grade": "all",
             "subject": "math",
             "enrollment_status": "full_year"
         },
@@ -15113,7 +15113,7 @@
         "key": {
             "year": 2013,
             "subgroup": "LEP",
-            "grade": "All",
+            "grade": "all",
             "subject": "read",
             "enrollment_status": "full_year"
         },
@@ -15383,7 +15383,7 @@
         "key": {
             "year": 2013,
             "subgroup": "Economy",
-            "grade": "All",
+            "grade": "all",
             "subject": "math",
             "enrollment_status": "full_year"
         },
@@ -15401,7 +15401,7 @@
         "key": {
             "year": 2013,
             "subgroup": "Economy",
-            "grade": "All",
+            "grade": "all",
             "subject": "read",
             "enrollment_status": "full_year"
         },
@@ -15671,7 +15671,7 @@
         "key": {
             "year": 2013,
             "subgroup": "Direct Cert",
-            "grade": "All",
+            "grade": "all",
             "subject": "math",
             "enrollment_status": "full_year"
         },
@@ -15689,7 +15689,7 @@
         "key": {
             "year": 2013,
             "subgroup": "Direct Cert",
-            "grade": "All",
+            "grade": "all",
             "subject": "read",
             "enrollment_status": "full_year"
         },
@@ -15959,7 +15959,7 @@
         "key": {
             "year": 2012,
             "subgroup": "All",
-            "grade": "All",
+            "grade": "all",
             "subject": "math",
             "enrollment_status": "full_year"
         },
@@ -15977,7 +15977,7 @@
         "key": {
             "year": 2012,
             "subgroup": "All",
-            "grade": "All",
+            "grade": "all",
             "subject": "read",
             "enrollment_status": "full_year"
         },
@@ -16247,7 +16247,7 @@
         "key": {
             "year": 2012,
             "subgroup": "MALE",
-            "grade": "All",
+            "grade": "all",
             "subject": "math",
             "enrollment_status": "full_year"
         },
@@ -16265,7 +16265,7 @@
         "key": {
             "year": 2012,
             "subgroup": "MALE",
-            "grade": "All",
+            "grade": "all",
             "subject": "read",
             "enrollment_status": "full_year"
         },
@@ -16535,7 +16535,7 @@
         "key": {
             "year": 2012,
             "subgroup": "FEMALE",
-            "grade": "All",
+            "grade": "all",
             "subject": "math",
             "enrollment_status": "full_year"
         },
@@ -16553,7 +16553,7 @@
         "key": {
             "year": 2012,
             "subgroup": "FEMALE",
-            "grade": "All",
+            "grade": "all",
             "subject": "read",
             "enrollment_status": "full_year"
         },
@@ -16823,7 +16823,7 @@
         "key": {
             "year": 2012,
             "subgroup": "AM7",
-            "grade": "All",
+            "grade": "all",
             "subject": "math",
             "enrollment_status": "full_year"
         },
@@ -16841,7 +16841,7 @@
         "key": {
             "year": 2012,
             "subgroup": "AM7",
-            "grade": "All",
+            "grade": "all",
             "subject": "read",
             "enrollment_status": "full_year"
         },
@@ -16859,7 +16859,7 @@
         "key": {
             "year": 2012,
             "subgroup": "AS7",
-            "grade": "All",
+            "grade": "all",
             "subject": "math",
             "enrollment_status": "full_year"
         },
@@ -16877,7 +16877,7 @@
         "key": {
             "year": 2012,
             "subgroup": "AS7",
-            "grade": "All",
+            "grade": "all",
             "subject": "read",
             "enrollment_status": "full_year"
         },
@@ -17147,7 +17147,7 @@
         "key": {
             "year": 2012,
             "subgroup": "BL7",
-            "grade": "All",
+            "grade": "all",
             "subject": "math",
             "enrollment_status": "full_year"
         },
@@ -17165,7 +17165,7 @@
         "key": {
             "year": 2012,
             "subgroup": "BL7",
-            "grade": "All",
+            "grade": "all",
             "subject": "read",
             "enrollment_status": "full_year"
         },
@@ -17435,7 +17435,7 @@
         "key": {
             "year": 2012,
             "subgroup": "HI7",
-            "grade": "All",
+            "grade": "all",
             "subject": "math",
             "enrollment_status": "full_year"
         },
@@ -17453,7 +17453,7 @@
         "key": {
             "year": 2012,
             "subgroup": "HI7",
-            "grade": "All",
+            "grade": "all",
             "subject": "read",
             "enrollment_status": "full_year"
         },
@@ -17723,7 +17723,7 @@
         "key": {
             "year": 2012,
             "subgroup": "MU7",
-            "grade": "All",
+            "grade": "all",
             "subject": "math",
             "enrollment_status": "full_year"
         },
@@ -17741,7 +17741,7 @@
         "key": {
             "year": 2012,
             "subgroup": "MU7",
-            "grade": "All",
+            "grade": "all",
             "subject": "read",
             "enrollment_status": "full_year"
         },
@@ -18011,7 +18011,7 @@
         "key": {
             "year": 2012,
             "subgroup": "PI7",
-            "grade": "All",
+            "grade": "all",
             "subject": "math",
             "enrollment_status": "full_year"
         },
@@ -18029,7 +18029,7 @@
         "key": {
             "year": 2012,
             "subgroup": "PI7",
-            "grade": "All",
+            "grade": "all",
             "subject": "read",
             "enrollment_status": "full_year"
         },
@@ -18047,7 +18047,7 @@
         "key": {
             "year": 2012,
             "subgroup": "WH7",
-            "grade": "All",
+            "grade": "all",
             "subject": "math",
             "enrollment_status": "full_year"
         },
@@ -18065,7 +18065,7 @@
         "key": {
             "year": 2012,
             "subgroup": "WH7",
-            "grade": "All",
+            "grade": "all",
             "subject": "read",
             "enrollment_status": "full_year"
         },
@@ -18335,7 +18335,7 @@
         "key": {
             "year": 2012,
             "subgroup": "SPED",
-            "grade": "All",
+            "grade": "all",
             "subject": "math",
             "enrollment_status": "full_year"
         },
@@ -18353,7 +18353,7 @@
         "key": {
             "year": 2012,
             "subgroup": "SPED",
-            "grade": "All",
+            "grade": "all",
             "subject": "read",
             "enrollment_status": "full_year"
         },
@@ -18623,7 +18623,7 @@
         "key": {
             "year": 2012,
             "subgroup": "LEP",
-            "grade": "All",
+            "grade": "all",
             "subject": "math",
             "enrollment_status": "full_year"
         },
@@ -18641,7 +18641,7 @@
         "key": {
             "year": 2012,
             "subgroup": "LEP",
-            "grade": "All",
+            "grade": "all",
             "subject": "read",
             "enrollment_status": "full_year"
         },
@@ -18911,7 +18911,7 @@
         "key": {
             "year": 2012,
             "subgroup": "Economy",
-            "grade": "All",
+            "grade": "all",
             "subject": "math",
             "enrollment_status": "full_year"
         },
@@ -18929,7 +18929,7 @@
         "key": {
             "year": 2012,
             "subgroup": "Economy",
-            "grade": "All",
+            "grade": "all",
             "subject": "read",
             "enrollment_status": "full_year"
         },
@@ -19199,7 +19199,7 @@
         "key": {
             "year": 2012,
             "subgroup": "Direct Cert",
-            "grade": "All",
+            "grade": "all",
             "subject": "math",
             "enrollment_status": "full_year"
         },
@@ -19217,7 +19217,7 @@
         "key": {
             "year": 2012,
             "subgroup": "Direct Cert",
-            "grade": "All",
+            "grade": "all",
             "subject": "read",
             "enrollment_status": "full_year"
         },
@@ -19487,16 +19487,16 @@
         "key": {
             "year": 2014,
             "subgroup": "All",
-            "grade": "All",
+            "grade": "all",
             "subject": "math",
             "enrollment_status": "all"
         },
         "val": {
             "n_eligible": 32540,
-            "n_test_takers": 31570,
+            "n_test_takers": 31571,
             "proficient_or_advanced": 17242,
             "below_basic": 4508,
-            "basic": 9820,
+            "basic": 9821,
             "proficient": 11966,
             "advanced": 5276
         }
@@ -19505,16 +19505,16 @@
         "key": {
             "year": 2014,
             "subgroup": "All",
-            "grade": "All",
+            "grade": "all",
             "subject": "read",
             "enrollment_status": "all"
         },
         "val": {
             "n_eligible": 32540,
-            "n_test_takers": 31492,
+            "n_test_takers": 31493,
             "proficient_or_advanced": 15772,
             "below_basic": 4226,
-            "basic": 11494,
+            "basic": 11495,
             "proficient": 12880,
             "advanced": 2892
         }
@@ -19637,10 +19637,10 @@
         },
         "val": {
             "n_eligible": 4405,
-            "n_test_takers": 4283,
+            "n_test_takers": 4284,
             "proficient_or_advanced": 2188,
             "below_basic": 697,
-            "basic": 1398,
+            "basic": 1399,
             "proficient": 1364,
             "advanced": 824
         }
@@ -19655,10 +19655,10 @@
         },
         "val": {
             "n_eligible": 4405,
-            "n_test_takers": 4277,
+            "n_test_takers": 4278,
             "proficient_or_advanced": 1923,
             "below_basic": 670,
-            "basic": 1684,
+            "basic": 1685,
             "proficient": 1703,
             "advanced": 220
         }
@@ -19775,7 +19775,7 @@
         "key": {
             "year": 2014,
             "subgroup": "MALE",
-            "grade": "All",
+            "grade": "all",
             "subject": "math",
             "enrollment_status": "all"
         },
@@ -19793,7 +19793,7 @@
         "key": {
             "year": 2014,
             "subgroup": "MALE",
-            "grade": "All",
+            "grade": "all",
             "subject": "read",
             "enrollment_status": "all"
         },
@@ -20063,16 +20063,16 @@
         "key": {
             "year": 2014,
             "subgroup": "FEMALE",
-            "grade": "All",
+            "grade": "all",
             "subject": "math",
             "enrollment_status": "all"
         },
         "val": {
             "n_eligible": 16228,
-            "n_test_takers": 15765,
+            "n_test_takers": 15766,
             "proficient_or_advanced": 9042,
             "below_basic": 1939,
-            "basic": 4784,
+            "basic": 4785,
             "proficient": 6286,
             "advanced": 2756
         }
@@ -20081,16 +20081,16 @@
         "key": {
             "year": 2014,
             "subgroup": "FEMALE",
-            "grade": "All",
+            "grade": "all",
             "subject": "read",
             "enrollment_status": "all"
         },
         "val": {
             "n_eligible": 16228,
-            "n_test_takers": 15722,
+            "n_test_takers": 15723,
             "proficient_or_advanced": 8804,
             "below_basic": 1498,
-            "basic": 5420,
+            "basic": 5421,
             "proficient": 7068,
             "advanced": 1736
         }
@@ -20285,10 +20285,10 @@
         },
         "val": {
             "n_eligible": 2189,
-            "n_test_takers": 2131,
+            "n_test_takers": 2132,
             "proficient_or_advanced": 1155,
             "below_basic": 293,
-            "basic": 683,
+            "basic": 684,
             "proficient": 724,
             "advanced": 431
         }
@@ -20303,10 +20303,10 @@
         },
         "val": {
             "n_eligible": 2189,
-            "n_test_takers": 2126,
+            "n_test_takers": 2127,
             "proficient_or_advanced": 1079,
             "below_basic": 212,
-            "basic": 835,
+            "basic": 836,
             "proficient": 953,
             "advanced": 126
         }
@@ -20351,7 +20351,7 @@
         "key": {
             "year": 2014,
             "subgroup": "AM7",
-            "grade": "All",
+            "grade": "all",
             "subject": "math",
             "enrollment_status": "all"
         },
@@ -20369,7 +20369,7 @@
         "key": {
             "year": 2014,
             "subgroup": "AM7",
-            "grade": "All",
+            "grade": "all",
             "subject": "read",
             "enrollment_status": "all"
         },
@@ -20387,7 +20387,7 @@
         "key": {
             "year": 2014,
             "subgroup": "AS7",
-            "grade": "All",
+            "grade": "all",
             "subject": "math",
             "enrollment_status": "all"
         },
@@ -20405,7 +20405,7 @@
         "key": {
             "year": 2014,
             "subgroup": "AS7",
-            "grade": "All",
+            "grade": "all",
             "subject": "read",
             "enrollment_status": "all"
         },
@@ -20675,16 +20675,16 @@
         "key": {
             "year": 2014,
             "subgroup": "BL7",
-            "grade": "All",
+            "grade": "all",
             "subject": "math",
             "enrollment_status": "all"
         },
         "val": {
             "n_eligible": 24215,
-            "n_test_takers": 23534,
+            "n_test_takers": 23535,
             "proficient_or_advanced": 11370,
             "below_basic": 3964,
-            "basic": 8200,
+            "basic": 8201,
             "proficient": 8746,
             "advanced": 2624
         }
@@ -20693,16 +20693,16 @@
         "key": {
             "year": 2014,
             "subgroup": "BL7",
-            "grade": "All",
+            "grade": "all",
             "subject": "read",
             "enrollment_status": "all"
         },
         "val": {
             "n_eligible": 24215,
-            "n_test_takers": 23477,
+            "n_test_takers": 23478,
             "proficient_or_advanced": 10336,
             "below_basic": 3588,
-            "basic": 9553,
+            "basic": 9554,
             "proficient": 9033,
             "advanced": 1303
         }
@@ -20825,10 +20825,10 @@
         },
         "val": {
             "n_eligible": 3274,
-            "n_test_takers": 3197,
+            "n_test_takers": 3198,
             "proficient_or_advanced": 1384,
             "below_basic": 625,
-            "basic": 1188,
+            "basic": 1189,
             "proficient": 998,
             "advanced": 386
         }
@@ -20843,10 +20843,10 @@
         },
         "val": {
             "n_eligible": 3274,
-            "n_test_takers": 3197,
+            "n_test_takers": 3198,
             "proficient_or_advanced": 1215,
             "below_basic": 587,
-            "basic": 1395,
+            "basic": 1396,
             "proficient": 1127,
             "advanced": 88
         }
@@ -20963,7 +20963,7 @@
         "key": {
             "year": 2014,
             "subgroup": "HI7",
-            "grade": "All",
+            "grade": "all",
             "subject": "math",
             "enrollment_status": "all"
         },
@@ -20981,7 +20981,7 @@
         "key": {
             "year": 2014,
             "subgroup": "HI7",
-            "grade": "All",
+            "grade": "all",
             "subject": "read",
             "enrollment_status": "all"
         },
@@ -21251,7 +21251,7 @@
         "key": {
             "year": 2014,
             "subgroup": "MU7",
-            "grade": "All",
+            "grade": "all",
             "subject": "math",
             "enrollment_status": "all"
         },
@@ -21269,7 +21269,7 @@
         "key": {
             "year": 2014,
             "subgroup": "MU7",
-            "grade": "All",
+            "grade": "all",
             "subject": "read",
             "enrollment_status": "all"
         },
@@ -21539,7 +21539,7 @@
         "key": {
             "year": 2014,
             "subgroup": "PI7",
-            "grade": "All",
+            "grade": "all",
             "subject": "math",
             "enrollment_status": "all"
         },
@@ -21557,7 +21557,7 @@
         "key": {
             "year": 2014,
             "subgroup": "PI7",
-            "grade": "All",
+            "grade": "all",
             "subject": "read",
             "enrollment_status": "all"
         },
@@ -21575,7 +21575,7 @@
         "key": {
             "year": 2014,
             "subgroup": "WH7",
-            "grade": "All",
+            "grade": "all",
             "subject": "math",
             "enrollment_status": "all"
         },
@@ -21593,7 +21593,7 @@
         "key": {
             "year": 2014,
             "subgroup": "WH7",
-            "grade": "All",
+            "grade": "all",
             "subject": "read",
             "enrollment_status": "all"
         },
@@ -21863,16 +21863,16 @@
         "key": {
             "year": 2014,
             "subgroup": "SPED",
-            "grade": "All",
+            "grade": "all",
             "subject": "math",
             "enrollment_status": "all"
         },
         "val": {
             "n_eligible": 5775,
-            "n_test_takers": 5640,
+            "n_test_takers": 5641,
             "proficient_or_advanced": 1418,
             "below_basic": 1956,
-            "basic": 2266,
+            "basic": 2267,
             "proficient": 1045,
             "advanced": 373
         }
@@ -21881,16 +21881,16 @@
         "key": {
             "year": 2014,
             "subgroup": "SPED",
-            "grade": "All",
+            "grade": "all",
             "subject": "read",
             "enrollment_status": "all"
         },
         "val": {
             "n_eligible": 5775,
-            "n_test_takers": 5612,
+            "n_test_takers": 5613,
             "proficient_or_advanced": 1129,
             "below_basic": 2160,
-            "basic": 2323,
+            "basic": 2324,
             "proficient": 868,
             "advanced": 261
         }
@@ -21941,10 +21941,10 @@
         },
         "val": {
             "n_eligible": 844,
-            "n_test_takers": 821,
+            "n_test_takers": 822,
             "proficient_or_advanced": 173,
             "below_basic": 348,
-            "basic": 300,
+            "basic": 301,
             "proficient": 116,
             "advanced": 57
         }
@@ -21959,10 +21959,10 @@
         },
         "val": {
             "n_eligible": 844,
-            "n_test_takers": 821,
+            "n_test_takers": 822,
             "proficient_or_advanced": 148,
             "below_basic": 344,
-            "basic": 329,
+            "basic": 330,
             "proficient": 108,
             "advanced": 40
         }
@@ -22151,7 +22151,7 @@
         "key": {
             "year": 2014,
             "subgroup": "LEP",
-            "grade": "All",
+            "grade": "all",
             "subject": "math",
             "enrollment_status": "all"
         },
@@ -22169,7 +22169,7 @@
         "key": {
             "year": 2014,
             "subgroup": "LEP",
-            "grade": "All",
+            "grade": "all",
             "subject": "read",
             "enrollment_status": "all"
         },
@@ -22439,16 +22439,16 @@
         "key": {
             "year": 2014,
             "subgroup": "Economy",
-            "grade": "All",
+            "grade": "all",
             "subject": "math",
             "enrollment_status": "all"
         },
         "val": {
             "n_eligible": 25607,
-            "n_test_takers": 24952,
+            "n_test_takers": 24953,
             "proficient_or_advanced": 11786,
             "below_basic": 4293,
-            "basic": 8873,
+            "basic": 8874,
             "proficient": 9197,
             "advanced": 2589
         }
@@ -22457,16 +22457,16 @@
         "key": {
             "year": 2014,
             "subgroup": "Economy",
-            "grade": "All",
+            "grade": "all",
             "subject": "read",
             "enrollment_status": "all"
         },
         "val": {
             "n_eligible": 25607,
-            "n_test_takers": 24881,
+            "n_test_takers": 24882,
             "proficient_or_advanced": 10406,
             "below_basic": 4037,
-            "basic": 10438,
+            "basic": 10439,
             "proficient": 9253,
             "advanced": 1153
         }
@@ -22661,10 +22661,10 @@
         },
         "val": {
             "n_eligible": 3469,
-            "n_test_takers": 3396,
+            "n_test_takers": 3397,
             "proficient_or_advanced": 1480,
             "below_basic": 671,
-            "basic": 1245,
+            "basic": 1246,
             "proficient": 1064,
             "advanced": 416
         }
@@ -22679,10 +22679,10 @@
         },
         "val": {
             "n_eligible": 3469,
-            "n_test_takers": 3391,
+            "n_test_takers": 3392,
             "proficient_or_advanced": 1258,
             "below_basic": 630,
-            "basic": 1503,
+            "basic": 1504,
             "proficient": 1165,
             "advanced": 93
         }
@@ -22727,16 +22727,16 @@
         "key": {
             "year": 2014,
             "subgroup": "Direct Cert",
-            "grade": "All",
+            "grade": "all",
             "subject": "math",
             "enrollment_status": "all"
         },
         "val": {
             "n_eligible": 15079,
-            "n_test_takers": 14714,
+            "n_test_takers": 14715,
             "proficient_or_advanced": 6250,
             "below_basic": 2928,
-            "basic": 5536,
+            "basic": 5537,
             "proficient": 5054,
             "advanced": 1196
         }
@@ -22745,16 +22745,16 @@
         "key": {
             "year": 2014,
             "subgroup": "Direct Cert",
-            "grade": "All",
+            "grade": "all",
             "subject": "read",
             "enrollment_status": "all"
         },
         "val": {
             "n_eligible": 15079,
-            "n_test_takers": 14666,
+            "n_test_takers": 14667,
             "proficient_or_advanced": 5435,
             "below_basic": 2712,
-            "basic": 6519,
+            "basic": 6520,
             "proficient": 4904,
             "advanced": 531
         }
@@ -22949,10 +22949,10 @@
         },
         "val": {
             "n_eligible": 2069,
-            "n_test_takers": 2024,
+            "n_test_takers": 2025,
             "proficient_or_advanced": 775,
             "below_basic": 472,
-            "basic": 777,
+            "basic": 778,
             "proficient": 595,
             "advanced": 180
         }
@@ -22967,10 +22967,10 @@
         },
         "val": {
             "n_eligible": 2069,
-            "n_test_takers": 2025,
+            "n_test_takers": 2026,
             "proficient_or_advanced": 655,
             "below_basic": 428,
-            "basic": 942,
+            "basic": 943,
             "proficient": 620,
             "advanced": 35
         }
@@ -23015,7 +23015,7 @@
         "key": {
             "year": 2010,
             "subgroup": "All",
-            "grade": "All",
+            "grade": "all",
             "subject": "math",
             "enrollment_status": "all"
         },
@@ -23033,7 +23033,7 @@
         "key": {
             "year": 2010,
             "subgroup": "All",
-            "grade": "All",
+            "grade": "all",
             "subject": "read",
             "enrollment_status": "all"
         },
@@ -23303,7 +23303,7 @@
         "key": {
             "year": 2010,
             "subgroup": "MALE",
-            "grade": "All",
+            "grade": "all",
             "subject": "math",
             "enrollment_status": "all"
         },
@@ -23321,7 +23321,7 @@
         "key": {
             "year": 2010,
             "subgroup": "MALE",
-            "grade": "All",
+            "grade": "all",
             "subject": "read",
             "enrollment_status": "all"
         },
@@ -23591,7 +23591,7 @@
         "key": {
             "year": 2010,
             "subgroup": "FEMALE",
-            "grade": "All",
+            "grade": "all",
             "subject": "math",
             "enrollment_status": "all"
         },
@@ -23609,7 +23609,7 @@
         "key": {
             "year": 2010,
             "subgroup": "FEMALE",
-            "grade": "All",
+            "grade": "all",
             "subject": "read",
             "enrollment_status": "all"
         },
@@ -23879,7 +23879,7 @@
         "key": {
             "year": 2010,
             "subgroup": "AS7",
-            "grade": "All",
+            "grade": "all",
             "subject": "math",
             "enrollment_status": "all"
         },
@@ -23897,7 +23897,7 @@
         "key": {
             "year": 2010,
             "subgroup": "AS7",
-            "grade": "All",
+            "grade": "all",
             "subject": "read",
             "enrollment_status": "all"
         },
@@ -24167,7 +24167,7 @@
         "key": {
             "year": 2010,
             "subgroup": "BL7",
-            "grade": "All",
+            "grade": "all",
             "subject": "math",
             "enrollment_status": "all"
         },
@@ -24185,7 +24185,7 @@
         "key": {
             "year": 2010,
             "subgroup": "BL7",
-            "grade": "All",
+            "grade": "all",
             "subject": "read",
             "enrollment_status": "all"
         },
@@ -24455,7 +24455,7 @@
         "key": {
             "year": 2010,
             "subgroup": "HI7",
-            "grade": "All",
+            "grade": "all",
             "subject": "math",
             "enrollment_status": "all"
         },
@@ -24473,7 +24473,7 @@
         "key": {
             "year": 2010,
             "subgroup": "HI7",
-            "grade": "All",
+            "grade": "all",
             "subject": "read",
             "enrollment_status": "all"
         },
@@ -24743,7 +24743,7 @@
         "key": {
             "year": 2010,
             "subgroup": "WH7",
-            "grade": "All",
+            "grade": "all",
             "subject": "math",
             "enrollment_status": "all"
         },
@@ -24761,7 +24761,7 @@
         "key": {
             "year": 2010,
             "subgroup": "WH7",
-            "grade": "All",
+            "grade": "all",
             "subject": "read",
             "enrollment_status": "all"
         },
@@ -25031,7 +25031,7 @@
         "key": {
             "year": 2010,
             "subgroup": "SPED",
-            "grade": "All",
+            "grade": "all",
             "subject": "math",
             "enrollment_status": "all"
         },
@@ -25049,7 +25049,7 @@
         "key": {
             "year": 2010,
             "subgroup": "SPED",
-            "grade": "All",
+            "grade": "all",
             "subject": "read",
             "enrollment_status": "all"
         },
@@ -25319,7 +25319,7 @@
         "key": {
             "year": 2010,
             "subgroup": "LEP",
-            "grade": "All",
+            "grade": "all",
             "subject": "math",
             "enrollment_status": "all"
         },
@@ -25337,7 +25337,7 @@
         "key": {
             "year": 2010,
             "subgroup": "LEP",
-            "grade": "All",
+            "grade": "all",
             "subject": "read",
             "enrollment_status": "all"
         },
@@ -25607,7 +25607,7 @@
         "key": {
             "year": 2010,
             "subgroup": "Economy",
-            "grade": "All",
+            "grade": "all",
             "subject": "math",
             "enrollment_status": "all"
         },
@@ -25625,7 +25625,7 @@
         "key": {
             "year": 2010,
             "subgroup": "Economy",
-            "grade": "All",
+            "grade": "all",
             "subject": "read",
             "enrollment_status": "all"
         },
@@ -25895,7 +25895,7 @@
         "key": {
             "year": 2011,
             "subgroup": "All",
-            "grade": "All",
+            "grade": "all",
             "subject": "math",
             "enrollment_status": "all"
         },
@@ -25913,7 +25913,7 @@
         "key": {
             "year": 2011,
             "subgroup": "All",
-            "grade": "All",
+            "grade": "all",
             "subject": "read",
             "enrollment_status": "all"
         },
@@ -26183,7 +26183,7 @@
         "key": {
             "year": 2011,
             "subgroup": "MALE",
-            "grade": "All",
+            "grade": "all",
             "subject": "math",
             "enrollment_status": "all"
         },
@@ -26201,7 +26201,7 @@
         "key": {
             "year": 2011,
             "subgroup": "MALE",
-            "grade": "All",
+            "grade": "all",
             "subject": "read",
             "enrollment_status": "all"
         },
@@ -26471,7 +26471,7 @@
         "key": {
             "year": 2011,
             "subgroup": "FEMALE",
-            "grade": "All",
+            "grade": "all",
             "subject": "math",
             "enrollment_status": "all"
         },
@@ -26489,7 +26489,7 @@
         "key": {
             "year": 2011,
             "subgroup": "FEMALE",
-            "grade": "All",
+            "grade": "all",
             "subject": "read",
             "enrollment_status": "all"
         },
@@ -26759,7 +26759,7 @@
         "key": {
             "year": 2011,
             "subgroup": "AM7",
-            "grade": "All",
+            "grade": "all",
             "subject": "math",
             "enrollment_status": "all"
         },
@@ -26777,7 +26777,7 @@
         "key": {
             "year": 2011,
             "subgroup": "AM7",
-            "grade": "All",
+            "grade": "all",
             "subject": "read",
             "enrollment_status": "all"
         },
@@ -26795,7 +26795,7 @@
         "key": {
             "year": 2011,
             "subgroup": "AS7",
-            "grade": "All",
+            "grade": "all",
             "subject": "math",
             "enrollment_status": "all"
         },
@@ -26813,7 +26813,7 @@
         "key": {
             "year": 2011,
             "subgroup": "AS7",
-            "grade": "All",
+            "grade": "all",
             "subject": "read",
             "enrollment_status": "all"
         },
@@ -27083,7 +27083,7 @@
         "key": {
             "year": 2011,
             "subgroup": "BL7",
-            "grade": "All",
+            "grade": "all",
             "subject": "math",
             "enrollment_status": "all"
         },
@@ -27101,7 +27101,7 @@
         "key": {
             "year": 2011,
             "subgroup": "BL7",
-            "grade": "All",
+            "grade": "all",
             "subject": "read",
             "enrollment_status": "all"
         },
@@ -27371,7 +27371,7 @@
         "key": {
             "year": 2011,
             "subgroup": "HI7",
-            "grade": "All",
+            "grade": "all",
             "subject": "math",
             "enrollment_status": "all"
         },
@@ -27389,7 +27389,7 @@
         "key": {
             "year": 2011,
             "subgroup": "HI7",
-            "grade": "All",
+            "grade": "all",
             "subject": "read",
             "enrollment_status": "all"
         },
@@ -27659,7 +27659,7 @@
         "key": {
             "year": 2011,
             "subgroup": "WH7",
-            "grade": "All",
+            "grade": "all",
             "subject": "math",
             "enrollment_status": "all"
         },
@@ -27677,7 +27677,7 @@
         "key": {
             "year": 2011,
             "subgroup": "WH7",
-            "grade": "All",
+            "grade": "all",
             "subject": "read",
             "enrollment_status": "all"
         },
@@ -27947,7 +27947,7 @@
         "key": {
             "year": 2011,
             "subgroup": "SPED",
-            "grade": "All",
+            "grade": "all",
             "subject": "math",
             "enrollment_status": "all"
         },
@@ -27965,7 +27965,7 @@
         "key": {
             "year": 2011,
             "subgroup": "SPED",
-            "grade": "All",
+            "grade": "all",
             "subject": "read",
             "enrollment_status": "all"
         },
@@ -28235,7 +28235,7 @@
         "key": {
             "year": 2011,
             "subgroup": "LEP",
-            "grade": "All",
+            "grade": "all",
             "subject": "math",
             "enrollment_status": "all"
         },
@@ -28253,7 +28253,7 @@
         "key": {
             "year": 2011,
             "subgroup": "LEP",
-            "grade": "All",
+            "grade": "all",
             "subject": "read",
             "enrollment_status": "all"
         },
@@ -28523,7 +28523,7 @@
         "key": {
             "year": 2011,
             "subgroup": "Economy",
-            "grade": "All",
+            "grade": "all",
             "subject": "math",
             "enrollment_status": "all"
         },
@@ -28541,7 +28541,7 @@
         "key": {
             "year": 2011,
             "subgroup": "Economy",
-            "grade": "All",
+            "grade": "all",
             "subject": "read",
             "enrollment_status": "all"
         },
@@ -28811,7 +28811,7 @@
         "key": {
             "year": 2011,
             "subgroup": "Direct Cert",
-            "grade": "All",
+            "grade": "all",
             "subject": "math",
             "enrollment_status": "all"
         },
@@ -28829,7 +28829,7 @@
         "key": {
             "year": 2011,
             "subgroup": "Direct Cert",
-            "grade": "All",
+            "grade": "all",
             "subject": "read",
             "enrollment_status": "all"
         },
@@ -29099,7 +29099,7 @@
         "key": {
             "year": 2009,
             "subgroup": "All",
-            "grade": "All",
+            "grade": "all",
             "subject": "math",
             "enrollment_status": "all"
         },
@@ -29117,7 +29117,7 @@
         "key": {
             "year": 2009,
             "subgroup": "All",
-            "grade": "All",
+            "grade": "all",
             "subject": "read",
             "enrollment_status": "all"
         },
@@ -29387,7 +29387,7 @@
         "key": {
             "year": 2009,
             "subgroup": "MALE",
-            "grade": "All",
+            "grade": "all",
             "subject": "math",
             "enrollment_status": "all"
         },
@@ -29405,7 +29405,7 @@
         "key": {
             "year": 2009,
             "subgroup": "MALE",
-            "grade": "All",
+            "grade": "all",
             "subject": "read",
             "enrollment_status": "all"
         },
@@ -29675,7 +29675,7 @@
         "key": {
             "year": 2009,
             "subgroup": "FEMALE",
-            "grade": "All",
+            "grade": "all",
             "subject": "math",
             "enrollment_status": "all"
         },
@@ -29693,7 +29693,7 @@
         "key": {
             "year": 2009,
             "subgroup": "FEMALE",
-            "grade": "All",
+            "grade": "all",
             "subject": "read",
             "enrollment_status": "all"
         },
@@ -29963,7 +29963,7 @@
         "key": {
             "year": 2009,
             "subgroup": "AM7",
-            "grade": "All",
+            "grade": "all",
             "subject": "math",
             "enrollment_status": "all"
         },
@@ -29981,7 +29981,7 @@
         "key": {
             "year": 2009,
             "subgroup": "AM7",
-            "grade": "All",
+            "grade": "all",
             "subject": "read",
             "enrollment_status": "all"
         },
@@ -29999,7 +29999,7 @@
         "key": {
             "year": 2009,
             "subgroup": "AS7",
-            "grade": "All",
+            "grade": "all",
             "subject": "math",
             "enrollment_status": "all"
         },
@@ -30017,7 +30017,7 @@
         "key": {
             "year": 2009,
             "subgroup": "AS7",
-            "grade": "All",
+            "grade": "all",
             "subject": "read",
             "enrollment_status": "all"
         },
@@ -30287,7 +30287,7 @@
         "key": {
             "year": 2009,
             "subgroup": "BL7",
-            "grade": "All",
+            "grade": "all",
             "subject": "math",
             "enrollment_status": "all"
         },
@@ -30305,7 +30305,7 @@
         "key": {
             "year": 2009,
             "subgroup": "BL7",
-            "grade": "All",
+            "grade": "all",
             "subject": "read",
             "enrollment_status": "all"
         },
@@ -30575,7 +30575,7 @@
         "key": {
             "year": 2009,
             "subgroup": "HI7",
-            "grade": "All",
+            "grade": "all",
             "subject": "math",
             "enrollment_status": "all"
         },
@@ -30593,7 +30593,7 @@
         "key": {
             "year": 2009,
             "subgroup": "HI7",
-            "grade": "All",
+            "grade": "all",
             "subject": "read",
             "enrollment_status": "all"
         },
@@ -30863,7 +30863,7 @@
         "key": {
             "year": 2009,
             "subgroup": "WH7",
-            "grade": "All",
+            "grade": "all",
             "subject": "math",
             "enrollment_status": "all"
         },
@@ -30881,7 +30881,7 @@
         "key": {
             "year": 2009,
             "subgroup": "WH7",
-            "grade": "All",
+            "grade": "all",
             "subject": "read",
             "enrollment_status": "all"
         },
@@ -31151,7 +31151,7 @@
         "key": {
             "year": 2009,
             "subgroup": "SPED",
-            "grade": "All",
+            "grade": "all",
             "subject": "math",
             "enrollment_status": "all"
         },
@@ -31169,7 +31169,7 @@
         "key": {
             "year": 2009,
             "subgroup": "SPED",
-            "grade": "All",
+            "grade": "all",
             "subject": "read",
             "enrollment_status": "all"
         },
@@ -31439,7 +31439,7 @@
         "key": {
             "year": 2009,
             "subgroup": "LEP",
-            "grade": "All",
+            "grade": "all",
             "subject": "math",
             "enrollment_status": "all"
         },
@@ -31457,7 +31457,7 @@
         "key": {
             "year": 2009,
             "subgroup": "LEP",
-            "grade": "All",
+            "grade": "all",
             "subject": "read",
             "enrollment_status": "all"
         },
@@ -31727,7 +31727,7 @@
         "key": {
             "year": 2009,
             "subgroup": "Economy",
-            "grade": "All",
+            "grade": "all",
             "subject": "math",
             "enrollment_status": "all"
         },
@@ -31745,7 +31745,7 @@
         "key": {
             "year": 2009,
             "subgroup": "Economy",
-            "grade": "All",
+            "grade": "all",
             "subject": "read",
             "enrollment_status": "all"
         },
@@ -32015,7 +32015,7 @@
         "key": {
             "year": 2013,
             "subgroup": "All",
-            "grade": "All",
+            "grade": "all",
             "subject": "math",
             "enrollment_status": "all"
         },
@@ -32033,7 +32033,7 @@
         "key": {
             "year": 2013,
             "subgroup": "All",
-            "grade": "All",
+            "grade": "all",
             "subject": "read",
             "enrollment_status": "all"
         },
@@ -32303,7 +32303,7 @@
         "key": {
             "year": 2013,
             "subgroup": "MALE",
-            "grade": "All",
+            "grade": "all",
             "subject": "math",
             "enrollment_status": "all"
         },
@@ -32321,7 +32321,7 @@
         "key": {
             "year": 2013,
             "subgroup": "MALE",
-            "grade": "All",
+            "grade": "all",
             "subject": "read",
             "enrollment_status": "all"
         },
@@ -32591,7 +32591,7 @@
         "key": {
             "year": 2013,
             "subgroup": "FEMALE",
-            "grade": "All",
+            "grade": "all",
             "subject": "math",
             "enrollment_status": "all"
         },
@@ -32609,7 +32609,7 @@
         "key": {
             "year": 2013,
             "subgroup": "FEMALE",
-            "grade": "All",
+            "grade": "all",
             "subject": "read",
             "enrollment_status": "all"
         },
@@ -32879,7 +32879,7 @@
         "key": {
             "year": 2013,
             "subgroup": "AM7",
-            "grade": "All",
+            "grade": "all",
             "subject": "math",
             "enrollment_status": "all"
         },
@@ -32897,7 +32897,7 @@
         "key": {
             "year": 2013,
             "subgroup": "AM7",
-            "grade": "All",
+            "grade": "all",
             "subject": "read",
             "enrollment_status": "all"
         },
@@ -32915,7 +32915,7 @@
         "key": {
             "year": 2013,
             "subgroup": "AS7",
-            "grade": "All",
+            "grade": "all",
             "subject": "math",
             "enrollment_status": "all"
         },
@@ -32933,7 +32933,7 @@
         "key": {
             "year": 2013,
             "subgroup": "AS7",
-            "grade": "All",
+            "grade": "all",
             "subject": "read",
             "enrollment_status": "all"
         },
@@ -33203,7 +33203,7 @@
         "key": {
             "year": 2013,
             "subgroup": "BL7",
-            "grade": "All",
+            "grade": "all",
             "subject": "math",
             "enrollment_status": "all"
         },
@@ -33221,7 +33221,7 @@
         "key": {
             "year": 2013,
             "subgroup": "BL7",
-            "grade": "All",
+            "grade": "all",
             "subject": "read",
             "enrollment_status": "all"
         },
@@ -33491,7 +33491,7 @@
         "key": {
             "year": 2013,
             "subgroup": "HI7",
-            "grade": "All",
+            "grade": "all",
             "subject": "math",
             "enrollment_status": "all"
         },
@@ -33509,7 +33509,7 @@
         "key": {
             "year": 2013,
             "subgroup": "HI7",
-            "grade": "All",
+            "grade": "all",
             "subject": "read",
             "enrollment_status": "all"
         },
@@ -33779,7 +33779,7 @@
         "key": {
             "year": 2013,
             "subgroup": "MU7",
-            "grade": "All",
+            "grade": "all",
             "subject": "math",
             "enrollment_status": "all"
         },
@@ -33797,7 +33797,7 @@
         "key": {
             "year": 2013,
             "subgroup": "MU7",
-            "grade": "All",
+            "grade": "all",
             "subject": "read",
             "enrollment_status": "all"
         },
@@ -34067,7 +34067,7 @@
         "key": {
             "year": 2013,
             "subgroup": "PI7",
-            "grade": "All",
+            "grade": "all",
             "subject": "math",
             "enrollment_status": "all"
         },
@@ -34085,7 +34085,7 @@
         "key": {
             "year": 2013,
             "subgroup": "PI7",
-            "grade": "All",
+            "grade": "all",
             "subject": "read",
             "enrollment_status": "all"
         },
@@ -34103,7 +34103,7 @@
         "key": {
             "year": 2013,
             "subgroup": "WH7",
-            "grade": "All",
+            "grade": "all",
             "subject": "math",
             "enrollment_status": "all"
         },
@@ -34121,7 +34121,7 @@
         "key": {
             "year": 2013,
             "subgroup": "WH7",
-            "grade": "All",
+            "grade": "all",
             "subject": "read",
             "enrollment_status": "all"
         },
@@ -34391,7 +34391,7 @@
         "key": {
             "year": 2013,
             "subgroup": "SPED",
-            "grade": "All",
+            "grade": "all",
             "subject": "math",
             "enrollment_status": "all"
         },
@@ -34409,7 +34409,7 @@
         "key": {
             "year": 2013,
             "subgroup": "SPED",
-            "grade": "All",
+            "grade": "all",
             "subject": "read",
             "enrollment_status": "all"
         },
@@ -34679,7 +34679,7 @@
         "key": {
             "year": 2013,
             "subgroup": "LEP",
-            "grade": "All",
+            "grade": "all",
             "subject": "math",
             "enrollment_status": "all"
         },
@@ -34697,7 +34697,7 @@
         "key": {
             "year": 2013,
             "subgroup": "LEP",
-            "grade": "All",
+            "grade": "all",
             "subject": "read",
             "enrollment_status": "all"
         },
@@ -34967,7 +34967,7 @@
         "key": {
             "year": 2013,
             "subgroup": "Economy",
-            "grade": "All",
+            "grade": "all",
             "subject": "math",
             "enrollment_status": "all"
         },
@@ -34985,7 +34985,7 @@
         "key": {
             "year": 2013,
             "subgroup": "Economy",
-            "grade": "All",
+            "grade": "all",
             "subject": "read",
             "enrollment_status": "all"
         },
@@ -35255,7 +35255,7 @@
         "key": {
             "year": 2013,
             "subgroup": "Direct Cert",
-            "grade": "All",
+            "grade": "all",
             "subject": "math",
             "enrollment_status": "all"
         },
@@ -35273,7 +35273,7 @@
         "key": {
             "year": 2013,
             "subgroup": "Direct Cert",
-            "grade": "All",
+            "grade": "all",
             "subject": "read",
             "enrollment_status": "all"
         },
@@ -35543,7 +35543,7 @@
         "key": {
             "year": 2012,
             "subgroup": "All",
-            "grade": "All",
+            "grade": "all",
             "subject": "math",
             "enrollment_status": "all"
         },
@@ -35561,7 +35561,7 @@
         "key": {
             "year": 2012,
             "subgroup": "All",
-            "grade": "All",
+            "grade": "all",
             "subject": "read",
             "enrollment_status": "all"
         },
@@ -35831,7 +35831,7 @@
         "key": {
             "year": 2012,
             "subgroup": "MALE",
-            "grade": "All",
+            "grade": "all",
             "subject": "math",
             "enrollment_status": "all"
         },
@@ -35849,7 +35849,7 @@
         "key": {
             "year": 2012,
             "subgroup": "MALE",
-            "grade": "All",
+            "grade": "all",
             "subject": "read",
             "enrollment_status": "all"
         },
@@ -36119,7 +36119,7 @@
         "key": {
             "year": 2012,
             "subgroup": "FEMALE",
-            "grade": "All",
+            "grade": "all",
             "subject": "math",
             "enrollment_status": "all"
         },
@@ -36137,7 +36137,7 @@
         "key": {
             "year": 2012,
             "subgroup": "FEMALE",
-            "grade": "All",
+            "grade": "all",
             "subject": "read",
             "enrollment_status": "all"
         },
@@ -36407,7 +36407,7 @@
         "key": {
             "year": 2012,
             "subgroup": "AM7",
-            "grade": "All",
+            "grade": "all",
             "subject": "math",
             "enrollment_status": "all"
         },
@@ -36425,7 +36425,7 @@
         "key": {
             "year": 2012,
             "subgroup": "AM7",
-            "grade": "All",
+            "grade": "all",
             "subject": "read",
             "enrollment_status": "all"
         },
@@ -36443,7 +36443,7 @@
         "key": {
             "year": 2012,
             "subgroup": "AS7",
-            "grade": "All",
+            "grade": "all",
             "subject": "math",
             "enrollment_status": "all"
         },
@@ -36461,7 +36461,7 @@
         "key": {
             "year": 2012,
             "subgroup": "AS7",
-            "grade": "All",
+            "grade": "all",
             "subject": "read",
             "enrollment_status": "all"
         },
@@ -36731,7 +36731,7 @@
         "key": {
             "year": 2012,
             "subgroup": "BL7",
-            "grade": "All",
+            "grade": "all",
             "subject": "math",
             "enrollment_status": "all"
         },
@@ -36749,7 +36749,7 @@
         "key": {
             "year": 2012,
             "subgroup": "BL7",
-            "grade": "All",
+            "grade": "all",
             "subject": "read",
             "enrollment_status": "all"
         },
@@ -37019,7 +37019,7 @@
         "key": {
             "year": 2012,
             "subgroup": "HI7",
-            "grade": "All",
+            "grade": "all",
             "subject": "math",
             "enrollment_status": "all"
         },
@@ -37037,7 +37037,7 @@
         "key": {
             "year": 2012,
             "subgroup": "HI7",
-            "grade": "All",
+            "grade": "all",
             "subject": "read",
             "enrollment_status": "all"
         },
@@ -37307,7 +37307,7 @@
         "key": {
             "year": 2012,
             "subgroup": "MU7",
-            "grade": "All",
+            "grade": "all",
             "subject": "math",
             "enrollment_status": "all"
         },
@@ -37325,7 +37325,7 @@
         "key": {
             "year": 2012,
             "subgroup": "MU7",
-            "grade": "All",
+            "grade": "all",
             "subject": "read",
             "enrollment_status": "all"
         },
@@ -37595,7 +37595,7 @@
         "key": {
             "year": 2012,
             "subgroup": "PI7",
-            "grade": "All",
+            "grade": "all",
             "subject": "math",
             "enrollment_status": "all"
         },
@@ -37613,7 +37613,7 @@
         "key": {
             "year": 2012,
             "subgroup": "PI7",
-            "grade": "All",
+            "grade": "all",
             "subject": "read",
             "enrollment_status": "all"
         },
@@ -37631,7 +37631,7 @@
         "key": {
             "year": 2012,
             "subgroup": "WH7",
-            "grade": "All",
+            "grade": "all",
             "subject": "math",
             "enrollment_status": "all"
         },
@@ -37649,7 +37649,7 @@
         "key": {
             "year": 2012,
             "subgroup": "WH7",
-            "grade": "All",
+            "grade": "all",
             "subject": "read",
             "enrollment_status": "all"
         },
@@ -37919,7 +37919,7 @@
         "key": {
             "year": 2012,
             "subgroup": "SPED",
-            "grade": "All",
+            "grade": "all",
             "subject": "math",
             "enrollment_status": "all"
         },
@@ -37937,7 +37937,7 @@
         "key": {
             "year": 2012,
             "subgroup": "SPED",
-            "grade": "All",
+            "grade": "all",
             "subject": "read",
             "enrollment_status": "all"
         },
@@ -38207,7 +38207,7 @@
         "key": {
             "year": 2012,
             "subgroup": "LEP",
-            "grade": "All",
+            "grade": "all",
             "subject": "math",
             "enrollment_status": "all"
         },
@@ -38225,7 +38225,7 @@
         "key": {
             "year": 2012,
             "subgroup": "LEP",
-            "grade": "All",
+            "grade": "all",
             "subject": "read",
             "enrollment_status": "all"
         },
@@ -38495,7 +38495,7 @@
         "key": {
             "year": 2012,
             "subgroup": "Economy",
-            "grade": "All",
+            "grade": "all",
             "subject": "math",
             "enrollment_status": "all"
         },
@@ -38513,7 +38513,7 @@
         "key": {
             "year": 2012,
             "subgroup": "Economy",
-            "grade": "All",
+            "grade": "all",
             "subject": "read",
             "enrollment_status": "all"
         },
@@ -38783,7 +38783,7 @@
         "key": {
             "year": 2012,
             "subgroup": "Direct Cert",
-            "grade": "All",
+            "grade": "all",
             "subject": "math",
             "enrollment_status": "all"
         },
@@ -38801,7 +38801,7 @@
         "key": {
             "year": 2012,
             "subgroup": "Direct Cert",
-            "grade": "All",
+            "grade": "all",
             "subject": "read",
             "enrollment_status": "all"
         },
@@ -39071,7 +39071,7 @@
         "key": {
             "year": 2014,
             "subgroup": "All",
-            "grade": "All",
+            "grade": "all",
             "subject": "composition",
             "enrollment_status": "all"
         },
@@ -39089,7 +39089,7 @@
         "key": {
             "year": 2011,
             "subgroup": "All",
-            "grade": "All",
+            "grade": "all",
             "subject": "composition",
             "enrollment_status": "all"
         },
@@ -39107,7 +39107,7 @@
         "key": {
             "year": 2012,
             "subgroup": "All",
-            "grade": "All",
+            "grade": "all",
             "subject": "composition",
             "enrollment_status": "all"
         },
@@ -39125,7 +39125,7 @@
         "key": {
             "year": 2013,
             "subgroup": "All",
-            "grade": "All",
+            "grade": "all",
             "subject": "composition",
             "enrollment_status": "all"
         },
@@ -39143,7 +39143,7 @@
         "key": {
             "year": 2014,
             "subgroup": "All",
-            "grade": "All",
+            "grade": "all",
             "subject": "science",
             "enrollment_status": "all"
         },
@@ -39161,7 +39161,7 @@
         "key": {
             "year": 2011,
             "subgroup": "All",
-            "grade": "All",
+            "grade": "all",
             "subject": "science",
             "enrollment_status": "all"
         },
@@ -39179,7 +39179,7 @@
         "key": {
             "year": 2012,
             "subgroup": "All",
-            "grade": "All",
+            "grade": "all",
             "subject": "science",
             "enrollment_status": "all"
         },
@@ -39197,7 +39197,7 @@
         "key": {
             "year": 2013,
             "subgroup": "All",
-            "grade": "All",
+            "grade": "all",
             "subject": "science",
             "enrollment_status": "all"
         },

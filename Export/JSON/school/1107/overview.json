@@ -1,0 +1,75 @@
+{
+	"timestamp": "Thu Jan 29 15:19:35 2015",
+	"org_type": "school",
+	"org_name": "Center City PCS – Shaw",
+	"org_code": "1107",
+	"closed": false,
+	"charter": true,
+	"school_type": [
+		"Regular school"
+	 ],
+	"pmf": {
+		"id": "pcsb_pmf",
+		"data": [
+			{
+				"key": {"year": "2011", "category": "ESMS"}, 
+				"val": {"score": 0.4686, "tier": "2", "url": "dashboard.dcpcsb.org/detailed/22"}
+			},
+			{
+				"key": {"year": "2012", "category": "ESMS"}, 
+				"val": {"score": 0.504, "tier": "2", "url": "dashboard.dcpcsb.org/detailed/22"}
+			},
+			{
+				"key": {"year": "2013", "category": "ESMS"}, 
+				"val": {"score": 0.523, "tier": "2", "url": "dashboard.dcpcsb.org/detailed/22"}
+			},
+			{
+				"key": {"year": "2014"}, 
+				"val": {"score": 0.688, "tier": "1", "url": "dashboard.dcpcsb.org/detailed/22"}
+			}
+		]
+	},
+	"great_schools": {
+		"gs_url": "http://www.greatschools.org/washington-dc/washington/597-Center-City-PCS---Shaw"
+	},
+	"ward": "6",
+	"grades_serviced": ["01","02","03","04","05","06","07","08","KG","PK4"],
+	"grades_accepted": ["KG","01","PK4","03","04","05","02","07","08","06"],
+	"description": "The Center City Public Charter Schools (Center City PCS) empower our children for success through a rigorous academic program and strong character education while challenging students to pursue personal excellence in character, conduct, and scholarship in order to develop the skills necessary to both serve and lead others in the 21st century.",
+	 "address": {
+		"line_1": "711 N Street NW",
+		"line_2": null,
+		"city": "Washington",
+		"state": "DC",
+		"zip": "20001",
+		"lat": 38.90744,
+		"long": -77.02267
+	 },
+	"transit": "Mount Vernon Square-7th Street-Convention Center Metro Station/70",
+	"website": "http://www.centercitypcs.org",
+	"facebook": null,
+	"twitter": null,
+	"external_report_card": "http://issuu.com/pcsb/docs/dcpcsb_pmf_2013/79",
+	"equity_report_url": 
+"http://osse.dc.gov/sites/default/files/dc/sites/osse/publication/attachments/2013_Equity_Report_PCSB_External_Center%20City%20PCS%20%E2%80%93%20Shaw%20.pdf",
+	"contact": [
+		{
+			"name": "Ralph F. Boyd, Jr.",
+			"title": "Board Chair",
+			"phone": null,
+			"email": null
+		},
+		{
+			"name": "Demetria Gartrell",
+			"title": "Principal",
+			"phone": null,
+			"email": null
+		},
+		{
+			"name": "Russ Williams",
+			"title": "Executive Director",
+			"phone": null,
+			"email": null
+		}
+	]
+}
