@@ -1,0 +1,35 @@
+{
+"timestamp": "Fri Feb 13 16:09:19 2015",
+"org_type": "school",
+"org_name": "BASIS DC PCS",
+"org_code": "3068",
+"exhibit": {
+	"id": "pcsb_pmf",
+	"data":  
+[
+    {
+        "key": {
+            "year": 2013,
+            "category": "ESMS"
+        },
+        "val": {
+            "score": 0.673,
+            "tier": null,
+            "url": "dashboard.dcpcsb.org/detailed/9"
+        }
+    },
+    {
+        "key": {
+            "year": 2014,
+            "category": null
+        },
+        "val": {
+            "score": 0.719,
+            "tier": 1,
+            "url": "dashboard.dcpcsb.org/detailed/9"
+        }
+    }
+]
+
+	}
+}

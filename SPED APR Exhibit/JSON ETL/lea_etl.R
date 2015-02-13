@@ -12,6 +12,8 @@ lea_sped$indicator[which(lea_sped$indicator=='3c_elem.reading')] <- '3c_elem_rea
 lea_sped$indicator[which(lea_sped$indicator=='3c_sec.math')] <- '3c_sec_math'
 lea_sped$indicator[which(lea_sped$indicator=='3c_sec.reading')] <- '3c_sec_reading'
 
+# lea_sped <- subset(lea_sped,!is.na(lea_sped$val))
+
 setwd('U:/LearnDC ETL V2/Export/CSV/lea')
 write.csv(lea_sped, "SPED_APR_LEA.csv", row.names=FALSE)
 
