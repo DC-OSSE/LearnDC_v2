@@ -1,0 +1,91 @@
+{
+"timestamp": "Wed Feb 18 15:25:15 2015",
+"org_type": "school",
+"org_name": "COMMUNITY ACADEMY BUTLER GLOBAL",
+"org_code": "0106",
+"exhibit": {
+	"id": "amo_targets",
+	"data":  
+[
+    {
+        "key": {
+            "subject": "Math",
+            "grade": "all",
+            "enrollment_status": "full_year",
+            "subgroup": "All",
+            "year": 2014
+        },
+        "val": {
+            "baseline": 0.7115,
+            "target": 0.7837
+        }
+    },
+    {
+        "key": {
+            "subject": "Math",
+            "grade": "all",
+            "enrollment_status": "full_year",
+            "subgroup": "BL7",
+            "year": 2014
+        },
+        "val": {
+            "baseline": 0.6579,
+            "target": 0.7434
+        }
+    },
+    {
+        "key": {
+            "subject": "Math",
+            "grade": "all",
+            "enrollment_status": "full_year",
+            "subgroup": "ECONOMY",
+            "year": 2014
+        },
+        "val": {
+            "baseline": 0.6957,
+            "target": 0.7717
+        }
+    },
+    {
+        "key": {
+            "subject": "Reading",
+            "grade": "all",
+            "enrollment_status": "full_year",
+            "subgroup": "All",
+            "year": 2014
+        },
+        "val": {
+            "baseline": 0.6731,
+            "target": 0.7548
+        }
+    },
+    {
+        "key": {
+            "subject": "Reading",
+            "grade": "all",
+            "enrollment_status": "full_year",
+            "subgroup": "BL7",
+            "year": 2014
+        },
+        "val": {
+            "baseline": 0.6842,
+            "target": 0.7632
+        }
+    },
+    {
+        "key": {
+            "subject": "Reading",
+            "grade": "all",
+            "enrollment_status": "full_year",
+            "subgroup": "ECONOMY",
+            "year": 2014
+        },
+        "val": {
+            "baseline": 0.6739,
+            "target": 0.7554
+        }
+    }
+]
+
+	}
+}

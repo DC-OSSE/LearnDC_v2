@@ -1,0 +1,91 @@
+{
+"timestamp": "Wed Feb 18 15:25:18 2015",
+"org_type": "school",
+"org_name": "RANDLE HIGHLANDS ES",
+"org_code": "0316",
+"exhibit": {
+	"id": "amo_targets",
+	"data":  
+[
+    {
+        "key": {
+            "subject": "Math",
+            "grade": "all",
+            "enrollment_status": "full_year",
+            "subgroup": "All",
+            "year": 2014
+        },
+        "val": {
+            "baseline": 0.3867,
+            "target": 0.54
+        }
+    },
+    {
+        "key": {
+            "subject": "Math",
+            "grade": "all",
+            "enrollment_status": "full_year",
+            "subgroup": "ECONOMY",
+            "year": 2014
+        },
+        "val": {
+            "baseline": 0.3519,
+            "target": 0.5139
+        }
+    },
+    {
+        "key": {
+            "subject": "Math",
+            "grade": "all",
+            "enrollment_status": "full_year",
+            "subgroup": "BL7",
+            "year": 2014
+        },
+        "val": {
+            "baseline": 0.3867,
+            "target": 0.54
+        }
+    },
+    {
+        "key": {
+            "subject": "Reading",
+            "grade": "all",
+            "enrollment_status": "full_year",
+            "subgroup": "All",
+            "year": 2014
+        },
+        "val": {
+            "baseline": 0.3667,
+            "target": 0.525
+        }
+    },
+    {
+        "key": {
+            "subject": "Reading",
+            "grade": "all",
+            "enrollment_status": "full_year",
+            "subgroup": "ECONOMY",
+            "year": 2014
+        },
+        "val": {
+            "baseline": 0.3426,
+            "target": 0.5069
+        }
+    },
+    {
+        "key": {
+            "subject": "Reading",
+            "grade": "all",
+            "enrollment_status": "full_year",
+            "subgroup": "BL7",
+            "year": 2014
+        },
+        "val": {
+            "baseline": 0.3667,
+            "target": 0.525
+        }
+    }
+]
+
+	}
+}

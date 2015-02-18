@@ -1,0 +1,94 @@
+{
+	"timestamp": "Wed Feb 18 16:03:10 2015",
+	"org_type": "school",
+	"org_name": "Washington Latin PCS – Middle School",
+	"org_code": "0125",
+	"report_card": {
+		"sections": [
+			{
+				"id": "accountability",
+				"data": [{
+						"year": "2013", 
+						"score": 82.47, 
+						"classification": "Reward", 
+						"growth": -1.41, 
+						"subgroups": [
+							{
+								"subgroup": "All",
+								"read_size": 362,
+								"read_score": 81.88,
+								"math_size": 362,
+								"math_score": 80.8,
+								"comp_size": 91,
+								"comp_score": 91.43
+							},
+							{
+								"subgroup": "Male",
+								"read_size": 182,
+								"read_score": 82.91,
+								"math_size": 182,
+								"math_score": 81.87,
+								"comp_size": 44,
+								"comp_score": 85.45
+							},
+							{
+								"subgroup": "Female",
+								"read_size": 180,
+								"read_score": 80.83,
+								"math_size": 180,
+								"math_score": 79.72,
+								"comp_size": 47,
+								"comp_score": 97.02
+							},
+							{
+								"subgroup": "African American",
+								"read_size": 160,
+								"read_score": 65.75,
+								"math_size": 160,
+								"math_score": 67.94,
+								"comp_size": 47,
+								"comp_score": 83.4
+							},
+							{
+								"subgroup": "Hispanic",
+								"read_size": 25,
+								"read_score": 62.8,
+								"math_size": 25,
+								"math_score": 54.8,
+								"comp_size": 6,
+								"comp_score": null
+							},
+							{
+								"subgroup": "White",
+								"read_size": 151,
+								"read_score": 99.8,
+								"math_size": 151,
+								"math_score": 96.16,
+								"comp_size": 34,
+								"comp_score": 102.06
+							},
+							{
+								"subgroup": "Special Education",
+								"read_size": 28,
+								"read_score": 56.07,
+								"math_size": 28,
+								"math_score": 47.14,
+								"comp_size": 9,
+								"comp_score": null
+							},
+							{
+								"subgroup": "Economically Disadvantaged",
+								"read_size": 81,
+								"read_score": 64.44,
+								"math_size": 81,
+								"math_score": 63.09,
+								"comp_size": 21,
+								"comp_score": null
+							}
+						]
+					}
+				]
+			},
+		]
+	 }
+}

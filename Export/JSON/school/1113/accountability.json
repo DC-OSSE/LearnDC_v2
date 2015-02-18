@@ -1,0 +1,67 @@
+{
+	"timestamp": "Wed Feb 18 16:03:33 2015",
+	"org_type": "school",
+	"org_name": "Excel Academy PCS",
+	"org_code": "1113",
+	"report_card": {
+		"sections": [
+			{
+				"id": "accountability",
+				"data": [{
+						"year": "2013", 
+						"score": 43.41, 
+						"classification": "Focus", 
+						"growth": -12.5, 
+						"subgroups": [
+							{
+								"subgroup": "All",
+								"read_size": 156,
+								"read_score": 48.01,
+								"math_size": 154,
+								"math_score": 38.57,
+								"comp_size": 45,
+								"comp_score": 44
+							},
+							{
+								"subgroup": "Female",
+								"read_size": 156,
+								"read_score": 48.01,
+								"math_size": 154,
+								"math_score": 38.57,
+								"comp_size": 45,
+								"comp_score": 44
+							},
+							{
+								"subgroup": "African American",
+								"read_size": 154,
+								"read_score": 47.86,
+								"math_size": 152,
+								"math_score": 38.95,
+								"comp_size": 44,
+								"comp_score": 44.55
+							},
+							{
+								"subgroup": "Special Education",
+								"read_size": 28,
+								"read_score": 16.43,
+								"math_size": 26,
+								"math_score": 6.92,
+								"comp_size": 9,
+								"comp_score": null
+							},
+							{
+								"subgroup": "Economically Disadvantaged",
+								"read_size": 156,
+								"read_score": 48.01,
+								"math_size": 154,
+								"math_score": 38.57,
+								"comp_size": 45,
+								"comp_score": 44
+							}
+						]
+					}
+				]
+			},
+		]
+	 }
+}

@@ -1,0 +1,76 @@
+{
+	"timestamp": "Wed Feb 18 16:03:27 2015",
+	"org_type": "school",
+	"org_name": "Friendship PCS – Chamberlain Middle",
+	"org_code": "0364",
+	"report_card": {
+		"sections": [
+			{
+				"id": "accountability",
+				"data": [{
+						"year": "2013", 
+						"score": 63.86, 
+						"classification": "Rising", 
+						"growth": null, 
+						"subgroups": [
+							{
+								"subgroup": "All",
+								"read_size": 341,
+								"read_score": 55.92,
+								"math_size": 341,
+								"math_score": 75.72,
+								"comp_size": 140,
+								"comp_score": 54.29
+							},
+							{
+								"subgroup": "Male",
+								"read_size": 157,
+								"read_score": 47.9,
+								"math_size": 157,
+								"math_score": 73.25,
+								"comp_size": 67,
+								"comp_score": 48.96
+							},
+							{
+								"subgroup": "Female",
+								"read_size": 184,
+								"read_score": 62.77,
+								"math_size": 184,
+								"math_score": 77.83,
+								"comp_size": 73,
+								"comp_score": 59.18
+							},
+							{
+								"subgroup": "African American",
+								"read_size": 339,
+								"read_score": 55.84,
+								"math_size": 339,
+								"math_score": 75.58,
+								"comp_size": 139,
+								"comp_score": 54.53
+							},
+							{
+								"subgroup": "Special Education",
+								"read_size": 53,
+								"read_score": 20.75,
+								"math_size": 53,
+								"math_score": 32.26,
+								"comp_size": 21,
+								"comp_score": null
+							},
+							{
+								"subgroup": "Economically Disadvantaged",
+								"read_size": 341,
+								"read_score": 55.92,
+								"math_size": 341,
+								"math_score": 75.72,
+								"comp_size": 140,
+								"comp_score": 54.29
+							}
+						]
+					}
+				]
+			},
+		]
+	 }
+}

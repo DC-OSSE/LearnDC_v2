@@ -1,0 +1,91 @@
+{
+"timestamp": "Wed Feb 18 15:25:26 2015",
+"org_type": "school",
+"org_name": "MINER ES",
+"org_code": "0280",
+"exhibit": {
+	"id": "amo_targets",
+	"data":  
+[
+    {
+        "key": {
+            "subject": "Math",
+            "grade": "all",
+            "enrollment_status": "full_year",
+            "subgroup": "BL7",
+            "year": 2014
+        },
+        "val": {
+            "baseline": 0.331,
+            "target": 0.4983
+        }
+    },
+    {
+        "key": {
+            "subject": "Math",
+            "grade": "all",
+            "enrollment_status": "full_year",
+            "subgroup": "All",
+            "year": 2014
+        },
+        "val": {
+            "baseline": 0.3311,
+            "target": 0.4983
+        }
+    },
+    {
+        "key": {
+            "subject": "Math",
+            "grade": "all",
+            "enrollment_status": "full_year",
+            "subgroup": "ECONOMY",
+            "year": 2014
+        },
+        "val": {
+            "baseline": 0.3231,
+            "target": 0.4923
+        }
+    },
+    {
+        "key": {
+            "subject": "Reading",
+            "grade": "all",
+            "enrollment_status": "full_year",
+            "subgroup": "BL7",
+            "year": 2014
+        },
+        "val": {
+            "baseline": 0.3517,
+            "target": 0.5138
+        }
+    },
+    {
+        "key": {
+            "subject": "Reading",
+            "grade": "all",
+            "enrollment_status": "full_year",
+            "subgroup": "All",
+            "year": 2014
+        },
+        "val": {
+            "baseline": 0.3649,
+            "target": 0.5236
+        }
+    },
+    {
+        "key": {
+            "subject": "Reading",
+            "grade": "all",
+            "enrollment_status": "full_year",
+            "subgroup": "ECONOMY",
+            "year": 2014
+        },
+        "val": {
+            "baseline": 0.3385,
+            "target": 0.5038
+        }
+    }
+]
+
+	}
+}

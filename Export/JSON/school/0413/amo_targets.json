@@ -1,0 +1,117 @@
+{
+"timestamp": "Wed Feb 18 15:25:23 2015",
+"org_type": "school",
+"org_name": "HART MS",
+"org_code": "0413",
+"exhibit": {
+	"id": "amo_targets",
+	"data":  
+[
+    {
+        "key": {
+            "subject": "Math",
+            "grade": "all",
+            "enrollment_status": "full_year",
+            "subgroup": "ECONOMY",
+            "year": 2014
+        },
+        "val": {
+            "baseline": 0.2991,
+            "target": 0.4743
+        }
+    },
+    {
+        "key": {
+            "subject": "Math",
+            "grade": "all",
+            "enrollment_status": "full_year",
+            "subgroup": "SPED",
+            "year": 2014
+        },
+        "val": {
+            "baseline": 0.1284,
+            "target": 0.3463
+        }
+    },
+    {
+        "key": {
+            "subject": "Math",
+            "grade": "all",
+            "enrollment_status": "full_year",
+            "subgroup": "All",
+            "year": 2014
+        },
+        "val": {
+            "baseline": 0.3149,
+            "target": 0.4862
+        }
+    },
+    {
+        "key": {
+            "subject": "Math",
+            "grade": "all",
+            "enrollment_status": "full_year",
+            "subgroup": "BL7",
+            "year": 2014
+        },
+        "val": {
+            "baseline": 0.3111,
+            "target": 0.4833
+        }
+    },
+    {
+        "key": {
+            "subject": "Reading",
+            "grade": "all",
+            "enrollment_status": "full_year",
+            "subgroup": "ECONOMY",
+            "year": 2014
+        },
+        "val": {
+            "baseline": 0.2826,
+            "target": 0.462
+        }
+    },
+    {
+        "key": {
+            "subject": "Reading",
+            "grade": "all",
+            "enrollment_status": "full_year",
+            "subgroup": "SPED",
+            "year": 2014
+        },
+        "val": {
+            "baseline": 0.1009,
+            "target": 0.3257
+        }
+    },
+    {
+        "key": {
+            "subject": "Reading",
+            "grade": "all",
+            "enrollment_status": "full_year",
+            "subgroup": "All",
+            "year": 2014
+        },
+        "val": {
+            "baseline": 0.2948,
+            "target": 0.4711
+        }
+    },
+    {
+        "key": {
+            "subject": "Reading",
+            "grade": "all",
+            "enrollment_status": "full_year",
+            "subgroup": "BL7",
+            "year": 2014
+        },
+        "val": {
+            "baseline": 0.2909,
+            "target": 0.4681
+        }
+    }
+]
+
+	}
+}

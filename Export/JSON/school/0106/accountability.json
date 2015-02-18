@@ -1,0 +1,67 @@
+{
+	"timestamp": "Wed Feb 18 16:03:09 2015",
+	"org_type": "school",
+	"org_name": "Community Academy PCS – Butler Global",
+	"org_code": "0106",
+	"report_card": {
+		"sections": [
+			{
+				"id": "accountability",
+				"data": [{
+						"year": "2013", 
+						"score": 58.48, 
+						"classification": "Rising", 
+						"growth": -17.68, 
+						"subgroups": [
+							{
+								"subgroup": "All",
+								"read_size": 55,
+								"read_score": 62.91,
+								"math_size": 55,
+								"math_score": 52.55,
+								"comp_size": 15,
+								"comp_score": null
+							},
+							{
+								"subgroup": "Male",
+								"read_size": 29,
+								"read_score": 44.83,
+								"math_size": 29,
+								"math_score": 38.28,
+								"comp_size": 7,
+								"comp_score": null
+							},
+							{
+								"subgroup": "Female",
+								"read_size": 26,
+								"read_score": 83.08,
+								"math_size": 26,
+								"math_score": 68.46,
+								"comp_size": 8,
+								"comp_score": null
+							},
+							{
+								"subgroup": "African American",
+								"read_size": 41,
+								"read_score": 64.88,
+								"math_size": 41,
+								"math_score": 50.49,
+								"comp_size": 9,
+								"comp_score": null
+							},
+							{
+								"subgroup": "Economically Disadvantaged",
+								"read_size": 55,
+								"read_score": 62.91,
+								"math_size": 55,
+								"math_score": 52.55,
+								"comp_size": 15,
+								"comp_score": null
+							}
+						]
+					}
+				]
+			},
+		]
+	 }
+}

@@ -1,0 +1,91 @@
+{
+"timestamp": "Wed Feb 18 15:25:20 2015",
+"org_type": "school",
+"org_name": "J O WILSON ES",
+"org_code": "0339",
+"exhibit": {
+	"id": "amo_targets",
+	"data":  
+[
+    {
+        "key": {
+            "subject": "Math",
+            "grade": "all",
+            "enrollment_status": "full_year",
+            "subgroup": "BL7",
+            "year": 2014
+        },
+        "val": {
+            "baseline": 0.5391,
+            "target": 0.6543
+        }
+    },
+    {
+        "key": {
+            "subject": "Math",
+            "grade": "all",
+            "enrollment_status": "full_year",
+            "subgroup": "ECONOMY",
+            "year": 2014
+        },
+        "val": {
+            "baseline": 0.5243,
+            "target": 0.6432
+        }
+    },
+    {
+        "key": {
+            "subject": "Math",
+            "grade": "all",
+            "enrollment_status": "full_year",
+            "subgroup": "All",
+            "year": 2014
+        },
+        "val": {
+            "baseline": 0.5345,
+            "target": 0.6509
+        }
+    },
+    {
+        "key": {
+            "subject": "Reading",
+            "grade": "all",
+            "enrollment_status": "full_year",
+            "subgroup": "BL7",
+            "year": 2014
+        },
+        "val": {
+            "baseline": 0.5391,
+            "target": 0.6543
+        }
+    },
+    {
+        "key": {
+            "subject": "Reading",
+            "grade": "all",
+            "enrollment_status": "full_year",
+            "subgroup": "ECONOMY",
+            "year": 2014
+        },
+        "val": {
+            "baseline": 0.5243,
+            "target": 0.6432
+        }
+    },
+    {
+        "key": {
+            "subject": "Reading",
+            "grade": "all",
+            "enrollment_status": "full_year",
+            "subgroup": "All",
+            "year": 2014
+        },
+        "val": {
+            "baseline": 0.5345,
+            "target": 0.6509
+        }
+    }
+]
+
+	}
+}

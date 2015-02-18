@@ -1,0 +1,67 @@
+{
+	"timestamp": "Wed Feb 18 16:03:10 2015",
+	"org_type": "school",
+	"org_name": "Howard University Math and Science PCS",
+	"org_code": "0115",
+	"report_card": {
+		"sections": [
+			{
+				"id": "accountability",
+				"data": [{
+						"year": "2013", 
+						"score": 77.28, 
+						"classification": "Rising", 
+						"growth": -1.5, 
+						"subgroups": [
+							{
+								"subgroup": "All",
+								"read_size": 300,
+								"read_score": 71.37,
+								"math_size": 301,
+								"math_score": 83.89,
+								"comp_size": 106,
+								"comp_score": 75.28
+							},
+							{
+								"subgroup": "Male",
+								"read_size": 138,
+								"read_score": 69.35,
+								"math_size": 138,
+								"math_score": 85.87,
+								"comp_size": 50,
+								"comp_score": 67.8
+							},
+							{
+								"subgroup": "Female",
+								"read_size": 162,
+								"read_score": 73.09,
+								"math_size": 163,
+								"math_score": 82.21,
+								"comp_size": 56,
+								"comp_score": 81.96
+							},
+							{
+								"subgroup": "African American",
+								"read_size": 288,
+								"read_score": 71.6,
+								"math_size": 289,
+								"math_score": 83.7,
+								"comp_size": 101,
+								"comp_score": 77.72
+							},
+							{
+								"subgroup": "Economically Disadvantaged",
+								"read_size": 197,
+								"read_score": 67.92,
+								"math_size": 198,
+								"math_score": 81.52,
+								"comp_size": 71,
+								"comp_score": 75.07
+							}
+						]
+					}
+				]
+			},
+		]
+	 }
+}

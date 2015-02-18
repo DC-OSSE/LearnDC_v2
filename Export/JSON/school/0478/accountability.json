@@ -1,0 +1,67 @@
+{
+	"timestamp": "Wed Feb 18 16:03:31 2015",
+	"org_type": "school",
+	"org_name": "Phelps Architecture, Construction, and Engineering High School",
+	"org_code": "0478",
+	"report_card": {
+		"sections": [
+			{
+				"id": "accountability",
+				"data": [{
+						"year": "2013", 
+						"score": 45.19, 
+						"classification": "Rising", 
+						"growth": -2.75, 
+						"subgroups": [
+							{
+								"subgroup": "All",
+								"read_size": 70,
+								"read_score": 54.29,
+								"math_size": 70,
+								"math_score": 37.71,
+								"comp_size": 68,
+								"comp_score": 43.53
+							},
+							{
+								"subgroup": "Male",
+								"read_size": 42,
+								"read_score": 55,
+								"math_size": 42,
+								"math_score": 22.86,
+								"comp_size": 40,
+								"comp_score": 36.75
+							},
+							{
+								"subgroup": "Female",
+								"read_size": 28,
+								"read_score": 53.21,
+								"math_size": 28,
+								"math_score": 60,
+								"comp_size": 28,
+								"comp_score": 53.21
+							},
+							{
+								"subgroup": "African American",
+								"read_size": 63,
+								"read_score": 57.14,
+								"math_size": 63,
+								"math_score": 38.73,
+								"comp_size": 62,
+								"comp_score": 42.42
+							},
+							{
+								"subgroup": "Economically Disadvantaged",
+								"read_size": 47,
+								"read_score": 47.87,
+								"math_size": 47,
+								"math_score": 39.57,
+								"comp_size": 46,
+								"comp_score": 39.57
+							}
+						]
+					}
+				]
+			},
+		]
+	 }
+}

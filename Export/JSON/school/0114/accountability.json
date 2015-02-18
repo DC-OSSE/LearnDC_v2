@@ -1,0 +1,76 @@
+{
+	"timestamp": "Wed Feb 18 16:03:10 2015",
+	"org_type": "school",
+	"org_name": "Hope Community PCS – Tolson",
+	"org_code": "0114",
+	"report_card": {
+		"sections": [
+			{
+				"id": "accountability",
+				"data": [{
+						"year": "2013", 
+						"score": 59.15, 
+						"classification": "Rising", 
+						"growth": 2.96, 
+						"subgroups": [
+							{
+								"subgroup": "All",
+								"read_size": 153,
+								"read_score": 55.82,
+								"math_size": 153,
+								"math_score": 58.37,
+								"comp_size": 49,
+								"comp_score": 72.04
+							},
+							{
+								"subgroup": "Male",
+								"read_size": 83,
+								"read_score": 50.6,
+								"math_size": 83,
+								"math_score": 59.28,
+								"comp_size": 24,
+								"comp_score": null
+							},
+							{
+								"subgroup": "Female",
+								"read_size": 70,
+								"read_score": 62,
+								"math_size": 70,
+								"math_score": 57.29,
+								"comp_size": 25,
+								"comp_score": 80.8
+							},
+							{
+								"subgroup": "African American",
+								"read_size": 149,
+								"read_score": 55.97,
+								"math_size": 149,
+								"math_score": 57.85,
+								"comp_size": 48,
+								"comp_score": 73.12
+							},
+							{
+								"subgroup": "Special Education",
+								"read_size": 30,
+								"read_score": 24.67,
+								"math_size": 30,
+								"math_score": 32,
+								"comp_size": 8,
+								"comp_score": null
+							},
+							{
+								"subgroup": "Economically Disadvantaged",
+								"read_size": 134,
+								"read_score": 54.33,
+								"math_size": 134,
+								"math_score": 54.7,
+								"comp_size": 46,
+								"comp_score": 71.74
+							}
+						]
+					}
+				]
+			},
+		]
+	 }
+}

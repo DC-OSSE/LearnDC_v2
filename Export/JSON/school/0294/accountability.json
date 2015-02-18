@@ -1,0 +1,76 @@
+{
+	"timestamp": "Wed Feb 18 16:03:22 2015",
+	"org_type": "school",
+	"org_name": "Patterson Elementary School",
+	"org_code": "0294",
+	"report_card": {
+		"sections": [
+			{
+				"id": "accountability",
+				"data": [{
+						"year": "2013", 
+						"score": 23.54, 
+						"classification": "Priority", 
+						"growth": -0.34, 
+						"subgroups": [
+							{
+								"subgroup": "All",
+								"read_size": 112,
+								"read_score": 25.8,
+								"math_size": 112,
+								"math_score": 18.93,
+								"comp_size": 47,
+								"comp_score": 29.15
+							},
+							{
+								"subgroup": "Male",
+								"read_size": 58,
+								"read_score": 23.79,
+								"math_size": 58,
+								"math_score": 21.03,
+								"comp_size": 24,
+								"comp_score": null
+							},
+							{
+								"subgroup": "Female",
+								"read_size": 54,
+								"read_score": 27.96,
+								"math_size": 54,
+								"math_score": 16.67,
+								"comp_size": 23,
+								"comp_score": null
+							},
+							{
+								"subgroup": "African American",
+								"read_size": 108,
+								"read_score": 26.39,
+								"math_size": 108,
+								"math_score": 18.7,
+								"comp_size": 46,
+								"comp_score": 27.61
+							},
+							{
+								"subgroup": "Special Education",
+								"read_size": 33,
+								"read_score": 22.12,
+								"math_size": 33,
+								"math_score": 19.39,
+								"comp_size": 11,
+								"comp_score": null
+							},
+							{
+								"subgroup": "Economically Disadvantaged",
+								"read_size": 112,
+								"read_score": 25.8,
+								"math_size": 112,
+								"math_score": 18.93,
+								"comp_size": 47,
+								"comp_score": 29.15
+							}
+						]
+					}
+				]
+			},
+		]
+	 }
+}

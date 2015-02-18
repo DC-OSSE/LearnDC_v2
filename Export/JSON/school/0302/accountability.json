@@ -1,0 +1,94 @@
+{
+	"timestamp": "Wed Feb 18 16:03:23 2015",
+	"org_type": "school",
+	"org_name": "Raymond Education Campus",
+	"org_code": "0302",
+	"report_card": {
+		"sections": [
+			{
+				"id": "accountability",
+				"data": [{
+						"year": "2013", 
+						"score": 56.62, 
+						"classification": "Rising", 
+						"growth": 5.51, 
+						"subgroups": [
+							{
+								"subgroup": "All",
+								"read_size": 222,
+								"read_score": 51.76,
+								"math_size": 222,
+								"math_score": 62.12,
+								"comp_size": 82,
+								"comp_score": 54.88
+							},
+							{
+								"subgroup": "Male",
+								"read_size": 114,
+								"read_score": 47.54,
+								"math_size": 114,
+								"math_score": 63.95,
+								"comp_size": 41,
+								"comp_score": 50
+							},
+							{
+								"subgroup": "Female",
+								"read_size": 108,
+								"read_score": 56.2,
+								"math_size": 108,
+								"math_score": 60.19,
+								"comp_size": 41,
+								"comp_score": 59.76
+							},
+							{
+								"subgroup": "African American",
+								"read_size": 88,
+								"read_score": 56.93,
+								"math_size": 88,
+								"math_score": 68.18,
+								"comp_size": 29,
+								"comp_score": 57.59
+							},
+							{
+								"subgroup": "Hispanic",
+								"read_size": 130,
+								"read_score": 48.46,
+								"math_size": 130,
+								"math_score": 56.69,
+								"comp_size": 52,
+								"comp_score": 54.42
+							},
+							{
+								"subgroup": "Special Education",
+								"read_size": 36,
+								"read_score": 22.22,
+								"math_size": 36,
+								"math_score": 40.28,
+								"comp_size": 17,
+								"comp_score": null
+							},
+							{
+								"subgroup": "English Learner",
+								"read_size": 92,
+								"read_score": 35.33,
+								"math_size": 92,
+								"math_score": 52.28,
+								"comp_size": 42,
+								"comp_score": 37.62
+							},
+							{
+								"subgroup": "Economically Disadvantaged",
+								"read_size": 222,
+								"read_score": 51.76,
+								"math_size": 222,
+								"math_score": 62.12,
+								"comp_size": 82,
+								"comp_score": 54.88
+							}
+						]
+					}
+				]
+			},
+		]
+	 }
+}

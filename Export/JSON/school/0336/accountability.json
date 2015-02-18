@@ -1,0 +1,76 @@
+{
+	"timestamp": "Wed Feb 18 16:03:25 2015",
+	"org_type": "school",
+	"org_name": "West Education Campus",
+	"org_code": "0336",
+	"report_card": {
+		"sections": [
+			{
+				"id": "accountability",
+				"data": [{
+						"year": "2013", 
+						"score": 64.62, 
+						"classification": "Rising", 
+						"growth": 2.09, 
+						"subgroups": [
+							{
+								"subgroup": "All",
+								"read_size": 116,
+								"read_score": 59.83,
+								"math_size": 116,
+								"math_score": 73.45,
+								"comp_size": 43,
+								"comp_score": 53.72
+							},
+							{
+								"subgroup": "Male",
+								"read_size": 59,
+								"read_score": 56.78,
+								"math_size": 59,
+								"math_score": 68.98,
+								"comp_size": 22,
+								"comp_score": null
+							},
+							{
+								"subgroup": "Female",
+								"read_size": 57,
+								"read_score": 62.98,
+								"math_size": 57,
+								"math_score": 78.07,
+								"comp_size": 21,
+								"comp_score": null
+							},
+							{
+								"subgroup": "African American",
+								"read_size": 78,
+								"read_score": 58.33,
+								"math_size": 78,
+								"math_score": 73.72,
+								"comp_size": 28,
+								"comp_score": 48.57
+							},
+							{
+								"subgroup": "Hispanic",
+								"read_size": 32,
+								"read_score": 58.75,
+								"math_size": 32,
+								"math_score": 70,
+								"comp_size": 12,
+								"comp_score": null
+							},
+							{
+								"subgroup": "Economically Disadvantaged",
+								"read_size": 81,
+								"read_score": 54.81,
+								"math_size": 81,
+								"math_score": 70.37,
+								"comp_size": 30,
+								"comp_score": 47.33
+							}
+						]
+					}
+				]
+			},
+		]
+	 }
+}

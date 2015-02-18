@@ -1,0 +1,76 @@
+{
+	"timestamp": "Wed Feb 18 16:03:24 2015",
+	"org_type": "school",
+	"org_name": "Thomson Elementary School",
+	"org_code": "0326",
+	"report_card": {
+		"sections": [
+			{
+				"id": "accountability",
+				"data": [{
+						"year": "2013", 
+						"score": 69.78, 
+						"classification": "Reward", 
+						"growth": 6.45, 
+						"subgroups": [
+							{
+								"subgroup": "All",
+								"read_size": 97,
+								"read_score": 63.92,
+								"math_size": 97,
+								"math_score": 75.88,
+								"comp_size": 31,
+								"comp_score": 69.03
+							},
+							{
+								"subgroup": "Male",
+								"read_size": 55,
+								"read_score": 64.36,
+								"math_size": 55,
+								"math_score": 78.55,
+								"comp_size": 14,
+								"comp_score": null
+							},
+							{
+								"subgroup": "Female",
+								"read_size": 42,
+								"read_score": 63.33,
+								"math_size": 42,
+								"math_score": 72.38,
+								"comp_size": 17,
+								"comp_score": null
+							},
+							{
+								"subgroup": "Hispanic",
+								"read_size": 47,
+								"read_score": 50.64,
+								"math_size": 47,
+								"math_score": 71.06,
+								"comp_size": 13,
+								"comp_score": null
+							},
+							{
+								"subgroup": "English Learner",
+								"read_size": 56,
+								"read_score": 56.96,
+								"math_size": 56,
+								"math_score": 70.71,
+								"comp_size": 22,
+								"comp_score": null
+							},
+							{
+								"subgroup": "Economically Disadvantaged",
+								"read_size": 97,
+								"read_score": 63.92,
+								"math_size": 97,
+								"math_score": 75.88,
+								"comp_size": 31,
+								"comp_score": 69.03
+							}
+						]
+					}
+				]
+			},
+		]
+	 }
+}

@@ -1,0 +1,94 @@
+{
+	"timestamp": "Wed Feb 18 16:03:14 2015",
+	"org_type": "school",
+	"org_name": "Capital City PCS – Middle School",
+	"org_code": "0182",
+	"report_card": {
+		"sections": [
+			{
+				"id": "accountability",
+				"data": [{
+						"year": "2013", 
+						"score": 57.27, 
+						"classification": "Rising", 
+						"growth": -3.45, 
+						"subgroups": [
+							{
+								"subgroup": "All",
+								"read_size": 321,
+								"read_score": 56.64,
+								"math_size": 321,
+								"math_score": 54.92,
+								"comp_size": 76,
+								"comp_score": 69.87
+							},
+							{
+								"subgroup": "Male",
+								"read_size": 161,
+								"read_score": 48.88,
+								"math_size": 161,
+								"math_score": 51.61,
+								"comp_size": 33,
+								"comp_score": 61.21
+							},
+							{
+								"subgroup": "Female",
+								"read_size": 160,
+								"read_score": 64.44,
+								"math_size": 160,
+								"math_score": 58.25,
+								"comp_size": 43,
+								"comp_score": 76.51
+							},
+							{
+								"subgroup": "African American",
+								"read_size": 124,
+								"read_score": 57.02,
+								"math_size": 124,
+								"math_score": 54.92,
+								"comp_size": 27,
+								"comp_score": 79.26
+							},
+							{
+								"subgroup": "Hispanic",
+								"read_size": 149,
+								"read_score": 48.59,
+								"math_size": 149,
+								"math_score": 48.66,
+								"comp_size": 34,
+								"comp_score": 60
+							},
+							{
+								"subgroup": "Special Education",
+								"read_size": 69,
+								"read_score": 31.88,
+								"math_size": 69,
+								"math_score": 32.17,
+								"comp_size": 11,
+								"comp_score": null
+							},
+							{
+								"subgroup": "English Learner",
+								"read_size": 104,
+								"read_score": 36.73,
+								"math_size": 104,
+								"math_score": 40.38,
+								"comp_size": 20,
+								"comp_score": null
+							},
+							{
+								"subgroup": "Economically Disadvantaged",
+								"read_size": 244,
+								"read_score": 51.07,
+								"math_size": 244,
+								"math_score": 50.12,
+								"comp_size": 60,
+								"comp_score": 66.5
+							}
+						]
+					}
+				]
+			},
+		]
+	 }
+}

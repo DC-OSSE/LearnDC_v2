@@ -1,0 +1,67 @@
+{
+	"timestamp": "Wed Feb 18 16:03:34 2015",
+	"org_type": "school",
+	"org_name": "KIPP DC – College Preparatory PCS",
+	"org_code": "1123",
+	"report_card": {
+		"sections": [
+			{
+				"id": "accountability",
+				"data": [{
+						"year": "2013", 
+						"score": 82.96, 
+						"classification": "Reward", 
+						"growth": 4.37, 
+						"subgroups": [
+							{
+								"subgroup": "All",
+								"read_size": 107,
+								"read_score": 73.64,
+								"math_size": 108,
+								"math_score": 98.89,
+								"comp_size": 103,
+								"comp_score": 75.92
+							},
+							{
+								"subgroup": "Male",
+								"read_size": 34,
+								"read_score": 66.76,
+								"math_size": 34,
+								"math_score": 95.59,
+								"comp_size": 33,
+								"comp_score": 76.97
+							},
+							{
+								"subgroup": "Female",
+								"read_size": 73,
+								"read_score": 76.85,
+								"math_size": 74,
+								"math_score": 100.41,
+								"comp_size": 70,
+								"comp_score": 75.43
+							},
+							{
+								"subgroup": "African American",
+								"read_size": 107,
+								"read_score": 73.64,
+								"math_size": 108,
+								"math_score": 98.89,
+								"comp_size": 103,
+								"comp_score": 75.92
+							},
+							{
+								"subgroup": "Economically Disadvantaged",
+								"read_size": 79,
+								"read_score": 72.91,
+								"math_size": 80,
+								"math_score": 101.12,
+								"comp_size": 76,
+								"comp_score": 75.92
+							}
+						]
+					}
+				]
+			},
+		]
+	 }
+}

@@ -1,0 +1,58 @@
+{
+	"timestamp": "Wed Feb 18 16:03:32 2015",
+	"org_type": "school",
+	"org_name": "DC Prep PCS – Benning Elementary",
+	"org_code": "1110",
+	"report_card": {
+		"sections": [
+			{
+				"id": "accountability",
+				"data": [{
+						"year": "2013", 
+						"score": 71.23, 
+						"classification": "Reward", 
+						"growth": 14.23, 
+						"subgroups": [
+							{
+								"subgroup": "All",
+								"read_size": 61,
+								"read_score": 71.15,
+								"math_size": 61,
+								"math_score": 71.31,
+								"comp_size": 0,
+								"comp_score": null
+							},
+							{
+								"subgroup": "Female",
+								"read_size": 38,
+								"read_score": 66.32,
+								"math_size": 38,
+								"math_score": 68.42,
+								"comp_size": 0,
+								"comp_score": null
+							},
+							{
+								"subgroup": "African American",
+								"read_size": 57,
+								"read_score": 69.12,
+								"math_size": 57,
+								"math_score": 70.88,
+								"comp_size": 0,
+								"comp_score": null
+							},
+							{
+								"subgroup": "Economically Disadvantaged",
+								"read_size": 61,
+								"read_score": 71.15,
+								"math_size": 61,
+								"math_score": 71.31,
+								"comp_size": 0,
+								"comp_score": null
+							}
+						]
+					}
+				]
+			},
+		]
+	 }
+}

@@ -1,0 +1,85 @@
+{
+	"timestamp": "Wed Feb 18 16:03:22 2015",
+	"org_type": "school",
+	"org_name": "Bruce-Monroe Elementary School @ Park View",
+	"org_code": "0296",
+	"report_card": {
+		"sections": [
+			{
+				"id": "accountability",
+				"data": [{
+						"year": "2013", 
+						"score": 40.56, 
+						"classification": "Focus", 
+						"growth": -12.89, 
+						"subgroups": [
+							{
+								"subgroup": "All",
+								"read_size": 142,
+								"read_score": 32.61,
+								"math_size": 142,
+								"math_score": 46.83,
+								"comp_size": 35,
+								"comp_score": 47.43
+							},
+							{
+								"subgroup": "Male",
+								"read_size": 72,
+								"read_score": 23.06,
+								"math_size": 72,
+								"math_score": 43.61,
+								"comp_size": 18,
+								"comp_score": null
+							},
+							{
+								"subgroup": "Female",
+								"read_size": 70,
+								"read_score": 42.43,
+								"math_size": 70,
+								"math_score": 50.14,
+								"comp_size": 17,
+								"comp_score": null
+							},
+							{
+								"subgroup": "African American",
+								"read_size": 37,
+								"read_score": 36.22,
+								"math_size": 37,
+								"math_score": 39.46,
+								"comp_size": 7,
+								"comp_score": null
+							},
+							{
+								"subgroup": "Hispanic",
+								"read_size": 104,
+								"read_score": 30.67,
+								"math_size": 104,
+								"math_score": 48.94,
+								"comp_size": 28,
+								"comp_score": 46.07
+							},
+							{
+								"subgroup": "English Learner",
+								"read_size": 100,
+								"read_score": 26.9,
+								"math_size": 100,
+								"math_score": 45.8,
+								"comp_size": 26,
+								"comp_score": null
+							},
+							{
+								"subgroup": "Economically Disadvantaged",
+								"read_size": 142,
+								"read_score": 32.61,
+								"math_size": 142,
+								"math_score": 46.83,
+								"comp_size": 35,
+								"comp_score": 47.43
+							}
+						]
+					}
+				]
+			},
+		]
+	 }
+}

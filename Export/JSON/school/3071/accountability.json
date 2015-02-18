@@ -1,0 +1,67 @@
+{
+	"timestamp": "Wed Feb 18 16:03:36 2015",
+	"org_type": "school",
+	"org_name": "KIPP DC – Heights Academy PCS",
+	"org_code": "3071",
+	"report_card": {
+		"sections": [
+			{
+				"id": "accountability",
+				"data": [{
+						"year": "2013", 
+						"score": 60, 
+						"classification": "Rising", 
+						"growth": null, 
+						"subgroups": [
+							{
+								"subgroup": "All",
+								"read_size": 90,
+								"read_score": 42.33,
+								"math_size": 90,
+								"math_score": 77.67,
+								"comp_size": 0,
+								"comp_score": null
+							},
+							{
+								"subgroup": "Male",
+								"read_size": 43,
+								"read_score": 37.21,
+								"math_size": 43,
+								"math_score": 69.77,
+								"comp_size": 0,
+								"comp_score": null
+							},
+							{
+								"subgroup": "Female",
+								"read_size": 47,
+								"read_score": 47.02,
+								"math_size": 47,
+								"math_score": 84.89,
+								"comp_size": 0,
+								"comp_score": null
+							},
+							{
+								"subgroup": "African American",
+								"read_size": 90,
+								"read_score": 42.33,
+								"math_size": 90,
+								"math_score": 77.67,
+								"comp_size": 0,
+								"comp_score": null
+							},
+							{
+								"subgroup": "Economically Disadvantaged",
+								"read_size": 80,
+								"read_score": 42.62,
+								"math_size": 80,
+								"math_score": 79.38,
+								"comp_size": 0,
+								"comp_score": null
+							}
+						]
+					}
+				]
+			},
+		]
+	 }
+}

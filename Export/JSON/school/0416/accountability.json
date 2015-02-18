@@ -1,0 +1,76 @@
+{
+	"timestamp": "Wed Feb 18 16:03:28 2015",
+	"org_type": "school",
+	"org_name": "Johnson Middle School",
+	"org_code": "0416",
+	"report_card": {
+		"sections": [
+			{
+				"id": "accountability",
+				"data": [{
+						"year": "2013", 
+						"score": 30.78, 
+						"classification": "Priority", 
+						"growth": -10.9, 
+						"subgroups": [
+							{
+								"subgroup": "All",
+								"read_size": 248,
+								"read_score": 33.1,
+								"math_size": 250,
+								"math_score": 27.44,
+								"comp_size": 67,
+								"comp_score": 34.63
+							},
+							{
+								"subgroup": "Male",
+								"read_size": 116,
+								"read_score": 25.95,
+								"math_size": 117,
+								"math_score": 23.16,
+								"comp_size": 24,
+								"comp_score": null
+							},
+							{
+								"subgroup": "Female",
+								"read_size": 132,
+								"read_score": 39.39,
+								"math_size": 133,
+								"math_score": 31.2,
+								"comp_size": 43,
+								"comp_score": 43.95
+							},
+							{
+								"subgroup": "African American",
+								"read_size": 245,
+								"read_score": 33.1,
+								"math_size": 247,
+								"math_score": 27.69,
+								"comp_size": 67,
+								"comp_score": 34.63
+							},
+							{
+								"subgroup": "Special Education",
+								"read_size": 66,
+								"read_score": 8.64,
+								"math_size": 68,
+								"math_score": 8.97,
+								"comp_size": 17,
+								"comp_score": null
+							},
+							{
+								"subgroup": "Economically Disadvantaged",
+								"read_size": 248,
+								"read_score": 33.1,
+								"math_size": 250,
+								"math_score": 27.44,
+								"comp_size": 67,
+								"comp_score": 34.63
+							}
+						]
+					}
+				]
+			},
+		]
+	 }
+}

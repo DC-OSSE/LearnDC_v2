@@ -1,0 +1,76 @@
+{
+	"timestamp": "Wed Feb 18 16:03:31 2015",
+	"org_type": "school",
+	"org_name": "St. Coletta Special Education PCS",
+	"org_code": "1047",
+	"report_card": {
+		"sections": [
+			{
+				"id": "accountability",
+				"data": [{
+						"year": "2013", 
+						"score": 79.17, 
+						"classification": "Rising", 
+						"growth": -5.77, 
+						"subgroups": [
+							{
+								"subgroup": "All",
+								"read_size": 95,
+								"read_score": 95.58,
+								"math_size": 95,
+								"math_score": 92,
+								"comp_size": 39,
+								"comp_score": 7.95
+							},
+							{
+								"subgroup": "Male",
+								"read_size": 57,
+								"read_score": 91.93,
+								"math_size": 57,
+								"math_score": 87.54,
+								"comp_size": 27,
+								"comp_score": 4.07
+							},
+							{
+								"subgroup": "Female",
+								"read_size": 38,
+								"read_score": 101.05,
+								"math_size": 38,
+								"math_score": 98.68,
+								"comp_size": 12,
+								"comp_score": null
+							},
+							{
+								"subgroup": "African American",
+								"read_size": 73,
+								"read_score": 95.07,
+								"math_size": 73,
+								"math_score": 90.82,
+								"comp_size": 32,
+								"comp_score": 9.69
+							},
+							{
+								"subgroup": "Special Education",
+								"read_size": 95,
+								"read_score": 95.58,
+								"math_size": 95,
+								"math_score": 92,
+								"comp_size": 39,
+								"comp_score": 7.95
+							},
+							{
+								"subgroup": "Economically Disadvantaged",
+								"read_size": 75,
+								"read_score": 93.87,
+								"math_size": 75,
+								"math_score": 92.27,
+								"comp_size": 32,
+								"comp_score": 6.56
+							}
+						]
+					}
+				]
+			},
+		]
+	 }
+}

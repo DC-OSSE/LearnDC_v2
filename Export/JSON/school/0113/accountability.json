@@ -1,0 +1,76 @@
+{
+	"timestamp": "Wed Feb 18 16:03:10 2015",
+	"org_type": "school",
+	"org_name": "Friendship PCS – Southeast Elementary Academy",
+	"org_code": "0113",
+	"report_card": {
+		"sections": [
+			{
+				"id": "accountability",
+				"data": [{
+						"year": "2013", 
+						"score": 60.1, 
+						"classification": "Reward", 
+						"growth": 8.06, 
+						"subgroups": [
+							{
+								"subgroup": "All",
+								"read_size": 215,
+								"read_score": 57.81,
+								"math_size": 216,
+								"math_score": 63.15,
+								"comp_size": 71,
+								"comp_score": 57.75
+							},
+							{
+								"subgroup": "Male",
+								"read_size": 108,
+								"read_score": 49.81,
+								"math_size": 108,
+								"math_score": 64.54,
+								"comp_size": 37,
+								"comp_score": 45.95
+							},
+							{
+								"subgroup": "Female",
+								"read_size": 107,
+								"read_score": 65.89,
+								"math_size": 108,
+								"math_score": 61.76,
+								"comp_size": 34,
+								"comp_score": 70.59
+							},
+							{
+								"subgroup": "African American",
+								"read_size": 212,
+								"read_score": 57.22,
+								"math_size": 213,
+								"math_score": 63.05,
+								"comp_size": 70,
+								"comp_score": 57.14
+							},
+							{
+								"subgroup": "Special Education",
+								"read_size": 38,
+								"read_score": 20.53,
+								"math_size": 39,
+								"math_score": 37.44,
+								"comp_size": 17,
+								"comp_score": null
+							},
+							{
+								"subgroup": "Economically Disadvantaged",
+								"read_size": 215,
+								"read_score": 57.81,
+								"math_size": 216,
+								"math_score": 63.15,
+								"comp_size": 71,
+								"comp_score": 57.75
+							}
+						]
+					}
+				]
+			},
+		]
+	 }
+}

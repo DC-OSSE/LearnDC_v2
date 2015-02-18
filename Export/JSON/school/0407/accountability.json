@@ -1,0 +1,76 @@
+{
+	"timestamp": "Wed Feb 18 16:03:28 2015",
+	"org_type": "school",
+	"org_name": "Eliot-Hine Middle School",
+	"org_code": "0407",
+	"report_card": {
+		"sections": [
+			{
+				"id": "accountability",
+				"data": [{
+						"year": "2013", 
+						"score": 41.91, 
+						"classification": "Developing", 
+						"growth": -5.2, 
+						"subgroups": [
+							{
+								"subgroup": "All",
+								"read_size": 281,
+								"read_score": 39.79,
+								"math_size": 282,
+								"math_score": 45.89,
+								"comp_size": 75,
+								"comp_score": 34.93
+							},
+							{
+								"subgroup": "Male",
+								"read_size": 146,
+								"read_score": 31.85,
+								"math_size": 146,
+								"math_score": 46.44,
+								"comp_size": 42,
+								"comp_score": 23.1
+							},
+							{
+								"subgroup": "Female",
+								"read_size": 135,
+								"read_score": 48.37,
+								"math_size": 136,
+								"math_score": 45.29,
+								"comp_size": 33,
+								"comp_score": 50
+							},
+							{
+								"subgroup": "African American",
+								"read_size": 277,
+								"read_score": 39.24,
+								"math_size": 278,
+								"math_score": 45.72,
+								"comp_size": 75,
+								"comp_score": 34.93
+							},
+							{
+								"subgroup": "Special Education",
+								"read_size": 73,
+								"read_score": 32.74,
+								"math_size": 74,
+								"math_score": 32.43,
+								"comp_size": 26,
+								"comp_score": null
+							},
+							{
+								"subgroup": "Economically Disadvantaged",
+								"read_size": 281,
+								"read_score": 39.79,
+								"math_size": 282,
+								"math_score": 45.89,
+								"comp_size": 75,
+								"comp_score": 34.93
+							}
+						]
+					}
+				]
+			},
+		]
+	 }
+}

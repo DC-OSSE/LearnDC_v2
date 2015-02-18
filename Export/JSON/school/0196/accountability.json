@@ -1,0 +1,76 @@
+{
+	"timestamp": "Wed Feb 18 16:03:15 2015",
+	"org_type": "school",
+	"org_name": "DC Prep PCS – Edgewood Middle",
+	"org_code": "0196",
+	"report_card": {
+		"sections": [
+			{
+				"id": "accountability",
+				"data": [{
+						"year": "2013", 
+						"score": 89.62, 
+						"classification": "Reward", 
+						"growth": -1.57, 
+						"subgroups": [
+							{
+								"subgroup": "All",
+								"read_size": 273,
+								"read_score": 84.51,
+								"math_size": 273,
+								"math_score": 98.35,
+								"comp_size": 107,
+								"comp_score": 80.37
+							},
+							{
+								"subgroup": "Male",
+								"read_size": 138,
+								"read_score": 79.86,
+								"math_size": 138,
+								"math_score": 96.01,
+								"comp_size": 52,
+								"comp_score": 64.81
+							},
+							{
+								"subgroup": "Female",
+								"read_size": 135,
+								"read_score": 89.26,
+								"math_size": 135,
+								"math_score": 100.74,
+								"comp_size": 55,
+								"comp_score": 95.09
+							},
+							{
+								"subgroup": "African American",
+								"read_size": 251,
+								"read_score": 84.82,
+								"math_size": 251,
+								"math_score": 98.09,
+								"comp_size": 99,
+								"comp_score": 81.92
+							},
+							{
+								"subgroup": "Special Education",
+								"read_size": 45,
+								"read_score": 48.22,
+								"math_size": 45,
+								"math_score": 66.44,
+								"comp_size": 20,
+								"comp_score": null
+							},
+							{
+								"subgroup": "Economically Disadvantaged",
+								"read_size": 272,
+								"read_score": 84.45,
+								"math_size": 272,
+								"math_score": 98.31,
+								"comp_size": 106,
+								"comp_score": 80.09
+							}
+						]
+					}
+				]
+			},
+		]
+	 }
+}

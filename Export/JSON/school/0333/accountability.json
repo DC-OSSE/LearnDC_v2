@@ -1,0 +1,85 @@
+{
+	"timestamp": "Wed Feb 18 16:03:25 2015",
+	"org_type": "school",
+	"org_name": "Watkins Elementary School",
+	"org_code": "0333",
+	"report_card": {
+		"sections": [
+			{
+				"id": "accountability",
+				"data": [{
+						"year": "2013", 
+						"score": 65.02, 
+						"classification": "Rising", 
+						"growth": 1.91, 
+						"subgroups": [
+							{
+								"subgroup": "All",
+								"read_size": 346,
+								"read_score": 60.75,
+								"math_size": 346,
+								"math_score": 70.38,
+								"comp_size": 122,
+								"comp_score": 61.97
+							},
+							{
+								"subgroup": "Male",
+								"read_size": 192,
+								"read_score": 53.18,
+								"math_size": 192,
+								"math_score": 65.16,
+								"comp_size": 67,
+								"comp_score": 52.84
+							},
+							{
+								"subgroup": "Female",
+								"read_size": 154,
+								"read_score": 70.19,
+								"math_size": 154,
+								"math_score": 76.88,
+								"comp_size": 55,
+								"comp_score": 73.09
+							},
+							{
+								"subgroup": "African American",
+								"read_size": 261,
+								"read_score": 49.2,
+								"math_size": 261,
+								"math_score": 60.27,
+								"comp_size": 91,
+								"comp_score": 54.62
+							},
+							{
+								"subgroup": "White",
+								"read_size": 74,
+								"read_score": 99.32,
+								"math_size": 74,
+								"math_score": 105.27,
+								"comp_size": 28,
+								"comp_score": 87.86
+							},
+							{
+								"subgroup": "Special Education",
+								"read_size": 38,
+								"read_score": 30,
+								"math_size": 38,
+								"math_score": 41.32,
+								"comp_size": 15,
+								"comp_score": null
+							},
+							{
+								"subgroup": "Economically Disadvantaged",
+								"read_size": 132,
+								"read_score": 41.74,
+								"math_size": 132,
+								"math_score": 50.83,
+								"comp_size": 40,
+								"comp_score": 44.75
+							}
+						]
+					}
+				]
+			},
+		]
+	 }
+}

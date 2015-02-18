@@ -1,0 +1,76 @@
+{
+	"timestamp": "Wed Feb 18 16:03:28 2015",
+	"org_type": "school",
+	"org_name": "Kelly Miller Middle School",
+	"org_code": "0421",
+	"report_card": {
+		"sections": [
+			{
+				"id": "accountability",
+				"data": [{
+						"year": "2013", 
+						"score": 53.8, 
+						"classification": "Rising", 
+						"growth": -1.29, 
+						"subgroups": [
+							{
+								"subgroup": "All",
+								"read_size": 478,
+								"read_score": 41.3,
+								"math_size": 478,
+								"math_score": 65.5,
+								"comp_size": 152,
+								"comp_score": 56.32
+							},
+							{
+								"subgroup": "Male",
+								"read_size": 252,
+								"read_score": 35.95,
+								"math_size": 252,
+								"math_score": 62.86,
+								"comp_size": 71,
+								"comp_score": 49.72
+							},
+							{
+								"subgroup": "Female",
+								"read_size": 226,
+								"read_score": 47.26,
+								"math_size": 226,
+								"math_score": 68.45,
+								"comp_size": 81,
+								"comp_score": 62.1
+							},
+							{
+								"subgroup": "African American",
+								"read_size": 464,
+								"read_score": 41.81,
+								"math_size": 464,
+								"math_score": 64.81,
+								"comp_size": 150,
+								"comp_score": 56.33
+							},
+							{
+								"subgroup": "Special Education",
+								"read_size": 97,
+								"read_score": 34.85,
+								"math_size": 97,
+								"math_score": 42.47,
+								"comp_size": 28,
+								"comp_score": 30
+							},
+							{
+								"subgroup": "Economically Disadvantaged",
+								"read_size": 478,
+								"read_score": 41.3,
+								"math_size": 478,
+								"math_score": 65.5,
+								"comp_size": 152,
+								"comp_score": 56.32
+							}
+						]
+					}
+				]
+			},
+		]
+	 }
+}

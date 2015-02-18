@@ -1,0 +1,67 @@
+{
+	"timestamp": "Wed Feb 18 16:03:21 2015",
+	"org_type": "school",
+	"org_name": "Ludlow-Taylor Elementary School",
+	"org_code": "0271",
+	"report_card": {
+		"sections": [
+			{
+				"id": "accountability",
+				"data": [{
+						"year": "2013", 
+						"score": 81.83, 
+						"classification": "Reward", 
+						"growth": 10.79, 
+						"subgroups": [
+							{
+								"subgroup": "All",
+								"read_size": 64,
+								"read_score": 81.25,
+								"math_size": 64,
+								"math_score": 87.34,
+								"comp_size": 25,
+								"comp_score": 69.2
+							},
+							{
+								"subgroup": "Male",
+								"read_size": 36,
+								"read_score": 82.5,
+								"math_size": 36,
+								"math_score": 90,
+								"comp_size": 14,
+								"comp_score": null
+							},
+							{
+								"subgroup": "Female",
+								"read_size": 28,
+								"read_score": 79.64,
+								"math_size": 28,
+								"math_score": 83.93,
+								"comp_size": 11,
+								"comp_score": null
+							},
+							{
+								"subgroup": "African American",
+								"read_size": 57,
+								"read_score": 80,
+								"math_size": 57,
+								"math_score": 85.09,
+								"comp_size": 25,
+								"comp_score": 69.2
+							},
+							{
+								"subgroup": "Economically Disadvantaged",
+								"read_size": 64,
+								"read_score": 81.25,
+								"math_size": 64,
+								"math_score": 87.34,
+								"comp_size": 25,
+								"comp_score": 69.2
+							}
+						]
+					}
+				]
+			},
+		]
+	 }
+}

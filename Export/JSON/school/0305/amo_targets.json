@@ -1,0 +1,39 @@
+{
+"timestamp": "Wed Feb 18 15:25:27 2015",
+"org_type": "school",
+"org_name": "ROSS ES",
+"org_code": "0305",
+"exhibit": {
+	"id": "amo_targets",
+	"data":  
+[
+    {
+        "key": {
+            "subject": "Math",
+            "grade": "all",
+            "enrollment_status": "full_year",
+            "subgroup": "All",
+            "year": 2014
+        },
+        "val": {
+            "baseline": 0.7069,
+            "target": 0.7802
+        }
+    },
+    {
+        "key": {
+            "subject": "Reading",
+            "grade": "all",
+            "enrollment_status": "full_year",
+            "subgroup": "All",
+            "year": 2014
+        },
+        "val": {
+            "baseline": 0.7241,
+            "target": 0.7931
+        }
+    }
+]
+
+	}
+}

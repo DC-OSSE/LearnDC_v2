@@ -1,0 +1,67 @@
+{
+	"timestamp": "Wed Feb 18 16:03:20 2015",
+	"org_type": "school",
+	"org_name": "Leckie Elementary School",
+	"org_code": "0266",
+	"report_card": {
+		"sections": [
+			{
+				"id": "accountability",
+				"data": [{
+						"year": "2013", 
+						"score": 60.45, 
+						"classification": "Rising", 
+						"growth": 4.3, 
+						"subgroups": [
+							{
+								"subgroup": "All",
+								"read_size": 97,
+								"read_score": 54.23,
+								"math_size": 97,
+								"math_score": 61.86,
+								"comp_size": 28,
+								"comp_score": 77.14
+							},
+							{
+								"subgroup": "Male",
+								"read_size": 54,
+								"read_score": 51.48,
+								"math_size": 54,
+								"math_score": 60.37,
+								"comp_size": 18,
+								"comp_score": null
+							},
+							{
+								"subgroup": "Female",
+								"read_size": 43,
+								"read_score": 57.67,
+								"math_size": 43,
+								"math_score": 63.72,
+								"comp_size": 10,
+								"comp_score": null
+							},
+							{
+								"subgroup": "African American",
+								"read_size": 86,
+								"read_score": 54.19,
+								"math_size": 86,
+								"math_score": 62.56,
+								"comp_size": 27,
+								"comp_score": 75.93
+							},
+							{
+								"subgroup": "Economically Disadvantaged",
+								"read_size": 97,
+								"read_score": 54.23,
+								"math_size": 97,
+								"math_score": 61.86,
+								"comp_size": 28,
+								"comp_score": 77.14
+							}
+						]
+					}
+				]
+			},
+		]
+	 }
+}

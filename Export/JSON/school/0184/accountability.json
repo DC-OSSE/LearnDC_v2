@@ -1,0 +1,85 @@
+{
+	"timestamp": "Wed Feb 18 16:03:14 2015",
+	"org_type": "school",
+	"org_name": "Capital City PCS – Lower School",
+	"org_code": "0184",
+	"report_card": {
+		"sections": [
+			{
+				"id": "accountability",
+				"data": [{
+						"year": "2013", 
+						"score": 56.41, 
+						"classification": "Focus", 
+						"growth": 7.48, 
+						"subgroups": [
+							{
+								"subgroup": "All",
+								"read_size": 100,
+								"read_score": 54.2,
+								"math_size": 100,
+								"math_score": 57.1,
+								"comp_size": 51,
+								"comp_score": 59.41
+							},
+							{
+								"subgroup": "Male",
+								"read_size": 55,
+								"read_score": 49.45,
+								"math_size": 55,
+								"math_score": 51.45,
+								"comp_size": 23,
+								"comp_score": null
+							},
+							{
+								"subgroup": "Female",
+								"read_size": 45,
+								"read_score": 60,
+								"math_size": 45,
+								"math_score": 64,
+								"comp_size": 28,
+								"comp_score": 60.71
+							},
+							{
+								"subgroup": "African American",
+								"read_size": 37,
+								"read_score": 43.24,
+								"math_size": 37,
+								"math_score": 52.97,
+								"comp_size": 19,
+								"comp_score": null
+							},
+							{
+								"subgroup": "Hispanic",
+								"read_size": 38,
+								"read_score": 35.79,
+								"math_size": 38,
+								"math_score": 37.89,
+								"comp_size": 22,
+								"comp_score": null
+							},
+							{
+								"subgroup": "English Learner",
+								"read_size": 36,
+								"read_score": null,
+								"math_size": 36,
+								"math_score": null,
+								"comp_size": 20,
+								"comp_score": null
+							},
+							{
+								"subgroup": "Economically Disadvantaged",
+								"read_size": 59,
+								"read_score": 35.76,
+								"math_size": 59,
+								"math_score": 37.8,
+								"comp_size": 31,
+								"comp_score": 51.61
+							}
+						]
+					}
+				]
+			},
+		]
+	 }
+}

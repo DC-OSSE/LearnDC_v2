@@ -1,0 +1,94 @@
+{
+	"timestamp": "Wed Feb 18 16:03:22 2015",
+	"org_type": "school",
+	"org_name": "Oyster-Adams Bilingual School",
+	"org_code": "0292",
+	"report_card": {
+		"sections": [
+			{
+				"id": "accountability",
+				"data": [{
+						"year": "2013", 
+						"score": 83.74, 
+						"classification": "Reward", 
+						"growth": -3.23, 
+						"subgroups": [
+							{
+								"subgroup": "All",
+								"read_size": 391,
+								"read_score": 83.17,
+								"math_size": 392,
+								"math_score": 84.23,
+								"comp_size": 123,
+								"comp_score": 83.98
+							},
+							{
+								"subgroup": "Male",
+								"read_size": 202,
+								"read_score": 79.26,
+								"math_size": 202,
+								"math_score": 81.88,
+								"comp_size": 60,
+								"comp_score": 73
+							},
+							{
+								"subgroup": "Female",
+								"read_size": 189,
+								"read_score": 87.35,
+								"math_size": 190,
+								"math_score": 86.74,
+								"comp_size": 63,
+								"comp_score": 94.44
+							},
+							{
+								"subgroup": "Hispanic",
+								"read_size": 259,
+								"read_score": 75.71,
+								"math_size": 260,
+								"math_score": 78.38,
+								"comp_size": 80,
+								"comp_score": 78.62
+							},
+							{
+								"subgroup": "White",
+								"read_size": 87,
+								"read_score": 103.45,
+								"math_size": 87,
+								"math_score": 100.69,
+								"comp_size": 30,
+								"comp_score": 95.67
+							},
+							{
+								"subgroup": "Special Education",
+								"read_size": 49,
+								"read_score": 49.8,
+								"math_size": 50,
+								"math_score": 40.8,
+								"comp_size": 15,
+								"comp_score": null
+							},
+							{
+								"subgroup": "English Learner",
+								"read_size": 92,
+								"read_score": 57.17,
+								"math_size": 93,
+								"math_score": 63.33,
+								"comp_size": 27,
+								"comp_score": null
+							},
+							{
+								"subgroup": "Economically Disadvantaged",
+								"read_size": 105,
+								"read_score": 65.62,
+								"math_size": 106,
+								"math_score": 70.09,
+								"comp_size": 38,
+								"comp_score": 74.74
+							}
+						]
+					}
+				]
+			},
+		]
+	 }
+}

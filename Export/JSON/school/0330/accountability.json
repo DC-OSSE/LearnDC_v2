@@ -1,0 +1,67 @@
+{
+	"timestamp": "Wed Feb 18 16:03:25 2015",
+	"org_type": "school",
+	"org_name": "Tyler Elementary School",
+	"org_code": "0330",
+	"report_card": {
+		"sections": [
+			{
+				"id": "accountability",
+				"data": [{
+						"year": "2013", 
+						"score": 44.37, 
+						"classification": "Focus", 
+						"growth": -1.63, 
+						"subgroups": [
+							{
+								"subgroup": "All",
+								"read_size": 119,
+								"read_score": 52.77,
+								"math_size": 119,
+								"math_score": 34.37,
+								"comp_size": 32,
+								"comp_score": 50.31
+							},
+							{
+								"subgroup": "Male",
+								"read_size": 60,
+								"read_score": 38.67,
+								"math_size": 60,
+								"math_score": 31.83,
+								"comp_size": 13,
+								"comp_score": null
+							},
+							{
+								"subgroup": "Female",
+								"read_size": 59,
+								"read_score": 67.12,
+								"math_size": 59,
+								"math_score": 36.95,
+								"comp_size": 19,
+								"comp_score": null
+							},
+							{
+								"subgroup": "African American",
+								"read_size": 104,
+								"read_score": 48.75,
+								"math_size": 104,
+								"math_score": 30.58,
+								"comp_size": 28,
+								"comp_score": 48.57
+							},
+							{
+								"subgroup": "Economically Disadvantaged",
+								"read_size": 119,
+								"read_score": 52.77,
+								"math_size": 119,
+								"math_score": 34.37,
+								"comp_size": 32,
+								"comp_score": 50.31
+							}
+						]
+					}
+				]
+			},
+		]
+	 }
+}

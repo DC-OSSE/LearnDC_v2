@@ -1,0 +1,67 @@
+{
+	"timestamp": "Wed Feb 18 16:03:16 2015",
+	"org_type": "school",
+	"org_name": "Aiton Elementary School",
+	"org_code": "0202",
+	"report_card": {
+		"sections": [
+			{
+				"id": "accountability",
+				"data": [{
+						"year": "2013", 
+						"score": 28.54, 
+						"classification": "Priority", 
+						"growth": 4.13, 
+						"subgroups": [
+							{
+								"subgroup": "All",
+								"read_size": 56,
+								"read_score": 24.82,
+								"math_size": 56,
+								"math_score": 17.86,
+								"comp_size": 18,
+								"comp_score": null
+							},
+							{
+								"subgroup": "Male",
+								"read_size": 25,
+								"read_score": 17.6,
+								"math_size": 25,
+								"math_score": 12,
+								"comp_size": 7,
+								"comp_score": null
+							},
+							{
+								"subgroup": "Female",
+								"read_size": 31,
+								"read_score": 30.65,
+								"math_size": 31,
+								"math_score": 22.58,
+								"comp_size": 11,
+								"comp_score": null
+							},
+							{
+								"subgroup": "African American",
+								"read_size": 55,
+								"read_score": 24.55,
+								"math_size": 55,
+								"math_score": 17.45,
+								"comp_size": 17,
+								"comp_score": null
+							},
+							{
+								"subgroup": "Economically Disadvantaged",
+								"read_size": 56,
+								"read_score": 24.82,
+								"math_size": 56,
+								"math_score": 17.86,
+								"comp_size": 18,
+								"comp_score": null
+							}
+						]
+					}
+				]
+			},
+		]
+	 }
+}

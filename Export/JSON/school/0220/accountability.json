@@ -1,0 +1,76 @@
+{
+	"timestamp": "Wed Feb 18 16:03:17 2015",
+	"org_type": "school",
+	"org_name": "Burroughs Education Campus",
+	"org_code": "0220",
+	"report_card": {
+		"sections": [
+			{
+				"id": "accountability",
+				"data": [{
+						"year": "2013", 
+						"score": 49.96, 
+						"classification": "Rising", 
+						"growth": -6.15, 
+						"subgroups": [
+							{
+								"subgroup": "All",
+								"read_size": 122,
+								"read_score": 50.98,
+								"math_size": 122,
+								"math_score": 47.3,
+								"comp_size": 38,
+								"comp_score": 55.26
+							},
+							{
+								"subgroup": "Male",
+								"read_size": 69,
+								"read_score": 44.93,
+								"math_size": 69,
+								"math_score": 44.06,
+								"comp_size": 21,
+								"comp_score": null
+							},
+							{
+								"subgroup": "Female",
+								"read_size": 53,
+								"read_score": 58.87,
+								"math_size": 53,
+								"math_score": 51.51,
+								"comp_size": 17,
+								"comp_score": null
+							},
+							{
+								"subgroup": "African American",
+								"read_size": 102,
+								"read_score": 50.39,
+								"math_size": 102,
+								"math_score": 45,
+								"comp_size": 31,
+								"comp_score": 50.32
+							},
+							{
+								"subgroup": "Special Education",
+								"read_size": 43,
+								"read_score": 33.95,
+								"math_size": 43,
+								"math_score": 36.98,
+								"comp_size": 15,
+								"comp_score": null
+							},
+							{
+								"subgroup": "Economically Disadvantaged",
+								"read_size": 122,
+								"read_score": 50.98,
+								"math_size": 122,
+								"math_score": 47.3,
+								"comp_size": 38,
+								"comp_score": 55.26
+							}
+						]
+					}
+				]
+			},
+		]
+	 }
+}

@@ -1,0 +1,67 @@
+{
+	"timestamp": "Wed Feb 18 16:03:32 2015",
+	"org_type": "school",
+	"org_name": "Center City PCS – Capitol Hill",
+	"org_code": "1104",
+	"report_card": {
+		"sections": [
+			{
+				"id": "accountability",
+				"data": [{
+						"year": "2013", 
+						"score": 48.03, 
+						"classification": "Rising", 
+						"growth": 3.32, 
+						"subgroups": [
+							{
+								"subgroup": "All",
+								"read_size": 135,
+								"read_score": 46.81,
+								"math_size": 135,
+								"math_score": 45.26,
+								"comp_size": 45,
+								"comp_score": 60
+							},
+							{
+								"subgroup": "Male",
+								"read_size": 74,
+								"read_score": 42.7,
+								"math_size": 74,
+								"math_score": 44.73,
+								"comp_size": 31,
+								"comp_score": 55.81
+							},
+							{
+								"subgroup": "Female",
+								"read_size": 61,
+								"read_score": 51.8,
+								"math_size": 61,
+								"math_score": 45.9,
+								"comp_size": 14,
+								"comp_score": null
+							},
+							{
+								"subgroup": "African American",
+								"read_size": 135,
+								"read_score": 46.81,
+								"math_size": 135,
+								"math_score": 45.26,
+								"comp_size": 45,
+								"comp_score": 60
+							},
+							{
+								"subgroup": "Economically Disadvantaged",
+								"read_size": 135,
+								"read_score": 46.81,
+								"math_size": 135,
+								"math_score": 45.26,
+								"comp_size": 45,
+								"comp_score": 60
+							}
+						]
+					}
+				]
+			},
+		]
+	 }
+}

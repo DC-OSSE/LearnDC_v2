@@ -1,0 +1,67 @@
+{
+	"timestamp": "Wed Feb 18 16:03:11 2015",
+	"org_type": "school",
+	"org_name": "Ideal Academy PCS",
+	"org_code": "0134",
+	"report_card": {
+		"sections": [
+			{
+				"id": "accountability",
+				"data": [{
+						"year": "2013", 
+						"score": 47.52, 
+						"classification": "Rising", 
+						"growth": -7.92, 
+						"subgroups": [
+							{
+								"subgroup": "All",
+								"read_size": 114,
+								"read_score": 51.84,
+								"math_size": 117,
+								"math_score": 41.54,
+								"comp_size": 43,
+								"comp_score": 52.33
+							},
+							{
+								"subgroup": "Male",
+								"read_size": 60,
+								"read_score": 47,
+								"math_size": 61,
+								"math_score": 43.11,
+								"comp_size": 21,
+								"comp_score": null
+							},
+							{
+								"subgroup": "Female",
+								"read_size": 54,
+								"read_score": 57.22,
+								"math_size": 56,
+								"math_score": 39.82,
+								"comp_size": 22,
+								"comp_score": null
+							},
+							{
+								"subgroup": "African American",
+								"read_size": 111,
+								"read_score": 51.8,
+								"math_size": 111,
+								"math_score": 42.43,
+								"comp_size": 42,
+								"comp_score": 53.57
+							},
+							{
+								"subgroup": "Economically Disadvantaged",
+								"read_size": 77,
+								"read_score": 47.79,
+								"math_size": 80,
+								"math_score": 33,
+								"comp_size": 33,
+								"comp_score": 40
+							}
+						]
+					}
+				]
+			},
+		]
+	 }
+}

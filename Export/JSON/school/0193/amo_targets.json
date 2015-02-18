@@ -1,0 +1,65 @@
+{
+"timestamp": "Wed Feb 18 15:25:24 2015",
+"org_type": "school",
+"org_name": "LATIN AMERICAN MONTESSORI BILINGUAL (LAMB) PCS",
+"org_code": "0193",
+"exhibit": {
+	"id": "amo_targets",
+	"data":  
+[
+    {
+        "key": {
+            "subject": "Math",
+            "grade": "all",
+            "enrollment_status": "full_year",
+            "subgroup": "HI7",
+            "year": 2014
+        },
+        "val": {
+            "baseline": 0.4074,
+            "target": 0.5556
+        }
+    },
+    {
+        "key": {
+            "subject": "Math",
+            "grade": "all",
+            "enrollment_status": "full_year",
+            "subgroup": "All",
+            "year": 2014
+        },
+        "val": {
+            "baseline": 0.5745,
+            "target": 0.6809
+        }
+    },
+    {
+        "key": {
+            "subject": "Reading",
+            "grade": "all",
+            "enrollment_status": "full_year",
+            "subgroup": "HI7",
+            "year": 2014
+        },
+        "val": {
+            "baseline": 0.6923,
+            "target": 0.7692
+        }
+    },
+    {
+        "key": {
+            "subject": "Reading",
+            "grade": "all",
+            "enrollment_status": "full_year",
+            "subgroup": "All",
+            "year": 2014
+        },
+        "val": {
+            "baseline": 0.7609,
+            "target": 0.8207
+        }
+    }
+]
+
+	}
+}

@@ -1,0 +1,76 @@
+{
+	"timestamp": "Wed Feb 18 16:03:11 2015",
+	"org_type": "school",
+	"org_name": "Maya Angelou PCS – Evans Middle School",
+	"org_code": "0133",
+	"report_card": {
+		"sections": [
+			{
+				"id": "accountability",
+				"data": [{
+						"year": "2013", 
+						"score": 34.5, 
+						"classification": "Developing", 
+						"growth": -12.51, 
+						"subgroups": [
+							{
+								"subgroup": "All",
+								"read_size": 137,
+								"read_score": 32.12,
+								"math_size": 138,
+								"math_score": 37.61,
+								"comp_size": 58,
+								"comp_score": 32.76
+							},
+							{
+								"subgroup": "Male",
+								"read_size": 75,
+								"read_score": 28.27,
+								"math_size": 75,
+								"math_score": 37.33,
+								"comp_size": 30,
+								"comp_score": 26.33
+							},
+							{
+								"subgroup": "Female",
+								"read_size": 62,
+								"read_score": 36.77,
+								"math_size": 63,
+								"math_score": 37.94,
+								"comp_size": 28,
+								"comp_score": 39.64
+							},
+							{
+								"subgroup": "African American",
+								"read_size": 137,
+								"read_score": 32.12,
+								"math_size": 138,
+								"math_score": 37.61,
+								"comp_size": 58,
+								"comp_score": 32.76
+							},
+							{
+								"subgroup": "Special Education",
+								"read_size": 37,
+								"read_score": 7.03,
+								"math_size": 38,
+								"math_score": 13.68,
+								"comp_size": 13,
+								"comp_score": null
+							},
+							{
+								"subgroup": "Economically Disadvantaged",
+								"read_size": 137,
+								"read_score": 32.12,
+								"math_size": 138,
+								"math_score": 37.61,
+								"comp_size": 58,
+								"comp_score": 32.76
+							}
+						]
+					}
+				]
+			},
+		]
+	 }
+}

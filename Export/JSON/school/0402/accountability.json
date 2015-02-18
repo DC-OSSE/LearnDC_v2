@@ -1,0 +1,58 @@
+{
+	"timestamp": "Wed Feb 18 16:03:27 2015",
+	"org_type": "school",
+	"org_name": "Benjamin Banneker High School",
+	"org_code": "0402",
+	"report_card": {
+		"sections": [
+			{
+				"id": "accountability",
+				"data": [{
+						"year": "2013", 
+						"score": 101.93, 
+						"classification": "Reward", 
+						"growth": -1.08, 
+						"subgroups": [
+							{
+								"subgroup": "All",
+								"read_size": 88,
+								"read_score": 102.84,
+								"math_size": 88,
+								"math_score": 104.09,
+								"comp_size": 88,
+								"comp_score": 98.86
+							},
+							{
+								"subgroup": "Female",
+								"read_size": 69,
+								"read_score": 101.88,
+								"math_size": 69,
+								"math_score": 104.93,
+								"comp_size": 69,
+								"comp_score": 100.14
+							},
+							{
+								"subgroup": "African American",
+								"read_size": 77,
+								"read_score": 103.77,
+								"math_size": 77,
+								"math_score": 103.9,
+								"comp_size": 77,
+								"comp_score": 99.74
+							},
+							{
+								"subgroup": "Economically Disadvantaged",
+								"read_size": 52,
+								"read_score": 101.15,
+								"math_size": 52,
+								"math_score": 103.85,
+								"comp_size": 52,
+								"comp_score": 103.08
+							}
+						]
+					}
+				]
+			},
+		]
+	 }
+}

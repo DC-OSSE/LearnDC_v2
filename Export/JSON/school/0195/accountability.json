@@ -1,0 +1,58 @@
+{
+	"timestamp": "Wed Feb 18 16:03:15 2015",
+	"org_type": "school",
+	"org_name": "Eagle Academy PCS – The Eagle Center at McGogney",
+	"org_code": "0195",
+	"report_card": {
+		"sections": [
+			{
+				"id": "accountability",
+				"data": [{
+						"year": "2013", 
+						"score": 52.69, 
+						"classification": "Rising", 
+						"growth": -8.84, 
+						"subgroups": [
+							{
+								"subgroup": "All",
+								"read_size": 54,
+								"read_score": 47.41,
+								"math_size": 54,
+								"math_score": 57.96,
+								"comp_size": 0,
+								"comp_score": null
+							},
+							{
+								"subgroup": "Male",
+								"read_size": 31,
+								"read_score": 53.55,
+								"math_size": 31,
+								"math_score": 61.94,
+								"comp_size": 0,
+								"comp_score": null
+							},
+							{
+								"subgroup": "African American",
+								"read_size": 52,
+								"read_score": 47.31,
+								"math_size": 52,
+								"math_score": 60.19,
+								"comp_size": 0,
+								"comp_score": null
+							},
+							{
+								"subgroup": "Economically Disadvantaged",
+								"read_size": 42,
+								"read_score": 44.29,
+								"math_size": 42,
+								"math_score": 60.24,
+								"comp_size": 0,
+								"comp_score": null
+							}
+						]
+					}
+				]
+			},
+		]
+	 }
+}

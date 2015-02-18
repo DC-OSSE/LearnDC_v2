@@ -1,0 +1,67 @@
+{
+	"timestamp": "Wed Feb 18 16:03:17 2015",
+	"org_type": "school",
+	"org_name": "DC Prep PCS – Benning Middle",
+	"org_code": "0218",
+	"report_card": {
+		"sections": [
+			{
+				"id": "accountability",
+				"data": [{
+						"year": "2013", 
+						"score": 82.52, 
+						"classification": "Reward", 
+						"growth": null, 
+						"subgroups": [
+							{
+								"subgroup": "All",
+								"read_size": 74,
+								"read_score": 83.78,
+								"math_size": 74,
+								"math_score": 90.81,
+								"comp_size": 74,
+								"comp_score": 72.97
+							},
+							{
+								"subgroup": "Male",
+								"read_size": 36,
+								"read_score": 81.94,
+								"math_size": 36,
+								"math_score": 85.56,
+								"comp_size": 36,
+								"comp_score": 64.17
+							},
+							{
+								"subgroup": "Female",
+								"read_size": 38,
+								"read_score": 85.53,
+								"math_size": 38,
+								"math_score": 95.79,
+								"comp_size": 38,
+								"comp_score": 81.32
+							},
+							{
+								"subgroup": "African American",
+								"read_size": 71,
+								"read_score": 84.51,
+								"math_size": 71,
+								"math_score": 90.14,
+								"comp_size": 71,
+								"comp_score": 72.96
+							},
+							{
+								"subgroup": "Economically Disadvantaged",
+								"read_size": 71,
+								"read_score": 82.96,
+								"math_size": 71,
+								"math_score": 90,
+								"comp_size": 71,
+								"comp_score": 71.69
+							}
+						]
+					}
+				]
+			},
+		]
+	 }
+}

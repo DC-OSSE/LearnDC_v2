@@ -1,0 +1,67 @@
+{
+	"timestamp": "Wed Feb 18 16:03:30 2015",
+	"org_type": "school",
+	"org_name": "Dunbar High School",
+	"org_code": "0467",
+	"report_card": {
+		"sections": [
+			{
+				"id": "accountability",
+				"data": [{
+						"year": "2013", 
+						"score": 37.54, 
+						"classification": "Priority", 
+						"growth": 9.16, 
+						"subgroups": [
+							{
+								"subgroup": "All",
+								"read_size": 85,
+								"read_score": 44,
+								"math_size": 87,
+								"math_score": 27.47,
+								"comp_size": 68,
+								"comp_score": 42.35
+							},
+							{
+								"subgroup": "Male",
+								"read_size": 43,
+								"read_score": 37.44,
+								"math_size": 43,
+								"math_score": 15.81,
+								"comp_size": 31,
+								"comp_score": 40
+							},
+							{
+								"subgroup": "Female",
+								"read_size": 42,
+								"read_score": 50.71,
+								"math_size": 44,
+								"math_score": 38.86,
+								"comp_size": 37,
+								"comp_score": 44.32
+							},
+							{
+								"subgroup": "African American",
+								"read_size": 83,
+								"read_score": 42.65,
+								"math_size": 85,
+								"math_score": 26.94,
+								"comp_size": 66,
+								"comp_score": 43.03
+							},
+							{
+								"subgroup": "Economically Disadvantaged",
+								"read_size": 85,
+								"read_score": 44,
+								"math_size": 87,
+								"math_score": 27.47,
+								"comp_size": 68,
+								"comp_score": 42.35
+							}
+						]
+					}
+				]
+			},
+		]
+	 }
+}

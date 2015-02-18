@@ -1,0 +1,103 @@
+{
+	"timestamp": "Wed Feb 18 16:03:35 2015",
+	"org_type": "school",
+	"org_name": "E.L. Haynes PCS – Kansas Avenue (Elementary School)",
+	"org_code": "1206",
+	"report_card": {
+		"sections": [
+			{
+				"id": "accountability",
+				"data": [{
+						"year": "2013", 
+						"score": 62.64, 
+						"classification": "Rising", 
+						"growth": null, 
+						"subgroups": [
+							{
+								"subgroup": "All",
+								"read_size": 146,
+								"read_score": 56.16,
+								"math_size": 146,
+								"math_score": 61.03,
+								"comp_size": 72,
+								"comp_score": 79.03
+							},
+							{
+								"subgroup": "Male",
+								"read_size": 75,
+								"read_score": 46.8,
+								"math_size": 75,
+								"math_score": 52.4,
+								"comp_size": 33,
+								"comp_score": 71.82
+							},
+							{
+								"subgroup": "Female",
+								"read_size": 71,
+								"read_score": 66.06,
+								"math_size": 71,
+								"math_score": 70.14,
+								"comp_size": 39,
+								"comp_score": 85.13
+							},
+							{
+								"subgroup": "African American",
+								"read_size": 66,
+								"read_score": 52.12,
+								"math_size": 66,
+								"math_score": 50.45,
+								"comp_size": 27,
+								"comp_score": 79.63
+							},
+							{
+								"subgroup": "Hispanic",
+								"read_size": 45,
+								"read_score": 36.67,
+								"math_size": 45,
+								"math_score": 53.56,
+								"comp_size": 24,
+								"comp_score": null
+							},
+							{
+								"subgroup": "White",
+								"read_size": 25,
+								"read_score": 96,
+								"math_size": 25,
+								"math_score": 96,
+								"comp_size": 13,
+								"comp_score": null
+							},
+							{
+								"subgroup": "Special Education",
+								"read_size": 25,
+								"read_score": null,
+								"math_size": 25,
+								"math_score": null,
+								"comp_size": 8,
+								"comp_score": null
+							},
+							{
+								"subgroup": "English Learner",
+								"read_size": 44,
+								"read_score": null,
+								"math_size": 44,
+								"math_score": null,
+								"comp_size": 18,
+								"comp_score": null
+							},
+							{
+								"subgroup": "Economically Disadvantaged",
+								"read_size": 85,
+								"read_score": 39.18,
+								"math_size": 85,
+								"math_score": 44.35,
+								"comp_size": 37,
+								"comp_score": 66.22
+							}
+						]
+					}
+				]
+			},
+		]
+	 }
+}

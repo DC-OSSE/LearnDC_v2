@@ -1,0 +1,76 @@
+{
+	"timestamp": "Wed Feb 18 16:03:14 2015",
+	"org_type": "school",
+	"org_name": "Somerset Preparatory Academy PCS",
+	"org_code": "0187",
+	"report_card": {
+		"sections": [
+			{
+				"id": "accountability",
+				"data": [{
+						"year": "2013", 
+						"score": 47.04, 
+						"classification": "Rising", 
+						"growth": null, 
+						"subgroups": [
+							{
+								"subgroup": "All",
+								"read_size": 146,
+								"read_score": 46.37,
+								"math_size": 146,
+								"math_score": 46.37,
+								"comp_size": 66,
+								"comp_score": 50
+							},
+							{
+								"subgroup": "Male",
+								"read_size": 73,
+								"read_score": 42.6,
+								"math_size": 73,
+								"math_score": 53.01,
+								"comp_size": 34,
+								"comp_score": 37.35
+							},
+							{
+								"subgroup": "Female",
+								"read_size": 73,
+								"read_score": 50.14,
+								"math_size": 73,
+								"math_score": 39.73,
+								"comp_size": 32,
+								"comp_score": 63.44
+							},
+							{
+								"subgroup": "African American",
+								"read_size": 145,
+								"read_score": 46,
+								"math_size": 145,
+								"math_score": 45.93,
+								"comp_size": 66,
+								"comp_score": 50
+							},
+							{
+								"subgroup": "Special Education",
+								"read_size": 31,
+								"read_score": 32.26,
+								"math_size": 31,
+								"math_score": 15.48,
+								"comp_size": 17,
+								"comp_score": null
+							},
+							{
+								"subgroup": "Economically Disadvantaged",
+								"read_size": 146,
+								"read_score": 46.37,
+								"math_size": 146,
+								"math_score": 46.37,
+								"comp_size": 66,
+								"comp_score": 50
+							}
+						]
+					}
+				]
+			},
+		]
+	 }
+}

@@ -1,0 +1,67 @@
+{
+	"timestamp": "Wed Feb 18 16:03:35 2015",
+	"org_type": "school",
+	"org_name": "Richard Wright PCS for Journalism and Media Arts",
+	"org_code": "3067",
+	"report_card": {
+		"sections": [
+			{
+				"id": "accountability",
+				"data": [{
+						"year": "2013", 
+						"score": 51.75, 
+						"classification": "Focus", 
+						"growth": 10.84, 
+						"subgroups": [
+							{
+								"subgroup": "All",
+								"read_size": 105,
+								"read_score": 54.67,
+								"math_size": 102,
+								"math_score": 42.45,
+								"comp_size": 68,
+								"comp_score": 61.18
+							},
+							{
+								"subgroup": "Male",
+								"read_size": 50,
+								"read_score": 48.2,
+								"math_size": 48,
+								"math_score": 41.46,
+								"comp_size": 32,
+								"comp_score": 44.38
+							},
+							{
+								"subgroup": "Female",
+								"read_size": 55,
+								"read_score": 60.55,
+								"math_size": 54,
+								"math_score": 43.33,
+								"comp_size": 36,
+								"comp_score": 76.11
+							},
+							{
+								"subgroup": "African American",
+								"read_size": 104,
+								"read_score": 54.13,
+								"math_size": 101,
+								"math_score": 41.88,
+								"comp_size": 67,
+								"comp_score": 60.45
+							},
+							{
+								"subgroup": "Economically Disadvantaged",
+								"read_size": 105,
+								"read_score": 54.67,
+								"math_size": 102,
+								"math_score": 42.45,
+								"comp_size": 68,
+								"comp_score": 61.18
+							}
+						]
+					}
+				]
+			},
+		]
+	 }
+}

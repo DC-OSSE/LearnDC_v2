@@ -1,0 +1,94 @@
+{
+	"timestamp": "Wed Feb 18 16:03:11 2015",
+	"org_type": "school",
+	"org_name": "César Chávez PCS for Public Policy – Chávez Prep",
+	"org_code": "0127",
+	"report_card": {
+		"sections": [
+			{
+				"id": "accountability",
+				"data": [{
+						"year": "2013", 
+						"score": 64.42, 
+						"classification": "Rising", 
+						"growth": -6.75, 
+						"subgroups": [
+							{
+								"subgroup": "All",
+								"read_size": 259,
+								"read_score": 57.95,
+								"math_size": 260,
+								"math_score": 71.08,
+								"comp_size": 94,
+								"comp_score": 63.83
+							},
+							{
+								"subgroup": "Male",
+								"read_size": 132,
+								"read_score": 52.88,
+								"math_size": 133,
+								"math_score": 66.17,
+								"comp_size": 51,
+								"comp_score": 56.67
+							},
+							{
+								"subgroup": "Female",
+								"read_size": 127,
+								"read_score": 63.23,
+								"math_size": 127,
+								"math_score": 76.22,
+								"comp_size": 43,
+								"comp_score": 72.33
+							},
+							{
+								"subgroup": "African American",
+								"read_size": 67,
+								"read_score": 60.3,
+								"math_size": 67,
+								"math_score": 68.81,
+								"comp_size": 29,
+								"comp_score": 58.62
+							},
+							{
+								"subgroup": "Hispanic",
+								"read_size": 189,
+								"read_score": 57.51,
+								"math_size": 190,
+								"math_score": 72.42,
+								"comp_size": 65,
+								"comp_score": 66.15
+							},
+							{
+								"subgroup": "Special Education",
+								"read_size": 36,
+								"read_score": 35.28,
+								"math_size": 36,
+								"math_score": 34.44,
+								"comp_size": 14,
+								"comp_score": null
+							},
+							{
+								"subgroup": "English Learner",
+								"read_size": 109,
+								"read_score": 47.25,
+								"math_size": 110,
+								"math_score": 65.18,
+								"comp_size": 41,
+								"comp_score": 61.46
+							},
+							{
+								"subgroup": "Economically Disadvantaged",
+								"read_size": 259,
+								"read_score": 57.95,
+								"math_size": 260,
+								"math_score": 71.08,
+								"comp_size": 94,
+								"comp_score": 63.83
+							}
+						]
+					}
+				]
+			},
+		]
+	 }
+}

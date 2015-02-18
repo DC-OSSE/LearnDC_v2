@@ -1,0 +1,91 @@
+{
+"timestamp": "Wed Feb 18 15:25:14 2015",
+"org_type": "school",
+"org_name": "BRENT ES",
+"org_code": "0212",
+"exhibit": {
+	"id": "amo_targets",
+	"data":  
+[
+    {
+        "key": {
+            "subject": "Math",
+            "grade": "all",
+            "enrollment_status": "full_year",
+            "subgroup": "All",
+            "year": 2014
+        },
+        "val": {
+            "baseline": 0.619,
+            "target": 0.7143
+        }
+    },
+    {
+        "key": {
+            "subject": "Math",
+            "grade": "all",
+            "enrollment_status": "full_year",
+            "subgroup": "BL7",
+            "year": 2014
+        },
+        "val": {
+            "baseline": 0.5484,
+            "target": 0.6613
+        }
+    },
+    {
+        "key": {
+            "subject": "Math",
+            "grade": "all",
+            "enrollment_status": "full_year",
+            "subgroup": "WH7",
+            "year": 2014
+        },
+        "val": {
+            "baseline": 0.8871,
+            "target": 0.9153
+        }
+    },
+    {
+        "key": {
+            "subject": "Reading",
+            "grade": "all",
+            "enrollment_status": "full_year",
+            "subgroup": "All",
+            "year": 2014
+        },
+        "val": {
+            "baseline": 0.7619,
+            "target": 0.8214
+        }
+    },
+    {
+        "key": {
+            "subject": "Reading",
+            "grade": "all",
+            "enrollment_status": "full_year",
+            "subgroup": "BL7",
+            "year": 2014
+        },
+        "val": {
+            "baseline": 0.7258,
+            "target": 0.7944
+        }
+    },
+    {
+        "key": {
+            "subject": "Reading",
+            "grade": "all",
+            "enrollment_status": "full_year",
+            "subgroup": "WH7",
+            "year": 2014
+        },
+        "val": {
+            "baseline": 0.8372,
+            "target": 0.8779
+        }
+    }
+]
+
+	}
+}

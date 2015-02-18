@@ -1,0 +1,76 @@
+{
+	"timestamp": "Wed Feb 18 16:03:29 2015",
+	"org_type": "school",
+	"org_name": "Anacostia High School",
+	"org_code": "0450",
+	"report_card": {
+		"sections": [
+			{
+				"id": "accountability",
+				"data": [{
+						"year": "2013", 
+						"score": 26.29, 
+						"classification": "Priority", 
+						"growth": -2.64, 
+						"subgroups": [
+							{
+								"subgroup": "All",
+								"read_size": 135,
+								"read_score": 23.78,
+								"math_size": 134,
+								"math_score": 28.66,
+								"comp_size": 81,
+								"comp_score": 26.54
+							},
+							{
+								"subgroup": "Male",
+								"read_size": 71,
+								"read_score": 16.9,
+								"math_size": 71,
+								"math_score": 26.76,
+								"comp_size": 40,
+								"comp_score": 18.75
+							},
+							{
+								"subgroup": "Female",
+								"read_size": 64,
+								"read_score": 31.41,
+								"math_size": 63,
+								"math_score": 30.79,
+								"comp_size": 41,
+								"comp_score": 34.15
+							},
+							{
+								"subgroup": "African American",
+								"read_size": 135,
+								"read_score": 23.78,
+								"math_size": 134,
+								"math_score": 28.66,
+								"comp_size": 81,
+								"comp_score": 26.54
+							},
+							{
+								"subgroup": "Special Education",
+								"read_size": 40,
+								"read_score": 6.5,
+								"math_size": 40,
+								"math_score": 8.5,
+								"comp_size": 26,
+								"comp_score": null
+							},
+							{
+								"subgroup": "Economically Disadvantaged",
+								"read_size": 135,
+								"read_score": 23.78,
+								"math_size": 134,
+								"math_score": 28.66,
+								"comp_size": 81,
+								"comp_score": 26.54
+							}
+						]
+					}
+				]
+			},
+		]
+	 }
+}

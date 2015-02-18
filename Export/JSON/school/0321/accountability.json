@@ -1,0 +1,85 @@
+{
+	"timestamp": "Wed Feb 18 16:03:24 2015",
+	"org_type": "school",
+	"org_name": "Stoddert Elementary School",
+	"org_code": "0321",
+	"report_card": {
+		"sections": [
+			{
+				"id": "accountability",
+				"data": [{
+						"year": "2013", 
+						"score": 91.94, 
+						"classification": "Reward", 
+						"growth": 0.92, 
+						"subgroups": [
+							{
+								"subgroup": "All",
+								"read_size": 122,
+								"read_score": 88.77,
+								"math_size": 124,
+								"math_score": 91.85,
+								"comp_size": 37,
+								"comp_score": 102.7
+							},
+							{
+								"subgroup": "Male",
+								"read_size": 60,
+								"read_score": 80.5,
+								"math_size": 61,
+								"math_score": 85.9,
+								"comp_size": 16,
+								"comp_score": null
+							},
+							{
+								"subgroup": "Female",
+								"read_size": 62,
+								"read_score": 96.77,
+								"math_size": 63,
+								"math_score": 97.62,
+								"comp_size": 21,
+								"comp_score": null
+							},
+							{
+								"subgroup": "African American",
+								"read_size": 29,
+								"read_score": 78.62,
+								"math_size": 29,
+								"math_score": 70,
+								"comp_size": 4,
+								"comp_score": null
+							},
+							{
+								"subgroup": "White",
+								"read_size": 66,
+								"read_score": 93.79,
+								"math_size": 68,
+								"math_score": 103.38,
+								"comp_size": 22,
+								"comp_score": null
+							},
+							{
+								"subgroup": "English Learner",
+								"read_size": 30,
+								"read_score": null,
+								"math_size": 32,
+								"math_score": null,
+								"comp_size": 7,
+								"comp_score": null
+							},
+							{
+								"subgroup": "Economically Disadvantaged",
+								"read_size": 26,
+								"read_score": 77.69,
+								"math_size": 26,
+								"math_score": 63.85,
+								"comp_size": 4,
+								"comp_score": null
+							}
+						]
+					}
+				]
+			},
+		]
+	 }
+}

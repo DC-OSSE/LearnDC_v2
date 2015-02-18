@@ -46,8 +46,8 @@ acc_school$subgroup[which(acc_school$subgroup=='Male')] <- 'MALE'
 acc_school$subgroup[which(acc_school$subgroup=='Female')] <- 'FEMALE'
 
 
-key_index <- c(1,6,7,10,11,12)
-value_index <- c(8,9)
+key_index <- c(1,6,7)
+value_index <- c(8,9,11,12,10)
 num_orphans <- 0
 
 for(i in unique(acc_school$school_code)){

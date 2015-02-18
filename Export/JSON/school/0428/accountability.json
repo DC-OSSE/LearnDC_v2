@@ -1,0 +1,85 @@
+{
+	"timestamp": "Wed Feb 18 16:03:29 2015",
+	"org_type": "school",
+	"org_name": "Stuart-Hobson Middle School",
+	"org_code": "0428",
+	"report_card": {
+		"sections": [
+			{
+				"id": "accountability",
+				"data": [{
+						"year": "2013", 
+						"score": 61.94, 
+						"classification": "Rising", 
+						"growth": -8.1, 
+						"subgroups": [
+							{
+								"subgroup": "All",
+								"read_size": 407,
+								"read_score": 64.86,
+								"math_size": 407,
+								"math_score": 57.25,
+								"comp_size": 134,
+								"comp_score": 67.31
+							},
+							{
+								"subgroup": "Male",
+								"read_size": 197,
+								"read_score": 53.81,
+								"math_size": 197,
+								"math_score": 47.56,
+								"comp_size": 63,
+								"comp_score": 55.71
+							},
+							{
+								"subgroup": "Female",
+								"read_size": 210,
+								"read_score": 75.24,
+								"math_size": 210,
+								"math_score": 66.33,
+								"comp_size": 71,
+								"comp_score": 77.61
+							},
+							{
+								"subgroup": "African American",
+								"read_size": 354,
+								"read_score": 60.34,
+								"math_size": 354,
+								"math_score": 51.38,
+								"comp_size": 118,
+								"comp_score": 63.73
+							},
+							{
+								"subgroup": "White",
+								"read_size": 41,
+								"read_score": 95.12,
+								"math_size": 41,
+								"math_score": 100.24,
+								"comp_size": 8,
+								"comp_score": null
+							},
+							{
+								"subgroup": "Special Education",
+								"read_size": 49,
+								"read_score": 20,
+								"math_size": 49,
+								"math_score": 19.18,
+								"comp_size": 17,
+								"comp_score": null
+							},
+							{
+								"subgroup": "Economically Disadvantaged",
+								"read_size": 234,
+								"read_score": 56.88,
+								"math_size": 234,
+								"math_score": 44.23,
+								"comp_size": 83,
+								"comp_score": 57.59
+							}
+						]
+					}
+				]
+			},
+		]
+	 }
+}

@@ -1,0 +1,65 @@
+{
+"timestamp": "Wed Feb 18 15:25:16 2015",
+"org_type": "school",
+"org_name": "KEY ES",
+"org_code": "0272",
+"exhibit": {
+	"id": "amo_targets",
+	"data":  
+[
+    {
+        "key": {
+            "subject": "Math",
+            "grade": "all",
+            "enrollment_status": "full_year",
+            "subgroup": "All",
+            "year": 2014
+        },
+        "val": {
+            "baseline": 0.9077,
+            "target": 0.9308
+        }
+    },
+    {
+        "key": {
+            "subject": "Math",
+            "grade": "all",
+            "enrollment_status": "full_year",
+            "subgroup": "WH7",
+            "year": 2014
+        },
+        "val": {
+            "baseline": 0.9355,
+            "target": 0.9516
+        }
+    },
+    {
+        "key": {
+            "subject": "Reading",
+            "grade": "all",
+            "enrollment_status": "full_year",
+            "subgroup": "All",
+            "year": 2014
+        },
+        "val": {
+            "baseline": 0.8769,
+            "target": 0.9077
+        }
+    },
+    {
+        "key": {
+            "subject": "Reading",
+            "grade": "all",
+            "enrollment_status": "full_year",
+            "subgroup": "WH7",
+            "year": 2014
+        },
+        "val": {
+            "baseline": 0.9355,
+            "target": 0.9516
+        }
+    }
+]
+
+	}
+}

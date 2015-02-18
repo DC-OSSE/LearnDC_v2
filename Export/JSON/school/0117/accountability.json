@@ -1,0 +1,67 @@
+{
+	"timestamp": "Wed Feb 18 16:03:10 2015",
+	"org_type": "school",
+	"org_name": "Potomac Preparatory PCS",
+	"org_code": "0117",
+	"report_card": {
+		"sections": [
+			{
+				"id": "accountability",
+				"data": [{
+						"year": "2013", 
+						"score": 47.6, 
+						"classification": "Rising", 
+						"growth": -3.05, 
+						"subgroups": [
+							{
+								"subgroup": "All",
+								"read_size": 157,
+								"read_score": 44.08,
+								"math_size": 157,
+								"math_score": 49.43,
+								"comp_size": 45,
+								"comp_score": 53.56
+							},
+							{
+								"subgroup": "Male",
+								"read_size": 74,
+								"read_score": 35.14,
+								"math_size": 74,
+								"math_score": 48.78,
+								"comp_size": 22,
+								"comp_score": null
+							},
+							{
+								"subgroup": "Female",
+								"read_size": 83,
+								"read_score": 52.05,
+								"math_size": 83,
+								"math_score": 50,
+								"comp_size": 23,
+								"comp_score": null
+							},
+							{
+								"subgroup": "African American",
+								"read_size": 156,
+								"read_score": 44.36,
+								"math_size": 156,
+								"math_score": 49.1,
+								"comp_size": 45,
+								"comp_score": 53.56
+							},
+							{
+								"subgroup": "Economically Disadvantaged",
+								"read_size": 157,
+								"read_score": 44.08,
+								"math_size": 157,
+								"math_score": 49.43,
+								"comp_size": 45,
+								"comp_score": 53.56
+							}
+						]
+					}
+				]
+			},
+		]
+	 }
+}

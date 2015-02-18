@@ -1,0 +1,85 @@
+{
+	"timestamp": "Wed Feb 18 16:03:18 2015",
+	"org_type": "school",
+	"org_name": "H.D. Cooke Elementary School",
+	"org_code": "0227",
+	"report_card": {
+		"sections": [
+			{
+				"id": "accountability",
+				"data": [{
+						"year": "2013", 
+						"score": 39.43, 
+						"classification": "Focus", 
+						"growth": -0.68, 
+						"subgroups": [
+							{
+								"subgroup": "All",
+								"read_size": 126,
+								"read_score": 38.73,
+								"math_size": 126,
+								"math_score": 44.68,
+								"comp_size": 46,
+								"comp_score": 26.96
+							},
+							{
+								"subgroup": "Male",
+								"read_size": 65,
+								"read_score": 36.62,
+								"math_size": 65,
+								"math_score": 48.15,
+								"comp_size": 28,
+								"comp_score": 21.43
+							},
+							{
+								"subgroup": "Female",
+								"read_size": 61,
+								"read_score": 40.98,
+								"math_size": 61,
+								"math_score": 40.98,
+								"comp_size": 18,
+								"comp_score": null
+							},
+							{
+								"subgroup": "African American",
+								"read_size": 49,
+								"read_score": 31.43,
+								"math_size": 49,
+								"math_score": 30.61,
+								"comp_size": 17,
+								"comp_score": null
+							},
+							{
+								"subgroup": "Hispanic",
+								"read_size": 75,
+								"read_score": 43.2,
+								"math_size": 75,
+								"math_score": 52.27,
+								"comp_size": 29,
+								"comp_score": 26.21
+							},
+							{
+								"subgroup": "English Learner",
+								"read_size": 68,
+								"read_score": 40.88,
+								"math_size": 68,
+								"math_score": 47.5,
+								"comp_size": 26,
+								"comp_score": null
+							},
+							{
+								"subgroup": "Economically Disadvantaged",
+								"read_size": 126,
+								"read_score": 38.73,
+								"math_size": 126,
+								"math_score": 44.68,
+								"comp_size": 46,
+								"comp_score": 26.96
+							}
+						]
+					}
+				]
+			},
+		]
+	 }
+}

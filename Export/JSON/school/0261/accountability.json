@@ -1,0 +1,76 @@
+{
+	"timestamp": "Wed Feb 18 16:03:20 2015",
+	"org_type": "school",
+	"org_name": "Lafayette Elementary School",
+	"org_code": "0261",
+	"report_card": {
+		"sections": [
+			{
+				"id": "accountability",
+				"data": [{
+						"year": "2013", 
+						"score": 92.92, 
+						"classification": "Reward", 
+						"growth": 0.26, 
+						"subgroups": [
+							{
+								"subgroup": "All",
+								"read_size": 297,
+								"read_score": 91.38,
+								"math_size": 296,
+								"math_score": 96.76,
+								"comp_size": 96,
+								"comp_score": 85.83
+							},
+							{
+								"subgroup": "Male",
+								"read_size": 154,
+								"read_score": 86.69,
+								"math_size": 153,
+								"math_score": 94.05,
+								"comp_size": 52,
+								"comp_score": 82.69
+							},
+							{
+								"subgroup": "Female",
+								"read_size": 143,
+								"read_score": 96.43,
+								"math_size": 143,
+								"math_score": 99.65,
+								"comp_size": 44,
+								"comp_score": 89.55
+							},
+							{
+								"subgroup": "African American",
+								"read_size": 43,
+								"read_score": 54.65,
+								"math_size": 43,
+								"math_score": 66.74,
+								"comp_size": 13,
+								"comp_score": null
+							},
+							{
+								"subgroup": "White",
+								"read_size": 213,
+								"read_score": 97.98,
+								"math_size": 212,
+								"math_score": 101.98,
+								"comp_size": 69,
+								"comp_score": 93.77
+							},
+							{
+								"subgroup": "Economically Disadvantaged",
+								"read_size": 25,
+								"read_score": 60.8,
+								"math_size": 25,
+								"math_score": 68,
+								"comp_size": 8,
+								"comp_score": null
+							}
+						]
+					}
+				]
+			},
+		]
+	 }
+}

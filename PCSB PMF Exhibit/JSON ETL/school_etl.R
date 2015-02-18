@@ -7,7 +7,7 @@ library(plyr)
 pmf <- sqlQuery(dbrepcard_prod,"select * from [dbo].[pcsb_pmf_school_exhibit]")
 pmf <- rename(pmf,c('framework'='category','link'='url'))
 pmf$school_code <- sapply(pmf$school_code, leadgr, 4)
-
+pmf$url <- paste0("http://",pmf$url)
 
 key_index <- c(6,3)
 value_index <- c(4,5,7)

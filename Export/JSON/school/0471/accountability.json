@@ -1,0 +1,67 @@
+{
+	"timestamp": "Wed Feb 18 16:03:31 2015",
+	"org_type": "school",
+	"org_name": "Duke Ellington School of the Arts",
+	"org_code": "0471",
+	"report_card": {
+		"sections": [
+			{
+				"id": "accountability",
+				"data": [{
+						"year": "2013", 
+						"score": 79.18, 
+						"classification": "Rising", 
+						"growth": -5.12, 
+						"subgroups": [
+							{
+								"subgroup": "All",
+								"read_size": 147,
+								"read_score": 79.73,
+								"math_size": 147,
+								"math_score": 74.69,
+								"comp_size": 145,
+								"comp_score": 83.17
+							},
+							{
+								"subgroup": "Male",
+								"read_size": 49,
+								"read_score": 70.2,
+								"math_size": 49,
+								"math_score": 71.63,
+								"comp_size": 49,
+								"comp_score": 78.37
+							},
+							{
+								"subgroup": "Female",
+								"read_size": 98,
+								"read_score": 84.49,
+								"math_size": 98,
+								"math_score": 76.22,
+								"comp_size": 96,
+								"comp_score": 85.62
+							},
+							{
+								"subgroup": "African American",
+								"read_size": 110,
+								"read_score": 74.73,
+								"math_size": 110,
+								"math_score": 70.55,
+								"comp_size": 108,
+								"comp_score": 80.83
+							},
+							{
+								"subgroup": "Economically Disadvantaged",
+								"read_size": 62,
+								"read_score": 79.03,
+								"math_size": 62,
+								"math_score": 80.97,
+								"comp_size": 60,
+								"comp_score": 82.17
+							}
+						]
+					}
+				]
+			},
+		]
+	 }
+}

@@ -1,0 +1,67 @@
+{
+	"timestamp": "Wed Feb 18 16:03:09 2015",
+	"org_type": "school",
+	"org_name": "César Chávez PCS for Public Policy – Parkside High School",
+	"org_code": "0109",
+	"report_card": {
+		"sections": [
+			{
+				"id": "accountability",
+				"data": [{
+						"year": "2013", 
+						"score": 66.81, 
+						"classification": "Rising", 
+						"growth": 1.59, 
+						"subgroups": [
+							{
+								"subgroup": "All",
+								"read_size": 92,
+								"read_score": 55,
+								"math_size": 92,
+								"math_score": 75.33,
+								"comp_size": 92,
+								"comp_score": 70.11
+							},
+							{
+								"subgroup": "Male",
+								"read_size": 37,
+								"read_score": 44.59,
+								"math_size": 37,
+								"math_score": 66.22,
+								"comp_size": 37,
+								"comp_score": 54.32
+							},
+							{
+								"subgroup": "Female",
+								"read_size": 55,
+								"read_score": 62,
+								"math_size": 55,
+								"math_score": 81.45,
+								"comp_size": 55,
+								"comp_score": 80.73
+							},
+							{
+								"subgroup": "African American",
+								"read_size": 82,
+								"read_score": 54.02,
+								"math_size": 82,
+								"math_score": 73.9,
+								"comp_size": 82,
+								"comp_score": 68.05
+							},
+							{
+								"subgroup": "Economically Disadvantaged",
+								"read_size": 92,
+								"read_score": 55,
+								"math_size": 92,
+								"math_score": 75.33,
+								"comp_size": 92,
+								"comp_score": 70.11
+							}
+						]
+					}
+				]
+			},
+		]
+	 }
+}

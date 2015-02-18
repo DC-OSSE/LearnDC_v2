@@ -1,0 +1,65 @@
+{
+"timestamp": "Wed Feb 18 15:25:21 2015",
+"org_type": "school",
+"org_name": "MANN ES",
+"org_code": "0273",
+"exhibit": {
+	"id": "amo_targets",
+	"data":  
+[
+    {
+        "key": {
+            "subject": "Math",
+            "grade": "all",
+            "enrollment_status": "full_year",
+            "subgroup": "WH7",
+            "year": 2014
+        },
+        "val": {
+            "baseline": 0.9277,
+            "target": 0.9458
+        }
+    },
+    {
+        "key": {
+            "subject": "Math",
+            "grade": "all",
+            "enrollment_status": "full_year",
+            "subgroup": "All",
+            "year": 2014
+        },
+        "val": {
+            "baseline": 0.9107,
+            "target": 0.933
+        }
+    },
+    {
+        "key": {
+            "subject": "Reading",
+            "grade": "all",
+            "enrollment_status": "full_year",
+            "subgroup": "WH7",
+            "year": 2014
+        },
+        "val": {
+            "baseline": 0.9277,
+            "target": 0.9458
+        }
+    },
+    {
+        "key": {
+            "subject": "Reading",
+            "grade": "all",
+            "enrollment_status": "full_year",
+            "subgroup": "All",
+            "year": 2014
+        },
+        "val": {
+            "baseline": 0.9107,
+            "target": 0.933
+        }
+    }
+]
+
+	}
+}

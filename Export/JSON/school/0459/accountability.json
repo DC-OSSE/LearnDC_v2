@@ -1,0 +1,67 @@
+{
+	"timestamp": "Wed Feb 18 16:03:30 2015",
+	"org_type": "school",
+	"org_name": "Roosevelt High School @ MacFarland",
+	"org_code": "0459",
+	"report_card": {
+		"sections": [
+			{
+				"id": "accountability",
+				"data": [{
+						"year": "2013", 
+						"score": 21.85, 
+						"classification": "Priority", 
+						"growth": -7.18, 
+						"subgroups": [
+							{
+								"subgroup": "All",
+								"read_size": 76,
+								"read_score": 19.21,
+								"math_size": 77,
+								"math_score": 20.78,
+								"comp_size": 58,
+								"comp_score": 26.72
+							},
+							{
+								"subgroup": "Male",
+								"read_size": 45,
+								"read_score": 19.33,
+								"math_size": 46,
+								"math_score": 14.78,
+								"comp_size": 34,
+								"comp_score": 26.18
+							},
+							{
+								"subgroup": "Female",
+								"read_size": 31,
+								"read_score": 19.03,
+								"math_size": 31,
+								"math_score": 29.68,
+								"comp_size": 24,
+								"comp_score": null
+							},
+							{
+								"subgroup": "African American",
+								"read_size": 55,
+								"read_score": 19.09,
+								"math_size": 56,
+								"math_score": 19.64,
+								"comp_size": 42,
+								"comp_score": 26.9
+							},
+							{
+								"subgroup": "Economically Disadvantaged",
+								"read_size": 76,
+								"read_score": 19.21,
+								"math_size": 77,
+								"math_score": 20.78,
+								"comp_size": 58,
+								"comp_score": 26.72
+							}
+						]
+					}
+				]
+			},
+		]
+	 }
+}

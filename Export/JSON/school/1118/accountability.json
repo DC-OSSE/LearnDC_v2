@@ -1,0 +1,58 @@
+{
+	"timestamp": "Wed Feb 18 16:03:33 2015",
+	"org_type": "school",
+	"org_name": "Washington Latin PCS – Upper School",
+	"org_code": "1118",
+	"report_card": {
+		"sections": [
+			{
+				"id": "accountability",
+				"data": [{
+						"year": "2013", 
+						"score": 62.88, 
+						"classification": "Rising", 
+						"growth": -17.56, 
+						"subgroups": [
+							{
+								"subgroup": "All",
+								"read_size": 67,
+								"read_score": 64.93,
+								"math_size": 67,
+								"math_score": 72.84,
+								"comp_size": 64,
+								"comp_score": 50.31
+							},
+							{
+								"subgroup": "Male",
+								"read_size": 34,
+								"read_score": 63.53,
+								"math_size": 34,
+								"math_score": 70,
+								"comp_size": 32,
+								"comp_score": 41.88
+							},
+							{
+								"subgroup": "Female",
+								"read_size": 33,
+								"read_score": 66.36,
+								"math_size": 33,
+								"math_score": 75.76,
+								"comp_size": 32,
+								"comp_score": 58.75
+							},
+							{
+								"subgroup": "African American",
+								"read_size": 40,
+								"read_score": 56.25,
+								"math_size": 40,
+								"math_score": 62.25,
+								"comp_size": 38,
+								"comp_score": 45
+							}
+						]
+					}
+				]
+			},
+		]
+	 }
+}

@@ -1,0 +1,85 @@
+{
+	"timestamp": "Wed Feb 18 16:03:23 2015",
+	"org_type": "school",
+	"org_name": "Seaton Elementary School",
+	"org_code": "0309",
+	"report_card": {
+		"sections": [
+			{
+				"id": "accountability",
+				"data": [{
+						"year": "2013", 
+						"score": 63.54, 
+						"classification": "Focus", 
+						"growth": 6.94, 
+						"subgroups": [
+							{
+								"subgroup": "All",
+								"read_size": 81,
+								"read_score": 54.2,
+								"math_size": 81,
+								"math_score": 71.6,
+								"comp_size": 27,
+								"comp_score": 67.41
+							},
+							{
+								"subgroup": "Male",
+								"read_size": 48,
+								"read_score": 44.17,
+								"math_size": 48,
+								"math_score": 66.88,
+								"comp_size": 13,
+								"comp_score": null
+							},
+							{
+								"subgroup": "Female",
+								"read_size": 33,
+								"read_score": 68.79,
+								"math_size": 33,
+								"math_score": 78.48,
+								"comp_size": 14,
+								"comp_score": null
+							},
+							{
+								"subgroup": "African American",
+								"read_size": 36,
+								"read_score": 51.39,
+								"math_size": 36,
+								"math_score": 65.83,
+								"comp_size": 10,
+								"comp_score": null
+							},
+							{
+								"subgroup": "Hispanic",
+								"read_size": 34,
+								"read_score": 54.71,
+								"math_size": 34,
+								"math_score": 72.35,
+								"comp_size": 11,
+								"comp_score": null
+							},
+							{
+								"subgroup": "English Learner",
+								"read_size": 37,
+								"read_score": null,
+								"math_size": 37,
+								"math_score": null,
+								"comp_size": 15,
+								"comp_score": null
+							},
+							{
+								"subgroup": "Economically Disadvantaged",
+								"read_size": 81,
+								"read_score": 54.2,
+								"math_size": 81,
+								"math_score": 71.6,
+								"comp_size": 27,
+								"comp_score": 67.41
+							}
+						]
+					}
+				]
+			},
+		]
+	 }
+}

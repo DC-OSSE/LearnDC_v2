@@ -1,0 +1,67 @@
+{
+	"timestamp": "Wed Feb 18 16:03:16 2015",
+	"org_type": "school",
+	"org_name": "William E. Doar, Jr. PCS for the Performing Arts",
+	"org_code": "0210",
+	"report_card": {
+		"sections": [
+			{
+				"id": "accountability",
+				"data": [{
+						"year": "2013", 
+						"score": 54.07, 
+						"classification": "Rising", 
+						"growth": 3.13, 
+						"subgroups": [
+							{
+								"subgroup": "All",
+								"read_size": 184,
+								"read_score": 49.78,
+								"math_size": 184,
+								"math_score": 61.63,
+								"comp_size": 64,
+								"comp_score": 44.69
+							},
+							{
+								"subgroup": "Male",
+								"read_size": 76,
+								"read_score": 37.37,
+								"math_size": 76,
+								"math_score": 61.84,
+								"comp_size": 26,
+								"comp_score": 42.31
+							},
+							{
+								"subgroup": "Female",
+								"read_size": 108,
+								"read_score": 58.52,
+								"math_size": 108,
+								"math_score": 61.48,
+								"comp_size": 38,
+								"comp_score": 46.32
+							},
+							{
+								"subgroup": "African American",
+								"read_size": 175,
+								"read_score": 49.89,
+								"math_size": 175,
+								"math_score": 61.6,
+								"comp_size": 62,
+								"comp_score": 45.81
+							},
+							{
+								"subgroup": "Economically Disadvantaged",
+								"read_size": 184,
+								"read_score": 49.78,
+								"math_size": 184,
+								"math_score": 61.63,
+								"comp_size": 64,
+								"comp_score": 44.69
+							}
+						]
+					}
+				]
+			},
+		]
+	 }
+}

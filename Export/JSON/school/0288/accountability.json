@@ -1,0 +1,67 @@
+{
+	"timestamp": "Wed Feb 18 16:03:22 2015",
+	"org_type": "school",
+	"org_name": "Nalle Elementary School",
+	"org_code": "0288",
+	"report_card": {
+		"sections": [
+			{
+				"id": "accountability",
+				"data": [{
+						"year": "2013", 
+						"score": 45.41, 
+						"classification": "Rising", 
+						"growth": -7.61, 
+						"subgroups": [
+							{
+								"subgroup": "All",
+								"read_size": 129,
+								"read_score": 34.11,
+								"math_size": 129,
+								"math_score": 56.05,
+								"comp_size": 38,
+								"comp_score": 47.63
+							},
+							{
+								"subgroup": "Male",
+								"read_size": 56,
+								"read_score": 32.5,
+								"math_size": 56,
+								"math_score": 55.89,
+								"comp_size": 24,
+								"comp_score": null
+							},
+							{
+								"subgroup": "Female",
+								"read_size": 73,
+								"read_score": 35.34,
+								"math_size": 73,
+								"math_score": 56.16,
+								"comp_size": 14,
+								"comp_score": null
+							},
+							{
+								"subgroup": "African American",
+								"read_size": 125,
+								"read_score": 32.8,
+								"math_size": 125,
+								"math_score": 54.48,
+								"comp_size": 37,
+								"comp_score": 48.38
+							},
+							{
+								"subgroup": "Economically Disadvantaged",
+								"read_size": 129,
+								"read_score": 34.11,
+								"math_size": 129,
+								"math_score": 56.05,
+								"comp_size": 38,
+								"comp_score": 47.63
+							}
+						]
+					}
+				]
+			},
+		]
+	 }
+}

@@ -1,0 +1,76 @@
+{
+	"timestamp": "Wed Feb 18 16:03:10 2015",
+	"org_type": "school",
+	"org_name": "KIPP DC – WILL Academy PCS",
+	"org_code": "0121",
+	"report_card": {
+		"sections": [
+			{
+				"id": "accountability",
+				"data": [{
+						"year": "2013", 
+						"score": 67.57, 
+						"classification": "Rising", 
+						"growth": -6.98, 
+						"subgroups": [
+							{
+								"subgroup": "All",
+								"read_size": 369,
+								"read_score": 59.54,
+								"math_size": 369,
+								"math_score": 77.53,
+								"comp_size": 146,
+								"comp_score": 62.67
+							},
+							{
+								"subgroup": "Male",
+								"read_size": 186,
+								"read_score": 52.63,
+								"math_size": 186,
+								"math_score": 74.68,
+								"comp_size": 66,
+								"comp_score": 51.21
+							},
+							{
+								"subgroup": "Female",
+								"read_size": 183,
+								"read_score": 66.56,
+								"math_size": 183,
+								"math_score": 80.44,
+								"comp_size": 80,
+								"comp_score": 72.12
+							},
+							{
+								"subgroup": "African American",
+								"read_size": 363,
+								"read_score": 58.79,
+								"math_size": 363,
+								"math_score": 77.05,
+								"comp_size": 142,
+								"comp_score": 61.41
+							},
+							{
+								"subgroup": "Special Education",
+								"read_size": 71,
+								"read_score": 21.97,
+								"math_size": 71,
+								"math_score": 47.46,
+								"comp_size": 21,
+								"comp_score": null
+							},
+							{
+								"subgroup": "Economically Disadvantaged",
+								"read_size": 284,
+								"read_score": 57.82,
+								"math_size": 284,
+								"math_score": 76.65,
+								"comp_size": 119,
+								"comp_score": 61.6
+							}
+						]
+					}
+				]
+			},
+		]
+	 }
+}

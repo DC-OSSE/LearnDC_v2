@@ -1,0 +1,76 @@
+{
+	"timestamp": "Wed Feb 18 16:03:30 2015",
+	"org_type": "school",
+	"org_name": "H.D. Woodson High School",
+	"org_code": "0464",
+	"report_card": {
+		"sections": [
+			{
+				"id": "accountability",
+				"data": [{
+						"year": "2013", 
+						"score": 24.63, 
+						"classification": "Priority", 
+						"growth": -0.96, 
+						"subgroups": [
+							{
+								"subgroup": "All",
+								"read_size": 160,
+								"read_score": 22.94,
+								"math_size": 160,
+								"math_score": 29.56,
+								"comp_size": 125,
+								"comp_score": 20.48
+							},
+							{
+								"subgroup": "Male",
+								"read_size": 92,
+								"read_score": 20.54,
+								"math_size": 92,
+								"math_score": 29.89,
+								"comp_size": 70,
+								"comp_score": 11.29
+							},
+							{
+								"subgroup": "Female",
+								"read_size": 68,
+								"read_score": 26.18,
+								"math_size": 68,
+								"math_score": 29.12,
+								"comp_size": 55,
+								"comp_score": 32.18
+							},
+							{
+								"subgroup": "African American",
+								"read_size": 160,
+								"read_score": 22.94,
+								"math_size": 160,
+								"math_score": 29.56,
+								"comp_size": 125,
+								"comp_score": 20.48
+							},
+							{
+								"subgroup": "Special Education",
+								"read_size": 50,
+								"read_score": 10.4,
+								"math_size": 50,
+								"math_score": 22.8,
+								"comp_size": 36,
+								"comp_score": 3.33
+							},
+							{
+								"subgroup": "Economically Disadvantaged",
+								"read_size": 160,
+								"read_score": 22.94,
+								"math_size": 160,
+								"math_score": 29.56,
+								"comp_size": 125,
+								"comp_score": 20.48
+							}
+						]
+					}
+				]
+			},
+		]
+	 }
+}

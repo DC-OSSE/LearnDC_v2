@@ -1,0 +1,76 @@
+{
+	"timestamp": "Wed Feb 18 16:03:27 2015",
+	"org_type": "school",
+	"org_name": "Browne Education Campus",
+	"org_code": "0404",
+	"report_card": {
+		"sections": [
+			{
+				"id": "accountability",
+				"data": [{
+						"year": "2013", 
+						"score": 34.46, 
+						"classification": "Developing", 
+						"growth": -5.65, 
+						"subgroups": [
+							{
+								"subgroup": "All",
+								"read_size": 172,
+								"read_score": 32.21,
+								"math_size": 172,
+								"math_score": 36.28,
+								"comp_size": 48,
+								"comp_score": 36.04
+							},
+							{
+								"subgroup": "Male",
+								"read_size": 93,
+								"read_score": 32.9,
+								"math_size": 93,
+								"math_score": 32.15,
+								"comp_size": 26,
+								"comp_score": 29.23
+							},
+							{
+								"subgroup": "Female",
+								"read_size": 79,
+								"read_score": 31.39,
+								"math_size": 79,
+								"math_score": 41.14,
+								"comp_size": 22,
+								"comp_score": null
+							},
+							{
+								"subgroup": "African American",
+								"read_size": 167,
+								"read_score": 32.81,
+								"math_size": 167,
+								"math_score": 36.05,
+								"comp_size": 46,
+								"comp_score": 35
+							},
+							{
+								"subgroup": "Special Education",
+								"read_size": 28,
+								"read_score": 15.71,
+								"math_size": 28,
+								"math_score": 19.29,
+								"comp_size": 9,
+								"comp_score": null
+							},
+							{
+								"subgroup": "Economically Disadvantaged",
+								"read_size": 172,
+								"read_score": 32.21,
+								"math_size": 172,
+								"math_score": 36.28,
+								"comp_size": 48,
+								"comp_score": 36.04
+							}
+						]
+					}
+				]
+			},
+		]
+	 }
+}

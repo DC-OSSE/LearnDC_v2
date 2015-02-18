@@ -1,0 +1,94 @@
+{
+	"timestamp": "Wed Feb 18 16:03:13 2015",
+	"org_type": "school",
+	"org_name": "Meridian PCS",
+	"org_code": "0165",
+	"report_card": {
+		"sections": [
+			{
+				"id": "accountability",
+				"data": [{
+						"year": "2013", 
+						"score": 49.97, 
+						"classification": "Rising", 
+						"growth": -12.08, 
+						"subgroups": [
+							{
+								"subgroup": "All",
+								"read_size": 256,
+								"read_score": 48.01,
+								"math_size": 256,
+								"math_score": 53.09,
+								"comp_size": 83,
+								"comp_score": 46.39
+							},
+							{
+								"subgroup": "Male",
+								"read_size": 119,
+								"read_score": 43.87,
+								"math_size": 119,
+								"math_score": 54.79,
+								"comp_size": 39,
+								"comp_score": 31.03
+							},
+							{
+								"subgroup": "Female",
+								"read_size": 137,
+								"read_score": 51.61,
+								"math_size": 137,
+								"math_score": 51.61,
+								"comp_size": 44,
+								"comp_score": 60
+							},
+							{
+								"subgroup": "African American",
+								"read_size": 159,
+								"read_score": 49.94,
+								"math_size": 159,
+								"math_score": 53.02,
+								"comp_size": 53,
+								"comp_score": 43.77
+							},
+							{
+								"subgroup": "Hispanic",
+								"read_size": 95,
+								"read_score": 43.58,
+								"math_size": 95,
+								"math_score": 52,
+								"comp_size": 30,
+								"comp_score": 51
+							},
+							{
+								"subgroup": "Special Education",
+								"read_size": 51,
+								"read_score": 21.18,
+								"math_size": 50,
+								"math_score": 24,
+								"comp_size": 13,
+								"comp_score": null
+							},
+							{
+								"subgroup": "English Learner",
+								"read_size": 68,
+								"read_score": 27.65,
+								"math_size": 68,
+								"math_score": 35.59,
+								"comp_size": 16,
+								"comp_score": null
+							},
+							{
+								"subgroup": "Economically Disadvantaged",
+								"read_size": 256,
+								"read_score": 48.01,
+								"math_size": 256,
+								"math_score": 53.09,
+								"comp_size": 83,
+								"comp_score": 46.39
+							}
+						]
+					}
+				]
+			},
+		]
+	 }
+}

@@ -1,0 +1,76 @@
+{
+	"timestamp": "Wed Feb 18 16:03:11 2015",
+	"org_type": "school",
+	"org_name": "Mary McLeod Bethune Day Academy PCS",
+	"org_code": "0135",
+	"report_card": {
+		"sections": [
+			{
+				"id": "accountability",
+				"data": [{
+						"year": "2013", 
+						"score": 49.13, 
+						"classification": "Rising", 
+						"growth": -4.16, 
+						"subgroups": [
+							{
+								"subgroup": "All",
+								"read_size": 160,
+								"read_score": 48.69,
+								"math_size": 175,
+								"math_score": 46.91,
+								"comp_size": 58,
+								"comp_score": 57.07
+							},
+							{
+								"subgroup": "Male",
+								"read_size": 87,
+								"read_score": 44.6,
+								"math_size": 94,
+								"math_score": 44.47,
+								"comp_size": 34,
+								"comp_score": 47.94
+							},
+							{
+								"subgroup": "Female",
+								"read_size": 73,
+								"read_score": 53.56,
+								"math_size": 81,
+								"math_score": 49.75,
+								"comp_size": 24,
+								"comp_score": null
+							},
+							{
+								"subgroup": "African American",
+								"read_size": 155,
+								"read_score": 49.61,
+								"math_size": 170,
+								"math_score": 47.59,
+								"comp_size": 56,
+								"comp_score": 58.75
+							},
+							{
+								"subgroup": "Special Education",
+								"read_size": 21,
+								"read_score": null,
+								"math_size": 37,
+								"math_score": 18.92,
+								"comp_size": 12,
+								"comp_score": null
+							},
+							{
+								"subgroup": "Economically Disadvantaged",
+								"read_size": 160,
+								"read_score": 48.69,
+								"math_size": 175,
+								"math_score": 46.91,
+								"comp_size": 58,
+								"comp_score": 57.07
+							}
+						]
+					}
+				]
+			},
+		]
+	 }
+}

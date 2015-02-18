@@ -1,0 +1,67 @@
+{
+	"timestamp": "Wed Feb 18 16:03:30 2015",
+	"org_type": "school",
+	"org_name": "School Without Walls High School",
+	"org_code": "0466",
+	"report_card": {
+		"sections": [
+			{
+				"id": "accountability",
+				"data": [{
+						"year": "2013", 
+						"score": 101.43, 
+						"classification": "Reward", 
+						"growth": -2.58, 
+						"subgroups": [
+							{
+								"subgroup": "All",
+								"read_size": 145,
+								"read_score": 106.48,
+								"math_size": 145,
+								"math_score": 103.1,
+								"comp_size": 145,
+								"comp_score": 94.69
+							},
+							{
+								"subgroup": "Male",
+								"read_size": 57,
+								"read_score": 107.54,
+								"math_size": 57,
+								"math_score": 105.79,
+								"comp_size": 57,
+								"comp_score": 90.7
+							},
+							{
+								"subgroup": "Female",
+								"read_size": 88,
+								"read_score": 105.8,
+								"math_size": 88,
+								"math_score": 101.36,
+								"comp_size": 88,
+								"comp_score": 97.27
+							},
+							{
+								"subgroup": "African American",
+								"read_size": 66,
+								"read_score": 105.91,
+								"math_size": 66,
+								"math_score": 99.55,
+								"comp_size": 66,
+								"comp_score": 96.06
+							},
+							{
+								"subgroup": "White",
+								"read_size": 45,
+								"read_score": 108.67,
+								"math_size": 45,
+								"math_score": 105.56,
+								"comp_size": 45,
+								"comp_score": 96.22
+							}
+						]
+					}
+				]
+			},
+		]
+	 }
+}

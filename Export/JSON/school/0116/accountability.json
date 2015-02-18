@@ -1,0 +1,76 @@
+{
+	"timestamp": "Wed Feb 18 16:03:10 2015",
+	"org_type": "school",
+	"org_name": "KIPP DC – AIM Academy PCS",
+	"org_code": "0116",
+	"report_card": {
+		"sections": [
+			{
+				"id": "accountability",
+				"data": [{
+						"year": "2013", 
+						"score": 66.53, 
+						"classification": "Rising", 
+						"growth": -6.32, 
+						"subgroups": [
+							{
+								"subgroup": "All",
+								"read_size": 315,
+								"read_score": 61.11,
+								"math_size": 315,
+								"math_score": 74.79,
+								"comp_size": 74,
+								"comp_score": 54.46
+							},
+							{
+								"subgroup": "Male",
+								"read_size": 145,
+								"read_score": 53.66,
+								"math_size": 145,
+								"math_score": 71.72,
+								"comp_size": 37,
+								"comp_score": 46.22
+							},
+							{
+								"subgroup": "Female",
+								"read_size": 170,
+								"read_score": 67.47,
+								"math_size": 170,
+								"math_score": 77.41,
+								"comp_size": 37,
+								"comp_score": 62.7
+							},
+							{
+								"subgroup": "African American",
+								"read_size": 311,
+								"read_score": 60.93,
+								"math_size": 311,
+								"math_score": 74.41,
+								"comp_size": 71,
+								"comp_score": 52.39
+							},
+							{
+								"subgroup": "Special Education",
+								"read_size": 69,
+								"read_score": 25.51,
+								"math_size": 69,
+								"math_score": 33.62,
+								"comp_size": 13,
+								"comp_score": null
+							},
+							{
+								"subgroup": "Economically Disadvantaged",
+								"read_size": 273,
+								"read_score": 58.79,
+								"math_size": 273,
+								"math_score": 73.88,
+								"comp_size": 65,
+								"comp_score": 53.23
+							}
+						]
+					}
+				]
+			},
+		]
+	 }
+}

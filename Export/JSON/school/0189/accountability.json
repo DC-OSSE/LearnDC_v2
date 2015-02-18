@@ -1,0 +1,76 @@
+{
+	"timestamp": "Wed Feb 18 16:03:15 2015",
+	"org_type": "school",
+	"org_name": "KIPP DC – KEY Academy PCS",
+	"org_code": "0189",
+	"report_card": {
+		"sections": [
+			{
+				"id": "accountability",
+				"data": [{
+						"year": "2013", 
+						"score": 83.88, 
+						"classification": "Reward", 
+						"growth": -2.74, 
+						"subgroups": [
+							{
+								"subgroup": "All",
+								"read_size": 327,
+								"read_score": 76.18,
+								"math_size": 327,
+								"math_score": 91.35,
+								"comp_size": 78,
+								"comp_score": 84.87
+							},
+							{
+								"subgroup": "Male",
+								"read_size": 143,
+								"read_score": 71.05,
+								"math_size": 143,
+								"math_score": 86.43,
+								"comp_size": 34,
+								"comp_score": 80
+							},
+							{
+								"subgroup": "Female",
+								"read_size": 184,
+								"read_score": 80.16,
+								"math_size": 184,
+								"math_score": 95.16,
+								"comp_size": 44,
+								"comp_score": 88.64
+							},
+							{
+								"subgroup": "African American",
+								"read_size": 327,
+								"read_score": 76.18,
+								"math_size": 327,
+								"math_score": 91.35,
+								"comp_size": 78,
+								"comp_score": 84.87
+							},
+							{
+								"subgroup": "Special Education",
+								"read_size": 39,
+								"read_score": 37.69,
+								"math_size": 39,
+								"math_score": 71.54,
+								"comp_size": 8,
+								"comp_score": null
+							},
+							{
+								"subgroup": "Economically Disadvantaged",
+								"read_size": 261,
+								"read_score": 74.02,
+								"math_size": 261,
+								"math_score": 90.38,
+								"comp_size": 68,
+								"comp_score": 86.03
+							}
+						]
+					}
+				]
+			},
+		]
+	 }
+}

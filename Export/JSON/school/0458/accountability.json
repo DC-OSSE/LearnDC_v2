@@ -1,0 +1,67 @@
+{
+	"timestamp": "Wed Feb 18 16:03:30 2015",
+	"org_type": "school",
+	"org_name": "McKinley Technology High School",
+	"org_code": "0458",
+	"report_card": {
+		"sections": [
+			{
+				"id": "accountability",
+				"data": [{
+						"year": "2013", 
+						"score": 90.74, 
+						"classification": "Reward", 
+						"growth": 5.14, 
+						"subgroups": [
+							{
+								"subgroup": "All",
+								"read_size": 172,
+								"read_score": 89.59,
+								"math_size": 172,
+								"math_score": 94.83,
+								"comp_size": 168,
+								"comp_score": 87.74
+							},
+							{
+								"subgroup": "Male",
+								"read_size": 68,
+								"read_score": 85.59,
+								"math_size": 68,
+								"math_score": 94.85,
+								"comp_size": 67,
+								"comp_score": 80.15
+							},
+							{
+								"subgroup": "Female",
+								"read_size": 104,
+								"read_score": 92.21,
+								"math_size": 104,
+								"math_score": 94.81,
+								"comp_size": 101,
+								"comp_score": 92.77
+							},
+							{
+								"subgroup": "African American",
+								"read_size": 160,
+								"read_score": 88.81,
+								"math_size": 160,
+								"math_score": 94.31,
+								"comp_size": 157,
+								"comp_score": 88.73
+							},
+							{
+								"subgroup": "Economically Disadvantaged",
+								"read_size": 99,
+								"read_score": 87.27,
+								"math_size": 99,
+								"math_score": 95.66,
+								"comp_size": 97,
+								"comp_score": 88.76
+							}
+						]
+					}
+				]
+			},
+		]
+	 }
+}

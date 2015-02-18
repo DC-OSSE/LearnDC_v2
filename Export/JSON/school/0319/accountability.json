@@ -1,0 +1,76 @@
+{
+	"timestamp": "Wed Feb 18 16:03:24 2015",
+	"org_type": "school",
+	"org_name": "Stanton Elementary School",
+	"org_code": "0319",
+	"report_card": {
+		"sections": [
+			{
+				"id": "accountability",
+				"data": [{
+						"year": "2013", 
+						"score": 36.91, 
+						"classification": "Developing", 
+						"growth": -1.46, 
+						"subgroups": [
+							{
+								"subgroup": "All",
+								"read_size": 222,
+								"read_score": 33.96,
+								"math_size": 222,
+								"math_score": 41.98,
+								"comp_size": 86,
+								"comp_score": 31.4
+							},
+							{
+								"subgroup": "Male",
+								"read_size": 109,
+								"read_score": 30.37,
+								"math_size": 109,
+								"math_score": 45.23,
+								"comp_size": 47,
+								"comp_score": 25.11
+							},
+							{
+								"subgroup": "Female",
+								"read_size": 113,
+								"read_score": 37.43,
+								"math_size": 113,
+								"math_score": 38.85,
+								"comp_size": 39,
+								"comp_score": 38.97
+							},
+							{
+								"subgroup": "African American",
+								"read_size": 221,
+								"read_score": 33.67,
+								"math_size": 221,
+								"math_score": 41.67,
+								"comp_size": 85,
+								"comp_score": 31.53
+							},
+							{
+								"subgroup": "Special Education",
+								"read_size": 31,
+								"read_score": 22.9,
+								"math_size": 31,
+								"math_score": 34.52,
+								"comp_size": 17,
+								"comp_score": null
+							},
+							{
+								"subgroup": "Economically Disadvantaged",
+								"read_size": 222,
+								"read_score": 33.96,
+								"math_size": 222,
+								"math_score": 41.98,
+								"comp_size": 86,
+								"comp_score": 31.4
+							}
+						]
+					}
+				]
+			},
+		]
+	 }
+}

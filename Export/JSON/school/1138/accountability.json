@@ -1,0 +1,76 @@
+{
+	"timestamp": "Wed Feb 18 16:03:34 2015",
+	"org_type": "school",
+	"org_name": "E.L. Haynes PCS – Kansas Avenue (High School)",
+	"org_code": "1138",
+	"report_card": {
+		"sections": [
+			{
+				"id": "accountability",
+				"data": [{
+						"year": "2013", 
+						"score": 55.73, 
+						"classification": "Rising", 
+						"growth": -5.04, 
+						"subgroups": [
+							{
+								"subgroup": "All",
+								"read_size": 78,
+								"read_score": 47.18,
+								"math_size": 78,
+								"math_score": 62.44,
+								"comp_size": 78,
+								"comp_score": 57.56
+							},
+							{
+								"subgroup": "Male",
+								"read_size": 39,
+								"read_score": 46.15,
+								"math_size": 39,
+								"math_score": 60.51,
+								"comp_size": 39,
+								"comp_score": 53.33
+							},
+							{
+								"subgroup": "Female",
+								"read_size": 39,
+								"read_score": 48.21,
+								"math_size": 39,
+								"math_score": 64.36,
+								"comp_size": 39,
+								"comp_score": 61.79
+							},
+							{
+								"subgroup": "African American",
+								"read_size": 42,
+								"read_score": 53.81,
+								"math_size": 42,
+								"math_score": 67.14,
+								"comp_size": 42,
+								"comp_score": 56.19
+							},
+							{
+								"subgroup": "Hispanic",
+								"read_size": 33,
+								"read_score": 36.67,
+								"math_size": 33,
+								"math_score": 53.03,
+								"comp_size": 33,
+								"comp_score": 58.18
+							},
+							{
+								"subgroup": "Economically Disadvantaged",
+								"read_size": 51,
+								"read_score": 37.84,
+								"math_size": 51,
+								"math_score": 65.69,
+								"comp_size": 51,
+								"comp_score": 60.39
+							}
+						]
+					}
+				]
+			},
+		]
+	 }
+}

@@ -1,0 +1,76 @@
+{
+	"timestamp": "Wed Feb 18 16:03:21 2015",
+	"org_type": "school",
+	"org_name": "Maury Elementary School",
+	"org_code": "0274",
+	"report_card": {
+		"sections": [
+			{
+				"id": "accountability",
+				"data": [{
+						"year": "2013", 
+						"score": 71.73, 
+						"classification": "Rising", 
+						"growth": 4.63, 
+						"subgroups": [
+							{
+								"subgroup": "All",
+								"read_size": 105,
+								"read_score": 71.62,
+								"math_size": 105,
+								"math_score": 71.62,
+								"comp_size": 38,
+								"comp_score": 72.37
+							},
+							{
+								"subgroup": "Male",
+								"read_size": 63,
+								"read_score": 71.27,
+								"math_size": 63,
+								"math_score": 70.63,
+								"comp_size": 18,
+								"comp_score": null
+							},
+							{
+								"subgroup": "Female",
+								"read_size": 42,
+								"read_score": 72.14,
+								"math_size": 42,
+								"math_score": 73.1,
+								"comp_size": 20,
+								"comp_score": null
+							},
+							{
+								"subgroup": "African American",
+								"read_size": 62,
+								"read_score": 53.55,
+								"math_size": 62,
+								"math_score": 51.77,
+								"comp_size": 16,
+								"comp_score": null
+							},
+							{
+								"subgroup": "White",
+								"read_size": 33,
+								"read_score": 96.06,
+								"math_size": 33,
+								"math_score": 101.82,
+								"comp_size": 14,
+								"comp_score": null
+							},
+							{
+								"subgroup": "Economically Disadvantaged",
+								"read_size": 36,
+								"read_score": 50,
+								"math_size": 36,
+								"math_score": 57.5,
+								"comp_size": 11,
+								"comp_score": null
+							}
+						]
+					}
+				]
+			},
+		]
+	 }
+}

@@ -1,0 +1,76 @@
+{
+	"timestamp": "Wed Feb 18 16:03:23 2015",
+	"org_type": "school",
+	"org_name": "Savoy Elementary School",
+	"org_code": "0307",
+	"report_card": {
+		"sections": [
+			{
+				"id": "accountability",
+				"data": [{
+						"year": "2013", 
+						"score": 33.6, 
+						"classification": "Priority", 
+						"growth": 3.57, 
+						"subgroups": [
+							{
+								"subgroup": "All",
+								"read_size": 153,
+								"read_score": 31.37,
+								"math_size": 153,
+								"math_score": 37.32,
+								"comp_size": 50,
+								"comp_score": 29
+							},
+							{
+								"subgroup": "Male",
+								"read_size": 81,
+								"read_score": 26.3,
+								"math_size": 81,
+								"math_score": 32.84,
+								"comp_size": 26,
+								"comp_score": 18.08
+							},
+							{
+								"subgroup": "Female",
+								"read_size": 72,
+								"read_score": 37.08,
+								"math_size": 72,
+								"math_score": 42.36,
+								"comp_size": 24,
+								"comp_score": null
+							},
+							{
+								"subgroup": "African American",
+								"read_size": 148,
+								"read_score": 31.35,
+								"math_size": 148,
+								"math_score": 38.18,
+								"comp_size": 47,
+								"comp_score": 28.3
+							},
+							{
+								"subgroup": "Special Education",
+								"read_size": 25,
+								"read_score": null,
+								"math_size": 25,
+								"math_score": null,
+								"comp_size": 10,
+								"comp_score": null
+							},
+							{
+								"subgroup": "Economically Disadvantaged",
+								"read_size": 153,
+								"read_score": 31.37,
+								"math_size": 153,
+								"math_score": 37.32,
+								"comp_size": 50,
+								"comp_score": 29
+							}
+						]
+					}
+				]
+			},
+		]
+	 }
+}

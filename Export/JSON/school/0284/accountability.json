@@ -1,0 +1,76 @@
+{
+	"timestamp": "Wed Feb 18 16:03:21 2015",
+	"org_type": "school",
+	"org_name": "Marie Reed Elementary School",
+	"org_code": "0284",
+	"report_card": {
+		"sections": [
+			{
+				"id": "accountability",
+				"data": [{
+						"year": "2013", 
+						"score": 60, 
+						"classification": "Rising", 
+						"growth": -0.12, 
+						"subgroups": [
+							{
+								"subgroup": "All",
+								"read_size": 109,
+								"read_score": 55.87,
+								"math_size": 110,
+								"math_score": 62.73,
+								"comp_size": 28,
+								"comp_score": 65.36
+							},
+							{
+								"subgroup": "Male",
+								"read_size": 58,
+								"read_score": 52.41,
+								"math_size": 59,
+								"math_score": 63.9,
+								"comp_size": 10,
+								"comp_score": null
+							},
+							{
+								"subgroup": "Female",
+								"read_size": 51,
+								"read_score": 59.8,
+								"math_size": 51,
+								"math_score": 61.37,
+								"comp_size": 18,
+								"comp_score": null
+							},
+							{
+								"subgroup": "Hispanic",
+								"read_size": 76,
+								"read_score": 56.05,
+								"math_size": 76,
+								"math_score": 64.87,
+								"comp_size": 17,
+								"comp_score": null
+							},
+							{
+								"subgroup": "English Learner",
+								"read_size": 68,
+								"read_score": 51.32,
+								"math_size": 69,
+								"math_score": 57.68,
+								"comp_size": 18,
+								"comp_score": null
+							},
+							{
+								"subgroup": "Economically Disadvantaged",
+								"read_size": 109,
+								"read_score": 55.87,
+								"math_size": 110,
+								"math_score": 62.73,
+								"comp_size": 28,
+								"comp_score": 65.36
+							}
+						]
+					}
+				]
+			},
+		]
+	 }
+}

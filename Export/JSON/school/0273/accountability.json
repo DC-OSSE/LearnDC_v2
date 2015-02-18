@@ -1,0 +1,58 @@
+{
+	"timestamp": "Wed Feb 18 16:03:21 2015",
+	"org_type": "school",
+	"org_name": "Mann Elementary School",
+	"org_code": "0273",
+	"report_card": {
+		"sections": [
+			{
+				"id": "accountability",
+				"data": [{
+						"year": "2013", 
+						"score": 94.75, 
+						"classification": "Reward", 
+						"growth": 0.02, 
+						"subgroups": [
+							{
+								"subgroup": "All",
+								"read_size": 94,
+								"read_score": 93.51,
+								"math_size": 95,
+								"math_score": 97.68,
+								"comp_size": 28,
+								"comp_score": 88.93
+							},
+							{
+								"subgroup": "Male",
+								"read_size": 48,
+								"read_score": 90.83,
+								"math_size": 48,
+								"math_score": 100,
+								"comp_size": 17,
+								"comp_score": null
+							},
+							{
+								"subgroup": "Female",
+								"read_size": 46,
+								"read_score": 96.3,
+								"math_size": 47,
+								"math_score": 95.32,
+								"comp_size": 11,
+								"comp_score": null
+							},
+							{
+								"subgroup": "White",
+								"read_size": 57,
+								"read_score": 96.14,
+								"math_size": 58,
+								"math_score": 103.45,
+								"comp_size": 18,
+								"comp_score": null
+							}
+						]
+					}
+				]
+			},
+		]
+	 }
+}

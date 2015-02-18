@@ -1,0 +1,76 @@
+{
+	"timestamp": "Wed Feb 18 16:03:13 2015",
+	"org_type": "school",
+	"org_name": "Options PCS",
+	"org_code": "0169",
+	"report_card": {
+		"sections": [
+			{
+				"id": "accountability",
+				"data": [{
+						"year": "2013", 
+						"score": 16.66, 
+						"classification": "Priority", 
+						"growth": -9.43, 
+						"subgroups": [
+							{
+								"subgroup": "All",
+								"read_size": 136,
+								"read_score": 15.44,
+								"math_size": 136,
+								"math_score": 17.94,
+								"comp_size": 78,
+								"comp_score": 16.54
+							},
+							{
+								"subgroup": "Male",
+								"read_size": 81,
+								"read_score": 14.81,
+								"math_size": 81,
+								"math_score": 21.23,
+								"comp_size": 50,
+								"comp_score": 16
+							},
+							{
+								"subgroup": "Female",
+								"read_size": 55,
+								"read_score": 16.36,
+								"math_size": 55,
+								"math_score": 13.09,
+								"comp_size": 28,
+								"comp_score": 17.5
+							},
+							{
+								"subgroup": "African American",
+								"read_size": 136,
+								"read_score": 15.44,
+								"math_size": 136,
+								"math_score": 17.94,
+								"comp_size": 78,
+								"comp_score": 16.54
+							},
+							{
+								"subgroup": "Special Education",
+								"read_size": 88,
+								"read_score": 12.5,
+								"math_size": 88,
+								"math_score": 12.95,
+								"comp_size": 50,
+								"comp_score": 14
+							},
+							{
+								"subgroup": "Economically Disadvantaged",
+								"read_size": 136,
+								"read_score": 15.44,
+								"math_size": 136,
+								"math_score": 17.94,
+								"comp_size": 78,
+								"comp_score": 16.54
+							}
+						]
+					}
+				]
+			},
+		]
+	 }
+}

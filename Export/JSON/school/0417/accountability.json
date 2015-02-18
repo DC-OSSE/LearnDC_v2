@@ -1,0 +1,76 @@
+{
+	"timestamp": "Wed Feb 18 16:03:28 2015",
+	"org_type": "school",
+	"org_name": "Kramer Middle School",
+	"org_code": "0417",
+	"report_card": {
+		"sections": [
+			{
+				"id": "accountability",
+				"data": [{
+						"year": "2013", 
+						"score": 31.46, 
+						"classification": "Priority", 
+						"growth": -4.1, 
+						"subgroups": [
+							{
+								"subgroup": "All",
+								"read_size": 330,
+								"read_score": 29.45,
+								"math_size": 328,
+								"math_score": 29.88,
+								"comp_size": 107,
+								"comp_score": 42.52
+							},
+							{
+								"subgroup": "Male",
+								"read_size": 171,
+								"read_score": 24.91,
+								"math_size": 170,
+								"math_score": 23.94,
+								"comp_size": 54,
+								"comp_score": 24.26
+							},
+							{
+								"subgroup": "Female",
+								"read_size": 159,
+								"read_score": 34.34,
+								"math_size": 158,
+								"math_score": 36.27,
+								"comp_size": 53,
+								"comp_score": 61.13
+							},
+							{
+								"subgroup": "African American",
+								"read_size": 325,
+								"read_score": 29.17,
+								"math_size": 323,
+								"math_score": 29.69,
+								"comp_size": 106,
+								"comp_score": 42.74
+							},
+							{
+								"subgroup": "Special Education",
+								"read_size": 74,
+								"read_score": 13.51,
+								"math_size": 74,
+								"math_score": 15.54,
+								"comp_size": 21,
+								"comp_score": null
+							},
+							{
+								"subgroup": "Economically Disadvantaged",
+								"read_size": 330,
+								"read_score": 29.45,
+								"math_size": 328,
+								"math_score": 29.88,
+								"comp_size": 107,
+								"comp_score": 42.52
+							}
+						]
+					}
+				]
+			},
+		]
+	 }
+}
