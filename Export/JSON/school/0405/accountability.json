@@ -1,121 +1,117 @@
 {
-	"timestamp": "Thu Feb 19 11:55:24 2015",
+	"timestamp": "Thu Feb 19 14:08:21 2015",
 	"org_type": "school",
 	"org_name": "Deal Middle School",
 	"org_code": "0405",
-	"report_card": {
-		"sections": [
-			{
-				"id": "accountability",
-				"data": [{
-						"year": "2013", 
-						"score": 91.89, 
-						"classification": "Reward", 
-						"growth": -0.27, 
-						"subgroups": [
-							{
-								"subgroup": "All",
-								"read_size": 1212,
-								"read_score": 88.67,
-								"math_size": 1216,
-								"math_score": 94.61,
-								"comp_size": 417,
-								"comp_score": 93.33
-							},
-							{
-								"subgroup": "Male",
-								"read_size": 604,
-								"read_score": 83.46,
-								"math_size": 604,
-								"math_score": 92.14,
-								"comp_size": 212,
-								"comp_score": 87.83
-							},
-							{
-								"subgroup": "Female",
-								"read_size": 608,
-								"read_score": 93.85,
-								"math_size": 612,
-								"math_score": 97.04,
-								"comp_size": 205,
-								"comp_score": 99.02
-							},
-							{
-								"subgroup": "Asian",
-								"read_size": 60,
-								"read_score": 91.67,
-								"math_size": 61,
-								"math_score": 99.67,
-								"comp_size": 23,
-								"comp_score": null
-							},
-							{
-								"subgroup": "African American",
-								"read_size": 379,
-								"read_score": 77.04,
-								"math_size": 379,
-								"math_score": 85.09,
-								"comp_size": 121,
-								"comp_score": 80.17
-							},
-							{
-								"subgroup": "Hispanic",
-								"read_size": 169,
-								"read_score": 72.6,
-								"math_size": 170,
-								"math_score": 81.12,
-								"comp_size": 61,
-								"comp_score": 87.05
-							},
-							{
-								"subgroup": "Multi-Ethnic",
-								"read_size": 77,
-								"read_score": 95.32,
-								"math_size": 77,
-								"math_score": 100,
-								"comp_size": 27,
-								"comp_score": 101.85
-							},
-							{
-								"subgroup": "White",
-								"read_size": 524,
-								"read_score": 101.24,
-								"math_size": 526,
-								"math_score": 104.47,
-								"comp_size": 185,
-								"comp_score": 101.57
-							},
-							{
-								"subgroup": "Special Education",
-								"read_size": 139,
-								"read_score": 45.97,
-								"math_size": 139,
-								"math_score": 60.29,
-								"comp_size": 47,
-								"comp_score": 51.7
-							},
-							{
-								"subgroup": "English Learner",
-								"read_size": 76,
-								"read_score": 50.13,
-								"math_size": 80,
-								"math_score": 67.5,
-								"comp_size": 22,
-								"comp_score": null
-							},
-							{
-								"subgroup": "Economically Disadvantaged",
-								"read_size": 254,
-								"read_score": 66.57,
-								"math_size": 255,
-								"math_score": 76.86,
-								"comp_size": 84,
-								"comp_score": 79.4
-							}
-						]
+	 "exhibit": {
+		"id": "accountability",
+		"data": [{
+				"year": "2013", 
+				"score": 91.89, 
+				"classification": "Reward", 
+				"growth": -0.27, 
+				"subgroups": [
+					{
+						"subgroup": "All",
+						"read_size": 1212,
+						"read_score": 88.67,
+						"math_size": 1216,
+						"math_score": 94.61,
+						"comp_size": 417,
+						"comp_score": 93.33
+					},
+					{
+						"subgroup": "Male",
+						"read_size": 604,
+						"read_score": 83.46,
+						"math_size": 604,
+						"math_score": 92.14,
+						"comp_size": 212,
+						"comp_score": 87.83
+					},
+					{
+						"subgroup": "Female",
+						"read_size": 608,
+						"read_score": 93.85,
+						"math_size": 612,
+						"math_score": 97.04,
+						"comp_size": 205,
+						"comp_score": 99.02
+					},
+					{
+						"subgroup": "Asian",
+						"read_size": 60,
+						"read_score": 91.67,
+						"math_size": 61,
+						"math_score": 99.67,
+						"comp_size": 23,
+						"comp_score": null
+					},
+					{
+						"subgroup": "African American",
+						"read_size": 379,
+						"read_score": 77.04,
+						"math_size": 379,
+						"math_score": 85.09,
+						"comp_size": 121,
+						"comp_score": 80.17
+					},
+					{
+						"subgroup": "Hispanic",
+						"read_size": 169,
+						"read_score": 72.6,
+						"math_size": 170,
+						"math_score": 81.12,
+						"comp_size": 61,
+						"comp_score": 87.05
+					},
+					{
+						"subgroup": "Multi-Ethnic",
+						"read_size": 77,
+						"read_score": 95.32,
+						"math_size": 77,
+						"math_score": 100,
+						"comp_size": 27,
+						"comp_score": 101.85
+					},
+					{
+						"subgroup": "White",
+						"read_size": 524,
+						"read_score": 101.24,
+						"math_size": 526,
+						"math_score": 104.47,
+						"comp_size": 185,
+						"comp_score": 101.57
+					},
+					{
+						"subgroup": "Special Education",
+						"read_size": 139,
+						"read_score": 45.97,
+						"math_size": 139,
+						"math_score": 60.29,
+						"comp_size": 47,
+						"comp_score": 51.7
+					},
+					{
+						"subgroup": "English Learner",
+						"read_size": 76,
+						"read_score": 50.13,
+						"math_size": 80,
+						"math_score": 67.5,
+						"comp_size": 22,
+						"comp_score": null
+					},
+					{
+						"subgroup": "Economically Disadvantaged",
+						"read_size": 254,
+						"read_score": 66.57,
+						"math_size": 255,
+						"math_score": 76.86,
+						"comp_size": 84,
+						"comp_score": 79.4
 					}
 				]
 			}
 		]
-	 }
+	}
 }

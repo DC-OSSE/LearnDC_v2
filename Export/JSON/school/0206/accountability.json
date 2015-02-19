@@ -1,76 +1,72 @@
 {
-	"timestamp": "Thu Feb 19 11:55:15 2015",
+	"timestamp": "Thu Feb 19 14:08:12 2015",
 	"org_type": "school",
 	"org_name": "Beers Elementary School",
 	"org_code": "0206",
-	"report_card": {
-		"sections": [
-			{
-				"id": "accountability",
-				"data": [{
-						"year": "2013", 
-						"score": 40.14, 
-						"classification": "Developing", 
-						"growth": -6.44, 
-						"subgroups": [
-							{
-								"subgroup": "All",
-								"read_size": 152,
-								"read_score": 45.86,
-								"math_size": 152,
-								"math_score": 37.76,
-								"comp_size": 63,
-								"comp_score": 32.06
-							},
-							{
-								"subgroup": "Male",
-								"read_size": 73,
-								"read_score": 45.62,
-								"math_size": 73,
-								"math_score": 37.26,
-								"comp_size": 30,
-								"comp_score": 27.33
-							},
-							{
-								"subgroup": "Female",
-								"read_size": 79,
-								"read_score": 46.08,
-								"math_size": 79,
-								"math_score": 38.23,
-								"comp_size": 33,
-								"comp_score": 36.36
-							},
-							{
-								"subgroup": "African American",
-								"read_size": 152,
-								"read_score": 45.86,
-								"math_size": 152,
-								"math_score": 37.76,
-								"comp_size": 63,
-								"comp_score": 32.06
-							},
-							{
-								"subgroup": "Special Education",
-								"read_size": 38,
-								"read_score": 30.26,
-								"math_size": 38,
-								"math_score": 21.84,
-								"comp_size": 19,
-								"comp_score": null
-							},
-							{
-								"subgroup": "Economically Disadvantaged",
-								"read_size": 152,
-								"read_score": 45.86,
-								"math_size": 152,
-								"math_score": 37.76,
-								"comp_size": 63,
-								"comp_score": 32.06
-							}
-						]
+	 "exhibit": {
+		"id": "accountability",
+		"data": [{
+				"year": "2013", 
+				"score": 40.14, 
+				"classification": "Developing", 
+				"growth": -6.44, 
+				"subgroups": [
+					{
+						"subgroup": "All",
+						"read_size": 152,
+						"read_score": 45.86,
+						"math_size": 152,
+						"math_score": 37.76,
+						"comp_size": 63,
+						"comp_score": 32.06
+					},
+					{
+						"subgroup": "Male",
+						"read_size": 73,
+						"read_score": 45.62,
+						"math_size": 73,
+						"math_score": 37.26,
+						"comp_size": 30,
+						"comp_score": 27.33
+					},
+					{
+						"subgroup": "Female",
+						"read_size": 79,
+						"read_score": 46.08,
+						"math_size": 79,
+						"math_score": 38.23,
+						"comp_size": 33,
+						"comp_score": 36.36
+					},
+					{
+						"subgroup": "African American",
+						"read_size": 152,
+						"read_score": 45.86,
+						"math_size": 152,
+						"math_score": 37.76,
+						"comp_size": 63,
+						"comp_score": 32.06
+					},
+					{
+						"subgroup": "Special Education",
+						"read_size": 38,
+						"read_score": 30.26,
+						"math_size": 38,
+						"math_score": 21.84,
+						"comp_size": 19,
+						"comp_score": null
+					},
+					{
+						"subgroup": "Economically Disadvantaged",
+						"read_size": 152,
+						"read_score": 45.86,
+						"math_size": 152,
+						"math_score": 37.76,
+						"comp_size": 63,
+						"comp_score": 32.06
 					}
 				]
 			}
 		]
-	 }
+	}
 }

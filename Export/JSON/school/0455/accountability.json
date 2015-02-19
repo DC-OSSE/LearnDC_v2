@@ -1,67 +1,63 @@
 {
-	"timestamp": "Thu Feb 19 11:55:25 2015",
+	"timestamp": "Thu Feb 19 14:08:22 2015",
 	"org_type": "school",
 	"org_name": "Coolidge High School",
 	"org_code": "0455",
-	"report_card": {
-		"sections": [
-			{
-				"id": "accountability",
-				"data": [{
-						"year": "2013", 
-						"score": 42.86, 
-						"classification": "Priority", 
-						"growth": 4.24, 
-						"subgroups": [
-							{
-								"subgroup": "All",
-								"read_size": 90,
-								"read_score": 40.78,
-								"math_size": 90,
-								"math_score": 38,
-								"comp_size": 75,
-								"comp_score": 51.2
-							},
-							{
-								"subgroup": "Male",
-								"read_size": 50,
-								"read_score": 41.6,
-								"math_size": 51,
-								"math_score": 41.96,
-								"comp_size": 43,
-								"comp_score": 53.72
-							},
-							{
-								"subgroup": "Female",
-								"read_size": 40,
-								"read_score": 39.75,
-								"math_size": 39,
-								"math_score": 32.82,
-								"comp_size": 32,
-								"comp_score": 47.81
-							},
-							{
-								"subgroup": "African American",
-								"read_size": 77,
-								"read_score": 39.48,
-								"math_size": 77,
-								"math_score": 36.1,
-								"comp_size": 63,
-								"comp_score": 52.7
-							},
-							{
-								"subgroup": "Economically Disadvantaged",
-								"read_size": 90,
-								"read_score": 40.78,
-								"math_size": 90,
-								"math_score": 38,
-								"comp_size": 75,
-								"comp_score": 51.2
-							}
-						]
+	 "exhibit": {
+		"id": "accountability",
+		"data": [{
+				"year": "2013", 
+				"score": 42.86, 
+				"classification": "Priority", 
+				"growth": 4.24, 
+				"subgroups": [
+					{
+						"subgroup": "All",
+						"read_size": 90,
+						"read_score": 40.78,
+						"math_size": 90,
+						"math_score": 38,
+						"comp_size": 75,
+						"comp_score": 51.2
+					},
+					{
+						"subgroup": "Male",
+						"read_size": 50,
+						"read_score": 41.6,
+						"math_size": 51,
+						"math_score": 41.96,
+						"comp_size": 43,
+						"comp_score": 53.72
+					},
+					{
+						"subgroup": "Female",
+						"read_size": 40,
+						"read_score": 39.75,
+						"math_size": 39,
+						"math_score": 32.82,
+						"comp_size": 32,
+						"comp_score": 47.81
+					},
+					{
+						"subgroup": "African American",
+						"read_size": 77,
+						"read_score": 39.48,
+						"math_size": 77,
+						"math_score": 36.1,
+						"comp_size": 63,
+						"comp_score": 52.7
+					},
+					{
+						"subgroup": "Economically Disadvantaged",
+						"read_size": 90,
+						"read_score": 40.78,
+						"math_size": 90,
+						"math_score": 38,
+						"comp_size": 75,
+						"comp_score": 51.2
 					}
 				]
 			}
 		]
-	 }
+	}
 }

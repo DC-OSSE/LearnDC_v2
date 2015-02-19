@@ -1,76 +1,72 @@
 {
-	"timestamp": "Thu Feb 19 11:55:23 2015",
+	"timestamp": "Thu Feb 19 14:08:20 2015",
 	"org_type": "school",
 	"org_name": "Langley Elementary School",
 	"org_code": "0370",
-	"report_card": {
-		"sections": [
-			{
-				"id": "accountability",
-				"data": [{
-						"year": "2013", 
-						"score": 32.23, 
-						"classification": "Focus", 
-						"growth": -20.35, 
-						"subgroups": [
-							{
-								"subgroup": "All",
-								"read_size": 80,
-								"read_score": 31.88,
-								"math_size": 80,
-								"math_score": 28.88,
-								"comp_size": 19,
-								"comp_score": null
-							},
-							{
-								"subgroup": "Male",
-								"read_size": 44,
-								"read_score": 25.91,
-								"math_size": 44,
-								"math_score": 25.45,
-								"comp_size": 7,
-								"comp_score": null
-							},
-							{
-								"subgroup": "Female",
-								"read_size": 36,
-								"read_score": 39.17,
-								"math_size": 36,
-								"math_score": 33.06,
-								"comp_size": 12,
-								"comp_score": null
-							},
-							{
-								"subgroup": "African American",
-								"read_size": 70,
-								"read_score": 30.29,
-								"math_size": 70,
-								"math_score": 26.43,
-								"comp_size": 17,
-								"comp_score": null
-							},
-							{
-								"subgroup": "Special Education",
-								"read_size": 25,
-								"read_score": null,
-								"math_size": 25,
-								"math_score": null,
-								"comp_size": 5,
-								"comp_score": null
-							},
-							{
-								"subgroup": "Economically Disadvantaged",
-								"read_size": 80,
-								"read_score": 31.88,
-								"math_size": 80,
-								"math_score": 28.88,
-								"comp_size": 19,
-								"comp_score": null
-							}
-						]
+	 "exhibit": {
+		"id": "accountability",
+		"data": [{
+				"year": "2013", 
+				"score": 32.23, 
+				"classification": "Focus", 
+				"growth": -20.35, 
+				"subgroups": [
+					{
+						"subgroup": "All",
+						"read_size": 80,
+						"read_score": 31.88,
+						"math_size": 80,
+						"math_score": 28.88,
+						"comp_size": 19,
+						"comp_score": null
+					},
+					{
+						"subgroup": "Male",
+						"read_size": 44,
+						"read_score": 25.91,
+						"math_size": 44,
+						"math_score": 25.45,
+						"comp_size": 7,
+						"comp_score": null
+					},
+					{
+						"subgroup": "Female",
+						"read_size": 36,
+						"read_score": 39.17,
+						"math_size": 36,
+						"math_score": 33.06,
+						"comp_size": 12,
+						"comp_score": null
+					},
+					{
+						"subgroup": "African American",
+						"read_size": 70,
+						"read_score": 30.29,
+						"math_size": 70,
+						"math_score": 26.43,
+						"comp_size": 17,
+						"comp_score": null
+					},
+					{
+						"subgroup": "Special Education",
+						"read_size": 25,
+						"read_score": null,
+						"math_size": 25,
+						"math_score": null,
+						"comp_size": 5,
+						"comp_score": null
+					},
+					{
+						"subgroup": "Economically Disadvantaged",
+						"read_size": 80,
+						"read_score": 31.88,
+						"math_size": 80,
+						"math_score": 28.88,
+						"comp_size": 19,
+						"comp_score": null
 					}
 				]
 			}
 		]
-	 }
+	}
 }

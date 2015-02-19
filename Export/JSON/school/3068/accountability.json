@@ -1,103 +1,99 @@
 {
-	"timestamp": "Thu Feb 19 11:55:30 2015",
+	"timestamp": "Thu Feb 19 14:08:26 2015",
 	"org_type": "school",
 	"org_name": "BASIS DC PCS",
 	"org_code": "3068",
-	"report_card": {
-		"sections": [
-			{
-				"id": "accountability",
-				"data": [{
-						"year": "2013", 
-						"score": 87.94, 
-						"classification": "Reward", 
-						"growth": 3.78, 
-						"subgroups": [
-							{
-								"subgroup": "All",
-								"read_size": 454,
-								"read_score": 87.69,
-								"math_size": 454,
-								"math_score": 86.74,
-								"comp_size": 113,
-								"comp_score": 93.81
-							},
-							{
-								"subgroup": "Male",
-								"read_size": 220,
-								"read_score": 82.32,
-								"math_size": 220,
-								"math_score": 83.05,
-								"comp_size": 39,
-								"comp_score": 88.21
-							},
-							{
-								"subgroup": "Female",
-								"read_size": 234,
-								"read_score": 92.74,
-								"math_size": 234,
-								"math_score": 90.21,
-								"comp_size": 74,
-								"comp_score": 96.76
-							},
-							{
-								"subgroup": "African American",
-								"read_size": 217,
-								"read_score": 76.04,
-								"math_size": 217,
-								"math_score": 71.34,
-								"comp_size": 63,
-								"comp_score": 87.3
-							},
-							{
-								"subgroup": "Hispanic",
-								"read_size": 32,
-								"read_score": 96.88,
-								"math_size": 32,
-								"math_score": 89.38,
-								"comp_size": 12,
-								"comp_score": null
-							},
-							{
-								"subgroup": "Multi-Ethnic",
-								"read_size": 28,
-								"read_score": 95.36,
-								"math_size": 28,
-								"math_score": 98.93,
-								"comp_size": 4,
-								"comp_score": null
-							},
-							{
-								"subgroup": "White",
-								"read_size": 154,
-								"read_score": 99.29,
-								"math_size": 154,
-								"math_score": 103.77,
-								"comp_size": 28,
-								"comp_score": 101.43
-							},
-							{
-								"subgroup": "Special Education",
-								"read_size": 30,
-								"read_score": null,
-								"math_size": 30,
-								"math_score": null,
-								"comp_size": 7,
-								"comp_score": null
-							},
-							{
-								"subgroup": "Economically Disadvantaged",
-								"read_size": 119,
-								"read_score": 75.71,
-								"math_size": 119,
-								"math_score": 75.46,
-								"comp_size": 35,
-								"comp_score": 90.57
-							}
-						]
+	 "exhibit": {
+		"id": "accountability",
+		"data": [{
+				"year": "2013", 
+				"score": 87.94, 
+				"classification": "Reward", 
+				"growth": 3.78, 
+				"subgroups": [
+					{
+						"subgroup": "All",
+						"read_size": 454,
+						"read_score": 87.69,
+						"math_size": 454,
+						"math_score": 86.74,
+						"comp_size": 113,
+						"comp_score": 93.81
+					},
+					{
+						"subgroup": "Male",
+						"read_size": 220,
+						"read_score": 82.32,
+						"math_size": 220,
+						"math_score": 83.05,
+						"comp_size": 39,
+						"comp_score": 88.21
+					},
+					{
+						"subgroup": "Female",
+						"read_size": 234,
+						"read_score": 92.74,
+						"math_size": 234,
+						"math_score": 90.21,
+						"comp_size": 74,
+						"comp_score": 96.76
+					},
+					{
+						"subgroup": "African American",
+						"read_size": 217,
+						"read_score": 76.04,
+						"math_size": 217,
+						"math_score": 71.34,
+						"comp_size": 63,
+						"comp_score": 87.3
+					},
+					{
+						"subgroup": "Hispanic",
+						"read_size": 32,
+						"read_score": 96.88,
+						"math_size": 32,
+						"math_score": 89.38,
+						"comp_size": 12,
+						"comp_score": null
+					},
+					{
+						"subgroup": "Multi-Ethnic",
+						"read_size": 28,
+						"read_score": 95.36,
+						"math_size": 28,
+						"math_score": 98.93,
+						"comp_size": 4,
+						"comp_score": null
+					},
+					{
+						"subgroup": "White",
+						"read_size": 154,
+						"read_score": 99.29,
+						"math_size": 154,
+						"math_score": 103.77,
+						"comp_size": 28,
+						"comp_score": 101.43
+					},
+					{
+						"subgroup": "Special Education",
+						"read_size": 30,
+						"read_score": null,
+						"math_size": 30,
+						"math_score": null,
+						"comp_size": 7,
+						"comp_score": null
+					},
+					{
+						"subgroup": "Economically Disadvantaged",
+						"read_size": 119,
+						"read_score": 75.71,
+						"math_size": 119,
+						"math_score": 75.46,
+						"comp_size": 35,
+						"comp_score": 90.57
 					}
 				]
 			}
 		]
-	 }
+	}
 }

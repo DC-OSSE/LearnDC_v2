@@ -1,67 +1,63 @@
 {
-	"timestamp": "Thu Feb 19 11:55:15 2015",
+	"timestamp": "Thu Feb 19 14:08:11 2015",
 	"org_type": "school",
 	"org_name": "Amidon-Bowen Elementary School",
 	"org_code": "0203",
-	"report_card": {
-		"sections": [
-			{
-				"id": "accountability",
-				"data": [{
-						"year": "2013", 
-						"score": 30.11, 
-						"classification": "Priority", 
-						"growth": -0.35, 
-						"subgroups": [
-							{
-								"subgroup": "All",
-								"read_size": 113,
-								"read_score": 28.5,
-								"math_size": 113,
-								"math_score": 34.87,
-								"comp_size": 42,
-								"comp_score": 21.67
-							},
-							{
-								"subgroup": "Male",
-								"read_size": 54,
-								"read_score": 20,
-								"math_size": 54,
-								"math_score": 30,
-								"comp_size": 18,
-								"comp_score": null
-							},
-							{
-								"subgroup": "Female",
-								"read_size": 59,
-								"read_score": 36.27,
-								"math_size": 59,
-								"math_score": 39.32,
-								"comp_size": 24,
-								"comp_score": null
-							},
-							{
-								"subgroup": "African American",
-								"read_size": 112,
-								"read_score": 28.75,
-								"math_size": 112,
-								"math_score": 35.18,
-								"comp_size": 42,
-								"comp_score": 21.67
-							},
-							{
-								"subgroup": "Economically Disadvantaged",
-								"read_size": 113,
-								"read_score": 28.5,
-								"math_size": 113,
-								"math_score": 34.87,
-								"comp_size": 42,
-								"comp_score": 21.67
-							}
-						]
+	 "exhibit": {
+		"id": "accountability",
+		"data": [{
+				"year": "2013", 
+				"score": 30.11, 
+				"classification": "Priority", 
+				"growth": -0.35, 
+				"subgroups": [
+					{
+						"subgroup": "All",
+						"read_size": 113,
+						"read_score": 28.5,
+						"math_size": 113,
+						"math_score": 34.87,
+						"comp_size": 42,
+						"comp_score": 21.67
+					},
+					{
+						"subgroup": "Male",
+						"read_size": 54,
+						"read_score": 20,
+						"math_size": 54,
+						"math_score": 30,
+						"comp_size": 18,
+						"comp_score": null
+					},
+					{
+						"subgroup": "Female",
+						"read_size": 59,
+						"read_score": 36.27,
+						"math_size": 59,
+						"math_score": 39.32,
+						"comp_size": 24,
+						"comp_score": null
+					},
+					{
+						"subgroup": "African American",
+						"read_size": 112,
+						"read_score": 28.75,
+						"math_size": 112,
+						"math_score": 35.18,
+						"comp_size": 42,
+						"comp_score": 21.67
+					},
+					{
+						"subgroup": "Economically Disadvantaged",
+						"read_size": 113,
+						"read_score": 28.5,
+						"math_size": 113,
+						"math_score": 34.87,
+						"comp_size": 42,
+						"comp_score": 21.67
 					}
 				]
 			}
 		]
-	 }
+	}
 }

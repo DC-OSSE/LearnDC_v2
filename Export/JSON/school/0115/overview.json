@@ -1,5 +1,5 @@
 {
-	"timestamp": "Tue Feb 03 10:14:07 2015",
+	"timestamp": "Thu Feb 19 14:50:20 2015",
 	"org_type": "school",
 	"org_name": "Howard University Math and Science PCS",
 	"org_code": "0115",
@@ -8,27 +8,7 @@
 	"school_type": [
 		"Regular school"
 	 ],
-	"pmf": {
-		"id": "pcsb_pmf",
-		"data": [
-			{
-				"key": {"year": "2011", "category": "ESMS"}, 
-				"val": {"score": 0.7102, "tier": "1", "url": "dashboard.dcpcsb.org/detailed/61"}
-			},
-			{
-				"key": {"year": "2012", "category": "ESMS"}, 
-				"val": {"score": 0.696, "tier": "1", "url": "dashboard.dcpcsb.org/detailed/61"}
-			},
-			{
-				"key": {"year": "2013", "category": "ESMS"}, 
-				"val": {"score": 0.625, "tier": "2", "url": "dashboard.dcpcsb.org/detailed/61"}
-			},
-			{
-				"key": {"year": "2014", "category": "NA"}, 
-				"val": {"score": 0.629, "tier": "2", "url": "dashboard.dcpcsb.org/detailed/61"}
-			}
-		]
-	},
+	"id": "overview",
 	"great_schools": {
 		"gs_url": "http://www.greatschools.org/washington-dc/washington/383-Howard-University-Middle-School-PCS"
 	},
@@ -49,9 +29,6 @@
 	"website": "http://www.howard.edu/ms2",
 	"facebook": null,
 	"twitter": null,
-	"external_report_card": "http://issuu.com/pcsb/docs/dcpcsb_pmf_2013/182",
-	"equity_report_url": 
-"http://osse.dc.gov/sites/default/files/dc/sites/osse/publication/attachments/2013_Equity_Report_PCSB_External_Howard%20University%20Mathematics%20and%20Science%20PCS%20.pdf",
 	"contact": [
 		{
 			"name": "Wendell L. Johns",

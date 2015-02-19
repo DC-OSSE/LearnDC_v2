@@ -1,67 +1,63 @@
 {
-	"timestamp": "Thu Feb 19 11:55:21 2015",
+	"timestamp": "Thu Feb 19 14:08:17 2015",
 	"org_type": "school",
 	"org_name": "Shepherd Elementary School",
 	"org_code": "0313",
-	"report_card": {
-		"sections": [
-			{
-				"id": "accountability",
-				"data": [{
-						"year": "2013", 
-						"score": 76.73, 
-						"classification": "Rising", 
-						"growth": -1.95, 
-						"subgroups": [
-							{
-								"subgroup": "All",
-								"read_size": 137,
-								"read_score": 74.96,
-								"math_size": 137,
-								"math_score": 80.29,
-								"comp_size": 44,
-								"comp_score": 71.14
-							},
-							{
-								"subgroup": "Male",
-								"read_size": 63,
-								"read_score": 65.4,
-								"math_size": 63,
-								"math_score": 78.1,
-								"comp_size": 22,
-								"comp_score": null
-							},
-							{
-								"subgroup": "Female",
-								"read_size": 74,
-								"read_score": 83.11,
-								"math_size": 74,
-								"math_score": 82.16,
-								"comp_size": 22,
-								"comp_score": null
-							},
-							{
-								"subgroup": "African American",
-								"read_size": 108,
-								"read_score": 72.78,
-								"math_size": 108,
-								"math_score": 81.11,
-								"comp_size": 36,
-								"comp_score": 68.33
-							},
-							{
-								"subgroup": "Economically Disadvantaged",
-								"read_size": 42,
-								"read_score": 51.67,
-								"math_size": 42,
-								"math_score": 64.29,
-								"comp_size": 19,
-								"comp_score": null
-							}
-						]
+	 "exhibit": {
+		"id": "accountability",
+		"data": [{
+				"year": "2013", 
+				"score": 76.73, 
+				"classification": "Rising", 
+				"growth": -1.95, 
+				"subgroups": [
+					{
+						"subgroup": "All",
+						"read_size": 137,
+						"read_score": 74.96,
+						"math_size": 137,
+						"math_score": 80.29,
+						"comp_size": 44,
+						"comp_score": 71.14
+					},
+					{
+						"subgroup": "Male",
+						"read_size": 63,
+						"read_score": 65.4,
+						"math_size": 63,
+						"math_score": 78.1,
+						"comp_size": 22,
+						"comp_score": null
+					},
+					{
+						"subgroup": "Female",
+						"read_size": 74,
+						"read_score": 83.11,
+						"math_size": 74,
+						"math_score": 82.16,
+						"comp_size": 22,
+						"comp_score": null
+					},
+					{
+						"subgroup": "African American",
+						"read_size": 108,
+						"read_score": 72.78,
+						"math_size": 108,
+						"math_score": 81.11,
+						"comp_size": 36,
+						"comp_score": 68.33
+					},
+					{
+						"subgroup": "Economically Disadvantaged",
+						"read_size": 42,
+						"read_score": 51.67,
+						"math_size": 42,
+						"math_score": 64.29,
+						"comp_size": 19,
+						"comp_score": null
 					}
 				]
 			}
 		]
-	 }
+	}
 }

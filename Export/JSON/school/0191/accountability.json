@@ -1,67 +1,63 @@
 {
-	"timestamp": "Thu Feb 19 11:55:14 2015",
+	"timestamp": "Thu Feb 19 14:08:11 2015",
 	"org_type": "school",
 	"org_name": "Thurgood Marshall Academy PCS",
 	"org_code": "0191",
-	"report_card": {
-		"sections": [
-			{
-				"id": "accountability",
-				"data": [{
-						"year": "2013", 
-						"score": 79.44, 
-						"classification": "Rising", 
-						"growth": -2.15, 
-						"subgroups": [
-							{
-								"subgroup": "All",
-								"read_size": 96,
-								"read_score": 71.04,
-								"math_size": 96,
-								"math_score": 85.62,
-								"comp_size": 96,
-								"comp_score": 81.67
-							},
-							{
-								"subgroup": "Male",
-								"read_size": 39,
-								"read_score": 56.92,
-								"math_size": 39,
-								"math_score": 82.56,
-								"comp_size": 39,
-								"comp_score": 70.51
-							},
-							{
-								"subgroup": "Female",
-								"read_size": 57,
-								"read_score": 80.7,
-								"math_size": 57,
-								"math_score": 87.72,
-								"comp_size": 57,
-								"comp_score": 89.3
-							},
-							{
-								"subgroup": "African American",
-								"read_size": 96,
-								"read_score": 71.04,
-								"math_size": 96,
-								"math_score": 85.62,
-								"comp_size": 96,
-								"comp_score": 81.67
-							},
-							{
-								"subgroup": "Economically Disadvantaged",
-								"read_size": 63,
-								"read_score": 72.38,
-								"math_size": 63,
-								"math_score": 86.03,
-								"comp_size": 63,
-								"comp_score": 80.32
-							}
-						]
+	 "exhibit": {
+		"id": "accountability",
+		"data": [{
+				"year": "2013", 
+				"score": 79.44, 
+				"classification": "Rising", 
+				"growth": -2.15, 
+				"subgroups": [
+					{
+						"subgroup": "All",
+						"read_size": 96,
+						"read_score": 71.04,
+						"math_size": 96,
+						"math_score": 85.62,
+						"comp_size": 96,
+						"comp_score": 81.67
+					},
+					{
+						"subgroup": "Male",
+						"read_size": 39,
+						"read_score": 56.92,
+						"math_size": 39,
+						"math_score": 82.56,
+						"comp_size": 39,
+						"comp_score": 70.51
+					},
+					{
+						"subgroup": "Female",
+						"read_size": 57,
+						"read_score": 80.7,
+						"math_size": 57,
+						"math_score": 87.72,
+						"comp_size": 57,
+						"comp_score": 89.3
+					},
+					{
+						"subgroup": "African American",
+						"read_size": 96,
+						"read_score": 71.04,
+						"math_size": 96,
+						"math_score": 85.62,
+						"comp_size": 96,
+						"comp_score": 81.67
+					},
+					{
+						"subgroup": "Economically Disadvantaged",
+						"read_size": 63,
+						"read_score": 72.38,
+						"math_size": 63,
+						"math_score": 86.03,
+						"comp_size": 63,
+						"comp_score": 80.32
 					}
 				]
 			}
 		]
-	 }
+	}
 }

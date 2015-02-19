@@ -1,85 +1,81 @@
 {
-	"timestamp": "Thu Feb 19 11:55:15 2015",
+	"timestamp": "Thu Feb 19 14:08:11 2015",
 	"org_type": "school",
 	"org_name": "DC Bilingual PCS",
 	"org_code": "0199",
-	"report_card": {
-		"sections": [
-			{
-				"id": "accountability",
-				"data": [{
-						"year": "2013", 
-						"score": 64.58, 
-						"classification": "Rising", 
-						"growth": -0.05, 
-						"subgroups": [
-							{
-								"subgroup": "All",
-								"read_size": 163,
-								"read_score": 63.87,
-								"math_size": 163,
-								"math_score": 66.2,
-								"comp_size": 63,
-								"comp_score": 62.22
-							},
-							{
-								"subgroup": "Male",
-								"read_size": 81,
-								"read_score": 53.83,
-								"math_size": 81,
-								"math_score": 63.33,
-								"comp_size": 28,
-								"comp_score": 43.57
-							},
-							{
-								"subgroup": "Female",
-								"read_size": 82,
-								"read_score": 73.78,
-								"math_size": 82,
-								"math_score": 69.02,
-								"comp_size": 35,
-								"comp_score": 77.14
-							},
-							{
-								"subgroup": "Hispanic",
-								"read_size": 133,
-								"read_score": 59.92,
-								"math_size": 133,
-								"math_score": 60.68,
-								"comp_size": 49,
-								"comp_score": 59.39
-							},
-							{
-								"subgroup": "Special Education",
-								"read_size": 31,
-								"read_score": 22.58,
-								"math_size": 31,
-								"math_score": 32.9,
-								"comp_size": 11,
-								"comp_score": null
-							},
-							{
-								"subgroup": "English Learner",
-								"read_size": 114,
-								"read_score": 53.07,
-								"math_size": 114,
-								"math_score": 55.61,
-								"comp_size": 39,
-								"comp_score": null
-							},
-							{
-								"subgroup": "Economically Disadvantaged",
-								"read_size": 139,
-								"read_score": 60.14,
-								"math_size": 139,
-								"math_score": 62.37,
-								"comp_size": 55,
-								"comp_score": 57.45
-							}
-						]
+	 "exhibit": {
+		"id": "accountability",
+		"data": [{
+				"year": "2013", 
+				"score": 64.58, 
+				"classification": "Rising", 
+				"growth": -0.05, 
+				"subgroups": [
+					{
+						"subgroup": "All",
+						"read_size": 163,
+						"read_score": 63.87,
+						"math_size": 163,
+						"math_score": 66.2,
+						"comp_size": 63,
+						"comp_score": 62.22
+					},
+					{
+						"subgroup": "Male",
+						"read_size": 81,
+						"read_score": 53.83,
+						"math_size": 81,
+						"math_score": 63.33,
+						"comp_size": 28,
+						"comp_score": 43.57
+					},
+					{
+						"subgroup": "Female",
+						"read_size": 82,
+						"read_score": 73.78,
+						"math_size": 82,
+						"math_score": 69.02,
+						"comp_size": 35,
+						"comp_score": 77.14
+					},
+					{
+						"subgroup": "Hispanic",
+						"read_size": 133,
+						"read_score": 59.92,
+						"math_size": 133,
+						"math_score": 60.68,
+						"comp_size": 49,
+						"comp_score": 59.39
+					},
+					{
+						"subgroup": "Special Education",
+						"read_size": 31,
+						"read_score": 22.58,
+						"math_size": 31,
+						"math_score": 32.9,
+						"comp_size": 11,
+						"comp_score": null
+					},
+					{
+						"subgroup": "English Learner",
+						"read_size": 114,
+						"read_score": 53.07,
+						"math_size": 114,
+						"math_score": 55.61,
+						"comp_size": 39,
+						"comp_score": null
+					},
+					{
+						"subgroup": "Economically Disadvantaged",
+						"read_size": 139,
+						"read_score": 60.14,
+						"math_size": 139,
+						"math_score": 62.37,
+						"comp_size": 55,
+						"comp_score": 57.45
 					}
 				]
 			}
 		]
-	 }
+	}
 }

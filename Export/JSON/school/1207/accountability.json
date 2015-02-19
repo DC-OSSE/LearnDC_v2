@@ -1,76 +1,72 @@
 {
-	"timestamp": "Thu Feb 19 11:55:29 2015",
+	"timestamp": "Thu Feb 19 14:08:25 2015",
 	"org_type": "school",
 	"org_name": "Capital City PCS – High School",
 	"org_code": "1207",
-	"report_card": {
-		"sections": [
-			{
-				"id": "accountability",
-				"data": [{
-						"year": "2013", 
-						"score": 60.42, 
-						"classification": "Rising", 
-						"growth": -14.47, 
-						"subgroups": [
-							{
-								"subgroup": "All",
-								"read_size": 72,
-								"read_score": 59.31,
-								"math_size": 71,
-								"math_score": 58.87,
-								"comp_size": 70,
-								"comp_score": 63.14
-							},
-							{
-								"subgroup": "Male",
-								"read_size": 36,
-								"read_score": 53.33,
-								"math_size": 35,
-								"math_score": 64.29,
-								"comp_size": 34,
-								"comp_score": 59.71
-							},
-							{
-								"subgroup": "Female",
-								"read_size": 36,
-								"read_score": 65.28,
-								"math_size": 36,
-								"math_score": 53.61,
-								"comp_size": 36,
-								"comp_score": 66.39
-							},
-							{
-								"subgroup": "African American",
-								"read_size": 31,
-								"read_score": 49.35,
-								"math_size": 31,
-								"math_score": 60.97,
-								"comp_size": 30,
-								"comp_score": 58.67
-							},
-							{
-								"subgroup": "Hispanic",
-								"read_size": 34,
-								"read_score": 64.12,
-								"math_size": 33,
-								"math_score": 50.3,
-								"comp_size": 33,
-								"comp_score": 60
-							},
-							{
-								"subgroup": "Economically Disadvantaged",
-								"read_size": 57,
-								"read_score": 59.47,
-								"math_size": 56,
-								"math_score": 57.68,
-								"comp_size": 55,
-								"comp_score": 64.18
-							}
-						]
+	 "exhibit": {
+		"id": "accountability",
+		"data": [{
+				"year": "2013", 
+				"score": 60.42, 
+				"classification": "Rising", 
+				"growth": -14.47, 
+				"subgroups": [
+					{
+						"subgroup": "All",
+						"read_size": 72,
+						"read_score": 59.31,
+						"math_size": 71,
+						"math_score": 58.87,
+						"comp_size": 70,
+						"comp_score": 63.14
+					},
+					{
+						"subgroup": "Male",
+						"read_size": 36,
+						"read_score": 53.33,
+						"math_size": 35,
+						"math_score": 64.29,
+						"comp_size": 34,
+						"comp_score": 59.71
+					},
+					{
+						"subgroup": "Female",
+						"read_size": 36,
+						"read_score": 65.28,
+						"math_size": 36,
+						"math_score": 53.61,
+						"comp_size": 36,
+						"comp_score": 66.39
+					},
+					{
+						"subgroup": "African American",
+						"read_size": 31,
+						"read_score": 49.35,
+						"math_size": 31,
+						"math_score": 60.97,
+						"comp_size": 30,
+						"comp_score": 58.67
+					},
+					{
+						"subgroup": "Hispanic",
+						"read_size": 34,
+						"read_score": 64.12,
+						"math_size": 33,
+						"math_score": 50.3,
+						"comp_size": 33,
+						"comp_score": 60
+					},
+					{
+						"subgroup": "Economically Disadvantaged",
+						"read_size": 57,
+						"read_score": 59.47,
+						"math_size": 56,
+						"math_score": 57.68,
+						"comp_size": 55,
+						"comp_score": 64.18
 					}
 				]
 			}
 		]
-	 }
+	}
 }

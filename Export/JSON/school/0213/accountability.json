@@ -1,85 +1,81 @@
 {
-	"timestamp": "Thu Feb 19 11:55:15 2015",
+	"timestamp": "Thu Feb 19 14:08:12 2015",
 	"org_type": "school",
 	"org_name": "Brightwood Education Campus",
 	"org_code": "0213",
-	"report_card": {
-		"sections": [
-			{
-				"id": "accountability",
-				"data": [{
-						"year": "2013", 
-						"score": 47, 
-						"classification": "Rising", 
-						"growth": -3.39, 
-						"subgroups": [
-							{
-								"subgroup": "All",
-								"read_size": 272,
-								"read_score": 37.79,
-								"math_size": 272,
-								"math_score": 54.78,
-								"comp_size": 97,
-								"comp_score": 51.03
-							},
-							{
-								"subgroup": "Male",
-								"read_size": 118,
-								"read_score": 32.97,
-								"math_size": 118,
-								"math_score": 55.76,
-								"comp_size": 42,
-								"comp_score": 44.29
-							},
-							{
-								"subgroup": "Female",
-								"read_size": 154,
-								"read_score": 41.49,
-								"math_size": 154,
-								"math_score": 54.03,
-								"comp_size": 55,
-								"comp_score": 56.18
-							},
-							{
-								"subgroup": "African American",
-								"read_size": 76,
-								"read_score": 40.66,
-								"math_size": 76,
-								"math_score": 57.76,
-								"comp_size": 29,
-								"comp_score": 50
-							},
-							{
-								"subgroup": "Hispanic",
-								"read_size": 192,
-								"read_score": 36.3,
-								"math_size": 192,
-								"math_score": 53.07,
-								"comp_size": 66,
-								"comp_score": 52.42
-							},
-							{
-								"subgroup": "English Learner",
-								"read_size": 170,
-								"read_score": 24.12,
-								"math_size": 170,
-								"math_score": 46.65,
-								"comp_size": 57,
-								"comp_score": 38.6
-							},
-							{
-								"subgroup": "Economically Disadvantaged",
-								"read_size": 272,
-								"read_score": 37.79,
-								"math_size": 272,
-								"math_score": 54.78,
-								"comp_size": 97,
-								"comp_score": 51.03
-							}
-						]
+	 "exhibit": {
+		"id": "accountability",
+		"data": [{
+				"year": "2013", 
+				"score": 47, 
+				"classification": "Rising", 
+				"growth": -3.39, 
+				"subgroups": [
+					{
+						"subgroup": "All",
+						"read_size": 272,
+						"read_score": 37.79,
+						"math_size": 272,
+						"math_score": 54.78,
+						"comp_size": 97,
+						"comp_score": 51.03
+					},
+					{
+						"subgroup": "Male",
+						"read_size": 118,
+						"read_score": 32.97,
+						"math_size": 118,
+						"math_score": 55.76,
+						"comp_size": 42,
+						"comp_score": 44.29
+					},
+					{
+						"subgroup": "Female",
+						"read_size": 154,
+						"read_score": 41.49,
+						"math_size": 154,
+						"math_score": 54.03,
+						"comp_size": 55,
+						"comp_score": 56.18
+					},
+					{
+						"subgroup": "African American",
+						"read_size": 76,
+						"read_score": 40.66,
+						"math_size": 76,
+						"math_score": 57.76,
+						"comp_size": 29,
+						"comp_score": 50
+					},
+					{
+						"subgroup": "Hispanic",
+						"read_size": 192,
+						"read_score": 36.3,
+						"math_size": 192,
+						"math_score": 53.07,
+						"comp_size": 66,
+						"comp_score": 52.42
+					},
+					{
+						"subgroup": "English Learner",
+						"read_size": 170,
+						"read_score": 24.12,
+						"math_size": 170,
+						"math_score": 46.65,
+						"comp_size": 57,
+						"comp_score": 38.6
+					},
+					{
+						"subgroup": "Economically Disadvantaged",
+						"read_size": 272,
+						"read_score": 37.79,
+						"math_size": 272,
+						"math_score": 54.78,
+						"comp_size": 97,
+						"comp_score": 51.03
 					}
 				]
 			}
 		]
-	 }
+	}
 }

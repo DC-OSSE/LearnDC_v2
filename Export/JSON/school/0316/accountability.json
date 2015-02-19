@@ -1,67 +1,63 @@
 {
-	"timestamp": "Thu Feb 19 11:55:21 2015",
+	"timestamp": "Thu Feb 19 14:08:18 2015",
 	"org_type": "school",
 	"org_name": "Randle Highlands Elementary School",
 	"org_code": "0316",
-	"report_card": {
-		"sections": [
-			{
-				"id": "accountability",
-				"data": [{
-						"year": "2013", 
-						"score": 43.35, 
-						"classification": "Developing", 
-						"growth": 3.14, 
-						"subgroups": [
-							{
-								"subgroup": "All",
-								"read_size": 111,
-								"read_score": 44.68,
-								"math_size": 111,
-								"math_score": 43.42,
-								"comp_size": 38,
-								"comp_score": 39.21
-							},
-							{
-								"subgroup": "Male",
-								"read_size": 53,
-								"read_score": 38.49,
-								"math_size": 53,
-								"math_score": 37.55,
-								"comp_size": 19,
-								"comp_score": null
-							},
-							{
-								"subgroup": "Female",
-								"read_size": 58,
-								"read_score": 50.34,
-								"math_size": 58,
-								"math_score": 48.79,
-								"comp_size": 19,
-								"comp_score": null
-							},
-							{
-								"subgroup": "African American",
-								"read_size": 109,
-								"read_score": 45.5,
-								"math_size": 109,
-								"math_score": 43.3,
-								"comp_size": 38,
-								"comp_score": 39.21
-							},
-							{
-								"subgroup": "Economically Disadvantaged",
-								"read_size": 111,
-								"read_score": 44.68,
-								"math_size": 111,
-								"math_score": 43.42,
-								"comp_size": 38,
-								"comp_score": 39.21
-							}
-						]
+	 "exhibit": {
+		"id": "accountability",
+		"data": [{
+				"year": "2013", 
+				"score": 43.35, 
+				"classification": "Developing", 
+				"growth": 3.14, 
+				"subgroups": [
+					{
+						"subgroup": "All",
+						"read_size": 111,
+						"read_score": 44.68,
+						"math_size": 111,
+						"math_score": 43.42,
+						"comp_size": 38,
+						"comp_score": 39.21
+					},
+					{
+						"subgroup": "Male",
+						"read_size": 53,
+						"read_score": 38.49,
+						"math_size": 53,
+						"math_score": 37.55,
+						"comp_size": 19,
+						"comp_score": null
+					},
+					{
+						"subgroup": "Female",
+						"read_size": 58,
+						"read_score": 50.34,
+						"math_size": 58,
+						"math_score": 48.79,
+						"comp_size": 19,
+						"comp_score": null
+					},
+					{
+						"subgroup": "African American",
+						"read_size": 109,
+						"read_score": 45.5,
+						"math_size": 109,
+						"math_score": 43.3,
+						"comp_size": 38,
+						"comp_score": 39.21
+					},
+					{
+						"subgroup": "Economically Disadvantaged",
+						"read_size": 111,
+						"read_score": 44.68,
+						"math_size": 111,
+						"math_score": 43.42,
+						"comp_size": 38,
+						"comp_score": 39.21
 					}
 				]
 			}
 		]
-	 }
+	}
 }

@@ -1,49 +1,45 @@
 {
-	"timestamp": "Thu Feb 19 11:55:12 2015",
+	"timestamp": "Thu Feb 19 14:08:09 2015",
 	"org_type": "school",
 	"org_name": "Hospitality High PCS",
 	"org_code": "0160",
-	"report_card": {
-		"sections": [
-			{
-				"id": "accountability",
-				"data": [{
-						"year": "2013", 
-						"score": 37.72, 
-						"classification": "Developing", 
-						"growth": -6.64, 
-						"subgroups": [
-							{
-								"subgroup": "All",
-								"read_size": 32,
-								"read_score": 28.75,
-								"math_size": 32,
-								"math_score": 44.06,
-								"comp_size": 28,
-								"comp_score": 40.71
-							},
-							{
-								"subgroup": "African American",
-								"read_size": 31,
-								"read_score": 29.68,
-								"math_size": 31,
-								"math_score": 45.48,
-								"comp_size": 27,
-								"comp_score": 42.22
-							},
-							{
-								"subgroup": "Economically Disadvantaged",
-								"read_size": 32,
-								"read_score": 28.75,
-								"math_size": 32,
-								"math_score": 44.06,
-								"comp_size": 28,
-								"comp_score": 40.71
-							}
-						]
+	 "exhibit": {
+		"id": "accountability",
+		"data": [{
+				"year": "2013", 
+				"score": 37.72, 
+				"classification": "Developing", 
+				"growth": -6.64, 
+				"subgroups": [
+					{
+						"subgroup": "All",
+						"read_size": 32,
+						"read_score": 28.75,
+						"math_size": 32,
+						"math_score": 44.06,
+						"comp_size": 28,
+						"comp_score": 40.71
+					},
+					{
+						"subgroup": "African American",
+						"read_size": 31,
+						"read_score": 29.68,
+						"math_size": 31,
+						"math_score": 45.48,
+						"comp_size": 27,
+						"comp_score": 42.22
+					},
+					{
+						"subgroup": "Economically Disadvantaged",
+						"read_size": 32,
+						"read_score": 28.75,
+						"math_size": 32,
+						"math_score": 44.06,
+						"comp_size": 28,
+						"comp_score": 40.71
 					}
 				]
 			}
 		]
-	 }
+	}
 }

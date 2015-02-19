@@ -1,5 +1,5 @@
 {
-	"timestamp": "Tue Feb 03 10:14:22 2015",
+	"timestamp": "Thu Feb 19 14:50:31 2015",
 	"org_type": "school",
 	"org_name": "Capital City PCS – Lower School",
 	"org_code": "0184",
@@ -8,27 +8,7 @@
 	"school_type": [
 		"Regular school"
 	 ],
-	"pmf": {
-		"id": "pcsb_pmf",
-		"data": [
-			{
-				"key": {"year": "2011", "category": "ESMS"}, 
-				"val": {"score": 0.731, "tier": "1", "url": "dashboard.dcpcsb.org/detailed/14"}
-			},
-			{
-				"key": {"year": "2012", "category": "ESMS"}, 
-				"val": {"score": 0.653, "tier": "1", "url": "dashboard.dcpcsb.org/detailed/14"}
-			},
-			{
-				"key": {"year": "2013", "category": "ESMS"}, 
-				"val": {"score": 0.371, "tier": null, "url": "dashboard.dcpcsb.org/detailed/14"}
-			},
-			{
-				"key": {"year": "2014", "category": "NA"}, 
-				"val": {"score": 0.507, "tier": "2", "url": "dashboard.dcpcsb.org/detailed/14"}
-			}
-		]
-	},
+	"id": "overview",
 	"great_schools": {
 		"gs_url": "http://www.greatschools.org/washington-dc/washington/282-Capital-City-PCS---Lower-School"
 	},
@@ -49,9 +29,6 @@
 	"website": "http://www.ccpcs.org",
 	"facebook": null,
 	"twitter": null,
-	"external_report_card": "http://issuu.com/pcsb/docs/dcpcsb_pmf_2013/51",
-	"equity_report_url": 
-"http://osse.dc.gov/sites/default/files/dc/sites/osse/publication/attachments/2013_Equity_Report_PCSB_External_Capital%20City%20PCS%20%E2%80%93%20Lower%20School%20.pdf",
 	"contact": [
 		{
 			"name": "David Bennett",

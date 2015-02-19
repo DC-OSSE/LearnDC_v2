@@ -1,94 +1,90 @@
 {
-	"timestamp": "Thu Feb 19 11:55:25 2015",
+	"timestamp": "Thu Feb 19 14:08:22 2015",
 	"org_type": "school",
 	"org_name": "Columbia Heights Education Campus",
 	"org_code": "0442",
-	"report_card": {
-		"sections": [
-			{
-				"id": "accountability",
-				"data": [{
-						"year": "2013", 
-						"score": 53.38, 
-						"classification": "Rising", 
-						"growth": -1.99, 
-						"subgroups": [
-							{
-								"subgroup": "All",
-								"read_size": 522,
-								"read_score": 48.01,
-								"math_size": 522,
-								"math_score": 61.07,
-								"comp_size": 309,
-								"comp_score": 49.45
-							},
-							{
-								"subgroup": "Male",
-								"read_size": 266,
-								"read_score": 39.7,
-								"math_size": 266,
-								"math_score": 54.36,
-								"comp_size": 158,
-								"comp_score": 40.95
-							},
-							{
-								"subgroup": "Female",
-								"read_size": 256,
-								"read_score": 56.64,
-								"math_size": 256,
-								"math_score": 68.05,
-								"comp_size": 151,
-								"comp_score": 58.34
-							},
-							{
-								"subgroup": "African American",
-								"read_size": 168,
-								"read_score": 50,
-								"math_size": 168,
-								"math_score": 61.43,
-								"comp_size": 104,
-								"comp_score": 46.73
-							},
-							{
-								"subgroup": "Hispanic",
-								"read_size": 338,
-								"read_score": 46.01,
-								"math_size": 338,
-								"math_score": 59.85,
-								"comp_size": 198,
-								"comp_score": 50.66
-							},
-							{
-								"subgroup": "Special Education",
-								"read_size": 61,
-								"read_score": 24.1,
-								"math_size": 61,
-								"math_score": 45.57,
-								"comp_size": 32,
-								"comp_score": 9.38
-							},
-							{
-								"subgroup": "English Learner",
-								"read_size": 219,
-								"read_score": 33.47,
-								"math_size": 219,
-								"math_score": 47.4,
-								"comp_size": 131,
-								"comp_score": 40.23
-							},
-							{
-								"subgroup": "Economically Disadvantaged",
-								"read_size": 485,
-								"read_score": 46.87,
-								"math_size": 485,
-								"math_score": 60.95,
-								"comp_size": 280,
-								"comp_score": 48.18
-							}
-						]
+	 "exhibit": {
+		"id": "accountability",
+		"data": [{
+				"year": "2013", 
+				"score": 53.38, 
+				"classification": "Rising", 
+				"growth": -1.99, 
+				"subgroups": [
+					{
+						"subgroup": "All",
+						"read_size": 522,
+						"read_score": 48.01,
+						"math_size": 522,
+						"math_score": 61.07,
+						"comp_size": 309,
+						"comp_score": 49.45
+					},
+					{
+						"subgroup": "Male",
+						"read_size": 266,
+						"read_score": 39.7,
+						"math_size": 266,
+						"math_score": 54.36,
+						"comp_size": 158,
+						"comp_score": 40.95
+					},
+					{
+						"subgroup": "Female",
+						"read_size": 256,
+						"read_score": 56.64,
+						"math_size": 256,
+						"math_score": 68.05,
+						"comp_size": 151,
+						"comp_score": 58.34
+					},
+					{
+						"subgroup": "African American",
+						"read_size": 168,
+						"read_score": 50,
+						"math_size": 168,
+						"math_score": 61.43,
+						"comp_size": 104,
+						"comp_score": 46.73
+					},
+					{
+						"subgroup": "Hispanic",
+						"read_size": 338,
+						"read_score": 46.01,
+						"math_size": 338,
+						"math_score": 59.85,
+						"comp_size": 198,
+						"comp_score": 50.66
+					},
+					{
+						"subgroup": "Special Education",
+						"read_size": 61,
+						"read_score": 24.1,
+						"math_size": 61,
+						"math_score": 45.57,
+						"comp_size": 32,
+						"comp_score": 9.38
+					},
+					{
+						"subgroup": "English Learner",
+						"read_size": 219,
+						"read_score": 33.47,
+						"math_size": 219,
+						"math_score": 47.4,
+						"comp_size": 131,
+						"comp_score": 40.23
+					},
+					{
+						"subgroup": "Economically Disadvantaged",
+						"read_size": 485,
+						"read_score": 46.87,
+						"math_size": 485,
+						"math_score": 60.95,
+						"comp_size": 280,
+						"comp_score": 48.18
 					}
 				]
 			}
 		]
-	 }
+	}
 }

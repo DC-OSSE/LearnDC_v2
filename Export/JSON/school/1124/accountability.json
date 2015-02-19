@@ -1,76 +1,72 @@
 {
-	"timestamp": "Thu Feb 19 11:55:29 2015",
+	"timestamp": "Thu Feb 19 14:08:25 2015",
 	"org_type": "school",
 	"org_name": "Friendship PCS – Technology Preparatory Academy",
 	"org_code": "1124",
-	"report_card": {
-		"sections": [
-			{
-				"id": "accountability",
-				"data": [{
-						"year": "2013", 
-						"score": 47.36, 
-						"classification": "Rising", 
-						"growth": -0.44, 
-						"subgroups": [
-							{
-								"subgroup": "All",
-								"read_size": 308,
-								"read_score": 43.86,
-								"math_size": 308,
-								"math_score": 53.83,
-								"comp_size": 143,
-								"comp_score": 40.98
-							},
-							{
-								"subgroup": "Male",
-								"read_size": 153,
-								"read_score": 40.52,
-								"math_size": 153,
-								"math_score": 52.42,
-								"comp_size": 70,
-								"comp_score": 27
-							},
-							{
-								"subgroup": "Female",
-								"read_size": 155,
-								"read_score": 47.16,
-								"math_size": 155,
-								"math_score": 55.23,
-								"comp_size": 73,
-								"comp_score": 54.38
-							},
-							{
-								"subgroup": "African American",
-								"read_size": 304,
-								"read_score": 44.05,
-								"math_size": 304,
-								"math_score": 53.19,
-								"comp_size": 141,
-								"comp_score": 40.64
-							},
-							{
-								"subgroup": "Special Education",
-								"read_size": 59,
-								"read_score": 24.07,
-								"math_size": 59,
-								"math_score": 36.27,
-								"comp_size": 27,
-								"comp_score": 19.26
-							},
-							{
-								"subgroup": "Economically Disadvantaged",
-								"read_size": 308,
-								"read_score": 43.86,
-								"math_size": 308,
-								"math_score": 53.83,
-								"comp_size": 143,
-								"comp_score": 40.98
-							}
-						]
+	 "exhibit": {
+		"id": "accountability",
+		"data": [{
+				"year": "2013", 
+				"score": 47.36, 
+				"classification": "Rising", 
+				"growth": -0.44, 
+				"subgroups": [
+					{
+						"subgroup": "All",
+						"read_size": 308,
+						"read_score": 43.86,
+						"math_size": 308,
+						"math_score": 53.83,
+						"comp_size": 143,
+						"comp_score": 40.98
+					},
+					{
+						"subgroup": "Male",
+						"read_size": 153,
+						"read_score": 40.52,
+						"math_size": 153,
+						"math_score": 52.42,
+						"comp_size": 70,
+						"comp_score": 27
+					},
+					{
+						"subgroup": "Female",
+						"read_size": 155,
+						"read_score": 47.16,
+						"math_size": 155,
+						"math_score": 55.23,
+						"comp_size": 73,
+						"comp_score": 54.38
+					},
+					{
+						"subgroup": "African American",
+						"read_size": 304,
+						"read_score": 44.05,
+						"math_size": 304,
+						"math_score": 53.19,
+						"comp_size": 141,
+						"comp_score": 40.64
+					},
+					{
+						"subgroup": "Special Education",
+						"read_size": 59,
+						"read_score": 24.07,
+						"math_size": 59,
+						"math_score": 36.27,
+						"comp_size": 27,
+						"comp_score": 19.26
+					},
+					{
+						"subgroup": "Economically Disadvantaged",
+						"read_size": 308,
+						"read_score": 43.86,
+						"math_size": 308,
+						"math_score": 53.83,
+						"comp_size": 143,
+						"comp_score": 40.98
 					}
 				]
 			}
 		]
-	 }
+	}
 }

@@ -1,94 +1,90 @@
 {
-	"timestamp": "Thu Feb 19 11:55:15 2015",
+	"timestamp": "Thu Feb 19 14:08:12 2015",
 	"org_type": "school",
 	"org_name": "Barnard Elementary School",
 	"org_code": "0205",
-	"report_card": {
-		"sections": [
-			{
-				"id": "accountability",
-				"data": [{
-						"year": "2013", 
-						"score": 60.7, 
-						"classification": "Rising", 
-						"growth": 4.19, 
-						"subgroups": [
-							{
-								"subgroup": "All",
-								"read_size": 174,
-								"read_score": 60.92,
-								"math_size": 174,
-								"math_score": 55.57,
-								"comp_size": 51,
-								"comp_score": 77.45
-							},
-							{
-								"subgroup": "Male",
-								"read_size": 83,
-								"read_score": 55.78,
-								"math_size": 83,
-								"math_score": 48.92,
-								"comp_size": 26,
-								"comp_score": 62.69
-							},
-							{
-								"subgroup": "Female",
-								"read_size": 91,
-								"read_score": 65.6,
-								"math_size": 91,
-								"math_score": 61.65,
-								"comp_size": 25,
-								"comp_score": 92.8
-							},
-							{
-								"subgroup": "African American",
-								"read_size": 106,
-								"read_score": 63.11,
-								"math_size": 106,
-								"math_score": 58.77,
-								"comp_size": 28,
-								"comp_score": 77.5
-							},
-							{
-								"subgroup": "Hispanic",
-								"read_size": 63,
-								"read_score": 57.3,
-								"math_size": 63,
-								"math_score": 51.43,
-								"comp_size": 19,
-								"comp_score": null
-							},
-							{
-								"subgroup": "Special Education",
-								"read_size": 28,
-								"read_score": 49.29,
-								"math_size": 28,
-								"math_score": 56.79,
-								"comp_size": 7,
-								"comp_score": null
-							},
-							{
-								"subgroup": "English Learner",
-								"read_size": 63,
-								"read_score": 50.32,
-								"math_size": 63,
-								"math_score": 48.57,
-								"comp_size": 21,
-								"comp_score": null
-							},
-							{
-								"subgroup": "Economically Disadvantaged",
-								"read_size": 174,
-								"read_score": 60.92,
-								"math_size": 174,
-								"math_score": 55.57,
-								"comp_size": 51,
-								"comp_score": 77.45
-							}
-						]
+	 "exhibit": {
+		"id": "accountability",
+		"data": [{
+				"year": "2013", 
+				"score": 60.7, 
+				"classification": "Rising", 
+				"growth": 4.19, 
+				"subgroups": [
+					{
+						"subgroup": "All",
+						"read_size": 174,
+						"read_score": 60.92,
+						"math_size": 174,
+						"math_score": 55.57,
+						"comp_size": 51,
+						"comp_score": 77.45
+					},
+					{
+						"subgroup": "Male",
+						"read_size": 83,
+						"read_score": 55.78,
+						"math_size": 83,
+						"math_score": 48.92,
+						"comp_size": 26,
+						"comp_score": 62.69
+					},
+					{
+						"subgroup": "Female",
+						"read_size": 91,
+						"read_score": 65.6,
+						"math_size": 91,
+						"math_score": 61.65,
+						"comp_size": 25,
+						"comp_score": 92.8
+					},
+					{
+						"subgroup": "African American",
+						"read_size": 106,
+						"read_score": 63.11,
+						"math_size": 106,
+						"math_score": 58.77,
+						"comp_size": 28,
+						"comp_score": 77.5
+					},
+					{
+						"subgroup": "Hispanic",
+						"read_size": 63,
+						"read_score": 57.3,
+						"math_size": 63,
+						"math_score": 51.43,
+						"comp_size": 19,
+						"comp_score": null
+					},
+					{
+						"subgroup": "Special Education",
+						"read_size": 28,
+						"read_score": 49.29,
+						"math_size": 28,
+						"math_score": 56.79,
+						"comp_size": 7,
+						"comp_score": null
+					},
+					{
+						"subgroup": "English Learner",
+						"read_size": 63,
+						"read_score": 50.32,
+						"math_size": 63,
+						"math_score": 48.57,
+						"comp_size": 21,
+						"comp_score": null
+					},
+					{
+						"subgroup": "Economically Disadvantaged",
+						"read_size": 174,
+						"read_score": 60.92,
+						"math_size": 174,
+						"math_score": 55.57,
+						"comp_size": 51,
+						"comp_score": 77.45
 					}
 				]
 			}
 		]
-	 }
+	}
 }

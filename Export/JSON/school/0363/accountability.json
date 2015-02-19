@@ -1,67 +1,63 @@
 {
-	"timestamp": "Thu Feb 19 11:55:23 2015",
+	"timestamp": "Thu Feb 19 14:08:20 2015",
 	"org_type": "school",
 	"org_name": "Friendship PCS – Chamberlain Elementary",
 	"org_code": "0363",
-	"report_card": {
-		"sections": [
-			{
-				"id": "accountability",
-				"data": [{
-						"year": "2013", 
-						"score": 54.01, 
-						"classification": "Rising", 
-						"growth": null, 
-						"subgroups": [
-							{
-								"subgroup": "All",
-								"read_size": 71,
-								"read_score": 46.9,
-								"math_size": 71,
-								"math_score": 61.13,
-								"comp_size": 0,
-								"comp_score": null
-							},
-							{
-								"subgroup": "Male",
-								"read_size": 33,
-								"read_score": 33.64,
-								"math_size": 33,
-								"math_score": 59.39,
-								"comp_size": 0,
-								"comp_score": null
-							},
-							{
-								"subgroup": "Female",
-								"read_size": 38,
-								"read_score": 58.42,
-								"math_size": 38,
-								"math_score": 62.63,
-								"comp_size": 0,
-								"comp_score": null
-							},
-							{
-								"subgroup": "African American",
-								"read_size": 70,
-								"read_score": 46.14,
-								"math_size": 70,
-								"math_score": 60.57,
-								"comp_size": 0,
-								"comp_score": null
-							},
-							{
-								"subgroup": "Economically Disadvantaged",
-								"read_size": 71,
-								"read_score": 46.9,
-								"math_size": 71,
-								"math_score": 61.13,
-								"comp_size": 0,
-								"comp_score": null
-							}
-						]
+	 "exhibit": {
+		"id": "accountability",
+		"data": [{
+				"year": "2013", 
+				"score": 54.01, 
+				"classification": "Rising", 
+				"growth": null, 
+				"subgroups": [
+					{
+						"subgroup": "All",
+						"read_size": 71,
+						"read_score": 46.9,
+						"math_size": 71,
+						"math_score": 61.13,
+						"comp_size": 0,
+						"comp_score": null
+					},
+					{
+						"subgroup": "Male",
+						"read_size": 33,
+						"read_score": 33.64,
+						"math_size": 33,
+						"math_score": 59.39,
+						"comp_size": 0,
+						"comp_score": null
+					},
+					{
+						"subgroup": "Female",
+						"read_size": 38,
+						"read_score": 58.42,
+						"math_size": 38,
+						"math_score": 62.63,
+						"comp_size": 0,
+						"comp_score": null
+					},
+					{
+						"subgroup": "African American",
+						"read_size": 70,
+						"read_score": 46.14,
+						"math_size": 70,
+						"math_score": 60.57,
+						"comp_size": 0,
+						"comp_score": null
+					},
+					{
+						"subgroup": "Economically Disadvantaged",
+						"read_size": 71,
+						"read_score": 46.9,
+						"math_size": 71,
+						"math_score": 61.13,
+						"comp_size": 0,
+						"comp_score": null
 					}
 				]
 			}
 		]
-	 }
+	}
 }

@@ -1,49 +1,45 @@
 {
-	"timestamp": "Thu Feb 19 11:55:23 2015",
+	"timestamp": "Thu Feb 19 14:08:20 2015",
 	"org_type": "school",
 	"org_name": "Friendship PCS – Blow-Pierce Elementary",
 	"org_code": "0361",
-	"report_card": {
-		"sections": [
-			{
-				"id": "accountability",
-				"data": [{
-						"year": "2013", 
-						"score": 17.5, 
-						"classification": "Priority", 
-						"growth": null, 
-						"subgroups": [
-							{
-								"subgroup": "All",
-								"read_size": 46,
-								"read_score": 19.57,
-								"math_size": 46,
-								"math_score": 15.43,
-								"comp_size": 0,
-								"comp_score": null
-							},
-							{
-								"subgroup": "African American",
-								"read_size": 44,
-								"read_score": 20.45,
-								"math_size": 44,
-								"math_score": 16.14,
-								"comp_size": 0,
-								"comp_score": null
-							},
-							{
-								"subgroup": "Economically Disadvantaged",
-								"read_size": 46,
-								"read_score": 19.57,
-								"math_size": 46,
-								"math_score": 15.43,
-								"comp_size": 0,
-								"comp_score": null
-							}
-						]
+	 "exhibit": {
+		"id": "accountability",
+		"data": [{
+				"year": "2013", 
+				"score": 17.5, 
+				"classification": "Priority", 
+				"growth": null, 
+				"subgroups": [
+					{
+						"subgroup": "All",
+						"read_size": 46,
+						"read_score": 19.57,
+						"math_size": 46,
+						"math_score": 15.43,
+						"comp_size": 0,
+						"comp_score": null
+					},
+					{
+						"subgroup": "African American",
+						"read_size": 44,
+						"read_score": 20.45,
+						"math_size": 44,
+						"math_score": 16.14,
+						"comp_size": 0,
+						"comp_score": null
+					},
+					{
+						"subgroup": "Economically Disadvantaged",
+						"read_size": 46,
+						"read_score": 19.57,
+						"math_size": 46,
+						"math_score": 15.43,
+						"comp_size": 0,
+						"comp_score": null
 					}
 				]
 			}
 		]
-	 }
+	}
 }

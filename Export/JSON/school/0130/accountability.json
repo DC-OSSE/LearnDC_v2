@@ -1,67 +1,63 @@
 {
-	"timestamp": "Thu Feb 19 11:55:11 2015",
+	"timestamp": "Thu Feb 19 14:08:07 2015",
 	"org_type": "school",
 	"org_name": "DC Prep PCS – Edgewood Elementary",
 	"org_code": "0130",
-	"report_card": {
-		"sections": [
-			{
-				"id": "accountability",
-				"data": [{
-						"year": "2013", 
-						"score": 78.97, 
-						"classification": "Rising", 
-						"growth": 5.45, 
-						"subgroups": [
-							{
-								"subgroup": "All",
-								"read_size": 63,
-								"read_score": 73.49,
-								"math_size": 63,
-								"math_score": 84.44,
-								"comp_size": 0,
-								"comp_score": null
-							},
-							{
-								"subgroup": "Male",
-								"read_size": 33,
-								"read_score": 72.42,
-								"math_size": 33,
-								"math_score": 90.61,
-								"comp_size": 0,
-								"comp_score": null
-							},
-							{
-								"subgroup": "Female",
-								"read_size": 30,
-								"read_score": 74.67,
-								"math_size": 30,
-								"math_score": 77.67,
-								"comp_size": 0,
-								"comp_score": null
-							},
-							{
-								"subgroup": "African American",
-								"read_size": 58,
-								"read_score": 71.21,
-								"math_size": 58,
-								"math_score": 82.76,
-								"comp_size": 0,
-								"comp_score": null
-							},
-							{
-								"subgroup": "Economically Disadvantaged",
-								"read_size": 63,
-								"read_score": 73.49,
-								"math_size": 63,
-								"math_score": 84.44,
-								"comp_size": 0,
-								"comp_score": null
-							}
-						]
+	 "exhibit": {
+		"id": "accountability",
+		"data": [{
+				"year": "2013", 
+				"score": 78.97, 
+				"classification": "Rising", 
+				"growth": 5.45, 
+				"subgroups": [
+					{
+						"subgroup": "All",
+						"read_size": 63,
+						"read_score": 73.49,
+						"math_size": 63,
+						"math_score": 84.44,
+						"comp_size": 0,
+						"comp_score": null
+					},
+					{
+						"subgroup": "Male",
+						"read_size": 33,
+						"read_score": 72.42,
+						"math_size": 33,
+						"math_score": 90.61,
+						"comp_size": 0,
+						"comp_score": null
+					},
+					{
+						"subgroup": "Female",
+						"read_size": 30,
+						"read_score": 74.67,
+						"math_size": 30,
+						"math_score": 77.67,
+						"comp_size": 0,
+						"comp_score": null
+					},
+					{
+						"subgroup": "African American",
+						"read_size": 58,
+						"read_score": 71.21,
+						"math_size": 58,
+						"math_score": 82.76,
+						"comp_size": 0,
+						"comp_score": null
+					},
+					{
+						"subgroup": "Economically Disadvantaged",
+						"read_size": 63,
+						"read_score": 73.49,
+						"math_size": 63,
+						"math_score": 84.44,
+						"comp_size": 0,
+						"comp_score": null
 					}
 				]
 			}
 		]
-	 }
+	}
 }

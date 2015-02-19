@@ -1,76 +1,72 @@
 {
-	"timestamp": "Thu Feb 19 11:55:24 2015",
+	"timestamp": "Thu Feb 19 14:08:21 2015",
 	"org_type": "school",
 	"org_name": "Hart Middle School",
 	"org_code": "0413",
-	"report_card": {
-		"sections": [
-			{
-				"id": "accountability",
-				"data": [{
-						"year": "2013", 
-						"score": 32.69, 
-						"classification": "Focus", 
-						"growth": -3.99, 
-						"subgroups": [
-							{
-								"subgroup": "All",
-								"read_size": 493,
-								"read_score": 30.37,
-								"math_size": 493,
-								"math_score": 32.64,
-								"comp_size": 172,
-								"comp_score": 39.48
-							},
-							{
-								"subgroup": "Male",
-								"read_size": 267,
-								"read_score": 26.25,
-								"math_size": 267,
-								"math_score": 34.01,
-								"comp_size": 89,
-								"comp_score": 30.56
-							},
-							{
-								"subgroup": "Female",
-								"read_size": 226,
-								"read_score": 35.22,
-								"math_size": 226,
-								"math_score": 31.02,
-								"comp_size": 83,
-								"comp_score": 49.04
-							},
-							{
-								"subgroup": "African American",
-								"read_size": 484,
-								"read_score": 30.04,
-								"math_size": 484,
-								"math_score": 32.09,
-								"comp_size": 171,
-								"comp_score": 39.06
-							},
-							{
-								"subgroup": "Special Education",
-								"read_size": 144,
-								"read_score": 22.36,
-								"math_size": 144,
-								"math_score": 24.72,
-								"comp_size": 52,
-								"comp_score": 19.42
-							},
-							{
-								"subgroup": "Economically Disadvantaged",
-								"read_size": 493,
-								"read_score": 30.37,
-								"math_size": 493,
-								"math_score": 32.64,
-								"comp_size": 172,
-								"comp_score": 39.48
-							}
-						]
+	 "exhibit": {
+		"id": "accountability",
+		"data": [{
+				"year": "2013", 
+				"score": 32.69, 
+				"classification": "Focus", 
+				"growth": -3.99, 
+				"subgroups": [
+					{
+						"subgroup": "All",
+						"read_size": 493,
+						"read_score": 30.37,
+						"math_size": 493,
+						"math_score": 32.64,
+						"comp_size": 172,
+						"comp_score": 39.48
+					},
+					{
+						"subgroup": "Male",
+						"read_size": 267,
+						"read_score": 26.25,
+						"math_size": 267,
+						"math_score": 34.01,
+						"comp_size": 89,
+						"comp_score": 30.56
+					},
+					{
+						"subgroup": "Female",
+						"read_size": 226,
+						"read_score": 35.22,
+						"math_size": 226,
+						"math_score": 31.02,
+						"comp_size": 83,
+						"comp_score": 49.04
+					},
+					{
+						"subgroup": "African American",
+						"read_size": 484,
+						"read_score": 30.04,
+						"math_size": 484,
+						"math_score": 32.09,
+						"comp_size": 171,
+						"comp_score": 39.06
+					},
+					{
+						"subgroup": "Special Education",
+						"read_size": 144,
+						"read_score": 22.36,
+						"math_size": 144,
+						"math_score": 24.72,
+						"comp_size": 52,
+						"comp_score": 19.42
+					},
+					{
+						"subgroup": "Economically Disadvantaged",
+						"read_size": 493,
+						"read_score": 30.37,
+						"math_size": 493,
+						"math_score": 32.64,
+						"comp_size": 172,
+						"comp_score": 39.48
 					}
 				]
 			}
 		]
-	 }
+	}
 }

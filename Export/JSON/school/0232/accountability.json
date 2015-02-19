@@ -1,85 +1,81 @@
 {
-	"timestamp": "Thu Feb 19 11:55:16 2015",
+	"timestamp": "Thu Feb 19 14:08:13 2015",
 	"org_type": "school",
 	"org_name": "Eaton Elementary School",
 	"org_code": "0232",
-	"report_card": {
-		"sections": [
-			{
-				"id": "accountability",
-				"data": [{
-						"year": "2013", 
-						"score": 90.23, 
-						"classification": "Reward", 
-						"growth": 4.95, 
-						"subgroups": [
-							{
-								"subgroup": "All",
-								"read_size": 209,
-								"read_score": 88.52,
-								"math_size": 209,
-								"math_score": 92.82,
-								"comp_size": 63,
-								"comp_score": 87.3
-							},
-							{
-								"subgroup": "Male",
-								"read_size": 102,
-								"read_score": 86.86,
-								"math_size": 102,
-								"math_score": 90.98,
-								"comp_size": 32,
-								"comp_score": 84.38
-							},
-							{
-								"subgroup": "Female",
-								"read_size": 107,
-								"read_score": 90.09,
-								"math_size": 107,
-								"math_score": 94.58,
-								"comp_size": 31,
-								"comp_score": 90.32
-							},
-							{
-								"subgroup": "African American",
-								"read_size": 79,
-								"read_score": 79.87,
-								"math_size": 79,
-								"math_score": 83.67,
-								"comp_size": 22,
-								"comp_score": null
-							},
-							{
-								"subgroup": "White",
-								"read_size": 85,
-								"read_score": 98.35,
-								"math_size": 85,
-								"math_score": 103.53,
-								"comp_size": 28,
-								"comp_score": 90
-							},
-							{
-								"subgroup": "English Learner",
-								"read_size": 31,
-								"read_score": null,
-								"math_size": 31,
-								"math_score": null,
-								"comp_size": 8,
-								"comp_score": null
-							},
-							{
-								"subgroup": "Economically Disadvantaged",
-								"read_size": 37,
-								"read_score": 77.3,
-								"math_size": 37,
-								"math_score": 84.05,
-								"comp_size": 11,
-								"comp_score": null
-							}
-						]
+	 "exhibit": {
+		"id": "accountability",
+		"data": [{
+				"year": "2013", 
+				"score": 90.23, 
+				"classification": "Reward", 
+				"growth": 4.95, 
+				"subgroups": [
+					{
+						"subgroup": "All",
+						"read_size": 209,
+						"read_score": 88.52,
+						"math_size": 209,
+						"math_score": 92.82,
+						"comp_size": 63,
+						"comp_score": 87.3
+					},
+					{
+						"subgroup": "Male",
+						"read_size": 102,
+						"read_score": 86.86,
+						"math_size": 102,
+						"math_score": 90.98,
+						"comp_size": 32,
+						"comp_score": 84.38
+					},
+					{
+						"subgroup": "Female",
+						"read_size": 107,
+						"read_score": 90.09,
+						"math_size": 107,
+						"math_score": 94.58,
+						"comp_size": 31,
+						"comp_score": 90.32
+					},
+					{
+						"subgroup": "African American",
+						"read_size": 79,
+						"read_score": 79.87,
+						"math_size": 79,
+						"math_score": 83.67,
+						"comp_size": 22,
+						"comp_score": null
+					},
+					{
+						"subgroup": "White",
+						"read_size": 85,
+						"read_score": 98.35,
+						"math_size": 85,
+						"math_score": 103.53,
+						"comp_size": 28,
+						"comp_score": 90
+					},
+					{
+						"subgroup": "English Learner",
+						"read_size": 31,
+						"read_score": null,
+						"math_size": 31,
+						"math_score": null,
+						"comp_size": 8,
+						"comp_score": null
+					},
+					{
+						"subgroup": "Economically Disadvantaged",
+						"read_size": 37,
+						"read_score": 77.3,
+						"math_size": 37,
+						"math_score": 84.05,
+						"comp_size": 11,
+						"comp_score": null
 					}
 				]
 			}
 		]
-	 }
+	}
 }

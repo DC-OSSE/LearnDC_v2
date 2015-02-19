@@ -1,58 +1,54 @@
 {
-	"timestamp": "Thu Feb 19 11:55:18 2015",
+	"timestamp": "Thu Feb 19 14:08:15 2015",
 	"org_type": "school",
 	"org_name": "Key Elementary School",
 	"org_code": "0272",
-	"report_card": {
-		"sections": [
-			{
-				"id": "accountability",
-				"data": [{
-						"year": "2013", 
-						"score": 92.05, 
-						"classification": "Reward", 
-						"growth": -3.8, 
-						"subgroups": [
-							{
-								"subgroup": "All",
-								"read_size": 158,
-								"read_score": 91.08,
-								"math_size": 158,
-								"math_score": 92.78,
-								"comp_size": 54,
-								"comp_score": 92.78
-							},
-							{
-								"subgroup": "Male",
-								"read_size": 81,
-								"read_score": 87.16,
-								"math_size": 81,
-								"math_score": 89.51,
-								"comp_size": 30,
-								"comp_score": 82.33
-							},
-							{
-								"subgroup": "Female",
-								"read_size": 77,
-								"read_score": 95.19,
-								"math_size": 77,
-								"math_score": 96.23,
-								"comp_size": 24,
-								"comp_score": null
-							},
-							{
-								"subgroup": "White",
-								"read_size": 92,
-								"read_score": 95.22,
-								"math_size": 92,
-								"math_score": 96.41,
-								"comp_size": 29,
-								"comp_score": 95.52
-							}
-						]
+	 "exhibit": {
+		"id": "accountability",
+		"data": [{
+				"year": "2013", 
+				"score": 92.05, 
+				"classification": "Reward", 
+				"growth": -3.8, 
+				"subgroups": [
+					{
+						"subgroup": "All",
+						"read_size": 158,
+						"read_score": 91.08,
+						"math_size": 158,
+						"math_score": 92.78,
+						"comp_size": 54,
+						"comp_score": 92.78
+					},
+					{
+						"subgroup": "Male",
+						"read_size": 81,
+						"read_score": 87.16,
+						"math_size": 81,
+						"math_score": 89.51,
+						"comp_size": 30,
+						"comp_score": 82.33
+					},
+					{
+						"subgroup": "Female",
+						"read_size": 77,
+						"read_score": 95.19,
+						"math_size": 77,
+						"math_score": 96.23,
+						"comp_size": 24,
+						"comp_score": null
+					},
+					{
+						"subgroup": "White",
+						"read_size": 92,
+						"read_score": 95.22,
+						"math_size": 92,
+						"math_score": 96.41,
+						"comp_size": 29,
+						"comp_score": 95.52
 					}
 				]
 			}
 		]
-	 }
+	}
 }

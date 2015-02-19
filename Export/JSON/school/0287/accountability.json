@@ -1,85 +1,81 @@
 {
-	"timestamp": "Thu Feb 19 11:55:19 2015",
+	"timestamp": "Thu Feb 19 14:08:15 2015",
 	"org_type": "school",
 	"org_name": "Murch Elementary School",
 	"org_code": "0287",
-	"report_card": {
-		"sections": [
-			{
-				"id": "accountability",
-				"data": [{
-						"year": "2013", 
-						"score": 89.14, 
-						"classification": "Reward", 
-						"growth": 3.09, 
-						"subgroups": [
-							{
-								"subgroup": "All",
-								"read_size": 255,
-								"read_score": 89.33,
-								"math_size": 255,
-								"math_score": 89.33,
-								"comp_size": 84,
-								"comp_score": 87.98
-							},
-							{
-								"subgroup": "Male",
-								"read_size": 141,
-								"read_score": 86.31,
-								"math_size": 141,
-								"math_score": 88.87,
-								"comp_size": 54,
-								"comp_score": 82.59
-							},
-							{
-								"subgroup": "Female",
-								"read_size": 114,
-								"read_score": 93.07,
-								"math_size": 114,
-								"math_score": 89.91,
-								"comp_size": 30,
-								"comp_score": 97.67
-							},
-							{
-								"subgroup": "African American",
-								"read_size": 51,
-								"read_score": 75.1,
-								"math_size": 51,
-								"math_score": 66.47,
-								"comp_size": 19,
-								"comp_score": null
-							},
-							{
-								"subgroup": "White",
-								"read_size": 160,
-								"read_score": 95.44,
-								"math_size": 160,
-								"math_score": 95.81,
-								"comp_size": 52,
-								"comp_score": 89.42
-							},
-							{
-								"subgroup": "Special Education",
-								"read_size": 25,
-								"read_score": null,
-								"math_size": 25,
-								"math_score": null,
-								"comp_size": 6,
-								"comp_score": null
-							},
-							{
-								"subgroup": "Economically Disadvantaged",
-								"read_size": 25,
-								"read_score": 66,
-								"math_size": 25,
-								"math_score": 79.2,
-								"comp_size": 11,
-								"comp_score": null
-							}
-						]
+	 "exhibit": {
+		"id": "accountability",
+		"data": [{
+				"year": "2013", 
+				"score": 89.14, 
+				"classification": "Reward", 
+				"growth": 3.09, 
+				"subgroups": [
+					{
+						"subgroup": "All",
+						"read_size": 255,
+						"read_score": 89.33,
+						"math_size": 255,
+						"math_score": 89.33,
+						"comp_size": 84,
+						"comp_score": 87.98
+					},
+					{
+						"subgroup": "Male",
+						"read_size": 141,
+						"read_score": 86.31,
+						"math_size": 141,
+						"math_score": 88.87,
+						"comp_size": 54,
+						"comp_score": 82.59
+					},
+					{
+						"subgroup": "Female",
+						"read_size": 114,
+						"read_score": 93.07,
+						"math_size": 114,
+						"math_score": 89.91,
+						"comp_size": 30,
+						"comp_score": 97.67
+					},
+					{
+						"subgroup": "African American",
+						"read_size": 51,
+						"read_score": 75.1,
+						"math_size": 51,
+						"math_score": 66.47,
+						"comp_size": 19,
+						"comp_score": null
+					},
+					{
+						"subgroup": "White",
+						"read_size": 160,
+						"read_score": 95.44,
+						"math_size": 160,
+						"math_score": 95.81,
+						"comp_size": 52,
+						"comp_score": 89.42
+					},
+					{
+						"subgroup": "Special Education",
+						"read_size": 25,
+						"read_score": null,
+						"math_size": 25,
+						"math_score": null,
+						"comp_size": 6,
+						"comp_score": null
+					},
+					{
+						"subgroup": "Economically Disadvantaged",
+						"read_size": 25,
+						"read_score": 66,
+						"math_size": 25,
+						"math_score": 79.2,
+						"comp_size": 11,
+						"comp_score": null
 					}
 				]
 			}
 		]
-	 }
+	}
 }

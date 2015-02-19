@@ -1,67 +1,63 @@
 {
-	"timestamp": "Thu Feb 19 11:55:27 2015",
+	"timestamp": "Thu Feb 19 14:08:24 2015",
 	"org_type": "school",
 	"org_name": "Community Academy PCS – Amos 3",
 	"org_code": "1109",
-	"report_card": {
-		"sections": [
-			{
-				"id": "accountability",
-				"data": [{
-						"year": "2013", 
-						"score": 31, 
-						"classification": "Focus", 
-						"growth": -4.91, 
-						"subgroups": [
-							{
-								"subgroup": "All",
-								"read_size": 75,
-								"read_score": 31.73,
-								"math_size": 75,
-								"math_score": 25.07,
-								"comp_size": 20,
-								"comp_score": null
-							},
-							{
-								"subgroup": "Male",
-								"read_size": 43,
-								"read_score": 30.23,
-								"math_size": 43,
-								"math_score": 29.07,
-								"comp_size": 10,
-								"comp_score": null
-							},
-							{
-								"subgroup": "Female",
-								"read_size": 32,
-								"read_score": 33.75,
-								"math_size": 32,
-								"math_score": 19.69,
-								"comp_size": 10,
-								"comp_score": null
-							},
-							{
-								"subgroup": "African American",
-								"read_size": 74,
-								"read_score": 32.16,
-								"math_size": 74,
-								"math_score": 25.41,
-								"comp_size": 19,
-								"comp_score": null
-							},
-							{
-								"subgroup": "Economically Disadvantaged",
-								"read_size": 75,
-								"read_score": 31.73,
-								"math_size": 75,
-								"math_score": 25.07,
-								"comp_size": 20,
-								"comp_score": null
-							}
-						]
+	 "exhibit": {
+		"id": "accountability",
+		"data": [{
+				"year": "2013", 
+				"score": 31, 
+				"classification": "Focus", 
+				"growth": -4.91, 
+				"subgroups": [
+					{
+						"subgroup": "All",
+						"read_size": 75,
+						"read_score": 31.73,
+						"math_size": 75,
+						"math_score": 25.07,
+						"comp_size": 20,
+						"comp_score": null
+					},
+					{
+						"subgroup": "Male",
+						"read_size": 43,
+						"read_score": 30.23,
+						"math_size": 43,
+						"math_score": 29.07,
+						"comp_size": 10,
+						"comp_score": null
+					},
+					{
+						"subgroup": "Female",
+						"read_size": 32,
+						"read_score": 33.75,
+						"math_size": 32,
+						"math_score": 19.69,
+						"comp_size": 10,
+						"comp_score": null
+					},
+					{
+						"subgroup": "African American",
+						"read_size": 74,
+						"read_score": 32.16,
+						"math_size": 74,
+						"math_score": 25.41,
+						"comp_size": 19,
+						"comp_score": null
+					},
+					{
+						"subgroup": "Economically Disadvantaged",
+						"read_size": 75,
+						"read_score": 31.73,
+						"math_size": 75,
+						"math_score": 25.07,
+						"comp_size": 20,
+						"comp_score": null
 					}
 				]
 			}
 		]
-	 }
+	}
 }

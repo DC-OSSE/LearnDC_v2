@@ -1,5 +1,5 @@
 {
-	"timestamp": "Tue Feb 03 10:14:21 2015",
+	"timestamp": "Thu Feb 19 14:50:30 2015",
 	"org_type": "school",
 	"org_name": "Capital City PCS – Middle School",
 	"org_code": "0182",
@@ -8,24 +8,12 @@
 	"school_type": [
 		"Regular school"
 	 ],
-	"pmf": {
-		"id": "pcsb_pmf",
-		"data": [
-			{
-				"key": {"year": "2013", "category": "ESMS"}, 
-				"val": {"score": 0.467, "tier": null, "url": "dashboard.dcpcsb.org/detailed/15"}
-			},
-			{
-				"key": {"year": "2014", "category": "NA"}, 
-				"val": {"score": 0.441, "tier": "2", "url": "dashboard.dcpcsb.org/detailed/15"}
-			}
-		]
-	},
+	"id": "overview",
 	"great_schools": {
 		"gs_url": "http://www.greatschools.org/washington-dc/washington/861-Capital-City-PCS---Middle-School"
 	},
 	"ward": "4",
-	"grades_serviced": ["05","06","07","08","11"],
+	"grades_serviced": ["05","06","07","08"],
 	"grades_accepted": ["08","05","06","07"],
 	"description": "Capital City Public Charter School enables a diverse group of students to meet high expectations, develop creativity, critical thinking, and problem-solving skills, achieve a deep understanding of complex subjects, acquire a love of learning, along with a strong sense of community and character. We will graduate young adults who are self-directed, intellectually engaged and committed to personal and civic responsibility.",
 	 "address": {
@@ -41,9 +29,6 @@
 	"website": "http://www.ccpcs.org",
 	"facebook": null,
 	"twitter": null,
-	"external_report_card": "http://issuu.com/pcsb/docs/dcpcsb_pmf_2013/55",
-	"equity_report_url": 
-"http://osse.dc.gov/sites/default/files/dc/sites/osse/publication/attachments/2013_Equity_Report_PCSB_External_Capital%20City%20PCS%20–%20Middle%20School.pdf",
 	"contact": [
 		{
 			"name": "David Bennett",

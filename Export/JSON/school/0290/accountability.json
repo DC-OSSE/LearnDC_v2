@@ -1,76 +1,72 @@
 {
-	"timestamp": "Thu Feb 19 11:55:19 2015",
+	"timestamp": "Thu Feb 19 14:08:15 2015",
 	"org_type": "school",
 	"org_name": "Noyes Education Campus",
 	"org_code": "0290",
-	"report_card": {
-		"sections": [
-			{
-				"id": "accountability",
-				"data": [{
-						"year": "2013", 
-						"score": 34.31, 
-						"classification": "Focus", 
-						"growth": -0.8, 
-						"subgroups": [
-							{
-								"subgroup": "All",
-								"read_size": 155,
-								"read_score": 36.65,
-								"math_size": 155,
-								"math_score": 31.68,
-								"comp_size": 45,
-								"comp_score": 35.33
-							},
-							{
-								"subgroup": "Male",
-								"read_size": 85,
-								"read_score": 36.12,
-								"math_size": 85,
-								"math_score": 30.24,
-								"comp_size": 23,
-								"comp_score": null
-							},
-							{
-								"subgroup": "Female",
-								"read_size": 70,
-								"read_score": 37.29,
-								"math_size": 70,
-								"math_score": 33.43,
-								"comp_size": 22,
-								"comp_score": null
-							},
-							{
-								"subgroup": "African American",
-								"read_size": 148,
-								"read_score": 36.89,
-								"math_size": 148,
-								"math_score": 30.47,
-								"comp_size": 43,
-								"comp_score": 36.05
-							},
-							{
-								"subgroup": "Special Education",
-								"read_size": 29,
-								"read_score": 18.62,
-								"math_size": 29,
-								"math_score": 10.34,
-								"comp_size": 7,
-								"comp_score": null
-							},
-							{
-								"subgroup": "Economically Disadvantaged",
-								"read_size": 155,
-								"read_score": 36.65,
-								"math_size": 155,
-								"math_score": 31.68,
-								"comp_size": 45,
-								"comp_score": 35.33
-							}
-						]
+	 "exhibit": {
+		"id": "accountability",
+		"data": [{
+				"year": "2013", 
+				"score": 34.31, 
+				"classification": "Focus", 
+				"growth": -0.8, 
+				"subgroups": [
+					{
+						"subgroup": "All",
+						"read_size": 155,
+						"read_score": 36.65,
+						"math_size": 155,
+						"math_score": 31.68,
+						"comp_size": 45,
+						"comp_score": 35.33
+					},
+					{
+						"subgroup": "Male",
+						"read_size": 85,
+						"read_score": 36.12,
+						"math_size": 85,
+						"math_score": 30.24,
+						"comp_size": 23,
+						"comp_score": null
+					},
+					{
+						"subgroup": "Female",
+						"read_size": 70,
+						"read_score": 37.29,
+						"math_size": 70,
+						"math_score": 33.43,
+						"comp_size": 22,
+						"comp_score": null
+					},
+					{
+						"subgroup": "African American",
+						"read_size": 148,
+						"read_score": 36.89,
+						"math_size": 148,
+						"math_score": 30.47,
+						"comp_size": 43,
+						"comp_score": 36.05
+					},
+					{
+						"subgroup": "Special Education",
+						"read_size": 29,
+						"read_score": 18.62,
+						"math_size": 29,
+						"math_score": 10.34,
+						"comp_size": 7,
+						"comp_score": null
+					},
+					{
+						"subgroup": "Economically Disadvantaged",
+						"read_size": 155,
+						"read_score": 36.65,
+						"math_size": 155,
+						"math_score": 31.68,
+						"comp_size": 45,
+						"comp_score": 35.33
 					}
 				]
 			}
 		]
-	 }
+	}
 }

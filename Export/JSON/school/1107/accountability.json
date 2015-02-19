@@ -1,94 +1,90 @@
 {
-	"timestamp": "Thu Feb 19 11:55:27 2015",
+	"timestamp": "Thu Feb 19 14:08:24 2015",
 	"org_type": "school",
 	"org_name": "Center City PCS – Shaw",
 	"org_code": "1107",
-	"report_card": {
-		"sections": [
-			{
-				"id": "accountability",
-				"data": [{
-						"year": "2013", 
-						"score": 59.48, 
-						"classification": "Reward", 
-						"growth": 5.51, 
-						"subgroups": [
-							{
-								"subgroup": "All",
-								"read_size": 147,
-								"read_score": 55.31,
-								"math_size": 147,
-								"math_score": 61.84,
-								"comp_size": 52,
-								"comp_score": 64.62
-							},
-							{
-								"subgroup": "Male",
-								"read_size": 81,
-								"read_score": 45.68,
-								"math_size": 81,
-								"math_score": 56.42,
-								"comp_size": 29,
-								"comp_score": 50.69
-							},
-							{
-								"subgroup": "Female",
-								"read_size": 66,
-								"read_score": 67.12,
-								"math_size": 66,
-								"math_score": 68.48,
-								"comp_size": 23,
-								"comp_score": null
-							},
-							{
-								"subgroup": "African American",
-								"read_size": 98,
-								"read_score": 52.45,
-								"math_size": 98,
-								"math_score": 58.88,
-								"comp_size": 33,
-								"comp_score": 51.21
-							},
-							{
-								"subgroup": "Hispanic",
-								"read_size": 48,
-								"read_score": 60,
-								"math_size": 48,
-								"math_score": 67.08,
-								"comp_size": 18,
-								"comp_score": null
-							},
-							{
-								"subgroup": "Special Education",
-								"read_size": 25,
-								"read_score": null,
-								"math_size": 25,
-								"math_score": null,
-								"comp_size": 7,
-								"comp_score": null
-							},
-							{
-								"subgroup": "English Learner",
-								"read_size": 26,
-								"read_score": null,
-								"math_size": 26,
-								"math_score": null,
-								"comp_size": 11,
-								"comp_score": null
-							},
-							{
-								"subgroup": "Economically Disadvantaged",
-								"read_size": 147,
-								"read_score": 55.31,
-								"math_size": 147,
-								"math_score": 61.84,
-								"comp_size": 52,
-								"comp_score": 64.62
-							}
-						]
+	 "exhibit": {
+		"id": "accountability",
+		"data": [{
+				"year": "2013", 
+				"score": 59.48, 
+				"classification": "Reward", 
+				"growth": 5.51, 
+				"subgroups": [
+					{
+						"subgroup": "All",
+						"read_size": 147,
+						"read_score": 55.31,
+						"math_size": 147,
+						"math_score": 61.84,
+						"comp_size": 52,
+						"comp_score": 64.62
+					},
+					{
+						"subgroup": "Male",
+						"read_size": 81,
+						"read_score": 45.68,
+						"math_size": 81,
+						"math_score": 56.42,
+						"comp_size": 29,
+						"comp_score": 50.69
+					},
+					{
+						"subgroup": "Female",
+						"read_size": 66,
+						"read_score": 67.12,
+						"math_size": 66,
+						"math_score": 68.48,
+						"comp_size": 23,
+						"comp_score": null
+					},
+					{
+						"subgroup": "African American",
+						"read_size": 98,
+						"read_score": 52.45,
+						"math_size": 98,
+						"math_score": 58.88,
+						"comp_size": 33,
+						"comp_score": 51.21
+					},
+					{
+						"subgroup": "Hispanic",
+						"read_size": 48,
+						"read_score": 60,
+						"math_size": 48,
+						"math_score": 67.08,
+						"comp_size": 18,
+						"comp_score": null
+					},
+					{
+						"subgroup": "Special Education",
+						"read_size": 25,
+						"read_score": null,
+						"math_size": 25,
+						"math_score": null,
+						"comp_size": 7,
+						"comp_score": null
+					},
+					{
+						"subgroup": "English Learner",
+						"read_size": 26,
+						"read_score": null,
+						"math_size": 26,
+						"math_score": null,
+						"comp_size": 11,
+						"comp_score": null
+					},
+					{
+						"subgroup": "Economically Disadvantaged",
+						"read_size": 147,
+						"read_score": 55.31,
+						"math_size": 147,
+						"math_score": 61.84,
+						"comp_size": 52,
+						"comp_score": 64.62
 					}
 				]
 			}
 		]
-	 }
+	}
 }

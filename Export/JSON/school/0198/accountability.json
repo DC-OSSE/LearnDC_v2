@@ -1,85 +1,81 @@
 {
-	"timestamp": "Thu Feb 19 11:55:14 2015",
+	"timestamp": "Thu Feb 19 14:08:11 2015",
 	"org_type": "school",
 	"org_name": "Two Rivers PCS",
 	"org_code": "0198",
-	"report_card": {
-		"sections": [
-			{
-				"id": "accountability",
-				"data": [{
-						"year": "2013", 
-						"score": 73.15, 
-						"classification": "Rising", 
-						"growth": 2.25, 
-						"subgroups": [
-							{
-								"subgroup": "All",
-								"read_size": 281,
-								"read_score": 71.07,
-								"math_size": 281,
-								"math_score": 72.38,
-								"comp_size": 96,
-								"comp_score": 81.46
-							},
-							{
-								"subgroup": "Male",
-								"read_size": 143,
-								"read_score": 66.36,
-								"math_size": 143,
-								"math_score": 71.4,
-								"comp_size": 47,
-								"comp_score": 74.26
-							},
-							{
-								"subgroup": "Female",
-								"read_size": 138,
-								"read_score": 75.94,
-								"math_size": 138,
-								"math_score": 73.41,
-								"comp_size": 49,
-								"comp_score": 88.37
-							},
-							{
-								"subgroup": "African American",
-								"read_size": 198,
-								"read_score": 61.77,
-								"math_size": 198,
-								"math_score": 64.39,
-								"comp_size": 76,
-								"comp_score": 77.5
-							},
-							{
-								"subgroup": "White",
-								"read_size": 56,
-								"read_score": 103.75,
-								"math_size": 56,
-								"math_score": 100.36,
-								"comp_size": 12,
-								"comp_score": null
-							},
-							{
-								"subgroup": "Special Education",
-								"read_size": 79,
-								"read_score": 46.08,
-								"math_size": 79,
-								"math_score": 50.89,
-								"comp_size": 27,
-								"comp_score": null
-							},
-							{
-								"subgroup": "Economically Disadvantaged",
-								"read_size": 160,
-								"read_score": 57.81,
-								"math_size": 160,
-								"math_score": 62.38,
-								"comp_size": 57,
-								"comp_score": 70.88
-							}
-						]
+	 "exhibit": {
+		"id": "accountability",
+		"data": [{
+				"year": "2013", 
+				"score": 73.15, 
+				"classification": "Rising", 
+				"growth": 2.25, 
+				"subgroups": [
+					{
+						"subgroup": "All",
+						"read_size": 281,
+						"read_score": 71.07,
+						"math_size": 281,
+						"math_score": 72.38,
+						"comp_size": 96,
+						"comp_score": 81.46
+					},
+					{
+						"subgroup": "Male",
+						"read_size": 143,
+						"read_score": 66.36,
+						"math_size": 143,
+						"math_score": 71.4,
+						"comp_size": 47,
+						"comp_score": 74.26
+					},
+					{
+						"subgroup": "Female",
+						"read_size": 138,
+						"read_score": 75.94,
+						"math_size": 138,
+						"math_score": 73.41,
+						"comp_size": 49,
+						"comp_score": 88.37
+					},
+					{
+						"subgroup": "African American",
+						"read_size": 198,
+						"read_score": 61.77,
+						"math_size": 198,
+						"math_score": 64.39,
+						"comp_size": 76,
+						"comp_score": 77.5
+					},
+					{
+						"subgroup": "White",
+						"read_size": 56,
+						"read_score": 103.75,
+						"math_size": 56,
+						"math_score": 100.36,
+						"comp_size": 12,
+						"comp_score": null
+					},
+					{
+						"subgroup": "Special Education",
+						"read_size": 79,
+						"read_score": 46.08,
+						"math_size": 79,
+						"math_score": 50.89,
+						"comp_size": 27,
+						"comp_score": null
+					},
+					{
+						"subgroup": "Economically Disadvantaged",
+						"read_size": 160,
+						"read_score": 57.81,
+						"math_size": 160,
+						"math_score": 62.38,
+						"comp_size": 57,
+						"comp_score": 70.88
 					}
 				]
 			}
 		]
-	 }
+	}
 }

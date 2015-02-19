@@ -1,5 +1,5 @@
 {
-	"timestamp": "Tue Feb 03 10:14:25 2015",
+	"timestamp": "Thu Feb 19 14:50:34 2015",
 	"org_type": "school",
 	"org_name": "Two Rivers PCS",
 	"org_code": "0198",
@@ -8,27 +8,7 @@
 	"school_type": [
 		"Regular school"
 	 ],
-	"pmf": {
-		"id": "pcsb_pmf",
-		"data": [
-			{
-				"key": {"year": "2011", "category": "ESMS"}, 
-				"val": {"score": 0.75, "tier": "1", "url": "dashboard.dcpcsb.org/detailed/102"}
-			},
-			{
-				"key": {"year": "2012", "category": "ESMS"}, 
-				"val": {"score": 0.738, "tier": "1", "url": "dashboard.dcpcsb.org/detailed/102"}
-			},
-			{
-				"key": {"year": "2013", "category": "ESMS"}, 
-				"val": {"score": 0.699, "tier": "1", "url": "dashboard.dcpcsb.org/detailed/102"}
-			},
-			{
-				"key": {"year": "2014", "category": "NA"}, 
-				"val": {"score": 0.676, "tier": "1", "url": "dashboard.dcpcsb.org/detailed/102"}
-			}
-		]
-	},
+	"id": "overview",
 	"great_schools": {
 		"gs_url": "http://www.greatschools.org/washington-dc/washington/369-Two-Rivers-PCS"
 	},
@@ -49,9 +29,6 @@
 	"website": "http://www.tworiverspcs.org",
 	"facebook": null,
 	"twitter": null,
-	"external_report_card": "http://issuu.com/pcsb/docs/dcpcsb_pmf_2013/283",
-	"equity_report_url": 
-"http://osse.dc.gov/sites/default/files/dc/sites/osse/publication/attachments/2013_Equity_Report_PCSB_External_Two%20Rivers%20PCS.pdf",
 	"contact": [
 		{
 			"name": "Ann Gosier",

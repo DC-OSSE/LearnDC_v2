@@ -1,76 +1,72 @@
 {
-	"timestamp": "Thu Feb 19 11:55:13 2015",
+	"timestamp": "Thu Feb 19 14:08:10 2015",
 	"org_type": "school",
 	"org_name": "Arts and Technology Academy PCS",
 	"org_code": "0181",
-	"report_card": {
-		"sections": [
-			{
-				"id": "accountability",
-				"data": [{
-						"year": "2013", 
-						"score": 45.72, 
-						"classification": "Rising", 
-						"growth": 4.45, 
-						"subgroups": [
-							{
-								"subgroup": "All",
-								"read_size": 166,
-								"read_score": 42.11,
-								"math_size": 166,
-								"math_score": 42.47,
-								"comp_size": 49,
-								"comp_score": 68.98
-							},
-							{
-								"subgroup": "Male",
-								"read_size": 77,
-								"read_score": 29.35,
-								"math_size": 77,
-								"math_score": 45.58,
-								"comp_size": 21,
-								"comp_score": null
-							},
-							{
-								"subgroup": "Female",
-								"read_size": 89,
-								"read_score": 53.15,
-								"math_size": 89,
-								"math_score": 39.78,
-								"comp_size": 28,
-								"comp_score": 80.71
-							},
-							{
-								"subgroup": "African American",
-								"read_size": 165,
-								"read_score": 41.76,
-								"math_size": 165,
-								"math_score": 42.12,
-								"comp_size": 48,
-								"comp_score": 68.12
-							},
-							{
-								"subgroup": "Special Education",
-								"read_size": 40,
-								"read_score": 10,
-								"math_size": 40,
-								"math_score": 27.5,
-								"comp_size": 15,
-								"comp_score": null
-							},
-							{
-								"subgroup": "Economically Disadvantaged",
-								"read_size": 166,
-								"read_score": 42.11,
-								"math_size": 166,
-								"math_score": 42.47,
-								"comp_size": 49,
-								"comp_score": 68.98
-							}
-						]
+	 "exhibit": {
+		"id": "accountability",
+		"data": [{
+				"year": "2013", 
+				"score": 45.72, 
+				"classification": "Rising", 
+				"growth": 4.45, 
+				"subgroups": [
+					{
+						"subgroup": "All",
+						"read_size": 166,
+						"read_score": 42.11,
+						"math_size": 166,
+						"math_score": 42.47,
+						"comp_size": 49,
+						"comp_score": 68.98
+					},
+					{
+						"subgroup": "Male",
+						"read_size": 77,
+						"read_score": 29.35,
+						"math_size": 77,
+						"math_score": 45.58,
+						"comp_size": 21,
+						"comp_score": null
+					},
+					{
+						"subgroup": "Female",
+						"read_size": 89,
+						"read_score": 53.15,
+						"math_size": 89,
+						"math_score": 39.78,
+						"comp_size": 28,
+						"comp_score": 80.71
+					},
+					{
+						"subgroup": "African American",
+						"read_size": 165,
+						"read_score": 41.76,
+						"math_size": 165,
+						"math_score": 42.12,
+						"comp_size": 48,
+						"comp_score": 68.12
+					},
+					{
+						"subgroup": "Special Education",
+						"read_size": 40,
+						"read_score": 10,
+						"math_size": 40,
+						"math_score": 27.5,
+						"comp_size": 15,
+						"comp_score": null
+					},
+					{
+						"subgroup": "Economically Disadvantaged",
+						"read_size": 166,
+						"read_score": 42.11,
+						"math_size": 166,
+						"math_score": 42.47,
+						"comp_size": 49,
+						"comp_score": 68.98
 					}
 				]
 			}
 		]
-	 }
+	}
 }

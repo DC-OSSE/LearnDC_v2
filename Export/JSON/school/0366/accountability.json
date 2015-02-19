@@ -1,76 +1,72 @@
 {
-	"timestamp": "Thu Feb 19 11:55:23 2015",
+	"timestamp": "Thu Feb 19 14:08:20 2015",
 	"org_type": "school",
 	"org_name": "Friendship PCS – Woodridge Middle",
 	"org_code": "0366",
-	"report_card": {
-		"sections": [
-			{
-				"id": "accountability",
-				"data": [{
-						"year": "2013", 
-						"score": 59.06, 
-						"classification": "Rising", 
-						"growth": null, 
-						"subgroups": [
-							{
-								"subgroup": "All",
-								"read_size": 206,
-								"read_score": 53.45,
-								"math_size": 206,
-								"math_score": 66.21,
-								"comp_size": 76,
-								"comp_score": 54.87
-							},
-							{
-								"subgroup": "Male",
-								"read_size": 112,
-								"read_score": 44.38,
-								"math_size": 112,
-								"math_score": 59.38,
-								"comp_size": 41,
-								"comp_score": 40.24
-							},
-							{
-								"subgroup": "Female",
-								"read_size": 94,
-								"read_score": 64.26,
-								"math_size": 94,
-								"math_score": 74.36,
-								"comp_size": 35,
-								"comp_score": 72
-							},
-							{
-								"subgroup": "African American",
-								"read_size": 202,
-								"read_score": 53.02,
-								"math_size": 202,
-								"math_score": 65.94,
-								"comp_size": 76,
-								"comp_score": 54.87
-							},
-							{
-								"subgroup": "Special Education",
-								"read_size": 53,
-								"read_score": 21.51,
-								"math_size": 53,
-								"math_score": 30.75,
-								"comp_size": 20,
-								"comp_score": null
-							},
-							{
-								"subgroup": "Economically Disadvantaged",
-								"read_size": 206,
-								"read_score": 53.45,
-								"math_size": 206,
-								"math_score": 66.21,
-								"comp_size": 76,
-								"comp_score": 54.87
-							}
-						]
+	 "exhibit": {
+		"id": "accountability",
+		"data": [{
+				"year": "2013", 
+				"score": 59.06, 
+				"classification": "Rising", 
+				"growth": null, 
+				"subgroups": [
+					{
+						"subgroup": "All",
+						"read_size": 206,
+						"read_score": 53.45,
+						"math_size": 206,
+						"math_score": 66.21,
+						"comp_size": 76,
+						"comp_score": 54.87
+					},
+					{
+						"subgroup": "Male",
+						"read_size": 112,
+						"read_score": 44.38,
+						"math_size": 112,
+						"math_score": 59.38,
+						"comp_size": 41,
+						"comp_score": 40.24
+					},
+					{
+						"subgroup": "Female",
+						"read_size": 94,
+						"read_score": 64.26,
+						"math_size": 94,
+						"math_score": 74.36,
+						"comp_size": 35,
+						"comp_score": 72
+					},
+					{
+						"subgroup": "African American",
+						"read_size": 202,
+						"read_score": 53.02,
+						"math_size": 202,
+						"math_score": 65.94,
+						"comp_size": 76,
+						"comp_score": 54.87
+					},
+					{
+						"subgroup": "Special Education",
+						"read_size": 53,
+						"read_score": 21.51,
+						"math_size": 53,
+						"math_score": 30.75,
+						"comp_size": 20,
+						"comp_score": null
+					},
+					{
+						"subgroup": "Economically Disadvantaged",
+						"read_size": 206,
+						"read_score": 53.45,
+						"math_size": 206,
+						"math_score": 66.21,
+						"comp_size": 76,
+						"comp_score": 54.87
 					}
 				]
 			}
 		]
-	 }
+	}
 }

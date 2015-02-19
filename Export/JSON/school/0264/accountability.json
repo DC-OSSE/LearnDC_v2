@@ -1,94 +1,90 @@
 {
-	"timestamp": "Thu Feb 19 11:55:18 2015",
+	"timestamp": "Thu Feb 19 14:08:14 2015",
 	"org_type": "school",
 	"org_name": "LaSalle-Backus Education Campus",
 	"org_code": "0264",
-	"report_card": {
-		"sections": [
-			{
-				"id": "accountability",
-				"data": [{
-						"year": "2013", 
-						"score": 34.39, 
-						"classification": "Priority", 
-						"growth": -3.92, 
-						"subgroups": [
-							{
-								"subgroup": "All",
-								"read_size": 165,
-								"read_score": 35.82,
-								"math_size": 165,
-								"math_score": 32.55,
-								"comp_size": 57,
-								"comp_score": 35.61
-							},
-							{
-								"subgroup": "Male",
-								"read_size": 83,
-								"read_score": 35.54,
-								"math_size": 83,
-								"math_score": 35.42,
-								"comp_size": 27,
-								"comp_score": 28.15
-							},
-							{
-								"subgroup": "Female",
-								"read_size": 82,
-								"read_score": 36.1,
-								"math_size": 82,
-								"math_score": 29.63,
-								"comp_size": 30,
-								"comp_score": 42.33
-							},
-							{
-								"subgroup": "African American",
-								"read_size": 112,
-								"read_score": 36.7,
-								"math_size": 112,
-								"math_score": 34.29,
-								"comp_size": 41,
-								"comp_score": 36.83
-							},
-							{
-								"subgroup": "Hispanic",
-								"read_size": 53,
-								"read_score": 33.96,
-								"math_size": 53,
-								"math_score": 28.87,
-								"comp_size": 16,
-								"comp_score": null
-							},
-							{
-								"subgroup": "Special Education",
-								"read_size": 34,
-								"read_score": 27.06,
-								"math_size": 34,
-								"math_score": 29.12,
-								"comp_size": 15,
-								"comp_score": null
-							},
-							{
-								"subgroup": "English Learner",
-								"read_size": 44,
-								"read_score": 33.18,
-								"math_size": 44,
-								"math_score": 31.14,
-								"comp_size": 12,
-								"comp_score": null
-							},
-							{
-								"subgroup": "Economically Disadvantaged",
-								"read_size": 165,
-								"read_score": 35.82,
-								"math_size": 165,
-								"math_score": 32.55,
-								"comp_size": 57,
-								"comp_score": 35.61
-							}
-						]
+	 "exhibit": {
+		"id": "accountability",
+		"data": [{
+				"year": "2013", 
+				"score": 34.39, 
+				"classification": "Priority", 
+				"growth": -3.92, 
+				"subgroups": [
+					{
+						"subgroup": "All",
+						"read_size": 165,
+						"read_score": 35.82,
+						"math_size": 165,
+						"math_score": 32.55,
+						"comp_size": 57,
+						"comp_score": 35.61
+					},
+					{
+						"subgroup": "Male",
+						"read_size": 83,
+						"read_score": 35.54,
+						"math_size": 83,
+						"math_score": 35.42,
+						"comp_size": 27,
+						"comp_score": 28.15
+					},
+					{
+						"subgroup": "Female",
+						"read_size": 82,
+						"read_score": 36.1,
+						"math_size": 82,
+						"math_score": 29.63,
+						"comp_size": 30,
+						"comp_score": 42.33
+					},
+					{
+						"subgroup": "African American",
+						"read_size": 112,
+						"read_score": 36.7,
+						"math_size": 112,
+						"math_score": 34.29,
+						"comp_size": 41,
+						"comp_score": 36.83
+					},
+					{
+						"subgroup": "Hispanic",
+						"read_size": 53,
+						"read_score": 33.96,
+						"math_size": 53,
+						"math_score": 28.87,
+						"comp_size": 16,
+						"comp_score": null
+					},
+					{
+						"subgroup": "Special Education",
+						"read_size": 34,
+						"read_score": 27.06,
+						"math_size": 34,
+						"math_score": 29.12,
+						"comp_size": 15,
+						"comp_score": null
+					},
+					{
+						"subgroup": "English Learner",
+						"read_size": 44,
+						"read_score": 33.18,
+						"math_size": 44,
+						"math_score": 31.14,
+						"comp_size": 12,
+						"comp_score": null
+					},
+					{
+						"subgroup": "Economically Disadvantaged",
+						"read_size": 165,
+						"read_score": 35.82,
+						"math_size": 165,
+						"math_score": 32.55,
+						"comp_size": 57,
+						"comp_score": 35.61
 					}
 				]
 			}
 		]
-	 }
+	}
 }

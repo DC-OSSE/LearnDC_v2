@@ -1,94 +1,90 @@
 {
-	"timestamp": "Thu Feb 19 11:55:12 2015",
+	"timestamp": "Thu Feb 19 14:08:08 2015",
 	"org_type": "school",
 	"org_name": "E.L. Haynes PCS – Georgia Avenue",
 	"org_code": "0146",
-	"report_card": {
-		"sections": [
-			{
-				"id": "accountability",
-				"data": [{
-						"year": "2013", 
-						"score": 69.67, 
-						"classification": "Rising", 
-						"growth": 1.52, 
-						"subgroups": [
-							{
-								"subgroup": "All",
-								"read_size": 343,
-								"read_score": 61.98,
-								"math_size": 343,
-								"math_score": 72.19,
-								"comp_size": 98,
-								"comp_score": 87.76
-							},
-							{
-								"subgroup": "Male",
-								"read_size": 186,
-								"read_score": 59.03,
-								"math_size": 186,
-								"math_score": 68.6,
-								"comp_size": 52,
-								"comp_score": 77.69
-							},
-							{
-								"subgroup": "Female",
-								"read_size": 157,
-								"read_score": 65.48,
-								"math_size": 157,
-								"math_score": 76.43,
-								"comp_size": 46,
-								"comp_score": 99.13
-							},
-							{
-								"subgroup": "African American",
-								"read_size": 155,
-								"read_score": 58.77,
-								"math_size": 155,
-								"math_score": 68.45,
-								"comp_size": 47,
-								"comp_score": 87.23
-							},
-							{
-								"subgroup": "Hispanic",
-								"read_size": 144,
-								"read_score": 58.19,
-								"math_size": 144,
-								"math_score": 69.72,
-								"comp_size": 34,
-								"comp_score": 85.29
-							},
-							{
-								"subgroup": "Special Education",
-								"read_size": 75,
-								"read_score": 28.4,
-								"math_size": 75,
-								"math_score": 39.6,
-								"comp_size": 18,
-								"comp_score": null
-							},
-							{
-								"subgroup": "English Learner",
-								"read_size": 111,
-								"read_score": 44.59,
-								"math_size": 111,
-								"math_score": 60.72,
-								"comp_size": 38,
-								"comp_score": null
-							},
-							{
-								"subgroup": "Economically Disadvantaged",
-								"read_size": 253,
-								"read_score": 60.12,
-								"math_size": 253,
-								"math_score": 70.12,
-								"comp_size": 72,
-								"comp_score": 87.92
-							}
-						]
+	 "exhibit": {
+		"id": "accountability",
+		"data": [{
+				"year": "2013", 
+				"score": 69.67, 
+				"classification": "Rising", 
+				"growth": 1.52, 
+				"subgroups": [
+					{
+						"subgroup": "All",
+						"read_size": 343,
+						"read_score": 61.98,
+						"math_size": 343,
+						"math_score": 72.19,
+						"comp_size": 98,
+						"comp_score": 87.76
+					},
+					{
+						"subgroup": "Male",
+						"read_size": 186,
+						"read_score": 59.03,
+						"math_size": 186,
+						"math_score": 68.6,
+						"comp_size": 52,
+						"comp_score": 77.69
+					},
+					{
+						"subgroup": "Female",
+						"read_size": 157,
+						"read_score": 65.48,
+						"math_size": 157,
+						"math_score": 76.43,
+						"comp_size": 46,
+						"comp_score": 99.13
+					},
+					{
+						"subgroup": "African American",
+						"read_size": 155,
+						"read_score": 58.77,
+						"math_size": 155,
+						"math_score": 68.45,
+						"comp_size": 47,
+						"comp_score": 87.23
+					},
+					{
+						"subgroup": "Hispanic",
+						"read_size": 144,
+						"read_score": 58.19,
+						"math_size": 144,
+						"math_score": 69.72,
+						"comp_size": 34,
+						"comp_score": 85.29
+					},
+					{
+						"subgroup": "Special Education",
+						"read_size": 75,
+						"read_score": 28.4,
+						"math_size": 75,
+						"math_score": 39.6,
+						"comp_size": 18,
+						"comp_score": null
+					},
+					{
+						"subgroup": "English Learner",
+						"read_size": 111,
+						"read_score": 44.59,
+						"math_size": 111,
+						"math_score": 60.72,
+						"comp_size": 38,
+						"comp_score": null
+					},
+					{
+						"subgroup": "Economically Disadvantaged",
+						"read_size": 253,
+						"read_score": 60.12,
+						"math_size": 253,
+						"math_score": 70.12,
+						"comp_size": 72,
+						"comp_score": 87.92
 					}
 				]
 			}
 		]
-	 }
+	}
 }

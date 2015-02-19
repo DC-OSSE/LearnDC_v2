@@ -1,94 +1,90 @@
 {
-	"timestamp": "Thu Feb 19 11:55:25 2015",
+	"timestamp": "Thu Feb 19 14:08:22 2015",
 	"org_type": "school",
 	"org_name": "Cardozo Education Campus",
 	"org_code": "0454",
-	"report_card": {
-		"sections": [
-			{
-				"id": "accountability",
-				"data": [{
-						"year": "2013", 
-						"score": 36.6, 
-						"classification": "Priority", 
-						"growth": 6.02, 
-						"subgroups": [
-							{
-								"subgroup": "All",
-								"read_size": 257,
-								"read_score": 34.79,
-								"math_size": 254,
-								"math_score": 38.15,
-								"comp_size": 130,
-								"comp_score": 37.15
-							},
-							{
-								"subgroup": "Male",
-								"read_size": 152,
-								"read_score": 31.97,
-								"math_size": 150,
-								"math_score": 39.8,
-								"comp_size": 79,
-								"comp_score": 28.48
-							},
-							{
-								"subgroup": "Female",
-								"read_size": 105,
-								"read_score": 38.86,
-								"math_size": 104,
-								"math_score": 35.77,
-								"comp_size": 51,
-								"comp_score": 50.59
-							},
-							{
-								"subgroup": "African American",
-								"read_size": 164,
-								"read_score": 33.96,
-								"math_size": 162,
-								"math_score": 33.58,
-								"comp_size": 92,
-								"comp_score": 35.11
-							},
-							{
-								"subgroup": "Hispanic",
-								"read_size": 76,
-								"read_score": 34.21,
-								"math_size": 75,
-								"math_score": 42.13,
-								"comp_size": 33,
-								"comp_score": 38.79
-							},
-							{
-								"subgroup": "Special Education",
-								"read_size": 77,
-								"read_score": 29.61,
-								"math_size": 76,
-								"math_score": 33.29,
-								"comp_size": 40,
-								"comp_score": 7.75
-							},
-							{
-								"subgroup": "English Learner",
-								"read_size": 59,
-								"read_score": 25.76,
-								"math_size": 59,
-								"math_score": 39.32,
-								"comp_size": 17,
-								"comp_score": null
-							},
-							{
-								"subgroup": "Economically Disadvantaged",
-								"read_size": 257,
-								"read_score": 34.79,
-								"math_size": 254,
-								"math_score": 38.15,
-								"comp_size": 130,
-								"comp_score": 37.15
-							}
-						]
+	 "exhibit": {
+		"id": "accountability",
+		"data": [{
+				"year": "2013", 
+				"score": 36.6, 
+				"classification": "Priority", 
+				"growth": 6.02, 
+				"subgroups": [
+					{
+						"subgroup": "All",
+						"read_size": 257,
+						"read_score": 34.79,
+						"math_size": 254,
+						"math_score": 38.15,
+						"comp_size": 130,
+						"comp_score": 37.15
+					},
+					{
+						"subgroup": "Male",
+						"read_size": 152,
+						"read_score": 31.97,
+						"math_size": 150,
+						"math_score": 39.8,
+						"comp_size": 79,
+						"comp_score": 28.48
+					},
+					{
+						"subgroup": "Female",
+						"read_size": 105,
+						"read_score": 38.86,
+						"math_size": 104,
+						"math_score": 35.77,
+						"comp_size": 51,
+						"comp_score": 50.59
+					},
+					{
+						"subgroup": "African American",
+						"read_size": 164,
+						"read_score": 33.96,
+						"math_size": 162,
+						"math_score": 33.58,
+						"comp_size": 92,
+						"comp_score": 35.11
+					},
+					{
+						"subgroup": "Hispanic",
+						"read_size": 76,
+						"read_score": 34.21,
+						"math_size": 75,
+						"math_score": 42.13,
+						"comp_size": 33,
+						"comp_score": 38.79
+					},
+					{
+						"subgroup": "Special Education",
+						"read_size": 77,
+						"read_score": 29.61,
+						"math_size": 76,
+						"math_score": 33.29,
+						"comp_size": 40,
+						"comp_score": 7.75
+					},
+					{
+						"subgroup": "English Learner",
+						"read_size": 59,
+						"read_score": 25.76,
+						"math_size": 59,
+						"math_score": 39.32,
+						"comp_size": 17,
+						"comp_score": null
+					},
+					{
+						"subgroup": "Economically Disadvantaged",
+						"read_size": 257,
+						"read_score": 34.79,
+						"math_size": 254,
+						"math_score": 38.15,
+						"comp_size": 130,
+						"comp_score": 37.15
 					}
 				]
 			}
 		]
-	 }
+	}
 }

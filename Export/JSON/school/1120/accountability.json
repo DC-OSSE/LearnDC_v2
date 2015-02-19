@@ -1,67 +1,63 @@
 {
-	"timestamp": "Thu Feb 19 11:55:28 2015",
+	"timestamp": "Thu Feb 19 14:08:25 2015",
 	"org_type": "school",
 	"org_name": "National Collegiate Preparatory Public Charter High School",
 	"org_code": "1120",
-	"report_card": {
-		"sections": [
-			{
-				"id": "accountability",
-				"data": [{
-						"year": "2013", 
-						"score": 37.39, 
-						"classification": "Focus", 
-						"growth": 3.6, 
-						"subgroups": [
-							{
-								"subgroup": "All",
-								"read_size": 69,
-								"read_score": 38.41,
-								"math_size": 69,
-								"math_score": 31.45,
-								"comp_size": 69,
-								"comp_score": 42.32
-							},
-							{
-								"subgroup": "Male",
-								"read_size": 29,
-								"read_score": 28.97,
-								"math_size": 29,
-								"math_score": 32.41,
-								"comp_size": 29,
-								"comp_score": 27.93
-							},
-							{
-								"subgroup": "Female",
-								"read_size": 40,
-								"read_score": 45.25,
-								"math_size": 40,
-								"math_score": 30.75,
-								"comp_size": 40,
-								"comp_score": 52.75
-							},
-							{
-								"subgroup": "African American",
-								"read_size": 69,
-								"read_score": 38.41,
-								"math_size": 69,
-								"math_score": 31.45,
-								"comp_size": 69,
-								"comp_score": 42.32
-							},
-							{
-								"subgroup": "Economically Disadvantaged",
-								"read_size": 69,
-								"read_score": 38.41,
-								"math_size": 69,
-								"math_score": 31.45,
-								"comp_size": 69,
-								"comp_score": 42.32
-							}
-						]
+	 "exhibit": {
+		"id": "accountability",
+		"data": [{
+				"year": "2013", 
+				"score": 37.39, 
+				"classification": "Focus", 
+				"growth": 3.6, 
+				"subgroups": [
+					{
+						"subgroup": "All",
+						"read_size": 69,
+						"read_score": 38.41,
+						"math_size": 69,
+						"math_score": 31.45,
+						"comp_size": 69,
+						"comp_score": 42.32
+					},
+					{
+						"subgroup": "Male",
+						"read_size": 29,
+						"read_score": 28.97,
+						"math_size": 29,
+						"math_score": 32.41,
+						"comp_size": 29,
+						"comp_score": 27.93
+					},
+					{
+						"subgroup": "Female",
+						"read_size": 40,
+						"read_score": 45.25,
+						"math_size": 40,
+						"math_score": 30.75,
+						"comp_size": 40,
+						"comp_score": 52.75
+					},
+					{
+						"subgroup": "African American",
+						"read_size": 69,
+						"read_score": 38.41,
+						"math_size": 69,
+						"math_score": 31.45,
+						"comp_size": 69,
+						"comp_score": 42.32
+					},
+					{
+						"subgroup": "Economically Disadvantaged",
+						"read_size": 69,
+						"read_score": 38.41,
+						"math_size": 69,
+						"math_score": 31.45,
+						"comp_size": 69,
+						"comp_score": 42.32
 					}
 				]
 			}
 		]
-	 }
+	}
 }

@@ -1,85 +1,81 @@
 {
-	"timestamp": "Thu Feb 19 11:55:17 2015",
+	"timestamp": "Thu Feb 19 14:08:14 2015",
 	"org_type": "school",
 	"org_name": "Janney Elementary School",
 	"org_code": "0254",
-	"report_card": {
-		"sections": [
-			{
-				"id": "accountability",
-				"data": [{
-						"year": "2013", 
-						"score": 94.55, 
-						"classification": "Reward", 
-						"growth": -2.81, 
-						"subgroups": [
-							{
-								"subgroup": "All",
-								"read_size": 249,
-								"read_score": 94.82,
-								"math_size": 249,
-								"math_score": 94.7,
-								"comp_size": 82,
-								"comp_score": 93.29
-							},
-							{
-								"subgroup": "Male",
-								"read_size": 124,
-								"read_score": 94.52,
-								"math_size": 124,
-								"math_score": 96.77,
-								"comp_size": 34,
-								"comp_score": 88.82
-							},
-							{
-								"subgroup": "Female",
-								"read_size": 125,
-								"read_score": 95.12,
-								"math_size": 125,
-								"math_score": 92.64,
-								"comp_size": 48,
-								"comp_score": 96.46
-							},
-							{
-								"subgroup": "African American",
-								"read_size": 32,
-								"read_score": 79.69,
-								"math_size": 32,
-								"math_score": 67.81,
-								"comp_size": 8,
-								"comp_score": null
-							},
-							{
-								"subgroup": "Hispanic",
-								"read_size": 27,
-								"read_score": 87.41,
-								"math_size": 27,
-								"math_score": 92.96,
-								"comp_size": 6,
-								"comp_score": null
-							},
-							{
-								"subgroup": "White",
-								"read_size": 159,
-								"read_score": 97.86,
-								"math_size": 159,
-								"math_score": 98.62,
-								"comp_size": 55,
-								"comp_score": 93.82
-							},
-							{
-								"subgroup": "Special Education",
-								"read_size": 26,
-								"read_score": null,
-								"math_size": 26,
-								"math_score": null,
-								"comp_size": 8,
-								"comp_score": null
-							}
-						]
+	 "exhibit": {
+		"id": "accountability",
+		"data": [{
+				"year": "2013", 
+				"score": 94.55, 
+				"classification": "Reward", 
+				"growth": -2.81, 
+				"subgroups": [
+					{
+						"subgroup": "All",
+						"read_size": 249,
+						"read_score": 94.82,
+						"math_size": 249,
+						"math_score": 94.7,
+						"comp_size": 82,
+						"comp_score": 93.29
+					},
+					{
+						"subgroup": "Male",
+						"read_size": 124,
+						"read_score": 94.52,
+						"math_size": 124,
+						"math_score": 96.77,
+						"comp_size": 34,
+						"comp_score": 88.82
+					},
+					{
+						"subgroup": "Female",
+						"read_size": 125,
+						"read_score": 95.12,
+						"math_size": 125,
+						"math_score": 92.64,
+						"comp_size": 48,
+						"comp_score": 96.46
+					},
+					{
+						"subgroup": "African American",
+						"read_size": 32,
+						"read_score": 79.69,
+						"math_size": 32,
+						"math_score": 67.81,
+						"comp_size": 8,
+						"comp_score": null
+					},
+					{
+						"subgroup": "Hispanic",
+						"read_size": 27,
+						"read_score": 87.41,
+						"math_size": 27,
+						"math_score": 92.96,
+						"comp_size": 6,
+						"comp_score": null
+					},
+					{
+						"subgroup": "White",
+						"read_size": 159,
+						"read_score": 97.86,
+						"math_size": 159,
+						"math_score": 98.62,
+						"comp_size": 55,
+						"comp_score": 93.82
+					},
+					{
+						"subgroup": "Special Education",
+						"read_size": 26,
+						"read_score": null,
+						"math_size": 26,
+						"math_score": null,
+						"comp_size": 8,
+						"comp_score": null
 					}
 				]
 			}
 		]
-	 }
+	}
 }

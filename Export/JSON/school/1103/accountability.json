@@ -1,85 +1,81 @@
 {
-	"timestamp": "Thu Feb 19 11:55:27 2015",
+	"timestamp": "Thu Feb 19 14:08:23 2015",
 	"org_type": "school",
 	"org_name": "Center City PCS – Brightwood",
 	"org_code": "1103",
-	"report_card": {
-		"sections": [
-			{
-				"id": "accountability",
-				"data": [{
-						"year": "2013", 
-						"score": 67.24, 
-						"classification": "Rising", 
-						"growth": 0.49, 
-						"subgroups": [
-							{
-								"subgroup": "All",
-								"read_size": 139,
-								"read_score": 66.33,
-								"math_size": 139,
-								"math_score": 70.29,
-								"comp_size": 48,
-								"comp_score": 61.04
-							},
-							{
-								"subgroup": "Male",
-								"read_size": 64,
-								"read_score": 55,
-								"math_size": 64,
-								"math_score": 59.22,
-								"comp_size": 22,
-								"comp_score": null
-							},
-							{
-								"subgroup": "Female",
-								"read_size": 75,
-								"read_score": 76,
-								"math_size": 75,
-								"math_score": 79.73,
-								"comp_size": 26,
-								"comp_score": 75.38
-							},
-							{
-								"subgroup": "African American",
-								"read_size": 56,
-								"read_score": 80.18,
-								"math_size": 56,
-								"math_score": 77.68,
-								"comp_size": 24,
-								"comp_score": null
-							},
-							{
-								"subgroup": "Hispanic",
-								"read_size": 81,
-								"read_score": 55.68,
-								"math_size": 81,
-								"math_score": 64.2,
-								"comp_size": 24,
-								"comp_score": null
-							},
-							{
-								"subgroup": "English Learner",
-								"read_size": 65,
-								"read_score": 43.23,
-								"math_size": 65,
-								"math_score": 49.85,
-								"comp_size": 18,
-								"comp_score": null
-							},
-							{
-								"subgroup": "Economically Disadvantaged",
-								"read_size": 139,
-								"read_score": 66.33,
-								"math_size": 139,
-								"math_score": 70.29,
-								"comp_size": 48,
-								"comp_score": 61.04
-							}
-						]
+	 "exhibit": {
+		"id": "accountability",
+		"data": [{
+				"year": "2013", 
+				"score": 67.24, 
+				"classification": "Rising", 
+				"growth": 0.49, 
+				"subgroups": [
+					{
+						"subgroup": "All",
+						"read_size": 139,
+						"read_score": 66.33,
+						"math_size": 139,
+						"math_score": 70.29,
+						"comp_size": 48,
+						"comp_score": 61.04
+					},
+					{
+						"subgroup": "Male",
+						"read_size": 64,
+						"read_score": 55,
+						"math_size": 64,
+						"math_score": 59.22,
+						"comp_size": 22,
+						"comp_score": null
+					},
+					{
+						"subgroup": "Female",
+						"read_size": 75,
+						"read_score": 76,
+						"math_size": 75,
+						"math_score": 79.73,
+						"comp_size": 26,
+						"comp_score": 75.38
+					},
+					{
+						"subgroup": "African American",
+						"read_size": 56,
+						"read_score": 80.18,
+						"math_size": 56,
+						"math_score": 77.68,
+						"comp_size": 24,
+						"comp_score": null
+					},
+					{
+						"subgroup": "Hispanic",
+						"read_size": 81,
+						"read_score": 55.68,
+						"math_size": 81,
+						"math_score": 64.2,
+						"comp_size": 24,
+						"comp_score": null
+					},
+					{
+						"subgroup": "English Learner",
+						"read_size": 65,
+						"read_score": 43.23,
+						"math_size": 65,
+						"math_score": 49.85,
+						"comp_size": 18,
+						"comp_score": null
+					},
+					{
+						"subgroup": "Economically Disadvantaged",
+						"read_size": 139,
+						"read_score": 66.33,
+						"math_size": 139,
+						"math_score": 70.29,
+						"comp_size": 48,
+						"comp_score": 61.04
 					}
 				]
 			}
 		]
-	 }
+	}
 }

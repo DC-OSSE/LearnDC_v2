@@ -1,67 +1,63 @@
 {
-	"timestamp": "Thu Feb 19 11:55:13 2015",
+	"timestamp": "Thu Feb 19 14:08:10 2015",
 	"org_type": "school",
 	"org_name": "Washington Mathematics Science Technology PCHS",
 	"org_code": "0178",
-	"report_card": {
-		"sections": [
-			{
-				"id": "accountability",
-				"data": [{
-						"year": "2013", 
-						"score": 56.84, 
-						"classification": "Rising", 
-						"growth": 0.94, 
-						"subgroups": [
-							{
-								"subgroup": "All",
-								"read_size": 75,
-								"read_score": 54.53,
-								"math_size": 75,
-								"math_score": 44.93,
-								"comp_size": 75,
-								"comp_score": 71.07
-							},
-							{
-								"subgroup": "Male",
-								"read_size": 39,
-								"read_score": 50.77,
-								"math_size": 39,
-								"math_score": 38.72,
-								"comp_size": 39,
-								"comp_score": 60
-							},
-							{
-								"subgroup": "Female",
-								"read_size": 36,
-								"read_score": 58.61,
-								"math_size": 36,
-								"math_score": 51.67,
-								"comp_size": 36,
-								"comp_score": 83.06
-							},
-							{
-								"subgroup": "African American",
-								"read_size": 74,
-								"read_score": 53.78,
-								"math_size": 74,
-								"math_score": 44.19,
-								"comp_size": 74,
-								"comp_score": 70.54
-							},
-							{
-								"subgroup": "Economically Disadvantaged",
-								"read_size": 75,
-								"read_score": 54.53,
-								"math_size": 75,
-								"math_score": 44.93,
-								"comp_size": 75,
-								"comp_score": 71.07
-							}
-						]
+	 "exhibit": {
+		"id": "accountability",
+		"data": [{
+				"year": "2013", 
+				"score": 56.84, 
+				"classification": "Rising", 
+				"growth": 0.94, 
+				"subgroups": [
+					{
+						"subgroup": "All",
+						"read_size": 75,
+						"read_score": 54.53,
+						"math_size": 75,
+						"math_score": 44.93,
+						"comp_size": 75,
+						"comp_score": 71.07
+					},
+					{
+						"subgroup": "Male",
+						"read_size": 39,
+						"read_score": 50.77,
+						"math_size": 39,
+						"math_score": 38.72,
+						"comp_size": 39,
+						"comp_score": 60
+					},
+					{
+						"subgroup": "Female",
+						"read_size": 36,
+						"read_score": 58.61,
+						"math_size": 36,
+						"math_score": 51.67,
+						"comp_size": 36,
+						"comp_score": 83.06
+					},
+					{
+						"subgroup": "African American",
+						"read_size": 74,
+						"read_score": 53.78,
+						"math_size": 74,
+						"math_score": 44.19,
+						"comp_size": 74,
+						"comp_score": 70.54
+					},
+					{
+						"subgroup": "Economically Disadvantaged",
+						"read_size": 75,
+						"read_score": 54.53,
+						"math_size": 75,
+						"math_score": 44.93,
+						"comp_size": 75,
+						"comp_score": 71.07
 					}
 				]
 			}
 		]
-	 }
+	}
 }

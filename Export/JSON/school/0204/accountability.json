@@ -1,85 +1,81 @@
 {
-	"timestamp": "Thu Feb 19 11:55:15 2015",
+	"timestamp": "Thu Feb 19 14:08:11 2015",
 	"org_type": "school",
 	"org_name": "Bancroft Elementary School",
 	"org_code": "0204",
-	"report_card": {
-		"sections": [
-			{
-				"id": "accountability",
-				"data": [{
-						"year": "2013", 
-						"score": 45.06, 
-						"classification": "Focus", 
-						"growth": -7.24, 
-						"subgroups": [
-							{
-								"subgroup": "All",
-								"read_size": 163,
-								"read_score": 33.99,
-								"math_size": 163,
-								"math_score": 59.51,
-								"comp_size": 67,
-								"comp_score": 36.87
-							},
-							{
-								"subgroup": "Male",
-								"read_size": 85,
-								"read_score": 23.76,
-								"math_size": 85,
-								"math_score": 54.82,
-								"comp_size": 35,
-								"comp_score": 42.57
-							},
-							{
-								"subgroup": "Female",
-								"read_size": 78,
-								"read_score": 45.13,
-								"math_size": 78,
-								"math_score": 64.62,
-								"comp_size": 32,
-								"comp_score": 30.62
-							},
-							{
-								"subgroup": "Hispanic",
-								"read_size": 133,
-								"read_score": 28.65,
-								"math_size": 133,
-								"math_score": 57.97,
-								"comp_size": 59,
-								"comp_score": 34.07
-							},
-							{
-								"subgroup": "Special Education",
-								"read_size": 28,
-								"read_score": 8.57,
-								"math_size": 28,
-								"math_score": 27.5,
-								"comp_size": 15,
-								"comp_score": null
-							},
-							{
-								"subgroup": "English Learner",
-								"read_size": 125,
-								"read_score": 23.92,
-								"math_size": 125,
-								"math_score": 54.48,
-								"comp_size": 57,
-								"comp_score": 28.42
-							},
-							{
-								"subgroup": "Economically Disadvantaged",
-								"read_size": 140,
-								"read_score": 29.36,
-								"math_size": 140,
-								"math_score": 60,
-								"comp_size": 61,
-								"comp_score": 35.25
-							}
-						]
+	 "exhibit": {
+		"id": "accountability",
+		"data": [{
+				"year": "2013", 
+				"score": 45.06, 
+				"classification": "Focus", 
+				"growth": -7.24, 
+				"subgroups": [
+					{
+						"subgroup": "All",
+						"read_size": 163,
+						"read_score": 33.99,
+						"math_size": 163,
+						"math_score": 59.51,
+						"comp_size": 67,
+						"comp_score": 36.87
+					},
+					{
+						"subgroup": "Male",
+						"read_size": 85,
+						"read_score": 23.76,
+						"math_size": 85,
+						"math_score": 54.82,
+						"comp_size": 35,
+						"comp_score": 42.57
+					},
+					{
+						"subgroup": "Female",
+						"read_size": 78,
+						"read_score": 45.13,
+						"math_size": 78,
+						"math_score": 64.62,
+						"comp_size": 32,
+						"comp_score": 30.62
+					},
+					{
+						"subgroup": "Hispanic",
+						"read_size": 133,
+						"read_score": 28.65,
+						"math_size": 133,
+						"math_score": 57.97,
+						"comp_size": 59,
+						"comp_score": 34.07
+					},
+					{
+						"subgroup": "Special Education",
+						"read_size": 28,
+						"read_score": 8.57,
+						"math_size": 28,
+						"math_score": 27.5,
+						"comp_size": 15,
+						"comp_score": null
+					},
+					{
+						"subgroup": "English Learner",
+						"read_size": 125,
+						"read_score": 23.92,
+						"math_size": 125,
+						"math_score": 54.48,
+						"comp_size": 57,
+						"comp_score": 28.42
+					},
+					{
+						"subgroup": "Economically Disadvantaged",
+						"read_size": 140,
+						"read_score": 29.36,
+						"math_size": 140,
+						"math_score": 60,
+						"comp_size": 61,
+						"comp_score": 35.25
 					}
 				]
 			}
 		]
-	 }
+	}
 }

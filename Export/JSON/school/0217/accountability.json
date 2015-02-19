@@ -1,58 +1,54 @@
 {
-	"timestamp": "Thu Feb 19 11:55:16 2015",
+	"timestamp": "Thu Feb 19 14:08:12 2015",
 	"org_type": "school",
 	"org_name": "Achievement Preparatory Academy PCS – Elementary",
 	"org_code": "0217",
-	"report_card": {
-		"sections": [
-			{
-				"id": "accountability",
-				"data": [{
-						"year": "2013", 
-						"score": 30.31, 
-						"classification": "Focus", 
-						"growth": null, 
-						"subgroups": [
-							{
-								"subgroup": "All",
-								"read_size": 49,
-								"read_score": 37.35,
-								"math_size": 49,
-								"math_score": 23.27,
-								"comp_size": 0,
-								"comp_score": null
-							},
-							{
-								"subgroup": "Male",
-								"read_size": 25,
-								"read_score": 20.8,
-								"math_size": 25,
-								"math_score": 21.6,
-								"comp_size": 0,
-								"comp_score": null
-							},
-							{
-								"subgroup": "African American",
-								"read_size": 49,
-								"read_score": 37.35,
-								"math_size": 49,
-								"math_score": 23.27,
-								"comp_size": 0,
-								"comp_score": null
-							},
-							{
-								"subgroup": "Economically Disadvantaged",
-								"read_size": 41,
-								"read_score": 39.76,
-								"math_size": 41,
-								"math_score": 25.37,
-								"comp_size": 0,
-								"comp_score": null
-							}
-						]
+	 "exhibit": {
+		"id": "accountability",
+		"data": [{
+				"year": "2013", 
+				"score": 30.31, 
+				"classification": "Focus", 
+				"growth": null, 
+				"subgroups": [
+					{
+						"subgroup": "All",
+						"read_size": 49,
+						"read_score": 37.35,
+						"math_size": 49,
+						"math_score": 23.27,
+						"comp_size": 0,
+						"comp_score": null
+					},
+					{
+						"subgroup": "Male",
+						"read_size": 25,
+						"read_score": 20.8,
+						"math_size": 25,
+						"math_score": 21.6,
+						"comp_size": 0,
+						"comp_score": null
+					},
+					{
+						"subgroup": "African American",
+						"read_size": 49,
+						"read_score": 37.35,
+						"math_size": 49,
+						"math_score": 23.27,
+						"comp_size": 0,
+						"comp_score": null
+					},
+					{
+						"subgroup": "Economically Disadvantaged",
+						"read_size": 41,
+						"read_score": 39.76,
+						"math_size": 41,
+						"math_score": 25.37,
+						"comp_size": 0,
+						"comp_score": null
 					}
 				]
 			}
 		]
-	 }
+	}
 }

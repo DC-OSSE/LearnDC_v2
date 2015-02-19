@@ -1,67 +1,63 @@
 {
-	"timestamp": "Thu Feb 19 11:55:19 2015",
+	"timestamp": "Thu Feb 19 14:08:15 2015",
 	"org_type": "school",
 	"org_name": "Miner Elementary School",
 	"org_code": "0280",
-	"report_card": {
-		"sections": [
-			{
-				"id": "accountability",
-				"data": [{
-						"year": "2013", 
-						"score": 32.92, 
-						"classification": "Focus", 
-						"growth": 5.3, 
-						"subgroups": [
-							{
-								"subgroup": "All",
-								"read_size": 129,
-								"read_score": 32.48,
-								"math_size": 129,
-								"math_score": 35.97,
-								"comp_size": 43,
-								"comp_score": 25.12
-							},
-							{
-								"subgroup": "Male",
-								"read_size": 55,
-								"read_score": 21.82,
-								"math_size": 55,
-								"math_score": 33.82,
-								"comp_size": 20,
-								"comp_score": null
-							},
-							{
-								"subgroup": "Female",
-								"read_size": 74,
-								"read_score": 40.41,
-								"math_size": 74,
-								"math_score": 37.57,
-								"comp_size": 23,
-								"comp_score": null
-							},
-							{
-								"subgroup": "African American",
-								"read_size": 126,
-								"read_score": 32.46,
-								"math_size": 126,
-								"math_score": 34.92,
-								"comp_size": 41,
-								"comp_score": 21.46
-							},
-							{
-								"subgroup": "Economically Disadvantaged",
-								"read_size": 129,
-								"read_score": 32.48,
-								"math_size": 129,
-								"math_score": 35.97,
-								"comp_size": 43,
-								"comp_score": 25.12
-							}
-						]
+	 "exhibit": {
+		"id": "accountability",
+		"data": [{
+				"year": "2013", 
+				"score": 32.92, 
+				"classification": "Focus", 
+				"growth": 5.3, 
+				"subgroups": [
+					{
+						"subgroup": "All",
+						"read_size": 129,
+						"read_score": 32.48,
+						"math_size": 129,
+						"math_score": 35.97,
+						"comp_size": 43,
+						"comp_score": 25.12
+					},
+					{
+						"subgroup": "Male",
+						"read_size": 55,
+						"read_score": 21.82,
+						"math_size": 55,
+						"math_score": 33.82,
+						"comp_size": 20,
+						"comp_score": null
+					},
+					{
+						"subgroup": "Female",
+						"read_size": 74,
+						"read_score": 40.41,
+						"math_size": 74,
+						"math_score": 37.57,
+						"comp_size": 23,
+						"comp_score": null
+					},
+					{
+						"subgroup": "African American",
+						"read_size": 126,
+						"read_score": 32.46,
+						"math_size": 126,
+						"math_score": 34.92,
+						"comp_size": 41,
+						"comp_score": 21.46
+					},
+					{
+						"subgroup": "Economically Disadvantaged",
+						"read_size": 129,
+						"read_score": 32.48,
+						"math_size": 129,
+						"math_score": 35.97,
+						"comp_size": 43,
+						"comp_score": 25.12
 					}
 				]
 			}
 		]
-	 }
+	}
 }

@@ -1,94 +1,90 @@
 {
-	"timestamp": "Thu Feb 19 11:55:21 2015",
+	"timestamp": "Thu Feb 19 14:08:18 2015",
 	"org_type": "school",
 	"org_name": "Takoma Education Campus",
 	"org_code": "0324",
-	"report_card": {
-		"sections": [
-			{
-				"id": "accountability",
-				"data": [{
-						"year": "2013", 
-						"score": 47.11, 
-						"classification": "Focus", 
-						"growth": -2.94, 
-						"subgroups": [
-							{
-								"subgroup": "All",
-								"read_size": 205,
-								"read_score": 42.88,
-								"math_size": 204,
-								"math_score": 48.14,
-								"comp_size": 58,
-								"comp_score": 58.45
-							},
-							{
-								"subgroup": "Male",
-								"read_size": 110,
-								"read_score": 41.91,
-								"math_size": 109,
-								"math_score": 42.84,
-								"comp_size": 34,
-								"comp_score": 40.88
-							},
-							{
-								"subgroup": "Female",
-								"read_size": 95,
-								"read_score": 44,
-								"math_size": 95,
-								"math_score": 54.21,
-								"comp_size": 24,
-								"comp_score": null
-							},
-							{
-								"subgroup": "African American",
-								"read_size": 140,
-								"read_score": 43.21,
-								"math_size": 140,
-								"math_score": 46.21,
-								"comp_size": 44,
-								"comp_score": 58.64
-							},
-							{
-								"subgroup": "Hispanic",
-								"read_size": 56,
-								"read_score": 36.07,
-								"math_size": 55,
-								"math_score": 48.73,
-								"comp_size": 12,
-								"comp_score": null
-							},
-							{
-								"subgroup": "Special Education",
-								"read_size": 35,
-								"read_score": 38.86,
-								"math_size": 35,
-								"math_score": 34,
-								"comp_size": 9,
-								"comp_score": null
-							},
-							{
-								"subgroup": "English Learner",
-								"read_size": 48,
-								"read_score": 33.54,
-								"math_size": 47,
-								"math_score": 42.34,
-								"comp_size": 12,
-								"comp_score": null
-							},
-							{
-								"subgroup": "Economically Disadvantaged",
-								"read_size": 205,
-								"read_score": 42.88,
-								"math_size": 204,
-								"math_score": 48.14,
-								"comp_size": 58,
-								"comp_score": 58.45
-							}
-						]
+	 "exhibit": {
+		"id": "accountability",
+		"data": [{
+				"year": "2013", 
+				"score": 47.11, 
+				"classification": "Focus", 
+				"growth": -2.94, 
+				"subgroups": [
+					{
+						"subgroup": "All",
+						"read_size": 205,
+						"read_score": 42.88,
+						"math_size": 204,
+						"math_score": 48.14,
+						"comp_size": 58,
+						"comp_score": 58.45
+					},
+					{
+						"subgroup": "Male",
+						"read_size": 110,
+						"read_score": 41.91,
+						"math_size": 109,
+						"math_score": 42.84,
+						"comp_size": 34,
+						"comp_score": 40.88
+					},
+					{
+						"subgroup": "Female",
+						"read_size": 95,
+						"read_score": 44,
+						"math_size": 95,
+						"math_score": 54.21,
+						"comp_size": 24,
+						"comp_score": null
+					},
+					{
+						"subgroup": "African American",
+						"read_size": 140,
+						"read_score": 43.21,
+						"math_size": 140,
+						"math_score": 46.21,
+						"comp_size": 44,
+						"comp_score": 58.64
+					},
+					{
+						"subgroup": "Hispanic",
+						"read_size": 56,
+						"read_score": 36.07,
+						"math_size": 55,
+						"math_score": 48.73,
+						"comp_size": 12,
+						"comp_score": null
+					},
+					{
+						"subgroup": "Special Education",
+						"read_size": 35,
+						"read_score": 38.86,
+						"math_size": 35,
+						"math_score": 34,
+						"comp_size": 9,
+						"comp_score": null
+					},
+					{
+						"subgroup": "English Learner",
+						"read_size": 48,
+						"read_score": 33.54,
+						"math_size": 47,
+						"math_score": 42.34,
+						"comp_size": 12,
+						"comp_score": null
+					},
+					{
+						"subgroup": "Economically Disadvantaged",
+						"read_size": 205,
+						"read_score": 42.88,
+						"math_size": 204,
+						"math_score": 48.14,
+						"comp_size": 58,
+						"comp_score": 58.45
 					}
 				]
 			}
 		]
-	 }
+	}
 }

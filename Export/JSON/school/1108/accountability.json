@@ -1,67 +1,63 @@
 {
-	"timestamp": "Thu Feb 19 11:55:27 2015",
+	"timestamp": "Thu Feb 19 14:08:24 2015",
 	"org_type": "school",
 	"org_name": "Center City PCS – Trinidad",
 	"org_code": "1108",
-	"report_card": {
-		"sections": [
-			{
-				"id": "accountability",
-				"data": [{
-						"year": "2013", 
-						"score": 44.01, 
-						"classification": "Developing", 
-						"growth": -0.91, 
-						"subgroups": [
-							{
-								"subgroup": "All",
-								"read_size": 133,
-								"read_score": 43.31,
-								"math_size": 135,
-								"math_score": 42.59,
-								"comp_size": 46,
-								"comp_score": 50.22
-							},
-							{
-								"subgroup": "Male",
-								"read_size": 69,
-								"read_score": 41.74,
-								"math_size": 71,
-								"math_score": 44.08,
-								"comp_size": 24,
-								"comp_score": null
-							},
-							{
-								"subgroup": "Female",
-								"read_size": 64,
-								"read_score": 45,
-								"math_size": 64,
-								"math_score": 40.94,
-								"comp_size": 22,
-								"comp_score": null
-							},
-							{
-								"subgroup": "African American",
-								"read_size": 130,
-								"read_score": 42.69,
-								"math_size": 132,
-								"math_score": 41.21,
-								"comp_size": 45,
-								"comp_score": 49.11
-							},
-							{
-								"subgroup": "Economically Disadvantaged",
-								"read_size": 133,
-								"read_score": 43.31,
-								"math_size": 135,
-								"math_score": 42.59,
-								"comp_size": 46,
-								"comp_score": 50.22
-							}
-						]
+	 "exhibit": {
+		"id": "accountability",
+		"data": [{
+				"year": "2013", 
+				"score": 44.01, 
+				"classification": "Developing", 
+				"growth": -0.91, 
+				"subgroups": [
+					{
+						"subgroup": "All",
+						"read_size": 133,
+						"read_score": 43.31,
+						"math_size": 135,
+						"math_score": 42.59,
+						"comp_size": 46,
+						"comp_score": 50.22
+					},
+					{
+						"subgroup": "Male",
+						"read_size": 69,
+						"read_score": 41.74,
+						"math_size": 71,
+						"math_score": 44.08,
+						"comp_size": 24,
+						"comp_score": null
+					},
+					{
+						"subgroup": "Female",
+						"read_size": 64,
+						"read_score": 45,
+						"math_size": 64,
+						"math_score": 40.94,
+						"comp_size": 22,
+						"comp_score": null
+					},
+					{
+						"subgroup": "African American",
+						"read_size": 130,
+						"read_score": 42.69,
+						"math_size": 132,
+						"math_score": 41.21,
+						"comp_size": 45,
+						"comp_score": 49.11
+					},
+					{
+						"subgroup": "Economically Disadvantaged",
+						"read_size": 133,
+						"read_score": 43.31,
+						"math_size": 135,
+						"math_score": 42.59,
+						"comp_size": 46,
+						"comp_score": 50.22
 					}
 				]
 			}
 		]
-	 }
+	}
 }

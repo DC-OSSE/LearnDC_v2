@@ -1,76 +1,72 @@
 {
-	"timestamp": "Thu Feb 19 11:55:12 2015",
+	"timestamp": "Thu Feb 19 14:08:08 2015",
 	"org_type": "school",
 	"org_name": "César Chávez PCS for Public Policy – Capitol Hill",
 	"org_code": "0153",
-	"report_card": {
-		"sections": [
-			{
-				"id": "accountability",
-				"data": [{
-						"year": "2013", 
-						"score": 66.36, 
-						"classification": "Reward", 
-						"growth": 13.06, 
-						"subgroups": [
-							{
-								"subgroup": "All",
-								"read_size": 107,
-								"read_score": 58.79,
-								"math_size": 107,
-								"math_score": 72.99,
-								"comp_size": 105,
-								"comp_score": 67.33
-							},
-							{
-								"subgroup": "Male",
-								"read_size": 48,
-								"read_score": 50.21,
-								"math_size": 48,
-								"math_score": 71.88,
-								"comp_size": 47,
-								"comp_score": 63.4
-							},
-							{
-								"subgroup": "Female",
-								"read_size": 59,
-								"read_score": 65.76,
-								"math_size": 59,
-								"math_score": 73.9,
-								"comp_size": 58,
-								"comp_score": 70.52
-							},
-							{
-								"subgroup": "African American",
-								"read_size": 81,
-								"read_score": 57.9,
-								"math_size": 81,
-								"math_score": 72.59,
-								"comp_size": 79,
-								"comp_score": 68.61
-							},
-							{
-								"subgroup": "Hispanic",
-								"read_size": 25,
-								"read_score": 63.2,
-								"math_size": 25,
-								"math_score": 75.6,
-								"comp_size": 25,
-								"comp_score": 65.2
-							},
-							{
-								"subgroup": "Economically Disadvantaged",
-								"read_size": 107,
-								"read_score": 58.79,
-								"math_size": 107,
-								"math_score": 72.99,
-								"comp_size": 105,
-								"comp_score": 67.33
-							}
-						]
+	 "exhibit": {
+		"id": "accountability",
+		"data": [{
+				"year": "2013", 
+				"score": 66.36, 
+				"classification": "Reward", 
+				"growth": 13.06, 
+				"subgroups": [
+					{
+						"subgroup": "All",
+						"read_size": 107,
+						"read_score": 58.79,
+						"math_size": 107,
+						"math_score": 72.99,
+						"comp_size": 105,
+						"comp_score": 67.33
+					},
+					{
+						"subgroup": "Male",
+						"read_size": 48,
+						"read_score": 50.21,
+						"math_size": 48,
+						"math_score": 71.88,
+						"comp_size": 47,
+						"comp_score": 63.4
+					},
+					{
+						"subgroup": "Female",
+						"read_size": 59,
+						"read_score": 65.76,
+						"math_size": 59,
+						"math_score": 73.9,
+						"comp_size": 58,
+						"comp_score": 70.52
+					},
+					{
+						"subgroup": "African American",
+						"read_size": 81,
+						"read_score": 57.9,
+						"math_size": 81,
+						"math_score": 72.59,
+						"comp_size": 79,
+						"comp_score": 68.61
+					},
+					{
+						"subgroup": "Hispanic",
+						"read_size": 25,
+						"read_score": 63.2,
+						"math_size": 25,
+						"math_score": 75.6,
+						"comp_size": 25,
+						"comp_score": 65.2
+					},
+					{
+						"subgroup": "Economically Disadvantaged",
+						"read_size": 107,
+						"read_score": 58.79,
+						"math_size": 107,
+						"math_score": 72.99,
+						"comp_size": 105,
+						"comp_score": 67.33
 					}
 				]
 			}
 		]
-	 }
+	}
 }

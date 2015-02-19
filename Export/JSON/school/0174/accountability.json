@@ -1,76 +1,72 @@
 {
-	"timestamp": "Thu Feb 19 11:55:13 2015",
+	"timestamp": "Thu Feb 19 14:08:09 2015",
 	"org_type": "school",
 	"org_name": "SEED Public Charter School of Washington, DC",
 	"org_code": "0174",
-	"report_card": {
-		"sections": [
-			{
-				"id": "accountability",
-				"data": [{
-						"year": "2013", 
-						"score": 55.43, 
-						"classification": "Rising", 
-						"growth": -7.78, 
-						"subgroups": [
-							{
-								"subgroup": "All",
-								"read_size": 259,
-								"read_score": 42.36,
-								"math_size": 259,
-								"math_score": 67.03,
-								"comp_size": 112,
-								"comp_score": 58.84
-							},
-							{
-								"subgroup": "Male",
-								"read_size": 130,
-								"read_score": 32.77,
-								"math_size": 130,
-								"math_score": 60.38,
-								"comp_size": 52,
-								"comp_score": 46.54
-							},
-							{
-								"subgroup": "Female",
-								"read_size": 129,
-								"read_score": 52.02,
-								"math_size": 129,
-								"math_score": 73.72,
-								"comp_size": 60,
-								"comp_score": 69.5
-							},
-							{
-								"subgroup": "African American",
-								"read_size": 258,
-								"read_score": 42.52,
-								"math_size": 258,
-								"math_score": 66.9,
-								"comp_size": 111,
-								"comp_score": 59.19
-							},
-							{
-								"subgroup": "Special Education",
-								"read_size": 46,
-								"read_score": 21.74,
-								"math_size": 46,
-								"math_score": 33.7,
-								"comp_size": 19,
-								"comp_score": null
-							},
-							{
-								"subgroup": "Economically Disadvantaged",
-								"read_size": 217,
-								"read_score": 42.58,
-								"math_size": 217,
-								"math_score": 66.5,
-								"comp_size": 91,
-								"comp_score": 60.55
-							}
-						]
+	 "exhibit": {
+		"id": "accountability",
+		"data": [{
+				"year": "2013", 
+				"score": 55.43, 
+				"classification": "Rising", 
+				"growth": -7.78, 
+				"subgroups": [
+					{
+						"subgroup": "All",
+						"read_size": 259,
+						"read_score": 42.36,
+						"math_size": 259,
+						"math_score": 67.03,
+						"comp_size": 112,
+						"comp_score": 58.84
+					},
+					{
+						"subgroup": "Male",
+						"read_size": 130,
+						"read_score": 32.77,
+						"math_size": 130,
+						"math_score": 60.38,
+						"comp_size": 52,
+						"comp_score": 46.54
+					},
+					{
+						"subgroup": "Female",
+						"read_size": 129,
+						"read_score": 52.02,
+						"math_size": 129,
+						"math_score": 73.72,
+						"comp_size": 60,
+						"comp_score": 69.5
+					},
+					{
+						"subgroup": "African American",
+						"read_size": 258,
+						"read_score": 42.52,
+						"math_size": 258,
+						"math_score": 66.9,
+						"comp_size": 111,
+						"comp_score": 59.19
+					},
+					{
+						"subgroup": "Special Education",
+						"read_size": 46,
+						"read_score": 21.74,
+						"math_size": 46,
+						"math_score": 33.7,
+						"comp_size": 19,
+						"comp_score": null
+					},
+					{
+						"subgroup": "Economically Disadvantaged",
+						"read_size": 217,
+						"read_score": 42.58,
+						"math_size": 217,
+						"math_score": 66.5,
+						"comp_size": 91,
+						"comp_score": 60.55
 					}
 				]
 			}
 		]
-	 }
+	}
 }

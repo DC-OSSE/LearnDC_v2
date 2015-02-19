@@ -1,67 +1,63 @@
 {
-	"timestamp": "Thu Feb 19 11:55:17 2015",
+	"timestamp": "Thu Feb 19 14:08:14 2015",
 	"org_type": "school",
 	"org_name": "Hearst Elementary School",
 	"org_code": "0258",
-	"report_card": {
-		"sections": [
-			{
-				"id": "accountability",
-				"data": [{
-						"year": "2013", 
-						"score": 77.1, 
-						"classification": "Rising", 
-						"growth": 4.97, 
-						"subgroups": [
-							{
-								"subgroup": "All",
-								"read_size": 102,
-								"read_score": 70,
-								"math_size": 102,
-								"math_score": 80.2,
-								"comp_size": 37,
-								"comp_score": 88.11
-							},
-							{
-								"subgroup": "Male",
-								"read_size": 46,
-								"read_score": 63.91,
-								"math_size": 46,
-								"math_score": 81.96,
-								"comp_size": 19,
-								"comp_score": null
-							},
-							{
-								"subgroup": "Female",
-								"read_size": 56,
-								"read_score": 75,
-								"math_size": 56,
-								"math_score": 78.75,
-								"comp_size": 18,
-								"comp_score": null
-							},
-							{
-								"subgroup": "African American",
-								"read_size": 76,
-								"read_score": 62.76,
-								"math_size": 76,
-								"math_score": 74.08,
-								"comp_size": 26,
-								"comp_score": 80.77
-							},
-							{
-								"subgroup": "Economically Disadvantaged",
-								"read_size": 40,
-								"read_score": 54,
-								"math_size": 40,
-								"math_score": 57.25,
-								"comp_size": 16,
-								"comp_score": null
-							}
-						]
+	 "exhibit": {
+		"id": "accountability",
+		"data": [{
+				"year": "2013", 
+				"score": 77.1, 
+				"classification": "Rising", 
+				"growth": 4.97, 
+				"subgroups": [
+					{
+						"subgroup": "All",
+						"read_size": 102,
+						"read_score": 70,
+						"math_size": 102,
+						"math_score": 80.2,
+						"comp_size": 37,
+						"comp_score": 88.11
+					},
+					{
+						"subgroup": "Male",
+						"read_size": 46,
+						"read_score": 63.91,
+						"math_size": 46,
+						"math_score": 81.96,
+						"comp_size": 19,
+						"comp_score": null
+					},
+					{
+						"subgroup": "Female",
+						"read_size": 56,
+						"read_score": 75,
+						"math_size": 56,
+						"math_score": 78.75,
+						"comp_size": 18,
+						"comp_score": null
+					},
+					{
+						"subgroup": "African American",
+						"read_size": 76,
+						"read_score": 62.76,
+						"math_size": 76,
+						"math_score": 74.08,
+						"comp_size": 26,
+						"comp_score": 80.77
+					},
+					{
+						"subgroup": "Economically Disadvantaged",
+						"read_size": 40,
+						"read_score": 54,
+						"math_size": 40,
+						"math_score": 57.25,
+						"comp_size": 16,
+						"comp_score": null
 					}
 				]
 			}
 		]
-	 }
+	}
 }
