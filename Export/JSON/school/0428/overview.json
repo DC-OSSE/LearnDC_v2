@@ -1,40 +1,44 @@
 {
-	"timestamp": "Thu Feb 19 14:51:07 2015",
+	"timestamp": "Fri Feb 27 16:40:08 2015",
 	"org_type": "school",
-	"org_name": "Stuart-Hobson Middle School",
+	"org_name": "Stuart Hobson MS (Capitol Hill Cluster)",
 	"org_code": "0428",
-	"closed": false,
-	"charter": false,
-	"school_type": [
-		"Regular school"
-	 ],
-	"id": "overview",
-	"great_schools": {
-		"gs_url": "http://www.greatschools.org/washington-dc/washington/149-Stuart-Hobson-Middle-School"
-	},
-	"ward": "6",
-	"grades_serviced": ["06","07","08"],
-	"grades_accepted": ["08","06","07"],
-	"description": "We provide a wide range of enrichment and extracurricular activities for students, including beginning and intermediate band, chorus, clubs and sports, including cross country, track and football. Included in our dedicated faculty are a number of teachers who have received or are working toward national board certification, as well as a past recipient of the DCPS Art Teacher of the Year Award. Our students consistently win high honors, including National History Day and Science Fair regional and national awards as well as Young Playwrights' Theater recognition. Our graduates go on to attend the most competitive public and private high schools in DC and, ultimately, the most prestigious colleges and universities in the nation.",
-	 "address": {
-		"line_1": "410 E St NE",
-		"line_2": null,
-		"city": "Washington",
-		"state": "DC",
-		"zip": "20002",
-		"lat": 38.8963,
-		"long": -77
-	 },
-	"transit": "92 (U Street-Garfield Line ), D6 (Sibley Hospital-Stadium-Armory Line), X2 (Benning Road-H Street Line ), X8 (Maryland Ave Line)",
-	"website": "www.dcps.dc.gov/DCPS/stuart-hobson",
-	"facebook": "http://www.facebook.com/pages/Capitol-Hill-Cluster-School/135818373121456?ref=ts",
-	"twitter": null,
-	"contact": [
-		{
-			"name": "Dawn Clemens",
-			"title": "Principal",
-			"phone": "(202) 671-6010",
-			"email": "dawn.clemens@dc.gov"
-		}
-	]
+	 "exhibit": {
+		"id": "overview",
+			"closed": false,
+			"charter": false,
+			"school_type": [
+				"Regular school"
+			 ],
+			"great_schools": {
+				"gs_url": "http://www.greatschools.org/washington-dc/washington/149-Stuart-Hobson-Middle-School"
+			},
+			"ward": "6",
+			"grades_serviced": ["06","07","08"],
+			"grades_accepted": ["08","06","07"],
+			"description": "We provide a wide range of enrichment and extracurricular activities for students, including beginning and intermediate band, chorus, clubs and sports, including cross country, track and football. Included in our dedicated faculty are a number of teachers who have received or are working toward national board certification, as well as a past recipient of the DCPS Art Teacher of the Year Award. Our students consistently win high honors, including National History Day and Science Fair regional and national awards as well as Young Playwrights' Theater recognition. Our graduates go on to attend the most competitive public and private high schools in DC and, ultimately, the most prestigious colleges and universities in the nation.",
+			 "address": {
+				"line_1": "410 E St NE",
+				"line_2": null,
+				"city": "Washington",
+				"state": "DC",
+				"zip": "20002",
+				"lat": 38.8963,
+				"long": -77
+			 },
+			"transit": "92 (U Street-Garfield Line ), D6 (Sibley Hospital-Stadium-Armory Line), X2 (Benning Road-H Street Line ), X8 (Maryland Ave Line)",
+			"website": "www.dcps.dc.gov/DCPS/stuart-hobson",
+			"facebook": "http://www.facebook.com/pages/Capitol-Hill-Cluster-School/135818373121456?ref=ts",
+			"twitter": null,
+			"external_report_card": "http://profiles.dcps.dc.gov/Stuart-Hobson+Middle+School",
+			"equity_report_url": 
+"http://osse.dc.gov/sites/default/files/dc/sites/osse/publication/attachments/2013_Equity_Report_DCPS_External_Stuart-Hobson%20Middle%20School.pdf",
+			"contact": [
+				{
+					"name": "Dawn Clemens",
+					"title": "Principal",
+					"phone": "(202) 671-6010",
+					"email": "dawn.clemens@dc.gov"
+				}
+			]
 }

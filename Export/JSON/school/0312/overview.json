@@ -1,40 +1,44 @@
 {
-	"timestamp": "Thu Feb 19 14:50:52 2015",
+	"timestamp": "Fri Feb 27 16:39:58 2015",
 	"org_type": "school",
 	"org_name": "Sharpe Health School",
 	"org_code": "0312",
-	"closed": false,
-	"charter": false,
-	"school_type": [
-		"Special Education School"
-	 ],
-	"id": "overview",
-	"great_schools": {
-		"gs_url": "http://www.greatschools.org/washington-dc/washington/68-Sharpe-Health-School"
-	},
-	"ward": "4",
-	"grades_serviced": ["02","03","04","05","06","07","09"],
-	"grades_accepted": ["02","03","04","05","06","07","09"],
-	"description": "C. Melvin Sharpe Health School serves the academic needs of students ages 5–22 with severe special educational needs and disabilities. Dedicated to the belief that all children can learn, the faculty and staff of Sharpe Health provide students with a functional academic and therapeutic setting to become productive and responsible citizens. Students enjoy unique academic opportunities such as educational field trips and volunteer reading intervention programs. Our goal is to provide experiences that will empower our students to achieve to the best of their abilities and potential.",
-	 "address": {
-		"line_1": "4300 13th St. NW",
-		"line_2": null,
-		"city": "Washington",
-		"state": "DC",
-		"zip": "20011",
-		"lat": 38.94347,
-		"long": -77.03047
-	 },
-	"transit": "53 (L'Enfant Plaza, McPherson Square)",
-	"website": "www.dcps.dc.gov/DCPS/sharpe",
-	"facebook": "http://www.facebook.com/dcpublicschools",
-	"twitter": null,
-	"contact": [
-		{
-			"name": "Savetria Francis",
-			"title": "Principal",
-			"phone": "(202) 576-6161",
-			"email": "Savetria.francis@dc.gov"
-		}
-	]
+	 "exhibit": {
+		"id": "overview",
+			"closed": false,
+			"charter": false,
+			"school_type": [
+				"Special Education School"
+			 ],
+			"great_schools": {
+				"gs_url": "http://www.greatschools.org/washington-dc/washington/68-Sharpe-Health-School"
+			},
+			"ward": "4",
+			"grades_serviced": ["02","03","04","05","06","07","09"],
+			"grades_accepted": ["02","03","04","05","06","07","09"],
+			"description": "C. Melvin Sharpe Health School serves the academic needs of students ages 5–22 with severe special educational needs and disabilities. Dedicated to the belief that all children can learn, the faculty and staff of Sharpe Health provide students with a functional academic and therapeutic setting to become productive and responsible citizens. Students enjoy unique academic opportunities such as educational field trips and volunteer reading intervention programs. Our goal is to provide experiences that will empower our students to achieve to the best of their abilities and potential.",
+			 "address": {
+				"line_1": "4300 13th St. NW",
+				"line_2": null,
+				"city": "Washington",
+				"state": "DC",
+				"zip": "20011",
+				"lat": 38.94347,
+				"long": -77.03047
+			 },
+			"transit": "53 (L'Enfant Plaza, McPherson Square)",
+			"website": "www.dcps.dc.gov/DCPS/sharpe",
+			"facebook": "http://www.facebook.com/dcpublicschools",
+			"twitter": null,
+			"external_report_card": "http://profiles.dcps.dc.gov/Sharpe+Health+School",
+			"equity_report_url": 
+"http://osse.dc.gov/sites/default/files/dc/sites/osse/publication/attachments/2013_Equity_Report_DCPS_External_Sharpe%20Health%20School.pdf",
+			"contact": [
+				{
+					"name": "Savetria Francis",
+					"title": "Principal",
+					"phone": "(202) 576-6161",
+					"email": "Savetria.francis@dc.gov"
+				}
+			]
 }

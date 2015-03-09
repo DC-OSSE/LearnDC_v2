@@ -1,0 +1,79 @@
+{
+"timestamp": "Fri Mar 06 13:46:58 2015",
+"org_type": "lea",
+"org_name": "DISTRICT OF COLUMBIA PUBLIC SCHOOLS",
+"org_code": "0001",
+"exhibit": {
+	"id": "hqt",
+	"data":  
+[
+    {
+        "key": {
+            "year": 2014,
+            "school_entity": "All"
+        },
+        "val": {
+            "num_total_classes": 4496,
+            "num_hq_classes": 3607,
+            "num_nhq_classes": 889
+        }
+    },
+    {
+        "key": {
+            "year": 2014,
+            "school_entity": "LOW"
+        },
+        "val": {
+            "num_total_classes": 1862,
+            "num_hq_classes": 1542,
+            "num_nhq_classes": 320
+        }
+    },
+    {
+        "key": {
+            "year": 2014,
+            "school_entity": "HIGH"
+        },
+        "val": {
+            "num_total_classes": 1003,
+            "num_hq_classes": 781,
+            "num_nhq_classes": 222
+        }
+    },
+    {
+        "key": {
+            "year": 2014,
+            "school_entity": "MIDDLE"
+        },
+        "val": {
+            "num_total_classes": 1631,
+            "num_hq_classes": 1284,
+            "num_nhq_classes": 347
+        }
+    },
+    {
+        "key": {
+            "year": 2014,
+            "school_entity": "ELEM"
+        },
+        "val": {
+            "num_total_classes": 628,
+            "num_hq_classes": 498,
+            "num_nhq_classes": 130
+        }
+    },
+    {
+        "key": {
+            "year": 2014,
+            "school_entity": "SEC"
+        },
+        "val": {
+            "num_total_classes": 3868,
+            "num_hq_classes": 3109,
+            "num_nhq_classes": 759
+        }
+    }
+]
+
+	}
+}

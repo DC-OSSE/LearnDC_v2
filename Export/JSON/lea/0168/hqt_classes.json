@@ -1,0 +1,46 @@
+{
+"timestamp": "Fri Mar 06 13:47:01 2015",
+"org_type": "lea",
+"org_name": "BASIS DC PCS",
+"org_code": "0168",
+"exhibit": {
+	"id": "hqt",
+	"data":  
+[
+    {
+        "key": {
+            "year": 2014,
+            "school_entity": "All"
+        },
+        "val": {
+            "num_total_classes": 173,
+            "num_hq_classes": 166,
+            "num_nhq_classes": 7
+        }
+    },
+    {
+        "key": {
+            "year": 2014,
+            "school_entity": "LOW"
+        },
+        "val": {
+            "num_total_classes": 173,
+            "num_hq_classes": 166,
+            "num_nhq_classes": 7
+        }
+    },
+    {
+        "key": {
+            "year": 2014,
+            "school_entity": "SEC"
+        },
+        "val": {
+            "num_total_classes": 173,
+            "num_hq_classes": 166,
+            "num_nhq_classes": 7
+        }
+    }
+]
+
+	}
+}

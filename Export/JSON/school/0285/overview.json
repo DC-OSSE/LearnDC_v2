@@ -1,40 +1,44 @@
 {
-	"timestamp": "Thu Feb 19 14:50:47 2015",
+	"timestamp": "Fri Feb 27 16:39:54 2015",
 	"org_type": "school",
-	"org_name": "Moten Elementary School",
+	"org_name": "Moten ES",
 	"org_code": "0285",
-	"closed": false,
-	"charter": false,
-	"school_type": [
-		"Regular school"
-	 ],
-	"id": "overview",
-	"great_schools": {
-		"gs_url": null
-	},
-	"ward": "8",
-	"grades_serviced": ["01","02","03","04","05","KG","PK3","PK4"],
-	"grades_accepted": ["04","01","03","PK4","KG","05","PK3","02"],
-	"description": "At Moten Elementary School, our mission is to meet the academic, social and individual needs of our students by actively promoting a community of learners and valuing our parents as partners. We work together to develop a caring and nurturing environment where students feel safe to explore and reach their highest potential. Our staff and intervention team work hard to provide students with the tools they need to succeed. We value parents as our partners and are committed to establishing strong parental involvement. To help achieve our goals, we engage actively in community partnerships, host sports and extracurricular activities and take advantage of the latest technology in our newly renovated school.",
-	 "address": {
-		"line_1": "1565 Morris Rd. SE",
-		"line_2": null,
-		"city": "Washington",
-		"state": "DC",
-		"zip": "20020",
-		"lat": 38.85666,
-		"long": -76.98294
-	 },
-	"transit": "93 (Ellington Bridge - Congress Heights Station), W2, W3 (Washington Overlook - United Medical Center), 94 (Anacostia Station), W6 (Anacostia Shuttle), W8 (Garfield Shuttle)",
-	"website": "www.motenes.org",
-	"facebook": "http://www.facebook.com/dcpublicschools",
-	"twitter": null,
-	"contact": [
-		{
-			"name": "Mireille Lopez-Humes",
-			"title": "Principal",
-			"phone": "(202) 698-1111",
-			"email": "mireille.lopez@dc.gov"
-		}
-	]
+	 "exhibit": {
+		"id": "overview",
+			"closed": false,
+			"charter": false,
+			"school_type": [
+				"Regular school"
+			 ],
+			"great_schools": {
+				"gs_url": null
+			},
+			"ward": "8",
+			"grades_serviced": ["01","02","03","04","05","KG","PK3","PK4"],
+			"grades_accepted": ["04","01","03","PK4","KG","05","PK3","02"],
+			"description": "At Moten Elementary School, our mission is to meet the academic, social and individual needs of our students by actively promoting a community of learners and valuing our parents as partners. We work together to develop a caring and nurturing environment where students feel safe to explore and reach their highest potential. Our staff and intervention team work hard to provide students with the tools they need to succeed. We value parents as our partners and are committed to establishing strong parental involvement. To help achieve our goals, we engage actively in community partnerships, host sports and extracurricular activities and take advantage of the latest technology in our newly renovated school.",
+			 "address": {
+				"line_1": "1565 Morris Rd. SE",
+				"line_2": null,
+				"city": "Washington",
+				"state": "DC",
+				"zip": "20020",
+				"lat": 38.85666,
+				"long": -76.98294
+			 },
+			"transit": "93 (Ellington Bridge - Congress Heights Station), W2, W3 (Washington Overlook - United Medical Center), 94 (Anacostia Station), W6 (Anacostia Shuttle), W8 (Garfield Shuttle)",
+			"website": "www.motenes.org",
+			"facebook": "http://www.facebook.com/dcpublicschools",
+			"twitter": null,
+			"external_report_card": "http://profiles.dcps.dc.gov/Moten+Elementary+School",
+			"equity_report_url": 
+"http://osse.dc.gov/sites/default/files/dc/sites/osse/publication/attachments/2013_Equity_Report_DCPS_External_Moten%20Elementary%20School.pdf",
+			"contact": [
+				{
+					"name": "Mireille Lopez-Humes",
+					"title": "Principal",
+					"phone": "(202) 698-1111",
+					"email": "mireille.lopez@dc.gov"
+				}
+			]
 }

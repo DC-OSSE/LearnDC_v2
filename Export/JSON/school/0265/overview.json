@@ -1,40 +1,44 @@
 {
-	"timestamp": "Thu Feb 19 14:50:45 2015",
+	"timestamp": "Fri Feb 27 16:39:52 2015",
 	"org_type": "school",
-	"org_name": "Mamie D. Lee School",
+	"org_name": "Mamie D Lee School",
 	"org_code": "0265",
-	"closed": false,
-	"charter": false,
-	"school_type": [
-		"Special Education school"
-	 ],
-	"id": "overview",
-	"great_schools": {
-		"gs_url": "http://www.greatschools.org/washington-dc/washington/324-Mamie-D.-Lee-School"
-	},
-	"ward": "5",
-	"grades_serviced": ["01","03","05","06","07","08","09","UN"],
-	"grades_accepted": ["01","03","05","06","07","08","09","UN"],
-	"description": "Mamie D. Lee School, a city-wide separate school program, is located on one acre of land directly behind Fort Totten Metro Station. The modern architectural design was specially conceived around the unique social, educational and physical needs of students with developmental and intellectual disabilities, ages 3 through 21. Specialized instruction is guided by goals established in each student's Individualized Education Program, while exposing students to grade-level standards and skills. Classes have a one-to-eight teacher-to-student ratio. Classroom instruction centers on the academic, communication, independent living, career awareness and post-secondary transition skills.",
-	 "address": {
-		"line_1": "100 Gallatin St. NE",
-		"line_2": null,
-		"city": "Washington",
-		"state": "DC",
-		"zip": "20011",
-		"lat": 38.95251,
-		"long": -77.00722
-	 },
-	"transit": "60 (Fort Totten-Petworth Line)",
-	"website": "www.dcps.dc.gov/DCPS/mamielee",
-	"facebook": "http://www.facebook.com/dcpublicschools",
-	"twitter": null,
-	"contact": [
-		{
-			"name": "Aimee Pressley",
-			"title": "Principal",
-			"phone": "(202) 576-6090",
-			"email": "aimee.pressley@dc.gov"
-		}
-	]
+	 "exhibit": {
+		"id": "overview",
+			"closed": false,
+			"charter": false,
+			"school_type": [
+				"Special Education school"
+			 ],
+			"great_schools": {
+				"gs_url": "http://www.greatschools.org/washington-dc/washington/324-Mamie-D.-Lee-School"
+			},
+			"ward": "5",
+			"grades_serviced": ["01","03","05","06","07","08","09"],
+			"grades_accepted": ["01","03","05","06","07","08","09"],
+			"description": "Mamie D. Lee School, a city-wide separate school program, is located on one acre of land directly behind Fort Totten Metro Station. The modern architectural design was specially conceived around the unique social, educational and physical needs of students with developmental and intellectual disabilities, ages 3 through 21. Specialized instruction is guided by goals established in each student's Individualized Education Program, while exposing students to grade-level standards and skills. Classes have a one-to-eight teacher-to-student ratio. Classroom instruction centers on the academic, communication, independent living, career awareness and post-secondary transition skills.",
+			 "address": {
+				"line_1": "100 Gallatin St. NE",
+				"line_2": null,
+				"city": "Washington",
+				"state": "DC",
+				"zip": "20011",
+				"lat": 38.95251,
+				"long": -77.00722
+			 },
+			"transit": "60 (Fort Totten-Petworth Line)",
+			"website": "www.dcps.dc.gov/DCPS/mamielee",
+			"facebook": "http://www.facebook.com/dcpublicschools",
+			"twitter": null,
+			"external_report_card": "http://profiles.dcps.dc.gov/Mamie+D.+Lee+School",
+			"equity_report_url": 
+"http://osse.dc.gov/sites/default/files/dc/sites/osse/publication/attachments/2013_Equity_Report_DCPS_External_Mamie%20D.%20Lee%20School.pdf",
+			"contact": [
+				{
+					"name": "Aimee Pressley",
+					"title": "Principal",
+					"phone": "(202) 576-6090",
+					"email": "aimee.pressley@dc.gov"
+				}
+			]
 }

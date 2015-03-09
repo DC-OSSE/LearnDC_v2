@@ -27,8 +27,14 @@ colnames(school_amo_r) <- c("year","school_code","school_name","subgroup","grade
 amo_school <- rbind(school_amo_m, school_amo_r)
 amo_school <- select(amo_school, year, school_code, school_name, subgroup, subject, grade, enrollment_status, n_test_takers, baseline, target)
 
-setwd('U:/LearnDC ETL V2/Export/CSV/school')
-write.csv(amo_school, "amo_school.csv", row.names=FALSE)
+# setwd('U:/LearnDC ETL V2/Export/CSV/school')
+# write.csv(amo_school, "amo_school.csv", row.names=FALSE)
+
+# school_mapping <- sqlQuery(dbrepcard,"select * from dbo.school_mapping_sy1314")
+# school_mapping$year <- school_mapping$ea_year + 1
+# school_mapping <- select(school_mapping,year,school_code,sy1314_school_code,sy1314_school_name)
+
+# amo_school <- merge(amo_school,school_mapping,by=c('year','school_code'),all.x=TRUE)
 
 amo_school$school_code <- sapply(amo_school$school_code, leadgr, 4)
 

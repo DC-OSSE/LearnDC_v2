@@ -1,46 +1,50 @@
 {
-	"timestamp": "Thu Feb 19 14:50:19 2015",
+	"timestamp": "Fri Feb 27 16:39:31 2015",
 	"org_type": "school",
-	"org_name": "Friendship PCS – Southeast Elementary Academy",
+	"org_name": "Friendship PCS SouthEast Academy",
 	"org_code": "0113",
-	"closed": false,
-	"charter": true,
-	"school_type": [
-		"Special Education school"
-	 ],
-	"id": "overview",
-	"great_schools": {
-		"gs_url": "http://www.greatschools.org/washington-dc/washington/270-Friendship-Southeast-Elementary-Academy-PCS"
-	},
-	"ward": "8",
-	"grades_serviced": ["01","02","03","04","05","KG","PK3","PK4"],
-	"grades_accepted": ["PK3","PK4","KG","01","02","03","04","05"],
-	"description": "The mission of Friendship Public Charter School is to provide a world-class education that motivates students to achieve high academic standards, enjoy learning and develop as ethical, literate, well-rounded and self-sufficient citizens who contribute actively to their communities.",
-	 "address": {
-		"line_1": "645 Milwaukee Place SE",
-		"line_2": null,
-		"city": "Washington",
-		"state": "DC",
-		"zip": "20032",
-		"lat": 38.84779,
-		"long": -76.99701
-	 },
-	"transit": "Congress Heights Metro Station/A2",
-	"website": "http://www.friendshipschools.org",
-	"facebook": null,
-	"twitter": null,
-	"contact": [
-		{
-			"name": "Donald L. Hense",
-			"title": "Board Chair",
-			"phone": null,
-			"email": null
-		},
-		{
-			"name": "Joseph Speight",
-			"title": "Principal",
-			"phone": null,
-			"email": null
-		}
-	]
+	 "exhibit": {
+		"id": "overview",
+			"closed": false,
+			"charter": true,
+			"school_type": [
+				"Special Education school"
+			 ],
+			"great_schools": {
+				"gs_url": "http://www.greatschools.org/washington-dc/washington/270-Friendship-Southeast-Elementary-Academy-PCS"
+			},
+			"ward": "8",
+			"grades_serviced": ["01","02","03","04","05","KG","PK3","PK4"],
+			"grades_accepted": ["PK3","PK4","KG","01","02","03","04","05"],
+			"description": "The mission of Friendship Public Charter School is to provide a world-class education that motivates students to achieve high academic standards, enjoy learning and develop as ethical, literate, well-rounded and self-sufficient citizens who contribute actively to their communities.",
+			 "address": {
+				"line_1": "645 Milwaukee Place SE",
+				"line_2": null,
+				"city": "Washington",
+				"state": "DC",
+				"zip": "20032",
+				"lat": 38.84779,
+				"long": -76.99701
+			 },
+			"transit": "Congress Heights Metro Station/A2",
+			"website": "http://www.friendshipschools.org",
+			"facebook": null,
+			"twitter": null,
+			"external_report_card": "http://issuu.com/pcsb/docs/dcpcsb_pmf_2013/159",
+			"equity_report_url": 
+"http://osse.dc.gov/sites/default/files/dc/sites/osse/publication/attachments/2013_Equity_Report_PCSB_External_Friendship%20PCS%20–%20Southeast%20Elementary%20Academy.pdf",
+			"contact": [
+				{
+					"name": "Donald L. Hense",
+					"title": "Board Chair",
+					"phone": null,
+					"email": null
+				},
+				{
+					"name": "Joseph Speight",
+					"title": "Principal",
+					"phone": null,
+					"email": null
+				}
+			]
 }

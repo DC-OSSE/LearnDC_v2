@@ -1,52 +1,56 @@
 {
-	"timestamp": "Thu Feb 19 14:51:20 2015",
+	"timestamp": "Fri Feb 27 16:40:17 2015",
 	"org_type": "school",
-	"org_name": "Washington Latin PCS – Upper School",
+	"org_name": "Washington Latin PCS - Upper School",
 	"org_code": "1118",
-	"closed": false,
-	"charter": true,
-	"school_type": [
-		"Regular school"
-	 ],
-	"id": "overview",
-	"great_schools": {
-		"gs_url": "http://www.greatschools.org/washington-dc/washington/616-Washington-Latin-PCS"
-	},
-	"ward": "4",
-	"grades_serviced": ["09","10","11","12"],
-	"grades_accepted": ["09"],
-	"description": "Washington Latin Public Charter School provides a challenging, classical education that is accessible to students throughout the District of Columbia. ",
-	 "address": {
-		"line_1": "5200 2nd St NW",
-		"line_2": null,
-		"city": "Washington",
-		"state": "DC",
-		"zip": "20011",
-		"lat": 38.95389,
-		"long": -77.01382
-	 },
-	"transit": "S1; S2,4",
-	"website": "http://www.latinpcs.org",
-	"facebook": null,
-	"twitter": null,
-	"contact": [
-		{
-			"name": "Chinesom Ejiasa",
-			"title": "Board Chair",
-			"phone": null,
-			"email": null
-		},
-		{
-			"name": "Diana Smith",
-			"title": "Principal",
-			"phone": null,
-			"email": null
-		},
-		{
-			"name": "Martha Cutts",
-			"title": "Executive Director",
-			"phone": null,
-			"email": null
-		}
-	]
+	 "exhibit": {
+		"id": "overview",
+			"closed": false,
+			"charter": true,
+			"school_type": [
+				"Regular school"
+			 ],
+			"great_schools": {
+				"gs_url": "http://www.greatschools.org/washington-dc/washington/616-Washington-Latin-PCS"
+			},
+			"ward": "4",
+			"grades_serviced": ["09","10","11","12"],
+			"grades_accepted": ["09"],
+			"description": "Washington Latin Public Charter School provides a challenging, classical education that is accessible to students throughout the District of Columbia. ",
+			 "address": {
+				"line_1": "5200 2nd St NW",
+				"line_2": null,
+				"city": "Washington",
+				"state": "DC",
+				"zip": "20011",
+				"lat": 38.95389,
+				"long": -77.01382
+			 },
+			"transit": "S1; S2,4",
+			"website": "http://www.latinpcs.org",
+			"facebook": null,
+			"twitter": null,
+			"external_report_card": "http://issuu.com/pcsb/docs/dcpcsb_pmf_2013/289",
+			"equity_report_url": 
+"http://osse.dc.gov/sites/default/files/dc/sites/osse/publication/attachments/2013_Equity_Report_PCSB_External_Washington%20Latin%20PCS%20–%20Upper%20School.pdf",
+			"contact": [
+				{
+					"name": "Chinesom Ejiasa",
+					"title": "Board Chair",
+					"phone": null,
+					"email": null
+				},
+				{
+					"name": "Diana Smith",
+					"title": "Principal",
+					"phone": null,
+					"email": null
+				},
+				{
+					"name": "Martha Cutts",
+					"title": "Executive Director",
+					"phone": null,
+					"email": null
+				}
+			]
 }

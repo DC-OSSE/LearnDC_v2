@@ -1,40 +1,44 @@
 {
-	"timestamp": "Thu Feb 19 14:50:41 2015",
+	"timestamp": "Fri Feb 27 16:39:50 2015",
 	"org_type": "school",
-	"org_name": "C.W. Harris Elementary School",
+	"org_name": "C W  Harris ES",
 	"org_code": "0247",
-	"closed": false,
-	"charter": false,
-	"school_type": [
-		"Regular school"
-	 ],
-	"id": "overview",
-	"great_schools": {
-		"gs_url": "http://www.greatschools.org/washington-dc/washington/145-C.W.-Harris-Elementary-School"
-	},
-	"ward": "7",
-	"grades_serviced": ["01","02","03","04","05","KG","PK3","PK4","UN"],
-	"grades_accepted": ["03","05","02","PK3","PK4","KG","01","04"],
-	"description": "Two great academies. One amazing school.C.W. Harris Elementary School provides students with numerous pathways towards academic and social-emotional growth. We will conduct rigorous instruction in The Shirley Chisholm Early Childhood Academy and The Dr. Carter G. Woodson Upper Elementary Academy taught by highly-qualified teachers. This academy model will allow our students to acquire the academic and social skills necessary to gain admittance into high-quality secondary schools. C.W. Harris Elementary School also provides our community with expanded special education programs, foreign language instruction and an extended learning day.",
-	 "address": {
-		"line_1": "301 53rd St. SE",
-		"line_2": null,
-		"city": "Washington",
-		"state": "DC",
-		"zip": "20019",
-		"lat": 38.8836,
-		"long": -76.92612
-	 },
-	"transit": "U5, U6 (Mayfair/Marshall Heights/Minnesota Ave), 25 (Capitol Heights Loop), 96, 97 (Capitol Heights Station - McLean Gardens/Union Station), W4 (Deanwood Metro Station - Anacostia Station)",
-	"website": "www.dcps.dc.gov/DCPS/harris",
-	"facebook": "http://www.facebook.com/dcpublicschools",
-	"twitter": null,
-	"contact": [
-		{
-			"name": "Ron Lopes (interim)",
-			"title": "Principal",
-			"phone": "(202) 645-3188",
-			"email": "ronald.lopes@dc.gov"
-		}
-	]
+	 "exhibit": {
+		"id": "overview",
+			"closed": false,
+			"charter": false,
+			"school_type": [
+				"Regular school"
+			 ],
+			"great_schools": {
+				"gs_url": "http://www.greatschools.org/washington-dc/washington/145-C.W.-Harris-Elementary-School"
+			},
+			"ward": "7",
+			"grades_serviced": ["01","02","03","04","05","KG","PK3","PK4","UN"],
+			"grades_accepted": ["03","05","02","PK3","PK4","KG","01","04"],
+			"description": "Two great academies. One amazing school.C.W. Harris Elementary School provides students with numerous pathways towards academic and social-emotional growth. We will conduct rigorous instruction in The Shirley Chisholm Early Childhood Academy and The Dr. Carter G. Woodson Upper Elementary Academy taught by highly-qualified teachers. This academy model will allow our students to acquire the academic and social skills necessary to gain admittance into high-quality secondary schools. C.W. Harris Elementary School also provides our community with expanded special education programs, foreign language instruction and an extended learning day.",
+			 "address": {
+				"line_1": "301 53rd St. SE",
+				"line_2": null,
+				"city": "Washington",
+				"state": "DC",
+				"zip": "20019",
+				"lat": 38.8836,
+				"long": -76.92612
+			 },
+			"transit": "U5, U6 (Mayfair/Marshall Heights/Minnesota Ave), 25 (Capitol Heights Loop), 96, 97 (Capitol Heights Station - McLean Gardens/Union Station), W4 (Deanwood Metro Station - Anacostia Station)",
+			"website": "www.dcps.dc.gov/DCPS/harris",
+			"facebook": "http://www.facebook.com/dcpublicschools",
+			"twitter": null,
+			"external_report_card": "http://profiles.dcps.dc.gov/C.W.+Harris+Elementary+School",
+			"equity_report_url": 
+"http://osse.dc.gov/sites/default/files/dc/sites/osse/publication/attachments/2013_Equity_Report_DCPS_External_C.W.%20Harris%20Elementary%20School.pdf",
+			"contact": [
+				{
+					"name": "Ron Lopes (interim)",
+					"title": "Principal",
+					"phone": "(202) 645-3188",
+					"email": "ronald.lopes@dc.gov"
+				}
+			]
 }

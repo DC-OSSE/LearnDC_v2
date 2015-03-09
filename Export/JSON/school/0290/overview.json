@@ -1,40 +1,44 @@
 {
-	"timestamp": "Thu Feb 19 14:50:48 2015",
+	"timestamp": "Fri Feb 27 16:39:55 2015",
 	"org_type": "school",
-	"org_name": "Noyes Education Campus",
+	"org_name": "Noyes EC",
 	"org_code": "0290",
-	"closed": false,
-	"charter": false,
-	"school_type": [
-		"Regular school"
-	 ],
-	"id": "overview",
-	"great_schools": {
-		"gs_url": "http://www.greatschools.org/washington-dc/washington/129-Noyes-Education-Campus"
-	},
-	"ward": "5",
-	"grades_serviced": ["01","02","03","04","05","06","07","08","KG","PK3","PK4"],
-	"grades_accepted": ["01","02","PK4","03","04","KG","PK3","05"],
-	"description": "At Noyes Education Campus, we believe that children who are enthusiastically nurtured in a strong academic and creative environment will become highly motivated, productive and successful citizens. We work with students, families and community partners to build excellent habits of mind and character for the promotion of 21st century skills. This year, we were awarded the Proving What's Possible (PWP) grant to offer our families a more rigorous afterschool academy that is free to all families of Noyes.",
-	 "address": {
-		"line_1": "2725 10th St. NE",
-		"line_2": null,
-		"city": "Washington",
-		"state": "DC",
-		"zip": "20018",
-		"lat": 38.92518,
-		"long": -76.99184
-	 },
-	"transit": "H8, H9 (Rhode Island Ave - Mt Pleasant/Carroll High School), 82, 83, 84, 86 (Rhode Island Ave - Mount Rainer/Cherry Hill/New Carrollton/Calverton), D8 (Union Station - Washington Hospital), T18 (New Carrollton - Rhode Island Ave), B8, B9 (Rhode Island Ave - Colmar Manor/Fort Lincoln)",
-	"website": "www.dcps.dc.gov/DCPS/noyes",
-	"facebook": "http://www.facebook.com/NoyesEC?ref=ts",
-	"twitter": null,
-	"contact": [
-		{
-			"name": "Winston Cox",
-			"title": "Principal",
-			"phone": "(202) 281-2580",
-			"email": "winston.cox@dc.gov"
-		}
-	]
+	 "exhibit": {
+		"id": "overview",
+			"closed": false,
+			"charter": false,
+			"school_type": [
+				"Regular school"
+			 ],
+			"great_schools": {
+				"gs_url": "http://www.greatschools.org/washington-dc/washington/129-Noyes-Education-Campus"
+			},
+			"ward": "5",
+			"grades_serviced": ["01","02","03","04","05","06","07","08","KG","PK3","PK4"],
+			"grades_accepted": ["01","02","PK4","03","04","KG","PK3","05"],
+			"description": "At Noyes Education Campus, we believe that children who are enthusiastically nurtured in a strong academic and creative environment will become highly motivated, productive and successful citizens. We work with students, families and community partners to build excellent habits of mind and character for the promotion of 21st century skills. This year, we were awarded the Proving What's Possible (PWP) grant to offer our families a more rigorous afterschool academy that is free to all families of Noyes.",
+			 "address": {
+				"line_1": "2725 10th St. NE",
+				"line_2": null,
+				"city": "Washington",
+				"state": "DC",
+				"zip": "20018",
+				"lat": 38.92518,
+				"long": -76.99184
+			 },
+			"transit": "H8, H9 (Rhode Island Ave - Mt Pleasant/Carroll High School), 82, 83, 84, 86 (Rhode Island Ave - Mount Rainer/Cherry Hill/New Carrollton/Calverton), D8 (Union Station - Washington Hospital), T18 (New Carrollton - Rhode Island Ave), B8, B9 (Rhode Island Ave - Colmar Manor/Fort Lincoln)",
+			"website": "www.dcps.dc.gov/DCPS/noyes",
+			"facebook": "http://www.facebook.com/NoyesEC?ref=ts",
+			"twitter": null,
+			"external_report_card": "http://profiles.dcps.dc.gov/Noyes+Education+Campus",
+			"equity_report_url": 
+"http://osse.dc.gov/sites/default/files/dc/sites/osse/publication/attachments/2013_Equity_Report_DCPS_External_Noyes%20Education%20Campus.pdf",
+			"contact": [
+				{
+					"name": "Winston Cox",
+					"title": "Principal",
+					"phone": "(202) 281-2580",
+					"email": "winston.cox@dc.gov"
+				}
+			]
 }

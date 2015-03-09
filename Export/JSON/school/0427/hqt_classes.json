@@ -1,0 +1,37 @@
+{
+"timestamp": "Fri Mar 06 13:45:28 2015",
+"org_type": "school",
+"org_name": "SOUSA MS",
+"org_code": "0427",
+"exhibit": {
+	"id": "hqt",
+	"data":  
+[
+    {
+        "key": {
+            "year": 2014,
+            "school_category": "SEC",
+            "poverty_quartile": "HIGH"
+        },
+        "val": {
+            "num_total_classes": 16,
+            "num_hq_classes": 16,
+            "num_nhq_classes": 0
+        }
+    },
+    {
+        "key": {
+            "year": 2014,
+            "school_category": "SEC",
+            "poverty_quartile": "HIGH"
+        },
+        "val": {
+            "num_total_classes": 42,
+            "num_hq_classes": 38,
+            "num_nhq_classes": 4
+        }
+    }
+]
+
+	}
+}

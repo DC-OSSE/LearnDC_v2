@@ -1,40 +1,44 @@
 {
-	"timestamp": "Thu Feb 19 14:51:06 2015",
+	"timestamp": "Fri Feb 27 16:40:08 2015",
 	"org_type": "school",
-	"org_name": "Sousa Middle School",
+	"org_name": "Sousa MS",
 	"org_code": "0427",
-	"closed": false,
-	"charter": false,
-	"school_type": [
-		"Regular school"
-	 ],
-	"id": "overview",
-	"great_schools": {
-		"gs_url": "http://www.greatschools.org/washington-dc/washington/14-Sousa-Middle-School"
-	},
-	"ward": "7",
-	"grades_serviced": ["06","07","08"],
-	"grades_accepted": ["06","08","07"],
-	"description": "John Philip Sousa Middle School is housed in a newly modernized building that highlights the school's proud history while simultaneously providing our students with a state-of-the-art facility. Our goal is to help our students become change agents in their communities and the world at large. We set extremely high expectations for our students and utilize technology to enrich our strong academic programs. We offer a variety of classes that push students to become productive citizens. Additionally, we provide resources that promote social growth and character development.",
-	 "address": {
-		"line_1": "3650 Ely Pl. SE",
-		"line_2": null,
-		"city": "Washington",
-		"state": "DC",
-		"zip": "20019",
-		"lat": 38.88389,
-		"long": -76.95316
-	 },
-	"transit": "U5, U6 (Mayfair-Marshall Heights Line), V7, V9 (Minnesota Ave-M Street Line)",
-	"website": "www.dcps.dc.gov/DCPS/sousa",
-	"facebook": "http://www.facebook.com/pages/Sousa-Middle-School/105105149536913?ref=ts",
-	"twitter": null,
-	"contact": [
-		{
-			"name": "Clarence Humes",
-			"title": "Principal",
-			"phone": "(202) 729-3260",
-			"email": "clarence.humes@dc.gov"
-		}
-	]
+	 "exhibit": {
+		"id": "overview",
+			"closed": false,
+			"charter": false,
+			"school_type": [
+				"Regular school"
+			 ],
+			"great_schools": {
+				"gs_url": "http://www.greatschools.org/washington-dc/washington/14-Sousa-Middle-School"
+			},
+			"ward": "7",
+			"grades_serviced": ["06","07","08"],
+			"grades_accepted": ["06","08","07"],
+			"description": "John Philip Sousa Middle School is housed in a newly modernized building that highlights the school's proud history while simultaneously providing our students with a state-of-the-art facility. Our goal is to help our students become change agents in their communities and the world at large. We set extremely high expectations for our students and utilize technology to enrich our strong academic programs. We offer a variety of classes that push students to become productive citizens. Additionally, we provide resources that promote social growth and character development.",
+			 "address": {
+				"line_1": "3650 Ely Pl. SE",
+				"line_2": null,
+				"city": "Washington",
+				"state": "DC",
+				"zip": "20019",
+				"lat": 38.88389,
+				"long": -76.95316
+			 },
+			"transit": "U5, U6 (Mayfair-Marshall Heights Line), V7, V9 (Minnesota Ave-M Street Line)",
+			"website": "www.dcps.dc.gov/DCPS/sousa",
+			"facebook": "http://www.facebook.com/pages/Sousa-Middle-School/105105149536913?ref=ts",
+			"twitter": null,
+			"external_report_card": "http://profiles.dcps.dc.gov/Sousa+Middle+School",
+			"equity_report_url": 
+"http://osse.dc.gov/sites/default/files/dc/sites/osse/publication/attachments/2013_Equity_Report_DCPS_External_Sousa%20Middle%20School.pdf",
+			"contact": [
+				{
+					"name": "Clarence Humes",
+					"title": "Principal",
+					"phone": "(202) 729-3260",
+					"email": "clarence.humes@dc.gov"
+				}
+			]
 }

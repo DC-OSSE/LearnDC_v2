@@ -1,46 +1,50 @@
 {
-	"timestamp": "Thu Feb 19 14:51:20 2015",
+	"timestamp": "Fri Feb 27 16:40:17 2015",
 	"org_type": "school",
 	"org_name": "Washington Yu Ying PCS",
 	"org_code": "1117",
-	"closed": false,
-	"charter": true,
-	"school_type": [
-		"Regular school"
-	 ],
-	"id": "overview",
-	"great_schools": {
-		"gs_url": "http://www.greatschools.org/washington-dc/washington/618-Washington-Yu-Ying-PCS"
-	},
-	"ward": "5",
-	"grades_serviced": ["01","02","03","04","05","KG","PK3","PK4"],
-	"grades_accepted": ["PK3","PK4","KG","01","02"],
-	"description": "Washington Yu Ying Public Charter School aims to nurture the development of a strong social conscience among tomorrow’s global leaders by fostering excellence in our students’ intellectual, moral, social, emotional and physical development in an engaging, inquiry-driven, Chinese – English dual language immersion environment.",
-	 "address": {
-		"line_1": "220 Taylor Street NE",
-		"line_2": null,
-		"city": "Washington",
-		"state": "DC",
-		"zip": "20017",
-		"lat": 38.94123,
-		"long": -77.00368
-	 },
-	"transit": "60; H8",
-	"website": "http://www.washingtonyuying.org",
-	"facebook": null,
-	"twitter": null,
-	"contact": [
-		{
-			"name": "Christina Murtaugh",
-			"title": "Board Chair",
-			"phone": null,
-			"email": null
-		},
-		{
-			"name": "Maquita Alexander",
-			"title": "Principal",
-			"phone": null,
-			"email": null
-		}
-	]
+	 "exhibit": {
+		"id": "overview",
+			"closed": false,
+			"charter": true,
+			"school_type": [
+				"Regular school"
+			 ],
+			"great_schools": {
+				"gs_url": "http://www.greatschools.org/washington-dc/washington/618-Washington-Yu-Ying-PCS"
+			},
+			"ward": "5",
+			"grades_serviced": ["01","02","03","04","05","KG","PK3","PK4"],
+			"grades_accepted": ["PK3","PK4","KG","01","02"],
+			"description": "Washington Yu Ying Public Charter School aims to nurture the development of a strong social conscience among tomorrow’s global leaders by fostering excellence in our students’ intellectual, moral, social, emotional and physical development in an engaging, inquiry-driven, Chinese – English dual language immersion environment.",
+			 "address": {
+				"line_1": "220 Taylor Street NE",
+				"line_2": null,
+				"city": "Washington",
+				"state": "DC",
+				"zip": "20017",
+				"lat": 38.94123,
+				"long": -77.00368
+			 },
+			"transit": "60; H8",
+			"website": "http://www.washingtonyuying.org",
+			"facebook": null,
+			"twitter": null,
+			"external_report_card": "http://issuu.com/pcsb/docs/dcpcsb_pmf_2013/293",
+			"equity_report_url": 
+"http://osse.dc.gov/sites/default/files/dc/sites/osse/publication/attachments/2013_Equity_Report_PCSB_External_Washington%20Yu%20Ying%20PCS.pdf",
+			"contact": [
+				{
+					"name": "Christina Murtaugh",
+					"title": "Board Chair",
+					"phone": null,
+					"email": null
+				},
+				{
+					"name": "Maquita Alexander",
+					"title": "Principal",
+					"phone": null,
+					"email": null
+				}
+			]
 }

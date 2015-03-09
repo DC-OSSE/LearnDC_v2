@@ -1,40 +1,44 @@
 {
-	"timestamp": "Thu Feb 19 14:50:55 2015",
+	"timestamp": "Fri Feb 27 16:40:01 2015",
 	"org_type": "school",
-	"org_name": "Truesdell Education Campus",
+	"org_name": "Truesdell EC",
 	"org_code": "0327",
-	"closed": false,
-	"charter": false,
-	"school_type": [
-		"Regular school"
-	 ],
-	"id": "overview",
-	"great_schools": {
-		"gs_url": "http://www.greatschools.org/washington-dc/washington/59-Truesdell-Education-Campus"
-	},
-	"ward": "4",
-	"grades_serviced": ["01","02","03","04","05","06","07","08","KG","PK3","PK4"],
-	"grades_accepted": ["04","07","PK4","KG","01","PK3","03","08","05","02","06"],
-	"description": "Our goal at Truesdell Education Campus is for every child we serve to receive the character, education and academic development necessary to be successful in college, in their careers and in life. We start talking about college with our three-year-old preschool students. The educators in the building are extremely committed to helping children develop in all areas, with many volunteering to stay after school and on weekends to work with children. The staff truly goes above and beyond.",
-	 "address": {
-		"line_1": "800 Ingraham St. NW",
-		"line_2": null,
-		"city": "Washington",
-		"state": "DC",
-		"zip": "20011",
-		"lat": 38.95397,
-		"long": -77.02507
-	 },
-	"transit": "E2, E4 (Friendship Heights - Riggs Rd/Ivy City), 70, 71 (Buzzard Point/9th &  Maine - Silver Spring), 62, 63 (Takoma - Federal Triangle/Petworth Station), 79 (Archives - Silver Spring)",
-	"website": "www.dcps.dc.gov/DCPS/truesdell",
-	"facebook": "http://www.facebook.com/dcpublicschools",
-	"twitter": null,
-	"contact": [
-		{
-			"name": "Mary Ann Stinson",
-			"title": "Principal",
-			"phone": "(202) 576-6202",
-			"email": "maryann.stinson@dc.gov"
-		}
-	]
+	 "exhibit": {
+		"id": "overview",
+			"closed": false,
+			"charter": false,
+			"school_type": [
+				"Regular school"
+			 ],
+			"great_schools": {
+				"gs_url": "http://www.greatschools.org/washington-dc/washington/59-Truesdell-Education-Campus"
+			},
+			"ward": "4",
+			"grades_serviced": ["01","02","03","04","05","06","07","08","KG","PK3","PK4"],
+			"grades_accepted": ["04","07","PK4","KG","01","PK3","03","08","05","02","06"],
+			"description": "Our goal at Truesdell Education Campus is for every child we serve to receive the character, education and academic development necessary to be successful in college, in their careers and in life. We start talking about college with our three-year-old preschool students. The educators in the building are extremely committed to helping children develop in all areas, with many volunteering to stay after school and on weekends to work with children. The staff truly goes above and beyond.",
+			 "address": {
+				"line_1": "800 Ingraham St. NW",
+				"line_2": null,
+				"city": "Washington",
+				"state": "DC",
+				"zip": "20011",
+				"lat": 38.95397,
+				"long": -77.02507
+			 },
+			"transit": "E2, E4 (Friendship Heights - Riggs Rd/Ivy City), 70, 71 (Buzzard Point/9th &  Maine - Silver Spring), 62, 63 (Takoma - Federal Triangle/Petworth Station), 79 (Archives - Silver Spring)",
+			"website": "www.dcps.dc.gov/DCPS/truesdell",
+			"facebook": "http://www.facebook.com/dcpublicschools",
+			"twitter": null,
+			"external_report_card": "http://profiles.dcps.dc.gov/Truesdell+Education+Campus",
+			"equity_report_url": 
+"http://osse.dc.gov/sites/default/files/dc/sites/osse/publication/attachments/2013_Equity_Report_DCPS_External_Truesdell%20Education%20Campus.pdf",
+			"contact": [
+				{
+					"name": "Mary Ann Stinson",
+					"title": "Principal",
+					"phone": "(202) 576-6202",
+					"email": "maryann.stinson@dc.gov"
+				}
+			]
 }

@@ -1,46 +1,50 @@
 {
-	"timestamp": "Thu Feb 19 14:50:22 2015",
+	"timestamp": "Fri Feb 27 16:39:34 2015",
 	"org_type": "school",
-	"org_name": "YouthBuild PCS",
+	"org_name": "Youthbuild PCS",
 	"org_code": "0128",
-	"closed": false,
-	"charter": true,
-	"school_type": [
-		"Alternative Education School"
-	 ],
-	"id": "overview",
-	"great_schools": {
-		"gs_url": "http://www.greatschools.org/washington-dc/washington/384-YouthBuild-PCS"
-	},
-	"ward": "1",
-	"grades_serviced": ["UN"],
-	"grades_accepted": ["UN"],
-	"description": "NA",
-	 "address": {
-		"line_1": "3014 14th St NW",
-		"line_2": null,
-		"city": "Washington",
-		"state": "DC",
-		"zip": "20009",
-		"lat": 38.92774,
-		"long": -77.03275
-	 },
-	"transit": "Columbia Heights Metro Station/52,53,54",
-	"website": "http://www.youthbuildpcs.org",
-	"facebook": null,
-	"twitter": null,
-	"contact": [
-		{
-			"name": "Mark Jordan",
-			"title": "Board Chair",
-			"phone": null,
-			"email": null
-		},
-		{
-			"name": "Andrea Hinson",
-			"title": "Principal",
-			"phone": null,
-			"email": null
-		}
-	]
+	 "exhibit": {
+		"id": "overview",
+			"closed": false,
+			"charter": true,
+			"school_type": [
+				"Alternative Education School"
+			 ],
+			"great_schools": {
+				"gs_url": "http://www.greatschools.org/washington-dc/washington/384-YouthBuild-PCS"
+			},
+			"ward": "1",
+			"grades_serviced": ["UN"],
+			"grades_accepted": ["UN"],
+			"description": "NA",
+			 "address": {
+				"line_1": "3014 14th St NW",
+				"line_2": null,
+				"city": "Washington",
+				"state": "DC",
+				"zip": "20009",
+				"lat": 38.92774,
+				"long": -77.03275
+			 },
+			"transit": "Columbia Heights Metro Station/52,53,54",
+			"website": "http://www.youthbuildpcs.org",
+			"facebook": null,
+			"twitter": null,
+			"external_report_card": "http://issuu.com/pcsb/docs/dcpcsb_pmf_2013/301",
+			"equity_report_url": 
+"http://osse.dc.gov/sites/default/files/dc/sites/osse/publication/attachments/2013_Equity_Report_PCSB_External_YouthBuild%20PCS.pdf",
+			"contact": [
+				{
+					"name": "Mark Jordan",
+					"title": "Board Chair",
+					"phone": null,
+					"email": null
+				},
+				{
+					"name": "Andrea Hinson",
+					"title": "Principal",
+					"phone": null,
+					"email": null
+				}
+			]
 }

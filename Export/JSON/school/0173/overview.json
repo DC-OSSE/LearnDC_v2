@@ -1,46 +1,50 @@
 {
-	"timestamp": "Thu Feb 19 14:50:29 2015",
+	"timestamp": "Fri Feb 27 16:39:39 2015",
 	"org_type": "school",
 	"org_name": "Roots PCS",
 	"org_code": "0173",
-	"closed": false,
-	"charter": true,
-	"school_type": [
-		"Regular school"
-	 ],
-	"id": "overview",
-	"great_schools": {
-		"gs_url": "http://www.greatschools.org/washington-dc/washington/267-Roots-PCS"
-	},
-	"ward": "4",
-	"grades_serviced": ["01","02","03","04","05","KG","PK3","PK4"],
-	"grades_accepted": ["01","02","03","04","05","KG","PK3","PK4"],
-	"description": "Promote & secure the connection of Mother Africa within our children; prepare students to break the chains of psychological conditioning that attempt to keep them powerless in all phases of society; provide students with a strong African-centered learning environment; guide students toward academic excellence, exemplary character & social responsibility; encourage success leading to self-reliance & economic, social/political contributions to society.",
-	 "address": {
-		"line_1": "15 Kennedy St NW",
-		"line_2": null,
-		"city": "Washington",
-		"state": "DC",
-		"zip": "20011",
-		"lat": 38.95686,
-		"long": -77.01031
-	 },
-	"transit": "Fort Totten Metro Station/K6; E2; 64",
-	"website": "http://www.rootspcs.org",
-	"facebook": null,
-	"twitter": null,
-	"contact": [
-		{
-			"name": "Gilda Sherrod-Ali",
-			"title": "Board Chair",
-			"phone": null,
-			"email": null
-		},
-		{
-			"name": "Bernida Thompson, Ed.D.",
-			"title": "Principal",
-			"phone": null,
-			"email": null
-		}
-	]
+	 "exhibit": {
+		"id": "overview",
+			"closed": false,
+			"charter": true,
+			"school_type": [
+				"Regular school"
+			 ],
+			"great_schools": {
+				"gs_url": "http://www.greatschools.org/washington-dc/washington/267-Roots-PCS"
+			},
+			"ward": "4",
+			"grades_serviced": ["01","02","03","04","05","KG","PK3","PK4"],
+			"grades_accepted": ["01","02","03","04","05","KG","PK3","PK4"],
+			"description": "Promote & secure the connection of Mother Africa within our children; prepare students to break the chains of psychological conditioning that attempt to keep them powerless in all phases of society; provide students with a strong African-centered learning environment; guide students toward academic excellence, exemplary character & social responsibility; encourage success leading to self-reliance & economic, social/political contributions to society.",
+			 "address": {
+				"line_1": "15 Kennedy St NW",
+				"line_2": null,
+				"city": "Washington",
+				"state": "DC",
+				"zip": "20011",
+				"lat": 38.95686,
+				"long": -77.01031
+			 },
+			"transit": "Fort Totten Metro Station/K6; E2; 64",
+			"website": "http://www.rootspcs.org",
+			"facebook": null,
+			"twitter": null,
+			"external_report_card": "http://issuu.com/pcsb/docs/dcpcsb_pmf_2013/265",
+			"equity_report_url": 
+"http://osse.dc.gov/sites/default/files/dc/sites/osse/publication/attachments/2013_Equity_Report_PCSB_External_Roots%20PCS.pdf",
+			"contact": [
+				{
+					"name": "Gilda Sherrod-Ali",
+					"title": "Board Chair",
+					"phone": null,
+					"email": null
+				},
+				{
+					"name": "Bernida Thompson, Ed.D.",
+					"title": "Principal",
+					"phone": null,
+					"email": null
+				}
+			]
 }

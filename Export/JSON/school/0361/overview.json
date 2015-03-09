@@ -1,35 +1,39 @@
 {
-	"timestamp": "Thu Feb 19 14:51:01 2015",
+	"timestamp": "Fri Feb 27 16:40:04 2015",
 	"org_type": "school",
-	"org_name": "Friendship PCS – Blow-Pierce Elementary",
+	"org_name": "Friendship PCS Blow Pierce Elementary",
 	"org_code": "0361",
-	"closed": false,
-	"charter": true,
-	"school_type": [
-		"Regular school"
-	 ],
-	"id": "overview",
-	"great_schools": {
-		"gs_url": null
-	},
-	"ward": "7",
-	"grades_serviced": ["01","02","03","KG","PK3","PK4"],
-	"grades_accepted": ["PK3","PK4","KG","01","02","03"],
-	"description": "",
-	 "address": {
-		"line_1": "725 19th St  NE",
-		"line_2": null,
-		"city": "Washington",
-		"state": "DC",
-		"zip": "20002",
-		"lat": 38.89782,
-		"long": -76.97648
-	 },
-	"transit": "NA",
-	"website": "http://www.friendshipschools.org",
-	"facebook": null,
-	"twitter": null,
-	"contact": [
+	 "exhibit": {
+		"id": "overview",
+			"closed": false,
+			"charter": true,
+			"school_type": [
+				"Regular school"
+			 ],
+			"great_schools": {
+				"gs_url": null
+			},
+			"ward": "7",
+			"grades_serviced": ["01","02","03","KG","PK3","PK4"],
+			"grades_accepted": ["PK3","PK4","KG","01","02","03"],
+			"description": "",
+			 "address": {
+				"line_1": "725 19th St  NE",
+				"line_2": null,
+				"city": "Washington",
+				"state": "DC",
+				"zip": "20002",
+				"lat": 38.89782,
+				"long": -76.97648
+			 },
+			"transit": "NA",
+			"website": "http://www.friendshipschools.org",
+			"facebook": null,
+			"twitter": null,
+			"external_report_card": null,
+			"equity_report_url": 
+null,
+			"contact": [
 
-	]
+			]
 }

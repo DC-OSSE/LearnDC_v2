@@ -1,40 +1,44 @@
 {
-	"timestamp": "Thu Feb 19 14:51:09 2015",
+	"timestamp": "Fri Feb 27 16:40:10 2015",
 	"org_type": "school",
-	"org_name": "Roosevelt STAY High School @ MacFarland",
+	"org_name": "Roosevelt STAY at MacFarland",
 	"org_code": "0456",
-	"closed": false,
-	"charter": false,
-	"school_type": [
-		"Vocational Shared Time"
-	 ],
-	"id": "overview",
-	"great_schools": {
-		"gs_url": "http://www.greatschools.org/washington-dc/washington/336-Roosevelt-STAY-High-School--MacFarland"
-	},
-	"ward": "4",
-	"grades_serviced": ["AO"],
-	"grades_accepted": ["AO"],
-	"description": "Roosevelt STAY High School offers a variety of courses for adults (ages 18 and over) who wish to continue their education or participate in a specialized training program.  We are committed to delivering a quality academic and career/technical program within an alternative school environment that will help students obtain their high school diploma or GED, or advance their career.",
-	 "address": {
-		"line_1": "4400 Iowa Ave. NW",
-		"line_2": null,
-		"city": "Washington",
-		"state": "DC",
-		"zip": "20011",
-		"lat": 38.94361,
-		"long": -77.02778
-	 },
-	"transit": "52, 53, 54 (14th Street Line), 60 (Fort Totten-Petworth Line), 62, 63 (Takoma-Petworth Line), 70, 71 (Georgia Avenue-7th Street Line), 79 (Georgia Avenue Metro Extra Line)",
-	"website": "www.rstay.org",
-	"facebook": "http://www.facebook.com/RooseveltSTAY",
-	"twitter": null,
-	"contact": [
-		{
-			"name": "Sean Yisrael",
-			"title": "Principal",
-			"phone": "(202) 576-8399",
-			"email": "sean.yisrael@dc.gov"
-		}
-	]
+	 "exhibit": {
+		"id": "overview",
+			"closed": false,
+			"charter": false,
+			"school_type": [
+				"Vocational Shared Time"
+			 ],
+			"great_schools": {
+				"gs_url": "http://www.greatschools.org/washington-dc/washington/336-Roosevelt-STAY-High-School--MacFarland"
+			},
+			"ward": "4",
+			"grades_serviced": ["AO"],
+			"grades_accepted": ["AO"],
+			"description": "Roosevelt STAY High School offers a variety of courses for adults (ages 18 and over) who wish to continue their education or participate in a specialized training program.  We are committed to delivering a quality academic and career/technical program within an alternative school environment that will help students obtain their high school diploma or GED, or advance their career.",
+			 "address": {
+				"line_1": "4400 Iowa Ave. NW",
+				"line_2": null,
+				"city": "Washington",
+				"state": "DC",
+				"zip": "20011",
+				"lat": 38.94361,
+				"long": -77.02778
+			 },
+			"transit": "52, 53, 54 (14th Street Line), 60 (Fort Totten-Petworth Line), 62, 63 (Takoma-Petworth Line), 70, 71 (Georgia Avenue-7th Street Line), 79 (Georgia Avenue Metro Extra Line)",
+			"website": "www.rstay.org",
+			"facebook": "http://www.facebook.com/RooseveltSTAY",
+			"twitter": null,
+			"external_report_card": "http://profiles.dcps.dc.gov/Roosevelt+STAY+High+School",
+			"equity_report_url": 
+"http://osse.dc.gov/sites/default/files/dc/sites/osse/publication/attachments/2013_Equity_Report_DCPS_External_Roosevelt%20STAY%20High%20School%20@%20MacFarland.pdf",
+			"contact": [
+				{
+					"name": "Sean Yisrael",
+					"title": "Principal",
+					"phone": "(202) 576-8399",
+					"email": "sean.yisrael@dc.gov"
+				}
+			]
 }

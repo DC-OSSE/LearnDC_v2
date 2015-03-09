@@ -1,52 +1,56 @@
 {
-	"timestamp": "Thu Feb 19 14:50:28 2015",
+	"timestamp": "Fri Feb 27 16:39:38 2015",
 	"org_type": "school",
 	"org_name": "IDEA PCS",
 	"org_code": "0163",
-	"closed": false,
-	"charter": true,
-	"school_type": [
-		"Regular School"
-	 ],
-	"id": "overview",
-	"great_schools": {
-		"gs_url": "http://www.greatschools.org/washington-dc/washington/260-IDEA---Integrated-Design-&-Electronic-Academy-PCS"
-	},
-	"ward": "7",
-	"grades_serviced": ["09","10","11","12"],
-	"grades_accepted": ["09","10","11","12"],
-	"description": "The mission of the Integrated Design.Electronics Academy (IDEA) Public.Charter School is to.develop young people with the.academic, social, leadership and.occupational skills to compete.successfully in post secondary.education/training and enter.challenging careers in the technical.fields of work.",
-	 "address": {
-		"line_1": "1027 45th St NE",
-		"line_2": null,
-		"city": "Washington",
-		"state": "DC",
-		"zip": "20019",
-		"lat": 38.90455,
-		"long": -76.9371
-	 },
-	"transit": "Deanwood or Minnesota Avenue Metro Station/U4",
-	"website": "http://www.ideapcs.org",
-	"facebook": null,
-	"twitter": null,
-	"contact": [
-		{
-			"name": "David Owens",
-			"title": "Board Chair",
-			"phone": null,
-			"email": null
-		},
-		{
-			"name": "Justin Rydstrom",
-			"title": "Principal",
-			"phone": null,
-			"email": null
-		},
-		{
-			"name": "John Goldman",
-			"title": "Executive Director",
-			"phone": null,
-			"email": null
-		}
-	]
+	 "exhibit": {
+		"id": "overview",
+			"closed": false,
+			"charter": true,
+			"school_type": [
+				"Regular School"
+			 ],
+			"great_schools": {
+				"gs_url": "http://www.greatschools.org/washington-dc/washington/260-IDEA---Integrated-Design-&-Electronic-Academy-PCS"
+			},
+			"ward": "7",
+			"grades_serviced": ["09","10","11","12"],
+			"grades_accepted": ["09","10","11","12"],
+			"description": "The mission of the Integrated Design.Electronics Academy (IDEA) Public.Charter School is to.develop young people with the.academic, social, leadership and.occupational skills to compete.successfully in post secondary.education/training and enter.challenging careers in the technical.fields of work.",
+			 "address": {
+				"line_1": "1027 45th St NE",
+				"line_2": null,
+				"city": "Washington",
+				"state": "DC",
+				"zip": "20019",
+				"lat": 38.90455,
+				"long": -76.9371
+			 },
+			"transit": "Deanwood or Minnesota Avenue Metro Station/U4",
+			"website": "http://www.ideapcs.org",
+			"facebook": null,
+			"twitter": null,
+			"external_report_card": "http://issuu.com/pcsb/docs/dcpcsb_pmf_2013/184",
+			"equity_report_url": 
+"http://osse.dc.gov/sites/default/files/dc/sites/osse/publication/attachments/2013_Equity_Report_PCSB_External_Integrated%20Design%20Electronics%20Academy%20PCS.pdf",
+			"contact": [
+				{
+					"name": "David Owens",
+					"title": "Board Chair",
+					"phone": null,
+					"email": null
+				},
+				{
+					"name": "Justin Rydstrom",
+					"title": "Principal",
+					"phone": null,
+					"email": null
+				},
+				{
+					"name": "John Goldman",
+					"title": "Executive Director",
+					"phone": null,
+					"email": null
+				}
+			]
 }

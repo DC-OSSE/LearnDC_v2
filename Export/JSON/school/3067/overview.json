@@ -1,52 +1,56 @@
 {
-	"timestamp": "Thu Feb 19 14:51:25 2015",
+	"timestamp": "Fri Feb 27 16:40:21 2015",
 	"org_type": "school",
 	"org_name": "Richard Wright PCS for Journalism and Media Arts",
 	"org_code": "3067",
-	"closed": false,
-	"charter": true,
-	"school_type": [
-		"Vocational Shared Time"
-	 ],
-	"id": "overview",
-	"great_schools": {
-		"gs_url": "http://www.greatschools.org/washington-dc/washington/837-Richard-Wright-PCS"
-	},
-	"ward": "6",
-	"grades_serviced": ["08","09","10","11","12"],
-	"grades_accepted": ["08","09","10"],
-	"description": "The mission of Richard Wright Public Charter School for Journalism and Media Arts is to transform students in grades 8-12 into well-versed media contributors by providing a studentcentered environment that connects them to the classics and modern languages and a curriculum focused on strong writing skills and vocabulary.",
-	 "address": {
-		"line_1": "770 M Street SE",
-		"line_2": "2nd fl",
-		"city": "Washington",
-		"state": "DC",
-		"zip": "20003",
-		"lat": 38.877,
-		"long": -76.99558
-	 },
-	"transit": "Eastern Market or Navy Yardâ€“Ballpark Metro Station/90,92,93; A42,46; A48; P6; V7,8,9;",
-	"website": "http://www.richardwrightpcs.org",
-	"facebook": null,
-	"twitter": null,
-	"contact": [
-		{
-			"name": "Rhonda Wells-Wilbon, Ph.D.",
-			"title": "Board Chair",
-			"phone": null,
-			"email": null
-		},
-		{
-			"name": "Marco Clark, Ph.D.",
-			"title": "Principal",
-			"phone": null,
-			"email": null
-		},
-		{
-			"name": "Marco Clark, Ph.D.",
-			"title": "Executive Director",
-			"phone": null,
-			"email": null
-		}
-	]
+	 "exhibit": {
+		"id": "overview",
+			"closed": false,
+			"charter": true,
+			"school_type": [
+				"Vocational Shared Time"
+			 ],
+			"great_schools": {
+				"gs_url": "http://www.greatschools.org/washington-dc/washington/837-Richard-Wright-PCS"
+			},
+			"ward": "6",
+			"grades_serviced": ["08","09","10","11","12"],
+			"grades_accepted": ["08","09","10"],
+			"description": "The mission of Richard Wright Public Charter School for Journalism and Media Arts is to transform students in grades 8-12 into well-versed media contributors by providing a studentcentered environment that connects them to the classics and modern languages and a curriculum focused on strong writing skills and vocabulary.",
+			 "address": {
+				"line_1": "770 M Street SE",
+				"line_2": "2nd fl",
+				"city": "Washington",
+				"state": "DC",
+				"zip": "20003",
+				"lat": 38.877,
+				"long": -76.99558
+			 },
+			"transit": "Eastern Market or Navy Yardâ€“Ballpark Metro Station/90,92,93; A42,46; A48; P6; V7,8,9;",
+			"website": "http://www.richardwrightpcs.org",
+			"facebook": null,
+			"twitter": null,
+			"external_report_card": "http://issuu.com/pcsb/docs/dcpcsb_pmf_2013/263",
+			"equity_report_url": 
+"http://osse.dc.gov/sites/default/files/dc/sites/osse/publication/attachments/2013_Equity_Report_PCSB_External_Richard%20Wright%20PCS%20for%20Journalism%20and%20Media%20Arts.pdf",
+			"contact": [
+				{
+					"name": "Rhonda Wells-Wilbon, Ph.D.",
+					"title": "Board Chair",
+					"phone": null,
+					"email": null
+				},
+				{
+					"name": "Marco Clark, Ph.D.",
+					"title": "Principal",
+					"phone": null,
+					"email": null
+				},
+				{
+					"name": "Marco Clark, Ph.D.",
+					"title": "Executive Director",
+					"phone": null,
+					"email": null
+				}
+			]
 }

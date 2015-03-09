@@ -1,40 +1,44 @@
 {
-	"timestamp": "Thu Feb 19 14:51:11 2015",
+	"timestamp": "Fri Feb 27 16:40:11 2015",
 	"org_type": "school",
-	"org_name": "Ballou STAY High School",
+	"org_name": "Ballou STAY",
 	"org_code": "0462",
-	"closed": false,
-	"charter": false,
-	"school_type": [
-		"Alternative Education School"
-	 ],
-	"id": "overview",
-	"great_schools": {
-		"gs_url": "http://www.greatschools.org/washington-dc/washington/330-Ballou-STAY-High-School"
-	},
-	"ward": "8",
-	"grades_serviced": ["09","10","11","12","AO"],
-	"grades_accepted": ["09","10","11","12","AO"],
-	"description": "Ballou STAY's diverse student body of more than 700 students is a testament to its motto, 'It's Never Too Late to Earn Your High School Diploma.' Ballou STAY's mission is to deliver a high-quality academic and career/technical program that will lead to a high school diploma or vocational certificate. Ballou STAY offers traditional and accelerated diploma programs in addition to GED Prep and External Diploma programs; Ballou STAY also offers vocational programs such as automotive technology, barbering, cosmetology, Microsoft Office courses and culinary arts. The vocational program, along with sports and clubs at Ballou STAY, empowers young adults with the career skills to succeed in the real world.",
-	 "address": {
-		"line_1": "3401 4th St. SE",
-		"line_2": null,
-		"city": "Washington",
-		"state": "DC",
-		"zip": "20032",
-		"lat": 38.83938,
-		"long": -77.00098
-	 },
-	"transit": "A2, A8, A42 (Anacostia-Congress Heights Line), A5 (Anacostia-Fort Drum Line), M8, M9 (Congress Heights Shuttle Line), W4 (Deanwood-Alabama Ave Line)",
-	"website": "www.dcps.dc.gov/DCPS/ballouSTAY",
-	"facebook": "https://www.facebook.com/BallouSTAYDC",
-	"twitter": null,
-	"contact": [
-		{
-			"name": "Cara Fuller",
-			"title": "Principal",
-			"phone": "(202) 645-3390",
-			"email": "cara.fuller@dc.gov"
-		}
-	]
+	 "exhibit": {
+		"id": "overview",
+			"closed": false,
+			"charter": false,
+			"school_type": [
+				"Alternative Education School"
+			 ],
+			"great_schools": {
+				"gs_url": "http://www.greatschools.org/washington-dc/washington/330-Ballou-STAY-High-School"
+			},
+			"ward": "8",
+			"grades_serviced": ["09","10","11","12","AO"],
+			"grades_accepted": ["09","10","11","12","AO"],
+			"description": "Ballou STAY's diverse student body of more than 700 students is a testament to its motto, 'It's Never Too Late to Earn Your High School Diploma.' Ballou STAY's mission is to deliver a high-quality academic and career/technical program that will lead to a high school diploma or vocational certificate. Ballou STAY offers traditional and accelerated diploma programs in addition to GED Prep and External Diploma programs; Ballou STAY also offers vocational programs such as automotive technology, barbering, cosmetology, Microsoft Office courses and culinary arts. The vocational program, along with sports and clubs at Ballou STAY, empowers young adults with the career skills to succeed in the real world.",
+			 "address": {
+				"line_1": "3401 4th St. SE",
+				"line_2": null,
+				"city": "Washington",
+				"state": "DC",
+				"zip": "20032",
+				"lat": 38.83938,
+				"long": -77.00098
+			 },
+			"transit": "A2, A8, A42 (Anacostia-Congress Heights Line), A5 (Anacostia-Fort Drum Line), M8, M9 (Congress Heights Shuttle Line), W4 (Deanwood-Alabama Ave Line)",
+			"website": "www.dcps.dc.gov/DCPS/ballouSTAY",
+			"facebook": "https://www.facebook.com/BallouSTAYDC",
+			"twitter": null,
+			"external_report_card": "http://profiles.dcps.dc.gov/Ballou+STAY+High+School",
+			"equity_report_url": 
+"http://osse.dc.gov/sites/default/files/dc/sites/osse/publication/attachments/2013_Equity_Report_DCPS_External_Ballou%20STAY%20High%20School.pdf",
+			"contact": [
+				{
+					"name": "Cara Fuller",
+					"title": "Principal",
+					"phone": "(202) 645-3390",
+					"email": "cara.fuller@dc.gov"
+				}
+			]
 }

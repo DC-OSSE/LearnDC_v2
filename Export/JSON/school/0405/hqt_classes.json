@@ -1,0 +1,37 @@
+{
+"timestamp": "Fri Mar 06 13:45:28 2015",
+"org_type": "school",
+"org_name": "DEAL MS",
+"org_code": "0405",
+"exhibit": {
+	"id": "hqt",
+	"data":  
+[
+    {
+        "key": {
+            "year": 2014,
+            "school_category": "SEC",
+            "poverty_quartile": "LOW"
+        },
+        "val": {
+            "num_total_classes": 81,
+            "num_hq_classes": 31,
+            "num_nhq_classes": 50
+        }
+    },
+    {
+        "key": {
+            "year": 2014,
+            "school_category": "SEC",
+            "poverty_quartile": "LOW"
+        },
+        "val": {
+            "num_total_classes": 240,
+            "num_hq_classes": 185,
+            "num_nhq_classes": 55
+        }
+    }
+]
+
+	}
+}

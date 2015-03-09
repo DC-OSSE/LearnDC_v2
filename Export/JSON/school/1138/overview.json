@@ -1,52 +1,56 @@
 {
-	"timestamp": "Thu Feb 19 14:51:23 2015",
+	"timestamp": "Fri Feb 27 16:40:19 2015",
 	"org_type": "school",
-	"org_name": "E.L. Haynes PCS – Kansas Avenue (High School)",
+	"org_name": "E.L. Haynes PCS - High School",
 	"org_code": "1138",
-	"closed": false,
-	"charter": true,
-	"school_type": [
-		"Regular School"
-	 ],
-	"id": "overview",
-	"great_schools": {
-		"gs_url": "http://www.greatschools.org/washington-dc/washington/835-E.L.-Haynes-PCS---Kansas-Avenue-PK-3-High-School"
-	},
-	"ward": "4",
-	"grades_serviced": ["09","10","11","12"],
-	"grades_accepted": ["09","10","11","12"],
-	"description": "Every E.L. Haynes student of every race, socioeconomic status, and home language will reach high levels of academic achievement and be prepared to succeed at the college of his or her choice. Every E.L. Haynes student will be adept at mathematical reasoning, will use scientific methods effectively to frame and solve problems, and will develop the lifelong skills needed to be successful individuals, active community members, and responsible citizens.",
-	 "address": {
-		"line_1": "4501 Kansas Ave NW",
-		"line_2": null,
-		"city": "Washington",
-		"state": "DC",
-		"zip": "20010",
-		"lat": 38.9456,
-		"long": -77.02242
-	 },
-	"transit": "Georgia Ave-Petworth Metro Station/52,53,54; 62,63.",
-	"website": "http://www.elhaynes.org",
-	"facebook": null,
-	"twitter": null,
-	"contact": [
-		{
-			"name": "Michael Hall",
-			"title": "Board Chair",
-			"phone": null,
-			"email": null
-		},
-		{
-			"name": "Michelle Molitor (PK-3), Caroline Hill (9-10)",
-			"title": "Principal",
-			"phone": null,
-			"email": null
-		},
-		{
-			"name": "Jennifer C. Niles",
-			"title": "Executive Director",
-			"phone": null,
-			"email": null
-		}
-	]
+	 "exhibit": {
+		"id": "overview",
+			"closed": false,
+			"charter": true,
+			"school_type": [
+				"Regular School"
+			 ],
+			"great_schools": {
+				"gs_url": "http://www.greatschools.org/washington-dc/washington/835-E.L.-Haynes-PCS---Kansas-Avenue-PK-3-High-School"
+			},
+			"ward": "4",
+			"grades_serviced": ["09","10","11","12"],
+			"grades_accepted": ["09","10","11","12"],
+			"description": "Every E.L. Haynes student of every race, socioeconomic status, and home language will reach high levels of academic achievement and be prepared to succeed at the college of his or her choice. Every E.L. Haynes student will be adept at mathematical reasoning, will use scientific methods effectively to frame and solve problems, and will develop the lifelong skills needed to be successful individuals, active community members, and responsible citizens.",
+			 "address": {
+				"line_1": "4501 Kansas Ave NW",
+				"line_2": null,
+				"city": "Washington",
+				"state": "DC",
+				"zip": "20010",
+				"lat": 38.9456,
+				"long": -77.02242
+			 },
+			"transit": "Georgia Ave-Petworth Metro Station/52,53,54; 62,63.",
+			"website": "http://www.elhaynes.org",
+			"facebook": null,
+			"twitter": null,
+			"external_report_card": "http://issuu.com/pcsb/docs/dcpcsb_pmf_2013/131",
+			"equity_report_url": 
+"http://osse.dc.gov/sites/default/files/dc/sites/osse/publication/attachments/2013_Equity_Report_PCSB_External_E.L.%20Haynes%20PCS%20–%20Kansas%20Avenue%20(High%20School).pdf",
+			"contact": [
+				{
+					"name": "Richard Pohlman",
+					"title": "Acting HOS and Chief of Operation",
+					"phone": "202-667-4446",
+					"email": null
+				},
+				{
+					"name": "Michelle Molitor (PK-3), Caroline Hill (9-10)",
+					"title": "Principal",
+					"phone": null,
+					"email": null
+				},
+				{
+					"name": "Jennifer C. Niles",
+					"title": "Executive Director",
+					"phone": null,
+					"email": null
+				}
+			]
 }

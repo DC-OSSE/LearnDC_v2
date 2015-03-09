@@ -1,52 +1,56 @@
 {
-	"timestamp": "Thu Feb 19 14:50:29 2015",
+	"timestamp": "Fri Feb 27 16:39:39 2015",
 	"org_type": "school",
 	"org_name": "Options PCS",
 	"org_code": "0169",
-	"closed": false,
-	"charter": true,
-	"school_type": [
-		"Regular school"
-	 ],
-	"id": "overview",
-	"great_schools": {
-		"gs_url": "http://www.greatschools.org/washington-dc/washington/265-Options-PCS"
-	},
-	"ward": "6",
-	"grades_serviced": ["07","08","09","10","11","12"],
-	"grades_accepted": ["09","10","11","12","06","07","08"],
-	"description": "The mission of the Options Public Charter School is to provide a high-quality, unique educational experience for all students, including those students most at-risk of dropping out of school because they are underachieving, truant, have experienced behavior problems, or have exceptionalities requiring intensive therapeutic special education services. We provide alternative programs of experiential instruction and guidance to motivate students to stay in school by instilling in them the requisite 1) social skills, 2) increased self-esteem, 3) self-control of anger and frustration, 4) the desire to learn, and 5) increased academic competence.",
-	 "address": {
-		"line_1": "1375 E Street NE",
-		"line_2": null,
-		"city": "Washington",
-		"state": "DC",
-		"zip": "20002",
-		"lat": 38.89585,
-		"long": -76.98621
-	 },
-	"transit": "B2; D6; X8",
-	"website": "http://www.optionsschool.org",
-	"facebook": null,
-	"twitter": null,
-	"contact": [
-		{
-			"name": "J.C. Hayward",
-			"title": "Board Chair",
-			"phone": null,
-			"email": null
-		},
-		{
-			"name": "Michelle Pianim",
-			"title": "Principal",
-			"phone": null,
-			"email": null
-		},
-		{
-			"name": "Dr. Charles Vincent",
-			"title": "Executive Director",
-			"phone": null,
-			"email": null
-		}
-	]
+	 "exhibit": {
+		"id": "overview",
+			"closed": false,
+			"charter": true,
+			"school_type": [
+				"Regular school"
+			 ],
+			"great_schools": {
+				"gs_url": "http://www.greatschools.org/washington-dc/washington/265-Options-PCS"
+			},
+			"ward": "6",
+			"grades_serviced": ["07","08","09","10","11","12"],
+			"grades_accepted": ["09","10","11","12","06","07","08"],
+			"description": "The mission of the Options Public Charter School is to provide a high-quality, unique educational experience for all students, including those students most at-risk of dropping out of school because they are underachieving, truant, have experienced behavior problems, or have exceptionalities requiring intensive therapeutic special education services. We provide alternative programs of experiential instruction and guidance to motivate students to stay in school by instilling in them the requisite 1) social skills, 2) increased self-esteem, 3) self-control of anger and frustration, 4) the desire to learn, and 5) increased academic competence.",
+			 "address": {
+				"line_1": "1375 E Street NE",
+				"line_2": null,
+				"city": "Washington",
+				"state": "DC",
+				"zip": "20002",
+				"lat": 38.89585,
+				"long": -76.98621
+			 },
+			"transit": "B2; D6; X8",
+			"website": "http://www.optionsschool.org",
+			"facebook": null,
+			"twitter": null,
+			"external_report_card": "http://www.dcpcsb.org/SchoolProfile.aspx?sid=99",
+			"equity_report_url": 
+"http://osse.dc.gov/sites/default/files/dc/sites/osse/publication/attachments/2013_Equity_Report_PCSB_External_Options%20PCS.pdf",
+			"contact": [
+				{
+					"name": "J.C. Hayward",
+					"title": "Board Chair",
+					"phone": null,
+					"email": null
+				},
+				{
+					"name": "Michelle Pianim",
+					"title": "Principal",
+					"phone": null,
+					"email": null
+				},
+				{
+					"name": "Dr. Charles Vincent",
+					"title": "Executive Director",
+					"phone": null,
+					"email": null
+				}
+			]
 }

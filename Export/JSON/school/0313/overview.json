@@ -1,40 +1,44 @@
 {
-	"timestamp": "Thu Feb 19 14:50:52 2015",
+	"timestamp": "Fri Feb 27 16:39:58 2015",
 	"org_type": "school",
-	"org_name": "Shepherd Elementary School",
+	"org_name": "Shepherd ES",
 	"org_code": "0313",
-	"closed": false,
-	"charter": false,
-	"school_type": [
-		"Regular school"
-	 ],
-	"id": "overview",
-	"great_schools": {
-		"gs_url": "http://www.greatschools.org/washington-dc/washington/25-Shepherd-Elementary-School"
-	},
-	"ward": "4",
-	"grades_serviced": ["01","02","03","04","05","KG","PK3","PK4"],
-	"grades_accepted": ["PK4","KG","03","04","01","02","05","PK3"],
-	"description": "Shepherd Elementary School is an International Baccalaureate (IB) school. We aim to develop inquisitive, international-minded learners who think and learn globally and act compassionately. As part of this educational framework, we offer French and Spanish instruction beginning in prekindergarten and we focus on learning through inquiry-based instruction. Our staff and faculty are extremely dedicated to our students and our school; the average teacher tenure is 12.5 years. We set high expectations for our students and we work collaboratively with all stakeholders to make sure our students receive a solid elementary education foundation.",
-	 "address": {
-		"line_1": "7800 14th St. NW",
-		"line_2": null,
-		"city": "Washington",
-		"state": "DC",
-		"zip": "20012",
-		"lat": 38.9846,
-		"long": -77.034
-	 },
-	"transit": "S2, S4 (Silver Spring - Federal Triagle), S9 (16th  &  Eastern - McPherson Sq), Ride On Bus 28 to Silver Spring",
-	"website": "http://www.shepherd-elementary.org/",
-	"facebook": "http://www.facebook.com/dcpublicschools",
-	"twitter": null,
-	"contact": [
-		{
-			"name": "Jamie Miles",
-			"title": "Principal",
-			"phone": "(202) 576-6140",
-			"email": "jamie.miles@dc.gov"
-		}
-	]
+	 "exhibit": {
+		"id": "overview",
+			"closed": false,
+			"charter": false,
+			"school_type": [
+				"Regular school"
+			 ],
+			"great_schools": {
+				"gs_url": "http://www.greatschools.org/washington-dc/washington/25-Shepherd-Elementary-School"
+			},
+			"ward": "4",
+			"grades_serviced": ["01","02","03","04","05","KG","PK3","PK4"],
+			"grades_accepted": ["PK4","KG","03","04","01","02","05","PK3"],
+			"description": "Shepherd Elementary School is an International Baccalaureate (IB) school. We aim to develop inquisitive, international-minded learners who think and learn globally and act compassionately. As part of this educational framework, we offer French and Spanish instruction beginning in prekindergarten and we focus on learning through inquiry-based instruction. Our staff and faculty are extremely dedicated to our students and our school; the average teacher tenure is 12.5 years. We set high expectations for our students and we work collaboratively with all stakeholders to make sure our students receive a solid elementary education foundation.",
+			 "address": {
+				"line_1": "7800 14th St. NW",
+				"line_2": null,
+				"city": "Washington",
+				"state": "DC",
+				"zip": "20012",
+				"lat": 38.9846,
+				"long": -77.034
+			 },
+			"transit": "S2, S4 (Silver Spring - Federal Triagle), S9 (16th  &  Eastern - McPherson Sq), Ride On Bus 28 to Silver Spring",
+			"website": "http://www.shepherd-elementary.org/",
+			"facebook": "http://www.facebook.com/dcpublicschools",
+			"twitter": null,
+			"external_report_card": "http://profiles.dcps.dc.gov/Shepherd+Elementary+School",
+			"equity_report_url": 
+"http://osse.dc.gov/sites/default/files/dc/sites/osse/publication/attachments/2013_Equity_Report_DCPS_External_Shepherd%20Elementary%20School.pdf",
+			"contact": [
+				{
+					"name": "Jamie Miles",
+					"title": "Principal",
+					"phone": "(202) 576-6140",
+					"email": "jamie.miles@dc.gov"
+				}
+			]
 }

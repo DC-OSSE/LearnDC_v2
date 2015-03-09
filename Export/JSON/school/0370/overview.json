@@ -1,40 +1,44 @@
 {
-	"timestamp": "Thu Feb 19 14:51:03 2015",
+	"timestamp": "Fri Feb 27 16:40:05 2015",
 	"org_type": "school",
-	"org_name": "Langley Elementary School",
+	"org_name": "Langley EC",
 	"org_code": "0370",
-	"closed": false,
-	"charter": false,
-	"school_type": [
-		"Regular school"
-	 ],
-	"id": "overview",
-	"great_schools": {
-		"gs_url": "http://www.greatschools.org/washington-dc/washington/864-Langley-Education-Campus"
-	},
-	"ward": "5",
-	"grades_serviced": ["01","02","03","04","05","KG","PK3","PK4"],
-	"grades_accepted": ["KG","PK3","02","03","01","05","PK4","04"],
-	"description": "Located in Northeast Washington DC, Langley is a neighborhood school for students from the NoMA, Eckington, Bloomingdale and Edgewood communities. Langley provides services to students from around the city through the out-of-boundary process and in our citywide Intellectual Disability Program. Langley Elementary School is a fully modernized campus whose goal is to ensure that students are inspired to imagine, inquire and innovate. Our vision is to provide a rich, rigorous and relationship-oriented education that is infused with cultural relevance, inquiry and STEM and that prepares the whole child for life in the global community.",
-	 "address": {
-		"line_1": "101 T Street NE",
-		"line_2": null,
-		"city": "Washington",
-		"state": "DC",
-		"zip": "20002",
-		"lat": 38.91517,
-		"long": -77.00589
-	 },
-	"transit": "80 (North Capitol Street Line), P6 (Anacostia-Eckington), G8 (Rhode Island Avenue)",
-	"website": "www.langleyeducationcampus.org",
-	"facebook": null,
-	"twitter": null,
-	"contact": [
-		{
-			"name": "Charlotte Spann",
-			"title": "Principal",
-			"phone": "(202) 724-4223",
-			"email": "charlotte.spann@dc.gov"
-		}
-	]
+	 "exhibit": {
+		"id": "overview",
+			"closed": false,
+			"charter": false,
+			"school_type": [
+				"Regular school"
+			 ],
+			"great_schools": {
+				"gs_url": "http://www.greatschools.org/washington-dc/washington/864-Langley-Education-Campus"
+			},
+			"ward": "5",
+			"grades_serviced": ["01","02","03","04","05","KG","PK3","PK4"],
+			"grades_accepted": ["KG","PK3","02","03","01","05","PK4","04"],
+			"description": "Located in Northeast Washington DC, Langley is a neighborhood school for students from the NoMA, Eckington, Bloomingdale and Edgewood communities. Langley provides services to students from around the city through the out-of-boundary process and in our citywide Intellectual Disability Program. Langley Elementary School is a fully modernized campus whose goal is to ensure that students are inspired to imagine, inquire and innovate. Our vision is to provide a rich, rigorous and relationship-oriented education that is infused with cultural relevance, inquiry and STEM and that prepares the whole child for life in the global community.",
+			 "address": {
+				"line_1": "101 T Street NE",
+				"line_2": null,
+				"city": "Washington",
+				"state": "DC",
+				"zip": "20002",
+				"lat": 38.91517,
+				"long": -77.00589
+			 },
+			"transit": "80 (North Capitol Street Line), P6 (Anacostia-Eckington), G8 (Rhode Island Avenue)",
+			"website": "www.langleyeducationcampus.org",
+			"facebook": null,
+			"twitter": null,
+			"external_report_card": "http://profiles.dcps.dc.gov/Langley+Elementary+School",
+			"equity_report_url": 
+"http://osse.dc.gov/sites/default/files/dc/sites/osse/publication/attachments/2013_Equity_Report_DCPS_External_Langley%20Elementary%20School.pdf",
+			"contact": [
+				{
+					"name": "Charlotte Spann",
+					"title": "Principal",
+					"phone": "(202) 724-4223",
+					"email": "charlotte.spann@dc.gov"
+				}
+			]
 }

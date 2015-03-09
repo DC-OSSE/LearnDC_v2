@@ -1,40 +1,44 @@
 {
-	"timestamp": "Thu Feb 19 14:51:08 2015",
+	"timestamp": "Fri Feb 27 16:40:09 2015",
 	"org_type": "school",
-	"org_name": "Ballou High School",
+	"org_name": "Ballou HS",
 	"org_code": "0452",
-	"closed": false,
-	"charter": false,
-	"school_type": [
-		"Vocational Shared Time"
-	 ],
-	"id": "overview",
-	"great_schools": {
-		"gs_url": "http://www.greatschools.org/washington-dc/washington/65-Ballou-High-School"
-	},
-	"ward": "8",
-	"grades_serviced": ["09","10","11","12"],
-	"grades_accepted": ["10","11","12","09"],
-	"description": "Ballou High School offers a myriad of academic programs that allow students to explore and reach their maximum potential. These programs include honors and AP courses, grade-level Academies, an Arts and Technology Academy for students with special needs, and the 21st Century Community Learning Center. We also offer the AVID program and school-wide advisory for students. More than 10 percent of graduating seniors are selected for the Achievers Scholarship from the Bill & Melinda Gates Foundation. The 2010 Valedictorian was awarded a Gates Millennium Scholarship and the 2009 Salutatorian was a White House Scholar. Ballou students also benefit from more than 50 partnerships with national and community organizations.",
-	 "address": {
-		"line_1": "3401 4th St. SE",
-		"line_2": null,
-		"city": "Washington",
-		"state": "DC",
-		"zip": "20032",
-		"lat": 38.83938,
-		"long": -77.00098
-	 },
-	"transit": "A2, A8, A42 (Anacostia-Congress Heights Line), A5 (Anacostia-Fort Drum Line), M8, M9 (Congress Heights Shuttle Line), W4 (Deanwood-Alabama Ave Line)",
-	"website": "www.balloudc.org",
-	"facebook": "http://www.facebook.com/dcpublicschools",
-	"twitter": null,
-	"contact": [
-		{
-			"name": "Rahman Branch",
-			"title": "Principal",
-			"phone": "(202) 645-3400",
-			"email": "rahman.branch@dc.gov"
-		}
-	]
+	 "exhibit": {
+		"id": "overview",
+			"closed": false,
+			"charter": false,
+			"school_type": [
+				"Vocational Shared Time"
+			 ],
+			"great_schools": {
+				"gs_url": "http://www.greatschools.org/washington-dc/washington/65-Ballou-High-School"
+			},
+			"ward": "8",
+			"grades_serviced": ["09","10","11","12"],
+			"grades_accepted": ["10","11","12","09"],
+			"description": "Ballou High School offers a myriad of academic programs that allow students to explore and reach their maximum potential. These programs include honors and AP courses, grade-level Academies, an Arts and Technology Academy for students with special needs, and the 21st Century Community Learning Center. We also offer the AVID program and school-wide advisory for students. More than 10 percent of graduating seniors are selected for the Achievers Scholarship from the Bill & Melinda Gates Foundation. The 2010 Valedictorian was awarded a Gates Millennium Scholarship and the 2009 Salutatorian was a White House Scholar. Ballou students also benefit from more than 50 partnerships with national and community organizations.",
+			 "address": {
+				"line_1": "3401 4th St. SE",
+				"line_2": null,
+				"city": "Washington",
+				"state": "DC",
+				"zip": "20032",
+				"lat": 38.83938,
+				"long": -77.00098
+			 },
+			"transit": "A2, A8, A42 (Anacostia-Congress Heights Line), A5 (Anacostia-Fort Drum Line), M8, M9 (Congress Heights Shuttle Line), W4 (Deanwood-Alabama Ave Line)",
+			"website": "www.balloudc.org",
+			"facebook": "http://www.facebook.com/dcpublicschools",
+			"twitter": null,
+			"external_report_card": "http://profiles.dcps.dc.gov/Ballou+High+School",
+			"equity_report_url": 
+"http://osse.dc.gov/sites/default/files/dc/sites/osse/publication/attachments/2013_Equity_Report_DCPS_External_Ballou%20High%20School.pdf",
+			"contact": [
+				{
+					"name": "Rahman Branch",
+					"title": "Principal",
+					"phone": "(202) 645-3400",
+					"email": "rahman.branch@dc.gov"
+				}
+			]
 }

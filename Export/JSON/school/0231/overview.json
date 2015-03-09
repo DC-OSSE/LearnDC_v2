@@ -1,40 +1,44 @@
 {
-	"timestamp": "Thu Feb 19 14:50:40 2015",
+	"timestamp": "Fri Feb 27 16:39:49 2015",
 	"org_type": "school",
-	"org_name": "Drew Elementary School",
+	"org_name": "Drew ES",
 	"org_code": "0231",
-	"closed": false,
-	"charter": false,
-	"school_type": [
-		"Regular school"
-	 ],
-	"id": "overview",
-	"great_schools": {
-		"gs_url": "http://www.greatschools.org/washington-dc/washington/75-Drew-Elementary-School"
-	},
-	"ward": "7",
-	"grades_serviced": ["01","02","03","04","05","KG","PK3","PK4"],
-	"grades_accepted": ["01","04","05","03","PK3","PK4","KG","02"],
-	"description": "At Drew Elementary School, our primary objective is student progress and achievement. While we celebrate individual student differences, every student is encouraged and expected to do his or her best. In order to help our students succeed in the classroom, we individualize learning through the use of technology, as well as small group instruction. Through our core values, we focus on developing students' character. We treasure and promote our partnerships with parents, which also support our students' academic achievement and social emotional growth. At Drew ES, we discover success in every child, everyday.",
-	 "address": {
-		"line_1": "5600 Eads St. NE",
-		"line_2": null,
-		"city": "Washington",
-		"state": "DC",
-		"zip": "20019",
-		"lat": 38.89599,
-		"long": -76.91993
-	 },
-	"transit": "U8 (Capitol/Benning Heights), W4 (Deanwood - Anacostia), 96,97 (Capitol Heights Station - McLean Gardens/Union Station)",
-	"website": "www.drewelementary.org",
-	"facebook": "http://www.facebook.com/DrewElementarySchool?ref=sgm",
-	"twitter": null,
-	"contact": [
-		{
-			"name": "Naimah Salahuddin",
-			"title": "Principal",
-			"phone": "(202) 671-6040",
-			"email": "naimah.salahuddin@dc.gov"
-		}
-	]
+	 "exhibit": {
+		"id": "overview",
+			"closed": false,
+			"charter": false,
+			"school_type": [
+				"Regular school"
+			 ],
+			"great_schools": {
+				"gs_url": "http://www.greatschools.org/washington-dc/washington/75-Drew-Elementary-School"
+			},
+			"ward": "7",
+			"grades_serviced": ["01","02","03","04","05","KG","PK3","PK4"],
+			"grades_accepted": ["01","04","05","03","PK3","PK4","KG","02"],
+			"description": "At Drew Elementary School, our primary objective is student progress and achievement. While we celebrate individual student differences, every student is encouraged and expected to do his or her best. In order to help our students succeed in the classroom, we individualize learning through the use of technology, as well as small group instruction. Through our core values, we focus on developing students' character. We treasure and promote our partnerships with parents, which also support our students' academic achievement and social emotional growth. At Drew ES, we discover success in every child, everyday.",
+			 "address": {
+				"line_1": "5600 Eads St. NE",
+				"line_2": null,
+				"city": "Washington",
+				"state": "DC",
+				"zip": "20019",
+				"lat": 38.89599,
+				"long": -76.91993
+			 },
+			"transit": "U8 (Capitol/Benning Heights), W4 (Deanwood - Anacostia), 96,97 (Capitol Heights Station - McLean Gardens/Union Station)",
+			"website": "www.drewelementary.org",
+			"facebook": "http://www.facebook.com/DrewElementarySchool?ref=sgm",
+			"twitter": null,
+			"external_report_card": "http://profiles.dcps.dc.gov/Drew+Elementary+School",
+			"equity_report_url": 
+"http://osse.dc.gov/sites/default/files/dc/sites/osse/publication/attachments/2013_Equity_Report_DCPS_External_Drew%20Elementary%20School.pdf",
+			"contact": [
+				{
+					"name": "Naimah Salahuddin",
+					"title": "Principal",
+					"phone": "(202) 671-6040",
+					"email": "naimah.salahuddin@dc.gov"
+				}
+			]
 }

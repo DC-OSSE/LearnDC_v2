@@ -1,0 +1,28 @@
+{
+	"timestamp": "Mon Mar 02 11:34:34 2015",
+	"org_type": "state",
+	"org_name": "District of Columbia",
+	 "exhibit": {
+		"id": "accountability",
+		"data": [{
+				"year": "2013", 
+				"score": null,
+				"classification": null,
+				"growth": null, 
+				"subgroups": [
+					{"subgroup": "All", "read_size": 31674, "read_score": 54.29, "math_size": 31670, "math_score": 58.38, "comp_size": 12849, "comp_score": 59.44},
+					{"subgroup": "African American", "read_size": 24159, "read_score": 48.51, "math_size": 24141, "math_score": 52.33, "comp_size": 9853, "comp_score": 55.24},
+					{"subgroup": "White", "read_size": 2432, "read_score": 96.68, "math_size": 2433, "math_score": 97.58, "comp_size": 897, "comp_score": 89.07},
+					{"subgroup": "Hispanic", "read_size": 4130, "read_score": 57.11, "math_size": 4139, "math_score": 63.61, "comp_size": 1703, "comp_score": 62.76},
+					{"subgroup": "Asian", "read_size": 449, "read_score": 78.31, "math_size": 450, "math_score": 91.98, "comp_size": 187, "comp_score": 81.87},
+					{"subgroup": "Multiracial", "read_size": 455, "read_score": 84.66, "math_size": 457, "math_score": 88.6, "comp_size": 182, "comp_score": 84.07},
+					{"subgroup": "Special Education", "read_size": 6004, "read_score": 26.7, "math_size": 5999, "math_score": 32.34, "comp_size": 2193, "comp_score": 27.82},
+					{"subgroup": "English Learner", "read_size": 3263, "read_score": 45.24, "math_size": 3275, "math_score": 55.91, "comp_size": 1303, "comp_score": 53.92},
+					{"subgroup": "Economically Disadvantaged", "read_size": 25066, "read_score": 47.06, "math_size": 25060, "math_score": 51.6, "comp_size": 10111, "comp_score": 53.51},
+					{"subgroup": "Male", "read_size": 15899, "read_score": 48.61, "math_size": 15895, "math_score": 56.06, "comp_size": 6360, "comp_score": 51.52},
+					{"subgroup": "Female", "read_size": 15775, "read_score": 60.01, "math_size": 15775, "math_score": 60.72, "comp_size": 6489, "comp_score": 67.2}
+				]
+			}
+		]
+	}
+}

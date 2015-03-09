@@ -1,46 +1,50 @@
 {
-	"timestamp": "Thu Feb 19 14:50:26 2015",
+	"timestamp": "Fri Feb 27 16:39:37 2015",
 	"org_type": "school",
-	"org_name": "Booker T. Washington PCS",
+	"org_name": "Booker T  Washington PCS",
 	"org_code": "0151",
-	"closed": false,
-	"charter": true,
-	"school_type": [
-		"Regular school"
-	 ],
-	"id": "overview",
-	"great_schools": {
-		"gs_url": "http://www.greatschools.org/washington-dc/washington/250-Booker-T.-Washington-PCS"
-	},
-	"ward": "1",
-	"grades_serviced": [],
-	"grades_accepted": [],
-	"description": "The mission of Booker T. Washington Public Charter School for Technical Arts is to educate students in grades 9 through 12, adults, and others for the construction and building trades and prepare them for life-long learning; educate students to meet college matriculation requirements; train students for construction apprenticeship programs; develop life skills for long-term success; create opportunities for employment and entrepreneurship.",
-	 "address": {
-		"line_1": "1346 Florida Ave NW",
-		"line_2": null,
-		"city": "Washington",
-		"state": "DC",
-		"zip": "20009",
-		"lat": 38.91993,
-		"long": -77.03119
-	 },
-	"transit": "U Street Metro Station/52,53,54",
-	"website": "http://www.btwschool.org",
-	"facebook": null,
-	"twitter": null,
-	"contact": [
-		{
-			"name": "Richard A. English, Ph.D.",
-			"title": "Board Chair",
-			"phone": null,
-			"email": null
-		},
-		{
-			"name": "G. Hope Asterilla, Ph.D.",
-			"title": "Principal",
-			"phone": null,
-			"email": null
-		}
-	]
+	 "exhibit": {
+		"id": "overview",
+			"closed": true,
+			"charter": true,
+			"school_type": [
+				"Regular school"
+			 ],
+			"great_schools": {
+				"gs_url": "http://www.greatschools.org/washington-dc/washington/250-Booker-T.-Washington-PCS"
+			},
+			"ward": "1",
+			"grades_serviced": [],
+			"grades_accepted": [],
+			"description": "The mission of Booker T. Washington Public Charter School for Technical Arts is to educate students in grades 9 through 12, adults, and others for the construction and building trades and prepare them for life-long learning; educate students to meet college matriculation requirements; train students for construction apprenticeship programs; develop life skills for long-term success; create opportunities for employment and entrepreneurship.",
+			 "address": {
+				"line_1": "1346 Florida Ave NW",
+				"line_2": null,
+				"city": "Washington",
+				"state": "DC",
+				"zip": "20009",
+				"lat": 38.91993,
+				"long": -77.03119
+			 },
+			"transit": "U Street Metro Station/52,53,54",
+			"website": "http://www.btwschool.org",
+			"facebook": null,
+			"twitter": null,
+			"external_report_card": "http://issuu.com/pcsb/docs/dcpcsb_pmf_2013/39",
+			"equity_report_url": 
+"http://osse.dc.gov/sites/default/files/dc/sites/osse/publication/attachments/2013_Equity_Report_PCSB_External_Booker%20T.%20Washington%20PCS.pdf",
+			"contact": [
+				{
+					"name": "Richard A. English, Ph.D.",
+					"title": "Board Chair",
+					"phone": null,
+					"email": null
+				},
+				{
+					"name": "G. Hope Asterilla, Ph.D.",
+					"title": "Principal",
+					"phone": null,
+					"email": null
+				}
+			]
 }

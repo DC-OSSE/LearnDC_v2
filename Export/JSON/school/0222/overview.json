@@ -1,35 +1,39 @@
 {
-	"timestamp": "Thu Feb 19 14:50:39 2015",
+	"timestamp": "Fri Feb 27 16:39:48 2015",
 	"org_type": "school",
-	"org_name": "Paul PCS - International High School",
+	"org_name": "Paul PCS-International High School",
 	"org_code": "0222",
-	"closed": false,
-	"charter": true,
-	"school_type": [
-		"Regular School"
-	 ],
-	"id": "overview",
-	"great_schools": {
-		"gs_url": null
-	},
-	"ward": "4",
-	"grades_serviced": ["09","10","11"],
-	"grades_accepted": ["09","10"],
-	"description": "",
-	 "address": {
-		"line_1": "5800 8th Street NW",
-		"line_2": null,
-		"city": "Washington",
-		"state": "DC",
-		"zip": "20011",
-		"lat": 38.96137,
-		"long": -77.02472
-	 },
-	"transit": "NA",
-	"website": "www.paulcharter.org",
-	"facebook": null,
-	"twitter": null,
-	"contact": [
+	 "exhibit": {
+		"id": "overview",
+			"closed": false,
+			"charter": true,
+			"school_type": [
+				"Regular School"
+			 ],
+			"great_schools": {
+				"gs_url": null
+			},
+			"ward": "4",
+			"grades_serviced": ["09","10","11"],
+			"grades_accepted": ["09","10"],
+			"description": "",
+			 "address": {
+				"line_1": "5800 8th Street NW",
+				"line_2": null,
+				"city": "Washington",
+				"state": "DC",
+				"zip": "20011",
+				"lat": 38.96137,
+				"long": -77.02472
+			 },
+			"transit": "NA",
+			"website": "www.paulcharter.org",
+			"facebook": null,
+			"twitter": null,
+			"external_report_card": null,
+			"equity_report_url": 
+null,
+			"contact": [
 
-	]
+			]
 }

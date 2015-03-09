@@ -1,0 +1,79 @@
+{
+"timestamp": "Fri Mar 06 13:47:32 2015",
+"org_type": "state",
+"org_name": "District of Columbia",
+"org_code": "dc",
+"exhibit": {
+	"id": "hqt",
+	"data":  
+[
+    {
+        "key": {
+            "year": 2014,
+            "school_entity": "All"
+        },
+        "val": {
+            "num_total_classes": 9149,
+            "num_hq_classes": 8066,
+            "num_nhq_classes": 1083
+        }
+    },
+    {
+        "key": {
+            "year": 2014,
+            "school_entity": "LOW"
+        },
+        "val": {
+            "num_total_classes": 3307,
+            "num_hq_classes": 2942,
+            "num_nhq_classes": 365
+        }
+    },
+    {
+        "key": {
+            "year": 2014,
+            "school_entity": "HIGH"
+        },
+        "val": {
+            "num_total_classes": 1326,
+            "num_hq_classes": 1078,
+            "num_nhq_classes": 248
+        }
+    },
+    {
+        "key": {
+            "year": 2014,
+            "school_entity": "MIDDLE"
+        },
+        "val": {
+            "num_total_classes": 4516,
+            "num_hq_classes": 4046,
+            "num_nhq_classes": 470
+        }
+    },
+    {
+        "key": {
+            "year": 2014,
+            "school_entity": "ELEM"
+        },
+        "val": {
+            "num_total_classes": 2217,
+            "num_hq_classes": 1953,
+            "num_nhq_classes": 264
+        }
+    },
+    {
+        "key": {
+            "year": 2014,
+            "school_entity": "SEC"
+        },
+        "val": {
+            "num_total_classes": 6932,
+            "num_hq_classes": 6113,
+            "num_nhq_classes": 819
+        }
+    }
+]
+
+	}
+}

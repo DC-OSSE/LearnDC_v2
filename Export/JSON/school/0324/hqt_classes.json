@@ -1,0 +1,37 @@
+{
+"timestamp": "Fri Mar 06 13:45:27 2015",
+"org_type": "school",
+"org_name": "TAKOMA EC",
+"org_code": "0324",
+"exhibit": {
+	"id": "hqt",
+	"data":  
+[
+    {
+        "key": {
+            "year": 2014,
+            "school_category": "ELEM",
+            "poverty_quartile": "MIDDLE"
+        },
+        "val": {
+            "num_total_classes": 37,
+            "num_hq_classes": 24,
+            "num_nhq_classes": 13
+        }
+    },
+    {
+        "key": {
+            "year": 2014,
+            "school_category": "ELEM",
+            "poverty_quartile": "MIDDLE"
+        },
+        "val": {
+            "num_total_classes": 31,
+            "num_hq_classes": 29,
+            "num_nhq_classes": 2
+        }
+    }
+]
+
+	}
+}

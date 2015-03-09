@@ -1,0 +1,37 @@
+{
+"timestamp": "Fri Mar 06 13:45:27 2015",
+"org_type": "school",
+"org_name": "BROOKLAND EC AT BUNKER HILL",
+"org_code": "0346",
+"exhibit": {
+	"id": "hqt",
+	"data":  
+[
+    {
+        "key": {
+            "year": 2014,
+            "school_category": "ELEM",
+            "poverty_quartile": "MIDDLE"
+        },
+        "val": {
+            "num_total_classes": 10,
+            "num_hq_classes": 10,
+            "num_nhq_classes": 0
+        }
+    },
+    {
+        "key": {
+            "year": 2014,
+            "school_category": "ELEM",
+            "poverty_quartile": "MIDDLE"
+        },
+        "val": {
+            "num_total_classes": 21,
+            "num_hq_classes": 11,
+            "num_nhq_classes": 10
+        }
+    }
+]
+
+	}
+}

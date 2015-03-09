@@ -1,52 +1,56 @@
 {
-	"timestamp": "Thu Feb 19 14:51:24 2015",
+	"timestamp": "Fri Feb 27 16:40:20 2015",
 	"org_type": "school",
 	"org_name": "Inspired Teaching Demonstration PCS",
 	"org_code": "3064",
-	"closed": false,
-	"charter": true,
-	"school_type": [
-		"Regular school"
-	 ],
-	"id": "overview",
-	"great_schools": {
-		"gs_url": "http://www.greatschools.org/washington-dc/washington/839-Inspired-Teaching-Demonstration-PCS"
-	},
-	"ward": "1",
-	"grades_serviced": ["01","02","03","04","05","06","KG","PK3","PK4"],
-	"grades_accepted": ["PK3","PK4","KG","01","02","03","04","05","06","07"],
-	"description": "At the Inspired Teaching Demonstration Public Charter School, a professional learning community of master teachers and teacher residents will ensure that a diverse group of students achieve their potential as accomplished learners, thoughtful citizens, and imaginative and inquisitive problem solvers though a demanding, inquiry-based curriculum.",
-	 "address": {
-		"line_1": "1328 Florida Ave NW",
-		"line_2": null,
-		"city": "Washington",
-		"state": "DC",
-		"zip": "20009",
-		"lat": 38.92009,
-		"long": -77.0308
-	 },
-	"transit": "U Street Metro Station, Bus Line 52, 53, 54 S1, S2, S4",
-	"website": "http://www.inspiredteachingschool.org",
-	"facebook": null,
-	"twitter": null,
-	"contact": [
-		{
-			"name": "Gary Cohen",
-			"title": "Board Chair",
-			"phone": null,
-			"email": null
-		},
-		{
-			"name": "Zoe Duskin",
-			"title": "Principal",
-			"phone": null,
-			"email": null
-		},
-		{
-			"name": "Deborah Dantzler Williams",
-			"title": "Executive Director",
-			"phone": null,
-			"email": null
-		}
-	]
+	 "exhibit": {
+		"id": "overview",
+			"closed": false,
+			"charter": true,
+			"school_type": [
+				"Regular school"
+			 ],
+			"great_schools": {
+				"gs_url": "http://www.greatschools.org/washington-dc/washington/839-Inspired-Teaching-Demonstration-PCS"
+			},
+			"ward": "5",
+			"grades_serviced": ["01","02","03","04","05","06","KG","PK3","PK4"],
+			"grades_accepted": ["PK3","PK4","KG","01","02","03","04","05","06","07"],
+			"description": "At the Inspired Teaching Demonstration Public Charter School, a professional learning community of master teachers and teacher residents will ensure that a diverse group of students achieve their potential as accomplished learners, thoughtful citizens, and imaginative and inquisitive problem solvers though a demanding, inquiry-based curriculum.",
+			 "address": {
+				"line_1": "200 Douglas Street NE",
+				"line_2": null,
+				"city": "Washington",
+				"state": "DC",
+				"zip": "20002",
+				"lat": 38.92369,
+				"long": -77.00276
+			 },
+			"transit": "",
+			"website": "http://www.inspiredteachingschool.org",
+			"facebook": null,
+			"twitter": null,
+			"external_report_card": "http://issuu.com/pcsb/docs/dcpcsb_pmf_2013/194",
+			"equity_report_url": 
+"http://osse.dc.gov/sites/default/files/dc/sites/osse/publication/attachments/2013_Equity_Report_PCSB_External_Inspired%20Teaching%20Demonstration%20PCS.pdf",
+			"contact": [
+				{
+					"name": "Gary Cohen",
+					"title": "Board Chair",
+					"phone": null,
+					"email": null
+				},
+				{
+					"name": "Zoe Duskin",
+					"title": "Principal",
+					"phone": null,
+					"email": null
+				},
+				{
+					"name": "Deborah Dantzler Williams",
+					"title": "Executive Director",
+					"phone": null,
+					"email": null
+				}
+			]
 }

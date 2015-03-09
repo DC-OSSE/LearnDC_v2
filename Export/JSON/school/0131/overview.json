@@ -1,46 +1,50 @@
 {
-	"timestamp": "Thu Feb 19 14:50:22 2015",
+	"timestamp": "Fri Feb 27 16:39:34 2015",
 	"org_type": "school",
-	"org_name": "Hope Community PCS – Lamond",
+	"org_name": "Hope Community PCS Lamond Campus",
 	"org_code": "0131",
-	"closed": false,
-	"charter": true,
-	"school_type": [
-		"Regular school"
-	 ],
-	"id": "overview",
-	"great_schools": {
-		"gs_url": "http://www.greatschools.org/washington-dc/washington/563-Hope-Community-PCS---Lamond"
-	},
-	"ward": "4",
-	"grades_serviced": ["01","02","03","04","05","KG","PK3","PK4"],
-	"grades_accepted": ["PK3","PK4","KG","01","02","03","04","05"],
-	"description": "Hope Community Public Charter School's mission is to shape the hearts and minds of our students positively, by providing them with an academically rigorous, content rich curriculum, an environment in which character is modeled and promoted, and a community in which to build trusting relationships with others.",
-	 "address": {
-		"line_1": "6200 Kansas Avenue NE",
-		"line_2": null,
-		"city": "Washington",
-		"state": "DC",
-		"zip": "20011",
-		"lat": 38.96572,
-		"long": -77.00861
-	 },
-	"transit": "K6",
-	"website": "http://www.hopecommunitycs.org",
-	"facebook": null,
-	"twitter": null,
-	"contact": [
-		{
-			"name": "James Kemp",
-			"title": "Board Chair",
-			"phone": null,
-			"email": null
-		},
-		{
-			"name": "Danah Telfaire",
-			"title": "Principal",
-			"phone": null,
-			"email": null
-		}
-	]
+	 "exhibit": {
+		"id": "overview",
+			"closed": false,
+			"charter": true,
+			"school_type": [
+				"Regular school"
+			 ],
+			"great_schools": {
+				"gs_url": "http://www.greatschools.org/washington-dc/washington/563-Hope-Community-PCS---Lamond"
+			},
+			"ward": "4",
+			"grades_serviced": ["01","02","03","04","05","KG","PK3","PK4"],
+			"grades_accepted": ["PK3","PK4","KG","01","02","03","04","05"],
+			"description": "Hope Community Public Charter School's mission is to shape the hearts and minds of our students positively, by providing them with an academically rigorous, content rich curriculum, an environment in which character is modeled and promoted, and a community in which to build trusting relationships with others.",
+			 "address": {
+				"line_1": "6200 Kansas Avenue NE",
+				"line_2": null,
+				"city": "Washington",
+				"state": "DC",
+				"zip": "20011",
+				"lat": 38.96572,
+				"long": -77.00861
+			 },
+			"transit": "K6",
+			"website": "http://www.hopecommunitycs.org",
+			"facebook": null,
+			"twitter": null,
+			"external_report_card": "http://issuu.com/pcsb/docs/dcpcsb_pmf_2013/172",
+			"equity_report_url": 
+"http://osse.dc.gov/sites/default/files/dc/sites/osse/publication/attachments/2013_Equity_Report_PCSB_External_Hope%20Community%20PCS%20–%20Lamond.pdf",
+			"contact": [
+				{
+					"name": "James Kemp",
+					"title": "Board Chair",
+					"phone": null,
+					"email": null
+				},
+				{
+					"name": "Danah Telfaire",
+					"title": "Principal",
+					"phone": null,
+					"email": null
+				}
+			]
 }

@@ -1,52 +1,57 @@
 {
-	"timestamp": "Thu Feb 19 14:50:33 2015",
+	"timestamp": "Fri Feb 27 16:39:43 2015",
 	"org_type": "school",
-	"org_name": "Latin American Montessori Bilingual PCS",
+	"org_name": "Latin American Montessori Bilingual (LAMB) PCS",
 	"org_code": "0193",
-	"closed": false,
-	"charter": true,
-	"school_type": [
-		"Regular school"
-	 ],
-	"id": "overview",
-	"great_schools": {
-		"gs_url": "http://www.greatschools.org/washington-dc/washington/338-Latin-American-Montessori-Bilingual-LAMB---Missouri-Ave"
-	},
-	"ward": "4",
-	"grades_serviced": ["01","02","03","04","05","KG","PK3","PK4"],
-	"grades_accepted": ["01","02","03","04","05","KG","PK3","PK4"],
-	"description": "The Latin American Montessori Bilingual Public Charter School's mission is to foster bilingualism in a self-directed learning environment in which children build a foundation of knowledge essential for a lifetime of learning.",
-	 "address": {
-		"line_1": "1375 Missouri Ave NW",
-		"line_2": null,
-		"city": "Washington",
-		"state": "DC",
-		"zip": "20011",
-		"lat": 38.96216,
-		"long": -77.0324
-	 },
-	"transit": "53,54; 70; 79; S1; S2,4",
-	"website": "http://www.lambpcs.org",
-	"facebook": null,
-	"twitter": null,
-	"contact": [
-		{
-			"name": "Barrie Lynn Tapia",
-			"title": "Board Chair",
-			"phone": null,
-			"email": null
-		},
-		{
-			"name": "Cristina Encinas",
-			"title": "Principal",
-			"phone": null,
-			"email": null
-		},
-		{
-			"name": "Diane Cottman",
-			"title": "Executive Director",
-			"phone": null,
-			"email": null
-		}
-	]
+	 "exhibit": {
+		"id": "overview",
+			"closed": false,
+			"charter": true,
+			"school_type": [
+				"Regular school"
+			 ],
+			"great_schools": {
+				"gs_url": 
+"http://www.greatschools.org/washington-dc/washington/338-Latin-American-Montessori-Bilingual-LAMB---Missouri-Ave"
+			},
+			"ward": "4",
+			"grades_serviced": ["01","02","03","04","05","KG","PK3","PK4"],
+			"grades_accepted": ["01","02","03","04","05","KG","PK3","PK4"],
+			"description": "The Latin American Montessori Bilingual Public Charter School's mission is to foster bilingualism in a self-directed learning environment in which children build a foundation of knowledge essential for a lifetime of learning.",
+			 "address": {
+				"line_1": "1375 Missouri Ave NW",
+				"line_2": null,
+				"city": "Washington",
+				"state": "DC",
+				"zip": "20011",
+				"lat": 38.96216,
+				"long": -77.0324
+			 },
+			"transit": "53,54; 70; 79; S1; S2,4",
+			"website": "http://www.lambpcs.org",
+			"facebook": null,
+			"twitter": null,
+			"external_report_card": "http://issuu.com/pcsb/docs/dcpcsb_pmf_2013/220",
+			"equity_report_url": 
+"http://osse.dc.gov/sites/default/files/dc/sites/osse/publication/attachments/2013_Equity_Report_PCSB_External_Latin%20American%20Montessori%20Bilingual%20PCS.pdf",
+			"contact": [
+				{
+					"name": "Barrie Lynn Tapia",
+					"title": "Board Chair",
+					"phone": null,
+					"email": null
+				},
+				{
+					"name": "Cristina Encinas",
+					"title": "Principal",
+					"phone": null,
+					"email": null
+				},
+				{
+					"name": "Diane Cottman",
+					"title": "Executive Director",
+					"phone": null,
+					"email": null
+				}
+			]
 }

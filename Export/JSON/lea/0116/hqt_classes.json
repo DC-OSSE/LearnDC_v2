@@ -1,0 +1,57 @@
+{
+"timestamp": "Fri Mar 06 13:46:59 2015",
+"org_type": "lea",
+"org_name": "E.L. HAYNES PCS",
+"org_code": "0116",
+"exhibit": {
+	"id": "hqt",
+	"data":  
+[
+    {
+        "key": {
+            "year": 2014,
+            "school_entity": "All"
+        },
+        "val": {
+            "num_total_classes": 309,
+            "num_hq_classes": 288,
+            "num_nhq_classes": 21
+        }
+    },
+    {
+        "key": {
+            "year": 2014,
+            "school_entity": "LOW"
+        },
+        "val": {
+            "num_total_classes": 309,
+            "num_hq_classes": 288,
+            "num_nhq_classes": 21
+        }
+    },
+    {
+        "key": {
+            "year": 2014,
+            "school_entity": "ELEM"
+        },
+        "val": {
+            "num_total_classes": 97,
+            "num_hq_classes": 97,
+            "num_nhq_classes": 0
+        }
+    },
+    {
+        "key": {
+            "year": 2014,
+            "school_entity": "SEC"
+        },
+        "val": {
+            "num_total_classes": 212,
+            "num_hq_classes": 191,
+            "num_nhq_classes": 21
+        }
+    }
+]
+
+	}
+}

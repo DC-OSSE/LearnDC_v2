@@ -1,52 +1,56 @@
 {
-	"timestamp": "Thu Feb 19 14:50:24 2015",
+	"timestamp": "Fri Feb 27 16:39:35 2015",
 	"org_type": "school",
-	"org_name": "Maya Angelou PCS – Young Adult Learning Center",
+	"org_name": "Maya Angelou PCS-Young Adult Learning Center",
 	"org_code": "0137",
-	"closed": false,
-	"charter": true,
-	"school_type": [
-		"Adult Education"
-	 ],
-	"id": "overview",
-	"great_schools": {
-		"gs_url": "http://www.greatschools.org/washington-dc/washington/913-Maya-Angelou-PCS---Young-Adult-Learning-Center"
-	},
-	"ward": "7",
-	"grades_serviced": ["AO"],
-	"grades_accepted": ["AO"],
-	"description": "Our goal is to help students reach their potential and prepare for college, career and a lifetime of success.",
-	 "address": {
-		"line_1": "5600 E Capitol St NE",
-		"line_2": null,
-		"city": "Washington",
-		"state": "DC",
-		"zip": "20019",
-		"lat": 38.89029,
-		"long": -76.92064
-	 },
-	"transit": "",
-	"website": "http://www.seeforever.org",
-	"facebook": null,
-	"twitter": null,
-	"contact": [
-		{
-			"name": "Heather Wathington, Ph.D.",
-			"title": "Board Chair",
-			"phone": null,
-			"email": null
-		},
-		{
-			"name": "Jose de Olivares",
-			"title": "Principal",
-			"phone": null,
-			"email": null
-		},
-		{
-			"name": "Sarah Navarro",
-			"title": "Director",
-			"phone": null,
-			"email": null
-		}
-	]
+	 "exhibit": {
+		"id": "overview",
+			"closed": false,
+			"charter": true,
+			"school_type": [
+				"Adult Education"
+			 ],
+			"great_schools": {
+				"gs_url": "http://www.greatschools.org/washington-dc/washington/913-Maya-Angelou-PCS---Young-Adult-Learning-Center"
+			},
+			"ward": "7",
+			"grades_serviced": ["AO"],
+			"grades_accepted": ["AO"],
+			"description": "Our goal is to help students reach their potential and prepare for college, career and a lifetime of success.",
+			 "address": {
+				"line_1": "5600 E Capitol St NE",
+				"line_2": null,
+				"city": "Washington",
+				"state": "DC",
+				"zip": "20019",
+				"lat": 38.89029,
+				"long": -76.92064
+			 },
+			"transit": "",
+			"website": "http://www.seeforever.org",
+			"facebook": null,
+			"twitter": null,
+			"external_report_card": "http://issuu.com/pcsb/docs/dcpcsb_pmf_2013/234",
+			"equity_report_url": 
+"http://osse.dc.gov/sites/default/files/dc/sites/osse/publication/attachments/2013_Equity_Report_PCSB_External_Maya%20Angelou%20PCS%20–%20Young%20Adult%20Learning%20Center.pdf",
+			"contact": [
+				{
+					"name": "Heather Wathington, Ph.D.",
+					"title": "Board Chair",
+					"phone": null,
+					"email": null
+				},
+				{
+					"name": "Jose de Olivares",
+					"title": "Principal",
+					"phone": null,
+					"email": null
+				},
+				{
+					"name": "Sarah Navarro",
+					"title": "Director",
+					"phone": null,
+					"email": null
+				}
+			]
 }

@@ -1,40 +1,44 @@
 {
-	"timestamp": "Thu Feb 19 14:50:46 2015",
+	"timestamp": "Fri Feb 27 16:39:53 2015",
 	"org_type": "school",
-	"org_name": "Mann Elementary School",
+	"org_name": "Mann ES",
 	"org_code": "0273",
-	"closed": false,
-	"charter": false,
-	"school_type": [
-		"Regular school"
-	 ],
-	"id": "overview",
-	"great_schools": {
-		"gs_url": "http://www.greatschools.org/washington-dc/washington/29-Mann-Elementary-School"
-	},
-	"ward": "3",
-	"grades_serviced": ["01","02","03","04","05","KG","PK4"],
-	"grades_accepted": ["KG","01","03","04","05","PK4","02"],
-	"description": "A four-time recipient of the U.S. Department of Education Blue Ribbon School Award, Horace Mann Elementary School combines the intimacy of a one-room schoolhouse with a progressive educational program and the global perspective afforded by our diverse, multinational population. Committed to teaching and learning, we also believe that a school community must be a place of joy. We embrace academic choice, game-playing and interaction among learners throughout the building. Our faculty also engages in a continual cycle of renewal and improvement as we strive to be highly responsive to our students' needs and passions.",
-	 "address": {
-		"line_1": "4430 Newark St. NW",
-		"line_2": null,
-		"city": "Washington",
-		"state": "DC",
-		"zip": "20016",
-		"lat": 38.93429,
-		"long": -77.08783
-	 },
-	"transit": "N2, N6 (Friendship Heights - Farragut Square), M4 (Tenleytown Station - Sibley Hospital), N8 (Wesley Heights/Van Ness UDC), N3, N4 (Frienship Heights - Federal Triangle/Farragut Square)",
-	"website": "www.dcps.dc.gov/DCPS/mann",
-	"facebook": "http://www.facebook.com/dcpublicschools",
-	"twitter": null,
-	"contact": [
-		{
-			"name": "Liz Whisnant",
-			"title": "Principal",
-			"phone": "(202) 282-0126",
-			"email": "elizabeth.whisnant@dc.gov"
-		}
-	]
+	 "exhibit": {
+		"id": "overview",
+			"closed": false,
+			"charter": false,
+			"school_type": [
+				"Regular school"
+			 ],
+			"great_schools": {
+				"gs_url": "http://www.greatschools.org/washington-dc/washington/29-Mann-Elementary-School"
+			},
+			"ward": "3",
+			"grades_serviced": ["01","02","03","04","05","KG","PK4"],
+			"grades_accepted": ["KG","01","03","04","05","PK4","02"],
+			"description": "A four-time recipient of the U.S. Department of Education Blue Ribbon School Award, Horace Mann Elementary School combines the intimacy of a one-room schoolhouse with a progressive educational program and the global perspective afforded by our diverse, multinational population. Committed to teaching and learning, we also believe that a school community must be a place of joy. We embrace academic choice, game-playing and interaction among learners throughout the building. Our faculty also engages in a continual cycle of renewal and improvement as we strive to be highly responsive to our students' needs and passions.",
+			 "address": {
+				"line_1": "4430 Newark St. NW",
+				"line_2": null,
+				"city": "Washington",
+				"state": "DC",
+				"zip": "20016",
+				"lat": 38.93429,
+				"long": -77.08783
+			 },
+			"transit": "N2, N6 (Friendship Heights - Farragut Square), M4 (Tenleytown Station - Sibley Hospital), N8 (Wesley Heights/Van Ness UDC), N3, N4 (Frienship Heights - Federal Triangle/Farragut Square)",
+			"website": "www.dcps.dc.gov/DCPS/mann",
+			"facebook": "http://www.facebook.com/dcpublicschools",
+			"twitter": null,
+			"external_report_card": "http://profiles.dcps.dc.gov/Mann+Elementary+School",
+			"equity_report_url": 
+"http://osse.dc.gov/sites/default/files/dc/sites/osse/publication/attachments/2013_Equity_Report_DCPS_External_Mann%20Elementary%20School.pdf",
+			"contact": [
+				{
+					"name": "Liz Whisnant",
+					"title": "Principal",
+					"phone": "(202) 282-0126",
+					"email": "elizabeth.whisnant@dc.gov"
+				}
+			]
 }

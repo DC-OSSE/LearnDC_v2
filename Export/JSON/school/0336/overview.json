@@ -1,40 +1,44 @@
 {
-	"timestamp": "Thu Feb 19 14:50:58 2015",
+	"timestamp": "Fri Feb 27 16:40:02 2015",
 	"org_type": "school",
-	"org_name": "West Education Campus",
+	"org_name": "West EC",
 	"org_code": "0336",
-	"closed": false,
-	"charter": false,
-	"school_type": [
-		"Regular school"
-	 ],
-	"id": "overview",
-	"great_schools": {
-		"gs_url": "http://www.greatschools.org/washington-dc/washington/51-West-Education-Campus"
-	},
-	"ward": "4",
-	"grades_serviced": ["01","02","03","04","05","06","07","08","KG","PK3","PK4"],
-	"grades_accepted": ["PK3","04","05","01","03","08","KG","07","02","06","PK4"],
-	"description": "West Education Campus supports the development of creative and innovative thinkers from preschool through 8th grade. Our learning environment focuses on a personalized educational experience while challenging each student with an interdisciplinary curriculum. West students have universal access to Internet resources, with computers located in every classroom as well as in the computer lab/media center. Our dedicated teachers are committed to ensuring optimal success for all students by supporting their academic development with differentiated approaches as well as social and emotional supports.",
-	 "address": {
-		"line_1": "1338 Farragut St. NW",
-		"line_2": null,
-		"city": "Washington",
-		"state": "DC",
-		"zip": "20011",
-		"lat": 38.95137,
-		"long": -77.03225
-	 },
-	"transit": "60, 64 (Fort Totten-Petworth Line), E2, E4 (Military Road-Crosstown Line), K2 (Takoma-Fort Totten Line), K6 (New Hampshire Ave-Maryland Line), H8 (Park Road-Brookland Line)",
-	"website": "www.dcps.dc.gov/DCPS/west",
-	"facebook": "http://www.facebook.com/WestEducationCampus?ref=ts&__a=8&",
-	"twitter": null,
-	"contact": [
-		{
-			"name": "Andria Caruthers",
-			"title": "Principal",
-			"phone": "(202) 576-6226",
-			"email": "andria.caruthers@dc.gov"
-		}
-	]
+	 "exhibit": {
+		"id": "overview",
+			"closed": false,
+			"charter": false,
+			"school_type": [
+				"Regular school"
+			 ],
+			"great_schools": {
+				"gs_url": "http://www.greatschools.org/washington-dc/washington/51-West-Education-Campus"
+			},
+			"ward": "4",
+			"grades_serviced": ["01","02","03","04","05","06","07","08","KG","PK3","PK4"],
+			"grades_accepted": ["PK3","04","05","01","03","08","KG","07","02","06","PK4"],
+			"description": "West Education Campus supports the development of creative and innovative thinkers from preschool through 8th grade. Our learning environment focuses on a personalized educational experience while challenging each student with an interdisciplinary curriculum. West students have universal access to Internet resources, with computers located in every classroom as well as in the computer lab/media center. Our dedicated teachers are committed to ensuring optimal success for all students by supporting their academic development with differentiated approaches as well as social and emotional supports.",
+			 "address": {
+				"line_1": "1338 Farragut St. NW",
+				"line_2": null,
+				"city": "Washington",
+				"state": "DC",
+				"zip": "20011",
+				"lat": 38.95137,
+				"long": -77.03225
+			 },
+			"transit": "60, 64 (Fort Totten-Petworth Line), E2, E4 (Military Road-Crosstown Line), K2 (Takoma-Fort Totten Line), K6 (New Hampshire Ave-Maryland Line), H8 (Park Road-Brookland Line)",
+			"website": "www.dcps.dc.gov/DCPS/west",
+			"facebook": "http://www.facebook.com/WestEducationCampus?ref=ts&__a=8&",
+			"twitter": null,
+			"external_report_card": "http://profiles.dcps.dc.gov/West+Education+Campus",
+			"equity_report_url": 
+"http://osse.dc.gov/sites/default/files/dc/sites/osse/publication/attachments/2013_Equity_Report_DCPS_External_West%20Education%20Campus.pdf",
+			"contact": [
+				{
+					"name": "Andria Caruthers",
+					"title": "Principal",
+					"phone": "(202) 576-6226",
+					"email": "andria.caruthers@dc.gov"
+				}
+			]
 }

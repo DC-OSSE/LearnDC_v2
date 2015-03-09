@@ -1,40 +1,44 @@
 {
-	"timestamp": "Thu Feb 19 14:51:13 2015",
+	"timestamp": "Fri Feb 27 16:40:12 2015",
 	"org_type": "school",
-	"org_name": "School Without Walls High School",
+	"org_name": "School Without Walls HS",
 	"org_code": "0466",
-	"closed": false,
-	"charter": false,
-	"school_type": [
-		"Magnet School"
-	 ],
-	"id": "overview",
-	"great_schools": {
-		"gs_url": "http://www.greatschools.org/washington-dc/washington/103-School-Without-Walls-High-School"
-	},
-	"ward": "2",
-	"grades_serviced": ["09","10","11","12","UN"],
-	"grades_accepted": ["11","12","10","09"],
-	"description": "School Without Walls (SWW) is a public magnet high school established in 1971 and accredited by the Middle States Association of Colleges and Schools. Over the years, the school has become one of the most outstanding schools in the District of Columbia Public School system. In 2010, Walls was recognized by the U.S. Department of Education as a Blue Ribbon School, a program that honors schools whose students achieve at high levels. Newsweek's 2013 list of America's best high schools ranked School Without Walls as a top school. School Without Walls provides a quality student-centered environment that maximizes integrative, interactive and experiential learning within the framework of a humanities approach. This program is achieved by using the city and the world as a classroom for our students.",
-	 "address": {
-		"line_1": "2130 G St. NW",
-		"line_2": null,
-		"city": "Washington",
-		"state": "DC",
-		"zip": "20037",
-		"lat": 38.89812,
-		"long": -77.04819
-	 },
-	"transit": "31 (Wisconsin Avenue Line), 32, 36 (Pennsylvania Avenue Line), 37 (Wisconsin Avenue Limited Line), 39 (Pennsylvania Avenue Limited Line), 80 (North Capitol Street Line), H1 (Brookland-Potomac Park Line), L1 (Connecticut Ave Line), N3 (Massachusetts Ave Line)",
-	"website": "www.swwhs.org",
-	"facebook": "http://www.facebook.com/dcpublicschools",
-	"twitter": null,
-	"contact": [
-		{
-			"name": "Richard Trogisch",
-			"title": "Principal",
-			"phone": "(202) 645-9690",
-			"email": "richard.trogisch@dc.gov"
-		}
-	]
+	 "exhibit": {
+		"id": "overview",
+			"closed": false,
+			"charter": false,
+			"school_type": [
+				"Magnet School"
+			 ],
+			"great_schools": {
+				"gs_url": "http://www.greatschools.org/washington-dc/washington/103-School-Without-Walls-High-School"
+			},
+			"ward": "2",
+			"grades_serviced": ["09","10","11","12","UN"],
+			"grades_accepted": ["11","12","10","09"],
+			"description": "School Without Walls (SWW) is a public magnet high school established in 1971 and accredited by the Middle States Association of Colleges and Schools. Over the years, the school has become one of the most outstanding schools in the District of Columbia Public School system. In 2010, Walls was recognized by the U.S. Department of Education as a Blue Ribbon School, a program that honors schools whose students achieve at high levels. Newsweek's 2013 list of America's best high schools ranked School Without Walls as a top school. School Without Walls provides a quality student-centered environment that maximizes integrative, interactive and experiential learning within the framework of a humanities approach. This program is achieved by using the city and the world as a classroom for our students.",
+			 "address": {
+				"line_1": "2130 G St. NW",
+				"line_2": null,
+				"city": "Washington",
+				"state": "DC",
+				"zip": "20037",
+				"lat": 38.89812,
+				"long": -77.04819
+			 },
+			"transit": "31 (Wisconsin Avenue Line), 32, 36 (Pennsylvania Avenue Line), 37 (Wisconsin Avenue Limited Line), 39 (Pennsylvania Avenue Limited Line), 80 (North Capitol Street Line), H1 (Brookland-Potomac Park Line), L1 (Connecticut Ave Line), N3 (Massachusetts Ave Line)",
+			"website": "www.swwhs.org",
+			"facebook": "http://www.facebook.com/dcpublicschools",
+			"twitter": null,
+			"external_report_card": "http://profiles.dcps.dc.gov/School+Without+Walls+High+School",
+			"equity_report_url": 
+"http://osse.dc.gov/sites/default/files/dc/sites/osse/publication/attachments/2013_Equity_Report_DCPS_External_School%20Without%20Walls%20High%20School.pdf",
+			"contact": [
+				{
+					"name": "Richard Trogisch",
+					"title": "Principal",
+					"phone": "(202) 645-9690",
+					"email": "richard.trogisch@dc.gov"
+				}
+			]
 }

@@ -1,40 +1,44 @@
 {
-	"timestamp": "Thu Feb 19 14:50:36 2015",
+	"timestamp": "Fri Feb 27 16:39:45 2015",
 	"org_type": "school",
-	"org_name": "Beers Elementary School",
+	"org_name": "Beers ES",
 	"org_code": "0206",
-	"closed": false,
-	"charter": false,
-	"school_type": [
-		"Regular school"
-	 ],
-	"id": "overview",
-	"great_schools": {
-		"gs_url": "http://www.greatschools.org/washington-dc/washington/93-Beers-Elementary-School"
-	},
-	"ward": "7",
-	"grades_serviced": ["01","02","03","04","05","KG","PK3","PK4"],
-	"grades_accepted": ["PK4","01","02","PK3","KG","04","05","03"],
-	"description": "Anne Beers Elementary School provides a strong focus on Science, Technology, Engineering and Mathematics (STEM) and Beers remains the only NASA Explorer School in the District of Columbia. Beers implements blended learning using ST Math, Study Island and other technology learning programs. Community and business partnerships enhance and support student learning. A Beers student engages in a variety of learning opportunities which integrate subject matter in a holistic manner. This school year we are enhancing our performance-based learning (PBL) opportunities to increase relevance and strengthen the real-world connection for our students. Upon promotion from Beers a student will be a global citizen who is caring, collaborative, critical in their thinking, solution-oriented and ready to assume leadership roles.",
-	 "address": {
-		"line_1": "3600 Alabama Ave. SE",
-		"line_2": null,
-		"city": "Washington",
-		"state": "DC",
-		"zip": "20020",
-		"lat": 38.86435,
-		"long": -76.9556
-	 },
-	"transit": "W4 (Deanwood Station - Anacostia Station), V5, M2 (L'Enfant Plaza - Fairfax Village), 36 (Friendship Heights - Naylor Road Station), 39 (Potomac Park - Naylor Rd Station), F14 (New Carrolton - Naylor Rd Station), 34 (Suitland Station)",
-	"website": "www.dcps.dc.gov/DCPS/beers",
-	"facebook": "http://www.facebook.com/dcpublicschools",
-	"twitter": null,
-	"contact": [
-		{
-			"name": "Gwendolyn Payton",
-			"title": "Principal",
-			"phone": "(202) 939-4800",
-			"email": "gwendolyn.payton@dc.gov"
-		}
-	]
+	 "exhibit": {
+		"id": "overview",
+			"closed": false,
+			"charter": false,
+			"school_type": [
+				"Regular school"
+			 ],
+			"great_schools": {
+				"gs_url": "http://www.greatschools.org/washington-dc/washington/93-Beers-Elementary-School"
+			},
+			"ward": "7",
+			"grades_serviced": ["01","02","03","04","05","KG","PK3","PK4"],
+			"grades_accepted": ["PK4","01","02","PK3","KG","04","05","03"],
+			"description": "Anne Beers Elementary School provides a strong focus on Science, Technology, Engineering and Mathematics (STEM) and Beers remains the only NASA Explorer School in the District of Columbia. Beers implements blended learning using ST Math, Study Island and other technology learning programs. Community and business partnerships enhance and support student learning. A Beers student engages in a variety of learning opportunities which integrate subject matter in a holistic manner. This school year we are enhancing our performance-based learning (PBL) opportunities to increase relevance and strengthen the real-world connection for our students. Upon promotion from Beers a student will be a global citizen who is caring, collaborative, critical in their thinking, solution-oriented and ready to assume leadership roles.",
+			 "address": {
+				"line_1": "3600 Alabama Ave. SE",
+				"line_2": null,
+				"city": "Washington",
+				"state": "DC",
+				"zip": "20020",
+				"lat": 38.86435,
+				"long": -76.9556
+			 },
+			"transit": "W4 (Deanwood Station - Anacostia Station), V5, M2 (L'Enfant Plaza - Fairfax Village), 36 (Friendship Heights - Naylor Road Station), 39 (Potomac Park - Naylor Rd Station), F14 (New Carrolton - Naylor Rd Station), 34 (Suitland Station)",
+			"website": "www.dcps.dc.gov/DCPS/beers",
+			"facebook": "http://www.facebook.com/dcpublicschools",
+			"twitter": null,
+			"external_report_card": "http://profiles.dcps.dc.gov/Beers+Elementary+School",
+			"equity_report_url": 
+"http://osse.dc.gov/sites/default/files/dc/sites/osse/publication/attachments/2013_Equity_Report_DCPS_External_Beers%20Elementary%20School.pdf",
+			"contact": [
+				{
+					"name": "Gwendolyn Payton",
+					"title": "Principal",
+					"phone": "(202) 939-4800",
+					"email": "gwendolyn.payton@dc.gov"
+				}
+			]
 }

@@ -1,0 +1,37 @@
+{
+"timestamp": "Fri Mar 06 13:45:26 2015",
+"org_type": "school",
+"org_name": "HARDY MS",
+"org_code": "0246",
+"exhibit": {
+	"id": "hqt",
+	"data":  
+[
+    {
+        "key": {
+            "year": 2014,
+            "school_category": "SEC",
+            "poverty_quartile": "LOW"
+        },
+        "val": {
+            "num_total_classes": 86,
+            "num_hq_classes": 70,
+            "num_nhq_classes": 16
+        }
+    },
+    {
+        "key": {
+            "year": 2014,
+            "school_category": "SEC",
+            "poverty_quartile": "LOW"
+        },
+        "val": {
+            "num_total_classes": 25,
+            "num_hq_classes": 15,
+            "num_nhq_classes": 10
+        }
+    }
+]
+
+	}
+}

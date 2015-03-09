@@ -1,52 +1,56 @@
 {
-	"timestamp": "Thu Feb 19 14:50:26 2015",
+	"timestamp": "Fri Feb 27 16:39:36 2015",
 	"org_type": "school",
-	"org_name": "E.L. Haynes PCS – Georgia Avenue",
+	"org_name": "E.L. Haynes PCS - Middle School",
 	"org_code": "0146",
-	"closed": false,
-	"charter": true,
-	"school_type": [
-		"Regular school"
-	 ],
-	"id": "overview",
-	"great_schools": {
-		"gs_url": "http://www.greatschools.org/washington-dc/washington/367-E.L.-Haynes-PCS---Georgia-Avenue"
-	},
-	"ward": "1",
-	"grades_serviced": ["05","06","07","08"],
-	"grades_accepted": ["05","06","07","08"],
-	"description": "Every E.L. Haynes student of every race, socioeconomic status, and home language will reach high levels of academic achievement and be prepared to succeed at the college of his or her choice. Every E.L. Haynes student will be adept at mathematical reasoning, will use scientific methods effectively to frame and solve problems, and will develop the lifelong skills needed to be successful individuals, active community members, and responsible citizens.",
-	 "address": {
-		"line_1": "3600 Georgia Ave NW",
-		"line_2": null,
-		"city": "Washington",
-		"state": "DC",
-		"zip": "20010",
-		"lat": 38.93432,
-		"long": -77.02424
-	 },
-	"transit": "Georgia Avenue-Petworth Metro Station/62,63; 70; 79",
-	"website": "http://www.elhaynes.org",
-	"facebook": null,
-	"twitter": null,
-	"contact": [
-		{
-			"name": "Michael Hall",
-			"title": "Board Chair",
-			"phone": null,
-			"email": null
-		},
-		{
-			"name": "Towana Pierre-Floyd (6–8); Michelle Molitor (4–5)",
-			"title": "Principal",
-			"phone": null,
-			"email": null
-		},
-		{
-			"name": "Jennifer C. Niles",
-			"title": "Executive Director",
-			"phone": null,
-			"email": null
-		}
-	]
+	 "exhibit": {
+		"id": "overview",
+			"closed": false,
+			"charter": true,
+			"school_type": [
+				"Regular school"
+			 ],
+			"great_schools": {
+				"gs_url": "http://www.greatschools.org/washington-dc/washington/367-E.L.-Haynes-PCS---Georgia-Avenue"
+			},
+			"ward": "1",
+			"grades_serviced": ["05","06","07","08"],
+			"grades_accepted": ["05","06","07","08"],
+			"description": "Every E.L. Haynes student of every race, socioeconomic status, and home language will reach high levels of academic achievement and be prepared to succeed at the college of his or her choice. Every E.L. Haynes student will be adept at mathematical reasoning, will use scientific methods effectively to frame and solve problems, and will develop the lifelong skills needed to be successful individuals, active community members, and responsible citizens.",
+			 "address": {
+				"line_1": "3600 Georgia Ave NW",
+				"line_2": null,
+				"city": "Washington",
+				"state": "DC",
+				"zip": "20010",
+				"lat": 38.93432,
+				"long": -77.02424
+			 },
+			"transit": "Georgia Avenue-Petworth Metro Station/62,63; 70; 79",
+			"website": "http://www.elhaynes.org",
+			"facebook": null,
+			"twitter": null,
+			"external_report_card": "http://issuu.com/pcsb/docs/dcpcsb_pmf_2013/127",
+			"equity_report_url": 
+"http://osse.dc.gov/sites/default/files/dc/sites/osse/publication/attachments/2013_Equity_Report_PCSB_External_E.L.%20Haynes%20PCS%20–%20Georgia%20Avenue.pdf",
+			"contact": [
+				{
+					"name": "Richard Pohlman",
+					"title": "Acting HOS and Chief of Operation",
+					"phone": "202-667-4446",
+					"email": null
+				},
+				{
+					"name": "Towana Pierre-Floyd (6–8); Michelle Molitor (4–5)",
+					"title": "Principal",
+					"phone": null,
+					"email": null
+				},
+				{
+					"name": "Jennifer C. Niles",
+					"title": "Executive Director",
+					"phone": null,
+					"email": null
+				}
+			]
 }

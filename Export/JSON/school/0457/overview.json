@@ -1,40 +1,44 @@
 {
-	"timestamp": "Thu Feb 19 14:51:10 2015",
+	"timestamp": "Fri Feb 27 16:40:10 2015",
 	"org_type": "school",
-	"org_name": "Eastern High School",
+	"org_name": "Eastern HS",
 	"org_code": "0457",
-	"closed": false,
-	"charter": false,
-	"school_type": [
-		"Vocational Shared Time"
-	 ],
-	"id": "overview",
-	"great_schools": {
-		"gs_url": "http://www.greatschools.org/washington-dc/washington/61-Eastern-High-School"
-	},
-	"ward": "6",
-	"grades_serviced": ["09","10","11","12"],
-	"grades_accepted": ["11","12","10","09"],
-	"description": "Eastern High School provides engaging, college preparatory coursework and extracurricular learning experiences that ensure all students graduate with the content knowledge, character and confidence to serve as innovative, inclusive global leaders. Eastern enrolled 9th through 11th grade students for the fall of 2013, and will grow to 12th grade in 2014 in order to strategically design a rigorous, well-rounded high school experience for every student. The 825 students in the Class of 2015, 2016, and 2017, with support from exemplary teachers and a diverse set of community partners, will build upon rich traditions and set a course of excellence in our newly restored campus and LEED Gold certified building. In 2013 we were authorized as an International Baccalaureate (IB) Diploma Programme World School and are expected to become authorized as an IB Middle Years Programme school in 2016.",
-	 "address": {
-		"line_1": "1700 East Capitol St. NE",
-		"line_2": null,
-		"city": "Washington",
-		"state": "DC",
-		"zip": "20003",
-		"lat": 38.8904,
-		"long": -76.97968
-	 },
-	"transit": "96, 97 (East Capitol Street-Cardozo Line), B2 (Bladensburg Road-Anacostia Line), D6 (Sibley Hospital-Stadium/Armory Line), E32 (Eastern High School Line)",
-	"website": "http://www.easternhighschooldc.org",
-	"facebook": "www.facebook.com/easternhighschool",
-	"twitter": null,
-	"contact": [
-		{
-			"name": "Rachel Skerritt",
-			"title": "Principal",
-			"phone": "(202) 698-4500",
-			"email": "rachel.skerritt@dc.gov"
-		}
-	]
+	 "exhibit": {
+		"id": "overview",
+			"closed": false,
+			"charter": false,
+			"school_type": [
+				"Vocational Shared Time"
+			 ],
+			"great_schools": {
+				"gs_url": "http://www.greatschools.org/washington-dc/washington/61-Eastern-High-School"
+			},
+			"ward": "6",
+			"grades_serviced": ["09","10","11","12"],
+			"grades_accepted": ["11","12","10","09"],
+			"description": "Eastern High School provides engaging, college preparatory coursework and extracurricular learning experiences that ensure all students graduate with the content knowledge, character and confidence to serve as innovative, inclusive global leaders. Eastern enrolled 9th through 11th grade students for the fall of 2013, and will grow to 12th grade in 2014 in order to strategically design a rigorous, well-rounded high school experience for every student. The 825 students in the Class of 2015, 2016, and 2017, with support from exemplary teachers and a diverse set of community partners, will build upon rich traditions and set a course of excellence in our newly restored campus and LEED Gold certified building. In 2013 we were authorized as an International Baccalaureate (IB) Diploma Programme World School and are expected to become authorized as an IB Middle Years Programme school in 2016.",
+			 "address": {
+				"line_1": "1700 East Capitol St. NE",
+				"line_2": null,
+				"city": "Washington",
+				"state": "DC",
+				"zip": "20003",
+				"lat": 38.8904,
+				"long": -76.97968
+			 },
+			"transit": "96, 97 (East Capitol Street-Cardozo Line), B2 (Bladensburg Road-Anacostia Line), D6 (Sibley Hospital-Stadium/Armory Line), E32 (Eastern High School Line)",
+			"website": "http://www.easternhighschooldc.org",
+			"facebook": "www.facebook.com/easternhighschool",
+			"twitter": null,
+			"external_report_card": "http://profiles.dcps.dc.gov/Eastern+High+School",
+			"equity_report_url": 
+"http://osse.dc.gov/sites/default/files/dc/sites/osse/publication/attachments/2013_Equity_Report_DCPS_External_Eastern%20High%20School.pdf",
+			"contact": [
+				{
+					"name": "Rachel Skerritt",
+					"title": "Principal",
+					"phone": "(202) 698-4500",
+					"email": "rachel.skerritt@dc.gov"
+				}
+			]
 }

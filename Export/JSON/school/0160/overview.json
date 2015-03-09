@@ -1,46 +1,50 @@
 {
-	"timestamp": "Thu Feb 19 14:50:27 2015",
+	"timestamp": "Fri Feb 27 16:39:38 2015",
 	"org_type": "school",
-	"org_name": "Hospitality High PCS",
+	"org_name": "Hospitality High School",
 	"org_code": "0160",
-	"closed": false,
-	"charter": true,
-	"school_type": [
-		"Vocational Shared Time"
-	 ],
-	"id": "overview",
-	"great_schools": {
-		"gs_url": null
-	},
-	"ward": "1",
-	"grades_serviced": ["09","10","11","12"],
-	"grades_accepted": ["09","10","11","12"],
-	"description": "The mission of Hospitality Public Charter High School is to ensure that students have access to an excellent educational program designed to promote success in college and in the hospitality industry.",
-	 "address": {
-		"line_1": "1851 9th Street NW",
-		"line_2": null,
-		"city": "Washington",
-		"state": "DC",
-		"zip": "20001",
-		"lat": 38.91537,
-		"long": -77.02364
-	 },
-	"transit": "52,53,54",
-	"website": "http://www.washingtonhospitality.org",
-	"facebook": null,
-	"twitter": null,
-	"contact": [
-		{
-			"name": "Michael Durso",
-			"title": "Board Chair",
-			"phone": null,
-			"email": null
-		},
-		{
-			"name": "Rodney McBride",
-			"title": "Principal",
-			"phone": null,
-			"email": null
-		}
-	]
+	 "exhibit": {
+		"id": "overview",
+			"closed": false,
+			"charter": true,
+			"school_type": [
+				"Vocational Shared Time"
+			 ],
+			"great_schools": {
+				"gs_url": null
+			},
+			"ward": "1",
+			"grades_serviced": ["09","10","11","12"],
+			"grades_accepted": ["09","10","11","12"],
+			"description": "The mission of Hospitality Public Charter High School is to ensure that students have access to an excellent educational program designed to promote success in college and in the hospitality industry.",
+			 "address": {
+				"line_1": "1851 9th Street NW",
+				"line_2": null,
+				"city": "Washington",
+				"state": "DC",
+				"zip": "20001",
+				"lat": 38.91537,
+				"long": -77.02364
+			 },
+			"transit": "52,53,54",
+			"website": "http://www.washingtonhospitality.org",
+			"facebook": null,
+			"twitter": null,
+			"external_report_card": "http://issuu.com/pcsb/docs/dcpcsb_pmf_2013/180",
+			"equity_report_url": 
+"http://osse.dc.gov/sites/default/files/dc/sites/osse/publication/attachments/2013_Equity_Report_PCSB_External_Hospitality%20High%20PCS.pdf",
+			"contact": [
+				{
+					"name": "Michael Durso",
+					"title": "Board Chair",
+					"phone": null,
+					"email": null
+				},
+				{
+					"name": "Rodney McBride",
+					"title": "Principal",
+					"phone": null,
+					"email": null
+				}
+			]
 }

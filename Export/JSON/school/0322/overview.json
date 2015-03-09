@@ -1,40 +1,44 @@
 {
-	"timestamp": "Thu Feb 19 14:50:54 2015",
+	"timestamp": "Fri Feb 27 16:40:00 2015",
 	"org_type": "school",
-	"org_name": "Smothers Elementary School",
+	"org_name": "Smothers ES",
 	"org_code": "0322",
-	"closed": false,
-	"charter": false,
-	"school_type": [
-		"Regular school"
-	 ],
-	"id": "overview",
-	"great_schools": {
-		"gs_url": "http://www.greatschools.org/washington-dc/washington/48-Smothers-Elementary-School"
-	},
-	"ward": "7",
-	"grades_serviced": ["01","02","03","04","05","KG","PK3","PK4"],
-	"grades_accepted": ["03","PK3","04","05","02","PK4","KG","01"],
-	"description": "Smothers Elementary School is a small, close-knit community that challenges scholars academically in a safe and disciplined environment. In addition to our core curriculum, our scholars participate in art, music, physical education, Spanish and new technological ways of learning. We also offer a variety of extracurricular activities including a structured afterschool program, Boy Scouts, Girl Scouts, tennis and tutoring sessions for interested scholars. At Smothers, we assist our scholars in realizing their potential while helping them develop into well-rounded and productive citizens.",
-	 "address": {
-		"line_1": "4400 Brooks St. NE",
-		"line_2": null,
-		"city": "Washington",
-		"state": "DC",
-		"zip": "20019",
-		"lat": 38.89355,
-		"long": -76.93847
-	 },
-	"transit": "U8 (Capitol/Benning Heights), 97 (Union Station - Capitol Heights), U5, U6 (Mayfair/Marshall Heights/Minnesota Ave), 96 (McLean Gardens - Capitol Heights Station), W4 (Deanwood - Anacostia)",
-	"website": "www.dcps.dc.gov/DCPS/smothers",
-	"facebook": "http://www.facebook.com/SmothersES?ref=ts",
-	"twitter": null,
-	"contact": [
-		{
-			"name": "Shannon Feinblatt",
-			"title": "Principal",
-			"phone": "(202) 939-3600",
-			"email": "shannon.feinblatt@dc.gov"
-		}
-	]
+	 "exhibit": {
+		"id": "overview",
+			"closed": false,
+			"charter": false,
+			"school_type": [
+				"Regular school"
+			 ],
+			"great_schools": {
+				"gs_url": "http://www.greatschools.org/washington-dc/washington/48-Smothers-Elementary-School"
+			},
+			"ward": "7",
+			"grades_serviced": ["01","02","03","04","05","KG","PK3","PK4"],
+			"grades_accepted": ["03","PK3","04","05","02","PK4","KG","01"],
+			"description": "Smothers Elementary School is a small, close-knit community that challenges scholars academically in a safe and disciplined environment. In addition to our core curriculum, our scholars participate in art, music, physical education, Spanish and new technological ways of learning. We also offer a variety of extracurricular activities including a structured afterschool program, Boy Scouts, Girl Scouts, tennis and tutoring sessions for interested scholars. At Smothers, we assist our scholars in realizing their potential while helping them develop into well-rounded and productive citizens.",
+			 "address": {
+				"line_1": "4400 Brooks St. NE",
+				"line_2": null,
+				"city": "Washington",
+				"state": "DC",
+				"zip": "20019",
+				"lat": 38.89355,
+				"long": -76.93847
+			 },
+			"transit": "U8 (Capitol/Benning Heights), 97 (Union Station - Capitol Heights), U5, U6 (Mayfair/Marshall Heights/Minnesota Ave), 96 (McLean Gardens - Capitol Heights Station), W4 (Deanwood - Anacostia)",
+			"website": "www.dcps.dc.gov/DCPS/smothers",
+			"facebook": "http://www.facebook.com/SmothersES?ref=ts",
+			"twitter": null,
+			"external_report_card": "http://profiles.dcps.dc.gov/Smothers+Elementary+School",
+			"equity_report_url": 
+"http://osse.dc.gov/sites/default/files/dc/sites/osse/publication/attachments/2013_Equity_Report_DCPS_External_Smothers%20Elementary%20School.pdf",
+			"contact": [
+				{
+					"name": "Shannon Feinblatt",
+					"title": "Principal",
+					"phone": "(202) 939-3600",
+					"email": "shannon.feinblatt@dc.gov"
+				}
+			]
 }

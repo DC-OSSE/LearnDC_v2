@@ -1,0 +1,37 @@
+{
+"timestamp": "Fri Mar 06 13:45:28 2015",
+"org_type": "school",
+"org_name": "JOHNSON  JOHN HAYDEN MS",
+"org_code": "0416",
+"exhibit": {
+	"id": "hqt",
+	"data":  
+[
+    {
+        "key": {
+            "year": 2014,
+            "school_category": "SEC",
+            "poverty_quartile": "HIGH"
+        },
+        "val": {
+            "num_total_classes": 58,
+            "num_hq_classes": 23,
+            "num_nhq_classes": 35
+        }
+    },
+    {
+        "key": {
+            "year": 2014,
+            "school_category": "SEC",
+            "poverty_quartile": "HIGH"
+        },
+        "val": {
+            "num_total_classes": 16,
+            "num_hq_classes": 4,
+            "num_nhq_classes": 12
+        }
+    }
+]
+
+	}
+}

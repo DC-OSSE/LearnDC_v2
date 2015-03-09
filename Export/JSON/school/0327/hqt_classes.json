@@ -1,0 +1,37 @@
+{
+"timestamp": "Fri Mar 06 13:45:27 2015",
+"org_type": "school",
+"org_name": "TRUESDELL EC",
+"org_code": "0327",
+"exhibit": {
+	"id": "hqt",
+	"data":  
+[
+    {
+        "key": {
+            "year": 2014,
+            "school_category": "ELEM",
+            "poverty_quartile": "MIDDLE"
+        },
+        "val": {
+            "num_total_classes": 20,
+            "num_hq_classes": 18,
+            "num_nhq_classes": 2
+        }
+    },
+    {
+        "key": {
+            "year": 2014,
+            "school_category": "ELEM",
+            "poverty_quartile": "MIDDLE"
+        },
+        "val": {
+            "num_total_classes": 27,
+            "num_hq_classes": 18,
+            "num_nhq_classes": 9
+        }
+    }
+]
+
+	}
+}

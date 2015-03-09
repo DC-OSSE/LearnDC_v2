@@ -1,46 +1,50 @@
 {
-	"timestamp": "Thu Feb 19 14:50:28 2015",
+	"timestamp": "Fri Feb 27 16:39:38 2015",
 	"org_type": "school",
 	"org_name": "Meridian PCS",
 	"org_code": "0165",
-	"closed": false,
-	"charter": true,
-	"school_type": [
-		"Regular school"
-	 ],
-	"id": "overview",
-	"great_schools": {
-		"gs_url": "http://www.greatschools.org/washington-dc/washington/262-Meridian-PCS"
-	},
-	"ward": "1",
-	"grades_serviced": ["01","02","03","04","05","06","07","08","KG","PK3","PK4"],
-	"grades_accepted": ["PK3","PK4","KG","01","02","03","04","05","06","07","08"],
-	"description": "The mission of Meridian Public Charter School is to instill within our students a passion for learning and to build self-confidence and self-respect through academic achievement. It is our goal to ensure each student achieves the highest possible level in Reading and Mathematics. The love of learning and the foundation of knowledge and skills that our students acquire will serve them throughout their lifetime!",
-	 "address": {
-		"line_1": "2120 13th St NW",
-		"line_2": null,
-		"city": "Washington",
-		"state": "DC",
-		"zip": "20009",
-		"lat": 38.91875,
-		"long": -77.02995
-	 },
-	"transit": "U Street Metro Station/52,53,54; 90,92,93; 96",
-	"website": "https://mpcs.learningstation.com/school",
-	"facebook": null,
-	"twitter": null,
-	"contact": [
-		{
-			"name": "Christopher Siddall",
-			"title": "Board Chair",
-			"phone": null,
-			"email": null
-		},
-		{
-			"name": "Robinette Breedlove",
-			"title": "Principal",
-			"phone": null,
-			"email": null
-		}
-	]
+	 "exhibit": {
+		"id": "overview",
+			"closed": false,
+			"charter": true,
+			"school_type": [
+				"Regular school"
+			 ],
+			"great_schools": {
+				"gs_url": "http://www.greatschools.org/washington-dc/washington/262-Meridian-PCS"
+			},
+			"ward": "1",
+			"grades_serviced": ["01","02","03","04","05","06","07","08","KG","PK3","PK4"],
+			"grades_accepted": ["PK3","PK4","KG","01","02","03","04","05","06","07","08"],
+			"description": "The mission of Meridian Public Charter School is to instill within our students a passion for learning and to build self-confidence and self-respect through academic achievement. It is our goal to ensure each student achieves the highest possible level in Reading and Mathematics. The love of learning and the foundation of knowledge and skills that our students acquire will serve them throughout their lifetime!",
+			 "address": {
+				"line_1": "2120 13th St NW",
+				"line_2": null,
+				"city": "Washington",
+				"state": "DC",
+				"zip": "20009",
+				"lat": 38.91875,
+				"long": -77.02995
+			 },
+			"transit": "U Street Metro Station/52,53,54; 90,92,93; 96",
+			"website": "https://mpcs.learningstation.com/school",
+			"facebook": null,
+			"twitter": null,
+			"external_report_card": "http://issuu.com/pcsb/docs/dcpcsb_pmf_2013/236",
+			"equity_report_url": 
+"http://osse.dc.gov/sites/default/files/dc/sites/osse/publication/attachments/2013_Equity_Report_PCSB_External_Meridian%20PCS.pdf",
+			"contact": [
+				{
+					"name": "Christopher Siddall",
+					"title": "Board Chair",
+					"phone": null,
+					"email": null
+				},
+				{
+					"name": "Robinette Breedlove",
+					"title": "Principal",
+					"phone": null,
+					"email": null
+				}
+			]
 }

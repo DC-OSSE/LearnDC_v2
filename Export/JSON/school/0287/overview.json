@@ -1,40 +1,44 @@
 {
-	"timestamp": "Thu Feb 19 14:50:47 2015",
+	"timestamp": "Fri Feb 27 16:39:54 2015",
 	"org_type": "school",
-	"org_name": "Murch Elementary School",
+	"org_name": "Murch ES",
 	"org_code": "0287",
-	"closed": false,
-	"charter": false,
-	"school_type": [
-		"Regular school"
-	 ],
-	"id": "overview",
-	"great_schools": {
-		"gs_url": "http://www.greatschools.org/washington-dc/washington/1-Murch-Elementary-School"
-	},
-	"ward": "3",
-	"grades_serviced": ["01","02","03","04","05","KG","PK3","PK4","UN"],
-	"grades_accepted": ["KG","01","PK4","04","05","02","03"],
-	"description": "Murch is a Pre-K through 5th grade school.  As an organization, we believe in continuous improvement and a focus on results. Our teachers are expected to collaborate in order to provide quality instruction. Our vision for learning focuses on providing individualized learning opportunities in differentiated classrooms.  We provide enrichment for students who need a greater challenge and intervention for those students who struggle with the formal curriculum. We have many opportunities for students to be involved in after school clubs and activities. Murch is a strong and tight-knit community that celebrates its diversity.",
-	 "address": {
-		"line_1": "4810 36th St. NW",
-		"line_2": null,
-		"city": "Washington",
-		"state": "DC",
-		"zip": "20008",
-		"lat": 38.95293,
-		"long": -77.07008
-	 },
-	"transit": "L1, L2, L4 (Chevy Chase Circle - Potomac Park/McPherson Sq/Dupont Circle), M4 (Pinehurst Circle - Sibley Hospital)",
-	"website": "www.murchschool.org",
-	"facebook": "http://www.facebook.com/dcpublicschools",
-	"twitter": null,
-	"contact": [
-		{
-			"name": "Chris Cebrzynski",
-			"title": "Principal",
-			"phone": "(202) 282-0130",
-			"email": "chris.cebrzynski@dc.gov"
-		}
-	]
+	 "exhibit": {
+		"id": "overview",
+			"closed": false,
+			"charter": false,
+			"school_type": [
+				"Regular school"
+			 ],
+			"great_schools": {
+				"gs_url": "http://www.greatschools.org/washington-dc/washington/1-Murch-Elementary-School"
+			},
+			"ward": "3",
+			"grades_serviced": ["01","02","03","04","05","KG","PK3","PK4","UN"],
+			"grades_accepted": ["KG","01","PK4","04","05","02","03"],
+			"description": "Murch is a Pre-K through 5th grade school.  As an organization, we believe in continuous improvement and a focus on results. Our teachers are expected to collaborate in order to provide quality instruction. Our vision for learning focuses on providing individualized learning opportunities in differentiated classrooms.  We provide enrichment for students who need a greater challenge and intervention for those students who struggle with the formal curriculum. We have many opportunities for students to be involved in after school clubs and activities. Murch is a strong and tight-knit community that celebrates its diversity.",
+			 "address": {
+				"line_1": "4810 36th St. NW",
+				"line_2": null,
+				"city": "Washington",
+				"state": "DC",
+				"zip": "20008",
+				"lat": 38.95293,
+				"long": -77.07008
+			 },
+			"transit": "L1, L2, L4 (Chevy Chase Circle - Potomac Park/McPherson Sq/Dupont Circle), M4 (Pinehurst Circle - Sibley Hospital)",
+			"website": "www.murchschool.org",
+			"facebook": "http://www.facebook.com/dcpublicschools",
+			"twitter": null,
+			"external_report_card": "http://profiles.dcps.dc.gov/Murch+Elementary+School",
+			"equity_report_url": 
+"http://osse.dc.gov/sites/default/files/dc/sites/osse/publication/attachments/2013_Equity_Report_DCPS_External_Murch%20Elementary%20School.pdf",
+			"contact": [
+				{
+					"name": "Chris Cebrzynski",
+					"title": "Principal",
+					"phone": "(202) 282-0130",
+					"email": "chris.cebrzynski@dc.gov"
+				}
+			]
 }

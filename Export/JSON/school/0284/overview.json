@@ -1,40 +1,44 @@
 {
-	"timestamp": "Thu Feb 19 14:50:46 2015",
+	"timestamp": "Fri Feb 27 16:39:54 2015",
 	"org_type": "school",
-	"org_name": "Marie Reed Elementary School",
+	"org_name": "Marie Reed ES",
 	"org_code": "0284",
-	"closed": false,
-	"charter": false,
-	"school_type": [
-		"Regular school"
-	 ],
-	"id": "overview",
-	"great_schools": {
-		"gs_url": "http://www.greatschools.org/washington-dc/washington/26-Marie-Reed-Elementary-School"
-	},
-	"ward": "1",
-	"grades_serviced": ["01","02","03","04","05","KG","PK3","PK4"],
-	"grades_accepted": ["05","02","PK3","04","KG","01","PK4","03"],
-	"description": "Marie Reed is a wonderfully diverse school located in the Adams Morgan section of Washington, DC. Marie Reed is proud of its many services and course offerings. We offer English monolingual and English-Spanish Dual Language strands as learning environments for our children. In either case, our teachers are dedicated to creating rigorous, authentic learning experiences in every class at every level. Our parent community is active, as evidenced by our wonderful PTA that sponsors several successful events every school year and has raised thousands of dollars. We're preparing all students for college and professional futures starting right now!",
-	 "address": {
-		"line_1": "2201 18th St. NW",
-		"line_2": null,
-		"city": "Washington",
-		"state": "DC",
-		"zip": "20009",
-		"lat": 38.91911,
-		"long": -77.04082
-	 },
-	"transit": "90, 92, 93 (Ellington Bridge - Anacostia/Congress Heights Station), 96 (Stadium Armory - McLean Gardens), X3 (Minnesota Ave - McLean Gardens), L1, L2, L4 (McPherson Sq/Potomac Park - Chevy Chase Circle), 42, 43 (Mt Pleasant - Metro Center/Farragut Sq), DC98 (Woodley Park/Adams Morgan - McPherson Sq), S1, S2 (16th & Colorada Ave - Potomac Park/Federal Triangle), S4 (Silver Spring - Federal Triangle)",
-	"website": "www.dcps.dc.gov/DCPS/mariehreed",
-	"facebook": "http://www.facebook.com/MarieReedES?ref=ts",
-	"twitter": null,
-	"contact": [
-		{
-			"name": "Eugene Pinkard",
-			"title": "Principal",
-			"phone": "(202) 673-7308",
-			"email": "eugene.pinkard@dc.gov"
-		}
-	]
+	 "exhibit": {
+		"id": "overview",
+			"closed": false,
+			"charter": false,
+			"school_type": [
+				"Regular school"
+			 ],
+			"great_schools": {
+				"gs_url": "http://www.greatschools.org/washington-dc/washington/26-Marie-Reed-Elementary-School"
+			},
+			"ward": "1",
+			"grades_serviced": ["01","02","03","04","05","KG","PK3","PK4"],
+			"grades_accepted": ["05","02","PK3","04","KG","01","PK4","03"],
+			"description": "Marie Reed is a wonderfully diverse school located in the Adams Morgan section of Washington, DC. Marie Reed is proud of its many services and course offerings. We offer English monolingual and English-Spanish Dual Language strands as learning environments for our children. In either case, our teachers are dedicated to creating rigorous, authentic learning experiences in every class at every level. Our parent community is active, as evidenced by our wonderful PTA that sponsors several successful events every school year and has raised thousands of dollars. We're preparing all students for college and professional futures starting right now!",
+			 "address": {
+				"line_1": "2201 18th St. NW",
+				"line_2": null,
+				"city": "Washington",
+				"state": "DC",
+				"zip": "20009",
+				"lat": 38.91911,
+				"long": -77.04082
+			 },
+			"transit": "90, 92, 93 (Ellington Bridge - Anacostia/Congress Heights Station), 96 (Stadium Armory - McLean Gardens), X3 (Minnesota Ave - McLean Gardens), L1, L2, L4 (McPherson Sq/Potomac Park - Chevy Chase Circle), 42, 43 (Mt Pleasant - Metro Center/Farragut Sq), DC98 (Woodley Park/Adams Morgan - McPherson Sq), S1, S2 (16th & Colorada Ave - Potomac Park/Federal Triangle), S4 (Silver Spring - Federal Triangle)",
+			"website": "www.dcps.dc.gov/DCPS/mariehreed",
+			"facebook": "http://www.facebook.com/MarieReedES?ref=ts",
+			"twitter": null,
+			"external_report_card": "http://profiles.dcps.dc.gov/Marie+Reed+Elementary+School",
+			"equity_report_url": 
+"http://osse.dc.gov/sites/default/files/dc/sites/osse/publication/attachments/2013_Equity_Report_DCPS_External_Marie%20Reed%20Elementary%20School.pdf",
+			"contact": [
+				{
+					"name": "Eugene Pinkard",
+					"title": "Principal",
+					"phone": "(202) 673-7308",
+					"email": "eugene.pinkard@dc.gov"
+				}
+			]
 }

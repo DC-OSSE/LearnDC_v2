@@ -1,5 +1,4 @@
 setwd("U:/LearnDC ETL V2/Graduation Exhibit/JSON ETL")
-source("U:/R/RODBC_Connections.R")
 source("U:/R/tomkit.R")
 library(jsonlite)
 

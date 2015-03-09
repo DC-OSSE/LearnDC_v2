@@ -1,40 +1,44 @@
 {
-	"timestamp": "Thu Feb 19 14:50:49 2015",
+	"timestamp": "Fri Feb 27 16:39:56 2015",
 	"org_type": "school",
-	"org_name": "Bruce-Monroe Elementary School @ Park View",
+	"org_name": "Bruce Monroe ES at Park View",
 	"org_code": "0296",
-	"closed": false,
-	"charter": false,
-	"school_type": [
-		"Regular school"
-	 ],
-	"id": "overview",
-	"great_schools": {
-		"gs_url": "http://www.greatschools.org/washington-dc/washington/86-Bruce-Monroe-Elementary-School--Park-View"
-	},
-	"ward": "1",
-	"grades_serviced": ["01","02","03","04","05","KG","PK3","PK4"],
-	"grades_accepted": ["02","05","KG","03","PK3","PK4","04","01"],
-	"description": "Bruce-Monroe ES @ Park View is a preschool to 5th grade elementary school in the Columbia Heights/Parkview neighborhoods. Located in the historic Park View building, Bruce-Monroe ES @ Park View provides a dual language program (English/Spanish). We envision multicultural students who are successful global citizens nurtured in our safe, innovative, and academically rigorous bilingual collaborative.",
-	 "address": {
-		"line_1": "3560 Warder St. NW",
-		"line_2": null,
-		"city": "Washington",
-		"state": "DC",
-		"zip": "20010",
-		"lat": 38.93441,
-		"long": -77.02119
-	 },
-	"transit": "70 (9th & Maine St - Silver Spring Station), 71 (Buzzard Point - Silver Spring Station), H8 (Mt Pleasant - Rhode Island Ave), 63, 64 (Takoma Station/Fort Totte - Federal Triangle), H1, H2, H3, H4 (Brookland Metro - Potomac Park/Van Ness UDC/Tenleytown/Tenley Circle), 60, 62 (Fort Totten), 79 (Archives - Silver Spring Station)",
-	"website": "bmpv.org",
-	"facebook": "http://www.facebook.com/dcpublicschools",
-	"twitter": null,
-	"contact": [
-		{
-			"name": "Marta Palacios",
-			"title": "Principal",
-			"phone": "(202) 576-6222",
-			"email": "marta.palacios@dc.gov"
-		}
-	]
+	 "exhibit": {
+		"id": "overview",
+			"closed": false,
+			"charter": false,
+			"school_type": [
+				"Regular school"
+			 ],
+			"great_schools": {
+				"gs_url": "http://www.greatschools.org/washington-dc/washington/86-Bruce-Monroe-Elementary-School--Park-View"
+			},
+			"ward": "1",
+			"grades_serviced": ["01","02","03","04","05","KG","PK3","PK4"],
+			"grades_accepted": ["02","05","KG","03","PK3","PK4","04","01"],
+			"description": "Bruce-Monroe ES @ Park View is a preschool to 5th grade elementary school in the Columbia Heights/Parkview neighborhoods. Located in the historic Park View building, Bruce-Monroe ES @ Park View provides a dual language program (English/Spanish). We envision multicultural students who are successful global citizens nurtured in our safe, innovative, and academically rigorous bilingual collaborative.",
+			 "address": {
+				"line_1": "3560 Warder St. NW",
+				"line_2": null,
+				"city": "Washington",
+				"state": "DC",
+				"zip": "20010",
+				"lat": 38.93441,
+				"long": -77.02119
+			 },
+			"transit": "70 (9th & Maine St - Silver Spring Station), 71 (Buzzard Point - Silver Spring Station), H8 (Mt Pleasant - Rhode Island Ave), 63, 64 (Takoma Station/Fort Totte - Federal Triangle), H1, H2, H3, H4 (Brookland Metro - Potomac Park/Van Ness UDC/Tenleytown/Tenley Circle), 60, 62 (Fort Totten), 79 (Archives - Silver Spring Station)",
+			"website": "bmpv.org",
+			"facebook": "http://www.facebook.com/dcpublicschools",
+			"twitter": null,
+			"external_report_card": "http://profiles.dcps.dc.gov/Bruce-Monroe+Elementary+School+%40+Park+View",
+			"equity_report_url": 
+"http://osse.dc.gov/sites/default/files/dc/sites/osse/publication/attachments/2013_Equity_Report_DCPS_External_Bruce-Monroe%20Elementary%20School%20@%20Park%20View.pdf",
+			"contact": [
+				{
+					"name": "Marta Palacios",
+					"title": "Principal",
+					"phone": "(202) 576-6222",
+					"email": "marta.palacios@dc.gov"
+				}
+			]
 }

@@ -1,46 +1,50 @@
 {
-	"timestamp": "Thu Feb 19 14:50:26 2015",
+	"timestamp": "Fri Feb 27 16:39:37 2015",
 	"org_type": "school",
-	"org_name": "César Chávez PCS for Public Policy – Capitol Hill",
+	"org_name": "Cesar Chavez for Public Policy-Capitol Hill PCS",
 	"org_code": "0153",
-	"closed": false,
-	"charter": true,
-	"school_type": [
-		"Regular school"
-	 ],
-	"id": "overview",
-	"great_schools": {
-		"gs_url": "http://www.greatschools.org/washington-dc/washington/252-Cesar-Chavez-PCS---Capitol-Hill"
-	},
-	"ward": "6",
-	"grades_serviced": ["09","10","11","12"],
-	"grades_accepted": ["10","09"],
-	"description": "The Chavez Schools mission is to prepare scholars to enter and succeed in competitive colleges and empower scholars to use public policy to create a more just, free, and equal world.",
-	 "address": {
-		"line_1": "709 12th St SE",
-		"line_2": null,
-		"city": "Washington",
-		"state": "DC",
-		"zip": "20003",
-		"lat": 38.88069,
-		"long": -76.99064
-	 },
-	"transit": "Eastern Market or Potomac Avenue Metro Station/32, 34, 36",
-	"website": "http://www.chavezschools.org",
-	"facebook": null,
-	"twitter": null,
-	"contact": [
-		{
-			"name": "Kathy Bihr",
-			"title": "Board Chair",
-			"phone": null,
-			"email": null
-		},
-		{
-			"name": "Daneen Keaton",
-			"title": "Principal",
-			"phone": null,
-			"email": null
-		}
-	]
+	 "exhibit": {
+		"id": "overview",
+			"closed": false,
+			"charter": true,
+			"school_type": [
+				"Regular school"
+			 ],
+			"great_schools": {
+				"gs_url": "http://www.greatschools.org/washington-dc/washington/252-Cesar-Chavez-PCS---Capitol-Hill"
+			},
+			"ward": "6",
+			"grades_serviced": ["09","10","11","12"],
+			"grades_accepted": ["10","09"],
+			"description": "The Chavez Schools mission is to prepare scholars to enter and succeed in competitive colleges and empower scholars to use public policy to create a more just, free, and equal world.",
+			 "address": {
+				"line_1": "709 12th St SE",
+				"line_2": null,
+				"city": "Washington",
+				"state": "DC",
+				"zip": "20003",
+				"lat": 38.88069,
+				"long": -76.99064
+			 },
+			"transit": "Eastern Market or Potomac Avenue Metro Station/32, 34, 36",
+			"website": "http://www.chavezschools.org",
+			"facebook": null,
+			"twitter": null,
+			"external_report_card": "http://issuu.com/pcsb/docs/dcpcsb_pmf_2013/87",
+			"equity_report_url": 
+"http://osse.dc.gov/sites/default/files/dc/sites/osse/publication/attachments/2013_Equity_Report_PCSB_External_César%20Chávez%20PCS%20for%20Public%20Policy%20–%20Capitol%20Hill.pdf",
+			"contact": [
+				{
+					"name": "Kathy Bihr",
+					"title": "Board Chair",
+					"phone": null,
+					"email": null
+				},
+				{
+					"name": "Daneen Keaton",
+					"title": "Principal",
+					"phone": null,
+					"email": null
+				}
+			]
 }
