@@ -5,8 +5,6 @@ library(jsonlite)
 school_grad <- sqlQuery(dbrepcard_prod, "SELECT * FROM [dbo].[graduation_school_exhibit_w2014]")
 school_grad <- subset(school_grad, cohort_size >= 10 & !is.na(graduates))
 school_grad$school_code <- sapply(school_grad$school_code, leadgr, 4)
-school_grad <- subset(school_grad, school_code!='0457' & year!=2014)
-school_grad <- subset(school_grad, school_code!='3067' & year!=2014)
 
 # setwd('U:/LearnDC ETL V2/Export/CSV/school')
 # write.csv(school_grad, "Graduation_School.csv", row.names=FALSE)
