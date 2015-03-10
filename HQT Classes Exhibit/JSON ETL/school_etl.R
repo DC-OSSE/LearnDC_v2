@@ -54,7 +54,7 @@ for(i in unique(school_hqt$school_code)){
 	cat('"org_name": "',gsub("\n", "",.school_name),'",', sep="", fill=TRUE)
 	cat('"org_code": "',i,'",', sep="", fill=TRUE)
 	cat('"exhibit": {', fill=TRUE)
-	cat('\t"id": "hqt",', fill=TRUE)
+	cat('\t"id": "hqt_classes",', fill=TRUE)
 	cat('\t"data": ', .json, fill=TRUE)
 	cat('\t}', fill=TRUE)
 	cat('}', fill=TRUE)

@@ -1,0 +1,79 @@
+{
+"timestamp": "Tue Mar 10 14:36:15 2015",
+"org_type": "lea",
+"org_name": "CHARTER SECTOR LEA",
+"org_code": "0000",
+"exhibit": {
+	"id": "hqt_classes",
+	"data":  
+[
+    {
+        "key": {
+            "year": 2014,
+            "school_entity": "All"
+        },
+        "val": {
+            "num_total_classes": 4611,
+            "num_hq_classes": 4417,
+            "num_nhq_classes": 194
+        }
+    },
+    {
+        "key": {
+            "year": 2014,
+            "school_entity": "LOW"
+        },
+        "val": {
+            "num_total_classes": 1445,
+            "num_hq_classes": 1400,
+            "num_nhq_classes": 45
+        }
+    },
+    {
+        "key": {
+            "year": 2014,
+            "school_entity": "HIGH"
+        },
+        "val": {
+            "num_total_classes": 323,
+            "num_hq_classes": 297,
+            "num_nhq_classes": 26
+        }
+    },
+    {
+        "key": {
+            "year": 2014,
+            "school_entity": "MIDDLE"
+        },
+        "val": {
+            "num_total_classes": 2843,
+            "num_hq_classes": 2720,
+            "num_nhq_classes": 123
+        }
+    },
+    {
+        "key": {
+            "year": 2014,
+            "school_entity": "ELEM"
+        },
+        "val": {
+            "num_total_classes": 1589,
+            "num_hq_classes": 1455,
+            "num_nhq_classes": 134
+        }
+    },
+    {
+        "key": {
+            "year": 2014,
+            "school_entity": "SEC"
+        },
+        "val": {
+            "num_total_classes": 3022,
+            "num_hq_classes": 2962,
+            "num_nhq_classes": 60
+        }
+    }
+]
+
+	}
+}

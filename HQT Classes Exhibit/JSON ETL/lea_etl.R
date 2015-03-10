@@ -1,7 +1,6 @@
 setwd("U:/LearnDC ETL V2/HQT Classes Exhibit/JSON ETL")
 source("U:/R/tomkit.R")
 library(jsonlite)
-library(plyr)
 
 # school_hqt$lea_code[which(school_hqt$school_code=='0480')] <- '4001'
 # school_hqt$lea_name[which(school_hqt$school_code=='0480')] <- 'State-Level Reporting LEA'
@@ -55,7 +54,7 @@ for(i in unique(lea_hqt$lea_code)){
 	cat('"org_name": "',gsub("\n", "",.lea_name),'",', sep="", fill=TRUE)
 	cat('"org_code": "',i,'",', sep="", fill=TRUE)
 	cat('"exhibit": {', fill=TRUE)
-	cat('\t"id": "hqt",', fill=TRUE)
+	cat('\t"id": "hqt_classes",', fill=TRUE)
 	cat('\t"data": ', .json, fill=TRUE)
 	cat('\t}', fill=TRUE)
 	cat('}', fill=TRUE)
