@@ -5,8 +5,8 @@ library(jsonlite)
 state_degree <- sqlQuery(dbrepcard_prod,"select * from dbo.staff_degree_state_exhibit")
 state_degree <- subset(state_degree, num_total >= 10)
 
-key_index <- 1
-value_index <- 2:7
+key_index <- 1:2
+value_index <- 3:8
 num_orphans <- 0
 
 
@@ -43,5 +43,5 @@ num_orphans <- 0
 	close(newfile)
 
 	## VALIDATE JSON
-	test <- readLines("graduation.json")
+	test <- readLines("staff_degree.json")
 	validate(test)

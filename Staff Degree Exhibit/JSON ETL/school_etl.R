@@ -7,15 +7,12 @@ school_degree$school_code <- sapply(school_degree$school_code, leadgr, 4)
 school_degree$lea_code <- sapply(school_degree$lea_code, leadgr, 4)
 school_degree <- subset(school_degree, num_total >= 10)
 
-# setwd('U:/LearnDC ETL V2/Export/CSV/school')
-# write.csv(school_hqt, "HQT_School.csv", row.names=FALSE)
 
-key_index <- 1
-value_index <- 6:11
+key_index <- c(1,6)
+value_index <- 7:12
 num_orphans <- 0
 
-
-for(i in unique(school_hqt$school_code)){
+for(i in unique(school_degree$school_code)){
 	setwd("U:/LearnDC ETL V2/Export/JSON/school")
 
 	if(file.exists(i)){
@@ -25,7 +22,7 @@ for(i in unique(school_hqt$school_code)){
 	}
 	
 
-	.tmp <- subset(school_hqt, school_code == i)
+	.tmp <- subset(school_degree, school_code == i)
 
 	.nested_list <- lapply(1:nrow(.tmp), FUN = function(i){ 
                              list(key = list(.tmp[i,key_index]), 

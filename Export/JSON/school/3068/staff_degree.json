@@ -1,0 +1,41 @@
+{
+"timestamp": "Wed Mar 11 17:38:49 2015",
+"org_type": "school",
+"org_name": "BASIS DC PCS",
+"org_code": "3068",
+"exhibit": {
+	"id": "staff_degree",
+	"data":  
+[
+    {
+        "key": {
+            "year": 2014,
+            "teacher_category": "SEC"
+        },
+        "val": {
+            "num_associates": 0,
+            "num_bachelors": 8,
+            "num_masters": 13,
+            "num_phd": 5,
+            "num_none": 4,
+            "num_total": 30
+        }
+    },
+    {
+        "key": {
+            "year": 2014,
+            "teacher_category": "ELEM"
+        },
+        "val": {
+            "num_associates": 0,
+            "num_bachelors": 7,
+            "num_masters": 10,
+            "num_phd": 3,
+            "num_none": 3,
+            "num_total": 23
+        }
+    }
+]
+
+	}
+}

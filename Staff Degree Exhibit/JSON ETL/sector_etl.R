@@ -2,18 +2,12 @@ setwd("U:/LearnDC ETL V2/Staff Degree Exhibit/JSON ETL")
 source("U:/R/tomkit.R")
 library(jsonlite)
 
-# school_hqt$lea_code[which(school_hqt$school_code=='0480')] <- '4001'
-# school_hqt$lea_name[which(school_hqt$school_code=='0480')] <- 'State-Level Reporting LEA'
-
 sector_degree <- sqlQuery(dbrepcard_prod,"select * from dbo.staff_degree_sector_exhibit")
 sector_degree$lea_code <- sapply(sector_degree$lea_code, leadgr, 4)
-sector_degree <- subset(sector_hqt, num_total_classes >= 10 & lea_code=='0000')
+sector_degree <- subset(sector_degree, num_total >= 10 & lea_code=='0000')
 
-# setwd('U:/LearnDC ETL V2/Export/CSV/school')
-# write.csv(school_hqt, "HQT_School.csv", row.names=FALSE)
-
-key_index <- 1
-value_index <- 4:9
+key_index <- c(1,4)
+value_index <- 5:10
 num_orphans <- 0
 
 
@@ -27,7 +21,7 @@ for(i in unique(sector_degree$lea_code)){
 	}
 	
 
-	.tmp <- subset(lea_hqt, lea_code == i)
+	.tmp <- subset(sector_degree, lea_code == i)
 
 	.nested_list <- lapply(1:nrow(.tmp), FUN = function(i){ 
                              list(key = list(.tmp[i,key_index]), 

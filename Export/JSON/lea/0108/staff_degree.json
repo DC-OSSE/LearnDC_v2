@@ -1,0 +1,41 @@
+{
+"timestamp": "Wed Mar 11 17:40:11 2015",
+"org_type": "lea",
+"org_name": "CAPITAL CITY PUBLIC CHARTER SCHOOL",
+"org_code": "0108",
+"exhibit": {
+	"id": "staff_degree",
+	"data":  
+[
+    {
+        "key": {
+            "year": 2014,
+            "teacher_category": "ELEM"
+        },
+        "val": {
+            "num_associates": 0,
+            "num_bachelors": 14,
+            "num_masters": 15,
+            "num_phd": 0,
+            "num_none": 0,
+            "num_total": 29
+        }
+    },
+    {
+        "key": {
+            "year": 2014,
+            "teacher_category": "SEC"
+        },
+        "val": {
+            "num_associates": 0,
+            "num_bachelors": 14,
+            "num_masters": 35,
+            "num_phd": 1,
+            "num_none": 1,
+            "num_total": 51
+        }
+    }
+]
+
+	}
+}
