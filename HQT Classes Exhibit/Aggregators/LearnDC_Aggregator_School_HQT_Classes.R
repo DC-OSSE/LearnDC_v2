@@ -73,4 +73,4 @@ school_hqt_all$charter_status[which(school_hqt_all$charter_status=='No')] <- "DC
 
 school_hqt_all <- subset(school_hqt_all,school_code %notin% c("0173","1047","0168","6000"))
 
-sqlSave(dbrepcard_prod,school_hqt_all, tablename = "hqt_classes_school_exhibit_w2014", append = FALSE, rownames=FALSE)
+sqlSave(dbrepcard_prod,school_hqt_all, tablename = "hqt_classes_school_exhibit", append = FALSE, rownames=FALSE)

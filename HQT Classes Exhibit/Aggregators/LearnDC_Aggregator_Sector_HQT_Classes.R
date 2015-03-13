@@ -4,7 +4,7 @@ source("U:/R/tomkit.R")
 
 source("./imports/subproc.R")
 
-school_hqt <- sqlQuery(dbrepcard_prod,"select * from dbo.hqt_classes_school_exhibit_w2014")
+school_hqt <- sqlQuery(dbrepcard_prod,"select * from dbo.hqt_classes_school_exhibit")
 school_hqt$lea_code[which(school_hqt$charter_status=='PCS')] <- '0000'
 school_hqt$lea_name[which(school_hqt$charter_status=='PCS')] <- 'CHARTER SECTOR LEA'
 school_hqt$lea_code[which(school_hqt$charter_status=='DCPS')] <- '0001'
@@ -36,14 +36,14 @@ sector_hqt_df <- data.frame()
 				.hq_classes <- sum(.tmp$num_hq_classes)
 				.nhq_classes <- sum(.tmp$num_nhq_classes)
 
-				new_row <- c(.lea_code,.lea_name,.year,.subgroup,.total_classes,.hq_classes,.nhq_classes)
+				new_row <- cbind(.lea_code,.lea_name,.year,.subgroup,.total_classes,.hq_classes,.nhq_classes)
 								
 				sector_hqt_df <- rbind(sector_hqt_df, new_row)
 			}
 		}
 	}
 
-colnames(sector_hqt_df) <- c("lea_code","lea_name","year","school_entity","num_total_classes","num_hq_classes","num_nhq_classes")
+colnames(sector_hqt_df) <- c("lea_code","lea_name","year","school_category","num_total_classes","num_hq_classes","num_nhq_classes")
 
 
-sqlSave(dbrepcard_prod, sector_hqt_df, tablename = "hqt_classes_sector_exhibit_w2014", append = FALSE, rownames=FALSE)
+sqlSave(dbrepcard_prod, sector_hqt_df, tablename = "hqt_classes_sector_exhibit", append = FALSE, rownames=FALSE)
