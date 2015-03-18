@@ -1,51 +1,50 @@
 {
-	"timestamp": "Mon Mar 09 17:46:15 2015",
+	"timestamp": "Wed Mar 18 17:23:05 2015",
 	"org_type": "school",
 	"org_name": "Maya Angelou PCS-Evans High School",
 	"org_code": "0101",
 	 "exhibit": {
-		"id": "overview",
-			"closed": false,
-			"charter": true,
-			"school_type": [
-				"Alternative Education School"
-			 ],
-			"great_schools": {
-				"gs_url": "http://www.greatschools.org/washington-dc/washington/567-Maya-Angelou-PCS---Evans-High-School"
-			},
-			"ward": "7",
-			"grades_serviced": ["09","10","11","12"],
-			"grades_accepted": ["09","10","11"],
-			"description": "Our mission is to create learning communities in lower income urban areas where all students, particularly those who have not succeeded in traditional schools, can reach their potential and prepare for college, career, and a lifetime of success. At Maya Angelou our students develop the academic, social, and employment skills they need to build rewarding lives and promote positive change.",
-			 "address": {
-				"line_1": "5600 E Capitol St NE",
-				"line_2": null,
-				"city": "Washington",
-				"state": "DC",
-				"zip": "20019",
-				"lat": 38.89029,
-				"long": -76.92064
-			 },
-			"transit": "Capitol Heights Metro Station/96,97",
-			"website": "http://www.seeforever.org",
-			"facebook": null,
-			"twitter": null,
-			"external_report_card": "http://issuu.com/pcsb/docs/dcpcsb_pmf_2013/232",
-			"equity_report_url": 
+	"closed": false,
+	"charter": true,
+	"school_type": [
+		"Alternative Education School"
+	 ],
+	"great_schools": {
+		"gs_url": "http://www.greatschools.org/washington-dc/washington/567-Maya-Angelou-PCS---Evans-High-School"
+	},
+	"ward": "7",
+	"grades_serviced": ["09","10","11","12"],
+	"grades_accepted": ["09","10","11"],
+	"description": "Our mission is to create learning communities in lower income urban areas where all students, particularly those who have not succeeded in traditional schools, can reach their potential and prepare for college, career, and a lifetime of success. At Maya Angelou our students develop the academic, social, and employment skills they need to build rewarding lives and promote positive change.",
+	 "address": {
+		"line_1": "5600 E Capitol St NE",
+		"line_2": null,
+		"city": "Washington",
+		"state": "DC",
+		"zip": "20019",
+		"lat": 38.89029,
+		"long": -76.92064
+	 },
+	"transit": "Capitol Heights Metro Station/96,97",
+	"website": "http://www.seeforever.org",
+	"facebook": null,
+	"twitter": null,
+	"external_report_card": "http://dashboard.dcpcsb.org/detailed/83",
+	"equity_report_url": 
 "http://osse.dc.gov/sites/default/files/dc/sites/osse/publication/attachments/2013_Equity_Report_PCSB_External_Maya%20Angelou%20PCS%20–%20Evans%20High%20School.pdf",
-			"contact": [
-				{
-					"name": "Corey Carter",
-					"title": "Principal",
-					"phone": null,
-					"email": null
-				},
-				{
-					"name": "Heather Wathington, Ph.D.",
-					"title": "Executive Director",
-					"phone": null,
-					"email": null
-				}
-			]
+	"contact": [
+		{
+			"name": "Corey Carter",
+			"title": "Principal",
+			"phone": null,
+			"email": null
+		},
+		{
+			"name": "Heather Wathington, Ph.D.",
+			"title": "Executive Director",
+			"phone": null,
+			"email": null
 		}
+		]
+	}
 }

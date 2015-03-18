@@ -1,57 +1,56 @@
 {
-	"timestamp": "Mon Mar 09 17:54:25 2015",
+	"timestamp": "Wed Mar 18 17:23:49 2015",
 	"org_type": "school",
 	"org_name": "St. Coletta Special Education PCS",
 	"org_code": "1047",
 	 "exhibit": {
-		"id": "overview",
-			"closed": false,
-			"charter": true,
-			"school_type": [
-				"Special education school"
-			 ],
-			"great_schools": {
-				"gs_url": "http://www.greatschools.org/washington-dc/washington/558-St.-Coletta-Special-Education-PCS"
-			},
-			"ward": "7",
-			"grades_serviced": ["01","02","03","04","05","06","07","08","09","10","11","12","AO","KG","PK3","PK4"],
-			"grades_accepted": ["01","02","03","04","05","06","07","08","09","10","11","12","AO","KG","PK3","PK4"],
-			"description": "To serve students and adults with intellectual disabilities, and to support their families",
-			 "address": {
-				"line_1": "1901 Independence Avenue SE",
-				"line_2": null,
-				"city": "Washington",
-				"state": "DC",
-				"zip": "20003",
-				"lat": 38.88722,
-				"long": -76.97667
-			 },
-			"transit": "Stadium-Armory Metro Station/D6",
-			"website": "http://www.stcoletta.org",
-			"facebook": null,
-			"twitter": null,
-			"external_report_card": "http://issuu.com/pcsb/docs/dcpcsb_pmf_2013/275",
-			"equity_report_url": 
+	"closed": false,
+	"charter": true,
+	"school_type": [
+		"Special education school"
+	 ],
+	"great_schools": {
+		"gs_url": "http://www.greatschools.org/washington-dc/washington/558-St.-Coletta-Special-Education-PCS"
+	},
+	"ward": "7",
+	"grades_serviced": ["01","02","03","04","05","06","07","08","09","10","11","12","AO","KG","PK3","PK4"],
+	"grades_accepted": ["01","02","03","04","05","06","07","08","09","10","11","12","AO","KG","PK3","PK4"],
+	"description": "To serve students and adults with intellectual disabilities, and to support their families",
+	 "address": {
+		"line_1": "1901 Independence Avenue SE",
+		"line_2": null,
+		"city": "Washington",
+		"state": "DC",
+		"zip": "20003",
+		"lat": 38.88722,
+		"long": -76.97667
+	 },
+	"transit": "Stadium-Armory Metro Station/D6",
+	"website": "http://www.stcoletta.org",
+	"facebook": null,
+	"twitter": null,
+	"external_report_card": null,
+	"equity_report_url": 
 "http://osse.dc.gov/sites/default/files/dc/sites/osse/publication/attachments/2013_Equity_Report_PCSB_External_St.%20Coletta%20Special%20Education%20PCS.pdf",
-			"contact": [
-				{
-					"name": "Elizabeth Pierce",
-					"title": "Board Chair",
-					"phone": null,
-					"email": null
-				},
-				{
-					"name": "Janice Corazza",
-					"title": "Principal",
-					"phone": null,
-					"email": null
-				},
-				{
-					"name": "Sharon Raimo",
-					"title": "Executive Director",
-					"phone": null,
-					"email": null
-				}
-			]
+	"contact": [
+		{
+			"name": "Elizabeth Pierce",
+			"title": "Board Chair",
+			"phone": null,
+			"email": null
+		},
+		{
+			"name": "Janice Corazza",
+			"title": "Principal",
+			"phone": null,
+			"email": null
+		},
+		{
+			"name": "Sharon Raimo",
+			"title": "Executive Director",
+			"phone": null,
+			"email": null
 		}
+		]
+	}
 }

@@ -1,45 +1,44 @@
 {
-	"timestamp": "Mon Mar 09 17:51:35 2015",
+	"timestamp": "Wed Mar 18 17:23:34 2015",
 	"org_type": "school",
 	"org_name": "Seaton ES",
 	"org_code": "0309",
 	 "exhibit": {
-		"id": "overview",
-			"closed": false,
-			"charter": false,
-			"school_type": [
-				"Regular school"
-			 ],
-			"great_schools": {
-				"gs_url": "http://www.greatschools.org/washington-dc/washington/19-Seaton-Elementary-School"
-			},
-			"ward": "6",
-			"grades_serviced": ["01","02","03","04","05","KG","PK3","PK4"],
-			"grades_accepted": ["03","PK3","PK4","KG","02","04","01","05"],
-			"description": "Located in the historic Shaw neighborhood, Seaton Elementary has an extremely diverse, multicultural staff and student population. Although our students hail from different cultural backgrounds, they have formed strong bonds and have created a thriving school community. At Seaton, we have a strong English as a Second Language program that serves students who speak Chinese, Spanish and Amharic. When our students leave Seaton, they should be able to excel in middle school and throughout the rest of their academic careers.",
-			 "address": {
-				"line_1": "1503 10th St. NW",
-				"line_2": null,
-				"city": "Washington",
-				"state": "DC",
-				"zip": "20001",
-				"lat": 38.91062,
-				"long": -77.02488
-			 },
-			"transit": "G2 (Georgetown University - Howard University), 64, 63 (Fort Totten/Takoma Station - Federal Triangle), G8 (Avondale - Farragut Sq), DC Circulator to SW Waterfront, 70, 71 (Buzzard Point/9th  &  Maine - Silver Spring Station), 79 (Archives - Silver Spring Station),  52, 53, 54 (Takoma/14th & Buchanan - L'Enfant Plaza/McPherson Square), DC98 (McPherson Sq Station)",
-			"website": "www.dcps.dc.gov/DCPS/seaton",
-			"facebook": "http://www.facebook.com/dcpublicschools",
-			"twitter": null,
-			"external_report_card": "http://profiles.dcps.dc.gov/Seaton+Elementary+School",
-			"equity_report_url": 
+	"closed": false,
+	"charter": false,
+	"school_type": [
+		"Regular school"
+	 ],
+	"great_schools": {
+		"gs_url": "http://www.greatschools.org/washington-dc/washington/19-Seaton-Elementary-School"
+	},
+	"ward": "6",
+	"grades_serviced": ["01","02","03","04","05","KG","PK3","PK4"],
+	"grades_accepted": ["03","PK3","PK4","KG","02","04","01","05"],
+	"description": "Located in the historic Shaw neighborhood, Seaton Elementary has an extremely diverse, multicultural staff and student population. Although our students hail from different cultural backgrounds, they have formed strong bonds and have created a thriving school community. At Seaton, we have a strong English as a Second Language program that serves students who speak Chinese, Spanish and Amharic. When our students leave Seaton, they should be able to excel in middle school and throughout the rest of their academic careers.",
+	 "address": {
+		"line_1": "1503 10th St. NW",
+		"line_2": null,
+		"city": "Washington",
+		"state": "DC",
+		"zip": "20001",
+		"lat": 38.91062,
+		"long": -77.02488
+	 },
+	"transit": "G2 (Georgetown University - Howard University), 64, 63 (Fort Totten/Takoma Station - Federal Triangle), G8 (Avondale - Farragut Sq), DC Circulator to SW Waterfront, 70, 71 (Buzzard Point/9th  &  Maine - Silver Spring Station), 79 (Archives - Silver Spring Station),  52, 53, 54 (Takoma/14th & Buchanan - L'Enfant Plaza/McPherson Square), DC98 (McPherson Sq Station)",
+	"website": "www.dcps.dc.gov/DCPS/seaton",
+	"facebook": "http://www.facebook.com/dcpublicschools",
+	"twitter": null,
+	"external_report_card": "http://profiles.dcps.dc.gov/Seaton+Elementary+School",
+	"equity_report_url": 
 "http://osse.dc.gov/sites/default/files/dc/sites/osse/publication/attachments/2013_Equity_Report_DCPS_External_Seaton%20Elementary%20School.pdf",
-			"contact": [
-				{
-					"name": "Kim Jackson",
-					"title": "Principal",
-					"phone": "(202) 673-7215",
-					"email": "kim.jackson@dc.gov"
-				}
-			]
+	"contact": [
+		{
+			"name": "Kim Jackson",
+			"title": "Principal",
+			"phone": "(202) 673-7215",
+			"email": "kim.jackson@dc.gov"
 		}
+		]
+	}
 }

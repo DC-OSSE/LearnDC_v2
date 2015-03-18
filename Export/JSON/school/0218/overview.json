@@ -1,40 +1,39 @@
 {
-	"timestamp": "Mon Mar 09 17:49:35 2015",
+	"timestamp": "Wed Mar 18 17:23:23 2015",
 	"org_type": "school",
 	"org_name": "D C Preparatory Benning Middle Campus",
 	"org_code": "0218",
 	 "exhibit": {
-		"id": "overview",
-			"closed": false,
-			"charter": true,
-			"school_type": [
-				"Regular school"
-			 ],
-			"great_schools": {
-				"gs_url": "http://www.greatschools.org/washington-dc/washington/902-D.C.-Preparatory-PCS---Benning-Middle"
-			},
-			"ward": "7",
-			"grades_serviced": ["04","05"],
-			"grades_accepted": ["06","04","05"],
-			"description": "",
-			 "address": {
-				"line_1": "100 41st Street, NE",
-				"line_2": null,
-				"city": "Washington",
-				"state": "DC",
-				"zip": "20019",
-				"lat": 38.89102,
-				"long": -76.94482
-			 },
-			"transit": "NA",
-			"website": "http://www.dcprep.org/",
-			"facebook": null,
-			"twitter": null,
-			"external_report_card": null,
-			"equity_report_url": 
+	"closed": false,
+	"charter": true,
+	"school_type": [
+		"Regular school"
+	 ],
+	"great_schools": {
+		"gs_url": "http://www.greatschools.org/washington-dc/washington/902-D.C.-Preparatory-PCS---Benning-Middle"
+	},
+	"ward": "7",
+	"grades_serviced": ["04","05"],
+	"grades_accepted": ["06","04","05"],
+	"description": "",
+	 "address": {
+		"line_1": "100 41st Street, NE",
+		"line_2": null,
+		"city": "Washington",
+		"state": "DC",
+		"zip": "20019",
+		"lat": 38.89102,
+		"long": -76.94482
+	 },
+	"transit": "NA",
+	"website": "http://www.dcprep.org/",
+	"facebook": null,
+	"twitter": null,
+	"external_report_card": null,
+	"equity_report_url": 
 null,
-			"contact": [
+	"contact": [
 
-			]
-		}
+		]
+	}
 }

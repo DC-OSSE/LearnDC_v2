@@ -1,45 +1,44 @@
 {
-	"timestamp": "Mon Mar 09 17:55:29 2015",
+	"timestamp": "Wed Mar 18 17:23:55 2015",
 	"org_type": "school",
 	"org_name": "E.L. Haynes PCS - Elementary School",
 	"org_code": "1206",
 	 "exhibit": {
-		"id": "overview",
-			"closed": false,
-			"charter": true,
-			"school_type": [
-				"Regular School"
-			 ],
-			"great_schools": {
-				"gs_url": null
-			},
-			"ward": "4",
-			"grades_serviced": ["01","02","03","04","KG","PK3","PK4"],
-			"grades_accepted": ["PK3","PK4","KG","01","02","03","04"],
-			"description": "Every E.L. Haynes student of every race, socioeconomic status, and home language will reach high levels of academic achievement and be prepared to succeed at the college of his or her choice. Every E.L. Haynes student will be adept at mathematical reasoning, will use scientific methods effectively to frame and solve problems, and will develop the lifelong skills needed to be successful individuals, active community members, and responsible citizens.",
-			 "address": {
-				"line_1": "4501 Kansas Ave NW",
-				"line_2": null,
-				"city": "Washington",
-				"state": "DC",
-				"zip": "20010",
-				"lat": 38.9456,
-				"long": -77.02242
-			 },
-			"transit": "NA",
-			"website": "www.elhaynes.org",
-			"facebook": null,
-			"twitter": null,
-			"external_report_card": null,
-			"equity_report_url": 
+	"closed": false,
+	"charter": true,
+	"school_type": [
+		"Regular School"
+	 ],
+	"great_schools": {
+		"gs_url": null
+	},
+	"ward": "4",
+	"grades_serviced": ["01","02","03","04","KG","PK3","PK4"],
+	"grades_accepted": ["PK3","PK4","KG","01","02","03","04"],
+	"description": "Every E.L. Haynes student of every race, socioeconomic status, and home language will reach high levels of academic achievement and be prepared to succeed at the college of his or her choice. Every E.L. Haynes student will be adept at mathematical reasoning, will use scientific methods effectively to frame and solve problems, and will develop the lifelong skills needed to be successful individuals, active community members, and responsible citizens.",
+	 "address": {
+		"line_1": "4501 Kansas Ave NW",
+		"line_2": null,
+		"city": "Washington",
+		"state": "DC",
+		"zip": "20010",
+		"lat": 38.9456,
+		"long": -77.02242
+	 },
+	"transit": "NA",
+	"website": "www.elhaynes.org",
+	"facebook": null,
+	"twitter": null,
+	"external_report_card": null,
+	"equity_report_url": 
 null,
-			"contact": [
-				{
-					"name": "Richard Pohlman",
-					"title": "Acting HOS and Chief of Operation",
-					"phone": "202-667-4446",
-					"email": null
-				}
-			]
+	"contact": [
+		{
+			"name": "Richard Pohlman",
+			"title": "Acting HOS and Chief of Operation",
+			"phone": "202-667-4446",
+			"email": null
 		}
+		]
+	}
 }

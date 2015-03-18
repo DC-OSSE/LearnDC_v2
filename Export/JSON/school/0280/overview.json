@@ -1,45 +1,44 @@
 {
-	"timestamp": "Mon Mar 09 17:50:48 2015",
+	"timestamp": "Wed Mar 18 17:23:30 2015",
 	"org_type": "school",
 	"org_name": "Miner ES",
 	"org_code": "0280",
 	 "exhibit": {
-		"id": "overview",
-			"closed": false,
-			"charter": false,
-			"school_type": [
-				"Regular school"
-			 ],
-			"great_schools": {
-				"gs_url": "http://www.greatschools.org/washington-dc/washington/4-Miner-Elementary-School"
-			},
-			"ward": "6",
-			"grades_serviced": ["01","02","03","04","05","KG","PK3","PK4"],
-			"grades_accepted": ["PK4","KG","01","02","03","PK3","05","04"],
-			"description": "With a demanding educational agenda that builds upon the active engagement of school, parents and community, Miner Elementary School seeks to inspire young learners. We promote academic, social and cultural excellence in a dynamic school environment. Our school is supported by numerous partnerships that assist in the improvement of student performance and educational excellence. Nestled in the Capitol Hill community of northeast Washington, DC, we provide an inspiring, exciting and enthusiastic learning environment, a clean, safe and state-of-the-art facility and a supportive and resourceful educational setting.",
-			 "address": {
-				"line_1": "601 15th St. NE",
-				"line_2": null,
-				"city": "Washington",
-				"state": "DC",
-				"zip": "20002",
-				"lat": 38.89738,
-				"long": -76.9829
-			 },
-			"transit": "B2 (Mt Rainier - Anacostia), X1, X2, X3 (Minnesota Ave Station - Potomac Park/Lafayette Sq/McLean Gardens), X8 (Carver Terrace - Union Station), D6 (Stadium Armory Station - Sibley Hospital), D3, D4 (Ivy City - Dupont Circle/Franklin Sq), D8 (Washington Hospital)",
-			"website": "www.dcps.dc.gov/DCPS/miner",
-			"facebook": "http://www.facebook.com/dcpublicschools",
-			"twitter": null,
-			"external_report_card": "http://profiles.dcps.dc.gov/Miner+Elementary+School",
-			"equity_report_url": 
+	"closed": false,
+	"charter": false,
+	"school_type": [
+		"Regular school"
+	 ],
+	"great_schools": {
+		"gs_url": "http://www.greatschools.org/washington-dc/washington/4-Miner-Elementary-School"
+	},
+	"ward": "6",
+	"grades_serviced": ["01","02","03","04","05","KG","PK3","PK4"],
+	"grades_accepted": ["PK4","KG","01","02","03","PK3","05","04"],
+	"description": "With a demanding educational agenda that builds upon the active engagement of school, parents and community, Miner Elementary School seeks to inspire young learners. We promote academic, social and cultural excellence in a dynamic school environment. Our school is supported by numerous partnerships that assist in the improvement of student performance and educational excellence. Nestled in the Capitol Hill community of northeast Washington, DC, we provide an inspiring, exciting and enthusiastic learning environment, a clean, safe and state-of-the-art facility and a supportive and resourceful educational setting.",
+	 "address": {
+		"line_1": "601 15th St. NE",
+		"line_2": null,
+		"city": "Washington",
+		"state": "DC",
+		"zip": "20002",
+		"lat": 38.89738,
+		"long": -76.9829
+	 },
+	"transit": "B2 (Mt Rainier - Anacostia), X1, X2, X3 (Minnesota Ave Station - Potomac Park/Lafayette Sq/McLean Gardens), X8 (Carver Terrace - Union Station), D6 (Stadium Armory Station - Sibley Hospital), D3, D4 (Ivy City - Dupont Circle/Franklin Sq), D8 (Washington Hospital)",
+	"website": "www.dcps.dc.gov/DCPS/miner",
+	"facebook": "http://www.facebook.com/dcpublicschools",
+	"twitter": null,
+	"external_report_card": "http://profiles.dcps.dc.gov/Miner+Elementary+School",
+	"equity_report_url": 
 "http://osse.dc.gov/sites/default/files/dc/sites/osse/publication/attachments/2013_Equity_Report_DCPS_External_Miner%20Elementary%20School.pdf",
-			"contact": [
-				{
-					"name": "Anne Evans (interim)",
-					"title": "Principal",
-					"phone": "(202) 397-3960",
-					"email": "anne.evans@dc.gov"
-				}
-			]
+	"contact": [
+		{
+			"name": "Anne Evans (interim)",
+			"title": "Principal",
+			"phone": "(202) 397-3960",
+			"email": "anne.evans@dc.gov"
 		}
+		]
+	}
 }

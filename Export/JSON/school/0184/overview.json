@@ -1,57 +1,56 @@
 {
-	"timestamp": "Mon Mar 09 17:48:27 2015",
+	"timestamp": "Wed Mar 18 17:23:16 2015",
 	"org_type": "school",
 	"org_name": "Capital City Lower PCS",
 	"org_code": "0184",
 	 "exhibit": {
-		"id": "overview",
-			"closed": false,
-			"charter": true,
-			"school_type": [
-				"Regular school"
-			 ],
-			"great_schools": {
-				"gs_url": "http://www.greatschools.org/washington-dc/washington/282-Capital-City-PCS---Lower-School"
-			},
-			"ward": "4",
-			"grades_serviced": ["01","02","03","04","KG","PK3","PK4"],
-			"grades_accepted": ["02","PK4","PK3","01","03","KG","04"],
-			"description": "Capital City Public Charter School enables a diverse group of students to meet high expectations, develop creativity, critical thinking, and problem-solving skills, achieve a deep understanding of complex subjects, acquire a love of learning, along with a strong sense of community and character. We will graduate young adults who are self-directed, intellectually engaged and committed to personal and civic responsibility.",
-			 "address": {
-				"line_1": "100 Peabody St NW",
-				"line_2": null,
-				"city": "Washington",
-				"state": "DC",
-				"zip": "20011",
-				"lat": 38.96216,
-				"long": -77.01287
-			 },
-			"transit": "Fort Totten or Takoma Metro Station/ 62,63 bus",
-			"website": "http://www.ccpcs.org",
-			"facebook": null,
-			"twitter": null,
-			"external_report_card": "http://issuu.com/pcsb/docs/dcpcsb_pmf_2013/51",
-			"equity_report_url": 
+	"closed": false,
+	"charter": true,
+	"school_type": [
+		"Regular school"
+	 ],
+	"great_schools": {
+		"gs_url": "http://www.greatschools.org/washington-dc/washington/282-Capital-City-PCS---Lower-School"
+	},
+	"ward": "4",
+	"grades_serviced": ["01","02","03","04","KG","PK3","PK4"],
+	"grades_accepted": ["02","PK4","PK3","01","03","KG","04"],
+	"description": "Capital City Public Charter School enables a diverse group of students to meet high expectations, develop creativity, critical thinking, and problem-solving skills, achieve a deep understanding of complex subjects, acquire a love of learning, along with a strong sense of community and character. We will graduate young adults who are self-directed, intellectually engaged and committed to personal and civic responsibility.",
+	 "address": {
+		"line_1": "100 Peabody St NW",
+		"line_2": null,
+		"city": "Washington",
+		"state": "DC",
+		"zip": "20011",
+		"lat": 38.96216,
+		"long": -77.01287
+	 },
+	"transit": "Fort Totten or Takoma Metro Station/ 62,63 bus",
+	"website": "http://www.ccpcs.org",
+	"facebook": null,
+	"twitter": null,
+	"external_report_card": "http://dashboard.dcpcsb.org/detailed/14",
+	"equity_report_url": 
 "http://osse.dc.gov/sites/default/files/dc/sites/osse/publication/attachments/2013_Equity_Report_PCSB_External_Capital%20City%20PCS%20%E2%80%93%20Lower%20School%20.pdf",
-			"contact": [
-				{
-					"name": "David Bennett",
-					"title": "Board Chair",
-					"phone": null,
-					"email": null
-				},
-				{
-					"name": "Amy Wendel",
-					"title": "Principal",
-					"phone": null,
-					"email": null
-				},
-				{
-					"name": "Karen Dresden",
-					"title": "Executive Director",
-					"phone": null,
-					"email": null
-				}
-			]
+	"contact": [
+		{
+			"name": "David Bennett",
+			"title": "Board Chair",
+			"phone": null,
+			"email": null
+		},
+		{
+			"name": "Amy Wendel",
+			"title": "Principal",
+			"phone": null,
+			"email": null
+		},
+		{
+			"name": "Karen Dresden",
+			"title": "Executive Director",
+			"phone": null,
+			"email": null
 		}
+		]
+	}
 }

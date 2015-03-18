@@ -1,51 +1,50 @@
 {
-	"timestamp": "Mon Mar 09 17:46:56 2015",
+	"timestamp": "Wed Mar 18 17:23:08 2015",
 	"org_type": "school",
 	"org_name": "Briya Public Charter School",
 	"org_code": "0126",
 	 "exhibit": {
-		"id": "overview",
-			"closed": false,
-			"charter": true,
-			"school_type": [
-				"Regular school"
-			 ],
-			"great_schools": {
-				"gs_url": null
-			},
-			"ward": "1",
-			"grades_serviced": ["AO","PK3","PK4"],
-			"grades_accepted": ["AO","PK3","PK4"],
-			"description": "To provide a high quality education for adults & children that empowers families through a culturally sensitive family literacy model. The school offers 6 levels of family literacy classes, including adult & early childhood education, & Child Development Associate classes. Required components of adult family literacy classes include ESL, computer, parenting classes, & Parent & Child Together Time.",
-			 "address": {
-				"line_1": "2333 Ontario Rd NW",
-				"line_2": null,
-				"city": "Washington",
-				"state": "DC",
-				"zip": "20009",
-				"lat": 38.92097,
-				"long": -77.03981
-			 },
-			"transit": "S1; S2,4",
-			"website": "http://briya.org/",
-			"facebook": null,
-			"twitter": null,
-			"external_report_card": "http://issuu.com/pcsb/docs/dcpcsb_pmf_2013/47",
-			"equity_report_url": 
+	"closed": false,
+	"charter": true,
+	"school_type": [
+		"Regular school"
+	 ],
+	"great_schools": {
+		"gs_url": null
+	},
+	"ward": "1",
+	"grades_serviced": ["AO","PK3","PK4"],
+	"grades_accepted": ["AO","PK3","PK4"],
+	"description": "To provide a high quality education for adults & children that empowers families through a culturally sensitive family literacy model. The school offers 6 levels of family literacy classes, including adult & early childhood education, & Child Development Associate classes. Required components of adult family literacy classes include ESL, computer, parenting classes, & Parent & Child Together Time.",
+	 "address": {
+		"line_1": "2333 Ontario Rd NW",
+		"line_2": null,
+		"city": "Washington",
+		"state": "DC",
+		"zip": "20009",
+		"lat": 38.92097,
+		"long": -77.03981
+	 },
+	"transit": "S1; S2,4",
+	"website": "http://briya.org/",
+	"facebook": null,
+	"twitter": null,
+	"external_report_card": null,
+	"equity_report_url": 
 "http://osse.dc.gov/sites/default/files/dc/sites/osse/publication/attachments/2013_Equity_Report_PCSB_External_Briya%20PCS.pdf",
-			"contact": [
-				{
-					"name": "Daniela Carozza",
-					"title": "Board Chair",
-					"phone": null,
-					"email": null
-				},
-				{
-					"name": "Christie McKay",
-					"title": "Principal",
-					"phone": null,
-					"email": null
-				}
-			]
+	"contact": [
+		{
+			"name": "Daniela Carozza",
+			"title": "Board Chair",
+			"phone": null,
+			"email": null
+		},
+		{
+			"name": "Christie McKay",
+			"title": "Principal",
+			"phone": null,
+			"email": null
 		}
+		]
+	}
 }

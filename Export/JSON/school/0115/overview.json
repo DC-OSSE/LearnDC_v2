@@ -1,57 +1,56 @@
 {
-	"timestamp": "Mon Mar 09 17:46:41 2015",
+	"timestamp": "Wed Mar 18 17:23:07 2015",
 	"org_type": "school",
 	"org_name": "Howard University Middle School of Math and Science PCS",
 	"org_code": "0115",
 	 "exhibit": {
-		"id": "overview",
-			"closed": false,
-			"charter": true,
-			"school_type": [
-				"Regular school"
-			 ],
-			"great_schools": {
-				"gs_url": "http://www.greatschools.org/washington-dc/washington/383-Howard-University-Middle-School-PCS"
-			},
-			"ward": "1",
-			"grades_serviced": ["06","07","08"],
-			"grades_accepted": ["06","07","08"],
-			"description": "The Howard University Middle School of Mathematics and Science (MS)<sup>2</sup> is a public charter committed to academic excellence, with a specific focus on mathematics and science.",
-			 "address": {
-				"line_1": "405 Howard Pl NW",
-				"line_2": null,
-				"city": "Washington",
-				"state": "DC",
-				"zip": "20059",
-				"lat": 38.92284,
-				"long": -77.01913
-			 },
-			"transit": "Shaw-Howard Metro Station/70; 79",
-			"website": "http://www.howard.edu/ms2",
-			"facebook": null,
-			"twitter": null,
-			"external_report_card": "http://issuu.com/pcsb/docs/dcpcsb_pmf_2013/182",
-			"equity_report_url": 
+	"closed": false,
+	"charter": true,
+	"school_type": [
+		"Regular school"
+	 ],
+	"great_schools": {
+		"gs_url": "http://www.greatschools.org/washington-dc/washington/383-Howard-University-Middle-School-PCS"
+	},
+	"ward": "1",
+	"grades_serviced": ["06","07","08"],
+	"grades_accepted": ["06","07","08"],
+	"description": "The Howard University Middle School of Mathematics and Science (MS)<sup>2</sup> is a public charter committed to academic excellence, with a specific focus on mathematics and science.",
+	 "address": {
+		"line_1": "405 Howard Pl NW",
+		"line_2": null,
+		"city": "Washington",
+		"state": "DC",
+		"zip": "20059",
+		"lat": 38.92284,
+		"long": -77.01913
+	 },
+	"transit": "Shaw-Howard Metro Station/70; 79",
+	"website": "http://www.howard.edu/ms2",
+	"facebook": null,
+	"twitter": null,
+	"external_report_card": "http://dashboard.dcpcsb.org/detailed/61",
+	"equity_report_url": 
 "http://osse.dc.gov/sites/default/files/dc/sites/osse/publication/attachments/2013_Equity_Report_PCSB_External_Howard%20University%20Mathematics%20and%20Science%20PCS%20.pdf",
-			"contact": [
-				{
-					"name": "Wendell L. Johns",
-					"title": "Board Chair",
-					"phone": null,
-					"email": null
-				},
-				{
-					"name": "Allison L. Artis",
-					"title": "Principal",
-					"phone": null,
-					"email": null
-				},
-				{
-					"name": "Yohance Maqubela",
-					"title": "Executive Director",
-					"phone": null,
-					"email": null
-				}
-			]
+	"contact": [
+		{
+			"name": "Wendell L. Johns",
+			"title": "Board Chair",
+			"phone": null,
+			"email": null
+		},
+		{
+			"name": "Allison L. Artis",
+			"title": "Principal",
+			"phone": null,
+			"email": null
+		},
+		{
+			"name": "Yohance Maqubela",
+			"title": "Executive Director",
+			"phone": null,
+			"email": null
 		}
+		]
+	}
 }

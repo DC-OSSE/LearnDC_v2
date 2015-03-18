@@ -1,51 +1,50 @@
 {
-	"timestamp": "Mon Mar 09 17:47:34 2015",
+	"timestamp": "Wed Mar 18 17:23:11 2015",
 	"org_type": "school",
 	"org_name": "Bridges PCS",
 	"org_code": "0142",
 	 "exhibit": {
-		"id": "overview",
-			"closed": false,
-			"charter": true,
-			"school_type": [
-				"Regular school"
-			 ],
-			"great_schools": {
-				"gs_url": "http://www.greatschools.org/washington-dc/washington/380-Bridges-PCS"
-			},
-			"ward": "4",
-			"grades_serviced": ["01","02","KG","PK3","PK4"],
-			"grades_accepted": ["PK4","KG","01","PK3","03","02"],
-			"description": "Bridges Public Charter School's mission is to provide an exemplary educational program that includes all students. Our developmentally-appropriate, student and family-centered educational approach nurtures students to expand their developmental skills, in order to build a foundation for life-long learning.",
-			 "address": {
-				"line_1": "1250 Taylor St NW",
-				"line_2": null,
-				"city": "Washington",
-				"state": "DC",
-				"zip": "20011",
-				"lat": 38.9405,
-				"long": -77.02862
-			 },
-			"transit": "Georgia Avenue Petworth Station/52,53,54; 70; S1; S2,4",
-			"website": "http://www.bridgespcs.org",
-			"facebook": null,
-			"twitter": null,
-			"external_report_card": "http://issuu.com/pcsb/docs/dcpcsb_pmf_2013/44",
-			"equity_report_url": 
+	"closed": false,
+	"charter": true,
+	"school_type": [
+		"Regular school"
+	 ],
+	"great_schools": {
+		"gs_url": "http://www.greatschools.org/washington-dc/washington/380-Bridges-PCS"
+	},
+	"ward": "4",
+	"grades_serviced": ["01","02","KG","PK3","PK4"],
+	"grades_accepted": ["PK4","KG","01","PK3","03","02"],
+	"description": "Bridges Public Charter School's mission is to provide an exemplary educational program that includes all students. Our developmentally-appropriate, student and family-centered educational approach nurtures students to expand their developmental skills, in order to build a foundation for life-long learning.",
+	 "address": {
+		"line_1": "1250 Taylor St NW",
+		"line_2": null,
+		"city": "Washington",
+		"state": "DC",
+		"zip": "20011",
+		"lat": 38.9405,
+		"long": -77.02862
+	 },
+	"transit": "Georgia Avenue Petworth Station/52,53,54; 70; S1; S2,4",
+	"website": "http://www.bridgespcs.org",
+	"facebook": null,
+	"twitter": null,
+	"external_report_card": null,
+	"equity_report_url": 
 "http://osse.dc.gov/sites/default/files/dc/sites/osse/publication/attachments/2013_Equity_Report_PCSB_External_Bridges%20PCS.pdf",
-			"contact": [
-				{
-					"name": "Vincent Baxter",
-					"title": "Board Chair",
-					"phone": null,
-					"email": null
-				},
-				{
-					"name": "Olivia Smith",
-					"title": "Principal",
-					"phone": null,
-					"email": null
-				}
-			]
+	"contact": [
+		{
+			"name": "Vincent Baxter",
+			"title": "Board Chair",
+			"phone": null,
+			"email": null
+		},
+		{
+			"name": "Olivia Smith",
+			"title": "Principal",
+			"phone": null,
+			"email": null
 		}
+		]
+	}
 }

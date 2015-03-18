@@ -1,57 +1,56 @@
 {
-	"timestamp": "Mon Mar 09 17:54:35 2015",
+	"timestamp": "Wed Mar 18 17:23:50 2015",
 	"org_type": "school",
 	"org_name": "Center City Congress Heights Campus PCS",
 	"org_code": "1105",
 	 "exhibit": {
-		"id": "overview",
-			"closed": false,
-			"charter": true,
-			"school_type": [
-				"Regular school"
-			 ],
-			"great_schools": {
-				"gs_url": "http://www.greatschools.org/washington-dc/washington/595-Center-City-PCS---Congress-Heights"
-			},
-			"ward": "8",
-			"grades_serviced": ["01","02","03","04","05","06","07","08","KG","PK4"],
-			"grades_accepted": ["05","02","03","PK4","KG","01","08","04","07","06"],
-			"description": "The Center City Public Charter Schools (Center City PCS) empower our children for success through a rigorous academic program and strong character education while challenging students to pursue personal excellence in character, conduct, and scholarship in order to develop the skills necessary to both serve and lead others in the 21st century.",
-			 "address": {
-				"line_1": "220 High View Pl SE",
-				"line_2": null,
-				"city": "Washington",
-				"state": "DC",
-				"zip": "20032",
-				"lat": 38.84159,
-				"long": -77.00444
-			 },
-			"transit": "Congress Heights Metro Station/A2,42; A8,48",
-			"website": "http://www.centercitypcs.org",
-			"facebook": null,
-			"twitter": null,
-			"external_report_card": "http://issuu.com/pcsb/docs/dcpcsb_pmf_2013/71",
-			"equity_report_url": 
+	"closed": false,
+	"charter": true,
+	"school_type": [
+		"Regular school"
+	 ],
+	"great_schools": {
+		"gs_url": "http://www.greatschools.org/washington-dc/washington/595-Center-City-PCS---Congress-Heights"
+	},
+	"ward": "8",
+	"grades_serviced": ["01","02","03","04","05","06","07","08","KG","PK4"],
+	"grades_accepted": ["05","02","03","PK4","KG","01","08","04","07","06"],
+	"description": "The Center City Public Charter Schools (Center City PCS) empower our children for success through a rigorous academic program and strong character education while challenging students to pursue personal excellence in character, conduct, and scholarship in order to develop the skills necessary to both serve and lead others in the 21st century.",
+	 "address": {
+		"line_1": "220 High View Pl SE",
+		"line_2": null,
+		"city": "Washington",
+		"state": "DC",
+		"zip": "20032",
+		"lat": 38.84159,
+		"long": -77.00444
+	 },
+	"transit": "Congress Heights Metro Station/A2,42; A8,48",
+	"website": "http://www.centercitypcs.org",
+	"facebook": null,
+	"twitter": null,
+	"external_report_card": "http://dashboard.dcpcsb.org/detailed/20",
+	"equity_report_url": 
 "http://osse.dc.gov/sites/default/files/dc/sites/osse/publication/attachments/2013_Equity_Report_PCSB_External_Center%20City%20PCS%20–%20Congress%20Heights.pdf",
-			"contact": [
-				{
-					"name": "Ralph F. Boyd, Jr.",
-					"title": "Board Chair",
-					"phone": null,
-					"email": null
-				},
-				{
-					"name": "Niya White",
-					"title": "Principal",
-					"phone": null,
-					"email": null
-				},
-				{
-					"name": "Russ Williams",
-					"title": "Executive Director",
-					"phone": null,
-					"email": null
-				}
-			]
+	"contact": [
+		{
+			"name": "Ralph F. Boyd, Jr.",
+			"title": "Board Chair",
+			"phone": null,
+			"email": null
+		},
+		{
+			"name": "Niya White",
+			"title": "Principal",
+			"phone": null,
+			"email": null
+		},
+		{
+			"name": "Russ Williams",
+			"title": "Executive Director",
+			"phone": null,
+			"email": null
 		}
+		]
+	}
 }

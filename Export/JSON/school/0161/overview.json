@@ -1,57 +1,56 @@
 {
-	"timestamp": "Mon Mar 09 17:47:52 2015",
+	"timestamp": "Wed Mar 18 17:23:13 2015",
 	"org_type": "school",
 	"org_name": "Perry Street Prep PCS",
 	"org_code": "0161",
 	 "exhibit": {
-		"id": "overview",
-			"closed": false,
-			"charter": true,
-			"school_type": [
-				"Regular school"
-			 ],
-			"great_schools": {
-				"gs_url": "http://www.greatschools.org/washington-dc/washington/258-Perry-Street-Prep-PCS"
-			},
-			"ward": "5",
-			"grades_serviced": ["01","02","03","04","05","06","07","08","09","10","11","12","KG","PK3","PK4"],
-			"grades_accepted": ["PK3","PK4","KG","01","02","03","04","05","06","07","08"],
-			"description": "Perry Street Prep is a community of diverse learners that builds relationships with families and empowers students to be college-ready and to thrive in a global society.  Our philosophy is centered on the belief that every child deserves the right to a high quality education that prepares them for unlimited global opportunities..",
-			 "address": {
-				"line_1": "1800 Perry Street NE",
-				"line_2": null,
-				"city": "Washington",
-				"state": "DC",
-				"zip": "20018",
-				"lat": 38.9368,
-				"long": -76.9786
-			 },
-			"transit": "Brookland-CUA or Fort Totten Metro Station/G8; E2; H6; R4",
-			"website": "http://www.pspdc.org",
-			"facebook": null,
-			"twitter": null,
-			"external_report_card": "http://www.dcpcsb.org/SchoolProfile.aspx?sid=204",
-			"equity_report_url": 
+	"closed": false,
+	"charter": true,
+	"school_type": [
+		"Regular school"
+	 ],
+	"great_schools": {
+		"gs_url": "http://www.greatschools.org/washington-dc/washington/258-Perry-Street-Prep-PCS"
+	},
+	"ward": "5",
+	"grades_serviced": ["01","02","03","04","05","06","07","08","09","10","11","12","KG","PK3","PK4"],
+	"grades_accepted": ["PK3","PK4","KG","01","02","03","04","05","06","07","08"],
+	"description": "Perry Street Prep is a community of diverse learners that builds relationships with families and empowers students to be college-ready and to thrive in a global society.  Our philosophy is centered on the belief that every child deserves the right to a high quality education that prepares them for unlimited global opportunities..",
+	 "address": {
+		"line_1": "1800 Perry Street NE",
+		"line_2": null,
+		"city": "Washington",
+		"state": "DC",
+		"zip": "20018",
+		"lat": 38.9368,
+		"long": -76.9786
+	 },
+	"transit": "Brookland-CUA or Fort Totten Metro Station/G8; E2; H6; R4",
+	"website": "http://www.pspdc.org",
+	"facebook": null,
+	"twitter": null,
+	"external_report_card": "http://dashboard.dcpcsb.org/detailed/91",
+	"equity_report_url": 
 "http://osse.dc.gov/sites/default/files/dc/sites/osse/publication/attachments/2013_Equity_Report_PCSB_External_Perry%20Street%20Preparatory%20PCS.pdf",
-			"contact": [
-				{
-					"name": "Cynthia Brown",
-					"title": "Board Chair",
-					"phone": null,
-					"email": null
-				},
-				{
-					"name": "Tenina Reeves (PK-8) and Cordelia Postell (9-12)",
-					"title": "Principal",
-					"phone": null,
-					"email": null
-				},
-				{
-					"name": "Shadwick Jenkins",
-					"title": "Executive Director",
-					"phone": null,
-					"email": null
-				}
-			]
+	"contact": [
+		{
+			"name": "Cynthia Brown",
+			"title": "Board Chair",
+			"phone": null,
+			"email": null
+		},
+		{
+			"name": "Tenina Reeves (PK-8) and Cordelia Postell (9-12)",
+			"title": "Principal",
+			"phone": null,
+			"email": null
+		},
+		{
+			"name": "Shadwick Jenkins",
+			"title": "Executive Director",
+			"phone": null,
+			"email": null
 		}
+		]
+	}
 }

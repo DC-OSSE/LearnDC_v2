@@ -1,45 +1,44 @@
 {
-	"timestamp": "Mon Mar 09 17:49:22 2015",
+	"timestamp": "Wed Mar 18 17:23:22 2015",
 	"org_type": "school",
 	"org_name": "Brent ES",
 	"org_code": "0212",
 	 "exhibit": {
-		"id": "overview",
-			"closed": false,
-			"charter": false,
-			"school_type": [
-				"Regular school"
-			 ],
-			"great_schools": {
-				"gs_url": "http://www.greatschools.org/washington-dc/washington/89-Brent-Elementary-School"
-			},
-			"ward": "6",
-			"grades_serviced": ["01","02","03","04","05","KG","PK3","PK4"],
-			"grades_accepted": ["KG","04","02","03","PK3","PK4","05","01"],
-			"description": "At Brent, we bring together a diverse learning community of students, staff and families to provide an academic, ethical and personalized foundation for success in a global society. The goal is to nurture self-motivated and joyful learners who are creative and critical in their thinking and highly capable in their communication.",
-			 "address": {
-				"line_1": "301 North Carolina Ave. SE",
-				"line_2": null,
-				"city": "Washington",
-				"state": "DC",
-				"zip": "20003",
-				"lat": 38.8848,
-				"long": -77.00146
-			 },
-			"transit": "32 (Southern Ave - Friendship Heights), 34 (Archives - Naylor Rd Station), 36 (Friendship Heights - Naylor Rd Station), P6 (Rhode Island Station - Anacostia Station), DCN22 (Union Station), 96 (Capitol Heights Station - McLean Gardens), 97 (Union Station - Capitol Heights Station)",
-			"website": "www.dcps.dc.gov/DCPS/brent",
-			"facebook": "http://www.facebook.com/pages/Washington-DC/Robert-Brent-Elementary-School/151457801547343?v=wall&ref=ts",
-			"twitter": null,
-			"external_report_card": "http://profiles.dcps.dc.gov/Brent+Elementary+School",
-			"equity_report_url": 
+	"closed": false,
+	"charter": false,
+	"school_type": [
+		"Regular school"
+	 ],
+	"great_schools": {
+		"gs_url": "http://www.greatschools.org/washington-dc/washington/89-Brent-Elementary-School"
+	},
+	"ward": "6",
+	"grades_serviced": ["01","02","03","04","05","KG","PK3","PK4"],
+	"grades_accepted": ["KG","04","02","03","PK3","PK4","05","01"],
+	"description": "At Brent, we bring together a diverse learning community of students, staff and families to provide an academic, ethical and personalized foundation for success in a global society. The goal is to nurture self-motivated and joyful learners who are creative and critical in their thinking and highly capable in their communication.",
+	 "address": {
+		"line_1": "301 North Carolina Ave. SE",
+		"line_2": null,
+		"city": "Washington",
+		"state": "DC",
+		"zip": "20003",
+		"lat": 38.8848,
+		"long": -77.00146
+	 },
+	"transit": "32 (Southern Ave - Friendship Heights), 34 (Archives - Naylor Rd Station), 36 (Friendship Heights - Naylor Rd Station), P6 (Rhode Island Station - Anacostia Station), DCN22 (Union Station), 96 (Capitol Heights Station - McLean Gardens), 97 (Union Station - Capitol Heights Station)",
+	"website": "www.dcps.dc.gov/DCPS/brent",
+	"facebook": "http://www.facebook.com/pages/Washington-DC/Robert-Brent-Elementary-School/151457801547343?v=wall&ref=ts",
+	"twitter": null,
+	"external_report_card": "http://profiles.dcps.dc.gov/Brent+Elementary+School",
+	"equity_report_url": 
 "http://osse.dc.gov/sites/default/files/dc/sites/osse/publication/attachments/2013_Equity_Report_DCPS_External_Brent%20Elementary%20School.pdf",
-			"contact": [
-				{
-					"name": "Peter Young",
-					"title": "Principal",
-					"phone": "(202) 698-3363",
-					"email": "peter.young@dc.gov"
-				}
-			]
+	"contact": [
+		{
+			"name": "Peter Young",
+			"title": "Principal",
+			"phone": "(202) 698-3363",
+			"email": "peter.young@dc.gov"
 		}
+		]
+	}
 }

@@ -1,45 +1,44 @@
 {
-	"timestamp": "Mon Mar 09 17:49:25 2015",
+	"timestamp": "Wed Mar 18 17:23:22 2015",
 	"org_type": "school",
 	"org_name": "Brightwood EC",
 	"org_code": "0213",
 	 "exhibit": {
-		"id": "overview",
-			"closed": false,
-			"charter": false,
-			"school_type": [
-				"Regular school"
-			 ],
-			"great_schools": {
-				"gs_url": "http://www.greatschools.org/washington-dc/washington/88-Brightwood-Education-Campus"
-			},
-			"ward": "4",
-			"grades_serviced": ["01","02","03","04","05","06","07","08","KG","PK3","PK4"],
-			"grades_accepted": ["07","KG","06","PK3","PK4","04","01","02","03","08","05"],
-			"description": "Brightwood Education Campus is a diverse community of learners working together to reach high standards. Our mission is to enable the school, the family and the community to build a collaborative network that supports the full development of the child. The recent modernization of Brightwood marks an entirely new era for our school community and is leading the way toward improved instructional effectiveness as well as increased student achievement. Our enrollment has increased tremendously; we are now one of the largest PS–8 schools in the district and provide a wealth of opportunities to all students.",
-			 "address": {
-				"line_1": "1300 Nicholson St. NW",
-				"line_2": null,
-				"city": "Washington",
-				"state": "DC",
-				"zip": "20011",
-				"lat": 38.96054,
-				"long": -77.03069
-			 },
-			"transit": "70 (9th & Maine St - Silver Spring Station), 71 (Buzzard Point - Silver Spring Station), 79 (Archives - Silver Spring Station), 52, 53, 54 (L'Enfant Plaza - Takoma Station), E2, E4 (L'Enfant Plaza/McPherson Sq - Friendship Heights), S1, S2, S4, S9 (Potomac Park/Federal Triangle/McPherson Square - Silver Spring Station)",
-			"website": "www.dcps.dc.gov/DCPS/brightwood",
-			"facebook": "http://www.facebook.com/dcpublicschools",
-			"twitter": null,
-			"external_report_card": "http://profiles.dcps.dc.gov/Brightwood+Education+Campus",
-			"equity_report_url": 
+	"closed": false,
+	"charter": false,
+	"school_type": [
+		"Regular school"
+	 ],
+	"great_schools": {
+		"gs_url": "http://www.greatschools.org/washington-dc/washington/88-Brightwood-Education-Campus"
+	},
+	"ward": "4",
+	"grades_serviced": ["01","02","03","04","05","06","07","08","KG","PK3","PK4"],
+	"grades_accepted": ["07","KG","06","PK3","PK4","04","01","02","03","08","05"],
+	"description": "Brightwood Education Campus is a diverse community of learners working together to reach high standards. Our mission is to enable the school, the family and the community to build a collaborative network that supports the full development of the child. The recent modernization of Brightwood marks an entirely new era for our school community and is leading the way toward improved instructional effectiveness as well as increased student achievement. Our enrollment has increased tremendously; we are now one of the largest PS–8 schools in the district and provide a wealth of opportunities to all students.",
+	 "address": {
+		"line_1": "1300 Nicholson St. NW",
+		"line_2": null,
+		"city": "Washington",
+		"state": "DC",
+		"zip": "20011",
+		"lat": 38.96054,
+		"long": -77.03069
+	 },
+	"transit": "70 (9th & Maine St - Silver Spring Station), 71 (Buzzard Point - Silver Spring Station), 79 (Archives - Silver Spring Station), 52, 53, 54 (L'Enfant Plaza - Takoma Station), E2, E4 (L'Enfant Plaza/McPherson Sq - Friendship Heights), S1, S2, S4, S9 (Potomac Park/Federal Triangle/McPherson Square - Silver Spring Station)",
+	"website": "www.dcps.dc.gov/DCPS/brightwood",
+	"facebook": "http://www.facebook.com/dcpublicschools",
+	"twitter": null,
+	"external_report_card": "http://profiles.dcps.dc.gov/Brightwood+Education+Campus",
+	"equity_report_url": 
 "http://osse.dc.gov/sites/default/files/dc/sites/osse/publication/attachments/2013_Equity_Report_DCPS_External_Brightwood%20Education%20Campus.pdf",
-			"contact": [
-				{
-					"name": "Maurice Kennard",
-					"title": "Principal",
-					"phone": "(202) 722-5670",
-					"email": "maurice.kennard@dc.gov"
-				}
-			]
+	"contact": [
+		{
+			"name": "Maurice Kennard",
+			"title": "Principal",
+			"phone": "(202) 722-5670",
+			"email": "maurice.kennard@dc.gov"
 		}
+		]
+	}
 }

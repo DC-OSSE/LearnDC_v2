@@ -1,57 +1,56 @@
 {
-	"timestamp": "Mon Mar 09 17:54:28 2015",
+	"timestamp": "Wed Mar 18 17:23:49 2015",
 	"org_type": "school",
 	"org_name": "Achievement Preparatory PCS-Middle School",
 	"org_code": "1100",
 	 "exhibit": {
-		"id": "overview",
-			"closed": false,
-			"charter": true,
-			"school_type": [
-				"Regular school"
-			 ],
-			"great_schools": {
-				"gs_url": "http://www.greatschools.org/washington-dc/washington/587-Achievement-Preparatory-Academy-PCS"
-			},
-			"ward": "8",
-			"grades_serviced": ["04","05","06","07","08"],
-			"grades_accepted": ["04","05","06"],
-			"description": "The mission of Achievement Preparatory Academy (“Achievement Prep”) is to prepare students to excel as high-achieving scholars and leaders in high-school, college and beyond",
-			 "address": {
-				"line_1": "1500 Mississippi Ave SE",
-				"line_2": null,
-				"city": "Washington",
-				"state": "DC",
-				"zip": "20032",
-				"lat": 38.84165,
-				"long": -76.9834
-			 },
-			"transit": "A6,7,46; M8,9",
-			"website": "http://www.aprepacademy.org",
-			"facebook": null,
-			"twitter": null,
-			"external_report_card": "http://issuu.com/pcsb/docs/dcpcsb_pmf_2013/21",
-			"equity_report_url": 
+	"closed": false,
+	"charter": true,
+	"school_type": [
+		"Regular school"
+	 ],
+	"great_schools": {
+		"gs_url": "http://www.greatschools.org/washington-dc/washington/587-Achievement-Preparatory-Academy-PCS"
+	},
+	"ward": "8",
+	"grades_serviced": ["04","05","06","07","08"],
+	"grades_accepted": ["04","05","06"],
+	"description": "The mission of Achievement Preparatory Academy (“Achievement Prep”) is to prepare students to excel as high-achieving scholars and leaders in high-school, college and beyond",
+	 "address": {
+		"line_1": "1500 Mississippi Ave SE",
+		"line_2": null,
+		"city": "Washington",
+		"state": "DC",
+		"zip": "20032",
+		"lat": 38.84165,
+		"long": -76.9834
+	 },
+	"transit": "A6,7,46; M8,9",
+	"website": "http://www.aprepacademy.org",
+	"facebook": null,
+	"twitter": null,
+	"external_report_card": "http://dashboard.dcpcsb.org/detailed/2",
+	"equity_report_url": 
 "http://osse.dc.gov/sites/default/files/dc/sites/osse/publication/attachments/2013_Equity_Report_PCSB_External_Achievement%20Preparatory%20Academy%20PCS%20–%20%20Middle.pdf",
-			"contact": [
-				{
-					"name": "John Green",
-					"title": "Board Chair",
-					"phone": null,
-					"email": null
-				},
-				{
-					"name": "Susan Cannon",
-					"title": "Chief Academic Officer",
-					"phone": null,
-					"email": null
-				},
-				{
-					"name": "Shantelle Wright",
-					"title": "Executive Director",
-					"phone": null,
-					"email": null
-				}
-			]
+	"contact": [
+		{
+			"name": "John Green",
+			"title": "Board Chair",
+			"phone": null,
+			"email": null
+		},
+		{
+			"name": "Susan Cannon",
+			"title": "Chief Academic Officer",
+			"phone": null,
+			"email": null
+		},
+		{
+			"name": "Shantelle Wright",
+			"title": "Executive Director",
+			"phone": null,
+			"email": null
 		}
+		]
+	}
 }

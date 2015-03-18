@@ -1,45 +1,44 @@
 {
-	"timestamp": "Mon Mar 09 17:49:53 2015",
+	"timestamp": "Wed Mar 18 17:23:25 2015",
 	"org_type": "school",
 	"org_name": "Eaton ES",
 	"org_code": "0232",
 	 "exhibit": {
-		"id": "overview",
-			"closed": false,
-			"charter": false,
-			"school_type": [
-				"Regular school"
-			 ],
-			"great_schools": {
-				"gs_url": "http://www.greatschools.org/washington-dc/washington/74-Eaton-Elementary-School"
-			},
-			"ward": "3",
-			"grades_serviced": ["01","02","03","04","05","KG","PK3","PK4"],
-			"grades_accepted": ["KG","01","02","04","05","PK4","03"],
-			"description": "John Eaton Elementary School attracts a diverse group of students, teachers and staff from all four quadrants of the city. Our student body generally has more than 24 countries represented. Due to our rich diversity, Eaton is a World Cultures designated school. Our mission is to provide each Eaton student with a well-rounded 21st century education that prepares him or her, regardless of background or circumstance, for success in and beyond elementary school.",
-			 "address": {
-				"line_1": "3301 Lowell St. NW",
-				"line_2": null,
-				"city": "Washington",
-				"state": "DC",
-				"zip": "20008",
-				"lat": 38.93273,
-				"long": -77.06582
-			 },
-			"transit": "96 (Stadium Armory - McLean Gardens), X3 (Minnesota Ave - McLean Gardens), H3, H4 (Brookland - Tenley Circle/Tenleytown), 31,32,36,37 (Friendship Heights - Potomac Park/Southern Ave/Naylor Road)",
-			"website": "www.dcps.dc.gov/DCPS/eaton",
-			"facebook": "http://www.facebook.com/dcpublicschools",
-			"twitter": null,
-			"external_report_card": "http://profiles.dcps.dc.gov/Eaton+Elementary+School",
-			"equity_report_url": 
+	"closed": false,
+	"charter": false,
+	"school_type": [
+		"Regular school"
+	 ],
+	"great_schools": {
+		"gs_url": "http://www.greatschools.org/washington-dc/washington/74-Eaton-Elementary-School"
+	},
+	"ward": "3",
+	"grades_serviced": ["01","02","03","04","05","KG","PK3","PK4"],
+	"grades_accepted": ["KG","01","02","04","05","PK4","03"],
+	"description": "John Eaton Elementary School attracts a diverse group of students, teachers and staff from all four quadrants of the city. Our student body generally has more than 24 countries represented. Due to our rich diversity, Eaton is a World Cultures designated school. Our mission is to provide each Eaton student with a well-rounded 21st century education that prepares him or her, regardless of background or circumstance, for success in and beyond elementary school.",
+	 "address": {
+		"line_1": "3301 Lowell St. NW",
+		"line_2": null,
+		"city": "Washington",
+		"state": "DC",
+		"zip": "20008",
+		"lat": 38.93273,
+		"long": -77.06582
+	 },
+	"transit": "96 (Stadium Armory - McLean Gardens), X3 (Minnesota Ave - McLean Gardens), H3, H4 (Brookland - Tenley Circle/Tenleytown), 31,32,36,37 (Friendship Heights - Potomac Park/Southern Ave/Naylor Road)",
+	"website": "www.dcps.dc.gov/DCPS/eaton",
+	"facebook": "http://www.facebook.com/dcpublicschools",
+	"twitter": null,
+	"external_report_card": "http://profiles.dcps.dc.gov/Eaton+Elementary+School",
+	"equity_report_url": 
 "http://osse.dc.gov/sites/default/files/dc/sites/osse/publication/attachments/2013_Equity_Report_DCPS_External_Eaton%20Elementary%20School.pdf",
-			"contact": [
-				{
-					"name": "Dale Mann",
-					"title": "Principal",
-					"phone": "(202) 282-0103",
-					"email": "dale.mann@dc.gov"
-				}
-			]
+	"contact": [
+		{
+			"name": "Dale Mann",
+			"title": "Principal",
+			"phone": "(202) 282-0103",
+			"email": "dale.mann@dc.gov"
 		}
+		]
+	}
 }

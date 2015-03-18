@@ -1,51 +1,50 @@
 {
-	"timestamp": "Mon Mar 09 17:48:42 2015",
+	"timestamp": "Wed Mar 18 17:23:18 2015",
 	"org_type": "school",
 	"org_name": "Thurgood Marshall Academy PCS",
 	"org_code": "0191",
 	 "exhibit": {
-		"id": "overview",
-			"closed": false,
-			"charter": true,
-			"school_type": [
-				"Regular school"
-			 ],
-			"great_schools": {
-				"gs_url": "http://www.greatschools.org/washington-dc/washington/300-Thurgood-Marshall-Academy-PCS"
-			},
-			"ward": "8",
-			"grades_serviced": ["09","10","11","12"],
-			"grades_accepted": ["09","10","11"],
-			"description": "NA",
-			 "address": {
-				"line_1": "2427 Martin Luther King Jr Av SE",
-				"line_2": null,
-				"city": "Washington",
-				"state": "DC",
-				"zip": "20020",
-				"lat": 38.86228,
-				"long": -76.99369
-			 },
-			"transit": "Anacostia Metro Station",
-			"website": "http://www.thurgoodmarshallacademy.org",
-			"facebook": null,
-			"twitter": null,
-			"external_report_card": "http://issuu.com/pcsb/docs/dcpcsb_pmf_2013/277",
-			"equity_report_url": 
+	"closed": false,
+	"charter": true,
+	"school_type": [
+		"Regular school"
+	 ],
+	"great_schools": {
+		"gs_url": "http://www.greatschools.org/washington-dc/washington/300-Thurgood-Marshall-Academy-PCS"
+	},
+	"ward": "8",
+	"grades_serviced": ["09","10","11","12"],
+	"grades_accepted": ["09","10","11"],
+	"description": "NA",
+	 "address": {
+		"line_1": "2427 Martin Luther King Jr Av SE",
+		"line_2": null,
+		"city": "Washington",
+		"state": "DC",
+		"zip": "20020",
+		"lat": 38.86228,
+		"long": -76.99369
+	 },
+	"transit": "Anacostia Metro Station",
+	"website": "http://www.thurgoodmarshallacademy.org",
+	"facebook": null,
+	"twitter": null,
+	"external_report_card": "http://dashboard.dcpcsb.org/detailed/100",
+	"equity_report_url": 
 "http://osse.dc.gov/sites/default/files/dc/sites/osse/publication/attachments/2013_Equity_Report_PCSB_External_Thurgood%20Marshall%20Academy%20PCS.pdf",
-			"contact": [
-				{
-					"name": "Kannon Shanmugam",
-					"title": "Board Chair",
-					"phone": null,
-					"email": null
-				},
-				{
-					"name": "Sanjay Singh",
-					"title": "Principal",
-					"phone": null,
-					"email": null
-				}
-			]
+	"contact": [
+		{
+			"name": "Kannon Shanmugam",
+			"title": "Board Chair",
+			"phone": null,
+			"email": null
+		},
+		{
+			"name": "Sanjay Singh",
+			"title": "Principal",
+			"phone": null,
+			"email": null
 		}
+		]
+	}
 }

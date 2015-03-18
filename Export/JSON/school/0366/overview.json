@@ -1,40 +1,39 @@
 {
-	"timestamp": "Mon Mar 09 17:52:51 2015",
+	"timestamp": "Wed Mar 18 17:23:41 2015",
 	"org_type": "school",
 	"org_name": "Friendship PCS Woodridge Middle",
 	"org_code": "0366",
 	 "exhibit": {
-		"id": "overview",
-			"closed": false,
-			"charter": true,
-			"school_type": [
-				"Regular school"
-			 ],
-			"great_schools": {
-				"gs_url": null
-			},
-			"ward": "5",
-			"grades_serviced": ["04","05","06","07","08"],
-			"grades_accepted": ["04","05","06","07","08"],
-			"description": "",
-			 "address": {
-				"line_1": null,
-				"line_2": null,
-				"city": "Washington",
-				"state": "DC",
-				"zip": null,
-				"lat": 38.92955,
-				"long": -76.96651
-			 },
-			"transit": "NA",
-			"website": "http://www.friendshipschools.org",
-			"facebook": null,
-			"twitter": null,
-			"external_report_card": null,
-			"equity_report_url": 
+	"closed": false,
+	"charter": true,
+	"school_type": [
+		"Regular school"
+	 ],
+	"great_schools": {
+		"gs_url": null
+	},
+	"ward": "5",
+	"grades_serviced": ["04","05","06","07","08"],
+	"grades_accepted": ["04","05","06","07","08"],
+	"description": "",
+	 "address": {
+		"line_1": null,
+		"line_2": null,
+		"city": "Washington",
+		"state": "DC",
+		"zip": null,
+		"lat": 38.92955,
+		"long": -76.96651
+	 },
+	"transit": "NA",
+	"website": "http://www.friendshipschools.org",
+	"facebook": null,
+	"twitter": null,
+	"external_report_card": null,
+	"equity_report_url": 
 null,
-			"contact": [
+	"contact": [
 
-			]
-		}
+		]
+	}
 }

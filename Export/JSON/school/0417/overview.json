@@ -1,45 +1,44 @@
 {
-	"timestamp": "Mon Mar 09 17:53:14 2015",
+	"timestamp": "Wed Mar 18 17:23:43 2015",
 	"org_type": "school",
 	"org_name": "Kramer MS",
 	"org_code": "0417",
 	 "exhibit": {
-		"id": "overview",
-			"closed": false,
-			"charter": false,
-			"school_type": [
-				"Regular school"
-			 ],
-			"great_schools": {
-				"gs_url": "http://www.greatschools.org/washington-dc/washington/111-Kramer-Middle-School"
-			},
-			"ward": "8",
-			"grades_serviced": ["06","07","08"],
-			"grades_accepted": ["07","08","06"],
-			"description": "Located in the historic Anacostia neighborhood of DC, Kramer Middle School is dedicated to serving students in grades 6 through 8. Our faculty and staff work extremely hard to ensure that our students are successful, both inside and outside the classroom. We are committed to providing a high-quality education for all of our students and we constantly seek to help our students develop academically, socially and emotionally.",
-			 "address": {
-				"line_1": "1700 Q St. SE",
-				"line_2": null,
-				"city": "Washington",
-				"state": "DC",
-				"zip": "20020",
-				"lat": 38.87129,
-				"long": -76.98017
-			 },
-			"transit": "92 (U Street-Garfield Line), B2 (Bladensburg Road-Anacostia Line), U2 (Minnesota Avenue-Anacostia Line), V5 (Fairfax Village-L'Enfant Plaza Line), W6 (Garfield-Anacostia Loop Line)",
-			"website": "kramerms.com",
-			"facebook": "http://www.facebook.com/dcpublicschools",
-			"twitter": null,
-			"external_report_card": "http://profiles.dcps.dc.gov/Kramer+Middle+School",
-			"equity_report_url": 
+	"closed": false,
+	"charter": false,
+	"school_type": [
+		"Regular school"
+	 ],
+	"great_schools": {
+		"gs_url": "http://www.greatschools.org/washington-dc/washington/111-Kramer-Middle-School"
+	},
+	"ward": "8",
+	"grades_serviced": ["06","07","08"],
+	"grades_accepted": ["07","08","06"],
+	"description": "Located in the historic Anacostia neighborhood of DC, Kramer Middle School is dedicated to serving students in grades 6 through 8. Our faculty and staff work extremely hard to ensure that our students are successful, both inside and outside the classroom. We are committed to providing a high-quality education for all of our students and we constantly seek to help our students develop academically, socially and emotionally.",
+	 "address": {
+		"line_1": "1700 Q St. SE",
+		"line_2": null,
+		"city": "Washington",
+		"state": "DC",
+		"zip": "20020",
+		"lat": 38.87129,
+		"long": -76.98017
+	 },
+	"transit": "92 (U Street-Garfield Line), B2 (Bladensburg Road-Anacostia Line), U2 (Minnesota Avenue-Anacostia Line), V5 (Fairfax Village-L'Enfant Plaza Line), W6 (Garfield-Anacostia Loop Line)",
+	"website": "kramerms.com",
+	"facebook": "http://www.facebook.com/dcpublicschools",
+	"twitter": null,
+	"external_report_card": "http://profiles.dcps.dc.gov/Kramer+Middle+School",
+	"equity_report_url": 
 "http://osse.dc.gov/sites/default/files/dc/sites/osse/publication/attachments/2013_Equity_Report_DCPS_External_Kramer%20Middle%20School.pdf",
-			"contact": [
-				{
-					"name": "Kwame Simmons",
-					"title": "Principal",
-					"phone": "(202) 939-3150",
-					"email": "Kwame.simmons@dc.gov"
-				}
-			]
+	"contact": [
+		{
+			"name": "Kwame Simmons",
+			"title": "Principal",
+			"phone": "(202) 939-3150",
+			"email": "Kwame.simmons@dc.gov"
 		}
+		]
+	}
 }

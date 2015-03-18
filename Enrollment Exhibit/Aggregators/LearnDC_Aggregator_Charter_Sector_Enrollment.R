@@ -9,7 +9,8 @@ enr <- sqlQuery(dbrepcard, "SELECT * FROM [dbo].[enrollment]")
 ## Change Hispanic Coding
 enr$race[which(enr$ethnicity == "YES")] <- "HI7"
 ## Remove DYRS
-enr <- subset(enr, lea_code %notin% c(4001))
+enr <- subset(enr,lea_code %notin% c(4001))
+enr <- subset(enr,lea_code != '0122' & ea_year==2014) 
 
 
 enr$lea_code[which(enr$lea_code!='1')] <- 0

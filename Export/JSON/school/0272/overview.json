@@ -1,45 +1,44 @@
 {
-	"timestamp": "Mon Mar 09 17:50:40 2015",
+	"timestamp": "Wed Mar 18 17:23:29 2015",
 	"org_type": "school",
 	"org_name": "Key ES",
 	"org_code": "0272",
 	 "exhibit": {
-		"id": "overview",
-			"closed": false,
-			"charter": false,
-			"school_type": [
-				"Regular school"
-			 ],
-			"great_schools": {
-				"gs_url": "http://www.greatschools.org/washington-dc/washington/136-Key-Elementary-School"
-			},
-			"ward": "3",
-			"grades_serviced": ["01","02","03","04","05","KG","PK4"],
-			"grades_accepted": ["05","02","04","PK4","KG","01","03"],
-			"description": "Key Elementary School is a 2008 Blue Ribbon School that strives to achieve four goals for every student from pre-kindergarten to 5th grade: to help each child master critical learning skills; to encourage every student to discover his or her unique abilities while respecting the accomplishments of others; to ensure a healthy physical environment that promotes each students mental and physical development; and to provide the leadership, planning and resources necessary to accomplish these goals. At Key, our students' success is made possible by the high level of parental involvement and our outstanding staff.",
-			 "address": {
-				"line_1": "5001 Dana Pl. NW",
-				"line_2": null,
-				"city": "Washington",
-				"state": "DC",
-				"zip": "20016",
-				"lat": 38.9268,
-				"long": -77.10053
-			 },
-			"transit": "D5 (Farragut Square - Sangamore Road), D6 (Sibley Hospital - Stadium Armory Station), M4 (Sibley Hospital - Tenleytowm Station)",
-			"website": "www.dcps.dc.gov/DCPS/key",
-			"facebook": "http://www.facebook.com/dcpublicschools",
-			"twitter": null,
-			"external_report_card": "http://profiles.dcps.dc.gov/Key+Elementary+School",
-			"equity_report_url": 
+	"closed": false,
+	"charter": false,
+	"school_type": [
+		"Regular school"
+	 ],
+	"great_schools": {
+		"gs_url": "http://www.greatschools.org/washington-dc/washington/136-Key-Elementary-School"
+	},
+	"ward": "3",
+	"grades_serviced": ["01","02","03","04","05","KG","PK4"],
+	"grades_accepted": ["05","02","04","PK4","KG","01","03"],
+	"description": "Key Elementary School is a 2008 Blue Ribbon School that strives to achieve four goals for every student from pre-kindergarten to 5th grade: to help each child master critical learning skills; to encourage every student to discover his or her unique abilities while respecting the accomplishments of others; to ensure a healthy physical environment that promotes each students mental and physical development; and to provide the leadership, planning and resources necessary to accomplish these goals. At Key, our students' success is made possible by the high level of parental involvement and our outstanding staff.",
+	 "address": {
+		"line_1": "5001 Dana Pl. NW",
+		"line_2": null,
+		"city": "Washington",
+		"state": "DC",
+		"zip": "20016",
+		"lat": 38.9268,
+		"long": -77.10053
+	 },
+	"transit": "D5 (Farragut Square - Sangamore Road), D6 (Sibley Hospital - Stadium Armory Station), M4 (Sibley Hospital - Tenleytowm Station)",
+	"website": "www.dcps.dc.gov/DCPS/key",
+	"facebook": "http://www.facebook.com/dcpublicschools",
+	"twitter": null,
+	"external_report_card": "http://profiles.dcps.dc.gov/Key+Elementary+School",
+	"equity_report_url": 
 "http://osse.dc.gov/sites/default/files/dc/sites/osse/publication/attachments/2013_Equity_Report_DCPS_External_Key%20Elementary%20School.pdf",
-			"contact": [
-				{
-					"name": "David Landeryou",
-					"title": "Principal",
-					"phone": "(202) 729-3280",
-					"email": "david.landeryou@dc.gov"
-				}
-			]
+	"contact": [
+		{
+			"name": "David Landeryou",
+			"title": "Principal",
+			"phone": "(202) 729-3280",
+			"email": "david.landeryou@dc.gov"
 		}
+		]
+	}
 }

@@ -1,51 +1,50 @@
 {
-	"timestamp": "Mon Mar 09 17:47:11 2015",
+	"timestamp": "Wed Mar 18 17:23:09 2015",
 	"org_type": "school",
 	"org_name": "KIPP DC LEAP Academy PCS",
 	"org_code": "0132",
 	 "exhibit": {
-		"id": "overview",
-			"closed": false,
-			"charter": true,
-			"school_type": [
-				"Regular school"
-			 ],
-			"great_schools": {
-				"gs_url": "http://www.greatschools.org/washington-dc/washington/612-KIPP-DC---LEAP-Academy-PCS"
-			},
-			"ward": "7",
-			"grades_serviced": ["KG","PK3","PK4"],
-			"grades_accepted": ["PK3","PK4","KG"],
-			"description": "KIPP DC's mission is to create and sustain the highest quality school system for the communities most underserved in Washington, D.C.",
-			 "address": {
-				"line_1": "4801 Benning Rd SE",
-				"line_2": null,
-				"city": "Washington",
-				"state": "DC",
-				"zip": "20019",
-				"lat": 38.88263,
-				"long": -76.93439
-			 },
-			"transit": "Benning Road Metro Station/U5,U6,U8; W4",
-			"website": "http://www.kippdc.org",
-			"facebook": null,
-			"twitter": null,
-			"external_report_card": "http://issuu.com/pcsb/docs/dcpcsb_pmf_2013/212",
-			"equity_report_url": 
+	"closed": false,
+	"charter": true,
+	"school_type": [
+		"Regular school"
+	 ],
+	"great_schools": {
+		"gs_url": "http://www.greatschools.org/washington-dc/washington/612-KIPP-DC---LEAP-Academy-PCS"
+	},
+	"ward": "7",
+	"grades_serviced": ["KG","PK3","PK4"],
+	"grades_accepted": ["PK3","PK4","KG"],
+	"description": "KIPP DC's mission is to create and sustain the highest quality school system for the communities most underserved in Washington, D.C.",
+	 "address": {
+		"line_1": "4801 Benning Rd SE",
+		"line_2": null,
+		"city": "Washington",
+		"state": "DC",
+		"zip": "20019",
+		"lat": 38.88263,
+		"long": -76.93439
+	 },
+	"transit": "Benning Road Metro Station/U5,U6,U8; W4",
+	"website": "http://www.kippdc.org",
+	"facebook": null,
+	"twitter": null,
+	"external_report_card": null,
+	"equity_report_url": 
 "http://osse.dc.gov/sites/default/files/dc/sites/osse/publication/attachments/2013_Equity_Report_PCSB_External_KIPP%20DC%20–%20LEAP%20Academy%20PCS.pdf",
-			"contact": [
-				{
-					"name": "Terry Golden",
-					"title": "Board Chair",
-					"phone": null,
-					"email": null
-				},
-				{
-					"name": "Abraham Clayman",
-					"title": "Principal",
-					"phone": null,
-					"email": null
-				}
-			]
+	"contact": [
+		{
+			"name": "Terry Golden",
+			"title": "Board Chair",
+			"phone": null,
+			"email": null
+		},
+		{
+			"name": "Abraham Clayman",
+			"title": "Principal",
+			"phone": null,
+			"email": null
 		}
+		]
+	}
 }

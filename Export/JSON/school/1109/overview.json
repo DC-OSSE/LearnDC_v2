@@ -1,51 +1,50 @@
 {
-	"timestamp": "Mon Mar 09 17:54:46 2015",
+	"timestamp": "Wed Mar 18 17:23:51 2015",
 	"org_type": "school",
 	"org_name": "Community Academy Amos III",
 	"org_code": "1109",
 	 "exhibit": {
-		"id": "overview",
-			"closed": false,
-			"charter": true,
-			"school_type": [
-				"Regular school"
-			 ],
-			"great_schools": {
-				"gs_url": "http://www.greatschools.org/washington-dc/washington/599-Community-Academy-PCS---Amos-III"
-			},
-			"ward": "5",
-			"grades_serviced": [],
-			"grades_accepted": ["PK3","PK4","KG","01","02","03","04","05"],
-			"description": "The mission of the Dorothy I. Height Community Academy PCS is to create a caring learning community where students acquire the knowledge, skills, and habits of mind to think critically; to read, write, speak and listen effectively; to reason mathematically; to inquire scientifically; and to develop the social competence that ensures meeting qualifications for acceptance to a competitive high school.",
-			 "address": {
-				"line_1": "1400 First St NW",
-				"line_2": null,
-				"city": "Washington",
-				"state": "DC",
-				"zip": "20001",
-				"lat": 38.90908,
-				"long": -77.01322
-			 },
-			"transit": "Add NOMA-Gallaudet U Metro",
-			"website": "http://www.capcs.org",
-			"facebook": null,
-			"twitter": null,
-			"external_report_card": "http://issuu.com/pcsb/docs/dcpcsb_pmf_2013/99",
-			"equity_report_url": 
+	"closed": false,
+	"charter": true,
+	"school_type": [
+		"Regular school"
+	 ],
+	"great_schools": {
+		"gs_url": "http://www.greatschools.org/washington-dc/washington/599-Community-Academy-PCS---Amos-III"
+	},
+	"ward": "5",
+	"grades_serviced": [],
+	"grades_accepted": ["PK3","PK4","KG","01","02","03","04","05"],
+	"description": "The mission of the Dorothy I. Height Community Academy PCS is to create a caring learning community where students acquire the knowledge, skills, and habits of mind to think critically; to read, write, speak and listen effectively; to reason mathematically; to inquire scientifically; and to develop the social competence that ensures meeting qualifications for acceptance to a competitive high school.",
+	 "address": {
+		"line_1": "1400 First St NW",
+		"line_2": null,
+		"city": "Washington",
+		"state": "DC",
+		"zip": "20001",
+		"lat": 38.90908,
+		"long": -77.01322
+	 },
+	"transit": "Add NOMA-Gallaudet U Metro",
+	"website": "http://www.capcs.org",
+	"facebook": null,
+	"twitter": null,
+	"external_report_card": null,
+	"equity_report_url": 
 "http://osse.dc.gov/sites/default/files/dc/sites/osse/publication/attachments/2013_Equity_Report_PCSB_External_Community%20Academy%20PCS%20–%20Amos%203.pdf",
-			"contact": [
-				{
-					"name": "Ernest Green, Jr.",
-					"title": "Board Chair",
-					"phone": null,
-					"email": null
-				},
-				{
-					"name": "Rachelle Roberts",
-					"title": "Principal",
-					"phone": null,
-					"email": null
-				}
-			]
+	"contact": [
+		{
+			"name": "Ernest Green, Jr.",
+			"title": "Board Chair",
+			"phone": null,
+			"email": null
+		},
+		{
+			"name": "Rachelle Roberts",
+			"title": "Principal",
+			"phone": null,
+			"email": null
 		}
+		]
+	}
 }

@@ -1,45 +1,44 @@
 {
-	"timestamp": "Mon Mar 09 17:49:46 2015",
+	"timestamp": "Wed Mar 18 17:23:24 2015",
 	"org_type": "school",
 	"org_name": "Cleveland ES",
 	"org_code": "0224",
 	 "exhibit": {
-		"id": "overview",
-			"closed": false,
-			"charter": false,
-			"school_type": [
-				"Regular school"
-			 ],
-			"great_schools": {
-				"gs_url": "http://www.greatschools.org/washington-dc/washington/81-Cleveland-Elementary-School"
-			},
-			"ward": "1",
-			"grades_serviced": ["01","02","03","04","05","KG","PK3","PK4"],
-			"grades_accepted": ["PK4","05","02","03","KG","01","PK3","04"],
-			"description": "At Cleveland Elementary School, we believe that the elementary level is where the foundation for our students' future is built. Our mission is to build a foundation to enable each student to successfully compete and stand on his/her own wherever they go. Half of our classes on each grade level participate in our Dual Language program, where students take half of their classes in English and half in Spanish. Our building is a warm and nurturing place where students thrive academically, socially and emotionally. We direct instruction to individual students using Howard Gardner's theory of multiple intelligences. We recognize that each child is different and has unique talents, abilities and needs. Cleveland recently received the following awards: Proving What's Possible Grant, 2012; Fight for Children (Rising Star Grant), 2011; and National Distinguished Title I School.",
-			 "address": {
-				"line_1": "1825 8th St. NW",
-				"line_2": null,
-				"city": "Washington",
-				"state": "DC",
-				"zip": "20001",
-				"lat": 38.91515,
-				"long": -77.02271
-			 },
-			"transit": "70 (9th  &  Maine St - Silver Spring Station), 71 (Buzzard Point - Silver Spring Station) <br>79 (Archives - Silver Spring Station), 90, 92 (Anacostia Metro/Congress Heights - Ellington Bridge), 96 (Capitol Heights Station - McLean Gardens), X3 (McLean Gardens - Minnesota Ave), G8 (Avondale - Farragut Sq.), 63, 64 (Federal Triangle - Takoma Station/Fort Totten), G2 (Howard University - Georgetown University), DC Circulator",
-			"website": "www.dcps.dc.gov/DCPS/cleveland",
-			"facebook": "http://www.facebook.com/dcpublicschools#!/ClevelandES",
-			"twitter": null,
-			"external_report_card": "http://profiles.dcps.dc.gov/Cleveland+Elementary+School",
-			"equity_report_url": 
+	"closed": false,
+	"charter": false,
+	"school_type": [
+		"Regular school"
+	 ],
+	"great_schools": {
+		"gs_url": "http://www.greatschools.org/washington-dc/washington/81-Cleveland-Elementary-School"
+	},
+	"ward": "1",
+	"grades_serviced": ["01","02","03","04","05","KG","PK3","PK4"],
+	"grades_accepted": ["PK4","05","02","03","KG","01","PK3","04"],
+	"description": "At Cleveland Elementary School, we believe that the elementary level is where the foundation for our students' future is built. Our mission is to build a foundation to enable each student to successfully compete and stand on his/her own wherever they go. Half of our classes on each grade level participate in our Dual Language program, where students take half of their classes in English and half in Spanish. Our building is a warm and nurturing place where students thrive academically, socially and emotionally. We direct instruction to individual students using Howard Gardner's theory of multiple intelligences. We recognize that each child is different and has unique talents, abilities and needs. Cleveland recently received the following awards: Proving What's Possible Grant, 2012; Fight for Children (Rising Star Grant), 2011; and National Distinguished Title I School.",
+	 "address": {
+		"line_1": "1825 8th St. NW",
+		"line_2": null,
+		"city": "Washington",
+		"state": "DC",
+		"zip": "20001",
+		"lat": 38.91515,
+		"long": -77.02271
+	 },
+	"transit": "70 (9th  &  Maine St - Silver Spring Station), 71 (Buzzard Point - Silver Spring Station) <br>79 (Archives - Silver Spring Station), 90, 92 (Anacostia Metro/Congress Heights - Ellington Bridge), 96 (Capitol Heights Station - McLean Gardens), X3 (McLean Gardens - Minnesota Ave), G8 (Avondale - Farragut Sq.), 63, 64 (Federal Triangle - Takoma Station/Fort Totten), G2 (Howard University - Georgetown University), DC Circulator",
+	"website": "www.dcps.dc.gov/DCPS/cleveland",
+	"facebook": "http://www.facebook.com/dcpublicschools#!/ClevelandES",
+	"twitter": null,
+	"external_report_card": "http://profiles.dcps.dc.gov/Cleveland+Elementary+School",
+	"equity_report_url": 
 "http://osse.dc.gov/sites/default/files/dc/sites/osse/publication/attachments/2013_Equity_Report_DCPS_External_Cleveland%20Elementary%20School.pdf",
-			"contact": [
-				{
-					"name": "Dawn Feltman",
-					"title": "Principal",
-					"phone": "(202) 939-4380",
-					"email": "dawn.feltman@dc.gov"
-				}
-			]
+	"contact": [
+		{
+			"name": "Dawn Feltman",
+			"title": "Principal",
+			"phone": "(202) 939-4380",
+			"email": "dawn.feltman@dc.gov"
 		}
+		]
+	}
 }
