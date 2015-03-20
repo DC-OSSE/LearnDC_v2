@@ -14,7 +14,8 @@ dir <- sqlQuery(dbrepcard, "SELECT * FROM [dbo].[school_mapping_sy1314]")
 dir$school_code <- sapply(dir$school_code, leadgr, 4)
 
 grads$grade <- "9"
-grads$year <- grads$cohort_year + 2
+grads$year <- grads$cohort_year + 4
+grads$school_code <- sapply(grads$school_code, leadgr, 4)
 
 grads <- merge(grads, dir, by.x = c("year","grade","school_code"), by.y= c("ea_year","grade","school_code"), all.x=TRUE)
 

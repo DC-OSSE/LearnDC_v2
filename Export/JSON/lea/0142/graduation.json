@@ -1,7 +1,7 @@
 {
-"timestamp": "Fri Mar 06 14:52:26 2015",
+"timestamp": "Fri Mar 20 12:11:52 2015",
 "org_type": "lea",
-"org_name": "SCHOOL FOR EDUCATIONAL EVOLUTION AND DEVELOPMENT (SEED) PCS",
+"org_name": "SEED PCS OF WASHINGTON DC",
 "org_code": "0142",
 "exhibit": {
 	"id": "graduation",
@@ -10,29 +10,7 @@
     {
         "key": {
             "subgroup": "All",
-            "year": 2013,
-            "type": "Four Year ACGR"
-        },
-        "val": {
-            "graduates": 32,
-            "cohort_size": 36
-        }
-    },
-    {
-        "key": {
-            "subgroup": "MALE",
-            "year": 2013,
-            "type": "Four Year ACGR"
-        },
-        "val": {
-            "graduates": 12,
-            "cohort_size": 14
-        }
-    },
-    {
-        "key": {
-            "subgroup": "FEMALE",
-            "year": 2013,
+            "year": 2014,
             "type": "Four Year ACGR"
         },
         "val": {
@@ -42,24 +20,35 @@
     },
     {
         "key": {
-            "subgroup": "BL7",
-            "year": 2013,
+            "subgroup": "FEMALE",
+            "year": 2014,
             "type": "Four Year ACGR"
         },
         "val": {
-            "graduates": 31,
-            "cohort_size": 35
+            "graduates": 16,
+            "cohort_size": 16
+        }
+    },
+    {
+        "key": {
+            "subgroup": "BL7",
+            "year": 2014,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "graduates": 20,
+            "cohort_size": 22
         }
     },
     {
         "key": {
             "subgroup": "Economy",
-            "year": 2013,
+            "year": 2014,
             "type": "Four Year ACGR"
         },
         "val": {
-            "graduates": 27,
-            "cohort_size": 30
+            "graduates": 15,
+            "cohort_size": 17
         }
     },
     {
@@ -175,45 +164,56 @@
     {
         "key": {
             "subgroup": "All",
-            "year": 2014,
+            "year": 2013,
             "type": "Four Year ACGR"
         },
         "val": {
-            "graduates": 20,
-            "cohort_size": 22
+            "graduates": 32,
+            "cohort_size": 36
         }
     },
     {
         "key": {
-            "subgroup": "FEMALE",
-            "year": 2014,
-            "type": "Four Year ACGR"
-        },
-        "val": {
-            "graduates": 16,
-            "cohort_size": 16
-        }
-    },
-    {
-        "key": {
-            "subgroup": "BL7",
-            "year": 2014,
-            "type": "Four Year ACGR"
-        },
-        "val": {
-            "graduates": 20,
-            "cohort_size": 22
-        }
-    },
-    {
-        "key": {
-            "subgroup": "Economy",
-            "year": 2014,
+            "subgroup": "MALE",
+            "year": 2013,
             "type": "Four Year ACGR"
         },
         "val": {
             "graduates": 12,
             "cohort_size": 14
+        }
+    },
+    {
+        "key": {
+            "subgroup": "FEMALE",
+            "year": 2013,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "graduates": 20,
+            "cohort_size": 22
+        }
+    },
+    {
+        "key": {
+            "subgroup": "BL7",
+            "year": 2013,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "graduates": 31,
+            "cohort_size": 35
+        }
+    },
+    {
+        "key": {
+            "subgroup": "Economy",
+            "year": 2013,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "graduates": 27,
+            "cohort_size": 30
         }
     },
     {

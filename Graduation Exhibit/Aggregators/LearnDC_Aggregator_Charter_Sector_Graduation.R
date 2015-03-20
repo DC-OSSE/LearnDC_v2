@@ -12,8 +12,8 @@ grads$lea_name[which(grads$school_code=='0480' & grads$cohort_year==2010)] <- 'S
 
 grads <- subset(grads,lea_code %notin% c('4002','NULL'))
 
-grads$lea_code[which(grads$lea_code!='0001')] <- 0
-grads$lea_name[which(grads$lea_code!='0001')] <- 'Charter Sector LEA'
+grads$lea_code[which(grads$lea_code!='001')] <- 0
+grads$lea_name[which(grads$lea_code!='001')] <- 'Charter Sector LEA'
 grads$lea_name <- toupper(grads$lea_name)
 
 

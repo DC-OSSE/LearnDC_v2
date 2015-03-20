@@ -1,5 +1,5 @@
 {
-"timestamp": "Fri Mar 06 14:52:27 2015",
+"timestamp": "Fri Mar 20 12:11:54 2015",
 "org_type": "lea",
 "org_name": "WILLIAM E. DOAR JR PCS",
 "org_code": "0153",
@@ -7,28 +7,6 @@
 	"id": "graduation",
 	"data":  
 [
-    {
-        "key": {
-            "subgroup": "All",
-            "year": 2013,
-            "type": "Four Year ACGR"
-        },
-        "val": {
-            "graduates": 0,
-            "cohort_size": 13
-        }
-    },
-    {
-        "key": {
-            "subgroup": "BL7",
-            "year": 2013,
-            "type": "Four Year ACGR"
-        },
-        "val": {
-            "graduates": 0,
-            "cohort_size": 13
-        }
-    },
     {
         "key": {
             "subgroup": "All",
@@ -93,6 +71,28 @@
         "val": {
             "graduates": 8,
             "cohort_size": 19
+        }
+    },
+    {
+        "key": {
+            "subgroup": "All",
+            "year": 2013,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "graduates": 0,
+            "cohort_size": 13
+        }
+    },
+    {
+        "key": {
+            "subgroup": "BL7",
+            "year": 2013,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "graduates": 0,
+            "cohort_size": 13
         }
     }
 ]

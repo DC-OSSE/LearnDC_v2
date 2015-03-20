@@ -1,5 +1,5 @@
 {
-"timestamp": "Fri Mar 06 14:52:25 2015",
+"timestamp": "Fri Mar 20 12:11:49 2015",
 "org_type": "lea",
 "org_name": "WASHINGTON LATIN PCS",
 "org_code": "0151",
@@ -7,61 +7,6 @@
 	"id": "graduation",
 	"data":  
 [
-    {
-        "key": {
-            "subgroup": "All",
-            "year": 2012,
-            "type": "Four Year ACGR"
-        },
-        "val": {
-            "graduates": 41,
-            "cohort_size": 44
-        }
-    },
-    {
-        "key": {
-            "subgroup": "MALE",
-            "year": 2012,
-            "type": "Four Year ACGR"
-        },
-        "val": {
-            "graduates": 21,
-            "cohort_size": 24
-        }
-    },
-    {
-        "key": {
-            "subgroup": "FEMALE",
-            "year": 2012,
-            "type": "Four Year ACGR"
-        },
-        "val": {
-            "graduates": 20,
-            "cohort_size": 20
-        }
-    },
-    {
-        "key": {
-            "subgroup": "BL7",
-            "year": 2012,
-            "type": "Four Year ACGR"
-        },
-        "val": {
-            "graduates": 24,
-            "cohort_size": 27
-        }
-    },
-    {
-        "key": {
-            "subgroup": "Economy",
-            "year": 2012,
-            "type": "Four Year ACGR"
-        },
-        "val": {
-            "graduates": 12,
-            "cohort_size": 12
-        }
-    },
     {
         "key": {
             "subgroup": "All",
@@ -124,8 +69,63 @@
             "type": "Four Year ACGR"
         },
         "val": {
+            "graduates": 25,
+            "cohort_size": 30
+        }
+    },
+    {
+        "key": {
+            "subgroup": "All",
+            "year": 2012,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "graduates": 41,
+            "cohort_size": 44
+        }
+    },
+    {
+        "key": {
+            "subgroup": "MALE",
+            "year": 2012,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "graduates": 21,
+            "cohort_size": 24
+        }
+    },
+    {
+        "key": {
+            "subgroup": "FEMALE",
+            "year": 2012,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "graduates": 20,
+            "cohort_size": 20
+        }
+    },
+    {
+        "key": {
+            "subgroup": "BL7",
+            "year": 2012,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "graduates": 24,
+            "cohort_size": 27
+        }
+    },
+    {
+        "key": {
+            "subgroup": "Economy",
+            "year": 2012,
+            "type": "Four Year ACGR"
+        },
+        "val": {
             "graduates": 12,
-            "cohort_size": 15
+            "cohort_size": 12
         }
     }
 ]
