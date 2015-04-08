@@ -4,9 +4,6 @@ library(jsonlite)
 
 state_degree <- sqlQuery(dbrepcard_prod,"select * from dbo.staff_degree_state_exhibit")
 # state_degree <- subset(state_degree, num_total >= 10)
-colnames(state_degree)[2] <- "school_category"
-
-strtable(state_degree)
 
 key_index <- 1:2
 value_index <- 3:8
