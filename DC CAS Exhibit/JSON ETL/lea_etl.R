@@ -8,9 +8,6 @@ lea_cas <- sqlQuery(dbrepcard_prod, "SELECT * FROM [dbo].[cas_lea_exhibit]")
 
 lea_cas <- subset(lea_cas, (enrollment_status == "full_year" & n_test_takers >= 25) | (enrollment_status == "all" & n_test_takers >= 10))
 
-setwd('U:/LearnDC ETL V2/Export/CSV/lea')
-write.csv(lea_cas, "DCCAS_LEA.csv", row.names=FALSE)
-
 
 lea_cas$lea_code <- sapply(lea_cas$lea_code, leadgr, 4)
 

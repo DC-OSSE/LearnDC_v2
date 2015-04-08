@@ -4,13 +4,12 @@ source("U:/R/tomkit.R")
 library(jsonlite)
 
 
-school_enr <- sqlQuery(dbrepcard_prod, "SELECT * FROM [dbo].[enrollment_school_exhibit]")
+school_enr <- sqlQuery(dbrepcard_prod, "SELECT * FROM [dbo].[enrollment_school_exhibit_pcsb_alterations]")
 
 school_enr <- subset(school_enr, enrollment >= 10)
 
-
-setwd('U:/LearnDC ETL V2/Export/CSV/school')
-write.csv(school_enr, "Enrollment_School.csv", row.names=FALSE)
+# setwd('U:/LearnDC ETL V2/Export/CSV/school')
+# write.csv(school_enr, "Enrollment_School.csv", row.names=FALSE)
 
 
 school_enr$school_code <- sapply(school_enr$school_code, leadgr, 4)
@@ -29,7 +28,7 @@ for(i in unique(school_enr$school_code)){
 	} else {
 	    dir.create(file.path(i))
 	    setwd(file.path(i))
-	    num_orphans <- num_orphans + 1
+		num_orphans <- num_orphans + 1
 	}
 
 	.tmp <- subset(school_enr, school_code == i)
@@ -43,7 +42,6 @@ for(i in unique(school_enr$school_code)){
 	.json <- gsub("[[","",.json, fixed=TRUE)
 	.json <- gsub("]]","",.json, fixed=TRUE)
 	.json <- prettify(.json)
-
 
 	.school_name <- .tmp$school_name[1]
 

@@ -6,12 +6,13 @@ library(jsonlite)
 # school_hqt$lea_name[which(school_hqt$school_code=='0480')] <- 'State-Level Reporting LEA'
 
 state_hqt <- sqlQuery(dbrepcard_prod,"select * from dbo.hqt_classes_state_exhibit")
-state_hqt <- subset(state_hqt, num_total_classes >= 10)
+# state_hqt <- subset(state_hqt, num_total_classes >= 10)
 
 
 # setwd('U:/LearnDC ETL V2/Export/CSV/school')
 # write.csv(school_hqt, "HQT_School.csv", row.names=FALSE)
 
+strtable(state_hqt)
 
 key_index <- 1:2
 value_index <- 3:5
@@ -49,5 +50,5 @@ value_index <- 3:5
 	close(newfile)
 
 	## VALIDATE JSON
-	test <- readLines("graduation.json")
+	test <- readLines("hqt_classes.json")
 	validate(test)

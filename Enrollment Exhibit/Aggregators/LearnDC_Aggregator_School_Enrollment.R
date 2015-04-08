@@ -16,10 +16,6 @@ dir <- sqlQuery(dbrepcard, "SELECT * FROM [dbo].[school_mapping_sy1314]")
 dir$school_code <- sapply(dir$school_code, leadgr, 4)
 dir$grade <- sapply(dir$grade, leadgr, 2)
 
-enr$grade[which(enr$grade == "PK")] <- "PK4"
-enr$grade[which(enr$grade == "PS")] <- "PK3"
-
-
 enr <- merge(enr, dir, by.x = c("ea_year","grade","school_code"), by.y= c("ea_year","grade","school_code"), all.x=TRUE)
 enr$sy1314_school_name <- toupper(enr$sy1314_school_name)
 

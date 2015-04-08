@@ -1,5 +1,5 @@
 {
-"timestamp": "Wed Mar 11 17:38:50 2015",
+"timestamp": "Tue Apr 07 14:18:55 2015",
 "org_type": "school",
 "org_name": "ELIOT HINE MS",
 "org_code": "0407",
@@ -10,7 +10,7 @@
     {
         "key": {
             "year": 2014,
-            "teacher_category": "SEC"
+            "school_category": "SEC"
         },
         "val": {
             "num_associates": 0,
@@ -19,6 +19,20 @@
             "num_phd": 0,
             "num_none": 3,
             "num_total": 17
+        }
+    },
+    {
+        "key": {
+            "year": 2014,
+            "school_category": "ELEM"
+        },
+        "val": {
+            "num_associates": 0,
+            "num_bachelors": 1,
+            "num_masters": 1,
+            "num_phd": 0,
+            "num_none": 0,
+            "num_total": 2
         }
     }
 ]

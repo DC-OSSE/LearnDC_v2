@@ -5,6 +5,13 @@ source("U:/R/tomkit.R")
 
 cas <- sqlQuery(dbrepcard, "SELECT * FROM [dbo].[assessment]")
 dir <- sqlQuery(dbrepcard, "SELECT * FROM [dbo].[school_mapping_sy1314]")
+maya_1 <- c(2013,'101',9,'101','MAYA ANGELOU EVANS CAMPUS PCS')
+maya_2 <- c(2013,'101',10,'101','MAYA ANGELOU EVANS CAMPUS PCS')
+maya_3 <- c(2013,'101',11,'101','MAYA ANGELOU EVANS CAMPUS PCS')
+maya_4 <- c(2013,'101',12,'101','MAYA ANGELOU EVANS CAMPUS PCS')
+maya_all <- as.data.frame(rbind(maya_1,maya_2,maya_3,maya_4))
+colnames(maya_all) <- colnames(dir)
+dir <- rbind(dir,maya_all)
 
 cas$school_grade[which(cas$school_grade=='AO')] <- 13
 cas$school_grade <- as.integer(cas$school_grade)

@@ -4,7 +4,10 @@ library(jsonlite)
 
 sector_degree <- sqlQuery(dbrepcard_prod,"select * from dbo.staff_degree_sector_exhibit")
 sector_degree$lea_code <- sapply(sector_degree$lea_code, leadgr, 4)
-sector_degree <- subset(sector_degree, num_total >= 10 & lea_code=='0000')
+sector_degree <- subset(sector_degree, lea_code=='0000')
+# sector_degree <- subset(sector_degree, num_total >= 10 & lea_code=='0000')
+
+strtable(sector_degree)
 
 key_index <- c(1,4)
 value_index <- 5:10

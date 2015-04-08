@@ -29,7 +29,7 @@ abs_wide$school_code <- sapply(abs_wide$school_code, leadgr, 4)
 # setwd('U:/LearnDC ETL V2/Export/CSV/school')
 # write.csv(abs_wide, "Equity_Report_Unexcused_Absences_School.csv", row.names=FALSE)
 
-
+strtable(abs_wide)
 
 key_index <- c(2,3)
 value_index <- c(4:13)

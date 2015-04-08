@@ -7,17 +7,11 @@ school_cas$rownames <- NULL
 
 
 school_cas <- subset(school_cas, (enrollment_status == "full_year" & n_test_takers >= 25) | (enrollment_status == "all" & n_test_takers >= 25))
-
-setwd('U:/LearnDC ETL V2/Export/CSV/school')
-write.csv(school_cas, "DCCAS_School.csv", row.names=FALSE)
-
-
-key_index <- c(1,6:9)
-value_index <- 10:15
-num_orphans <- 0
-
 school_cas$school_code <- sapply(school_cas$school_code, leadgr, 4)
 
+key_index <- c(1,6:9)
+value_index <- 10:16
+num_orphans <- 0
 
 
 for(i in unique(school_cas$school_code)){

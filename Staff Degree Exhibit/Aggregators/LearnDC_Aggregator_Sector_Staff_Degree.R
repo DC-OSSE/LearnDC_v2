@@ -28,7 +28,7 @@ staff_degree$is_none[which(staff_degree$phd_ind=='N' & staff_degree$masters_ind=
  staff_degree$is_none[which(staff_degree$is_phd==0 & staff_degree$is_masters==0 & staff_degree$is_bachelors==0 & staff_degree$is_aa==0 & staff_degree$is_none==0)] <- 1
  staff_degree$is_none <- as.numeric(staff_degree$is_none)
 
-staff_degree <- select(staff_degree,year,teacher_category=elem_sec_teacher,lea_code,lea_name,school_code,school_name,is_none,is_aa,is_bachelors,is_masters,is_phd)
+staff_degree <- select(staff_degree,year,school_category=elem_sec_teacher,lea_code,lea_name,school_code,school_name,is_none,is_aa,is_bachelors,is_masters,is_phd)
 
 sector_degree <- data.frame()
 for(a in unique(staff_degree$lea_code)){
@@ -36,7 +36,7 @@ for(a in unique(staff_degree$lea_code)){
 	lea_code <- a
 	lea_name <- degree_sector$lea_name[1]
 
-	for(b in unique(degree_sector$teacher_category)){
+	for(b in unique(degree_sector$school_category)){
 		degree_sector_type <- subset(degree_sector,teacher_category==b)
 		teacher_category <- b
 

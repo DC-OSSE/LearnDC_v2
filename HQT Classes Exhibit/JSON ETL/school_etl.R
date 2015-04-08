@@ -8,13 +8,15 @@ library(jsonlite)
 school_hqt <- sqlQuery(dbrepcard_prod,"select * from dbo.hqt_classes_school_exhibit")
 school_hqt$school_code <- sapply(school_hqt$school_code, leadgr, 4)
 school_hqt$lea_code <- sapply(school_hqt$lea_code, leadgr, 4)
-school_hqt <- subset(school_hqt, num_total_classes >= 10)
+# school_hqt <- subset(school_hqt, num_total_classes >= 10)
 
 # setwd('U:/LearnDC ETL V2/Export/CSV/school')
 # write.csv(school_hqt, "HQT_School.csv", row.names=FALSE)
 
-key_index <- c(1,7,8)
-value_index <- 9:11
+strtable(school_hqt)
+
+key_index <- c(1,6:7)
+value_index <- 8:10
 num_orphans <- 0
 
 

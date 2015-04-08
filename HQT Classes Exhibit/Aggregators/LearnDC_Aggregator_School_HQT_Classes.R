@@ -5,10 +5,14 @@ library(dplyr)
 school_dir <- sqlQuery(dbrepcard,"select * from dbo.schooldir_sy1314")
 school_dir <- select(school_dir,year=school_year,lea_code,lea_name,school_code,school_name,charter_status)
 school_dir$year <- 2014
+school_dir$school_code <- sapply(school_dir$school_code, leadgr, 3)
+school_dir$lea_code <- sapply(school_dir$lea_code, leadgr, 3)
 
 lookup_ent <- sqlQuery(dbedm,"select * from dbo.lookup_entities where school_year='2013-2014'")
 lookup_ent <- select(lookup_ent,year=school_year,lea_code,school_code,elem_sec_classification,poverty_quartile_elem,poverty_quartile_sec)
 lookup_ent$year <- 2014
+lookup_ent$school_code <- sapply(lookup_ent$school_code, leadgr, 3)
+lookup_ent$lea_code <- sapply(lookup_ent$lea_code, leadgr, 3)
 
 school_dir <- merge(school_dir,lookup_ent,by=c('year','lea_code','school_code'),all.x=TRUE)
 
@@ -27,10 +31,11 @@ tmp2 <- select(tmp2,year,lea_code,lea_name,school_code,school_name,charter_statu
 school_hqt <- read.csv("hqt_class_counts_1314.csv")
 school_hqt <- select(school_hqt,year=school_year,lea_code,school_code,num_total_classes,num_hq_classes,num_nhq_classes)
 school_hqt$year[which(school_hqt$year=='2013-2014')] <- 2014
+school_hqt$school_code <- sapply(school_hqt$school_code, leadgr, 3)
+school_hqt$lea_code <- sapply(school_hqt$lea_code, leadgr, 3)
+
 
 school_hqt_all <- merge(tmp2,school_hqt,by=c("year","lea_code","school_code"),all.x=TRUE)
-school_hqt_all$school_code <- sapply(school_hqt_all$school_code, leadgr, 4)
-school_hqt_all$lea_code <- sapply(school_hqt_all$lea_code, leadgr, 4)
 school_hqt_all$school_name <- toupper(school_hqt_all$school_name)
 school_hqt_all$lea_name <- toupper(school_hqt_all$lea_name)
 
@@ -72,5 +77,6 @@ school_hqt_all$charter_status[which(school_hqt_all$charter_status=='Yes')] <- "P
 school_hqt_all$charter_status[which(school_hqt_all$charter_status=='No')] <- "DCPS"
 
 school_hqt_all <- subset(school_hqt_all,school_code %notin% c("0173","1047","0168","6000"))
+school_hqt_all <- select(school_hqt_all,year,lea_code,lea_name,school_code,school_name,school_category,poverty_quartile,num_total_classes,num_hq_classes,num_nhq_classes)
 
 sqlSave(dbrepcard_prod,school_hqt_all, tablename = "hqt_classes_school_exhibit", append = FALSE, rownames=FALSE)

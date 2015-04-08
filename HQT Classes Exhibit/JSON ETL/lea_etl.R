@@ -7,12 +7,13 @@ library(jsonlite)
 
 lea_hqt <- sqlQuery(dbrepcard_prod,"select * from dbo.hqt_classes_lea_exhibit")
 lea_hqt$lea_code <- sapply(lea_hqt$lea_code, leadgr, 4)
-lea_hqt <- subset(lea_hqt, num_total_classes >= 10)
+# lea_hqt <- subset(lea_hqt, num_total_classes >= 10)
 
 
 # setwd('U:/LearnDC ETL V2/Export/CSV/school')
 # write.csv(school_hqt, "HQT_School.csv", row.names=FALSE)
 
+strtable(lea_hqt)
 
 key_index <- 3:4
 value_index <- 5:7

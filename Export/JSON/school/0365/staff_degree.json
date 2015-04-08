@@ -1,5 +1,5 @@
 {
-"timestamp": "Wed Mar 11 17:38:48 2015",
+"timestamp": "Tue Apr 07 14:18:53 2015",
 "org_type": "school",
 "org_name": "FRIENDSHIP PCS WOODRIDGE ELEMENTARY",
 "org_code": "0365",
@@ -10,7 +10,21 @@
     {
         "key": {
             "year": 2014,
-            "teacher_category": "ELEM"
+            "school_category": "SEC"
+        },
+        "val": {
+            "num_associates": 0,
+            "num_bachelors": 1,
+            "num_masters": 0,
+            "num_phd": 0,
+            "num_none": 0,
+            "num_total": 1
+        }
+    },
+    {
+        "key": {
+            "year": 2014,
+            "school_category": "ELEM"
         },
         "val": {
             "num_associates": 0,
