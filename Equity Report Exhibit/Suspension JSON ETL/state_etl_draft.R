@@ -28,6 +28,8 @@ susp_wide$school_code <- sapply(susp_wide$school_code, leadgr, 4)
 
 state_susp <- select(susp_wide[which(susp_wide$school_code=='0161'),],year,subgroup,suspended_1=state_suspended_1,suspended_11=state_suspended_11,incidents)
 
+strtable(state_susp)
+
 key_index <- 1:2
 value_index <- 3:5
 
