@@ -1,5 +1,5 @@
 {
-"timestamp": "Fri Apr 17 14:42:08 2015",
+"timestamp": "Fri Jun 05 16:25:07 2015",
 "org_type": "lea",
 "org_name": "ACHIEVEMENT PREPARATORY ACADEMY PCS",
 "org_code": "0155",
@@ -7,20 +7,6 @@
 	"id": "staff_degree",
 	"data":  
 [
-    {
-        "key": {
-            "year": 2014,
-            "teacher_category": "ELEM"
-        },
-        "val": {
-            "num_associates": 0,
-            "num_bachelors": 23,
-            "num_masters": 11,
-            "num_phd": 0,
-            "num_none": 1,
-            "num_total": 35
-        }
-    },
     {
         "key": {
             "year": 2014,
@@ -33,6 +19,20 @@
             "num_phd": 0,
             "num_none": 0,
             "num_total": 11
+        }
+    },
+    {
+        "key": {
+            "year": 2014,
+            "teacher_category": "ELEM"
+        },
+        "val": {
+            "num_associates": 0,
+            "num_bachelors": 23,
+            "num_masters": 11,
+            "num_phd": 0,
+            "num_none": 1,
+            "num_total": 35
         }
     }
 ]

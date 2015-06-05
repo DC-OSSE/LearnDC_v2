@@ -2,12 +2,11 @@ setwd("U:/LearnDC ETL V2/Staff Degree Exhibit/Aggregators")
 source("U:/R/tomkit.R")
 library(dplyr)
 
-staff_degree <- sqlFetch(dbrepcard_prod,"dbo.staff_degree_school_exhibit")
-staff_degree$year[which(staff_degree$school_year=='2013-2014')] <- 2014
+school_degree <- sqlFetch(dbrepcard_prod,"dbo.staff_degree_school_exhibit_bk")
 
 state_degree <- data.frame()
-	for(a in unique(staff_degree$teacher_category)){
-		degree_state <- subset(staff_degree,teacher_category==a)
+	for(a in unique(school_degree$teacher_category)){
+		degree_state <- subset(school_degree,teacher_category==a)
 		teacher_category <- a
 
 		for(b in unique(degree_state$year)){
@@ -27,4 +26,4 @@ state_degree <- rbind(state_degree,new_row)
 	}
 colnames(state_degree) <- c("year","teacher_category","num_associates","num_bachelors","num_masters","num_phd","num_none","num_total")
 
-sqlSave(dbrepcard_prod, state_degree, tablename = "staff_degree_state_exhibit", append = FALSE, rownames=FALSE)
+sqlSave(dbrepcard_prod, state_degree, tablename = "staff_degree_state_exhibit_bk", append = FALSE, rownames=FALSE)

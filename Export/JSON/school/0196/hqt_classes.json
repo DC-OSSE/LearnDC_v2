@@ -1,5 +1,5 @@
 {
-"timestamp": "Tue Apr 07 14:05:40 2015",
+"timestamp": "Fri Jun 05 16:20:24 2015",
 "org_type": "school",
 "org_name": "D C  PREP-EDGEWOOD MIDDLE CAMPUS PCS",
 "org_code": "0196",
@@ -11,11 +11,23 @@
         "key": {
             "year": 2014,
             "school_category": "SEC",
-            "poverty_quartile": "LOW"
+            "poverty_quartile": "MIDDLE"
         },
         "val": {
-            "num_total_classes": 47,
-            "num_hq_classes": 47,
+            "num_total_classes": 17,
+            "num_hq_classes": 17,
+            "num_nhq_classes": 0
+        }
+    },
+    {
+        "key": {
+            "year": 2014,
+            "school_category": "ELEM",
+            "poverty_quartile": "MIDDLE"
+        },
+        "val": {
+            "num_total_classes": 30,
+            "num_hq_classes": 30,
             "num_nhq_classes": 0
         }
     }

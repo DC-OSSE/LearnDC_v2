@@ -1,5 +1,5 @@
 {
-"timestamp": "Fri Apr 17 14:41:36 2015",
+"timestamp": "Fri Jun 05 16:24:44 2015",
 "org_type": "school",
 "org_name": "DEAL MS",
 "org_code": "0405",
@@ -7,20 +7,6 @@
 	"id": "staff_degree",
 	"data":  
 [
-    {
-        "key": {
-            "year": 2014,
-            "teacher_category": "SEC"
-        },
-        "val": {
-            "num_associates": 0,
-            "num_bachelors": 28,
-            "num_masters": 16,
-            "num_phd": 0,
-            "num_none": 8,
-            "num_total": 52
-        }
-    },
     {
         "key": {
             "year": 2014,
@@ -33,6 +19,20 @@
             "num_phd": 0,
             "num_none": 1,
             "num_total": 18
+        }
+    },
+    {
+        "key": {
+            "year": 2014,
+            "teacher_category": "SEC"
+        },
+        "val": {
+            "num_associates": 0,
+            "num_bachelors": 28,
+            "num_masters": 16,
+            "num_phd": 0,
+            "num_none": 8,
+            "num_total": 52
         }
     }
 ]

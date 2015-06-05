@@ -1,5 +1,5 @@
 {
-"timestamp": "Tue Apr 07 14:05:45 2015",
+"timestamp": "Fri Jun 05 16:20:28 2015",
 "org_type": "school",
 "org_name": "SOMERSET PREPARATORY ACADEMY PCS",
 "org_code": "0187",
@@ -14,8 +14,20 @@
             "poverty_quartile": "MIDDLE"
         },
         "val": {
-            "num_total_classes": 6,
+            "num_total_classes": 5,
             "num_hq_classes": 3,
+            "num_nhq_classes": 3
+        }
+    },
+    {
+        "key": {
+            "year": 2014,
+            "school_category": "ELEM",
+            "poverty_quartile": "MIDDLE"
+        },
+        "val": {
+            "num_total_classes": 1,
+            "num_hq_classes": 0,
             "num_nhq_classes": 3
         }
     }

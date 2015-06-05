@@ -1,5 +1,5 @@
 {
-"timestamp": "Tue Apr 07 14:05:42 2015",
+"timestamp": "Fri Jun 05 16:20:26 2015",
 "org_type": "school",
 "org_name": "KIPP DC KEY ACADEMY PCS",
 "org_code": "0189",
@@ -14,8 +14,20 @@
             "poverty_quartile": "MIDDLE"
         },
         "val": {
-            "num_total_classes": 72,
-            "num_hq_classes": 72,
+            "num_total_classes": 48,
+            "num_hq_classes": 48,
+            "num_nhq_classes": 0
+        }
+    },
+    {
+        "key": {
+            "year": 2014,
+            "school_category": "ELEM",
+            "poverty_quartile": "MIDDLE"
+        },
+        "val": {
+            "num_total_classes": 24,
+            "num_hq_classes": 24,
             "num_nhq_classes": 0
         }
     }

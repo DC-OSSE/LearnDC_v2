@@ -5,11 +5,11 @@ source("U:/R/tomkit.R")
 source("./imports/subproc.R")
 
 ## Load Data
-enr <- sqlFetch(dbworking,"dbo.draft_enr_audit_all_1415")
+enr <- sqlFetch(dbrepcard,"dbo.enrollment_w2015_draft")
 ## Change Hispanic Coding
 enr$race[which(enr$ethnicity == "YES")] <- "HI7"
 ## Remove DYRS
-enr <- subset(enr, lea_code %notin% c(4001,4002))
+# enr <- subset(enr, lea_code %notin% c(4001,4002))
 enr$grade <- sapply(enr$grade,leadgr,2)
 
 subgroups_list <- c("All","MALE","FEMALE","AM7","AS7","BL7","HI7","MU7","PI7","WH7","SPED","SPED Level 1","SPED Level 2","SPED Level 3","SPED Level 4","LEP","Economy","Direct Cert")
@@ -61,4 +61,4 @@ state_subgroups_df$grade[which(state_subgroups_df$grade == "12")] <- "grade 12"
 state_subgroups_df$grade[which(state_subgroups_df$grade == "AO")] <- "grade AO"
 
 
-sqlSave(dbrepcard_prod, state_subgroups_df, tablename = "enrollment_state_exhibit_w2015_draft", append = FALSE, rownames=FALSE)
+sqlSave(dbrepcard_prod,state_subgroups_df,tablename="enrollment_state_exhibit_w2015",append=FALSE,rownames=FALSE)

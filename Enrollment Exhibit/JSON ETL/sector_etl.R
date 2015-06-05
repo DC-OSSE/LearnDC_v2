@@ -4,13 +4,9 @@ source("U:/R/tomkit.R")
 library(jsonlite)
 
 
-sector_enr <- sqlQuery(dbrepcard_prod, "SELECT * FROM [dbo].[enrollment_sector_exhibit]")
+sector_enr <- sqlQuery(dbrepcard_prod, "SELECT * FROM [dbo].[enrollment_sector_exhibit_w2015]")
 
 sector_enr <- subset(sector_enr, enrollment >= 10)
-
-
-setwd('U:/LearnDC ETL V2/Export/CSV/lea')
-write.csv(sector_enr, "Enrollment_LEA.csv", row.names=FALSE)
 
 
 sector_enr$lea_code <- sapply(sector_enr$lea_code, leadgr, 4)

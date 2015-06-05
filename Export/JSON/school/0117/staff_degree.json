@@ -1,26 +1,12 @@
 {
-"timestamp": "Fri Apr 17 14:41:34 2015",
+"timestamp": "Fri Jun 05 16:24:50 2015",
 "org_type": "school",
-"org_name": "POTOMAC LIGHTHOUSE PCS",
+"org_name": "POTOMAC PREP PCS",
 "org_code": "0117",
 "exhibit": {
 	"id": "staff_degree",
 	"data":  
 [
-    {
-        "key": {
-            "year": 2014,
-            "teacher_category": "SEC"
-        },
-        "val": {
-            "num_associates": 0,
-            "num_bachelors": 0,
-            "num_masters": 0,
-            "num_phd": 0,
-            "num_none": 7,
-            "num_total": 7
-        }
-    },
     {
         "key": {
             "year": 2014,
@@ -33,6 +19,20 @@
             "num_phd": 0,
             "num_none": 16,
             "num_total": 16
+        }
+    },
+    {
+        "key": {
+            "year": 2014,
+            "teacher_category": "SEC"
+        },
+        "val": {
+            "num_associates": 0,
+            "num_bachelors": 0,
+            "num_masters": 0,
+            "num_phd": 0,
+            "num_none": 7,
+            "num_total": 7
         }
     }
 ]

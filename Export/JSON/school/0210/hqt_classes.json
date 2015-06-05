@@ -1,7 +1,7 @@
 {
-"timestamp": "Tue Apr 07 14:05:43 2015",
+"timestamp": "Fri Jun 05 16:20:27 2015",
 "org_type": "school",
-"org_name": "WILLIAM E. DOAR, JR. PCS FOR THE PERFORMING ARTS",
+"org_name": "WILLIAM E. DOAR JR. PCS",
 "org_code": "0210",
 "exhibit": {
 	"id": "hqt_classes",
@@ -14,8 +14,20 @@
             "poverty_quartile": "MIDDLE"
         },
         "val": {
-            "num_total_classes": 39,
-            "num_hq_classes": 39,
+            "num_total_classes": 33,
+            "num_hq_classes": 33,
+            "num_nhq_classes": 0
+        }
+    },
+    {
+        "key": {
+            "year": 2014,
+            "school_category": "SEC",
+            "poverty_quartile": "MIDDLE"
+        },
+        "val": {
+            "num_total_classes": 6,
+            "num_hq_classes": 6,
             "num_nhq_classes": 0
         }
     }

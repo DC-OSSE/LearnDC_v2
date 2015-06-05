@@ -5,17 +5,17 @@ source("U:/R/tomkit.R")
 source("./imports/subproc.R")
 
 ## Load Data
-enr <- sqlFetch(dbworking,"dbo.draft_enr_audit_all_1415")
+enr <- sqlFetch(dbrepcard,"dbo.enrollment_w2015")
 ## Change Hispanic Coding
 enr$race[which(enr$ethnicity == "YES")] <- "HI7"
 ## Remove DYRS & 2014 Hospitality from Sectoral Calculations
-enr <- subset(enr,lea_code %notin% c(4001,4002))
+# enr <- subset(enr,lea_code %notin% c(4001,4002))
 enr <- enr[which(enr$lea_code!='122' | enr$ea_year!=2014),]
 
 enr$lea_code <- sapply(enr$lea_code,leadgr,3)
 enr$grade <- sapply(enr$grade,leadgr,2)
 enr$lea_code[which(enr$lea_code!='001')] <- '000'
-enr$lea_name[which(enr$lea_code!='001')] <- 'CHARTER SECTOR LEA'
+enr$lea_name[which(enr$lea_code!='001')] <- 'PUBLIC CHARTER SCHOOLS'
 
 subgroups_list <- c("All","MALE","FEMALE","AM7","AS7","BL7","HI7","MU7","PI7","WH7","SPED","SPED Level 1","SPED Level 2","SPED Level 3","SPED Level 4","LEP","Economy","Direct Cert")
 
@@ -75,4 +75,4 @@ sector_subgroups_df$grade[which(sector_subgroups_df$grade == "13")] <- "grade 13
 sector_subgroups_df$grade[which(sector_subgroups_df$grade == "AO")] <- "grade AO"
 
 
-sqlSave(dbrepcard_prod, sector_subgroups_df, tablename = "enrollment_sector_exhibit_w2015_draft", append = FALSE, rownames=FALSE)
+sqlSave(dbrepcard_prod,sector_subgroups_df,tablename="enrollment_sector_exhibit_w2015",append=FALSE,rownames=FALSE)

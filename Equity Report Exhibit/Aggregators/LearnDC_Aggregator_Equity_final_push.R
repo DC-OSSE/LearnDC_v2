@@ -8,7 +8,7 @@ tembo_add <- sqlQuery(dbworking,"select * from working.dbo.tembo_equity_report_d
 
 equity_long_tembo_add <- rbind(equity_long,tembo_add)
 
-add <- read.csv("X:/Equity Reports/FINAL DATA/KW Updates post final/briya_isa_adults_only_addition.csv")
+add <- read.csv("X:/Equity Reports/2013-2014 SY/FINAL DATA/KW Updates post final/briya_isa_adults_only_addition.csv")
 
 equity_long_tembo_add <- subset(equity_long_tembo_add, Key %notin% c("126-2013-14-Adults Only-In-Sea"))
 

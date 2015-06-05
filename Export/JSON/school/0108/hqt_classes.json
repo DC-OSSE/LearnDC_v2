@@ -1,5 +1,5 @@
 {
-"timestamp": "Tue Apr 07 14:05:40 2015",
+"timestamp": "Fri Jun 05 16:20:24 2015",
 "org_type": "school",
 "org_name": "COMMUNITY ACADEMY CAPCS ONLINE",
 "org_code": "0108",
@@ -10,12 +10,24 @@
     {
         "key": {
             "year": 2014,
+            "school_category": "SEC",
+            "poverty_quartile": "LOW"
+        },
+        "val": {
+            "num_total_classes": 10,
+            "num_hq_classes": 10,
+            "num_nhq_classes": 0
+        }
+    },
+    {
+        "key": {
+            "year": 2014,
             "school_category": "ELEM",
             "poverty_quartile": "LOW"
         },
         "val": {
-            "num_total_classes": 15,
-            "num_hq_classes": 15,
+            "num_total_classes": 5,
+            "num_hq_classes": 5,
             "num_nhq_classes": 0
         }
     }

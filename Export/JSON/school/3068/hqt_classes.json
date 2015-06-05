@@ -1,5 +1,5 @@
 {
-"timestamp": "Tue Apr 07 14:05:45 2015",
+"timestamp": "Fri Jun 05 16:20:28 2015",
 "org_type": "school",
 "org_name": "BASIS DC PCS",
 "org_code": "3068",
@@ -14,8 +14,20 @@
             "poverty_quartile": "LOW"
         },
         "val": {
-            "num_total_classes": 173,
-            "num_hq_classes": 166,
+            "num_total_classes": 81,
+            "num_hq_classes": 77,
+            "num_nhq_classes": 7
+        }
+    },
+    {
+        "key": {
+            "year": 2014,
+            "school_category": "ELEM",
+            "poverty_quartile": "LOW"
+        },
+        "val": {
+            "num_total_classes": 86,
+            "num_hq_classes": 83,
             "num_nhq_classes": 7
         }
     }

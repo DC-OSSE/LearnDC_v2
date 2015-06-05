@@ -1,5 +1,5 @@
 {
-"timestamp": "Tue Apr 07 14:05:37 2015",
+"timestamp": "Fri Jun 05 16:20:22 2015",
 "org_type": "school",
 "org_name": "SOUSA MS",
 "org_code": "0427",
@@ -11,23 +11,23 @@
         "key": {
             "year": 2014,
             "school_category": "SEC",
-            "poverty_quartile": "HIGH"
+            "poverty_quartile": "MIDDLE"
         },
         "val": {
-            "num_total_classes": 16,
-            "num_hq_classes": 16,
-            "num_nhq_classes": 0
+            "num_total_classes": 42,
+            "num_hq_classes": 38,
+            "num_nhq_classes": 4
         }
     },
     {
         "key": {
             "year": 2014,
-            "school_category": "SEC",
-            "poverty_quartile": "HIGH"
+            "school_category": "ELEM",
+            "poverty_quartile": "MIDDLE"
         },
         "val": {
-            "num_total_classes": 42,
-            "num_hq_classes": 38,
+            "num_total_classes": 16,
+            "num_hq_classes": 16,
             "num_nhq_classes": 4
         }
     }

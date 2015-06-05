@@ -1,5 +1,5 @@
 {
-"timestamp": "Tue Apr 07 14:05:43 2015",
+"timestamp": "Fri Jun 05 16:20:27 2015",
 "org_type": "school",
 "org_name": "TWO RIVERS PCS",
 "org_code": "0198",
@@ -14,9 +14,21 @@
             "poverty_quartile": "LOW"
         },
         "val": {
-            "num_total_classes": 110,
-            "num_hq_classes": 109,
-            "num_nhq_classes": 1
+            "num_total_classes": 89,
+            "num_hq_classes": 89,
+            "num_nhq_classes": 0
+        }
+    },
+    {
+        "key": {
+            "year": 2014,
+            "school_category": "SEC",
+            "poverty_quartile": "LOW"
+        },
+        "val": {
+            "num_total_classes": 21,
+            "num_hq_classes": 21,
+            "num_nhq_classes": 0
         }
     }
 ]

@@ -1,5 +1,5 @@
 {
-"timestamp": "Tue Apr 07 14:05:44 2015",
+"timestamp": "Fri Jun 05 16:20:28 2015",
 "org_type": "school",
 "org_name": "CENTER CITY SHAW CAMPUS PCS",
 "org_code": "1107",
@@ -14,8 +14,20 @@
             "poverty_quartile": "MIDDLE"
         },
         "val": {
-            "num_total_classes": 45,
-            "num_hq_classes": 44,
+            "num_total_classes": 33,
+            "num_hq_classes": 32,
+            "num_nhq_classes": 1
+        }
+    },
+    {
+        "key": {
+            "year": 2014,
+            "school_category": "SEC",
+            "poverty_quartile": "MIDDLE"
+        },
+        "val": {
+            "num_total_classes": 12,
+            "num_hq_classes": 12,
             "num_nhq_classes": 1
         }
     }

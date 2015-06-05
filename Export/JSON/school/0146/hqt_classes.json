@@ -1,7 +1,7 @@
 {
-"timestamp": "Tue Apr 07 14:05:40 2015",
+"timestamp": "Fri Jun 05 16:20:25 2015",
 "org_type": "school",
-"org_name": "E.L. HAYNES PCS - MIDDLE SCHOOL",
+"org_name": "E L  HAYNES PCS GEORGIA AVENUE",
 "org_code": "0146",
 "exhibit": {
 	"id": "hqt_classes",
@@ -11,11 +11,23 @@
         "key": {
             "year": 2014,
             "school_category": "SEC",
-            "poverty_quartile": "LOW"
+            "poverty_quartile": "MIDDLE"
         },
         "val": {
-            "num_total_classes": 119,
-            "num_hq_classes": 103,
+            "num_total_classes": 95,
+            "num_hq_classes": 79,
+            "num_nhq_classes": 16
+        }
+    },
+    {
+        "key": {
+            "year": 2014,
+            "school_category": "ELEM",
+            "poverty_quartile": "MIDDLE"
+        },
+        "val": {
+            "num_total_classes": 24,
+            "num_hq_classes": 24,
             "num_nhq_classes": 16
         }
     }

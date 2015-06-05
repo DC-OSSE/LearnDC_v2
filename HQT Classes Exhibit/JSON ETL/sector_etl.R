@@ -4,7 +4,7 @@ library(jsonlite)
 
 # school_hqt$lea_code[which(school_hqt$school_code=='0480')] <- '4001'
 # school_hqt$lea_name[which(school_hqt$school_code=='0480')] <- 'State-Level Reporting LEA'
-sector_hqt <- sqlQuery(dbrepcard_prod,"select * from dbo.hqt_classes_sector_exhibit")
+sector_hqt <- sqlQuery(dbrepcard_prod,"select * from dbo.hqt_classes_sector_exhibit_bk")
 sector_hqt$lea_code <- sapply(sector_hqt$lea_code, leadgr, 4)
 sector_hqt <- subset(sector_hqt, lea_code=='0000')
 # sector_hqt <- subset(sector_hqt, num_total_classes >= 10 & lea_code=='0000')

@@ -2,7 +2,7 @@ setwd("U:/LearnDC ETL V2/HQT Classes Exhibit/JSON ETL")
 source("U:/R/tomkit.R")
 library(jsonlite)
 
-lea_degree <- sqlQuery(dbrepcard_prod,"select * from dbo.staff_degree_lea_exhibit")
+lea_degree <- sqlQuery(dbrepcard_prod,"select * from dbo.staff_degree_lea_exhibit_bk")
 lea_degree$lea_code <- sapply(lea_degree$lea_code, leadgr, 4)
 # lea_degree <- subset(lea_degree, num_total >= 10)
 

@@ -1,131 +1,11 @@
 {
-"timestamp": "Wed Jan 14 15:00:47 2015",
+"timestamp": "Fri Jun 05 15:24:38 2015",
 "org_type": "school",
 "org_code": "0140",
 "exhibit": {
 	"id": "enrollment",
 	"data":  
 [
-    {
-        "key": {
-            "year": 2007,
-            "subgroup": "All",
-            "grade": "All"
-        },
-        "val": 71
-    },
-    {
-        "key": {
-            "year": 2007,
-            "subgroup": "All",
-            "grade": "PK3"
-        },
-        "val": 45
-    },
-    {
-        "key": {
-            "year": 2007,
-            "subgroup": "All",
-            "grade": "PK4"
-        },
-        "val": 26
-    },
-    {
-        "key": {
-            "year": 2007,
-            "subgroup": "MALE",
-            "grade": "All"
-        },
-        "val": 34
-    },
-    {
-        "key": {
-            "year": 2007,
-            "subgroup": "MALE",
-            "grade": "PK3"
-        },
-        "val": 23
-    },
-    {
-        "key": {
-            "year": 2007,
-            "subgroup": "MALE",
-            "grade": "PK4"
-        },
-        "val": 11
-    },
-    {
-        "key": {
-            "year": 2007,
-            "subgroup": "FEMALE",
-            "grade": "All"
-        },
-        "val": 37
-    },
-    {
-        "key": {
-            "year": 2007,
-            "subgroup": "FEMALE",
-            "grade": "PK3"
-        },
-        "val": 22
-    },
-    {
-        "key": {
-            "year": 2007,
-            "subgroup": "FEMALE",
-            "grade": "PK4"
-        },
-        "val": 15
-    },
-    {
-        "key": {
-            "year": 2007,
-            "subgroup": "BL7",
-            "grade": "All"
-        },
-        "val": 49
-    },
-    {
-        "key": {
-            "year": 2007,
-            "subgroup": "BL7",
-            "grade": "PK3"
-        },
-        "val": 32
-    },
-    {
-        "key": {
-            "year": 2007,
-            "subgroup": "BL7",
-            "grade": "PK4"
-        },
-        "val": 17
-    },
-    {
-        "key": {
-            "year": 2007,
-            "subgroup": "HI7",
-            "grade": "All"
-        },
-        "val": 13
-    },
-    {
-        "key": {
-            "year": 2007,
-            "subgroup": "LEP",
-            "grade": "All"
-        },
-        "val": 16
-    },
-    {
-        "key": {
-            "year": 2007,
-            "subgroup": "LEP",
-            "grade": "PK3"
-        },
-        "val": 10
-    },
     {
         "key": {
             "year": 2008,
@@ -1293,6 +1173,222 @@
             "grade": "PK4"
         },
         "val": 20
+    },
+    {
+        "key": {
+            "year": 2014,
+            "subgroup": "All",
+            "grade": "All"
+        },
+        "val": 163
+    },
+    {
+        "key": {
+            "year": 2014,
+            "subgroup": "All",
+            "grade": "PK3"
+        },
+        "val": 94
+    },
+    {
+        "key": {
+            "year": 2014,
+            "subgroup": "All",
+            "grade": "PK4"
+        },
+        "val": 69
+    },
+    {
+        "key": {
+            "year": 2014,
+            "subgroup": "MALE",
+            "grade": "All"
+        },
+        "val": 77
+    },
+    {
+        "key": {
+            "year": 2014,
+            "subgroup": "MALE",
+            "grade": "PK3"
+        },
+        "val": 49
+    },
+    {
+        "key": {
+            "year": 2014,
+            "subgroup": "MALE",
+            "grade": "PK4"
+        },
+        "val": 28
+    },
+    {
+        "key": {
+            "year": 2014,
+            "subgroup": "FEMALE",
+            "grade": "All"
+        },
+        "val": 86
+    },
+    {
+        "key": {
+            "year": 2014,
+            "subgroup": "FEMALE",
+            "grade": "PK3"
+        },
+        "val": 45
+    },
+    {
+        "key": {
+            "year": 2014,
+            "subgroup": "FEMALE",
+            "grade": "PK4"
+        },
+        "val": 41
+    },
+    {
+        "key": {
+            "year": 2014,
+            "subgroup": "BL7",
+            "grade": "All"
+        },
+        "val": 113
+    },
+    {
+        "key": {
+            "year": 2014,
+            "subgroup": "BL7",
+            "grade": "PK3"
+        },
+        "val": 68
+    },
+    {
+        "key": {
+            "year": 2014,
+            "subgroup": "BL7",
+            "grade": "PK4"
+        },
+        "val": 45
+    },
+    {
+        "key": {
+            "year": 2014,
+            "subgroup": "HI7",
+            "grade": "All"
+        },
+        "val": 13
+    },
+    {
+        "key": {
+            "year": 2014,
+            "subgroup": "HI7",
+            "grade": "PK4"
+        },
+        "val": 13
+    },
+    {
+        "key": {
+            "year": 2014,
+            "subgroup": "WH7",
+            "grade": "All"
+        },
+        "val": 34
+    },
+    {
+        "key": {
+            "year": 2014,
+            "subgroup": "WH7",
+            "grade": "PK3"
+        },
+        "val": 24
+    },
+    {
+        "key": {
+            "year": 2014,
+            "subgroup": "WH7",
+            "grade": "PK4"
+        },
+        "val": 10
+    },
+    {
+        "key": {
+            "year": 2014,
+            "subgroup": "SPED",
+            "grade": "All"
+        },
+        "val": 10
+    },
+    {
+        "key": {
+            "year": 2014,
+            "subgroup": "LEP",
+            "grade": "All"
+        },
+        "val": 37
+    },
+    {
+        "key": {
+            "year": 2014,
+            "subgroup": "LEP",
+            "grade": "PK3"
+        },
+        "val": 23
+    },
+    {
+        "key": {
+            "year": 2014,
+            "subgroup": "LEP",
+            "grade": "PK4"
+        },
+        "val": 14
+    },
+    {
+        "key": {
+            "year": 2014,
+            "subgroup": "Economy",
+            "grade": "All"
+        },
+        "val": 111
+    },
+    {
+        "key": {
+            "year": 2014,
+            "subgroup": "Economy",
+            "grade": "PK3"
+        },
+        "val": 62
+    },
+    {
+        "key": {
+            "year": 2014,
+            "subgroup": "Economy",
+            "grade": "PK4"
+        },
+        "val": 49
+    },
+    {
+        "key": {
+            "year": 2014,
+            "subgroup": "Direct Cert",
+            "grade": "All"
+        },
+        "val": 58
+    },
+    {
+        "key": {
+            "year": 2014,
+            "subgroup": "Direct Cert",
+            "grade": "PK3"
+        },
+        "val": 30
+    },
+    {
+        "key": {
+            "year": 2014,
+            "subgroup": "Direct Cert",
+            "grade": "PK4"
+        },
+        "val": 28
     }
 ]
 

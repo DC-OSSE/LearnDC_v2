@@ -3,7 +3,7 @@ source("U:/R/tomkit.R")
 source("./imports/subproc.R")
 
 ## Load Data
-enr <- sqlFetch(dbworking,"dbo.draft_enr_audit_all_1415")
+enr <- sqlFetch(dbrepcard,"dbo.enrollment_w2015")
 ## Change Hispanic Coding
 enr$race[which(enr$ethnicity == "YES")] <- "HI7"
 enr$grade <- sapply(enr$grade,leadgr,2)
@@ -79,4 +79,4 @@ school_subgroups_df$grade[which(school_subgroups_df$grade == "12")] <- "grade 12
 school_subgroups_df$grade[which(school_subgroups_df$grade == "13")] <- "grade 13"
 school_subgroups_df$grade[which(school_subgroups_df$grade == "AO")] <- "grade AO"
 
-sqlSave(dbrepcard_prod, school_subgroups_df, tablename = "enrollment_school_exhibit_w2015_draft", append = FALSE, rownames=FALSE)
+sqlSave(dbrepcard_prod,school_subgroups_df,tablename="enrollment_school_exhibit_w2015",append=FALSE,rownames=FALSE)

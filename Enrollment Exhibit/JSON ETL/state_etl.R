@@ -4,13 +4,9 @@ source("U:/R/tomkit.R")
 library(jsonlite)
 
 
-state_enr <- sqlQuery(dbrepcard_prod, "SELECT * FROM [dbo].[enrollment_state_exhibit]")
+state_enr <- sqlQuery(dbrepcard_prod, "SELECT * FROM [dbo].[enrollment_state_exhibit_w2015]")
 
 state_enr <- subset(state_enr, enrollment >= 10)
-
-
-setwd('U:/LearnDC ETL V2/Export/CSV/state')
-write.csv(state_enr, "Enrollment_State.csv", row.names=FALSE)
 
 
 setwd("U:/LearnDC ETL V2/Export/JSON/state/DC")
