@@ -32,7 +32,7 @@ for(a in unique(school_hqt$school_code)){
     
     for(b in unique(code_hqt$year)){
     	year_hqt <- subset(code_hqt,year==b)
-    	year <- year_hqt$year[1]
+    	year <- b
 
     		for(c in unique(year_hqt$elem_sec_classification)){
     			class_hqt <- subset(year_hqt,elem_sec_classification==c)
@@ -40,7 +40,7 @@ for(a in unique(school_hqt$school_code)){
     			poverty_quartile <- class_hqt$poverty_quartile[1]
  	
     			num_hqt <- nrow(class_hqt[which(class_hqt$hq_decision=='Y'),])
-    			num_non_hqt <- nrow(class_hqt[which(year_hqt$hq_decision!='Y'),])
+    			num_non_hqt <- nrow(class_hqt[which(class_hqt$hq_decision!='Y'),])
     			num_total <- nrow(class_hqt)
     
     		new_row <- c(year,lea_code,lea_name,school_code,school_name,school_category,poverty_quartile,num_total,num_hqt,num_non_hqt)
