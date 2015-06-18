@@ -2,7 +2,7 @@ setwd("U:/LearnDC ETL V2/Staff Degree Exhibit/Aggregators")
 source("U:/R/tomkit.R")
 library(dplyr)
 
-school_degree <- sqlFetch(dbrepcard_prod,"dbo.staff_degree_school_exhibit_bk")
+school_degree <- sqlFetch(dbrepcard_prod,"dbo.staff_degree_school_exhibit")
 school_degree$lea_code <- sapply(school_degree$lea_code, leadgr, 3)
 
 lea_degree <- data.frame()
@@ -33,4 +33,4 @@ lea_degree <- rbind(lea_degree,new_row)
 }
 colnames(lea_degree) <- c("year","lea_code","lea_name","teacher_category","num_associates","num_bachelors","num_masters","num_phd","num_none","num_total")
 
-sqlSave(dbrepcard_prod, lea_degree, tablename = "staff_degree_lea_exhibit_bk", append = FALSE, rownames=FALSE)
+sqlSave(dbrepcard_prod,lea_degree,tablename="staff_degree_lea_exhibit",append=FALSE,rownames=FALSE)

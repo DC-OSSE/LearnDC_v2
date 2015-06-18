@@ -4,7 +4,7 @@ source("U:/R/tomkit.R")
 source("./imports/subproc.R")
 
 
-grads <- sqlQuery(dbrepcard, "SELECT * FROM dbo.graduation_w2014  where cohort_status=1")
+grads <- sqlQuery(dbrepcard, "SELECT * FROM dbo.graduation where cohort_status=1")
 
 
 grads$lea_code[which(grads$school_code=='0480' & grads$cohort_year==2010)] <- '4001'

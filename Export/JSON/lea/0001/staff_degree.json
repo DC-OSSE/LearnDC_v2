@@ -1,5 +1,5 @@
 {
-"timestamp": "Fri Jun 05 16:25:08 2015",
+"timestamp": "Thu Jun 18 15:46:31 2015",
 "org_type": "lea",
 "org_name": "DISTRICT OF COLUMBIA PUBLIC SCHOOLS",
 "org_code": "0001",
@@ -7,20 +7,6 @@
 	"id": "staff_degree",
 	"data":  
 [
-    {
-        "key": {
-            "year": 2014,
-            "teacher_category": "SEC"
-        },
-        "val": {
-            "num_associates": 0,
-            "num_bachelors": 535,
-            "num_masters": 316,
-            "num_phd": 8,
-            "num_none": 92,
-            "num_total": 951
-        }
-    },
     {
         "key": {
             "year": 2014,
@@ -33,6 +19,20 @@
             "num_phd": 1,
             "num_none": 76,
             "num_total": 350
+        }
+    },
+    {
+        "key": {
+            "year": 2014,
+            "teacher_category": "SEC"
+        },
+        "val": {
+            "num_associates": 0,
+            "num_bachelors": 535,
+            "num_masters": 316,
+            "num_phd": 8,
+            "num_none": 92,
+            "num_total": 951
         }
     }
 ]

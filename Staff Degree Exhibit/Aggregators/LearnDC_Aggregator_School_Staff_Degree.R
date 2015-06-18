@@ -71,4 +71,4 @@ non_report$num_total <- 1
 
 school_degree <- rbind.data.frame(school_degree,non_report)
 
-sqlSave(dbrepcard_prod, school_degree, tablename = "staff_degree_school_exhibit_bk", append = FALSE, rownames=FALSE)
+sqlSave(dbrepcard_prod,school_degree,tablename="staff_degree_school_exhibit",append = FALSE,rownames=FALSE)

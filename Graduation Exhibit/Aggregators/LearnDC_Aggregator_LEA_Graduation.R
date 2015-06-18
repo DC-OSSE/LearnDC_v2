@@ -4,7 +4,7 @@ source("U:/R/tomkit.R")
 
 source("./imports/subproc.R")
 
-grads <- sqlQuery(dbrepcard, "SELECT * FROM dbo.graduation_w2014 where cohort_status=1")
+grads <- sqlQuery(dbrepcard, "SELECT * FROM dbo.graduation where cohort_status=1")
 
 
 ##7000 lea_code and lea_name "State Level Reporting LEA" for records with school_code == 480 (Incarcerated Youth Program, Correctional) just for cohort_year==2010

@@ -1,5 +1,5 @@
 {
-"timestamp": "Fri Jun 05 16:24:45 2015",
+"timestamp": "Thu Jun 18 15:45:53 2015",
 "org_type": "school",
 "org_name": "SOUSA MS",
 "org_code": "0427",
@@ -7,20 +7,6 @@
 	"id": "staff_degree",
 	"data":  
 [
-    {
-        "key": {
-            "year": 2014,
-            "teacher_category": "SEC"
-        },
-        "val": {
-            "num_associates": 0,
-            "num_bachelors": 8,
-            "num_masters": 3,
-            "num_phd": 0,
-            "num_none": 0,
-            "num_total": 11
-        }
-    },
     {
         "key": {
             "year": 2014,
@@ -33,6 +19,20 @@
             "num_phd": 0,
             "num_none": 0,
             "num_total": 4
+        }
+    },
+    {
+        "key": {
+            "year": 2014,
+            "teacher_category": "SEC"
+        },
+        "val": {
+            "num_associates": 0,
+            "num_bachelors": 8,
+            "num_masters": 3,
+            "num_phd": 0,
+            "num_none": 0,
+            "num_total": 11
         }
     }
 ]

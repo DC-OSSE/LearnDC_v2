@@ -1,5 +1,5 @@
 {
-"timestamp": "Fri Jun 05 16:24:45 2015",
+"timestamp": "Thu Jun 18 15:45:53 2015",
 "org_type": "school",
 "org_name": "KRAMER MS",
 "org_code": "0417",
@@ -7,20 +7,6 @@
 	"id": "staff_degree",
 	"data":  
 [
-    {
-        "key": {
-            "year": 2014,
-            "teacher_category": "SEC"
-        },
-        "val": {
-            "num_associates": 0,
-            "num_bachelors": 6,
-            "num_masters": 0,
-            "num_phd": 0,
-            "num_none": 3,
-            "num_total": 9
-        }
-    },
     {
         "key": {
             "year": 2014,
@@ -33,6 +19,20 @@
             "num_phd": 0,
             "num_none": 0,
             "num_total": 6
+        }
+    },
+    {
+        "key": {
+            "year": 2014,
+            "teacher_category": "SEC"
+        },
+        "val": {
+            "num_associates": 0,
+            "num_bachelors": 6,
+            "num_masters": 0,
+            "num_phd": 0,
+            "num_none": 3,
+            "num_total": 9
         }
     }
 ]

@@ -2,7 +2,7 @@ setwd("U:/LearnDC ETL V2/Staff Degree Exhibit/Aggregators")
 source("U:/R/tomkit.R")
 library(dplyr)
 
-school_degree <- sqlFetch(dbrepcard_prod,"dbo.staff_degree_school_exhibit_bk")
+school_degree <- sqlFetch(dbrepcard_prod,"dbo.staff_degree_school_exhibit")
 school_degree$lea_code <- ifelse(school_degree$lea_code!='1','000','001')
 school_degree$lea_name <- ifelse(school_degree$lea_code!='001','CHARTER SECTOR LEA','DISTRICT OF COLUMBIA PUBLIC SCHOOLS')
 
@@ -34,4 +34,4 @@ for(a in unique(school_degree$lea_code)){
 }
 colnames(sector_degree) <- c("year","lea_code","lea_name","teacher_category","num_associates","num_bachelors","num_masters","num_phd","num_none","num_total")
 
-sqlSave(dbrepcard_prod, sector_degree, tablename = "staff_degree_sector_exhibit_bk", append = FALSE, rownames=FALSE)
+sqlSave(dbrepcard_prod,sector_degree,tablename="staff_degree_sector_exhibit",append=FALSE,rownames=FALSE)

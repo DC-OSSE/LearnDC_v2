@@ -16,3 +16,5 @@ equity_long_tembo_delta <- rbind(equity_long_tembo_add,add)
 
 add104_168 <- read.csv("X:/Equity Reports/FINAL DATA/KW Updates post final/ISA 104 and 168.csv")
 equity_longitudinal3 <- rbind(equity_long_tembo_delta,add104_168)
+
+sqlSave(dbrepcard_prod,equity_longitudinal3,"dbo.equity_longitudinal3",append=FALSE,rownames=FALSE)

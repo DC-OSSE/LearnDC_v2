@@ -2,7 +2,7 @@ setwd("U:/LearnDC ETL V2/Staff Degree Exhibit/JSON ETL")
 source("U:/R/tomkit.R")
 library(jsonlite)
 
-state_degree <- sqlQuery(dbrepcard_prod,"select * from dbo.staff_degree_state_exhibit_bk")
+state_degree <- sqlQuery(dbrepcard_prod,"select * from dbo.staff_degree_state_exhibit")
 # state_degree <- subset(state_degree, num_total >= 10)
 
 strtable(state_degree)
