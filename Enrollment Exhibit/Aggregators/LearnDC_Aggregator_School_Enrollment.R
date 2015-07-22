@@ -3,7 +3,7 @@ source("U:/R/tomkit.R")
 source("./imports/subproc.R")
 
 ## Load Data
-enr <- sqlFetch(dbrepcard,"dbo.enrollment_w2015")
+enr <- sqlFetch(dbrepcard,"dbo.enrollment_w2015_pkcbo")
 ## Change Hispanic Coding
 enr$race[which(enr$ethnicity == "YES")] <- "HI7"
 enr$grade <- sapply(enr$grade,leadgr,2)

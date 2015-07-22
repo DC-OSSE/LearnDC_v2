@@ -1,12 +1,844 @@
 {
-"timestamp": "Wed Jan 14 19:41:20 2015",
+"timestamp": "Wed Jul 22 10:04:02 2015",
 "org_type": "lea",
-"org_name": "HYDE LEADERSHIP PCS",
+"org_name": "PERRY STREET PREP PCS",
 "org_code": "0125",
 "exhibit": {
 	"id": "enrollment",
 	"data":  
 [
+    {
+        "key": {
+            "year": 2014,
+            "subgroup": "All",
+            "grade": "All"
+        },
+        "val": 619
+    },
+    {
+        "key": {
+            "year": 2014,
+            "subgroup": "All",
+            "grade": "grade 10"
+        },
+        "val": 47
+    },
+    {
+        "key": {
+            "year": 2014,
+            "subgroup": "All",
+            "grade": "grade 11"
+        },
+        "val": 50
+    },
+    {
+        "key": {
+            "year": 2014,
+            "subgroup": "All",
+            "grade": "grade 8"
+        },
+        "val": 56
+    },
+    {
+        "key": {
+            "year": 2014,
+            "subgroup": "All",
+            "grade": "grade 9"
+        },
+        "val": 39
+    },
+    {
+        "key": {
+            "year": 2014,
+            "subgroup": "All",
+            "grade": "grade 12"
+        },
+        "val": 84
+    },
+    {
+        "key": {
+            "year": 2014,
+            "subgroup": "All",
+            "grade": "grade 3"
+        },
+        "val": 33
+    },
+    {
+        "key": {
+            "year": 2014,
+            "subgroup": "All",
+            "grade": "grade 4"
+        },
+        "val": 33
+    },
+    {
+        "key": {
+            "year": 2014,
+            "subgroup": "All",
+            "grade": "grade 6"
+        },
+        "val": 25
+    },
+    {
+        "key": {
+            "year": 2014,
+            "subgroup": "All",
+            "grade": "grade 2"
+        },
+        "val": 33
+    },
+    {
+        "key": {
+            "year": 2014,
+            "subgroup": "All",
+            "grade": "PK4"
+        },
+        "val": 38
+    },
+    {
+        "key": {
+            "year": 2014,
+            "subgroup": "All",
+            "grade": "PK3"
+        },
+        "val": 25
+    },
+    {
+        "key": {
+            "year": 2014,
+            "subgroup": "All",
+            "grade": "grade 7"
+        },
+        "val": 49
+    },
+    {
+        "key": {
+            "year": 2014,
+            "subgroup": "All",
+            "grade": "grade 5"
+        },
+        "val": 33
+    },
+    {
+        "key": {
+            "year": 2014,
+            "subgroup": "All",
+            "grade": "grade 1"
+        },
+        "val": 38
+    },
+    {
+        "key": {
+            "year": 2014,
+            "subgroup": "All",
+            "grade": "KG"
+        },
+        "val": 36
+    },
+    {
+        "key": {
+            "year": 2014,
+            "subgroup": "MALE",
+            "grade": "All"
+        },
+        "val": 333
+    },
+    {
+        "key": {
+            "year": 2014,
+            "subgroup": "MALE",
+            "grade": "grade 10"
+        },
+        "val": 20
+    },
+    {
+        "key": {
+            "year": 2014,
+            "subgroup": "MALE",
+            "grade": "grade 9"
+        },
+        "val": 23
+    },
+    {
+        "key": {
+            "year": 2014,
+            "subgroup": "MALE",
+            "grade": "grade 3"
+        },
+        "val": 21
+    },
+    {
+        "key": {
+            "year": 2014,
+            "subgroup": "MALE",
+            "grade": "grade 8"
+        },
+        "val": 36
+    },
+    {
+        "key": {
+            "year": 2014,
+            "subgroup": "MALE",
+            "grade": "grade 4"
+        },
+        "val": 16
+    },
+    {
+        "key": {
+            "year": 2014,
+            "subgroup": "MALE",
+            "grade": "grade 6"
+        },
+        "val": 19
+    },
+    {
+        "key": {
+            "year": 2014,
+            "subgroup": "MALE",
+            "grade": "grade 12"
+        },
+        "val": 46
+    },
+    {
+        "key": {
+            "year": 2014,
+            "subgroup": "MALE",
+            "grade": "PK4"
+        },
+        "val": 18
+    },
+    {
+        "key": {
+            "year": 2014,
+            "subgroup": "MALE",
+            "grade": "grade 2"
+        },
+        "val": 23
+    },
+    {
+        "key": {
+            "year": 2014,
+            "subgroup": "MALE",
+            "grade": "grade 5"
+        },
+        "val": 16
+    },
+    {
+        "key": {
+            "year": 2014,
+            "subgroup": "MALE",
+            "grade": "grade 1"
+        },
+        "val": 18
+    },
+    {
+        "key": {
+            "year": 2014,
+            "subgroup": "MALE",
+            "grade": "grade 7"
+        },
+        "val": 30
+    },
+    {
+        "key": {
+            "year": 2014,
+            "subgroup": "MALE",
+            "grade": "grade 11"
+        },
+        "val": 21
+    },
+    {
+        "key": {
+            "year": 2014,
+            "subgroup": "MALE",
+            "grade": "KG"
+        },
+        "val": 17
+    },
+    {
+        "key": {
+            "year": 2014,
+            "subgroup": "FEMALE",
+            "grade": "All"
+        },
+        "val": 286
+    },
+    {
+        "key": {
+            "year": 2014,
+            "subgroup": "FEMALE",
+            "grade": "grade 11"
+        },
+        "val": 29
+    },
+    {
+        "key": {
+            "year": 2014,
+            "subgroup": "FEMALE",
+            "grade": "grade 8"
+        },
+        "val": 20
+    },
+    {
+        "key": {
+            "year": 2014,
+            "subgroup": "FEMALE",
+            "grade": "grade 12"
+        },
+        "val": 38
+    },
+    {
+        "key": {
+            "year": 2014,
+            "subgroup": "FEMALE",
+            "grade": "grade 9"
+        },
+        "val": 16
+    },
+    {
+        "key": {
+            "year": 2014,
+            "subgroup": "FEMALE",
+            "grade": "grade 3"
+        },
+        "val": 12
+    },
+    {
+        "key": {
+            "year": 2014,
+            "subgroup": "FEMALE",
+            "grade": "grade 2"
+        },
+        "val": 10
+    },
+    {
+        "key": {
+            "year": 2014,
+            "subgroup": "FEMALE",
+            "grade": "grade 7"
+        },
+        "val": 19
+    },
+    {
+        "key": {
+            "year": 2014,
+            "subgroup": "FEMALE",
+            "grade": "grade 10"
+        },
+        "val": 27
+    },
+    {
+        "key": {
+            "year": 2014,
+            "subgroup": "FEMALE",
+            "grade": "grade 5"
+        },
+        "val": 17
+    },
+    {
+        "key": {
+            "year": 2014,
+            "subgroup": "FEMALE",
+            "grade": "KG"
+        },
+        "val": 19
+    },
+    {
+        "key": {
+            "year": 2014,
+            "subgroup": "FEMALE",
+            "grade": "PK4"
+        },
+        "val": 20
+    },
+    {
+        "key": {
+            "year": 2014,
+            "subgroup": "FEMALE",
+            "grade": "PK3"
+        },
+        "val": 16
+    },
+    {
+        "key": {
+            "year": 2014,
+            "subgroup": "FEMALE",
+            "grade": "grade 4"
+        },
+        "val": 17
+    },
+    {
+        "key": {
+            "year": 2014,
+            "subgroup": "FEMALE",
+            "grade": "grade 1"
+        },
+        "val": 20
+    },
+    {
+        "key": {
+            "year": 2014,
+            "subgroup": "BL7",
+            "grade": "All"
+        },
+        "val": 598
+    },
+    {
+        "key": {
+            "year": 2014,
+            "subgroup": "BL7",
+            "grade": "grade 10"
+        },
+        "val": 45
+    },
+    {
+        "key": {
+            "year": 2014,
+            "subgroup": "BL7",
+            "grade": "grade 11"
+        },
+        "val": 49
+    },
+    {
+        "key": {
+            "year": 2014,
+            "subgroup": "BL7",
+            "grade": "grade 8"
+        },
+        "val": 52
+    },
+    {
+        "key": {
+            "year": 2014,
+            "subgroup": "BL7",
+            "grade": "grade 9"
+        },
+        "val": 37
+    },
+    {
+        "key": {
+            "year": 2014,
+            "subgroup": "BL7",
+            "grade": "grade 12"
+        },
+        "val": 81
+    },
+    {
+        "key": {
+            "year": 2014,
+            "subgroup": "BL7",
+            "grade": "grade 3"
+        },
+        "val": 33
+    },
+    {
+        "key": {
+            "year": 2014,
+            "subgroup": "BL7",
+            "grade": "grade 4"
+        },
+        "val": 33
+    },
+    {
+        "key": {
+            "year": 2014,
+            "subgroup": "BL7",
+            "grade": "grade 6"
+        },
+        "val": 25
+    },
+    {
+        "key": {
+            "year": 2014,
+            "subgroup": "BL7",
+            "grade": "grade 2"
+        },
+        "val": 32
+    },
+    {
+        "key": {
+            "year": 2014,
+            "subgroup": "BL7",
+            "grade": "PK4"
+        },
+        "val": 36
+    },
+    {
+        "key": {
+            "year": 2014,
+            "subgroup": "BL7",
+            "grade": "PK3"
+        },
+        "val": 23
+    },
+    {
+        "key": {
+            "year": 2014,
+            "subgroup": "BL7",
+            "grade": "grade 7"
+        },
+        "val": 48
+    },
+    {
+        "key": {
+            "year": 2014,
+            "subgroup": "BL7",
+            "grade": "grade 5"
+        },
+        "val": 32
+    },
+    {
+        "key": {
+            "year": 2014,
+            "subgroup": "BL7",
+            "grade": "grade 1"
+        },
+        "val": 37
+    },
+    {
+        "key": {
+            "year": 2014,
+            "subgroup": "BL7",
+            "grade": "KG"
+        },
+        "val": 35
+    },
+    {
+        "key": {
+            "year": 2014,
+            "subgroup": "HI7",
+            "grade": "All"
+        },
+        "val": 14
+    },
+    {
+        "key": {
+            "year": 2014,
+            "subgroup": "SPED",
+            "grade": "All"
+        },
+        "val": 93
+    },
+    {
+        "key": {
+            "year": 2014,
+            "subgroup": "SPED",
+            "grade": "grade 11"
+        },
+        "val": 12
+    },
+    {
+        "key": {
+            "year": 2014,
+            "subgroup": "SPED",
+            "grade": "grade 10"
+        },
+        "val": 10
+    },
+    {
+        "key": {
+            "year": 2014,
+            "subgroup": "SPED",
+            "grade": "grade 7"
+        },
+        "val": 14
+    },
+    {
+        "key": {
+            "year": 2014,
+            "subgroup": "SPED",
+            "grade": "grade 8"
+        },
+        "val": 10
+    },
+    {
+        "key": {
+            "year": 2014,
+            "subgroup": "SPED Level 1",
+            "grade": "All"
+        },
+        "val": 22
+    },
+    {
+        "key": {
+            "year": 2014,
+            "subgroup": "SPED Level 2",
+            "grade": "All"
+        },
+        "val": 56
+    },
+    {
+        "key": {
+            "year": 2014,
+            "subgroup": "SPED Level 2",
+            "grade": "grade 7"
+        },
+        "val": 10
+    },
+    {
+        "key": {
+            "year": 2014,
+            "subgroup": "LEP",
+            "grade": "All"
+        },
+        "val": 10
+    },
+    {
+        "key": {
+            "year": 2014,
+            "subgroup": "Economy",
+            "grade": "All"
+        },
+        "val": 477
+    },
+    {
+        "key": {
+            "year": 2014,
+            "subgroup": "Economy",
+            "grade": "grade 10"
+        },
+        "val": 42
+    },
+    {
+        "key": {
+            "year": 2014,
+            "subgroup": "Economy",
+            "grade": "grade 11"
+        },
+        "val": 39
+    },
+    {
+        "key": {
+            "year": 2014,
+            "subgroup": "Economy",
+            "grade": "grade 8"
+        },
+        "val": 48
+    },
+    {
+        "key": {
+            "year": 2014,
+            "subgroup": "Economy",
+            "grade": "grade 9"
+        },
+        "val": 35
+    },
+    {
+        "key": {
+            "year": 2014,
+            "subgroup": "Economy",
+            "grade": "grade 12"
+        },
+        "val": 57
+    },
+    {
+        "key": {
+            "year": 2014,
+            "subgroup": "Economy",
+            "grade": "grade 3"
+        },
+        "val": 29
+    },
+    {
+        "key": {
+            "year": 2014,
+            "subgroup": "Economy",
+            "grade": "grade 4"
+        },
+        "val": 26
+    },
+    {
+        "key": {
+            "year": 2014,
+            "subgroup": "Economy",
+            "grade": "grade 6"
+        },
+        "val": 18
+    },
+    {
+        "key": {
+            "year": 2014,
+            "subgroup": "Economy",
+            "grade": "grade 2"
+        },
+        "val": 25
+    },
+    {
+        "key": {
+            "year": 2014,
+            "subgroup": "Economy",
+            "grade": "PK4"
+        },
+        "val": 24
+    },
+    {
+        "key": {
+            "year": 2014,
+            "subgroup": "Economy",
+            "grade": "grade 1"
+        },
+        "val": 30
+    },
+    {
+        "key": {
+            "year": 2014,
+            "subgroup": "Economy",
+            "grade": "grade 7"
+        },
+        "val": 39
+    },
+    {
+        "key": {
+            "year": 2014,
+            "subgroup": "Economy",
+            "grade": "grade 5"
+        },
+        "val": 25
+    },
+    {
+        "key": {
+            "year": 2014,
+            "subgroup": "Economy",
+            "grade": "PK3"
+        },
+        "val": 12
+    },
+    {
+        "key": {
+            "year": 2014,
+            "subgroup": "Economy",
+            "grade": "KG"
+        },
+        "val": 28
+    },
+    {
+        "key": {
+            "year": 2014,
+            "subgroup": "Direct Cert",
+            "grade": "All"
+        },
+        "val": 291
+    },
+    {
+        "key": {
+            "year": 2014,
+            "subgroup": "Direct Cert",
+            "grade": "grade 10"
+        },
+        "val": 26
+    },
+    {
+        "key": {
+            "year": 2014,
+            "subgroup": "Direct Cert",
+            "grade": "grade 9"
+        },
+        "val": 23
+    },
+    {
+        "key": {
+            "year": 2014,
+            "subgroup": "Direct Cert",
+            "grade": "grade 8"
+        },
+        "val": 26
+    },
+    {
+        "key": {
+            "year": 2014,
+            "subgroup": "Direct Cert",
+            "grade": "grade 12"
+        },
+        "val": 27
+    },
+    {
+        "key": {
+            "year": 2014,
+            "subgroup": "Direct Cert",
+            "grade": "grade 3"
+        },
+        "val": 19
+    },
+    {
+        "key": {
+            "year": 2014,
+            "subgroup": "Direct Cert",
+            "grade": "grade 4"
+        },
+        "val": 18
+    },
+    {
+        "key": {
+            "year": 2014,
+            "subgroup": "Direct Cert",
+            "grade": "grade 11"
+        },
+        "val": 25
+    },
+    {
+        "key": {
+            "year": 2014,
+            "subgroup": "Direct Cert",
+            "grade": "grade 2"
+        },
+        "val": 13
+    },
+    {
+        "key": {
+            "year": 2014,
+            "subgroup": "Direct Cert",
+            "grade": "PK4"
+        },
+        "val": 15
+    },
+    {
+        "key": {
+            "year": 2014,
+            "subgroup": "Direct Cert",
+            "grade": "grade 1"
+        },
+        "val": 22
+    },
+    {
+        "key": {
+            "year": 2014,
+            "subgroup": "Direct Cert",
+            "grade": "grade 7"
+        },
+        "val": 25
+    },
+    {
+        "key": {
+            "year": 2014,
+            "subgroup": "Direct Cert",
+            "grade": "grade 5"
+        },
+        "val": 12
+    },
+    {
+        "key": {
+            "year": 2014,
+            "subgroup": "Direct Cert",
+            "grade": "grade 6"
+        },
+        "val": 12
+    },
+    {
+        "key": {
+            "year": 2014,
+            "subgroup": "Direct Cert",
+            "grade": "PK3"
+        },
+        "val": 12
+    },
+    {
+        "key": {
+            "year": 2014,
+            "subgroup": "Direct Cert",
+            "grade": "KG"
+        },
+        "val": 16
+    },
     {
         "key": {
             "year": 2007,

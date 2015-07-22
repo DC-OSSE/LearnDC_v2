@@ -10,6 +10,7 @@ school_enr <- subset(school_enr, enrollment >= 10)
 school_enr <- subset(school_enr, lea_code %notin% c(4001,4002))
 
 
+
 school_enr$school_code <- sapply(school_enr$school_code, leadgr, 4)
 
 

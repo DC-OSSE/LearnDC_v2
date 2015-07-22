@@ -1,0 +1,79 @@
+{
+"timestamp": "Mon Jun 08 12:56:45 2015",
+"org_type": "lea",
+"org_name": "BASIS DC PCS",
+"org_code": "0168",
+"exhibit": {
+	"id": "hqt_classes",
+	"data":  
+[
+    {
+        "key": {
+            "year": 2014,
+            "school_category": "All"
+        },
+        "val": {
+            "num_total_classes": 167,
+            "num_hq_classes": 160,
+            "num_nhq_classes": 7
+        }
+    },
+    {
+        "key": {
+            "year": 2014,
+            "school_category": "LOW"
+        },
+        "val": {
+            "num_total_classes": 167,
+            "num_hq_classes": 160,
+            "num_nhq_classes": 7
+        }
+    },
+    {
+        "key": {
+            "year": 2014,
+            "school_category": "HIGH"
+        },
+        "val": {
+            "num_total_classes": 0,
+            "num_hq_classes": 0,
+            "num_nhq_classes": 0
+        }
+    },
+    {
+        "key": {
+            "year": 2014,
+            "school_category": "MIDDLE"
+        },
+        "val": {
+            "num_total_classes": 0,
+            "num_hq_classes": 0,
+            "num_nhq_classes": 0
+        }
+    },
+    {
+        "key": {
+            "year": 2014,
+            "school_category": "ELEM"
+        },
+        "val": {
+            "num_total_classes": 86,
+            "num_hq_classes": 83,
+            "num_nhq_classes": 3
+        }
+    },
+    {
+        "key": {
+            "year": 2014,
+            "school_category": "SEC"
+        },
+        "val": {
+            "num_total_classes": 81,
+            "num_hq_classes": 77,
+            "num_nhq_classes": 4
+        }
+    }
+]
+
+	}
+}

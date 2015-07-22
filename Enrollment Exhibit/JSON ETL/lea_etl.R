@@ -9,12 +9,13 @@ lea_enr <- sqlQuery(dbrepcard_prod, "SELECT * FROM [dbo].[enrollment_lea_exhibit
 lea_enr <- subset(lea_enr, enrollment >= 10)
 lea_enr <- subset(lea_enr, lea_code %notin% c(4001))
 
-setwd('U:/LearnDC ETL V2/Export/CSV/lea')
-write.csv(lea_enr, "Enrollment_LEA.csv", row.names=FALSE)
+# setwd('U:/LearnDC ETL V2/Export/CSV/lea')
+# write.csv(lea_enr, "Enrollment_LEA.csv", row.names=FALSE)
 
 
 lea_enr$lea_code <- sapply(lea_enr$lea_code, leadgr, 4)
 
+strtable(lea_enr)
 
 key_index <- c(3,4,5)
 value_index <- 6
@@ -22,7 +23,7 @@ num_orphans <- 0
 
 
 
-school_dir <- sqlFetch(dbrepcard, 'schooldir_sy1314')
+school_dir <- sqlFetch(dbrepcard, 'schooldir_sy1415_draft')
 lea_dir <- unique(school_dir[c("lea_code","lea_name")])
 lea_dir$lea_code <- sprintf("%04d", lea_dir$lea_code)
 lea_dir <- subset(lea_dir,lea_code!=4002)

@@ -5,12 +5,13 @@ source("U:/R/tomkit.R")
 source("./imports/subproc.R")
 
 ## Load Data
-enr <- sqlFetch(dbrepcard,"dbo.enrollment_w2015")
+enr <- sqlFetch(dbrepcard,"dbo.enrollment_w2015_pkcbo")
 ## Change Hispanic Coding
 enr$race[which(enr$ethnicity == "YES")] <- "HI7"
 ## Remove DYRS & 2014 Hospitality from Sectoral Calculations
 # enr <- subset(enr,lea_code %notin% c(4001,4002))
 enr <- enr[which(enr$lea_code!='122' | enr$ea_year!=2014),]
+enr <- subset(enr,lea_code %notin% 6000)
 
 enr$lea_code <- sapply(enr$lea_code,leadgr,3)
 enr$grade <- sapply(enr$grade,leadgr,2)
