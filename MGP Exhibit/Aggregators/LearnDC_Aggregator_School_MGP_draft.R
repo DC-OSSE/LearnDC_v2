@@ -21,6 +21,7 @@ sgp_all$special_ed <- toupper(sgp_all$special_ed)
 sgp_all$sped_2yr <- toupper(sgp_all$sped_2yr)
 
 sgp_all <- subset(sgp_all,fay %in% c('S'))
+sgp_all <- subset(sgp_all,!is.na(sgp))
 
 subgroups_list <- c("All","MALE","FEMALE","AM7","AS7","BL7","HI7","MU7","PI7","WH7","SPED","LEP","Economy")
 
@@ -56,15 +57,31 @@ for(a in unique(sgp_all$school_code)){
 }
 colnames(school_subgroups_df) <- c("lea_code","lea_name","school_code","school_name","subgroup","year","group_fay_size","subject","mgp_1yr")
 
+rbind.all.columns <- function(x, y){
+    x.diff <- setdiff(colnames(x),colnames(y))
+    y.diff <- setdiff(colnames(y),colnames(x))
+    x[,c(as.character(y.diff))] <- NA
+    y[,c(as.character(x.diff))] <- NA
+    return(rbind(x, y))
+}
+
 school_subgroups_df$group_fay_size <- as.numeric(school_subgroups_df$group_fay_size)
-school_subgroups_df$mgp_1yr <- round(as.numeric(school_subgroups_df$mgp_1yr),1)
+school_subgroups_df$mgp_1yr <- as.numeric(school_subgroups_df$mgp_1yr)
 school_subgroups_df$year <- as.numeric(school_subgroups_df$year)
+
+school_info <- sqldf::sqldf("select distinct lea_code,lea_name,school_code,school_name from school_subgroups_df")
+
+mgp_2011 <- sqlQuery(dbrepcard,"select * from mgp_longitudinal where year = 2011")
+mgp_2011 <- merge(mgp_2011,school_info,by=c('school_code'),all.x=TRUE)
+
+school_subgroups_df <- rbind.all.columns(school_subgroups_df,mgp_2011) %>%
+select(-(mgp_2yr))
 
 school_subgroups_df_prior <- school_subgroups_df
 colnames(school_subgroups_df_prior) <- paste0("prior_",colnames(school_subgroups_df_prior))
 school_subgroups_df_prior$prior_year <- school_subgroups_df$year + 1
 school_mgp <- merge(school_subgroups_df, school_subgroups_df_prior, by.x = c("year","school_code","school_name","subgroup","subject"), by.y = c("prior_year","prior_school_code","prior_school_name","prior_subgroup","prior_subject"), all.x=TRUE)
-school_mgp$mgp_2yr <- round((((school_mgp$mgp_1yr*school_mgp$group_fay_size)+(school_mgp$prior_mgp_1yr*school_mgp$prior_group_fay_size))/(school_mgp$group_fay_size+school_mgp$prior_group_fay_size)),1)
+school_mgp$mgp_2yr <- (((school_mgp$mgp_1yr*school_mgp$group_fay_size)+(school_mgp$prior_mgp_1yr*school_mgp$prior_group_fay_size))/(school_mgp$group_fay_size+school_mgp$prior_group_fay_size))
 
 school_mgp$flag <- 0
 school_mgp$flag[which(school_mgp$group_fay_size<=25|school_mgp$prior_group_fay_size<=25)] <- 1
@@ -72,4 +89,10 @@ school_mgp$mgp_2yr[which(school_mgp$flag==1)] <- NA
 
 school_mgp <- select(school_mgp,year,lea_code,lea_name,school_code,school_name,subgroup,subject,group_fay_size,mgp_1yr,mgp_2yr)
 
-sqlSave(dbworking, school_mgp, tablename = "mgp_school_exhibit_draft", append = FALSE, rownames=FALSE)
+mgp11 <- filter(school_mgp,year==2011) %>% select(-(mgp_2yr))
+mgp11 <- merge(mgp11,mgp_2011,by=c(names(mgp11)))
+
+school_mgp <- filter(school_mgp,year!=2011)
+school_mgp <- rbind(school_mgp,mgp11)
+
+sqlSave(dbworking,school_mgp,tablename="mgp_school_exhibit_draft",append=FALSE,rownames=FALSE)

@@ -1,4 +1,4 @@
-setwd("U:/LearnDC ETL V2/Equity Report Exhibit/Attendance JSON ETL")
+setwd("X:/Learn DC/State Equity Report Development")
 source("U:/R/tomkit.R")
 library(jsonlite)
 library(reshape2)
@@ -21,12 +21,31 @@ att_wide$average_daily_attendance <- NA
 att_wide$state_average_daily_attendance <- NA
 att_wide$school_code <- sapply(att_wide$school_code, leadgr, 4)
 
-state_att <- select(att_wide[which(att_wide$school_code=='0161'),],year,subgroup,in_seat_attendance=state_in_seat_attendance,average_daily_attendance=state_average_daily_attendance)
+state_vals <- att_wide[which(att_wide$school_code=='0161'),]
+
+state_att_all <- state_vals %>%
+mutate(population='All',state_in_seat_attendance = NA,state_average_daily_attendance=NA) %>%
+select(year,subgroup,population,in_seat_attendance,
+       average_daily_attendance,state_in_seat_attendance,state_average_daily_attendance)
+
+state_att_gen <- state_vals %>%
+mutate(population='Gen',in_seat_attendance=round(state_in_seat_attendance/1.25,2),
+       state_in_seat_attendance = NA,state_average_daily_attendance=NA) %>%
+select(year,subgroup,population,in_seat_attendance,average_daily_attendance,
+       state_in_seat_attendance,state_average_daily_attendance)
+
+state_att_alt <- state_vals %>%
+mutate(population='Alt',in_seat_attendance=round(state_in_seat_attendance/1.25,2),
+       state_in_seat_attendance = NA,state_average_daily_attendance=NA) %>%
+select(year,subgroup,population,in_seat_attendance,average_daily_attendance,
+       state_in_seat_attendance,state_average_daily_attendance)
+
+state_att <- rbind.data.frame(state_att_alt,state_att_gen,state_att_all)
 
 strtable(state_att)
 
-key_index <- 1:2
-value_index <- 3:4
+key_index <- 1:3
+value_index <- 4:7
 
 	setwd("U:/LearnDC ETL V2/Export/JSON/state/DC")
 

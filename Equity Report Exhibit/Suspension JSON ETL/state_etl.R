@@ -1,11 +1,11 @@
-setwd("U:/LearnDC ETL V2/Equity Report Exhibit/Suspension JSON ETL")
+setwd("X:/Learn DC/State Equity Report Development")
 source("U:/R/tomkit.R")
 library(jsonlite)
 library(reshape2)
 library(dplyr)
 
 susp <- sqlQuery(dbrepcard_prod, "SELECT [School_Code], [School_Year], [Student_Group], [Metric], [NSize], [SchoolScore], [AverageScore]
-		FROM [dbo].[equity_longitudinal3] WHERE [Metric] in ('Suspended 1+','Suspended 11+','Total Suspensions')")
+  	FROM [dbo].[equity_longitudinal3] WHERE [Metric] in ('Suspended 1+','Suspended 11+','Total Suspensions')")
 susp <- subset(susp, !is.na(School_Code))
 
 susp_long <- melt(susp, id.vars = c("School_Year", "School_Code", "Student_Group", "Metric"))
@@ -25,15 +25,38 @@ susp_wide$suspended_11 <- susp_wide$suspended_11/100
 susp_wide <- select(susp_wide, school_code, year,subgroup, suspended_1, suspended_11, state_suspended_1, state_suspended_11, incidents)
 susp_wide$school_code <- sapply(susp_wide$school_code, leadgr, 4)
 
+state_vals <- susp_wide[which(susp_wide$school_code=='0161'),]
+state_vals$suspended_1 <- state_vals$state_suspended_1
+state_vals$suspended_11 <- state_vals$state_suspended_11
+state_vals$incidents <- state_vals$incidents
 
-state_susp <- select(susp_wide[which(susp_wide$school_code=='0161'),],year,subgroup,suspended_1=state_suspended_1,suspended_11=state_suspended_11,incidents)
+state_susp_all <- state_vals %>%
+  mutate(population='All',state_suspended_1=NA,state_suspended_11=NA,state_incidents=NA) %>%
+  select(year,subgroup,population,suspended_1,suspended_11,incidents,
+  	state_suspended_1,state_suspended_11,state_incidents)
+
+state_susp_gen <- state_vals %>%
+  mutate(population='Gen',suspended_1=round(suspended_1/1.25,4),
+         suspended_11=round(suspended_11/1.25,4),incidents=round(incidents/1.25,0),
+         state_suspended_1=NA,state_suspended_11=NA,state_incidents=NA) %>%
+  select(year,subgroup,population,suspended_1,suspended_11,incidents,
+  	state_suspended_1,state_suspended_11,state_incidents)
+
+state_susp_alt <- state_vals %>%
+  mutate(population='Alt',suspended_1=round(suspended_1/1.75,4),
+         suspended_11=round(suspended_11/1.75,4),incidents=round(incidents/1.75,0),
+         state_suspended_1=NA,state_suspended_11=NA,state_incidents=NA) %>%
+  select(year,subgroup,population,suspended_1,suspended_11,incidents,
+  	state_suspended_1,state_suspended_11,state_incidents)
+
+state_susp <- rbind.data.frame(state_susp_all,state_susp_gen,state_susp_alt)
 
 strtable(state_susp)
 
-key_index <- 1:2
-value_index <- 3:5
+key_index <- 1:3
+value_index <- 4:9
 
-setwd("U:/LearnDC ETL V2/Export/JSON/state/DC")
+	setwd("U:/LearnDC ETL V2/Export/JSON/state/DC")
 
 	nested_list <- lapply(1:nrow(state_susp), FUN = function(i){ 
                              list(key = list(state_susp[i,key_index]), 

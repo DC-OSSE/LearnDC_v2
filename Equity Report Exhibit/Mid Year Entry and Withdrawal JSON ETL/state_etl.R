@@ -1,4 +1,4 @@
-setwd("U:/LearnDC ETL V2/Equity Report Exhibit/Mid Year Entry and Withdrawal JSON ETL")
+setwd("X:/Learn DC/State Equity Report Development")
 source("U:/R/tomkit.R")
 library(jsonlite)
 library(reshape2)
@@ -20,14 +20,38 @@ move_wide$withdrawal <- round(move_wide$withdrawal,2)
 move_wide <- select(move_wide, school_code, year, month, entry, withdrawal, net_cumulative, state_entry, state_withdrawal, state_net_cumulative)
 move_wide$school_code <- sapply(move_wide$school_code, leadgr, 4)
 
-state_move <- select(move_wide[which(move_wide$school_code=='0161'),],year,month,entry=state_entry,withdrawl=state_withdrawal,net_cumulative=state_net_cumulative)
+state_vals <- move_wide[which(move_wide$school_code=='0161'),]
+state_vals$entry <- state_vals$state_entry
+state_vals$withdrawal <- state_vals$state_withdrawal
+state_vals$net_cumulative <- state_vals$state_net_cumulative
+
+state_move_all <- state_vals %>%
+  mutate(population='All',state_entry=NA,state_withdrawal=NA,state_net_cumulative=NA) %>%
+  select(year,month,population,entry,withdrawal,net_cumulative,
+  	state_entry,state_withdrawal,state_net_cumulative)
+
+state_move_gen <- state_vals %>%
+  mutate(population='Gen',entry=round(entry/1.25,4),withdrawal=round(withdrawal/1.25,4),
+  	net_cumulative=round(net_cumulative/1.25,4),
+         state_entry=NA,state_withdrawal=NA,state_net_cumulative=NA) %>%
+  select(year,month,population,entry,withdrawal,net_cumulative,
+  	state_entry,state_withdrawal,state_net_cumulative)
+
+state_move_alt <- state_vals %>%
+  mutate(population='Alt',entry=round(entry/1.75,4),withdrawal=round(withdrawal/1.75,4),
+         net_cumulative=round(net_cumulative/1.75,4),
+         state_entry=NA,state_withdrawal=NA,state_net_cumulative=NA) %>%
+  select(year,month,population,entry,withdrawal,net_cumulative,
+  	state_entry,state_withdrawal,state_net_cumulative)
+
+state_move <- rbind.data.frame(state_move_all,state_move_gen,state_move_alt)
 
 strtable(state_move)
 
-key_index <- 1:2
-value_index <- 3:5
+key_index <- 1:3
+value_index <- 4:9
 
-setwd("U:/LearnDC ETL V2/Export/JSON/state/DC")
+	setwd("U:/LearnDC ETL V2/Export/JSON/state/DC")
 
 	nested_list <- lapply(1:nrow(state_move), FUN = function(i){ 
                              list(key = list(state_move[i,key_index]), 
