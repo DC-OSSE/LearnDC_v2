@@ -1,28 +1,20 @@
 setwd("U:/LearnDC ETL V2/Enrollment Exhibit/JSON ETL")
-
 source("U:/R/tomkit.R")
 library(jsonlite)
+library(dplyr)
 
+er <- sqlFetch(dbrepcard_prod,"dbo.equity_report_school_longitudinal") %>% filter(reported==1 & metric %in% 'Student Characteristics') %>%
+mutate(lea_code=sapply(lea_code,leadgr,4),school_code=sapply(school_code,leadgr,4),enrollment=ifelse(grade %notin% 'All' | subgroup %in% 'All' & grade %in% 'All',enrollment,round(school_score,3)),subgroup=ifelse(subgroup %in% c('Male','Female'),toupper(subgroup),subgroup),grade=ifelse(grade %in% c("All","PK3","PK4","KG","UN"),grade,paste0("grade ",grade))) %>%
+select(school_code,year,subgroup,grade,enrollment)
 
-school_enr <- sqlQuery(dbrepcard_prod, "SELECT * FROM [dbo].[enrollment_school_exhibit_mixed_values]")
+strtable(er)
 
-##Not subsetting on enrollment for Equity Reports (normally n>10 applied to ensure stuent privacy)
-# school_enr <- subset(school_enr, enrollment >= 10 | (enrollment <= 1 & subgroup !="All"))
-
-
-# setwd('U:/LearnDC ETL V2/Export/CSV/school')
-# write.csv(school_enr, "Enrollment_School.csv", row.names=FALSE)
-
-school_enr$school_code <- sapply(school_enr$school_code, leadgr, 4)
-
-
-
-key_index <- c(5,6,7)
-value_index <- 8
+key_index <- 2:4
+value_index <- 5
 num_orphans <- 0
 
 
-for(i in unique(school_enr$school_code)){
+for(i in unique(er$school_code)){
 	setwd("U:/LearnDC ETL V2/Export/JSON/school")
 	
 	if (file.exists(i)){
@@ -34,7 +26,7 @@ for(i in unique(school_enr$school_code)){
 
 	}
 
-	.tmp <- subset(school_enr, school_code == i)
+	.tmp <- subset(er, school_code == i)
 
 	.nested_list <- lapply(1:nrow(.tmp), FUN = function(i){ 
                              list(key = list(.tmp[i,key_index]), 

@@ -1,3 +1,4 @@
+##THIS EXHIBIT IS NOT SHOWING ON LEARNDC.ORG AND THE UNEXCUSED ABSENCES EXHIBIT HAS NOT BEEN UPDATED FOR THE SY1415 EQUITY REPORTS!!!
 setwd("X:/Learn DC/State Equity Report Development")
 source("U:/R/tomkit.R")
 library(jsonlite)

@@ -1,36 +1,26 @@
 setwd("U:/LearnDC ETL V2/Enrollment Exhibit/JSON ETL")
 source("U:/R/tomkit.R")
 library(jsonlite)
+library(dplyr)
 
+# state_enr <- sqlQuery(dbrepcard_prod, "SELECT * FROM [dbo].[enrollment_state_exhibit_pcsb_alterations]")
+# state_enr$population <- "All"
+# state_enr[which(state_enr$subgroup=='All' & state_enr$grade=='All'),]$enrollment <- sum(subset(state_enr,subgroup=='All')$enrollment)-1
+# state_enr <- select(state_enr,year,grade,subgroup,population,enrollment)
 
-state_enr <- sqlQuery(dbrepcard_prod, "SELECT * FROM [dbo].[enrollment_state_exhibit_pcsb_alterations]")
-state_enr$population <- "All"
-state_enr[which(state_enr$subgroup=='All' & state_enr$grade=='All'),]$enrollment <- sum(subset(state_enr,subgroup=='All')$enrollment)-1
+enr <- sqlQuery(dbrepcard_prod,"select * from equity_report_state_longitudinal where reported=1 and metric='Student Characteristics'") %>%
+mutate(enrollment=round(score,4),subgroup=ifelse(subgroup %in% c('Male','Female'),toupper(subgroup),subgroup),population='All',grade=ifelse(substr(grade,0,1) %in% 0,substr(grade,2,2),grade),grade=ifelse(grade %in% c("All","PK3","PK4","KG","UN"),grade,paste0("grade ",grade))) %>% filter(subgroup %notin% 'AtRisk' & reported==1) %>% select(year,grade,subgroup,population,enrollment)
 
-state_enr_gen <- subset(state_enr,grade %notin% c('grade AO','UN'))
-state_enr_gen$population <- "Gen"
-state_enr_gen$enrollment <- state_enr_gen$enrollment * .75
-state_enr_gen[which(state_enr_gen$enrollment>1),]$enrollment <- round(state_enr_gen[which(state_enr_gen$enrollment>1),]$enrollment,0)
-state_enr_gen[which(state_enr_gen$enrollment<=1),]$enrollment <- state_enr[which(state_enr$enrollment<=1),]$enrollment
-
-state_enr_alt <- subset(state_enr,grade %in% c('grade AO','UN','All'))
-state_enr_alt$population <- "Alt"
-state_enr_alt$enrollment <- state_enr_alt$enrollment * .25
-state_enr_alt[which(state_enr_alt$enrollment>1),]$enrollment <- round(state_enr_alt[which(state_enr_alt$enrollment>1),]$enrollment,0)
-state_enr_alt[which(state_enr_alt$enrollment<=1),]$enrollment <- state_enr[which(state_enr$enrollment<=1),]$enrollment
-
-state_enr_all <- rbind.data.frame(state_enr,state_enr_gen,state_enr_alt)
-
-strtable(state_enr_all)
+strtable(enr)
 
 setwd("U:/LearnDC ETL V2/Export/JSON/state/DC")
 
-key_index <- c(1:3,5)
-value_index <- 4
+key_index <- 1:4
+value_index <- 5
 
-nested_list <- lapply(1:nrow(state_enr_all), FUN = function(i){ 
-  list(key = list(state_enr_all[i,key_index]), 
-       val = list(state_enr_all[i,value_index]))
+nested_list <- lapply(1:nrow(enr), FUN = function(i){ 
+  list(key = list(enr[i,key_index]), 
+       val = list(enr[i,value_index]))
 })
 
 json <- toJSON(nested_list, na="null")

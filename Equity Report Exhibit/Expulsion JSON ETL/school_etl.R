@@ -6,44 +6,42 @@ library(dplyr)
 
 exp <- sqlQuery(dbrepcard_prod, "SELECT [School_Code], [School_Year], [Student_Group], [Metric], [NSize], [SchoolScore], [AverageScore]
 		FROM [dbo].[equity_longitudinal3] WHERE [Metric] in ('Expulsion Rate','Expulsions')")
-
-
 exp_long <- melt(exp, id.vars = c("School_Year", "School_Code", "Student_Group", "Metric"))
 exp_long$Metric <- paste0(exp_long$Metric, "_",exp_long$variable)
 exp_long$Metric <- gsub(" ","_",exp_long$Metric)
 exp_long$variable <- NULL
 exp_wide <- dcast(exp_long, School_Year + School_Code + Student_Group ~ Metric, value.var = "value")
-
-
-
-
 colnames(exp_wide) <- c("year","school_code","subgroup","state_expulsion_rate","explusion_rate_n","expulsion_rate","state_expulsions","expulsions_n","expulsions")
 exp_wide$explusion_rate_n <- NULL
 exp_wide$expulsions_n <- NULL
-
-
-
-
 exp_wide$state_expulsion_rate <- exp_wide$state_expulsion_rate/100
 exp_wide$expulsion_rate <- exp_wide$expulsion_rate/100
-
-
-
 exp_wide <- select(exp_wide, school_code, year,subgroup, expulsions, expulsion_rate, state_expulsions, state_expulsion_rate)
-
 exp_wide$school_code <- sapply(exp_wide$school_code, leadgr, 4)
 
+##
+disc <- sqlQuery(dbrepcard_prod,"select * from equity_report_school_longitudinal where reported=1 and metric in('Total Expulsions','Expulsion Rate','Suspended 1+','Suspended 11+','Total Suspensions')") %>% mutate(lea_code=sapply(lea_code,leadgr,4),school_code=sapply(school_code,leadgr,4),subgroup=ifelse(subgroup %in% c('Male','Female'),toupper(subgroup),subgroup)) %>% select(-(school_year),-(lea_code),-(school_name),-(lea_name),-(reported),-(reported),-(reason_not_reported),-(grade),-(enrollment),-(month))
 
-# setwd('U:/LearnDC ETL V2/Export/CSV/school')
-# write.csv(exp_wide, "Equity_Report_Expulsion_School.csv", row.names=FALSE)
+expel <- disc %>% filter(metric %in% c('Total Expulsions','Expulsion Rate'))
+exp_long <- melt(expel, id.vars = c("year","school_code","subgroup","metric"))
+exp_long$metric <- paste0(exp_long$metric, "_",exp_long$variable)
+exp_long$variable <- NULL
+exp_wide <- dcast(exp_long,year + school_code + subgroup ~ metric,value.var="value")
+colnames(exp_wide) <- c("year","school_code","subgroup","state_expulsion_rate","explusion_rate_n","expulsion_rate","state_expulsions","expulsions_n","expulsions")
+exp_wide$explusion_rate_n <- NULL
+exp_wide$expulsions_n <- NULL
+exp_wide$state_expulsion_rate <- exp_wide$state_expulsion_rate/100
+# exp_wide$expulsion_rate <- exp_wide$expulsion_rate/100
+exp <- select(exp_wide,school_code,year,subgroup,expulsions,expulsion_rate,state_expulsions,state_expulsion_rate)
 
+strtable(exp)
 
-key_index <- c(2,3)
-value_index <- c(4,5,6,7)
+key_index <- 2:3
+value_index <- 4:7
 num_orphans <- 0
 
 
-for(i in unique(exp_wide$school_code)){
+for(i in unique(exp$school_code)){
 	setwd("U:/LearnDC ETL V2/Export/JSON/school")
 	
 	if(file.exists(i)){
@@ -53,7 +51,7 @@ for(i in unique(exp_wide$school_code)){
 	}
 	
 
-	.tmp <- subset(exp_wide, school_code == i)
+	.tmp <- subset(exp, school_code == i)
 
 	.nested_list <- lapply(1:nrow(.tmp), FUN = function(i){ 
                              list(key = list(.tmp[i,key_index]), 
