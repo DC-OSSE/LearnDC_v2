@@ -1,5 +1,5 @@
 {
-"timestamp": "Wed Oct 14 15:45:19 2015",
+"timestamp": "Wed Oct 14 17:35:29 2015",
 "org_type": "school",
 "org_name": "",
 "org_code": "1119",
@@ -9,66 +9,66 @@
 [
     {
         "key": {
-            "school_code": "1119",
+            "year": 2015,
             "subgroup": "All"
         },
         "val": {
-            "state_suspended_1": 0.0087,
             "suspended_1": 0.001,
-            "state_suspended_11": 0,
             "suspended_11": 0,
+            "state_suspended_1": 0.0087,
+            "state_suspended_11": 0,
             "incidents": 3
         }
     },
     {
         "key": {
-            "school_code": "1119",
+            "year": 2015,
             "subgroup": "BL7"
         },
         "val": {
-            "state_suspended_1": 0.0145,
             "suspended_1": 0,
-            "state_suspended_11": 0,
             "suspended_11": 0,
+            "state_suspended_1": 0.0145,
+            "state_suspended_11": 0,
             "incidents": null
         }
     },
     {
         "key": {
-            "school_code": "1119",
+            "year": 2015,
             "subgroup": "FEMALE"
         },
         "val": {
-            "state_suspended_1": 0.0078,
             "suspended_1": 0.0009,
-            "state_suspended_11": 0,
             "suspended_11": 0,
+            "state_suspended_1": 0.0078,
+            "state_suspended_11": 0,
             "incidents": null
         }
     },
     {
         "key": {
-            "school_code": "1119",
+            "year": 2015,
             "subgroup": "HI7"
         },
         "val": {
-            "state_suspended_1": 0.0021,
             "suspended_1": 0.0014,
-            "state_suspended_11": 0,
             "suspended_11": 0,
+            "state_suspended_1": 0.0021,
+            "state_suspended_11": 0,
             "incidents": null
         }
     },
     {
         "key": {
-            "school_code": "1119",
+            "year": 2015,
             "subgroup": "MALE"
         },
         "val": {
-            "state_suspended_1": 0.0102,
             "suspended_1": 0.0012,
-            "state_suspended_11": 0,
             "suspended_11": 0,
+            "state_suspended_1": 0.0102,
+            "state_suspended_11": 0,
             "incidents": null
         }
     }
