@@ -57,7 +57,7 @@ for(i in unique(suspend$school_code)){
 	}
 	
 
-	.tmp <- subset(suspw, suspend == i)
+	.tmp <- subset(suspend, suspend == i)
 
 	.nested_list <- lapply(1:nrow(.tmp), FUN = function(i){ 
                              list(key = list(.tmp[i,key_index]), 
