@@ -1,5 +1,5 @@
 {
-"timestamp": "Tue Jan 20 10:19:05 2015",
+"timestamp": "Wed Oct 14 15:44:14 2015",
 "org_type": "school",
 "org_code": "0457",
 "exhibit": {
@@ -8,55 +8,79 @@
 [
     {
         "key": {
-            "year": 2013,
+            "year": 2014,
+            "subgroup": "All",
+            "grade": "grade 10"
+        },
+        "val": 213
+    },
+    {
+        "key": {
+            "year": 2014,
+            "subgroup": "All",
+            "grade": "grade 11"
+        },
+        "val": 217
+    },
+    {
+        "key": {
+            "year": 2014,
+            "subgroup": "All",
+            "grade": "grade 12"
+        },
+        "val": 208
+    },
+    {
+        "key": {
+            "year": 2014,
+            "subgroup": "All",
+            "grade": "grade 9"
+        },
+        "val": 387
+    },
+    {
+        "key": {
+            "year": 2014,
             "subgroup": "All",
             "grade": "All"
         },
-        "val": 783
+        "val": 1025
     },
     {
         "key": {
-            "year": 2013,
-            "subgroup": "MALE",
-            "grade": "All"
-        },
-        "val": 0.522
-    },
-    {
-        "key": {
-            "year": 2013,
-            "subgroup": "FEMALE",
-            "grade": "All"
-        },
-        "val": 0.478
-    },
-    {
-        "key": {
-            "year": 2013,
-            "subgroup": "AM7",
-            "grade": "All"
-        },
-        "val": 0
-    },
-    {
-        "key": {
-            "year": 2013,
+            "year": 2014,
             "subgroup": "AS7",
             "grade": "All"
         },
-        "val": 0.004
+        "val": 0.002
     },
     {
         "key": {
-            "year": 2013,
+            "year": 2014,
             "subgroup": "BL7",
             "grade": "All"
         },
-        "val": 0.973
+        "val": 0.977
     },
     {
         "key": {
-            "year": 2013,
+            "year": 2014,
+            "subgroup": "Economy",
+            "grade": "All"
+        },
+        "val": 1
+    },
+    {
+        "key": {
+            "year": 2014,
+            "subgroup": "FEMALE",
+            "grade": "All"
+        },
+        "val": 0.489
+    },
+    {
+        "key": {
+            "year": 2014,
             "subgroup": "HI7",
             "grade": "All"
         },
@@ -64,15 +88,31 @@
     },
     {
         "key": {
-            "year": 2013,
-            "subgroup": "MU7",
+            "year": 2014,
+            "subgroup": "LEP",
             "grade": "All"
         },
         "val": 0.003
     },
     {
         "key": {
-            "year": 2013,
+            "year": 2014,
+            "subgroup": "MALE",
+            "grade": "All"
+        },
+        "val": 0.511
+    },
+    {
+        "key": {
+            "year": 2014,
+            "subgroup": "MU7",
+            "grade": "All"
+        },
+        "val": 0.004
+    },
+    {
+        "key": {
+            "year": 2014,
             "subgroup": "PI7",
             "grade": "All"
         },
@@ -80,107 +120,51 @@
     },
     {
         "key": {
-            "year": 2013,
-            "subgroup": "WH7",
-            "grade": "All"
-        },
-        "val": 0.004
-    },
-    {
-        "key": {
-            "year": 2013,
+            "year": 2014,
             "subgroup": "SPED",
             "grade": "All"
         },
-        "val": 0.259
+        "val": 0.26
     },
     {
         "key": {
-            "year": 2013,
+            "year": 2014,
             "subgroup": "SPED Level 1",
             "grade": "All"
         },
-        "val": 0.158
+        "val": 0.18
     },
     {
         "key": {
-            "year": 2013,
+            "year": 2014,
             "subgroup": "SPED Level 2",
             "grade": "All"
         },
-        "val": 0.448
+        "val": 0.417
     },
     {
         "key": {
-            "year": 2013,
+            "year": 2014,
             "subgroup": "SPED Level 3",
             "grade": "All"
         },
-        "val": 0.143
+        "val": 0.102
     },
     {
         "key": {
-            "year": 2013,
+            "year": 2014,
             "subgroup": "SPED Level 4",
             "grade": "All"
         },
-        "val": 0.251
+        "val": 0.301
     },
     {
         "key": {
-            "year": 2013,
-            "subgroup": "LEP",
+            "year": 2014,
+            "subgroup": "WH7",
             "grade": "All"
         },
-        "val": 0.005
-    },
-    {
-        "key": {
-            "year": 2013,
-            "subgroup": "Economy",
-            "grade": "All"
-        },
-        "val": 0.997
-    },
-    {
-        "key": {
-            "year": 2013,
-            "subgroup": "Direct Cert",
-            "grade": "All"
-        },
-        "val": 0.58
-    },
-    {
-        "key": {
-            "year": 2013,
-            "subgroup": "All",
-            "grade": "grade 9"
-        },
-        "val": 374
-    },
-    {
-        "key": {
-            "year": 2013,
-            "subgroup": "All",
-            "grade": "grade 10"
-        },
-        "val": 205
-    },
-    {
-        "key": {
-            "year": 2013,
-            "subgroup": "All",
-            "grade": "grade 11"
-        },
-        "val": 203
-    },
-    {
-        "key": {
-            "year": 2013,
-            "subgroup": "All",
-            "grade": "grade 12"
-        },
-        "val": 1
+        "val": 0.002
     }
 ]
 

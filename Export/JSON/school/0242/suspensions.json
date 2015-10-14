@@ -1,0 +1,91 @@
+{
+"timestamp": "Wed Oct 14 15:45:05 2015",
+"org_type": "school",
+"org_name": "",
+"org_code": "0242",
+"exhibit": {
+	"id": "suspensions",
+	"data":  
+[
+    {
+        "key": {
+            "school_code": "0242",
+            "subgroup": "All"
+        },
+        "val": {
+            "state_suspended_1": 0.1579,
+            "suspended_1": 0.1746,
+            "state_suspended_11": 0.0003,
+            "suspended_11": 0,
+            "incidents": 45
+        }
+    },
+    {
+        "key": {
+            "school_code": "0242",
+            "subgroup": "BL7"
+        },
+        "val": {
+            "state_suspended_1": 0.2031,
+            "suspended_1": 0.1639,
+            "state_suspended_11": 0.0004,
+            "suspended_11": 0,
+            "incidents": null
+        }
+    },
+    {
+        "key": {
+            "school_code": "0242",
+            "subgroup": "Economy"
+        },
+        "val": {
+            "state_suspended_1": 0.1946,
+            "suspended_1": 0.1837,
+            "state_suspended_11": 0.0004,
+            "suspended_11": 0,
+            "incidents": null
+        }
+    },
+    {
+        "key": {
+            "school_code": "0242",
+            "subgroup": "FEMALE"
+        },
+        "val": {
+            "state_suspended_1": 0.1169,
+            "suspended_1": 0.1493,
+            "state_suspended_11": 0,
+            "suspended_11": 0,
+            "incidents": null
+        }
+    },
+    {
+        "key": {
+            "school_code": "0242",
+            "subgroup": "MALE"
+        },
+        "val": {
+            "state_suspended_1": 0.1976,
+            "suspended_1": 0.2034,
+            "state_suspended_11": 0.0006,
+            "suspended_11": 0,
+            "incidents": null
+        }
+    },
+    {
+        "key": {
+            "school_code": "0242",
+            "subgroup": "SPED"
+        },
+        "val": {
+            "state_suspended_1": 0.2383,
+            "suspended_1": 0.3478,
+            "state_suspended_11": 0,
+            "suspended_11": 0,
+            "incidents": null
+        }
+    }
+]
+
+	}
+}

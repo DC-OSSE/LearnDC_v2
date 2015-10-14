@@ -1,5 +1,5 @@
 {
-"timestamp": "Fri Jan 23 17:52:25 2015",
+"timestamp": "Wed Oct 14 15:45:17 2015",
 "org_type": "school",
 "org_name": "",
 "org_code": "0474",
@@ -9,131 +9,66 @@
 [
     {
         "key": {
-            "year": 2013,
+            "school_code": "0474",
             "subgroup": "All"
         },
         "val": {
-            "suspended_1": 0.3,
-            "suspended_11": 0.01,
-            "state_suspended_1": 0.21,
-            "state_suspended_11": 0.01,
-            "incidents": null
-        }
-    },
-    {
-        "key": {
-            "year": 2013,
-            "subgroup": "BL7"
-        },
-        "val": {
-            "suspended_1": 0.29,
-            "suspended_11": 0.01,
-            "state_suspended_1": 0.24,
-            "state_suspended_11": 0.01,
-            "incidents": null
-        }
-    },
-    {
-        "key": {
-            "year": 2013,
-            "subgroup": "Economy"
-        },
-        "val": {
-            "suspended_1": 0.25,
-            "suspended_11": 0.01,
-            "state_suspended_1": 0.24,
-            "state_suspended_11": 0.01,
-            "incidents": null
-        }
-    },
-    {
-        "key": {
-            "year": 2013,
-            "subgroup": "SPED"
-        },
-        "val": {
-            "suspended_1": 0.43,
+            "state_suspended_1": 0.0825,
+            "suspended_1": 0.2295,
+            "state_suspended_11": 0.0096,
             "suspended_11": 0,
-            "state_suspended_1": 0.33,
-            "state_suspended_11": 0.02,
-            "incidents": null
+            "incidents": 88
         }
     },
     {
         "key": {
-            "year": 2014,
-            "subgroup": "All"
-        },
-        "val": {
-            "suspended_1": 0.3571,
-            "suspended_11": 0.0107,
-            "state_suspended_1": 0.1829,
-            "state_suspended_11": 0.0073,
-            "incidents": 172
-        }
-    },
-    {
-        "key": {
-            "year": 2014,
+            "school_code": "0474",
             "subgroup": "BL7"
         },
         "val": {
-            "suspended_1": 0.3616,
-            "suspended_11": 0.0111,
-            "state_suspended_1": 0.2128,
-            "state_suspended_11": 0.008,
+            "state_suspended_1": 0.1126,
+            "suspended_1": 0.2363,
+            "state_suspended_11": 0.0131,
+            "suspended_11": 0,
             "incidents": null
         }
     },
     {
         "key": {
-            "year": 2014,
-            "subgroup": "Economy"
-        },
-        "val": {
-            "suspended_1": 0.3577,
-            "suspended_11": 0.0073,
-            "state_suspended_1": 0.2113,
-            "state_suspended_11": 0.0087,
-            "incidents": null
-        }
-    },
-    {
-        "key": {
-            "year": 2014,
+            "school_code": "0474",
             "subgroup": "FEMALE"
         },
         "val": {
-            "suspended_1": 0.3404,
-            "suspended_11": 0.0142,
-            "state_suspended_1": 0.1511,
-            "state_suspended_11": 0.0055,
+            "state_suspended_1": 0.0864,
+            "suspended_1": 0.2018,
+            "state_suspended_11": 0.0098,
+            "suspended_11": 0,
             "incidents": null
         }
     },
     {
         "key": {
-            "year": 2014,
+            "school_code": "0474",
             "subgroup": "MALE"
         },
         "val": {
-            "suspended_1": 0.3741,
-            "suspended_11": 0.0072,
-            "state_suspended_1": 0.216,
-            "state_suspended_11": 0.0091,
+            "state_suspended_1": 0.0791,
+            "suspended_1": 0.2519,
+            "state_suspended_11": 0.0093,
+            "suspended_11": 0,
             "incidents": null
         }
     },
     {
         "key": {
-            "year": 2014,
+            "school_code": "0474",
             "subgroup": "SPED"
         },
         "val": {
-            "suspended_1": 0.475,
-            "suspended_11": 0.025,
-            "state_suspended_1": 0.2986,
-            "state_suspended_11": 0.0128,
+            "state_suspended_1": 0.0997,
+            "suspended_1": 0.2917,
+            "state_suspended_11": 0.0091,
+            "suspended_11": 0,
             "incidents": null
         }
     }
