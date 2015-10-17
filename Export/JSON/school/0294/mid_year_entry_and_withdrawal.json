@@ -1,5 +1,5 @@
 {
-"timestamp": "Thu Oct 15 15:05:22 2015",
+"timestamp": "Sat Oct 17 17:57:17 2015",
 "org_type": "school",
 "org_name": "",
 "org_code": "0294",
@@ -7,48 +7,6 @@
 	"id": "mid_year_entry_and_withdrawal",
 	"data":  
 [
-    {
-        "key": {
-            "year": 2014,
-            "month": 10
-        },
-        "val": {
-            "entry": 0.04,
-            "withdrawal": 0.01,
-            "net_cumulative": 0.04,
-            "state_entry": 0.01,
-            "state_withdrawal": 0.01,
-            "state_net_cumulative": -0
-        }
-    },
-    {
-        "key": {
-            "year": 2014,
-            "month": 11
-        },
-        "val": {
-            "entry": 0.06,
-            "withdrawal": 0.02,
-            "net_cumulative": 0.04,
-            "state_entry": 0.01,
-            "state_withdrawal": 0.02,
-            "state_net_cumulative": -0
-        }
-    },
-    {
-        "key": {
-            "year": 2014,
-            "month": 12
-        },
-        "val": {
-            "entry": 0.07,
-            "withdrawal": 0.03,
-            "net_cumulative": 0.04,
-            "state_entry": 0.02,
-            "state_withdrawal": 0.02,
-            "state_net_cumulative": -0
-        }
-    },
     {
         "key": {
             "year": 2015,
@@ -117,6 +75,48 @@
             "state_entry": 0.04,
             "state_withdrawal": 0.05,
             "state_net_cumulative": -0.01
+        }
+    },
+    {
+        "key": {
+            "year": 2015,
+            "month": 10
+        },
+        "val": {
+            "entry": 0.04,
+            "withdrawal": 0.01,
+            "net_cumulative": 0.04,
+            "state_entry": 0.01,
+            "state_withdrawal": 0.01,
+            "state_net_cumulative": -0
+        }
+    },
+    {
+        "key": {
+            "year": 2015,
+            "month": 11
+        },
+        "val": {
+            "entry": 0.06,
+            "withdrawal": 0.02,
+            "net_cumulative": 0.04,
+            "state_entry": 0.01,
+            "state_withdrawal": 0.02,
+            "state_net_cumulative": -0
+        }
+    },
+    {
+        "key": {
+            "year": 2015,
+            "month": 12
+        },
+        "val": {
+            "entry": 0.07,
+            "withdrawal": 0.03,
+            "net_cumulative": 0.04,
+            "state_entry": 0.02,
+            "state_withdrawal": 0.02,
+            "state_net_cumulative": -0
         }
     }
 ]

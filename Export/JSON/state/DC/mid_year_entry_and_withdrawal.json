@@ -1,5 +1,5 @@
 {
-"timestamp": "Thu Oct 15 15:05:38 2015",
+"timestamp": "Sat Oct 17 18:01:15 2015",
 "org_type": "state",
 "org_name": "District of Columbia",
 "org_code": "dc",
@@ -7,51 +7,6 @@
 	"id": "mid_year_entry_and_withdrawal",
 	"data":  
 [
-    {
-        "key": {
-            "year": 2014,
-            "month": 10,
-            "population": "All"
-        },
-        "val": {
-            "entry": 0.0119,
-            "withdrawal": 0.0115,
-            "net_cumulative": 0.0004,
-            "state_entry": null,
-            "state_withdrawal": null,
-            "state_net_cumulative": null
-        }
-    },
-    {
-        "key": {
-            "year": 2014,
-            "month": 11,
-            "population": "All"
-        },
-        "val": {
-            "entry": 0.0188,
-            "withdrawal": 0.0228,
-            "net_cumulative": -0.0041,
-            "state_entry": null,
-            "state_withdrawal": null,
-            "state_net_cumulative": null
-        }
-    },
-    {
-        "key": {
-            "year": 2014,
-            "month": 12,
-            "population": "All"
-        },
-        "val": {
-            "entry": 0.0276,
-            "withdrawal": 0.0335,
-            "net_cumulative": -0.0059,
-            "state_entry": null,
-            "state_withdrawal": null,
-            "state_net_cumulative": null
-        }
-    },
     {
         "key": {
             "year": 2015,
@@ -122,6 +77,51 @@
             "entry": 0.0746,
             "withdrawal": 0.0861,
             "net_cumulative": -0.0115,
+            "state_entry": null,
+            "state_withdrawal": null,
+            "state_net_cumulative": null
+        }
+    },
+    {
+        "key": {
+            "year": 2015,
+            "month": 10,
+            "population": "All"
+        },
+        "val": {
+            "entry": 0.0119,
+            "withdrawal": 0.0115,
+            "net_cumulative": 0.0004,
+            "state_entry": null,
+            "state_withdrawal": null,
+            "state_net_cumulative": null
+        }
+    },
+    {
+        "key": {
+            "year": 2015,
+            "month": 11,
+            "population": "All"
+        },
+        "val": {
+            "entry": 0.0188,
+            "withdrawal": 0.0228,
+            "net_cumulative": -0.0041,
+            "state_entry": null,
+            "state_withdrawal": null,
+            "state_net_cumulative": null
+        }
+    },
+    {
+        "key": {
+            "year": 2015,
+            "month": 12,
+            "population": "All"
+        },
+        "val": {
+            "entry": 0.0276,
+            "withdrawal": 0.0335,
+            "net_cumulative": -0.0059,
             "state_entry": null,
             "state_withdrawal": null,
             "state_net_cumulative": null
