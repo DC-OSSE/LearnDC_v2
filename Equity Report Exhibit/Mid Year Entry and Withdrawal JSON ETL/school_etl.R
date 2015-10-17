@@ -19,7 +19,7 @@ move_wide <- select(move_wide, school_code, year, month, entry, withdrawal, net_
 move_wide$school_code <- sapply(move_wide$school_code, leadgr, 4)
 
 ##
-myew <- sqlQuery(dbrepcard_prod,"select * from equity_report_school_longitudinal where reported=1 and metric in('Withdrawal','Entry','Net Cumulative')") %>% mutate(school_code=sapply(school_code,leadgr,4),month=ifelse(month %in% 'October',10,ifelse(month %in% 'November',11,ifelse(month %in% 'December',12,ifelse(month %in% 'January',1,ifelse(month %in% 'February',2,ifelse(month %in% 'March',3,ifelse(month %in% 'April',4,ifelse(month %in% 'May',5,NA)))))))),year=ifelse(month %in% 10:12,2014,2015)) %>% select(-(starts_with("lea")),-(starts_with("re")),-(school_year),-(enrollment),-(grade),-(school_name),-(nsize))
+myew <- sqlQuery(dbrepcard_prod,"select * from equity_report_school_longitudinal where reported=1 and metric in('Withdrawal','Entry','Net Cumulative')") %>% mutate(school_code=sapply(school_code,leadgr,4),month=ifelse(month %in% 'October',10,ifelse(month %in% 'November',11,ifelse(month %in% 'December',12,ifelse(month %in% 'January',1,ifelse(month %in% 'February',2,ifelse(month %in% 'March',3,ifelse(month %in% 'April',4,ifelse(month %in% 'May',5,NA))))))))) %>% select(-(starts_with("lea")),-(starts_with("re")),-(school_year),-(enrollment),-(grade),-(school_name),-(nsize))
 move_long <- melt(myew,id.vars=c("year","school_code","subgroup","month","metric"))
 move_long$metric <- paste0(move_long$metric,"_",move_long$variable)
 move_long$variable <- NULL
