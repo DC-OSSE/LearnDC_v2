@@ -4,48 +4,11 @@ library(jsonlite)
 library(reshape2)
 library(dplyr)
 
-# att <- sqlQuery(dbrepcard_prod, "SELECT [School_Code], [School_Year], [Student_Group], [Metric], [NSize], [SchoolScore], [AverageScore]
-# 		FROM [dbo].[equity_longitudinal3] WHERE [Metric] in ('In-Seat Attendance Rate')")
-
-# att_long <- melt(att, id.vars = c("School_Year", "School_Code", "Student_Group", "Metric"))
-# att_long$Metric<- paste0(att_long$Metric, "_",att_long$variable)
-# att_long$variable <- NULL
-# att_wide <- dcast(att_long, School_Year + School_Code + Student_Group ~ Metric, value.var = "value")
-
-# colnames(att_wide) <- c("year","school_code","subgroup","state_in_seat_attendance","in_seat_attendance_n","in_seat_attendance")
-# att_wide$in_seat_attendance_n <- NULL
-# att_wide$in_seat_attendance <- att_wide$in_seat_attendance/100
-# att_wide$state_in_seat_attendance <- att_wide$state_in_seat_attendance/100
-# att_wide <- select(att_wide, school_code, year,subgroup, in_seat_attendance, state_in_seat_attendance)
-# att_wide$average_daily_attendance <- NA
-# att_wide$state_average_daily_attendance <- NA
-# att_wide$school_code <- sapply(att_wide$school_code, leadgr, 4)
-
-# state_vals <- att_wide[which(att_wide$school_code=='0161'),]
-
-# state_att_all <- state_vals %>%
-# mutate(population='All',state_in_seat_attendance = NA,state_average_daily_attendance=NA) %>%
-# select(year,subgroup,population,in_seat_attendance,
-#        average_daily_attendance,state_in_seat_attendance,state_average_daily_attendance)
-
-# state_att_gen <- state_vals %>%
-# mutate(population='Gen',in_seat_attendance=round(state_in_seat_attendance/1.25,2),
-#        state_in_seat_attendance = NA,state_average_daily_attendance=NA) %>%
-# select(year,subgroup,population,in_seat_attendance,average_daily_attendance,
-#        state_in_seat_attendance,state_average_daily_attendance)
-
-# state_att_alt <- state_vals %>%
-# mutate(population='Alt',in_seat_attendance=round(state_in_seat_attendance/1.25,2),
-#        state_in_seat_attendance = NA,state_average_daily_attendance=NA) %>%
-# select(year,subgroup,population,in_seat_attendance,average_daily_attendance,
-#        state_in_seat_attendance,state_average_daily_attendance)
-
-# state_att <- rbind.data.frame(state_att_alt,state_att_gen,state_att_all)
-
-# strtable(state_att)
-
-isa <- sqlQuery(dbrepcard_prod,"select * from equity_report_state_longitudinal where reported=1 and metric='In-Seat Attendance'") %>% mutate(subgroup=ifelse(subgroup %in% c('Male','Female'),toupper(subgroup),ifelse(subgroup %in% "ELL","LEP",subgroup)),population="All",state_in_seat_attendance=NA,average_daily_attendance=NA,state_average_daily_attendance=NA) %>% select(-starts_with("days"),-(school_year),-(grade),-starts_with("mo"),-starts_with("re"),-(count),-(nsize),-(enrollment),-(metric)) %>% rename(in_seat_attendance=score)
+isa <- sqlQuery(dbrepcard_prod,"select * from equity_report_state_longitudinal where reported=1 and metric='In-Seat Attendance'") %>% 
+	mutate(subgroup=ifelse(subgroup %in% c('Male','Female'),toupper(subgroup),ifelse(subgroup %in% "ELL","LEP",subgroup)),population="All",state_in_seat_attendance=NA,average_daily_attendance=NA,state_average_daily_attendance=NA) %>% select(-starts_with("days"),-(school_year),-(grade),-starts_with("mo"),-starts_with("re"),-(count),-(nsize),-(enrollment),-(metric)) %>% rename(in_seat_attendance=score)
 isa <- isa[c(1:2,4,3,5:7)]
+
+isa$in_seat_attendance <- round(isa$in_seat_attendance,3)
 
 strtable(isa)
 
