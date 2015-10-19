@@ -4,26 +4,6 @@ library(jsonlite)
 library(reshape2)
 library(dplyr)
 
-susp <- sqlQuery(dbrepcard_prod, "SELECT [School_Code], [School_Year], [Student_Group], [Metric], [NSize], [SchoolScore], [AverageScore]
-		FROM [dbo].[equity_longitudinal3] WHERE [Metric] in ('Suspended 1+','Suspended 11+','Total Suspensions')")
-susp <- subset(susp, !is.na(School_Code))
-susp_long <- melt(susp, id.vars = c("School_Year", "School_Code", "Student_Group", "Metric"))
-susp_long$Metric<- paste0(susp_long$Metric, "_",susp_long$variable)
-susp_long$variable <- NULL
-susp_wide <- dcast(susp_long, School_Year + School_Code + Student_Group ~ Metric, value.var = "value")
-colnames(susp_wide) <- c("year","school_code","subgroup","state_suspended_1","suspended_1_n","suspended_1","state_suspended_11","suspended_11_n","suspended_11","state_incidents","incidents_n","incidents")
-susp_wide$suspended_11_n <- NULL
-susp_wide$suspended_1_n <- NULL
-susp_wide$incidents_n <- NULL
-susp_wide$state_incidents <- NULL
-susp_wide$state_suspended_1 <- susp_wide$state_suspended_1/100
-susp_wide$suspended_1 <- susp_wide$suspended_1/100
-susp_wide$state_suspended_11 <- susp_wide$state_suspended_11/100
-susp_wide$suspended_11 <- susp_wide$suspended_11/100
-susp_wide <- select(susp_wide, school_code, year,subgroup, suspended_1, suspended_11, state_suspended_1, state_suspended_11, incidents)
-susp_wide$school_code <- sapply(susp_wide$school_code, leadgr, 4)
-
-##
 disc <- sqlQuery(dbrepcard_prod,"select * from equity_report_school_longitudinal where reported=1 and metric in('Total Expulsions','Expulsion Rate','Suspended 1+','Suspended 11+','Total Suspensions')") %>% mutate(lea_code=sapply(lea_code,leadgr,4),school_code=sapply(school_code,leadgr,4),subgroup=ifelse(subgroup %in% c('Male','Female'),toupper(subgroup),subgroup)) %>% select(-(school_year),-(lea_code),-(school_name),-(lea_name),-(reported),-(reported),-(reason_not_reported),-(grade),-(enrollment),-(month))
 susp <- disc %>% filter(metric %in% c('Suspended 1+','Suspended 11+','Total Suspensions'))
 susp_long <- melt(susp, id.vars = c("year","school_code","subgroup","metric"))
@@ -35,10 +15,10 @@ suspw$suspended_11_n <- NULL
 suspw$suspended_1_n <- NULL
 suspw$incidents_n <- NULL
 suspw$state_incidents <- NULL
-suspw$state_suspended_1 <- suspw$state_suspended_1/100
-# suspw$suspended_1 <- suspw$suspended_1/100
-suspw$state_suspended_11 <- suspw$state_suspended_11/100
-# suspw$suspended_11 <- suspw$suspended_11/100
+suspw$suspended_1 <- round(suspw$suspended_1/100,3)
+suspw$suspended_11 <- round(suspw$suspended_11/100,4)
+suspw$state_suspended_1 <- round(suspw$state_suspended_1/100,3)
+suspw$state_suspended_11 <- round(suspw$state_suspended_11/100,4)
 suspend <- select(suspw,school_code,year,subgroup,suspended_1,suspended_11,state_suspended_1,state_suspended_11,incidents)
 
 strtable(suspend)
