@@ -3,13 +3,8 @@ source("U:/R/tomkit.R")
 library(jsonlite)
 library(dplyr)
 
-# state_enr <- sqlQuery(dbrepcard_prod, "SELECT * FROM [dbo].[enrollment_state_exhibit_pcsb_alterations]")
-# state_enr$population <- "All"
-# state_enr[which(state_enr$subgroup=='All' & state_enr$grade=='All'),]$enrollment <- sum(subset(state_enr,subgroup=='All')$enrollment)-1
-# state_enr <- select(state_enr,year,grade,subgroup,population,enrollment)
-
 enr <- sqlQuery(dbrepcard_prod,"select * from equity_report_state_longitudinal where reported=1 and metric='Student Characteristics'") %>%
-mutate(enrollment=round(score,4),subgroup=ifelse(subgroup %in% c('Male','Female'),toupper(subgroup),subgroup),population='All',grade=ifelse(substr(grade,0,1) %in% 0,substr(grade,2,2),grade),grade=ifelse(grade %in% c("All","PK3","PK4","KG","UN"),grade,paste0("grade ",grade))) %>% filter(subgroup %notin% 'AtRisk' & reported==1) %>% select(year,grade,subgroup,population,enrollment)
+mutate(enrollment=round(score,3),subgroup=ifelse(subgroup %in% c('Male','Female'),toupper(subgroup),subgroup),population='All',grade=ifelse(substr(grade,0,1) %in% 0,substr(grade,2,2),grade),grade=ifelse(grade %in% c("All","PK3","PK4","KG","UN"),grade,paste0("grade ",grade))) %>% filter(subgroup %notin% 'AtRisk' & reported==1) %>% select(year,grade,subgroup,population,enrollment)
 
 strtable(enr)
 
