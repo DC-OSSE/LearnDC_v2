@@ -1,5 +1,5 @@
 {
-"timestamp": "Thu Oct 15 15:05:02 2015",
+"timestamp": "Mon Oct 19 16:46:06 2015",
 "org_type": "school",
 "org_name": "",
 "org_code": "1121",
@@ -13,9 +13,9 @@
             "subgroup": "All"
         },
         "val": {
-            "suspended_1": 0.095,
-            "suspended_11": 0.005,
-            "state_suspended_1": 0.0775,
+            "suspended_1": 0.001,
+            "suspended_11": 0,
+            "state_suspended_1": 0.078,
             "state_suspended_11": 0.0002,
             "incidents": 105
         }
@@ -26,9 +26,9 @@
             "subgroup": "BL7"
         },
         "val": {
-            "suspended_1": 0.0969,
-            "suspended_11": 0.0051,
-            "state_suspended_1": 0.1055,
+            "suspended_1": 0.001,
+            "suspended_11": 0.0001,
+            "state_suspended_1": 0.106,
             "state_suspended_11": 0.0003,
             "incidents": null
         }
@@ -39,9 +39,9 @@
             "subgroup": "Economy"
         },
         "val": {
-            "suspended_1": 0.1069,
-            "suspended_11": 0.0058,
-            "state_suspended_1": 0.0965,
+            "suspended_1": 0.001,
+            "suspended_11": 0.0001,
+            "state_suspended_1": 0.096,
             "state_suspended_11": 0.0003,
             "incidents": null
         }
@@ -52,9 +52,9 @@
             "subgroup": "FEMALE"
         },
         "val": {
-            "suspended_1": 0.0276,
+            "suspended_1": 0,
             "suspended_11": 0,
-            "state_suspended_1": 0.0417,
+            "state_suspended_1": 0.042,
             "state_suspended_11": 0.0001,
             "incidents": null
         }
@@ -65,9 +65,9 @@
             "subgroup": "MALE"
         },
         "val": {
-            "suspended_1": 0.1507,
-            "suspended_11": 0.0091,
-            "state_suspended_1": 0.1126,
+            "suspended_1": 0.002,
+            "suspended_11": 0.0001,
+            "state_suspended_1": 0.113,
             "state_suspended_11": 0.0003,
             "incidents": null
         }
@@ -78,9 +78,9 @@
             "subgroup": "SPED"
         },
         "val": {
-            "suspended_1": 0.1746,
-            "suspended_11": 0.0159,
-            "state_suspended_1": 0.1397,
+            "suspended_1": 0.002,
+            "suspended_11": 0.0002,
+            "state_suspended_1": 0.14,
             "state_suspended_11": 0.0011,
             "incidents": null
         }
