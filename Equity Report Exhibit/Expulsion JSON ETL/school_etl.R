@@ -4,22 +4,6 @@ library(jsonlite)
 library(reshape2)
 library(dplyr)
 
-exp <- sqlQuery(dbrepcard_prod, "SELECT [School_Code], [School_Year], [Student_Group], [Metric], [NSize], [SchoolScore], [AverageScore]
-		FROM [dbo].[equity_longitudinal3] WHERE [Metric] in ('Expulsion Rate','Expulsions')")
-exp_long <- melt(exp, id.vars = c("School_Year", "School_Code", "Student_Group", "Metric"))
-exp_long$Metric <- paste0(exp_long$Metric, "_",exp_long$variable)
-exp_long$Metric <- gsub(" ","_",exp_long$Metric)
-exp_long$variable <- NULL
-exp_wide <- dcast(exp_long, School_Year + School_Code + Student_Group ~ Metric, value.var = "value")
-colnames(exp_wide) <- c("year","school_code","subgroup","state_expulsion_rate","explusion_rate_n","expulsion_rate","state_expulsions","expulsions_n","expulsions")
-exp_wide$explusion_rate_n <- NULL
-exp_wide$expulsions_n <- NULL
-exp_wide$state_expulsion_rate <- exp_wide$state_expulsion_rate/100
-exp_wide$expulsion_rate <- exp_wide$expulsion_rate/100
-exp_wide <- select(exp_wide, school_code, year,subgroup, expulsions, expulsion_rate, state_expulsions, state_expulsion_rate)
-exp_wide$school_code <- sapply(exp_wide$school_code, leadgr, 4)
-
-##
 disc <- sqlQuery(dbrepcard_prod,"select * from equity_report_school_longitudinal where reported=1 and metric in('Total Expulsions','Expulsion Rate','Suspended 1+','Suspended 11+','Total Suspensions')") %>% mutate(lea_code=sapply(lea_code,leadgr,4),school_code=sapply(school_code,leadgr,4),subgroup=ifelse(subgroup %in% c('Male','Female'),toupper(subgroup),subgroup)) %>% select(-(school_year),-(lea_code),-(school_name),-(lea_name),-(reported),-(reported),-(reason_not_reported),-(grade),-(enrollment),-(month))
 
 expel <- disc %>% filter(metric %in% c('Total Expulsions','Expulsion Rate'))
@@ -30,8 +14,9 @@ exp_wide <- dcast(exp_long,year + school_code + subgroup ~ metric,value.var="val
 colnames(exp_wide) <- c("year","school_code","subgroup","state_expulsion_rate","explusion_rate_n","expulsion_rate","state_expulsions","expulsions_n","expulsions")
 exp_wide$explusion_rate_n <- NULL
 exp_wide$expulsions_n <- NULL
-exp_wide$state_expulsion_rate <- exp_wide$state_expulsion_rate/100
-# exp_wide$expulsion_rate <- exp_wide$expulsion_rate/100
+exp_wide$expulsion_rate <- round(exp_wide$expulsion_rate, 4)
+exp_wide$state_expulsion_rate <- round(exp_wide$state_expulsion_rate/100,4)
+
 exp <- select(exp_wide,school_code,year,subgroup,expulsions,expulsion_rate,state_expulsions,state_expulsion_rate)
 
 strtable(exp)
