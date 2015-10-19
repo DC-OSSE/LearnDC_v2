@@ -1,5 +1,5 @@
 {
-"timestamp": "Sat Oct 17 17:57:09 2015",
+"timestamp": "Mon Oct 19 10:56:49 2015",
 "org_type": "school",
 "org_name": "",
 "org_code": "0191",
@@ -13,12 +13,12 @@
             "month": 1
         },
         "val": {
-            "entry": 0.01,
-            "withdrawal": 0.07,
-            "net_cumulative": -0.07,
-            "state_entry": 0.05,
+            "entry": 0.005,
+            "withdrawal": 0.073,
+            "net_cumulative": -0.068,
+            "state_entry": 0.046,
             "state_withdrawal": 0.04,
-            "state_net_cumulative": 0.01
+            "state_net_cumulative": 0.005
         }
     },
     {
@@ -27,12 +27,12 @@
             "month": 2
         },
         "val": {
-            "entry": 0.01,
-            "withdrawal": 0.08,
-            "net_cumulative": -0.08,
-            "state_entry": 0.06,
-            "state_withdrawal": 0.05,
-            "state_net_cumulative": 0
+            "entry": 0.005,
+            "withdrawal": 0.081,
+            "net_cumulative": -0.076,
+            "state_entry": 0.057,
+            "state_withdrawal": 0.054,
+            "state_net_cumulative": 0.003
         }
     },
     {
@@ -41,12 +41,12 @@
             "month": 3
         },
         "val": {
-            "entry": 0.01,
-            "withdrawal": 0.1,
-            "net_cumulative": -0.09,
-            "state_entry": 0.06,
-            "state_withdrawal": 0.06,
-            "state_net_cumulative": -0
+            "entry": 0.005,
+            "withdrawal": 0.096,
+            "net_cumulative": -0.091,
+            "state_entry": 0.063,
+            "state_withdrawal": 0.065,
+            "state_net_cumulative": -0.002
         }
     },
     {
@@ -55,12 +55,12 @@
             "month": 4
         },
         "val": {
-            "entry": 0.01,
-            "withdrawal": 0.12,
-            "net_cumulative": -0.11,
-            "state_entry": 0.07,
-            "state_withdrawal": 0.07,
-            "state_net_cumulative": -0.01
+            "entry": 0.005,
+            "withdrawal": 0.119,
+            "net_cumulative": -0.114,
+            "state_entry": 0.069,
+            "state_withdrawal": 0.075,
+            "state_net_cumulative": -0.005
         }
     },
     {
@@ -69,11 +69,11 @@
             "month": 5
         },
         "val": {
-            "entry": 0.01,
-            "withdrawal": 0.12,
-            "net_cumulative": -0.12,
-            "state_entry": 0.07,
-            "state_withdrawal": 0.08,
+            "entry": 0.005,
+            "withdrawal": 0.122,
+            "net_cumulative": -0.116,
+            "state_entry": 0.073,
+            "state_withdrawal": 0.083,
             "state_net_cumulative": -0.01
         }
     },
@@ -83,11 +83,11 @@
             "month": 10
         },
         "val": {
-            "entry": 0,
+            "entry": 0.002,
             "withdrawal": 0.01,
-            "net_cumulative": -0.01,
-            "state_entry": 0.02,
-            "state_withdrawal": 0.01,
+            "net_cumulative": -0.008,
+            "state_entry": 0.018,
+            "state_withdrawal": 0.007,
             "state_net_cumulative": 0.01
         }
     },
@@ -97,11 +97,11 @@
             "month": 11
         },
         "val": {
-            "entry": 0,
-            "withdrawal": 0.03,
+            "entry": 0.002,
+            "withdrawal": 0.033,
             "net_cumulative": -0.03,
-            "state_entry": 0.03,
-            "state_withdrawal": 0.02,
+            "state_entry": 0.026,
+            "state_withdrawal": 0.016,
             "state_net_cumulative": 0.01
         }
     },
@@ -111,12 +111,12 @@
             "month": 12
         },
         "val": {
-            "entry": 0,
-            "withdrawal": 0.05,
-            "net_cumulative": -0.05,
-            "state_entry": 0.03,
-            "state_withdrawal": 0.03,
-            "state_net_cumulative": 0.01
+            "entry": 0.002,
+            "withdrawal": 0.051,
+            "net_cumulative": -0.048,
+            "state_entry": 0.033,
+            "state_withdrawal": 0.027,
+            "state_net_cumulative": 0.006
         }
     }
 ]
