@@ -1,5 +1,5 @@
 {
-"timestamp": "Mon Oct 19 19:38:46 2015",
+"timestamp": "Wed Oct 21 17:09:16 2015",
 "org_type": "school",
 "org_name": "",
 "org_code": "1047",
@@ -30,7 +30,7 @@
             "suspended_11": 0,
             "state_suspended_1": 0.113,
             "state_suspended_11": 0.0131,
-            "incidents": null
+            "incidents": 0
         }
     },
     {
@@ -41,9 +41,9 @@
         "val": {
             "suspended_1": 0.017,
             "suspended_11": 0,
-            "state_suspended_1": 0.096,
+            "state_suspended_1": 0.095,
             "state_suspended_11": 0.0113,
-            "incidents": null
+            "incidents": 0
         }
     },
     {
@@ -56,7 +56,7 @@
             "suspended_11": 0,
             "state_suspended_1": 0.086,
             "state_suspended_11": 0.0098,
-            "incidents": null
+            "incidents": 0
         }
     },
     {
@@ -69,7 +69,7 @@
             "suspended_11": 0,
             "state_suspended_1": 0,
             "state_suspended_11": 0,
-            "incidents": null
+            "incidents": 0
         }
     },
     {
@@ -82,7 +82,7 @@
             "suspended_11": 0,
             "state_suspended_1": 0,
             "state_suspended_11": 0,
-            "incidents": null
+            "incidents": 0
         }
     },
     {
@@ -95,7 +95,7 @@
             "suspended_11": 0,
             "state_suspended_1": 0.079,
             "state_suspended_11": 0.0093,
-            "incidents": null
+            "incidents": 0
         }
     },
     {
@@ -108,7 +108,7 @@
             "suspended_11": 0,
             "state_suspended_1": 0.083,
             "state_suspended_11": 0,
-            "incidents": null
+            "incidents": 0
         }
     },
     {
@@ -121,7 +121,20 @@
             "suspended_11": 0,
             "state_suspended_1": 0.1,
             "state_suspended_11": 0.0091,
-            "incidents": null
+            "incidents": 0
+        }
+    },
+    {
+        "key": {
+            "year": 2015,
+            "subgroup": "WH7"
+        },
+        "val": {
+            "suspended_1": 0,
+            "suspended_11": 0,
+            "state_suspended_1": 0,
+            "state_suspended_11": 0,
+            "incidents": 0
         }
     }
 ]
