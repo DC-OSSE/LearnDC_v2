@@ -15,7 +15,7 @@ colnames(attw) <- c("year","school_code","subgroup","state_in_seat_attendance","
 attw$in_seat_attendance_n <- NULL
 attw <- select(attw, school_code, year,subgroup, in_seat_attendance, state_in_seat_attendance)
 attw$in_seat_attendance <- round(attw$in_seat_attendance,3)
-attw$state_in_seat_attendance <- round(attw$state_in_seat_attendance/100,3)
+attw$state_in_seat_attendance <- round(attw$state_in_seat_attendance,3)
 attw$average_daily_attendance <- NA
 attw$state_average_daily_attendance <- NA
 
