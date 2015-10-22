@@ -6,16 +6,7 @@ source("./imports/subproc.R")
 
 grads <- sqlQuery(dbrepcard, "SELECT * FROM dbo.graduation where cohort_status=1")
 
-
-##7000 lea_code and lea_name "State Level Reporting LEA" for records with school_code == 480 (Incarcerated Youth Program, Correctional) just for cohort_year==2010
-
-grads$lea_code[which(grads$school_code=='0480' & grads$cohort_year==2010)] <- '4001'
-grads$lea_name[which(grads$school_code=='0480' & grads$cohort_year==2010)] <- 'State-Level Reporting LEA'
-
 subgroups_list <- c("All","MALE","FEMALE","AM7","AS7","BL7","HI7","MU7","PI7","WH7","SPED","LEP","Economy")
-
-
-
 
 lea_subgroups_df <- data.frame()
 for(g in c("Four Year ACGR","Five Year ACGR")){

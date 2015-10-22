@@ -6,10 +6,6 @@ source("./imports/subproc.R")
 
 grads <- sqlQuery(dbrepcard, "SELECT * FROM dbo.graduation where cohort_status=1")
 
-grads$lea_code[which(grads$school_code=='0480' & grads$cohort_year==2010)] <- '4001'
-grads$lea_name[which(grads$school_code=='0480' & grads$cohort_year==2010)] <- 'State-Level Reporting LEA'
-##7000 lea_code and lea_name "State Level Reporting LEA" for records with school_code == 480 (Incarcerated Youth Program, Correctional for cohort_year==2010)
-
 grads <- subset(grads,lea_code %notin% c('4002','NULL'))
 
 grads$lea_code[which(grads$lea_code!='001')] <- 0

@@ -1,55 +1,33 @@
 setwd("U:/LearnDC ETL V2/Graduation Exhibit/Aggregators")
-
 source("U:/R/tomkit.R")
-
 source("./imports/subproc.R")
-
+library(dplyr)
+subgroups_list <- c("All","MALE","FEMALE","AM7","AS7","BL7","HI7","MU7","PI7","WH7","SPED","LEP","Economy")
+##APPEND/UNION NEW 4-YEAR GRADUATION FILE AND UPDATE 5-YEAR GRADUATION FILE FROM PREVIOUS YEAR'S DATA WHEN AVAILABLE
 grads <- sqlQuery(dbrepcard, "SELECT * FROM dbo.graduation where cohort_status=1")
-##7000 lea_code and lea_name "State Level Reporting LEA" for records with school_code == 480 (Incarcerated Youth Program, Correctional for cohort_year==2010)
-
-grads$lea_code[which(grads$school_code=='0480' & grads$cohort_year==2010)] <- '4001'
-grads$lea_name[which(grads$school_code=='0480' & grads$cohort_year==2010)] <- 'State-Level Reporting LEA'
-
-dir <- sqlQuery(dbrepcard, "SELECT * FROM [dbo].[school_mapping_sy1314]")
-dir$school_code <- sapply(dir$school_code, leadgr, 4)
-
-grads$grade <- "9"
-grads$year <- grads$cohort_year + 4
+grads$grade <- "09"
+grads$grad_year <- grads$cohort_year + 4
 grads$school_code <- sapply(grads$school_code, leadgr, 4)
 
-grads <- merge(grads, dir, by.x = c("year","grade","school_code"), by.y= c("ea_year","grade","school_code"), all.x=TRUE)
+dir <- sqlQuery(dbrepcard, "SELECT * FROM [dbo].[school_mapping_sy1415]") %>% mutate(school_code=sapply(school_code,leadgr,4),grade=sapply(grade,leadgr,2),grad_year=ea_year+1) %>% arrange(ea_year,school_code) %>% filter(grade=="09") %>% select(-ea_year)
 
-
-
-# grads$sy1314_school_code[which(grads$school_name == "CAPITAL CITY UPPER SCHOOL")] <- "1207"
-# grads$sy1314_school_name[which(grads$school_name == "CAPITAL CITY UPPER SCHOOL")] <- "CAPITAL CITY HIGH SCHOOL PCS"
-
-# grads$sy1314_school_code[which(grads$school_name == "Cesar Chavez Parkside HS")] <- "109"
-# grads$sy1314_school_name[which(grads$school_name == "Cesar Chavez Parkside HS")] <- "Cesar Chavez PCS for Public Policy-Parkside HS"
-# grads$sy1314_school_code[which(grads$school_name == "BALLOU STAY")] <- "462"
-# grads$sy1314_school_name[which(grads$school_name == "BALLOU STAY")] <- "BALLOU STAY"
-
-
-grads <- subset(grads, sy1314_school_name != "NULL")
-
-
-
-subgroups_list <- c("All","MALE","FEMALE","AM7","AS7","BL7","HI7","MU7","PI7","WH7","SPED","LEP","Economy")
-
-
+grads <- merge(grads,dir,by=c("grad_year","grade","school_code"),all.x=TRUE)
+# grads[which(is.na(grads$sy1415_school_code) & grads$grad_year=='2015'),]$sy1415_school_code <- grads[which(is.na(grads$sy1415_school_code)),]$school_code
+# grads[which(is.na(grads$sy1415_school_name) & grads$grad_year=='2015'),]$sy1415_school_name <- grads[which(is.na(grads$sy1415_school_name)),]$school_name
+grads <- subset(grads, sy1415_school_name != "NULL")
 grads_lim <- subset(grads, cohort_status == 1)
 
 school_subgroups_df <- data.frame()
 for(g in c("Four Year ACGR","Five Year ACGR")){
 	.type <- g
 
-	for(h in unique(grads_lim$sy1314_school_code)){
-		.school_grads <- subset(grads_lim, sy1314_school_code == h)
+	for(h in unique(grads_lim$sy1415_school_code)){
+		.school_grads <- subset(grads_lim, sy1415_school_code == h)
 
 		.lea_code <- .school_grads$lea_code[1]
 		.lea_name <- .school_grads$lea_name[1]
 		.school_code <- h
-		.school_name <- .school_grads$sy1314_school_name[1]
+		.school_name <- .school_grads$sy1415_school_name[1]
 
 		for(i in unique(.school_grads$cohort_year)){
 			.grads_year <- subset(.school_grads, cohort_year == i)
@@ -85,6 +63,12 @@ for(g in c("Four Year ACGR","Five Year ACGR")){
 	}
 }
 colnames(school_subgroups_df) <- c("lea_code","lea_name","school_code","school_name","subgroup","year","type","graduates","cohort_size")
+school_subgroups_df <- subset(school_subgroups_df,!is.na(graduates))
+school_subgroups_df <- subset(school_subgroups_df,year==max(year,na.rm=TRUE))
 
-
-sqlSave(dbrepcard_prod, school_subgroups_df, tablename = "graduation_school_exhibit_w2014", append = FALSE, rownames=FALSE)
+##DROPS AND REWRITES WHOLE TABLE
+# sqlDrop(dbrepcard_prod,"graduation_school_exhibit_w2014")
+# sqlSave(dbrepcard_prod, school_subgroups_df, tablename = "graduation_school_exhibit_w2014", append = FALSE, rownames=FALSE)
+##APPENDS RESULTS
+sqlQuery(dbrepcard_prod,sprintf("delete from dbo.graduation_school_exhibit WHERE year = '%s'",max(school_subgroups_df$year,na.rm=TRUE)))
+sqlSave(dbrepcard_prod,school_subgroups_df,tablename="graduation_school_exhibit",append=TRUE,rownames=FALSE)
