@@ -1,5 +1,5 @@
 {
-"timestamp": "Mon Oct 19 10:57:06 2015",
+"timestamp": "Wed Oct 21 15:54:48 2015",
 "org_type": "school",
 "org_name": "",
 "org_code": "1047",
@@ -32,7 +32,7 @@
             "net_cumulative": -0.012,
             "state_entry": 0.095,
             "state_withdrawal": 0.287,
-            "state_net_cumulative": -0.192
+            "state_net_cumulative": -0.191
         }
     },
     {
@@ -45,7 +45,7 @@
             "withdrawal": 0.036,
             "net_cumulative": -0.012,
             "state_entry": 0.106,
-            "state_withdrawal": 0.325,
+            "state_withdrawal": 0.324,
             "state_net_cumulative": -0.218
         }
     },
@@ -75,6 +75,20 @@
             "state_entry": 0.113,
             "state_withdrawal": 0.385,
             "state_net_cumulative": -0.272
+        }
+    },
+    {
+        "key": {
+            "year": 2015,
+            "month": 10
+        },
+        "val": {
+            "entry": 0,
+            "withdrawal": 0,
+            "net_cumulative": 0,
+            "state_entry": 0.028,
+            "state_withdrawal": 0.072,
+            "state_net_cumulative": -0.044
         }
     },
     {

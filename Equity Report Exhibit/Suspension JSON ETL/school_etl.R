@@ -15,10 +15,10 @@ suspw$suspended_11_n <- NULL
 suspw$suspended_1_n <- NULL
 suspw$incidents_n <- NULL
 suspw$state_incidents <- NULL
-suspw$suspended_1 <- round(suspw$suspended_1/100,3)
-suspw$suspended_11 <- round(suspw$suspended_11/100,4)
-suspw$state_suspended_1 <- round(suspw$state_suspended_1/100,3)
-suspw$state_suspended_11 <- round(suspw$state_suspended_11/100,4)
+suspw$suspended_1 <- round(suspw$suspended_1,3)
+suspw$suspended_11 <- round(suspw$suspended_11,4)
+suspw$state_suspended_1 <- round(suspw$state_suspended_1,3)
+suspw$state_suspended_11 <- round(suspw$state_suspended_11,4)
 suspend <- select(suspw,school_code,year,subgroup,suspended_1,suspended_11,state_suspended_1,state_suspended_11,incidents)
 
 strtable(suspend)

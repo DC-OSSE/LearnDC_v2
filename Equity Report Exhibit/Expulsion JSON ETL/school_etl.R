@@ -15,7 +15,7 @@ colnames(exp_wide) <- c("year","school_code","subgroup","state_expulsion_rate","
 exp_wide$explusion_rate_n <- NULL
 exp_wide$expulsions_n <- NULL
 exp_wide$expulsion_rate <- round(exp_wide$expulsion_rate, 4)
-exp_wide$state_expulsion_rate <- round(exp_wide$state_expulsion_rate/100,4)
+exp_wide$state_expulsion_rate <- round(exp_wide$state_expulsion_rate,4)
 
 exp <- select(exp_wide,school_code,year,subgroup,expulsions,expulsion_rate,state_expulsions,state_expulsion_rate)
 
