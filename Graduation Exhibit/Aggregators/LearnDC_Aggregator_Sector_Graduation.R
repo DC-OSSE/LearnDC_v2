@@ -6,10 +6,10 @@ source("./imports/subproc.R")
 
 grads <- sqlQuery(dbrepcard, "SELECT * FROM dbo.graduation where cohort_status=1")
 
-grads <- subset(grads,lea_code %notin% c('4002','NULL'))
+grads <- subset(grads,lea_code %notin% c('4002','NULL','6000','9000'))
 
-grads$lea_code[which(grads$lea_code!='001')] <- 0
-grads$lea_name[which(grads$lea_code!='001')] <- 'Charter Sector LEA'
+grads$lea_code[which(grads$lea_code!='001')] <- "000"
+grads$lea_name[which(grads$lea_code!='001')] <- 'PUBLIC CHARTER SCHOOLS'
 grads$lea_name <- toupper(grads$lea_name)
 
 subgroups_list <- c("All","MALE","FEMALE","AM7","AS7","BL7","HI7","MU7","PI7","WH7","SPED","LEP","Economy")
