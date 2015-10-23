@@ -12,11 +12,7 @@ grads$lea_code[which(grads$lea_code!='001')] <- 0
 grads$lea_name[which(grads$lea_code!='001')] <- 'Charter Sector LEA'
 grads$lea_name <- toupper(grads$lea_name)
 
-
 subgroups_list <- c("All","MALE","FEMALE","AM7","AS7","BL7","HI7","MU7","PI7","WH7","SPED","LEP","Economy")
-
-
-
 
 charter_subgroups_df <- data.frame()
 for(g in c("Four Year ACGR","Five Year ACGR")){
@@ -61,6 +57,8 @@ for(g in c("Four Year ACGR","Five Year ACGR")){
 }
 
 colnames(charter_subgroups_df) <- c("lea_code","lea_name","subgroup","year","type","graduates","cohort_size")
+charter_subgroups_df <- subset(charter_subgroups_df,!is.na(graduates))
+charter_subgroups_df <- subset(charter_subgroups_df,year==max(year,na.rm=TRUE))
 
-
-sqlSave(dbrepcard_prod, charter_subgroups_df, tablename = "graduation_sector_exhibit_w2014", append = FALSE, rownames=FALSE)
+sqlQuery(dbrepcard_prod,sprintf("delete from dbo.graduation_sector_exhibit WHERE year = '%s'",max(charter_subgroups_df$year,na.rm=TRUE)))
+sqlSave(dbrepcard_prod,charter_subgroups_df,tablename="graduation_sector_exhibit",append=TRUE,rownames=FALSE)

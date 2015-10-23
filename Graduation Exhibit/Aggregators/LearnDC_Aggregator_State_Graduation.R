@@ -49,6 +49,8 @@ for(h in c("Four Year ACGR","Five Year ACGR")){
 
 
 colnames(state_subgroups_df) <- c("subgroup","year","type","graduates","cohort_size")
+state_subgroups_df <- subset(state_subgroups_df,!is.na(graduates))
+state_subgroups_df <- subset(state_subgroups_df,year==max(year,na.rm=TRUE))
 
-
-sqlSave(dbrepcard_prod, state_subgroups_df, tablename = "graduation_state_exhibit_w2014", append = FALSE, rownames=FALSE)
+sqlQuery(dbrepcard_prod,sprintf("delete from dbo.graduation_state_exhibit WHERE year = '%s'",max(state_subgroups_df$year,na.rm=TRUE)))
+sqlSave(dbrepcard_prod,state_subgroups_df,tablename="graduation_state_exhibit",append=TRUE,rownames=FALSE)

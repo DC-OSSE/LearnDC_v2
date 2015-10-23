@@ -51,6 +51,10 @@ for(g in c("Four Year ACGR","Five Year ACGR")){
 }
 
 colnames(lea_subgroups_df) <- c("lea_code","lea_name","subgroup","year","type","graduates","cohort_size")
+lea_subgroups_df <- subset(lea_subgroups_df,!is.na(graduates))
+lea_subgroups_df <- subset(lea_subgroups_df,year==max(year,na.rm=TRUE))
 
-
-sqlSave(dbrepcard_prod, lea_subgroups_df, tablename = "graduation_lea_exhibit_w2014", append = FALSE, rownames=FALSE)
+# sqlSave(dbrepcard_prod, lea_subgroups_df, tablename = "graduation_lea_exhibit_w2014", append = FALSE, rownames=FALSE)
+##APPENDS RESULTS
+sqlQuery(dbrepcard_prod,sprintf("delete from dbo.graduation_lea_exhibit WHERE year = '%s'",max(lea_subgroups_df$year,na.rm=TRUE)))
+sqlSave(dbrepcard_prod,lea_subgroups_df,tablename="graduation_lea_exhibit",append=TRUE,rownames=FALSE)
