@@ -1,5 +1,5 @@
 {
-"timestamp": "Fri Mar 20 12:11:20 2015",
+"timestamp": "Mon Oct 26 12:57:29 2015",
 "org_type": "school",
 "org_name": "SCHOOL FOR EDUCATIONAL EVOLUTION AND DEVELOPMENT (SEED) PCS",
 "org_code": "0174",
@@ -269,6 +269,50 @@
         "val": {
             "graduates": 30,
             "cohort_size": 30
+        }
+    },
+    {
+        "key": {
+            "subgroup": "Economy",
+            "year": 2015,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "graduates": 10,
+            "cohort_size": 18
+        }
+    },
+    {
+        "key": {
+            "subgroup": "All",
+            "year": 2015,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "graduates": 11,
+            "cohort_size": 21
+        }
+    },
+    {
+        "key": {
+            "subgroup": "FEMALE",
+            "year": 2015,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "graduates": 9,
+            "cohort_size": 12
+        }
+    },
+    {
+        "key": {
+            "subgroup": "BL7",
+            "year": 2015,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "graduates": 11,
+            "cohort_size": 20
         }
     }
 ]

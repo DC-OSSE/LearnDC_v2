@@ -1,5 +1,5 @@
 {
-"timestamp": "Fri Mar 20 12:11:18 2015",
+"timestamp": "Mon Oct 26 12:57:27 2015",
 "org_type": "school",
 "org_name": "CESAR CHAVEZ PCS PARKSIDE UPPER",
 "org_code": "0109",
@@ -291,6 +291,61 @@
         "val": {
             "graduates": 52,
             "cohort_size": 70
+        }
+    },
+    {
+        "key": {
+            "subgroup": "BL7",
+            "year": 2015,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "graduates": 48,
+            "cohort_size": 61
+        }
+    },
+    {
+        "key": {
+            "subgroup": "Economy",
+            "year": 2015,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "graduates": 50,
+            "cohort_size": 63
+        }
+    },
+    {
+        "key": {
+            "subgroup": "All",
+            "year": 2015,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "graduates": 50,
+            "cohort_size": 63
+        }
+    },
+    {
+        "key": {
+            "subgroup": "MALE",
+            "year": 2015,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "graduates": 23,
+            "cohort_size": 29
+        }
+    },
+    {
+        "key": {
+            "subgroup": "FEMALE",
+            "year": 2015,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "graduates": 27,
+            "cohort_size": 34
         }
     }
 ]

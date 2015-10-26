@@ -1,5 +1,5 @@
 {
-"timestamp": "Fri Mar 20 12:11:30 2015",
+"timestamp": "Mon Oct 26 12:57:35 2015",
 "org_type": "school",
 "org_name": "CAPITAL CITY HIGH SCHOOL PCS",
 "org_code": "1207",
@@ -82,6 +82,94 @@
         "val": {
             "graduates": 49,
             "cohort_size": 65
+        }
+    },
+    {
+        "key": {
+            "subgroup": "LEP",
+            "year": 2015,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "graduates": 14,
+            "cohort_size": 23
+        }
+    },
+    {
+        "key": {
+            "subgroup": "Economy",
+            "year": 2015,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "graduates": 53,
+            "cohort_size": 70
+        }
+    },
+    {
+        "key": {
+            "subgroup": "All",
+            "year": 2015,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "graduates": 60,
+            "cohort_size": 77
+        }
+    },
+    {
+        "key": {
+            "subgroup": "MALE",
+            "year": 2015,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "graduates": 21,
+            "cohort_size": 29
+        }
+    },
+    {
+        "key": {
+            "subgroup": "FEMALE",
+            "year": 2015,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "graduates": 39,
+            "cohort_size": 48
+        }
+    },
+    {
+        "key": {
+            "subgroup": "BL7",
+            "year": 2015,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "graduates": 21,
+            "cohort_size": 21
+        }
+    },
+    {
+        "key": {
+            "subgroup": "HI7",
+            "year": 2015,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "graduates": 36,
+            "cohort_size": 52
+        }
+    },
+    {
+        "key": {
+            "subgroup": "SPED",
+            "year": 2015,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "graduates": 9,
+            "cohort_size": 15
         }
     }
 ]

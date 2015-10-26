@@ -1,5 +1,5 @@
 {
-"timestamp": "Fri Mar 20 12:11:50 2015",
+"timestamp": "Mon Oct 26 12:57:08 2015",
 "org_type": "lea",
 "org_name": "BOOKER T. WASHINGTON PCS",
 "org_code": "0106",
@@ -274,6 +274,39 @@
     {
         "key": {
             "subgroup": "All",
+            "year": 2015,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "graduates": 2,
+            "cohort_size": 19
+        }
+    },
+    {
+        "key": {
+            "subgroup": "MALE",
+            "year": 2015,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "graduates": 0,
+            "cohort_size": 11
+        }
+    },
+    {
+        "key": {
+            "subgroup": "BL7",
+            "year": 2015,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "graduates": 2,
+            "cohort_size": 18
+        }
+    },
+    {
+        "key": {
+            "subgroup": "All",
             "year": 2014,
             "type": "Five Year ACGR"
         },
@@ -335,6 +368,17 @@
         "val": {
             "graduates": 41,
             "cohort_size": 59
+        }
+    },
+    {
+        "key": {
+            "subgroup": "Economy",
+            "year": 2015,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "graduates": 2,
+            "cohort_size": 18
         }
     }
 ]

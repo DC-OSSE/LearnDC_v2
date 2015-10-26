@@ -1,5 +1,5 @@
 {
-"timestamp": "Fri Mar 20 12:11:24 2015",
+"timestamp": "Mon Oct 26 12:57:32 2015",
 "org_type": "school",
 "org_name": "ROOSEVELT HS AT MACFARLAND",
 "org_code": "0459",
@@ -361,6 +361,83 @@
     },
     {
         "key": {
+            "subgroup": "Economy",
+            "year": 2015,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "graduates": 105,
+            "cohort_size": 151
+        }
+    },
+    {
+        "key": {
+            "subgroup": "All",
+            "year": 2015,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "graduates": 105,
+            "cohort_size": 169
+        }
+    },
+    {
+        "key": {
+            "subgroup": "MALE",
+            "year": 2015,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "graduates": 63,
+            "cohort_size": 105
+        }
+    },
+    {
+        "key": {
+            "subgroup": "FEMALE",
+            "year": 2015,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "graduates": 42,
+            "cohort_size": 64
+        }
+    },
+    {
+        "key": {
+            "subgroup": "BL7",
+            "year": 2015,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "graduates": 81,
+            "cohort_size": 117
+        }
+    },
+    {
+        "key": {
+            "subgroup": "HI7",
+            "year": 2015,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "graduates": 22,
+            "cohort_size": 50
+        }
+    },
+    {
+        "key": {
+            "subgroup": "SPED",
+            "year": 2015,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "graduates": 29,
+            "cohort_size": 47
+        }
+    },
+    {
+        "key": {
             "subgroup": "All",
             "year": 2014,
             "type": "Five Year ACGR"
@@ -445,6 +522,17 @@
         "val": {
             "graduates": 103,
             "cohort_size": 181
+        }
+    },
+    {
+        "key": {
+            "subgroup": "LEP",
+            "year": 2015,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "graduates": 22,
+            "cohort_size": 47
         }
     }
 ]

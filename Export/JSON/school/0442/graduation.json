@@ -1,5 +1,5 @@
 {
-"timestamp": "Fri Mar 20 12:11:22 2015",
+"timestamp": "Mon Oct 26 12:57:30 2015",
 "org_type": "school",
 "org_name": "COLUMBIA HEIGHTS EC (CHEC)",
 "org_code": "0442",
@@ -361,6 +361,17 @@
     },
     {
         "key": {
+            "subgroup": "Economy",
+            "year": 2015,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "graduates": 194,
+            "cohort_size": 220
+        }
+    },
+    {
+        "key": {
             "subgroup": "All",
             "year": 2014,
             "type": "Five Year ACGR"
@@ -445,6 +456,83 @@
         "val": {
             "graduates": 183,
             "cohort_size": 233
+        }
+    },
+    {
+        "key": {
+            "subgroup": "All",
+            "year": 2015,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "graduates": 194,
+            "cohort_size": 230
+        }
+    },
+    {
+        "key": {
+            "subgroup": "MALE",
+            "year": 2015,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "graduates": 85,
+            "cohort_size": 103
+        }
+    },
+    {
+        "key": {
+            "subgroup": "FEMALE",
+            "year": 2015,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "graduates": 109,
+            "cohort_size": 127
+        }
+    },
+    {
+        "key": {
+            "subgroup": "BL7",
+            "year": 2015,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "graduates": 58,
+            "cohort_size": 67
+        }
+    },
+    {
+        "key": {
+            "subgroup": "HI7",
+            "year": 2015,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "graduates": 128,
+            "cohort_size": 154
+        }
+    },
+    {
+        "key": {
+            "subgroup": "SPED",
+            "year": 2015,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "graduates": 17,
+            "cohort_size": 20
+        }
+    },
+    {
+        "key": {
+            "subgroup": "LEP",
+            "year": 2015,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "graduates": 85,
+            "cohort_size": 110
         }
     }
 ]

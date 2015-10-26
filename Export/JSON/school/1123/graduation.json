@@ -1,5 +1,5 @@
 {
-"timestamp": "Fri Mar 20 12:11:30 2015",
+"timestamp": "Mon Oct 26 12:57:35 2015",
 "org_type": "school",
 "org_name": "KIPP DC COLLEGE PREP PCS",
 "org_code": "1123",
@@ -181,6 +181,72 @@
         "val": {
             "graduates": 61,
             "cohort_size": 63
+        }
+    },
+    {
+        "key": {
+            "subgroup": "All",
+            "year": 2015,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "graduates": 68,
+            "cohort_size": 84
+        }
+    },
+    {
+        "key": {
+            "subgroup": "MALE",
+            "year": 2015,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "graduates": 23,
+            "cohort_size": 31
+        }
+    },
+    {
+        "key": {
+            "subgroup": "FEMALE",
+            "year": 2015,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "graduates": 45,
+            "cohort_size": 53
+        }
+    },
+    {
+        "key": {
+            "subgroup": "BL7",
+            "year": 2015,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "graduates": 68,
+            "cohort_size": 83
+        }
+    },
+    {
+        "key": {
+            "subgroup": "SPED",
+            "year": 2015,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "graduates": 13,
+            "cohort_size": 15
+        }
+    },
+    {
+        "key": {
+            "subgroup": "Economy",
+            "year": 2015,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "graduates": 61,
+            "cohort_size": 75
         }
     }
 ]

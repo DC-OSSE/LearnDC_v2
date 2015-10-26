@@ -1,7 +1,7 @@
 {
-"timestamp": "Fri Mar 20 12:13:11 2015",
+"timestamp": "Mon Oct 26 12:56:51 2015",
 "org_type": "lea",
-"org_name": "CHARTER SECTOR LEA",
+"org_name": "PUBLIC CHARTER SCHOOLS",
 "org_code": "0000",
 "exhibit": {
 	"id": "graduation",
@@ -478,6 +478,105 @@
         "val": {
             "graduates": 799,
             "cohort_size": 991
+        }
+    },
+    {
+        "key": {
+            "subgroup": "All",
+            "year": 2015,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "graduates": 961,
+            "cohort_size": 1340
+        }
+    },
+    {
+        "key": {
+            "subgroup": "MALE",
+            "year": 2015,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "graduates": 391,
+            "cohort_size": 623
+        }
+    },
+    {
+        "key": {
+            "subgroup": "FEMALE",
+            "year": 2015,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "graduates": 570,
+            "cohort_size": 717
+        }
+    },
+    {
+        "key": {
+            "subgroup": "BL7",
+            "year": 2015,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "graduates": 867,
+            "cohort_size": 1197
+        }
+    },
+    {
+        "key": {
+            "subgroup": "HI7",
+            "year": 2015,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "graduates": 79,
+            "cohort_size": 118
+        }
+    },
+    {
+        "key": {
+            "subgroup": "WH7",
+            "year": 2015,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "graduates": 7,
+            "cohort_size": 10
+        }
+    },
+    {
+        "key": {
+            "subgroup": "SPED",
+            "year": 2015,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "graduates": 153,
+            "cohort_size": 283
+        }
+    },
+    {
+        "key": {
+            "subgroup": "LEP",
+            "year": 2015,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "graduates": 40,
+            "cohort_size": 67
+        }
+    },
+    {
+        "key": {
+            "subgroup": "Economy",
+            "year": 2015,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "graduates": 900,
+            "cohort_size": 1239
         }
     }
 ]
