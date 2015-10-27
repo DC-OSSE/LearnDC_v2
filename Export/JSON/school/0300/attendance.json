@@ -1,5 +1,5 @@
 {
-"timestamp": "Wed Oct 21 15:47:22 2015",
+"timestamp": "Tue Oct 27 10:42:53 2015",
 "org_type": "school",
 "org_name": "",
 "org_code": "0300",
@@ -46,18 +46,6 @@
     {
         "key": {
             "year": 2015,
-            "subgroup": "ELL"
-        },
-        "val": {
-            "in_seat_attendance": 0.959,
-            "state_in_seat_attendance": 0.946,
-            "average_daily_attendance": null,
-            "state_average_daily_attendance": null
-        }
-    },
-    {
-        "key": {
-            "year": 2015,
             "subgroup": "FEMALE"
         },
         "val": {
@@ -75,6 +63,18 @@
         "val": {
             "in_seat_attendance": 0.956,
             "state_in_seat_attendance": 0.947,
+            "average_daily_attendance": null,
+            "state_average_daily_attendance": null
+        }
+    },
+    {
+        "key": {
+            "year": 2015,
+            "subgroup": "LEP"
+        },
+        "val": {
+            "in_seat_attendance": 0.959,
+            "state_in_seat_attendance": 0.946,
             "average_daily_attendance": null,
             "state_average_daily_attendance": null
         }
