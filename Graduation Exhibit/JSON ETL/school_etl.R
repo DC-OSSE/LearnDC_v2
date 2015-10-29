@@ -3,7 +3,7 @@ source("U:/R/tomkit.R")
 library(jsonlite)
 
 school_grad <- sqlQuery(dbrepcard_prod, "SELECT * FROM [dbo].[graduation_school_exhibit]")
-school_grad <- subset(school_grad, cohort_size >= 10 & !is.na(graduates))
+school_grad <- subset(school_grad, cohort_size >= 25 & !is.na(graduates))
 school_grad$school_code <- sapply(school_grad$school_code, leadgr, 4)
 
 # setwd('U:/LearnDC ETL V2/Export/CSV/school')

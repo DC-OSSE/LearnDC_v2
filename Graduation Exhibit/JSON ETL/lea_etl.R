@@ -4,7 +4,7 @@ library(jsonlite)
 
 
 lea_grad <- sqlQuery(dbrepcard_prod, "SELECT * FROM [dbo].[graduation_lea_exhibit]")
-lea_grad <- subset(lea_grad, cohort_size >= 10 & !is.na(graduates))
+lea_grad <- subset(lea_grad, cohort_size >= 25 & !is.na(graduates))
 
 
 # setwd('U:/LearnDC ETL V2/Export/CSV/lea')
