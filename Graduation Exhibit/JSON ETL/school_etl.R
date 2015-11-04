@@ -26,6 +26,12 @@ for(i in unique(school_grad$school_code)){
 
 	.tmp <- subset(school_grad, school_code == i)
 
+	## Temporarily removing 2015 ACGR data for Perry Street Prep as HS closed until
+	## a better reported flag method is implemented.
+	if(i == '0161'){
+		.tmp <- subset(.tmp, year != '2015')
+	}
+
 	.nested_list <- lapply(1:nrow(.tmp), FUN = function(i){ 
                              list(key = list(.tmp[i,key_index]), 
                              	val = list(.tmp[i,value_index]))
