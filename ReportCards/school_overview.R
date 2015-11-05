@@ -62,12 +62,6 @@ GetGrades <- function(org_code){
 	.sgrades_df <- as.data.frame(apply(.sgrades, 1, leadgr, 2))
 	colnames(.sgrades_df) <- "grade"
 
-    ## Temporarily removing 9 - 12 for Perry Street Prep (0161) for SY1415 Equity Reports
-	if(org_code == '0161'){
-		.sgrades_df <- subset(.sgrades_df, !(grade %in% c('9', '10', '11', '12')))
-	}
-
-
 	.ret <- c()
 	if(nrow(.sgrades_df)>0){
 		for(i in 1:nrow(.sgrades_df)){
