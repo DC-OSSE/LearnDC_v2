@@ -7,7 +7,7 @@ library(jsonlite)
 lea_enr <- sqlQuery(dbrepcard_prod, "SELECT * FROM [dbo].[enrollment_lea_exhibit_w2015]")
 
 lea_enr <- subset(lea_enr, enrollment >= 10)
-lea_enr <- subset(lea_enr, lea_code %notin% c(4001))
+lea_enr <- subset(lea_enr, lea_code %notin% c(4001,6000))
 
 # setwd('U:/LearnDC ETL V2/Export/CSV/lea')
 # write.csv(lea_enr, "Enrollment_LEA.csv", row.names=FALSE)

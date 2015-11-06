@@ -12,6 +12,7 @@ school_dir$external <- NA ## Placeholder
 school_dir$school_code <- sapply(school_dir$school_code, leadgr, 4)
 school_dir$lea_code <- sapply(school_dir$lea_code, leadgr, 4)
 school_dir <- subset(school_dir, school_code %notin% c("7000", "0948", "0958", "0480", "0472", "0465"))
+school_dir <- subset(school_dir, lea_code != 6000)
 
 ## Unreadable Special Characters and Paragraph Spacings
 school_dir$description <- gsub('"', "'", school_dir$description)

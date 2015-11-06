@@ -3,8 +3,7 @@ source("U:R/tomkit.R")
 lea_dir <- sqlQuery(dbrepcard,'select distinct lea_code,lea_name from dbo.schooldir_sy1415_draft')
 lea_dir$lea_code <- sapply(lea_dir$lea_code, leadgr, 4)
 charters <- c('0000','Public Charter Schools')
-prek_cbos <- c('6000','Pre-K CBOs')
-lea_dir <- rbind(lea_dir,charters,prek_cbos)
+lea_dir <- rbind(lea_dir,charters)
 
 num_orphans <- 0
 
