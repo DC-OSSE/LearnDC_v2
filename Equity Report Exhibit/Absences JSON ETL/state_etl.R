@@ -1,5 +1,5 @@
 ##THIS EXHIBIT IS NOT SHOWING ON LEARNDC.ORG AND THE UNEXCUSED ABSENCES EXHIBIT HAS NOT BEEN UPDATED FOR THE SY1415 EQUITY REPORTS!!!
-setwd("X:/Learn DC/State Equity Report Development")
+setwd("U:/LearnDC ETL V2/Equity Report Exhibit/Absences JSON ETL")
 source("U:/R/tomkit.R")
 library(jsonlite)
 library(reshape2)
@@ -33,29 +33,14 @@ state_abs_all <- state_vals %>%
     mutate(population='All',state_1_5_days=NA,state_6_10_days=NA,state_11_15_days=NA,
          state_16_25_days=NA,state_more_than_25_days=NA)
 
-state_abs_gen <- as.data.frame(c(state_abs_all[,c(1,2,8)],round(state_abs_all[,c(-1,-2,-8)]/1.25,0))) %>%
-mutate(population='Gen')
-names(state_abs_gen) <- gsub("X","",names(state_abs_gen))
-names(state_abs_gen) <- gsub("[.]","-",names(state_abs_gen))
-
-
-state_abs_alt <- as.data.frame(c(state_abs_all[,c(1,2,8)],round(state_abs_all[,c(-1,-2,-8)]/1.75,0))) %>%
-mutate(population='Alt')
-names(state_abs_alt) <- gsub("X","",names(state_abs_alt))
-names(state_abs_alt) <- gsub("[.]","-",names(state_abs_alt))
-
-state_abs <- rbind.data.frame(state_abs_all,state_abs_gen,state_abs_alt)
-
-strtable(state_abs)
-
 key_index <- c(1:2,8)
 value_index <- c(3:7,9:13)
 
 setwd("U:/LearnDC ETL V2/Export/JSON/state/DC")
 
-nested_list <- lapply(1:nrow(state_abs), FUN = function(i){ 
-  list(key = list(state_abs[i,key_index]), 
-       val = list(state_abs[i,value_index]))
+nested_list <- lapply(1:nrow(state_abs_all), FUN = function(i){ 
+  list(key = list(state_abs_all[i,key_index]), 
+       val = list(state_abs_all[i,value_index]))
 })
 
 json <- toJSON(nested_list, na="null")
