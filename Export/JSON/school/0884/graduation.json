@@ -1,5 +1,5 @@
 {
-"timestamp": "Thu Oct 29 14:58:21 2015",
+"timestamp": "Wed Nov 18 11:39:37 2015",
 "org_type": "school",
 "org_name": "LUKE MOORE ALTERNATIVE HS",
 "org_code": "0884",
@@ -7,6 +7,28 @@
 	"id": "graduation",
 	"data":  
 [
+    {
+        "key": {
+            "subgroup": "BL7",
+            "year": 2015,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "graduates": 49,
+            "cohort_size": 129
+        }
+    },
+    {
+        "key": {
+            "subgroup": "Economy",
+            "year": 2015,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "graduates": 55,
+            "cohort_size": 136
+        }
+    },
     {
         "key": {
             "subgroup": "All",
@@ -175,111 +197,34 @@
     {
         "key": {
             "subgroup": "All",
-            "year": 2014,
+            "year": 2015,
             "type": "Four Year ACGR"
         },
         "val": {
-            "graduates": 47,
-            "cohort_size": 127
+            "graduates": 55,
+            "cohort_size": 138
         }
     },
     {
         "key": {
             "subgroup": "MALE",
-            "year": 2014,
+            "year": 2015,
             "type": "Four Year ACGR"
         },
         "val": {
-            "graduates": 16,
-            "cohort_size": 46
+            "graduates": 24,
+            "cohort_size": 77
         }
     },
     {
         "key": {
             "subgroup": "FEMALE",
-            "year": 2014,
+            "year": 2015,
             "type": "Four Year ACGR"
         },
         "val": {
             "graduates": 31,
-            "cohort_size": 81
-        }
-    },
-    {
-        "key": {
-            "subgroup": "BL7",
-            "year": 2014,
-            "type": "Four Year ACGR"
-        },
-        "val": {
-            "graduates": 45,
-            "cohort_size": 122
-        }
-    },
-    {
-        "key": {
-            "subgroup": "Economy",
-            "year": 2014,
-            "type": "Four Year ACGR"
-        },
-        "val": {
-            "graduates": 47,
-            "cohort_size": 126
-        }
-    },
-    {
-        "key": {
-            "subgroup": "All",
-            "year": 2014,
-            "type": "Five Year ACGR"
-        },
-        "val": {
-            "graduates": 83,
-            "cohort_size": 155
-        }
-    },
-    {
-        "key": {
-            "subgroup": "MALE",
-            "year": 2014,
-            "type": "Five Year ACGR"
-        },
-        "val": {
-            "graduates": 34,
-            "cohort_size": 67
-        }
-    },
-    {
-        "key": {
-            "subgroup": "FEMALE",
-            "year": 2014,
-            "type": "Five Year ACGR"
-        },
-        "val": {
-            "graduates": 49,
-            "cohort_size": 88
-        }
-    },
-    {
-        "key": {
-            "subgroup": "BL7",
-            "year": 2014,
-            "type": "Five Year ACGR"
-        },
-        "val": {
-            "graduates": 82,
-            "cohort_size": 153
-        }
-    },
-    {
-        "key": {
-            "subgroup": "Economy",
-            "year": 2014,
-            "type": "Five Year ACGR"
-        },
-        "val": {
-            "graduates": 83,
-            "cohort_size": 155
+            "cohort_size": 61
         }
     }
 ]
