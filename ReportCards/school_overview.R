@@ -124,7 +124,8 @@ GSUrl <- function(org_code){
 
 EquityUrl <- function(org_code){
 	.qry_equity <- "SELECT * FROM [dbo].[equity_report_url_mapping]
-		WHERE [school_code] = '" %+% org_code %+% "' AND [url_check] = 1"
+		WHERE [school_code] = '" %+% org_code %+% "' AND [url_check] = 1 
+		AND school_year = (SELECT MAX(school_year) FROM reportcard_dev.[dbo].[equity_report_url_mapping])"
 	.equity_dat <- sqlQuery(dbrepcard, .qry_equity)
 	if(nrow(.equity_dat )>0){
 		return(trimall(.equity_dat$equity_url[1]))
