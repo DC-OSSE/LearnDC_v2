@@ -70,4 +70,4 @@ lea_subgroups_df$grade[which(lea_subgroups_df$grade == "13")] <- "grade 13"
 lea_subgroups_df$grade[which(lea_subgroups_df$grade == "AO")] <- "grade AO"
 
 
-sqlSave(dbrepcard_prod,lea_subgroups_df,tablename="enrollment_lea_exhibit_w2015",append=FALSE,rownames=FALSE)
+sqlSave(dbrepcard_prod,lea_subgroups_df,tablename="enrollment_lea_exhibit",append=FALSE,rownames=FALSE)

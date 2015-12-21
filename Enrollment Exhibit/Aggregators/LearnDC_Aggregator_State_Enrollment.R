@@ -62,4 +62,4 @@ state_subgroups_df$grade[which(state_subgroups_df$grade == "12")] <- "grade 12"
 state_subgroups_df$grade[which(state_subgroups_df$grade == "AO")] <- "grade AO"
 
 
-sqlSave(dbrepcard_prod,state_subgroups_df,tablename="enrollment_state_exhibit_w2015",append=FALSE,rownames=FALSE)
+sqlSave(dbrepcard_prod,state_subgroups_df,tablename="enrollment_state_exhibit",append=FALSE,rownames=FALSE)

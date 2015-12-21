@@ -15,7 +15,7 @@ pcsb_agg <- pcsb_demo %>%
 
 pcsb_agg$sector <- "PCS"
 
-dcps_enr <- sqlQuery(dbrepcard_prod, "SELECT subgroup, enrollment FROM [dbo].[enrollment_lea_exhibit] WHERE lea_code = 1 and year = '2013' and grade = 'All'")
+dcps_enr <- sqlQuery(dbrepcard_prod, "SELECT subgroup, enrollment FROM [dbo].[enrollment_lea_exhibit_dual_purpose] WHERE lea_code = 1 and year = '2013' and grade = 'All'")
 dcps_enr <- subset(dcps_enr, subgroup %in% pcsb_agg$subgroup)
 
 dcps_enr$sector <- "DCPS"
@@ -37,7 +37,7 @@ state_agg <- subset(state_agg, select=c(year, grade, subgroup, enrollment))
 state_all <- read.csv("1_line.csv")
 state_agg <- rbind(state_agg, state_all)
 
-enr <- sqlQuery(dbrepcard_prod, "SELECT * FROM [dbo].[enrollment_state_exhibit]")
+enr <- sqlQuery(dbrepcard_prod, "SELECT * FROM [dbo].[enrollment_state_exhibit_pcsb_demo_insert]")
 enr <- subset(enr, (year==2013 & subgroup=='All' & grade!='All') | (year==2013 & grade=='All' & subgroup %in% c('SPED Level 1', 'SPED Level 2','SPED Level 3', 'SPED Level 4')))
 enr$enrollment[(enr$subgroup %in% c('SPED Level 1','SPED Level 2','SPED Level 3','SPED Level 4'))] <- (enr$enrollment[(enr$subgroup %in% c('SPED Level 1','SPED Level 2','SPED Level 3','SPED Level 4'))]/11043)
 

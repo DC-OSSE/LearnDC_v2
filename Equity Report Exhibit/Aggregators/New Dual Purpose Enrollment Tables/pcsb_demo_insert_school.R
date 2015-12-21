@@ -1,7 +1,7 @@
 source("U:/R/tomkit.R")
 setwd("U:/LearnDC ETL V2/Equity Report Exhibit/Aggregators/New Dual Purpose Enrollment Tables")
 
-enr <- sqlQuery(dbrepcard_prod, "SELECT * FROM [dbo].[enrollment_school_exhibit]")
+enr <- sqlQuery(dbrepcard_prod, "SELECT * FROM [dbo].[enrollment_school_exhibit_dual_purpose]")
 cachedEnr <- enr
 
 pcsb_demo <- read.csv("pcsb_demo_insert_11-20-2014.csv")
@@ -40,7 +40,7 @@ for(i in unique(pcsb_demo$school_Code)){
 sqlSave(dbrepcard_prod, enr, tablename = "enrollment_school_exhibit_pcsb_alterations", rownames = FALSE)
 
 
-# enr <- sqlQuery(dbrepcard_prod, "SELECT * FROM [dbo].[enrollment_school_exhibit]")
+# enr <- sqlQuery(dbrepcard_prod, "SELECT * FROM [dbo].[enrollment_school_exhibit_dual_purpose]")
 # enr <- subset(enr, year == 2013)
 # enr <- subset(enr, grade == "All")
 # for (i in unique(enr$school_code)) {

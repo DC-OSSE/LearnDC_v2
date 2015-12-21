@@ -4,7 +4,7 @@ source("U:/R/tomkit.R")
 library(jsonlite)
 
 
-school_enr <- sqlQuery(dbrepcard_prod, "SELECT * FROM [dbo].[enrollment_school_exhibit_w2015]")
+school_enr <- sqlQuery(dbrepcard_prod, "SELECT * FROM [dbo].[enrollment_school_exhibit]")
 
 school_enr <- subset(school_enr, enrollment >= 10)
 school_enr <- subset(school_enr, lea_code %notin% c(4001,4002,6000))

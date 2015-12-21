@@ -79,4 +79,4 @@ school_subgroups_df$grade[which(school_subgroups_df$grade == "12")] <- "grade 12
 school_subgroups_df$grade[which(school_subgroups_df$grade == "13")] <- "grade 13"
 school_subgroups_df$grade[which(school_subgroups_df$grade == "AO")] <- "grade AO"
 
-sqlSave(dbrepcard_prod,school_subgroups_df,tablename="enrollment_school_exhibit_w2015",append=FALSE,rownames=FALSE)
+sqlSave(dbrepcard_prod,school_subgroups_df,tablename="enrollment_school_exhibit",append=FALSE,rownames=FALSE)
