@@ -1,6 +1,6 @@
-source("U:R/tomkit.R")
+source(paste(root_dir,'imports/helpers.R',sep=''))
 
-lea_dir <- sqlQuery(dbrepcard,'select distinct lea_code,lea_name from dbo.schooldir_sy1415_draft')
+lea_dir <- sqlQuery(dbrepcard,'select distinct lea_code,lea_name from dbo.schooldir_sy1415')
 lea_dir$lea_code <- sapply(lea_dir$lea_code, leadgr, 4)
 charters <- c('0000','Public Charter Schools')
 lea_dir <- rbind(lea_dir,charters)
@@ -8,7 +8,7 @@ lea_dir <- rbind(lea_dir,charters)
 num_orphans <- 0
 
 for(i in unique(lea_dir$lea_code)){
-	setwd("U:/LearnDC ETL V2/Export/JSON/lea")
+	setwd(paste(root_dir, 'Export/JSON/lea', sep=''))
 
 	if (file.exists(i)){
 	    setwd(file.path(i))

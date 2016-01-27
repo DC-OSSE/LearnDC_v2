@@ -1,8 +1,6 @@
-setwd("U:/LearnDC ETL V2/ReportCards")
-
-source("U:/R/tomkit.R")
-source("./school_functions.R")
-source("./generalized.R")
+source(paste(root_dir,'imports/helpers.R',sep=''))
+source(paste(root_dir,'Overview Exhibit/school_functions.R', sep=''))
+source(paste(root_dir,'Overview Exhibit/generalized.R', sep=''))
 
 school_dir <- sqlFetch(dbrepcard,'schooldir_linked_sy1415')
 
@@ -231,7 +229,7 @@ num_orphans <- 0
 
 for(i in unique(school_dir$school_code)){
 	
-	setwd("U:/LearnDC ETL V2/Export/JSON/school")
+	setwd(paste(root_dir,'Export/JSON/school',sep=''))
 
 	if (file.exists(i)){
 	    setwd(file.path(i))
