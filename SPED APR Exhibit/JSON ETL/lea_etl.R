@@ -1,33 +1,20 @@
-setwd("U:/LearnDC ETL V2/DC CAS Exhibit/JSON ETL")
+source(paste(root_dir,'imports/helpers.R',sep=''))
 
-source("U:/R/tomkit.R")
 library(jsonlite)
 library(plyr)
 
-
-lea_sped <- sqlQuery(dbrepcard_prod, "SELECT * FROM [dbo].[sped_apr_LEA_fy2012]")
-lea_sped <- rename(lea_sped,c('fiscal_year'='year','value'='val'))
-lea_sped$indicator[which(lea_sped$indicator=='3c_elem.math')] <- '3c_elem_math'
-lea_sped$indicator[which(lea_sped$indicator=='3c_elem.reading')] <- '3c_elem_reading'
-lea_sped$indicator[which(lea_sped$indicator=='3c_sec.math')] <- '3c_sec_math'
-lea_sped$indicator[which(lea_sped$indicator=='3c_sec.reading')] <- '3c_sec_reading'
-
-# lea_sped <- subset(lea_sped,!is.na(lea_sped$val))
-
-setwd('U:/LearnDC ETL V2/Export/CSV/lea')
-write.csv(lea_sped, "SPED_APR_LEA.csv", row.names=FALSE)
-
+lea_sped <- sqlQuery(dbrepcard_prod, "SELECT * FROM [dbo].[apr] WHERE lea != 'state'")
 
 lea_sped$lea_code <- sapply(lea_sped$lea_code, leadgr, 4)
+lea_sped$on_target <- ifelse(is.na(lea_sped$val), NA, !lea_sped$on_target %in% c("0", "no"))
 
-
-key_index <- c(1,4)
+key_index <- c(1,2)
 value_index <- 5:9
 num_orphans <- 0
 
 
 for(i in unique(lea_sped$lea_code)){
-	setwd("U:/LearnDC ETL V2/Export/JSON/lea")
+	setwd(paste(root_dir, 'Export/JSON/lea', sep=''))
 
 	if(file.exists(i)){
 	    setwd(file.path(i))
