@@ -1,7 +1,7 @@
 {
-"timestamp": "Fri Feb 13 15:58:32 2015",
+"timestamp": "Fri Feb 05 16:32:45 2016",
 "org_type": "lea",
-"org_name": "Washington Latin PCS",
+"org_name": "",
 "org_code": "0151",
 "exhibit": {
 	"id": "sped_apr",
@@ -9,470 +9,418 @@
 [
     {
         "key": {
-            "year": 2012,
+            "year": 2013,
             "indicator": "1"
         },
         "val": {
             "val": null,
-            "target": 0.85,
-            "weight": 1,
+            "target": 0.44,
+            "weight": null,
             "target_dir": "up",
             "on_target": null
         }
     },
     {
         "key": {
-            "year": 2012,
-            "indicator": "10"
+            "year": 2013,
+            "indicator": "2"
         },
         "val": {
-            "val": 0,
-            "target": 0,
-            "weight": 1,
+            "val": null,
+            "target": 0.058,
+            "weight": null,
             "target_dir": "down",
-            "on_target": true
+            "on_target": null
         }
     },
     {
         "key": {
-            "year": 2012,
-            "indicator": "11"
+            "year": 2013,
+            "indicator": "3a_math"
         },
         "val": {
-            "val": 1,
-            "target": 1,
-            "weight": 1,
+            "val": "no",
+            "target": 0.16,
+            "weight": null,
+            "target_dir": "up",
+            "on_target": false
+        }
+    },
+    {
+        "key": {
+            "year": 2013,
+            "indicator": "3a_reading"
+        },
+        "val": {
+            "val": "no",
+            "target": 0.16,
+            "weight": null,
+            "target_dir": "up",
+            "on_target": false
+        }
+    },
+    {
+        "key": {
+            "year": 2013,
+            "indicator": "3b_math"
+        },
+        "val": {
+            "val": "1",
+            "target": 0.95,
+            "weight": null,
             "target_dir": "up",
             "on_target": true
         }
     },
     {
         "key": {
-            "year": 2012,
+            "year": 2013,
+            "indicator": "3b_reading"
+        },
+        "val": {
+            "val": "1",
+            "target": 0.95,
+            "weight": null,
+            "target_dir": "up",
+            "on_target": true
+        }
+    },
+    {
+        "key": {
+            "year": 2013,
+            "indicator": "3c_elem_math"
+        },
+        "val": {
+            "val": null,
+            "target": 0.3,
+            "weight": null,
+            "target_dir": "up",
+            "on_target": null
+        }
+    },
+    {
+        "key": {
+            "year": 2013,
+            "indicator": "3c_elem_reading"
+        },
+        "val": {
+            "val": null,
+            "target": 0.27,
+            "weight": null,
+            "target_dir": "up",
+            "on_target": null
+        }
+    },
+    {
+        "key": {
+            "year": 2013,
+            "indicator": "3c_sec_math"
+        },
+        "val": {
+            "val": null,
+            "target": 0.3,
+            "weight": null,
+            "target_dir": "up",
+            "on_target": null
+        }
+    },
+    {
+        "key": {
+            "year": 2013,
+            "indicator": "3c_sec_reading"
+        },
+        "val": {
+            "val": null,
+            "target": 0.27,
+            "weight": null,
+            "target_dir": "up",
+            "on_target": null
+        }
+    },
+    {
+        "key": {
+            "year": 2013,
+            "indicator": "4a"
+        },
+        "val": {
+            "val": "yes",
+            "target": 0,
+            "weight": null,
+            "target_dir": "down",
+            "on_target": true
+        }
+    },
+    {
+        "key": {
+            "year": 2013,
+            "indicator": "4b"
+        },
+        "val": {
+            "val": "no",
+            "target": 0,
+            "weight": null,
+            "target_dir": "down",
+            "on_target": false
+        }
+    },
+    {
+        "key": {
+            "year": 2013,
+            "indicator": "5a"
+        },
+        "val": {
+            "val": "0.982142857142857",
+            "target": 0.5,
+            "weight": null,
+            "target_dir": "up",
+            "on_target": true
+        }
+    },
+    {
+        "key": {
+            "year": 2013,
+            "indicator": "5b"
+        },
+        "val": {
+            "val": "0",
+            "target": 0.15,
+            "weight": null,
+            "target_dir": "down",
+            "on_target": true
+        }
+    },
+    {
+        "key": {
+            "year": 2013,
+            "indicator": "5c"
+        },
+        "val": {
+            "val": "0.0178571428571429",
+            "target": 0.15,
+            "weight": null,
+            "target_dir": "down",
+            "on_target": true
+        }
+    },
+    {
+        "key": {
+            "year": 2013,
+            "indicator": "6a"
+        },
+        "val": {
+            "val": null,
+            "target": 0.55,
+            "weight": null,
+            "target_dir": "up",
+            "on_target": null
+        }
+    },
+    {
+        "key": {
+            "year": 2013,
+            "indicator": "6b"
+        },
+        "val": {
+            "val": null,
+            "target": 0.16,
+            "weight": null,
+            "target_dir": "down",
+            "on_target": null
+        }
+    },
+    {
+        "key": {
+            "year": 2013,
+            "indicator": "7a_a"
+        },
+        "val": {
+            "val": null,
+            "target": 0.75,
+            "weight": null,
+            "target_dir": "up",
+            "on_target": null
+        }
+    },
+    {
+        "key": {
+            "year": 2013,
+            "indicator": "7a_b"
+        },
+        "val": {
+            "val": null,
+            "target": 0.63,
+            "weight": null,
+            "target_dir": "up",
+            "on_target": null
+        }
+    },
+    {
+        "key": {
+            "year": 2013,
+            "indicator": "7b_a"
+        },
+        "val": {
+            "val": null,
+            "target": 0.82,
+            "weight": null,
+            "target_dir": "up",
+            "on_target": null
+        }
+    },
+    {
+        "key": {
+            "year": 2013,
+            "indicator": "7b_b"
+        },
+        "val": {
+            "val": null,
+            "target": 0.63,
+            "weight": null,
+            "target_dir": "up",
+            "on_target": null
+        }
+    },
+    {
+        "key": {
+            "year": 2013,
+            "indicator": "7c_a"
+        },
+        "val": {
+            "val": null,
+            "target": 0.79,
+            "weight": null,
+            "target_dir": "up",
+            "on_target": null
+        }
+    },
+    {
+        "key": {
+            "year": 2013,
+            "indicator": "7c_b"
+        },
+        "val": {
+            "val": null,
+            "target": 0.75,
+            "weight": null,
+            "target_dir": "up",
+            "on_target": null
+        }
+    },
+    {
+        "key": {
+            "year": 2013,
+            "indicator": "8"
+        },
+        "val": {
+            "val": "0.5",
+            "target": 0.8,
+            "weight": null,
+            "target_dir": "up",
+            "on_target": false
+        }
+    },
+    {
+        "key": {
+            "year": 2013,
+            "indicator": "9"
+        },
+        "val": {
+            "val": "no",
+            "target": 0,
+            "weight": null,
+            "target_dir": "down",
+            "on_target": false
+        }
+    },
+    {
+        "key": {
+            "year": 2013,
+            "indicator": "10"
+        },
+        "val": {
+            "val": "no",
+            "target": 0,
+            "weight": null,
+            "target_dir": "down",
+            "on_target": false
+        }
+    },
+    {
+        "key": {
+            "year": 2013,
+            "indicator": "11"
+        },
+        "val": {
+            "val": null,
+            "target": 1,
+            "weight": null,
+            "target_dir": "up",
+            "on_target": null
+        }
+    },
+    {
+        "key": {
+            "year": 2013,
             "indicator": "12"
         },
         "val": {
             "val": null,
             "target": 1,
-            "weight": 1,
+            "weight": null,
             "target_dir": "up",
             "on_target": null
         }
     },
     {
         "key": {
-            "year": 2012,
+            "year": 2013,
             "indicator": "13"
         },
         "val": {
-            "val": 0,
+            "val": "0",
             "target": 1,
-            "weight": 1,
+            "weight": null,
             "target_dir": "up",
             "on_target": false
         }
     },
     {
         "key": {
-            "year": 2012,
-            "indicator": "14_a"
+            "year": 2013,
+            "indicator": "14a"
         },
         "val": {
             "val": null,
             "target": 0.27,
-            "weight": 0.3333,
-            "target_dir": "up",
-            "on_target": null
-        }
-    },
-    {
-        "key": {
-            "year": 2012,
-            "indicator": "14_b"
-        },
-        "val": {
-            "val": null,
-            "target": 0.51,
-            "weight": 0.3333,
-            "target_dir": "up",
-            "on_target": null
-        }
-    },
-    {
-        "key": {
-            "year": 2012,
-            "indicator": "14_c"
-        },
-        "val": {
-            "val": null,
-            "target": 0.64,
-            "weight": 0.3333,
-            "target_dir": "up",
-            "on_target": null
-        }
-    },
-    {
-        "key": {
-            "year": 2012,
-            "indicator": "15"
-        },
-        "val": {
-            "val": 1,
-            "target": null,
             "weight": null,
-            "target_dir": null,
+            "target_dir": "up",
             "on_target": null
         }
     },
     {
         "key": {
-            "year": 2012,
-            "indicator": "18"
+            "year": 2013,
+            "indicator": "14b"
         },
         "val": {
             "val": null,
-            "target": null,
+            "target": 0.34,
             "weight": null,
-            "target_dir": null,
+            "target_dir": "up",
             "on_target": null
         }
     },
     {
         "key": {
-            "year": 2012,
-            "indicator": "19"
+            "year": 2013,
+            "indicator": "14c"
         },
         "val": {
             "val": null,
-            "target": null,
+            "target": 0.4,
             "weight": null,
-            "target_dir": null,
-            "on_target": null
-        }
-    },
-    {
-        "key": {
-            "year": 2012,
-            "indicator": "2"
-        },
-        "val": {
-            "val": null,
-            "target": 0.06,
-            "weight": 1,
-            "target_dir": "down",
-            "on_target": null
-        }
-    },
-    {
-        "key": {
-            "year": 2012,
-            "indicator": "20"
-        },
-        "val": {
-            "val": null,
-            "target": null,
-            "weight": null,
-            "target_dir": null,
-            "on_target": null
-        }
-    },
-    {
-        "key": {
-            "year": 2012,
-            "indicator": "3a"
-        },
-        "val": {
-            "val": 0,
-            "target": 0.5,
-            "weight": 0.3333,
-            "target_dir": "up",
-            "on_target": false
-        }
-    },
-    {
-        "key": {
-            "year": 2012,
-            "indicator": "3b_math"
-        },
-        "val": {
-            "val": 1,
-            "target": 0.95,
-            "weight": 0.1667,
-            "target_dir": "up",
-            "on_target": true
-        }
-    },
-    {
-        "key": {
-            "year": 2012,
-            "indicator": "3b_reading"
-        },
-        "val": {
-            "val": 1,
-            "target": 0.95,
-            "weight": 0.1667,
-            "target_dir": "up",
-            "on_target": true
-        }
-    },
-    {
-        "key": {
-            "year": 2012,
-            "indicator": "3c_elem_math"
-        },
-        "val": {
-            "val": 0.6,
-            "target": null,
-            "weight": null,
-            "target_dir": null,
-            "on_target": null
-        }
-    },
-    {
-        "key": {
-            "year": 2012,
-            "indicator": "3c_elem_reading"
-        },
-        "val": {
-            "val": 0.6,
-            "target": null,
-            "weight": null,
-            "target_dir": null,
-            "on_target": null
-        }
-    },
-    {
-        "key": {
-            "year": 2012,
-            "indicator": "3c_sec_math"
-        },
-        "val": {
-            "val": 0.4375,
-            "target": null,
-            "weight": null,
-            "target_dir": null,
-            "on_target": null
-        }
-    },
-    {
-        "key": {
-            "year": 2012,
-            "indicator": "3c_sec_reading"
-        },
-        "val": {
-            "val": 0.5,
-            "target": null,
-            "weight": null,
-            "target_dir": null,
-            "on_target": null
-        }
-    },
-    {
-        "key": {
-            "year": 2012,
-            "indicator": "4a"
-        },
-        "val": {
-            "val": null,
-            "target": 0,
-            "weight": 0.5,
-            "target_dir": "down",
-            "on_target": null
-        }
-    },
-    {
-        "key": {
-            "year": 2012,
-            "indicator": "4b_a"
-        },
-        "val": {
-            "val": null,
-            "target": 0,
-            "weight": 0.25,
-            "target_dir": "down",
-            "on_target": null
-        }
-    },
-    {
-        "key": {
-            "year": 2012,
-            "indicator": "4b_b"
-        },
-        "val": {
-            "val": null,
-            "target": 0,
-            "weight": 0.25,
-            "target_dir": "down",
-            "on_target": null
-        }
-    },
-    {
-        "key": {
-            "year": 2012,
-            "indicator": "5a"
-        },
-        "val": {
-            "val": 0.85,
-            "target": 0.175,
-            "weight": 0.3333,
-            "target_dir": "up",
-            "on_target": true
-        }
-    },
-    {
-        "key": {
-            "year": 2012,
-            "indicator": "5b"
-        },
-        "val": {
-            "val": 0,
-            "target": 0.15,
-            "weight": 0.3333,
-            "target_dir": "down",
-            "on_target": true
-        }
-    },
-    {
-        "key": {
-            "year": 2012,
-            "indicator": "5c"
-        },
-        "val": {
-            "val": 0.05,
-            "target": 0.15,
-            "weight": 0.3333,
-            "target_dir": "down",
-            "on_target": true
-        }
-    },
-    {
-        "key": {
-            "year": 2012,
-            "indicator": "6a"
-        },
-        "val": {
-            "val": null,
-            "target": 0.63,
-            "weight": 0.5,
             "target_dir": "up",
             "on_target": null
-        }
-    },
-    {
-        "key": {
-            "year": 2012,
-            "indicator": "6b"
-        },
-        "val": {
-            "val": null,
-            "target": 0.15,
-            "weight": 0.5,
-            "target_dir": "down",
-            "on_target": null
-        }
-    },
-    {
-        "key": {
-            "year": 2012,
-            "indicator": "7a_a"
-        },
-        "val": {
-            "val": null,
-            "target": 0.7,
-            "weight": 0.1667,
-            "target_dir": "up",
-            "on_target": null
-        }
-    },
-    {
-        "key": {
-            "year": 2012,
-            "indicator": "7a_b"
-        },
-        "val": {
-            "val": null,
-            "target": 0.6,
-            "weight": 0.1667,
-            "target_dir": "up",
-            "on_target": null
-        }
-    },
-    {
-        "key": {
-            "year": 2012,
-            "indicator": "7b_a"
-        },
-        "val": {
-            "val": null,
-            "target": 0.9,
-            "weight": 0.1667,
-            "target_dir": "up",
-            "on_target": null
-        }
-    },
-    {
-        "key": {
-            "year": 2012,
-            "indicator": "7b_b"
-        },
-        "val": {
-            "val": null,
-            "target": 0.6,
-            "weight": 0.1667,
-            "target_dir": "up",
-            "on_target": null
-        }
-    },
-    {
-        "key": {
-            "year": 2012,
-            "indicator": "7c_a"
-        },
-        "val": {
-            "val": null,
-            "target": 0.6,
-            "weight": 0.1667,
-            "target_dir": "up",
-            "on_target": null
-        }
-    },
-    {
-        "key": {
-            "year": 2012,
-            "indicator": "7c_b"
-        },
-        "val": {
-            "val": null,
-            "target": 0.8,
-            "weight": 0.1667,
-            "target_dir": "up",
-            "on_target": null
-        }
-    },
-    {
-        "key": {
-            "year": 2012,
-            "indicator": "8"
-        },
-        "val": {
-            "val": null,
-            "target": 0.75,
-            "weight": 1,
-            "target_dir": "up",
-            "on_target": null
-        }
-    },
-    {
-        "key": {
-            "year": 2012,
-            "indicator": "9"
-        },
-        "val": {
-            "val": 0,
-            "target": 0,
-            "weight": 1,
-            "target_dir": "down",
-            "on_target": true
         }
     }
 ]

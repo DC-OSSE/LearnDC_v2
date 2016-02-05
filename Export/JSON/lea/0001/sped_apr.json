@@ -1,7 +1,7 @@
 {
-"timestamp": "Fri Feb 13 15:58:26 2015",
+"timestamp": "Fri Feb 05 16:32:43 2016",
 "org_type": "lea",
-"org_name": "District of Columbia Public Schools",
+"org_name": "",
 "org_code": "0001",
 "exhibit": {
 	"id": "sped_apr",
@@ -9,470 +9,418 @@
 [
     {
         "key": {
-            "year": 2012,
+            "year": 2013,
             "indicator": "1"
         },
         "val": {
-            "val": 0.3065,
-            "target": 0.85,
-            "weight": 1,
-            "target_dir": "up",
-            "on_target": false
-        }
-    },
-    {
-        "key": {
-            "year": 2012,
-            "indicator": "10"
-        },
-        "val": {
-            "val": 1,
-            "target": 0,
-            "weight": 1,
-            "target_dir": "down",
-            "on_target": false
-        }
-    },
-    {
-        "key": {
-            "year": 2012,
-            "indicator": "11"
-        },
-        "val": {
-            "val": 0.96,
-            "target": 1,
-            "weight": 1,
-            "target_dir": "up",
-            "on_target": false
-        }
-    },
-    {
-        "key": {
-            "year": 2012,
-            "indicator": "12"
-        },
-        "val": {
-            "val": 0.95,
-            "target": 1,
-            "weight": 1,
-            "target_dir": "up",
-            "on_target": false
-        }
-    },
-    {
-        "key": {
-            "year": 2012,
-            "indicator": "13"
-        },
-        "val": {
-            "val": 0.4,
-            "target": 1,
-            "weight": 1,
-            "target_dir": "up",
-            "on_target": false
-        }
-    },
-    {
-        "key": {
-            "year": 2012,
-            "indicator": "14_a"
-        },
-        "val": {
-            "val": 0.2078,
-            "target": 0.27,
-            "weight": 0.3333,
-            "target_dir": "up",
-            "on_target": false
-        }
-    },
-    {
-        "key": {
-            "year": 2012,
-            "indicator": "14_b"
-        },
-        "val": {
-            "val": 0.2365,
-            "target": 0.51,
-            "weight": 0.3333,
-            "target_dir": "up",
-            "on_target": false
-        }
-    },
-    {
-        "key": {
-            "year": 2012,
-            "indicator": "14_c"
-        },
-        "val": {
-            "val": 0.2979,
-            "target": 0.64,
-            "weight": 0.3333,
-            "target_dir": "up",
-            "on_target": false
-        }
-    },
-    {
-        "key": {
-            "year": 2012,
-            "indicator": "15"
-        },
-        "val": {
-            "val": 0.78,
-            "target": null,
+            "val": "0.357",
+            "target": 0.44,
             "weight": null,
-            "target_dir": null,
-            "on_target": null
+            "target_dir": "up",
+            "on_target": false
         }
     },
     {
         "key": {
-            "year": 2012,
-            "indicator": "18"
-        },
-        "val": {
-            "val": null,
-            "target": null,
-            "weight": null,
-            "target_dir": null,
-            "on_target": null
-        }
-    },
-    {
-        "key": {
-            "year": 2012,
-            "indicator": "19"
-        },
-        "val": {
-            "val": null,
-            "target": null,
-            "weight": null,
-            "target_dir": null,
-            "on_target": null
-        }
-    },
-    {
-        "key": {
-            "year": 2012,
+            "year": 2013,
             "indicator": "2"
         },
         "val": {
-            "val": 0.15,
-            "target": 0.06,
-            "weight": 1,
+            "val": "0.1662",
+            "target": 0.058,
+            "weight": null,
             "target_dir": "down",
             "on_target": false
         }
     },
     {
         "key": {
-            "year": 2012,
-            "indicator": "20"
+            "year": 2013,
+            "indicator": "3a_math"
         },
         "val": {
-            "val": null,
-            "target": null,
+            "val": "no",
+            "target": 0.16,
             "weight": null,
-            "target_dir": null,
-            "on_target": null
-        }
-    },
-    {
-        "key": {
-            "year": 2012,
-            "indicator": "3a"
-        },
-        "val": {
-            "val": 0,
-            "target": 0.5,
-            "weight": 0.3333,
             "target_dir": "up",
             "on_target": false
         }
     },
     {
         "key": {
-            "year": 2012,
+            "year": 2013,
+            "indicator": "3a_reading"
+        },
+        "val": {
+            "val": "no",
+            "target": 0.16,
+            "weight": null,
+            "target_dir": "up",
+            "on_target": false
+        }
+    },
+    {
+        "key": {
+            "year": 2013,
             "indicator": "3b_math"
         },
         "val": {
-            "val": 0.986,
+            "val": "0.98",
             "target": 0.95,
-            "weight": 0.1667,
+            "weight": null,
             "target_dir": "up",
             "on_target": true
         }
     },
     {
         "key": {
-            "year": 2012,
+            "year": 2013,
             "indicator": "3b_reading"
         },
         "val": {
-            "val": 0.989,
+            "val": "0.9799",
             "target": 0.95,
-            "weight": 0.1667,
+            "weight": null,
             "target_dir": "up",
             "on_target": true
         }
     },
     {
         "key": {
-            "year": 2012,
+            "year": 2013,
             "indicator": "3c_elem_math"
         },
         "val": {
-            "val": 0.2047,
-            "target": null,
+            "val": "0.23",
+            "target": 0.3,
             "weight": null,
-            "target_dir": null,
-            "on_target": null
+            "target_dir": "up",
+            "on_target": false
         }
     },
     {
         "key": {
-            "year": 2012,
+            "year": 2013,
             "indicator": "3c_elem_reading"
         },
         "val": {
-            "val": 0.1853,
-            "target": null,
+            "val": "0.19",
+            "target": 0.27,
             "weight": null,
-            "target_dir": null,
-            "on_target": null
+            "target_dir": "up",
+            "on_target": false
         }
     },
     {
         "key": {
-            "year": 2012,
+            "year": 2013,
             "indicator": "3c_sec_math"
         },
         "val": {
-            "val": 0.2027,
-            "target": null,
+            "val": "0.11",
+            "target": 0.3,
             "weight": null,
-            "target_dir": null,
-            "on_target": null
+            "target_dir": "up",
+            "on_target": false
         }
     },
     {
         "key": {
-            "year": 2012,
+            "year": 2013,
             "indicator": "3c_sec_reading"
         },
         "val": {
-            "val": 0.1749,
-            "target": null,
+            "val": "0.11",
+            "target": 0.27,
             "weight": null,
-            "target_dir": null,
-            "on_target": null
+            "target_dir": "up",
+            "on_target": false
         }
     },
     {
         "key": {
-            "year": 2012,
+            "year": 2013,
             "indicator": "4a"
         },
         "val": {
-            "val": 1,
+            "val": "yes",
             "target": 0,
-            "weight": 0.5,
+            "weight": null,
             "target_dir": "down",
-            "on_target": false
+            "on_target": true
         }
     },
     {
         "key": {
-            "year": 2012,
-            "indicator": "4b_a"
+            "year": 2013,
+            "indicator": "4b"
         },
         "val": {
-            "val": 1,
+            "val": "yes",
             "target": 0,
-            "weight": 0.25,
+            "weight": null,
             "target_dir": "down",
-            "on_target": false
+            "on_target": true
         }
     },
     {
         "key": {
-            "year": 2012,
-            "indicator": "4b_b"
-        },
-        "val": {
-            "val": 1,
-            "target": 0,
-            "weight": 0.25,
-            "target_dir": "down",
-            "on_target": false
-        }
-    },
-    {
-        "key": {
-            "year": 2012,
+            "year": 2013,
             "indicator": "5a"
         },
         "val": {
-            "val": 0.45,
-            "target": 0.175,
-            "weight": 0.3333,
+            "val": "0.493465831745167",
+            "target": 0.5,
+            "weight": null,
             "target_dir": "up",
-            "on_target": true
+            "on_target": false
         }
     },
     {
         "key": {
-            "year": 2012,
+            "year": 2013,
             "indicator": "5b"
         },
         "val": {
-            "val": 0.14,
+            "val": "0.164443234413286",
             "target": 0.15,
-            "weight": 0.3333,
+            "weight": null,
             "target_dir": "down",
-            "on_target": true
+            "on_target": false
         }
     },
     {
         "key": {
-            "year": 2012,
+            "year": 2013,
             "indicator": "5c"
         },
         "val": {
-            "val": 0.21,
+            "val": "0.157636809147836",
             "target": 0.15,
-            "weight": 0.3333,
+            "weight": null,
             "target_dir": "down",
             "on_target": false
         }
     },
     {
         "key": {
-            "year": 2012,
+            "year": 2013,
             "indicator": "6a"
         },
         "val": {
-            "val": 0.56,
-            "target": 0.63,
-            "weight": 0.5,
+            "val": "0.477006311992786",
+            "target": 0.55,
+            "weight": null,
             "target_dir": "up",
             "on_target": false
         }
     },
     {
         "key": {
-            "year": 2012,
+            "year": 2013,
             "indicator": "6b"
         },
         "val": {
-            "val": 0.18,
-            "target": 0.15,
-            "weight": 0.5,
+            "val": "0.234445446348061",
+            "target": 0.16,
+            "weight": null,
             "target_dir": "down",
             "on_target": false
         }
     },
     {
         "key": {
-            "year": 2012,
+            "year": 2013,
             "indicator": "7a_a"
         },
         "val": {
-            "val": 0.92,
-            "target": 0.7,
-            "weight": 0.1667,
-            "target_dir": "up",
-            "on_target": true
-        }
-    },
-    {
-        "key": {
-            "year": 2012,
-            "indicator": "7a_b"
-        },
-        "val": {
-            "val": 0.83,
-            "target": 0.6,
-            "weight": 0.1667,
-            "target_dir": "up",
-            "on_target": true
-        }
-    },
-    {
-        "key": {
-            "year": 2012,
-            "indicator": "7b_a"
-        },
-        "val": {
-            "val": 0.92,
-            "target": 0.9,
-            "weight": 0.1667,
-            "target_dir": "up",
-            "on_target": true
-        }
-    },
-    {
-        "key": {
-            "year": 2012,
-            "indicator": "7b_b"
-        },
-        "val": {
-            "val": 0.81,
-            "target": 0.6,
-            "weight": 0.1667,
-            "target_dir": "up",
-            "on_target": true
-        }
-    },
-    {
-        "key": {
-            "year": 2012,
-            "indicator": "7c_a"
-        },
-        "val": {
-            "val": 0.83,
-            "target": 0.6,
-            "weight": 0.1667,
-            "target_dir": "up",
-            "on_target": true
-        }
-    },
-    {
-        "key": {
-            "year": 2012,
-            "indicator": "7c_b"
-        },
-        "val": {
-            "val": 0.79,
-            "target": 0.8,
-            "weight": 0.1667,
+            "val": "0.54",
+            "target": 0.75,
+            "weight": null,
             "target_dir": "up",
             "on_target": false
         }
     },
     {
         "key": {
-            "year": 2012,
-            "indicator": "8"
+            "year": 2013,
+            "indicator": "7a_b"
         },
         "val": {
-            "val": 0.92,
-            "target": 0.75,
-            "weight": 1,
+            "val": "0.62",
+            "target": 0.63,
+            "weight": null,
             "target_dir": "up",
-            "on_target": true
+            "on_target": false
         }
     },
     {
         "key": {
-            "year": 2012,
+            "year": 2013,
+            "indicator": "7b_a"
+        },
+        "val": {
+            "val": "0.58",
+            "target": 0.82,
+            "weight": null,
+            "target_dir": "up",
+            "on_target": false
+        }
+    },
+    {
+        "key": {
+            "year": 2013,
+            "indicator": "7b_b"
+        },
+        "val": {
+            "val": "0.6",
+            "target": 0.63,
+            "weight": null,
+            "target_dir": "up",
+            "on_target": false
+        }
+    },
+    {
+        "key": {
+            "year": 2013,
+            "indicator": "7c_a"
+        },
+        "val": {
+            "val": "0.6",
+            "target": 0.79,
+            "weight": null,
+            "target_dir": "up",
+            "on_target": false
+        }
+    },
+    {
+        "key": {
+            "year": 2013,
+            "indicator": "7c_b"
+        },
+        "val": {
+            "val": "0.59",
+            "target": 0.75,
+            "weight": null,
+            "target_dir": "up",
+            "on_target": false
+        }
+    },
+    {
+        "key": {
+            "year": 2013,
+            "indicator": "8"
+        },
+        "val": {
+            "val": "0.7",
+            "target": 0.8,
+            "weight": null,
+            "target_dir": "up",
+            "on_target": false
+        }
+    },
+    {
+        "key": {
+            "year": 2013,
             "indicator": "9"
         },
         "val": {
-            "val": 0,
+            "val": "no",
             "target": 0,
-            "weight": 1,
+            "weight": null,
             "target_dir": "down",
-            "on_target": true
+            "on_target": false
+        }
+    },
+    {
+        "key": {
+            "year": 2013,
+            "indicator": "10"
+        },
+        "val": {
+            "val": "no",
+            "target": 0,
+            "weight": null,
+            "target_dir": "down",
+            "on_target": false
+        }
+    },
+    {
+        "key": {
+            "year": 2013,
+            "indicator": "11"
+        },
+        "val": {
+            "val": "0.911279229711142",
+            "target": 1,
+            "weight": null,
+            "target_dir": "up",
+            "on_target": false
+        }
+    },
+    {
+        "key": {
+            "year": 2013,
+            "indicator": "12"
+        },
+        "val": {
+            "val": "0.993",
+            "target": 1,
+            "weight": null,
+            "target_dir": "up",
+            "on_target": false
+        }
+    },
+    {
+        "key": {
+            "year": 2013,
+            "indicator": "13"
+        },
+        "val": {
+            "val": "0.53",
+            "target": 1,
+            "weight": null,
+            "target_dir": "up",
+            "on_target": false
+        }
+    },
+    {
+        "key": {
+            "year": 2013,
+            "indicator": "14a"
+        },
+        "val": {
+            "val": "0.161",
+            "target": 0.27,
+            "weight": null,
+            "target_dir": "up",
+            "on_target": false
+        }
+    },
+    {
+        "key": {
+            "year": 2013,
+            "indicator": "14b"
+        },
+        "val": {
+            "val": "0.236",
+            "target": 0.34,
+            "weight": null,
+            "target_dir": "up",
+            "on_target": false
+        }
+    },
+    {
+        "key": {
+            "year": 2013,
+            "indicator": "14c"
+        },
+        "val": {
+            "val": "0.322",
+            "target": 0.4,
+            "weight": null,
+            "target_dir": "up",
+            "on_target": false
         }
     }
 ]
