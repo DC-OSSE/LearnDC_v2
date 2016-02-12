@@ -1,8 +1,8 @@
 {
-"timestamp": "Fri Feb 12 11:20:50 2016",
-"org_type": "lea",
-"org_name": "",
-"org_code": "0176",
+"timestamp": "Fri Feb 12 11:20:32 2016",
+"org_type": "state",
+"org_name": "District of Columbia",
+"org_code": "dc",
 "exhibit": {
 	"id": "sped_apr",
 	"data":  
@@ -10,15 +10,43 @@
     {
         "key": {
             "year": 2013,
+            "indicator": "1"
+        },
+        "val": {
+            "val": 0.4095,
+            "state_val": 0.4095,
+            "target": 0.44,
+            "weight": null,
+            "target_dir": "up",
+            "on_target": false
+        }
+    },
+    {
+        "key": {
+            "year": 2013,
+            "indicator": "2"
+        },
+        "val": {
+            "val": 0.1674,
+            "state_val": 0.1674,
+            "target": 0.058,
+            "weight": null,
+            "target_dir": "down",
+            "on_target": false
+        }
+    },
+    {
+        "key": {
+            "year": 2013,
             "indicator": "3a_math"
         },
         "val": {
-            "val": null,
+            "val": 0,
             "state_val": 0,
             "target": 0.16,
             "weight": null,
             "target_dir": "up",
-            "on_target": null
+            "on_target": false
         }
     },
     {
@@ -27,12 +55,12 @@
             "indicator": "3a_reading"
         },
         "val": {
-            "val": null,
+            "val": 0,
             "state_val": 0,
             "target": 0.16,
             "weight": null,
             "target_dir": "up",
-            "on_target": null
+            "on_target": false
         }
     },
     {
@@ -41,12 +69,12 @@
             "indicator": "3b_math"
         },
         "val": {
-            "val": null,
+            "val": 0.9848,
             "state_val": 0.9848,
             "target": 0.95,
             "weight": null,
             "target_dir": "up",
-            "on_target": null
+            "on_target": true
         }
     },
     {
@@ -55,12 +83,12 @@
             "indicator": "3b_reading"
         },
         "val": {
-            "val": null,
+            "val": 0.9789,
             "state_val": 0.9789,
             "target": 0.95,
             "weight": null,
             "target_dir": "up",
-            "on_target": null
+            "on_target": true
         }
     },
     {
@@ -69,12 +97,12 @@
             "indicator": "3c_elem_math"
         },
         "val": {
-            "val": null,
+            "val": 0.2313,
             "state_val": 0.2313,
             "target": 0.3,
             "weight": null,
             "target_dir": "up",
-            "on_target": null
+            "on_target": false
         }
     },
     {
@@ -83,26 +111,12 @@
             "indicator": "3c_elem_reading"
         },
         "val": {
-            "val": null,
+            "val": 0.1797,
             "state_val": 0.1797,
             "target": 0.27,
             "weight": null,
             "target_dir": "up",
-            "on_target": null
-        }
-    },
-    {
-        "key": {
-            "year": 2013,
-            "indicator": "3c_sec_math"
-        },
-        "val": {
-            "val": null,
-            "state_val": 0.2301,
-            "target": 0.3,
-            "weight": null,
-            "target_dir": "up",
-            "on_target": null
+            "on_target": false
         }
     },
     {
@@ -111,12 +125,54 @@
             "indicator": "3c_sec_reading"
         },
         "val": {
-            "val": null,
+            "val": 0.181,
             "state_val": 0.181,
             "target": 0.27,
             "weight": null,
             "target_dir": "up",
-            "on_target": null
+            "on_target": false
+        }
+    },
+    {
+        "key": {
+            "year": 2013,
+            "indicator": "3c_sec_math"
+        },
+        "val": {
+            "val": 0.2301,
+            "state_val": 0.2301,
+            "target": 0.3,
+            "weight": null,
+            "target_dir": "up",
+            "on_target": false
+        }
+    },
+    {
+        "key": {
+            "year": 2013,
+            "indicator": "4a"
+        },
+        "val": {
+            "val": 0.381,
+            "state_val": 0.381,
+            "target": 0,
+            "weight": null,
+            "target_dir": "down",
+            "on_target": false
+        }
+    },
+    {
+        "key": {
+            "year": 2013,
+            "indicator": "4b"
+        },
+        "val": {
+            "val": 0.0714,
+            "state_val": 0.0714,
+            "target": 0,
+            "weight": null,
+            "target_dir": "down",
+            "on_target": false
         }
     },
     {
@@ -125,12 +181,12 @@
             "indicator": "5a"
         },
         "val": {
-            "val": null,
+            "val": 0.5351,
             "state_val": 0.5351,
             "target": 0.5,
             "weight": null,
             "target_dir": "up",
-            "on_target": null
+            "on_target": true
         }
     },
     {
@@ -139,12 +195,12 @@
             "indicator": "5b"
         },
         "val": {
-            "val": null,
+            "val": 0.1564,
             "state_val": 0.1564,
             "target": 0.15,
             "weight": null,
             "target_dir": "down",
-            "on_target": null
+            "on_target": false
         }
     },
     {
@@ -153,12 +209,12 @@
             "indicator": "5c"
         },
         "val": {
-            "val": null,
+            "val": 0.124,
             "state_val": 0.124,
             "target": 0.15,
             "weight": null,
             "target_dir": "down",
-            "on_target": null
+            "on_target": true
         }
     },
     {
@@ -167,12 +223,12 @@
             "indicator": "6a"
         },
         "val": {
-            "val": null,
+            "val": 0.4934,
             "state_val": 0.4934,
             "target": 0.55,
             "weight": null,
             "target_dir": "up",
-            "on_target": null
+            "on_target": false
         }
     },
     {
@@ -181,12 +237,12 @@
             "indicator": "6b"
         },
         "val": {
-            "val": null,
+            "val": 0.1992,
             "state_val": 0.1992,
             "target": 0.16,
             "weight": null,
             "target_dir": "down",
-            "on_target": null
+            "on_target": false
         }
     },
     {
@@ -195,12 +251,12 @@
             "indicator": "7a_a"
         },
         "val": {
-            "val": null,
+            "val": 0.8205,
             "state_val": 0.8205,
             "target": 0.75,
             "weight": null,
             "target_dir": "up",
-            "on_target": null
+            "on_target": true
         }
     },
     {
@@ -209,12 +265,12 @@
             "indicator": "7a_b"
         },
         "val": {
-            "val": null,
+            "val": 0.6916,
             "state_val": 0.6916,
             "target": 0.63,
             "weight": null,
             "target_dir": "up",
-            "on_target": null
+            "on_target": true
         }
     },
     {
@@ -223,12 +279,12 @@
             "indicator": "7b_a"
         },
         "val": {
-            "val": null,
+            "val": 0.8012,
             "state_val": 0.8012,
             "target": 0.82,
             "weight": null,
             "target_dir": "up",
-            "on_target": null
+            "on_target": false
         }
     },
     {
@@ -237,12 +293,12 @@
             "indicator": "7b_b"
         },
         "val": {
-            "val": null,
+            "val": 0.674,
             "state_val": 0.674,
             "target": 0.63,
             "weight": null,
             "target_dir": "up",
-            "on_target": null
+            "on_target": true
         }
     },
     {
@@ -251,12 +307,12 @@
             "indicator": "7c_a"
         },
         "val": {
-            "val": null,
+            "val": 0.7937,
             "state_val": 0.7937,
             "target": 0.79,
             "weight": null,
             "target_dir": "up",
-            "on_target": null
+            "on_target": true
         }
     },
     {
@@ -265,12 +321,12 @@
             "indicator": "7c_b"
         },
         "val": {
-            "val": null,
+            "val": 0.7533,
             "state_val": 0.7533,
             "target": 0.75,
             "weight": null,
             "target_dir": "up",
-            "on_target": null
+            "on_target": true
         }
     },
     {
@@ -279,12 +335,12 @@
             "indicator": "8"
         },
         "val": {
-            "val": null,
+            "val": 0.8176,
             "state_val": 0.8176,
             "target": 0.8,
             "weight": null,
             "target_dir": "up",
-            "on_target": null
+            "on_target": true
         }
     },
     {
@@ -293,12 +349,12 @@
             "indicator": "9"
         },
         "val": {
-            "val": null,
+            "val": 0,
             "state_val": 0,
             "target": 0,
             "weight": null,
             "target_dir": "down",
-            "on_target": null
+            "on_target": true
         }
     },
     {
@@ -307,12 +363,12 @@
             "indicator": "10"
         },
         "val": {
-            "val": null,
+            "val": 0.0385,
             "state_val": 0.0385,
             "target": 0,
             "weight": null,
             "target_dir": "down",
-            "on_target": null
+            "on_target": false
         }
     },
     {
@@ -321,12 +377,12 @@
             "indicator": "11"
         },
         "val": {
-            "val": null,
+            "val": 0.8942,
             "state_val": 0.8942,
             "target": 1,
             "weight": null,
             "target_dir": "up",
-            "on_target": null
+            "on_target": false
         }
     },
     {
@@ -335,12 +391,12 @@
             "indicator": "12"
         },
         "val": {
-            "val": null,
+            "val": 0.9871,
             "state_val": 0.9871,
             "target": 1,
             "weight": null,
             "target_dir": "up",
-            "on_target": null
+            "on_target": false
         }
     },
     {
@@ -349,12 +405,54 @@
             "indicator": "13"
         },
         "val": {
-            "val": null,
+            "val": 0.5,
             "state_val": 0.5,
             "target": 1,
             "weight": null,
             "target_dir": "up",
-            "on_target": null
+            "on_target": false
+        }
+    },
+    {
+        "key": {
+            "year": 2013,
+            "indicator": "14a"
+        },
+        "val": {
+            "val": 0.172,
+            "state_val": 0.172,
+            "target": 0.27,
+            "weight": null,
+            "target_dir": "up",
+            "on_target": false
+        }
+    },
+    {
+        "key": {
+            "year": 2013,
+            "indicator": "14b"
+        },
+        "val": {
+            "val": 0.241,
+            "state_val": 0.241,
+            "target": 0.34,
+            "weight": null,
+            "target_dir": "up",
+            "on_target": false
+        }
+    },
+    {
+        "key": {
+            "year": 2013,
+            "indicator": "14c"
+        },
+        "val": {
+            "val": 0.316,
+            "state_val": 0.316,
+            "target": 0.4,
+            "weight": null,
+            "target_dir": "up",
+            "on_target": false
         }
     }
 ]
