@@ -6,10 +6,10 @@ library(plyr)
 lea_sped <- sqlQuery(dbrepcard_prod, "SELECT * FROM [dbo].[apr] WHERE lea != 'state'")
 
 lea_sped$lea_code <- sapply(lea_sped$lea_code, leadgr, 4)
-lea_sped$on_target <- ifelse(is.na(lea_sped$val), NA, !lea_sped$on_target %in% c("0", "no"))
+lea_sped$on_target <- ifelse(is.na(lea_sped$val), NA, lea_sped$on_target %in% c('1'))
 
 key_index <- c(1,2)
-value_index <- 5:9
+value_index <- 5:10
 num_orphans <- 0
 
 
