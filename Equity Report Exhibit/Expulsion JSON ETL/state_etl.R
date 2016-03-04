@@ -1,12 +1,11 @@
-setwd("U:/LearnDC ETL V2/Equity Report Exhibit/Expulsion JSON ETL")
-source("U:/R/tomkit.R")
+source(paste(root_dir,'imports/helpers.R',sep=''))
 library(jsonlite)
 library(reshape2)
 library(dplyr)
 
 
 expel <- sqlQuery(dbrepcard_prod,"select * from equity_report_state_longitudinal where reported=1 and metric in ('Total Expulsions','Expulsion Rate')") %>%
-mutate(subgroup=ifelse(subgroup %in% c('Male','Female'),toupper(subgroup),subgroup),population='All') %>% select(-starts_with("days"),-school_year,-grade,-starts_with("mo"),-starts_with("re"),-count,-nsize,-enrollment)
+mutate(subgroup=ifelse(subgroup %in% c('Male','Female'),toupper(subgroup),subgroup)) %>% select(-starts_with("days"),-school_year,-grade,-starts_with("mo"),-starts_with("re"),-count,-nsize,-enrollment)
 
 exp_long <- melt(expel, id.vars = c("year","subgroup","metric","population"))
 exp_long$metric <- paste0(exp_long$metric, "_",exp_long$variable)
@@ -24,7 +23,7 @@ strtable(exp_wide)
 key_index <- 1:3
 value_index <- 4:7
 
-setwd("U:/LearnDC ETL V2/Export/JSON/state/DC")
+setwd(paste(root_dir, 'Export/JSON/state/DC', sep=''))
 
 nested_list <- lapply(1:nrow(exp_wide), FUN = function(i){ 
   list(key = list(exp_wide[i,key_index]), 

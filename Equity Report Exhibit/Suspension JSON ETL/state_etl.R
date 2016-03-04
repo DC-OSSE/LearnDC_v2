@@ -1,11 +1,10 @@
-setwd("U:/LearnDC ETL V2/Equity Report Exhibit/Suspension JSON ETL")
-source("U:/R/tomkit.R")
+source(paste(root_dir,'imports/helpers.R',sep=''))
 library(jsonlite)
 library(reshape2)
 library(dplyr)
 
 susp <- sqlQuery(dbrepcard_prod,"select * from equity_report_state_longitudinal where reported=1 and metric in ('Suspended 1+','Suspended 11+','Total Suspensions')") %>%
-mutate(subgroup=ifelse(subgroup %in% c('Male','Female'),toupper(subgroup),subgroup),population='All') %>% select(-starts_with("days"),-(school_year),-(grade),-starts_with("mo"),-starts_with("re"),-(count),-(nsize),-(enrollment))
+mutate(subgroup=ifelse(subgroup %in% c('Male','Female'),toupper(subgroup),subgroup)) %>% select(-starts_with("days"),-(school_year),-(grade),-starts_with("mo"),-starts_with("re"),-(count),-(nsize),-(enrollment))
 
 susp_long <- melt(susp, id.vars = c("year","subgroup","metric","population"))
 susp_long$metric<- paste0(susp_long$metric, "_",susp_long$variable)
@@ -22,7 +21,7 @@ strtable(susp_wide)
 key_index <- 1:3
 value_index <- 4:9
 
-	setwd("U:/LearnDC ETL V2/Export/JSON/state/DC")
+	setwd(paste(root_dir, 'Export/JSON/state/DC', sep=''))
 
 	nested_list <- lapply(1:nrow(susp_wide), FUN = function(i){ 
                              list(key = list(susp_wide[i,key_index]), 

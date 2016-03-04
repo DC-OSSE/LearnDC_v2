@@ -1,21 +1,20 @@
-setwd("U:/LearnDC ETL V2/Equity Report Exhibit/Attendance JSON ETL")
-source("U:/R/tomkit.R")
+source(paste(root_dir,'imports/helpers.R',sep=''))
 library(jsonlite)
 library(reshape2)
 library(dplyr)
 
 isa <- sqlQuery(dbrepcard_prod,"select * from equity_report_state_longitudinal where reported=1 and metric='In-Seat Attendance'") %>% 
-	mutate(subgroup=ifelse(subgroup %in% c('Male','Female'),toupper(subgroup),ifelse(toupper(subgroup) %in% "ELL","LEP",subgroup)),population="All",state_in_seat_attendance=NA,average_daily_attendance=NA,state_average_daily_attendance=NA) %>% select(-starts_with("days"),-(school_year),-(grade),-starts_with("mo"),-starts_with("re"),-(count),-(nsize),-(enrollment),-(metric)) %>% rename(in_seat_attendance=score)
+	mutate(subgroup=ifelse(subgroup %in% c('Male','Female'),toupper(subgroup),ifelse(toupper(subgroup) %in% "ELL","LEP",subgroup)),state_in_seat_attendance=NA,average_daily_attendance=NA,state_average_daily_attendance=NA) %>% select(-starts_with("days"),-(school_year),-(grade),-starts_with("mo"),-starts_with("re"),-(count),-(nsize),-(enrollment),-(metric)) %>% rename(in_seat_attendance=score)
 isa <- isa[c(1:2,4,3,5:7)]
 
 isa$in_seat_attendance <- round(isa$in_seat_attendance,3)
 
 strtable(isa)
 
-key_index <- 1:3
-value_index <- 4:7
+key_index <- c(1:2,4)
+value_index <- c(3,5:7)
 
-	setwd("U:/LearnDC ETL V2/Export/JSON/state/DC")
+	setwd(paste(root_dir, 'Export/JSON/state/DC', sep=''))
 
 	nested_list <- lapply(1:nrow(isa), FUN = function(i){ 
                              list(key = list(isa[i,key_index]), 

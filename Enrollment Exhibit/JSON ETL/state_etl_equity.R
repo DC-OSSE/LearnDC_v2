@@ -1,14 +1,13 @@
-setwd("U:/LearnDC ETL V2/Enrollment Exhibit/JSON ETL")
-source("U:/R/tomkit.R")
+source(paste(root_dir,'imports/helpers.R',sep=''))
 library(jsonlite)
 library(dplyr)
 
 enr <- sqlQuery(dbrepcard_prod,"select * from equity_report_state_longitudinal where reported=1 and metric='Student Characteristics'") %>%
-mutate(enrollment=round(score,3),subgroup=ifelse(subgroup %in% c('Male','Female'),toupper(subgroup),subgroup),population='All',grade=ifelse(substr(grade,0,1) %in% 0,substr(grade,2,2),grade),grade=ifelse(grade %in% c("All","PK3","PK4","KG","UN"),grade,paste0("grade ",grade))) %>% filter(subgroup %notin% 'AtRisk' & reported==1) %>% select(year,grade,subgroup,population,enrollment)
+mutate(enrollment=round(score,3),subgroup=ifelse(subgroup %in% c('Male','Female'),toupper(subgroup),subgroup),grade=ifelse(substr(grade,0,1) %in% 0,substr(grade,2,2),grade),grade=ifelse(grade %in% c("All","PK3","PK4","KG","UN"),grade,paste0("grade ",grade))) %>% filter(subgroup %notin% 'AtRisk' & reported==1) %>% select(year,grade,subgroup,population,enrollment)
 
 strtable(enr)
 
-setwd("U:/LearnDC ETL V2/Export/JSON/state/DC")
+setwd(paste(root_dir, 'Export/JSON/state/DC', sep=''))
 
 key_index <- 1:4
 value_index <- 5
