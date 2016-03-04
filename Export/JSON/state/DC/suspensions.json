@@ -1,5 +1,5 @@
 {
-"timestamp": "Wed Nov 18 11:54:31 2015",
+"timestamp": "Fri Mar 04 17:25:00 2016",
 "org_type": "state",
 "org_name": "District of Columbia",
 "org_code": "dc",
@@ -7,6 +7,21 @@
 	"id": "suspensions",
 	"data":  
 [
+    {
+        "key": {
+            "year": 2015,
+            "subgroup": "All",
+            "population": "Adult/ALT"
+        },
+        "val": {
+            "suspended_1": 0.032,
+            "suspended_11": 0.0033,
+            "incidents": 328,
+            "state_suspended_1": null,
+            "state_suspended_11": null,
+            "state_incidents": null
+        }
+    },
     {
         "key": {
             "year": 2015,
@@ -25,11 +40,56 @@
     {
         "key": {
             "year": 2015,
+            "subgroup": "All",
+            "population": "PK3-12"
+        },
+        "val": {
+            "suspended_1": 0.104,
+            "suspended_11": 0.0032,
+            "incidents": 16434,
+            "state_suspended_1": null,
+            "state_suspended_11": null,
+            "state_incidents": null
+        }
+    },
+    {
+        "key": {
+            "year": 2015,
             "subgroup": "AM7",
             "population": "All"
         },
         "val": {
             "suspended_1": 0.042,
+            "suspended_11": 0,
+            "incidents": null,
+            "state_suspended_1": null,
+            "state_suspended_11": null,
+            "state_incidents": null
+        }
+    },
+    {
+        "key": {
+            "year": 2015,
+            "subgroup": "AM7",
+            "population": "PK3-12"
+        },
+        "val": {
+            "suspended_1": 0.043,
+            "suspended_11": 0,
+            "incidents": null,
+            "state_suspended_1": null,
+            "state_suspended_11": null,
+            "state_incidents": null
+        }
+    },
+    {
+        "key": {
+            "year": 2015,
+            "subgroup": "AS7",
+            "population": "Adult/ALT"
+        },
+        "val": {
+            "suspended_1": 0,
             "suspended_11": 0,
             "incidents": null,
             "state_suspended_1": null,
@@ -55,12 +115,72 @@
     {
         "key": {
             "year": 2015,
+            "subgroup": "AS7",
+            "population": "PK3-12"
+        },
+        "val": {
+            "suspended_1": 0.016,
+            "suspended_11": 0,
+            "incidents": null,
+            "state_suspended_1": null,
+            "state_suspended_11": null,
+            "state_incidents": null
+        }
+    },
+    {
+        "key": {
+            "year": 2015,
+            "subgroup": "BL7",
+            "population": "Adult/ALT"
+        },
+        "val": {
+            "suspended_1": 0.054,
+            "suspended_11": 0.0056,
+            "incidents": null,
+            "state_suspended_1": null,
+            "state_suspended_11": null,
+            "state_incidents": null
+        }
+    },
+    {
+        "key": {
+            "year": 2015,
             "subgroup": "BL7",
             "population": "All"
         },
         "val": {
             "suspended_1": 0.129,
             "suspended_11": 0.0043,
+            "incidents": null,
+            "state_suspended_1": null,
+            "state_suspended_11": null,
+            "state_incidents": null
+        }
+    },
+    {
+        "key": {
+            "year": 2015,
+            "subgroup": "BL7",
+            "population": "PK3-12"
+        },
+        "val": {
+            "suspended_1": 0.134,
+            "suspended_11": 0.0042,
+            "incidents": null,
+            "state_suspended_1": null,
+            "state_suspended_11": null,
+            "state_incidents": null
+        }
+    },
+    {
+        "key": {
+            "year": 2015,
+            "subgroup": "Economy",
+            "population": "Adult/ALT"
+        },
+        "val": {
+            "suspended_1": 0.074,
+            "suspended_11": 0.0082,
             "incidents": null,
             "state_suspended_1": null,
             "state_suspended_11": null,
@@ -85,12 +205,72 @@
     {
         "key": {
             "year": 2015,
+            "subgroup": "Economy",
+            "population": "PK3-12"
+        },
+        "val": {
+            "suspended_1": 0.124,
+            "suspended_11": 0.004,
+            "incidents": null,
+            "state_suspended_1": null,
+            "state_suspended_11": null,
+            "state_incidents": null
+        }
+    },
+    {
+        "key": {
+            "year": 2015,
+            "subgroup": "FEMALE",
+            "population": "Adult/ALT"
+        },
+        "val": {
+            "suspended_1": 0.028,
+            "suspended_11": 0.0025,
+            "incidents": null,
+            "state_suspended_1": null,
+            "state_suspended_11": null,
+            "state_incidents": null
+        }
+    },
+    {
+        "key": {
+            "year": 2015,
             "subgroup": "FEMALE",
             "population": "All"
         },
         "val": {
             "suspended_1": 0.074,
             "suspended_11": 0.002,
+            "incidents": null,
+            "state_suspended_1": null,
+            "state_suspended_11": null,
+            "state_incidents": null
+        }
+    },
+    {
+        "key": {
+            "year": 2015,
+            "subgroup": "FEMALE",
+            "population": "PK3-12"
+        },
+        "val": {
+            "suspended_1": 0.078,
+            "suspended_11": 0.002,
+            "incidents": null,
+            "state_suspended_1": null,
+            "state_suspended_11": null,
+            "state_incidents": null
+        }
+    },
+    {
+        "key": {
+            "year": 2015,
+            "subgroup": "HI7",
+            "population": "Adult/ALT"
+        },
+        "val": {
+            "suspended_1": 0.002,
+            "suspended_11": 0,
             "incidents": null,
             "state_suspended_1": null,
             "state_suspended_11": null,
@@ -115,12 +295,72 @@
     {
         "key": {
             "year": 2015,
+            "subgroup": "HI7",
+            "population": "PK3-12"
+        },
+        "val": {
+            "suspended_1": 0.041,
+            "suspended_11": 0.0009,
+            "incidents": null,
+            "state_suspended_1": null,
+            "state_suspended_11": null,
+            "state_incidents": null
+        }
+    },
+    {
+        "key": {
+            "year": 2015,
+            "subgroup": "LEP",
+            "population": "Adult/ALT"
+        },
+        "val": {
+            "suspended_1": 0,
+            "suspended_11": 0,
+            "incidents": null,
+            "state_suspended_1": null,
+            "state_suspended_11": null,
+            "state_incidents": null
+        }
+    },
+    {
+        "key": {
+            "year": 2015,
             "subgroup": "LEP",
             "population": "All"
         },
         "val": {
             "suspended_1": 0.033,
             "suspended_11": 0.0007,
+            "incidents": null,
+            "state_suspended_1": null,
+            "state_suspended_11": null,
+            "state_incidents": null
+        }
+    },
+    {
+        "key": {
+            "year": 2015,
+            "subgroup": "LEP",
+            "population": "PK3-12"
+        },
+        "val": {
+            "suspended_1": 0.035,
+            "suspended_11": 0.0007,
+            "incidents": null,
+            "state_suspended_1": null,
+            "state_suspended_11": null,
+            "state_incidents": null
+        }
+    },
+    {
+        "key": {
+            "year": 2015,
+            "subgroup": "MALE",
+            "population": "Adult/ALT"
+        },
+        "val": {
+            "suspended_1": 0.039,
+            "suspended_11": 0.0043,
             "incidents": null,
             "state_suspended_1": null,
             "state_suspended_11": null,
@@ -145,8 +385,38 @@
     {
         "key": {
             "year": 2015,
+            "subgroup": "MALE",
+            "population": "PK3-12"
+        },
+        "val": {
+            "suspended_1": 0.13,
+            "suspended_11": 0.0043,
+            "incidents": null,
+            "state_suspended_1": null,
+            "state_suspended_11": null,
+            "state_incidents": null
+        }
+    },
+    {
+        "key": {
+            "year": 2015,
             "subgroup": "MU7",
             "population": "All"
+        },
+        "val": {
+            "suspended_1": 0.043,
+            "suspended_11": 0.0014,
+            "incidents": null,
+            "state_suspended_1": null,
+            "state_suspended_11": null,
+            "state_incidents": null
+        }
+    },
+    {
+        "key": {
+            "year": 2015,
+            "subgroup": "MU7",
+            "population": "PK3-12"
         },
         "val": {
             "suspended_1": 0.043,
@@ -175,6 +445,36 @@
     {
         "key": {
             "year": 2015,
+            "subgroup": "PI7",
+            "population": "PK3-12"
+        },
+        "val": {
+            "suspended_1": 0.101,
+            "suspended_11": 0,
+            "incidents": null,
+            "state_suspended_1": null,
+            "state_suspended_11": null,
+            "state_incidents": null
+        }
+    },
+    {
+        "key": {
+            "year": 2015,
+            "subgroup": "SPED",
+            "population": "Adult/ALT"
+        },
+        "val": {
+            "suspended_1": 0.166,
+            "suspended_11": 0.0139,
+            "incidents": null,
+            "state_suspended_1": null,
+            "state_suspended_11": null,
+            "state_incidents": null
+        }
+    },
+    {
+        "key": {
+            "year": 2015,
             "subgroup": "SPED",
             "population": "All"
         },
@@ -190,8 +490,53 @@
     {
         "key": {
             "year": 2015,
+            "subgroup": "SPED",
+            "population": "PK3-12"
+        },
+        "val": {
+            "suspended_1": 0.191,
+            "suspended_11": 0.0073,
+            "incidents": null,
+            "state_suspended_1": null,
+            "state_suspended_11": null,
+            "state_incidents": null
+        }
+    },
+    {
+        "key": {
+            "year": 2015,
+            "subgroup": "WH7",
+            "population": "Adult/ALT"
+        },
+        "val": {
+            "suspended_1": 0,
+            "suspended_11": 0,
+            "incidents": null,
+            "state_suspended_1": null,
+            "state_suspended_11": null,
+            "state_incidents": null
+        }
+    },
+    {
+        "key": {
+            "year": 2015,
             "subgroup": "WH7",
             "population": "All"
+        },
+        "val": {
+            "suspended_1": 0.008,
+            "suspended_11": 0,
+            "incidents": null,
+            "state_suspended_1": null,
+            "state_suspended_11": null,
+            "state_incidents": null
+        }
+    },
+    {
+        "key": {
+            "year": 2015,
+            "subgroup": "WH7",
+            "population": "PK3-12"
         },
         "val": {
             "suspended_1": 0.008,

@@ -1,5 +1,5 @@
 {
-"timestamp": "Mon Oct 19 16:35:32 2015",
+"timestamp": "Fri Mar 04 17:24:40 2016",
 "org_type": "state",
 "org_name": "District of Columbia",
 "org_code": "dc",
@@ -11,11 +11,37 @@
         "key": {
             "year": 2015,
             "subgroup": "All",
+            "population": "Adult/ALT"
+        },
+        "val": {
+            "expulsions": 22,
+            "expulsion_rate": 0.0028,
+            "state_expulsions": null,
+            "state_expulsion_rate": null
+        }
+    },
+    {
+        "key": {
+            "year": 2015,
+            "subgroup": "All",
             "population": "All"
         },
         "val": {
             "expulsions": 134,
             "expulsion_rate": 0.0013,
+            "state_expulsions": null,
+            "state_expulsion_rate": null
+        }
+    },
+    {
+        "key": {
+            "year": 2015,
+            "subgroup": "All",
+            "population": "PK3-12"
+        },
+        "val": {
+            "expulsions": 112,
+            "expulsion_rate": 0.0012,
             "state_expulsions": null,
             "state_expulsion_rate": null
         }
