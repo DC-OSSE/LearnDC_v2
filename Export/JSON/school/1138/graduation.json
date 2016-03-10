@@ -1,7 +1,7 @@
 {
-"timestamp": "Thu Oct 29 14:58:22 2015",
+"timestamp": "Thu Mar 10 15:03:45 2016",
 "org_type": "school",
-"org_name": "E.L. HAYNES KANSAS AVENUE - HIGH SCHOOL",
+"org_name": "E.L. Haynes PCS- Kansas Ave                                ",
 "org_code": "1138",
 "exhibit": {
 	"id": "graduation",
@@ -20,13 +20,24 @@
     },
     {
         "key": {
-            "subgroup": "MALE",
+            "subgroup": "BL7",
             "year": 2015,
             "type": "Four Year ACGR"
         },
         "val": {
-            "graduates": 18,
-            "cohort_size": 37
+            "graduates": 32,
+            "cohort_size": 49
+        }
+    },
+    {
+        "key": {
+            "subgroup": "Economy",
+            "year": 2015,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "graduates": 37,
+            "cohort_size": 66
         }
     },
     {
@@ -42,17 +53,6 @@
     },
     {
         "key": {
-            "subgroup": "BL7",
-            "year": 2015,
-            "type": "Four Year ACGR"
-        },
-        "val": {
-            "graduates": 32,
-            "cohort_size": 49
-        }
-    },
-    {
-        "key": {
             "subgroup": "HI7",
             "year": 2015,
             "type": "Four Year ACGR"
@@ -64,13 +64,13 @@
     },
     {
         "key": {
-            "subgroup": "Economy",
+            "subgroup": "MALE",
             "year": 2015,
             "type": "Four Year ACGR"
         },
         "val": {
-            "graduates": 37,
-            "cohort_size": 66
+            "graduates": 18,
+            "cohort_size": 37
         }
     }
 ]

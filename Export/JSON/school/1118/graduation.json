@@ -1,5 +1,5 @@
 {
-"timestamp": "Thu Oct 29 14:58:21 2015",
+"timestamp": "Thu Mar 10 15:03:45 2016",
 "org_type": "school",
 "org_name": "WASHINGTON LATIN PCS HS",
 "org_code": "1118",
@@ -65,100 +65,12 @@
     {
         "key": {
             "subgroup": "All",
-            "year": 2014,
-            "type": "Four Year ACGR"
-        },
-        "val": {
-            "graduates": 46,
-            "cohort_size": 54
-        }
-    },
-    {
-        "key": {
-            "subgroup": "FEMALE",
-            "year": 2014,
-            "type": "Four Year ACGR"
-        },
-        "val": {
-            "graduates": 27,
-            "cohort_size": 31
-        }
-    },
-    {
-        "key": {
-            "subgroup": "BL7",
-            "year": 2014,
-            "type": "Four Year ACGR"
-        },
-        "val": {
-            "graduates": 33,
-            "cohort_size": 39
-        }
-    },
-    {
-        "key": {
-            "subgroup": "Economy",
-            "year": 2014,
-            "type": "Four Year ACGR"
-        },
-        "val": {
-            "graduates": 25,
-            "cohort_size": 30
-        }
-    },
-    {
-        "key": {
-            "subgroup": "All",
-            "year": 2014,
-            "type": "Five Year ACGR"
-        },
-        "val": {
-            "graduates": 45,
-            "cohort_size": 47
-        }
-    },
-    {
-        "key": {
-            "subgroup": "MALE",
-            "year": 2014,
-            "type": "Five Year ACGR"
-        },
-        "val": {
-            "graduates": 25,
-            "cohort_size": 27
-        }
-    },
-    {
-        "key": {
-            "subgroup": "BL7",
-            "year": 2014,
-            "type": "Five Year ACGR"
-        },
-        "val": {
-            "graduates": 28,
-            "cohort_size": 30
-        }
-    },
-    {
-        "key": {
-            "subgroup": "All",
             "year": 2015,
             "type": "Four Year ACGR"
         },
         "val": {
             "graduates": 54,
             "cohort_size": 62
-        }
-    },
-    {
-        "key": {
-            "subgroup": "FEMALE",
-            "year": 2015,
-            "type": "Four Year ACGR"
-        },
-        "val": {
-            "graduates": 40,
-            "cohort_size": 41
         }
     },
     {
@@ -181,6 +93,50 @@
         "val": {
             "graduates": 31,
             "cohort_size": 36
+        }
+    },
+    {
+        "key": {
+            "subgroup": "FEMALE",
+            "year": 2015,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "graduates": 40,
+            "cohort_size": 41
+        }
+    },
+    {
+        "key": {
+            "subgroup": "All",
+            "year": 2015,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 47,
+            "cohort_size": 54
+        }
+    },
+    {
+        "key": {
+            "subgroup": "Economy",
+            "year": 2015,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 25,
+            "cohort_size": 30
+        }
+    },
+    {
+        "key": {
+            "subgroup": "BL7",
+            "year": 2015,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 34,
+            "cohort_size": 39
         }
     }
 ]

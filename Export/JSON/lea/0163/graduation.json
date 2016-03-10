@@ -1,5 +1,5 @@
 {
-"timestamp": "Thu Oct 29 14:57:52 2015",
+"timestamp": "Thu Mar 10 15:03:54 2016",
 "org_type": "lea",
 "org_name": "NATIONAL COLLEGIATE PREPARATORY PCS",
 "org_code": "0163",
@@ -120,50 +120,6 @@
     {
         "key": {
             "subgroup": "All",
-            "year": 2015,
-            "type": "Four Year ACGR"
-        },
-        "val": {
-            "graduates": 54,
-            "cohort_size": 78
-        }
-    },
-    {
-        "key": {
-            "subgroup": "MALE",
-            "year": 2015,
-            "type": "Four Year ACGR"
-        },
-        "val": {
-            "graduates": 28,
-            "cohort_size": 39
-        }
-    },
-    {
-        "key": {
-            "subgroup": "FEMALE",
-            "year": 2015,
-            "type": "Four Year ACGR"
-        },
-        "val": {
-            "graduates": 26,
-            "cohort_size": 39
-        }
-    },
-    {
-        "key": {
-            "subgroup": "BL7",
-            "year": 2015,
-            "type": "Four Year ACGR"
-        },
-        "val": {
-            "graduates": 53,
-            "cohort_size": 77
-        }
-    },
-    {
-        "key": {
-            "subgroup": "All",
             "year": 2014,
             "type": "Five Year ACGR"
         },
@@ -218,6 +174,28 @@
     },
     {
         "key": {
+            "subgroup": "All",
+            "year": 2015,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "graduates": 54,
+            "cohort_size": 78
+        }
+    },
+    {
+        "key": {
+            "subgroup": "BL7",
+            "year": 2015,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "graduates": 53,
+            "cohort_size": 77
+        }
+    },
+    {
+        "key": {
             "subgroup": "Economy",
             "year": 2015,
             "type": "Four Year ACGR"
@@ -225,6 +203,83 @@
         "val": {
             "graduates": 54,
             "cohort_size": 78
+        }
+    },
+    {
+        "key": {
+            "subgroup": "FEMALE",
+            "year": 2015,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "graduates": 26,
+            "cohort_size": 39
+        }
+    },
+    {
+        "key": {
+            "subgroup": "MALE",
+            "year": 2015,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "graduates": 28,
+            "cohort_size": 39
+        }
+    },
+    {
+        "key": {
+            "subgroup": "MALE",
+            "year": 2015,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 24,
+            "cohort_size": 31
+        }
+    },
+    {
+        "key": {
+            "subgroup": "FEMALE",
+            "year": 2015,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 47,
+            "cohort_size": 60
+        }
+    },
+    {
+        "key": {
+            "subgroup": "Economy",
+            "year": 2015,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 70,
+            "cohort_size": 87
+        }
+    },
+    {
+        "key": {
+            "subgroup": "BL7",
+            "year": 2015,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 70,
+            "cohort_size": 90
+        }
+    },
+    {
+        "key": {
+            "subgroup": "All",
+            "year": 2015,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 71,
+            "cohort_size": 91
         }
     }
 ]

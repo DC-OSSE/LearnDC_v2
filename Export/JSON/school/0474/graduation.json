@@ -1,5 +1,5 @@
 {
-"timestamp": "Wed Nov 18 11:39:37 2015",
+"timestamp": "Thu Mar 10 15:03:45 2016",
 "org_type": "school",
 "org_name": "WASHINGTON METROPOLITAN HS (FORMERLY YEA)",
 "org_code": "0474",
@@ -185,28 +185,6 @@
     },
     {
         "key": {
-            "subgroup": "MALE",
-            "year": 2015,
-            "type": "Four Year ACGR"
-        },
-        "val": {
-            "graduates": 13,
-            "cohort_size": 44
-        }
-    },
-    {
-        "key": {
-            "subgroup": "FEMALE",
-            "year": 2015,
-            "type": "Four Year ACGR"
-        },
-        "val": {
-            "graduates": 19,
-            "cohort_size": 41
-        }
-    },
-    {
-        "key": {
             "subgroup": "BL7",
             "year": 2015,
             "type": "Four Year ACGR"
@@ -225,6 +203,83 @@
         "val": {
             "graduates": 32,
             "cohort_size": 84
+        }
+    },
+    {
+        "key": {
+            "subgroup": "FEMALE",
+            "year": 2015,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "graduates": 19,
+            "cohort_size": 41
+        }
+    },
+    {
+        "key": {
+            "subgroup": "MALE",
+            "year": 2015,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "graduates": 13,
+            "cohort_size": 44
+        }
+    },
+    {
+        "key": {
+            "subgroup": "MALE",
+            "year": 2015,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 24,
+            "cohort_size": 60
+        }
+    },
+    {
+        "key": {
+            "subgroup": "BL7",
+            "year": 2015,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 46,
+            "cohort_size": 100
+        }
+    },
+    {
+        "key": {
+            "subgroup": "Economy",
+            "year": 2015,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 48,
+            "cohort_size": 103
+        }
+    },
+    {
+        "key": {
+            "subgroup": "FEMALE",
+            "year": 2015,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 24,
+            "cohort_size": 44
+        }
+    },
+    {
+        "key": {
+            "subgroup": "All",
+            "year": 2015,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 48,
+            "cohort_size": 104
         }
     }
 ]

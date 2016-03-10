@@ -1,5 +1,5 @@
 {
-"timestamp": "Thu Oct 29 14:58:16 2015",
+"timestamp": "Thu Mar 10 15:03:44 2016",
 "org_type": "school",
 "org_name": "EASTERN HS",
 "org_code": "0457",
@@ -76,67 +76,12 @@
     {
         "key": {
             "subgroup": "All",
-            "year": 2014,
-            "type": "Four Year ACGR"
-        },
-        "val": {
-            "graduates": 0,
-            "cohort_size": 26
-        }
-    },
-    {
-        "key": {
-            "subgroup": "BL7",
-            "year": 2014,
-            "type": "Four Year ACGR"
-        },
-        "val": {
-            "graduates": 0,
-            "cohort_size": 25
-        }
-    },
-    {
-        "key": {
-            "subgroup": "Economy",
-            "year": 2014,
-            "type": "Four Year ACGR"
-        },
-        "val": {
-            "graduates": 0,
-            "cohort_size": 25
-        }
-    },
-    {
-        "key": {
-            "subgroup": "All",
             "year": 2015,
             "type": "Four Year ACGR"
         },
         "val": {
             "graduates": 199,
             "cohort_size": 281
-        }
-    },
-    {
-        "key": {
-            "subgroup": "MALE",
-            "year": 2015,
-            "type": "Four Year ACGR"
-        },
-        "val": {
-            "graduates": 96,
-            "cohort_size": 149
-        }
-    },
-    {
-        "key": {
-            "subgroup": "FEMALE",
-            "year": 2015,
-            "type": "Four Year ACGR"
-        },
-        "val": {
-            "graduates": 103,
-            "cohort_size": 132
         }
     },
     {
@@ -152,6 +97,39 @@
     },
     {
         "key": {
+            "subgroup": "Economy",
+            "year": 2015,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "graduates": 199,
+            "cohort_size": 271
+        }
+    },
+    {
+        "key": {
+            "subgroup": "FEMALE",
+            "year": 2015,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "graduates": 103,
+            "cohort_size": 132
+        }
+    },
+    {
+        "key": {
+            "subgroup": "MALE",
+            "year": 2015,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "graduates": 96,
+            "cohort_size": 149
+        }
+    },
+    {
+        "key": {
             "subgroup": "SPED",
             "year": 2015,
             "type": "Four Year ACGR"
@@ -163,13 +141,35 @@
     },
     {
         "key": {
-            "subgroup": "Economy",
+            "subgroup": "All",
             "year": 2015,
-            "type": "Four Year ACGR"
+            "type": "Five Year ACGR"
         },
         "val": {
-            "graduates": 199,
-            "cohort_size": 271
+            "graduates": 3,
+            "cohort_size": 26
+        }
+    },
+    {
+        "key": {
+            "subgroup": "BL7",
+            "year": 2015,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 3,
+            "cohort_size": 25
+        }
+    },
+    {
+        "key": {
+            "subgroup": "Economy",
+            "year": 2015,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 3,
+            "cohort_size": 25
         }
     }
 ]
