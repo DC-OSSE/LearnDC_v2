@@ -1,18 +1,10 @@
-setwd("X:/Learn DC/State Equity Report Development")
-source("U:/R/tomkit.R")
+source(paste(root_dir,'imports/helpers.R',sep=''))
 library(jsonlite)
 
+state_grad <- sqlQuery(dbrepcard_prod, "SELECT * FROM [dbo].[graduation_state_exhibit] where reported = 1 and cohort_size >= 25 and isnull(graduates,'')!=''")
 
-state_grad <- sqlQuery(dbrepcard_prod, "SELECT * FROM [dbo].[graduation_state_exhibit]")
-state_grad <- subset(state_grad, cohort_size >= 25 & !is.na(graduates))
-
-
-state_grad$population <- "All"
-
-strtable(state_grad)
-
-key_index <- c(1:3,6)
-value_index <- c(4,5)
+key_index <- c(1:4)
+value_index <- c(5:6)
 
 
 nested_list <- lapply(1:nrow(state_grad), FUN = function(i){ 
@@ -25,7 +17,7 @@ json <- gsub("[[","",json, fixed=TRUE)
 json <- gsub("]]","",json, fixed=TRUE)
 json <- prettify(json)
 
-setwd("U:/LearnDC ETL V2/Export/JSON/state/DC")
+setwd(paste(root_dir, 'Export/JSON/state/DC', sep=''))
 
 newfile <- file("graduation.json", encoding="UTF-8")
 sink(newfile)

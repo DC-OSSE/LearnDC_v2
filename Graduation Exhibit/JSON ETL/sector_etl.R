@@ -1,14 +1,7 @@
-setwd("U:/LearnDC ETL V2/Graduation Exhibit/JSON ETL")
-source("U:/R/tomkit.R")
+source(paste(root_dir,'imports/helpers.R',sep=''))
 library(jsonlite)
 
-
-sector_grad <- sqlQuery(dbrepcard_prod, "SELECT * FROM [dbo].[graduation_sector_exhibit]")
-sector_grad <- subset(sector_grad, cohort_size >= 25 & !is.na(graduates))
-
-
-# setwd('U:/LearnDC ETL V2/Export/CSV/lea')
-# write.csv(lea_grad, "Graduation_LEA.csv", row.names=FALSE)
+sector_grad <- sqlQuery(dbrepcard_prod, "SELECT * FROM [dbo].[graduation_sector_exhibit] where reported = 1 and cohort_size >= 25 and isnull(graduates,'')!=''")
 
 sector_grad <- subset(sector_grad, lea_code==0)
 sector_grad$lea_code <- sapply(sector_grad$lea_code, leadgr, 4)
@@ -20,7 +13,7 @@ num_orphans <- 0
 
 
 for(i in unique(sector_grad$lea_code)){
-	setwd("U:/LearnDC ETL V2/Export/JSON/lea")
+	setwd(paste(root_dir, 'Export/JSON/lea', sep=''))
 	
 	if(file.exists(i)){
 	    setwd(file.path(i))
