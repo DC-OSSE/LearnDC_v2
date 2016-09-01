@@ -22,6 +22,15 @@ for(i in unique(schools$school_code)){
 	newfile <- file("overview.json", encoding="UTF-8")
 	sink(newfile)
 
+	## Unreadable Special Characters and Paragraph Spacings		
+	schools$description <- gsub('"', "'", schools$description)		
+	schools$description <- gsub('â€œ', "'", schools$description)		
+	schools$description <- gsub('â€', "'", schools$description)		
+	schools$description <- gsub('\n', "", schools$description)		
+	schools$description <- gsub('\r', "", schools$description)		
+	schools$website <- gsub('\n', "", schools$website)		
+	schools$website <- gsub('\r', "", schools$website)
+
 	cat('{', fill=TRUE)
 
 	cat('\t"timestamp": "',date(),'",', sep="", fill=TRUE)
@@ -50,7 +59,7 @@ for(i in unique(schools$school_code)){
 	cat('\t"facebook": ',checkna_str(.tmp$facebook[1]),',', sep="", fill=TRUE)
 	cat('\t"twitter": ',checkna_str(.tmp$twitter[1]),',', sep="", fill=TRUE)
 	cat('\t"external_report_card": ',checkna_str(.tmp$external_report_card[1]),',', sep="", fill=TRUE)
-	cat('\t"equity_report_url": \n',checkna_str(.tmp$equity_report_url[1]),',\n', sep="")
+	cat('\t"equity_report_url": ',checkna_str(.tmp$equity_report_url[1]),',\n', sep="")
 	cat('\t"contact": [', sep="")
 	if(!is.na(.tmp$contact_name[1])){
 		cat('{', fill=TRUE)
