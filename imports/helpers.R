@@ -150,3 +150,17 @@ strtable <- function(df, n=4, width=60,
 	class(tab) <- c('strtable', 'data.frame')
 	return(tab)
 }
+
+jsonBoolean <- function(x){	
+	x <- toupper(x)
+
+	if(is.na(x) | is.null(x)){
+		return('null')
+	} else if(x %in% c('YES', 'TRUE', '1')){
+		return('true')
+	} else if(x %in% c('NO', 'FALSE', '0')){
+		return('false')
+	} else{
+		return('null')
+	}
+}
