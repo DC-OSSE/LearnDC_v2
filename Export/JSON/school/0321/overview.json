@@ -1,5 +1,5 @@
 {
-	"timestamp": "Thu Jun 02 23:41:35 2016",
+	"timestamp": "Thu Sep 01 15:55:11 2016",
 	"org_type": "school",
 	"org_name": "Stoddert ES",
 	"org_code": "0321",
@@ -12,10 +12,10 @@
 		"gs_url": "http://www.greatschools.org/washington-dc/washington/38-Stoddert-Elementary-School"
 	},
 	"ward": "3",
-	"grades_serviced": ["01","02","03","04","05","KG","PK4"],
-	"grades_accepted": ["05","04","KG","01","02","PK4","03"],
+	"grades_serviced": ["PK4","KG","01","02","03","04","05"],
+	"grades_accepted": null,
 	"description": "Stoddert Elementary School serves approximately 400 students in prekindergarten through 5th grade. The students hail from very diverse backgrounds, representing 26 different countries and speaking over 28 languages. We pride ourselves on our strong parental involvement and community interest. In 2011 Stodert was recognized by the U.S. Green Building Council as at LEED Gold status. Our students learn in a beautiful geothermal, renewable-energy modernized school, complete with a state-of-the-art gym and cafeteria and a rooftop urban garden. We were honored to receive the first Green Ribbon School award for exemplary achievement in environmental impact and energy efficiency, health and wellness, and environmental education from the U.S. Department of Education and continue our focus to educate students and the community in understanding the world and our impact on it. We have earned autonomy status after a quality school review by demonstrating an outstanding record of high student achievement. Stoddert Elementary is one of the first schools in the District of Columbia to receive 'Reward School' status based on our students' achievement on the 2012 DC CAS.",
-	 "address": {
+	"address": {
 		"line_1": "4001 CALVERT ST  NW",
 		"line_2": null,
 		"city": "Washington",
@@ -23,7 +23,7 @@
 		"zip": "20007",
 		"lat": 38.92304,
 		"long": -77.07907
-	 },
+	},
 	"transit": "D1, D2 (Glover Park - Federal Triangle), 31, 32, 36 (Friendship Heights - Potomac Park/Southern Ave/Naylor Rd), N8 ( Wesley Heights/Van Ness UDC)",
 	"website": "http://www.dcps.dc.gov",
 	"facebook": "http://www.facebook.com/dcpublicschools",
@@ -31,12 +31,10 @@
 	"external_report_card": "http://profiles.dcps.dc.gov/Stoddert+Elementary+School",
 	"equity_report_url": 
 "http://osse.dc.gov/sites/default/files/dc/sites/osse/publication/attachments/2015_Equity_Report_DCPS%20School_Stoddert%20ES_0.pdf",
-	"contact": [
-		{
-			"name": "Donald Bryant",
-			"title": "Principal",
-			"phone": "(202) 671-6030",
-			"email": "donald.bryant@dc.gov"
-		}
-		]
-	}
+	"contact": [{
+		"name": "Donald Bryant",
+		"title": "Principal",
+		"phone": "(202) 671-6030",
+		"email": "donald.bryant@dc.gov"
+		}]
+}

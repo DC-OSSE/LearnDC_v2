@@ -1,5 +1,5 @@
 {
-	"timestamp": "Thu Jun 02 23:41:32 2016",
+	"timestamp": "Thu Sep 01 15:55:11 2016",
 	"org_type": "school",
 	"org_name": "Houston ES",
 	"org_code": "0251",
@@ -12,10 +12,10 @@
 		"gs_url": "http://www.greatschools.org/washington-dc/washington/142-Houston-Elementary-School"
 	},
 	"ward": "7",
-	"grades_serviced": ["01","02","03","04","05","KG","PK3","PK4"],
-	"grades_accepted": ["04","KG","05","PK4","02","03","01","PK3"],
+	"grades_serviced": ["PK3","PK4","KG","01","02","03","04","05"],
+	"grades_accepted": null,
 	"description": "Charles H. Houston Elementary School prides itself on offering an excellent educational program that fosters the whole development of each student. In partnership with our students' families, we promote the intellectual, social, emotional, cultural and physical development of our students. We believe that all children can be successful when they learn to recognize their own strengths and needs as well as those of others. At Houston, we strive to educate students so that they will develop into informed citizens who are productive and can make positive contributions in the world they live in.",
-	 "address": {
+	"address": {
 		"line_1": "1100 50TH PL  NE",
 		"line_2": null,
 		"city": "Washington",
@@ -23,7 +23,7 @@
 		"zip": "20019",
 		"lat": 38.90542,
 		"long": -76.92995
-	 },
+	},
 	"transit": "U4 (Minnesota Ave/Sherriff Rd/ River Terrace), W4 (Anacostia Station - Deanwood Station), V14, V15, V7 (Penn Mar/Bureau of Engraving - Deanwood), R12 (Deanwood - New Carrolton)",
 	"website": "http://www.dcps.dc.gov",
 	"facebook": "http://www.facebook.com/dcpublicschools",
@@ -31,12 +31,10 @@
 	"external_report_card": "http://profiles.dcps.dc.gov/Houston+Elementary+School",
 	"equity_report_url": 
 "http://osse.dc.gov/sites/default/files/dc/sites/osse/publication/attachments/2015_Equity_Report_DCPS%20School_Houston%20ES_0.pdf",
-	"contact": [
-		{
-			"name": "Rembert Seaward (interim)",
-			"title": "Principal",
-			"phone": "(202) 671-6170",
-			"email": "rembert.seaward@dc.gov"
-		}
-		]
-	}
+	"contact": [{
+		"name": "Rembert Seaward (interim)",
+		"title": "Principal",
+		"phone": "(202) 671-6170",
+		"email": "rembert.seaward@dc.gov"
+		}]
+}

@@ -1,7 +1,7 @@
 {
-	"timestamp": "Tue Jun 09 16:00:29 2015",
+	"timestamp": "Thu Sep 01 15:55:12 2016",
 	"org_type": "school",
-	"org_name": "Maya Angelou PCS  Evans Middle School",
+	"org_name": "Maya Angelou PCS- Evans Middle School",
 	"org_code": "0133",
 	"closed": true,
 	"charter": true,
@@ -12,43 +12,29 @@
 		"gs_url": "http://www.greatschools.org/washington-dc/washington/613-Maya-Angelou-PCS---Evans-Middle"
 	},
 	"ward": "7",
-	"grades_serviced": [],
-	"grades_accepted": [],
-	"description": "Our mission is to create learning communities in lower income urban areas where all students, particularly those who have not succeeded in traditional schools, can reach their potential and prepare for college, career, and a lifetime of success. At Maya Angelou our students develop the academic, social, and employment skills they need to build rewarding lives and promote positive change.",
-	 "address": {
-		"line_1": "5600 EAST CAPITOL ST NE",
-		"line_2": "",
+	"grades_serviced": ["07","08"],
+	"grades_accepted": null,
+	"description": null,
+	"address": {
+		"line_1": "5600 E CAPITOL ST NE",
+		"line_2": null,
 		"city": "Washington",
 		"state": "DC",
 		"zip": "20019",
 		"lat": 38.89029,
 		"long": -76.92064
-	 },
-	"transit": "Capitol Heights Metro Station/96,97",
+	},
+	"transit": null,
 	"website": "http://www.seeforever.org",
 	"facebook": null,
 	"twitter": null,
 	"external_report_card": null,
 	"equity_report_url": 
-"http://osse.dc.gov/sites/default/files/dc/sites/osse/publication/attachments/2013_Equity_Report_PCSB_External_Maya%20Angelou%20PCS%20–%20Evans%20Middle%20School.pdf",
-	"contact": [
-		{
-			"name": "Jane Dimyan-Ehrenfeld",
-			"title": "Board Chair",
-			"phone": null,
-			"email": null
-		},
-		{
-			"name": "Harold Miles",
-			"title": "Principal",
-			"phone": null,
-			"email": null
-		},
-		{
-			"name": "Heather Wathington, Ph.D.",
-			"title": "Executive Director",
-			"phone": null,
-			"email": null
-		}
-		]
-	}
+null,
+	"contact": [{
+		"name": "Heather Wathington, Ph.D.",
+		"title": "Executive Director",
+		"phone": null,
+		"email": null
+		}]
+}

@@ -1,21 +1,21 @@
 {
-	"timestamp": "Thu Jun 02 23:41:39 2016",
+	"timestamp": "Thu Sep 01 15:55:12 2016",
 	"org_type": "school",
 	"org_name": "McKinley Technology HS",
 	"org_code": "0458",
 	"closed": false,
 	"charter": false,
 	"school_type": [
-		"Regular School"
+		"NA"
 	 ],
 	"great_schools": {
 		"gs_url": "http://www.greatschools.org/washington-dc/washington/365-McKinley-Technology-High-School"
 	},
 	"ward": "5",
 	"grades_serviced": ["09","10","11","12"],
-	"grades_accepted": ["09","10"],
-	"description": "McKinley Technology High School is a Science, Technology, Engineering and Mathematics (STEM) school. It is one of five specialized secondary schools in the district with an application process for enrollment. The high school offers courses in engineering, biotechnology, mass media and information technology. With a variety of rigorous academic options and character development and a motto of 'No Excuses. Just Solutions!' our program offers the opportunity to develop a well-rounded student. McKinley Middle School is associated with McKinley Technology High School; however, the middle school is a non-specialized neighborhood school with out-of-boundary lottery options.",
-	 "address": {
+	"grades_accepted": null,
+	"description": "McKinley Technology High School is a Science, Technology, Engineering and Mathematics (STEM) school. It is one of five specialized secondary schools in the district with an application process for enrollment. The high school offers courses in engineering, biotechnology, mass media and information technology. With a variety of rigorous academic options and character development and a motto of "No Excuses. Just Solutions!" our program offers the opportunity to develop a well-rounded student. McKinley Middle School is associated with McKinley Technology High School; however, the middle school is a non-specialized neighborhood school with out-of-boundary lottery options.",
+	"address": {
 		"line_1": "151 T ST NE",
 		"line_2": null,
 		"city": "Washington",
@@ -23,7 +23,7 @@
 		"zip": "20002",
 		"lat": 38.91522,
 		"long": -77.00412
-	 },
+	},
 	"transit": "80 (North Capitol Street Line), G8 (Rhode Island Avenue Line), M31 (McKinley High School Line), P6 (Anacostia-Eckington Line)",
 	"website": "http://www.dcps.dc.gov",
 	"facebook": "http://www.facebook.com/dcpublicschools",
@@ -31,12 +31,10 @@
 	"external_report_card": "http://profiles.dcps.dc.gov/McKinley+Technology+High+School",
 	"equity_report_url": 
 "http://osse.dc.gov/sites/default/files/dc/sites/osse/publication/attachments/2015_Equity_Report_DCPS%20School_McKinley%20Technology%20HS_1.pdf",
-	"contact": [
-		{
-			"name": "Mary Louise Jones",
-			"title": "Principal",
-			"phone": "(202) 281-3950",
-			"email": "louise.jones@dc.gov"
-		}
-		]
-	}
+	"contact": [{
+		"name": "Mary Louise Jones",
+		"title": "Principal",
+		"phone": "(202) 281-3950",
+		"email": "louise.jones@dc.gov"
+		}]
+}

@@ -1,21 +1,21 @@
 {
-	"timestamp": "Thu Jun 02 23:41:27 2016",
+	"timestamp": "Thu Sep 01 15:55:12 2016",
 	"org_type": "school",
-	"org_name": "Maya Angelou PCS-Young Adult Learning Center",
+	"org_name": "Maya Angelou PCS Young Adult Learning Center",
 	"org_code": "0137",
 	"closed": false,
-	"charter": false,
+	"charter": true,
 	"school_type": [
-		"Alternative Education School"
+		"NA"
 	 ],
 	"great_schools": {
 		"gs_url": "http://www.greatschools.org/washington-dc/washington/913-Maya-Angelou-PCS---Young-Adult-Learning-Center"
 	},
-	"ward": "7",
+	"ward": "2",
 	"grades_serviced": ["AO"],
-	"grades_accepted": ["AO"],
+	"grades_accepted": null,
 	"description": "Our goal is to help students reach their potential and prepare for college, career and a lifetime of success.",
-	 "address": {
+	"address": {
 		"line_1": "5600 E CAPITOL ST NE",
 		"line_2": null,
 		"city": "Washington",
@@ -23,7 +23,7 @@
 		"zip": "20019",
 		"lat": 38.89029,
 		"long": -76.92064
-	 },
+	},
 	"transit": "",
 	"website": "http://www.seeforever.org",
 	"facebook": null,
@@ -31,24 +31,10 @@
 	"external_report_card": null,
 	"equity_report_url": 
 "http://osse.dc.gov/sites/default/files/dc/sites/osse/publication/attachments/2015_Equity_Report_Public%20Charter%20School_Maya%20Angelou%20-%20Young%20Adult%20Learning%20Center_0.pdf",
-	"contact": [
-		{
-			"name": "Heather Wathington, Ph.D.",
-			"title": "Board Chair",
-			"phone": null,
-			"email": null
-		},
-		{
-			"name": "Jose de Olivares",
-			"title": "Principal",
-			"phone": null,
-			"email": null
-		},
-		{
-			"name": "Sarah Navarro",
-			"title": "Director",
-			"phone": null,
-			"email": null
-		}
-		]
-	}
+	"contact": [{
+		"name": "Heather Wathington, Ph.D.",
+		"title": "Board Chair",
+		"phone": null,
+		"email": null
+		}]
+}

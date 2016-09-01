@@ -1,7 +1,7 @@
 {
-	"timestamp": "Thu Jun 02 23:41:41 2016",
+	"timestamp": "Thu Sep 01 15:55:12 2016",
 	"org_type": "school",
-	"org_name": "Eagle Academy PCS New Jersey Avenue Campus",
+	"org_name": "Eagle Academy PCS Capitol Riverfront",
 	"org_code": "1125",
 	"closed": false,
 	"charter": true,
@@ -12,10 +12,10 @@
 		"gs_url": "http://www.greatschools.org/washington-dc/washington/843-Eagle-Academy-PCS---New-Jersey-Avenue"
 	},
 	"ward": "6",
-	"grades_serviced": ["01","02","03","KG","PK3","PK4"],
-	"grades_accepted": ["03","PK3","PK4","KG","01","02"],
+	"grades_serviced": ["PK3","PK4","KG","01","02","03"],
+	"grades_accepted": null,
 	"description": "Founded in 2003, Eagle Academy Public Charter School (PCS) was the first exclusively early childhood public charter school in Washington, DC. Our New Jersey Avenue campus educates children in PK3 through grade 1. The school approaches each child through a holistic framework. We educate the socio-emotional development of the child with equal vigor and comprehensiveness as the academic portion. The primary school program focuses on math and science, and incorporates these in all of the subjects taught at Eagle Academy PCS. Ours instructional program is thematic and allows children to master the various academic skills and knowledge within the context of thematic, child-centered play. Children progress at their own rate and are ready for the next grade level upon graduation.",
-	 "address": {
+	"address": {
 		"line_1": "1017 NEW JERSEY AVE SE",
 		"line_2": null,
 		"city": "Washington",
@@ -23,7 +23,7 @@
 		"zip": "20003",
 		"lat": 38.87784,
 		"long": -77.00508
-	 },
+	},
 	"transit": "Navy Yard",
 	"website": "http://www.eagleacademypcs.org",
 	"facebook": null,
@@ -31,24 +31,10 @@
 	"external_report_card": null,
 	"equity_report_url": 
 "http://osse.dc.gov/sites/default/files/dc/sites/osse/publication/attachments/2015_Equity_Report_Public%20Charter%20School_Eagle%20Academy%20PCS%20-%20Capitol%20Riverfront.pdf",
-	"contact": [
-		{
-			"name": "Davene B. McCarthy White",
-			"title": "Board Chair",
-			"phone": null,
-			"email": null
-		},
-		{
-			"name": "Trenice Jett-Jones",
-			"title": "Principal",
-			"phone": null,
-			"email": null
-		},
-		{
-			"name": "Cassandra S. Pinkney, M. Ed",
-			"title": "Executive Director",
-			"phone": null,
-			"email": null
-		}
-		]
-	}
+	"contact": [{
+		"name": "Davene B. McCarthy White",
+		"title": "Board Chair",
+		"phone": null,
+		"email": null
+		}]
+}

@@ -1,5 +1,5 @@
 {
-	"timestamp": "Thu Jun 02 23:41:40 2016",
+	"timestamp": "Thu Sep 01 15:55:12 2016",
 	"org_type": "school",
 	"org_name": "Phelps Architecture Construction and Engineering HS",
 	"org_code": "0478",
@@ -13,30 +13,29 @@
 	},
 	"ward": "5",
 	"grades_serviced": ["09","10","11","12"],
-	"grades_accepted": ["10","09","11"],
+	"grades_accepted": null,
 	"description": "Phelps is a city-wide, comprehensive application high school with rigorous, innovative curricula. We aim to prepare students for higher education and careers in architecture, construction and engineering. Students will be prepared to succeed in college through a strong academic program with Honors and Advanced Placement courses. We have a modern, brand-new facility that gives our students the state-of-the-art tools they need to become college-ready with a CTE certificate of completion. Our new building also boasts computers in every classroom, a virtual heavy equipment simulation lab and Wi-Fi accessibility.",
-	 "address": {
+	"address": {
 		"line_1": "704 26TH ST NE",
 		"line_2": null,
 		"city": "Washington",
 		"state": "DC",
-		"zip": "20002",
+		"zip": "20003",
 		"lat": 38.90199,
 		"long": -76.9719
-	 },
+	},
 	"transit": "S41 (Spingarn High School Line), X1, X3 (Benning Road-Potomac Park Line), X2 (Benning Road-H Street Line), X8 (Maryland Ave Line)",
 	"website": "http://www.dcps.dc.gov",
 	"facebook": "https://www.facebook.com/PhelpsACEHS",
 	"twitter": null,
-	"external_report_card": "http://profiles.dcps.dc.gov/Phelps+Architecture,+Construction,+and+Engineering+High+School",
+	"external_report_card": 
+"http://profiles.dcps.dc.gov/Phelps+Architecture,+Construction,+and+Engineering+High+School",
 	"equity_report_url": 
 "http://osse.dc.gov/sites/default/files/dc/sites/osse/publication/attachments/2015_Equity_Report_DCPS%20School_Phelps%20Architecture%2C%20Construction%20and%20Engineering%20HS_1.pdf",
-	"contact": [
-		{
-			"name": "Willie Jackson",
-			"title": "Principal",
-			"phone": "(202) 729-4360",
-			"email": "willie.jackson@dc.gov"
-		}
-		]
-	}
+	"contact": [{
+		"name": "Willie Jackson",
+		"title": "Principal",
+		"phone": "(202) 729-4360",
+		"email": "willie.jackson@dc.gov"
+		}]
+}

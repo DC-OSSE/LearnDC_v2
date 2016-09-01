@@ -1,7 +1,7 @@
 {
-	"timestamp": "Thu Jun 02 23:41:42 2016",
+	"timestamp": "Thu Sep 01 15:55:12 2016",
 	"org_type": "school",
-	"org_name": "E.L. Haynes PCS-Elementary School",
+	"org_name": "EL Haynes PCS Elementary",
 	"org_code": "1206",
 	"closed": false,
 	"charter": true,
@@ -12,31 +12,29 @@
 		"gs_url": null
 	},
 	"ward": "4",
-	"grades_serviced": ["01","02","03","04","KG","PK3","PK4"],
-	"grades_accepted": ["PK3","PK4","KG","01","02","03","04"],
+	"grades_serviced": ["PK3","PK4","KG","01","02","03","04"],
+	"grades_accepted": null,
 	"description": "Every E.L. Haynes student of every race, socioeconomic status, and home language will reach high levels of academic achievement and be prepared to succeed at the college of his or her choice. Every E.L. Haynes student will be adept at mathematical reasoning, will use scientific methods effectively to frame and solve problems, and will develop the lifelong skills needed to be successful individuals, active community members, and responsible citizens.",
-	 "address": {
+	"address": {
 		"line_1": "4501 KANSAS AVE NW",
 		"line_2": null,
 		"city": "Washington",
 		"state": "DC",
-		"zip": "20011",
+		"zip": "20010",
 		"lat": 38.9456,
 		"long": -77.02242
-	 },
-	"transit": "NA",
+	},
+	"transit": null,
 	"website": "http://www.elhaynes.org",
 	"facebook": null,
 	"twitter": null,
 	"external_report_card": null,
 	"equity_report_url": 
 "http://osse.dc.gov/sites/default/files/dc/sites/osse/publication/attachments/2015_Equity_Report_Public%20Charter%20School_E.L.%20Haynes%20PCS%20-%20Kansas%20Avenue%20%28Elementary%20School%29_0.pdf",
-	"contact": [
-		{
-			"name": "Richard Pohlman",
-			"title": "Acting HOS and Chief of Operation",
-			"phone": "202-667-4446",
-			"email": null
-		}
-		]
-	}
+	"contact": [{
+		"name": "Richard Pohlman",
+		"title": "Acting HOS and Chief of Operation",
+		"phone": "202-667-4446",
+		"email": ""
+		}]
+}

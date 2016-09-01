@@ -1,5 +1,5 @@
 {
-	"timestamp": "Thu Jun 02 23:41:33 2016",
+	"timestamp": "Thu Sep 01 15:55:11 2016",
 	"org_type": "school",
 	"org_name": "Maury ES",
 	"org_code": "0274",
@@ -12,10 +12,10 @@
 		"gs_url": "http://www.greatschools.org/washington-dc/washington/28-Maury-Elementary-School"
 	},
 	"ward": "6",
-	"grades_serviced": ["01","02","03","04","05","KG","PK3","PK4"],
-	"grades_accepted": ["PK4","02","PK3","03","01","04","05","KG"],
+	"grades_serviced": ["PK3","PK4","KG","01","02","03","04","05"],
+	"grades_accepted": null,
 	"description": "Maury Elementary School is a small community-based school that offers students a personalized learning environment. Through work and in play, students discover their potential, embrace diversity and benefit from strong relationships with staff, parents and volunteers. Maury is committed to providing inquiry-based learning experiences, arts enrichment and academic programs that enhance students growth and development. Parents are always welcome and work closely with teachers to ensure that each child receives the attention he/she needs to succeed. At Maury, we educate the whole child in a safe, multidimensional environment.",
-	 "address": {
+	"address": {
 		"line_1": "1250 CONSTITUTION AVE NE",
 		"line_2": null,
 		"city": "Washington",
@@ -23,7 +23,7 @@
 		"zip": "20002",
 		"lat": 38.89219,
 		"long": -76.98866
-	 },
+	},
 	"transit": "D6 (Sibley Hospital - Stadium Armory), 96, 97 (Capitol Heights - McLean Gardens/Union Station), 70 (Silver Spring Station), B2 (Anacostia- Mt Rainier), D6 (Stadium Armory), 90, 92, 93 (Ellington Bridge - Congress Heights/Anacostia Station), X8 (Carver Terrace - Union Station)",
 	"website": "http://www.dcps.dc.gov",
 	"facebook": "http://www.facebook.com/#!/pages/Washington-DC/Maury-Elementary-School/151330572166?ref=search",
@@ -31,12 +31,10 @@
 	"external_report_card": "http://profiles.dcps.dc.gov/Maury+Elementary+School",
 	"equity_report_url": 
 "http://osse.dc.gov/sites/default/files/dc/sites/osse/publication/attachments/2015_Equity_Report_DCPS%20School_Maury%20ES_1.pdf",
-	"contact": [
-		{
-			"name": "Carolyne Albert-Garvey",
-			"title": "Principal",
-			"phone": "(202) 698-3838",
-			"email": "carolyne.albert-garvey@dc.gov"
-		}
-		]
-	}
+	"contact": [{
+		"name": "Carolyne Albert-Garvey",
+		"title": "Principal",
+		"phone": "(202) 698-3838",
+		"email": "carolyne.albert-garvey@dc.gov"
+		}]
+}

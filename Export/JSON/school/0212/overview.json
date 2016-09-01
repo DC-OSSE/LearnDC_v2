@@ -1,5 +1,5 @@
 {
-	"timestamp": "Thu Jun 02 23:41:30 2016",
+	"timestamp": "Thu Sep 01 15:55:11 2016",
 	"org_type": "school",
 	"org_name": "Brent ES",
 	"org_code": "0212",
@@ -12,10 +12,10 @@
 		"gs_url": "http://www.greatschools.org/washington-dc/washington/89-Brent-Elementary-School"
 	},
 	"ward": "6",
-	"grades_serviced": ["01","02","03","04","05","KG","PK3","PK4"],
-	"grades_accepted": ["KG","04","02","03","PK3","PK4","05","01"],
+	"grades_serviced": ["PK3","PK4","KG","01","02","03","04","05"],
+	"grades_accepted": null,
 	"description": "At Brent, we bring together a diverse learning community of students, staff and families to provide an academic, ethical and personalized foundation for success in a global society. The goal is to nurture self-motivated and joyful learners who are creative and critical in their thinking and highly capable in their communication.",
-	 "address": {
+	"address": {
 		"line_1": "301 NORTH CAROLINA AVE  SE",
 		"line_2": null,
 		"city": "Washington",
@@ -23,20 +23,19 @@
 		"zip": "20003",
 		"lat": 38.8848,
 		"long": -77.00146
-	 },
+	},
 	"transit": "32 (Southern Ave - Friendship Heights), 34 (Archives - Naylor Rd Station), 36 (Friendship Heights - Naylor Rd Station), P6 (Rhode Island Station - Anacostia Station), DCN22 (Union Station), 96 (Capitol Heights Station - McLean Gardens), 97 (Union Station - Capitol Heights Station)",
 	"website": "http://www.dcps.dc.gov",
-	"facebook": "http://www.facebook.com/pages/Washington-DC/Robert-Brent-Elementary-School/151457801547343?v=wall&ref=ts",
+	"facebook": 
+"http://www.facebook.com/pages/Washington-DC/Robert-Brent-Elementary-School/151457801547343?v=wall&ref=ts",
 	"twitter": null,
 	"external_report_card": "http://profiles.dcps.dc.gov/Brent+Elementary+School",
 	"equity_report_url": 
 "http://osse.dc.gov/sites/default/files/dc/sites/osse/publication/attachments/2015_Equity_Report_DCPS%20School_Brent%20ES_0.pdf",
-	"contact": [
-		{
-			"name": "Peter Young",
-			"title": "Principal",
-			"phone": "(202) 698-3363",
-			"email": "peter.young@dc.gov"
-		}
-		]
-	}
+	"contact": [{
+		"name": "Peter Young",
+		"title": "Principal",
+		"phone": "(202) 698-3363",
+		"email": "peter.young@dc.gov"
+		}]
+}

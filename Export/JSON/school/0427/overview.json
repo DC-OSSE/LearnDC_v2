@@ -1,5 +1,5 @@
 {
-	"timestamp": "Thu Jun 02 23:41:38 2016",
+	"timestamp": "Thu Sep 01 15:55:12 2016",
 	"org_type": "school",
 	"org_name": "Sousa MS",
 	"org_code": "0427",
@@ -13,9 +13,9 @@
 	},
 	"ward": "7",
 	"grades_serviced": ["06","07","08"],
-	"grades_accepted": ["06","08","07"],
+	"grades_accepted": null,
 	"description": "John Philip Sousa Middle School is housed in a newly modernized building that highlights the school's proud history while simultaneously providing our students with a state-of-the-art facility. Our goal is to help our students become change agents in their communities and the world at large. We set extremely high expectations for our students and utilize technology to enrich our strong academic programs. We offer a variety of classes that push students to become productive citizens. Additionally, we provide resources that promote social growth and character development.",
-	 "address": {
+	"address": {
 		"line_1": "3650 ELY PL SE",
 		"line_2": null,
 		"city": "Washington",
@@ -23,7 +23,7 @@
 		"zip": "20019",
 		"lat": 38.88389,
 		"long": -76.95316
-	 },
+	},
 	"transit": "U5, U6 (Mayfair-Marshall Heights Line), V7, V9 (Minnesota Ave-M Street Line)",
 	"website": "http://www.dcps.dc.gov",
 	"facebook": "http://www.facebook.com/pages/Sousa-Middle-School/105105149536913?ref=ts",
@@ -31,12 +31,10 @@
 	"external_report_card": "http://profiles.dcps.dc.gov/Sousa+Middle+School",
 	"equity_report_url": 
 "http://osse.dc.gov/sites/default/files/dc/sites/osse/publication/attachments/2015_Equity_Report_DCPS%20School_Sousa%20MS_0.pdf",
-	"contact": [
-		{
-			"name": "Clarence Humes",
-			"title": "Principal",
-			"phone": "(202) 729-3260",
-			"email": "clarence.humes@dc.gov"
-		}
-		]
-	}
+	"contact": [{
+		"name": "Clarence Humes",
+		"title": "Principal",
+		"phone": "(202) 729-3260",
+		"email": "clarence.humes@dc.gov"
+		}]
+}

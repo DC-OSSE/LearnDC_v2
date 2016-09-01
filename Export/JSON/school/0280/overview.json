@@ -1,5 +1,5 @@
 {
-	"timestamp": "Thu Jun 02 23:41:33 2016",
+	"timestamp": "Thu Sep 01 15:55:11 2016",
 	"org_type": "school",
 	"org_name": "Miner ES",
 	"org_code": "0280",
@@ -12,10 +12,10 @@
 		"gs_url": "http://www.greatschools.org/washington-dc/washington/4-Miner-Elementary-School"
 	},
 	"ward": "6",
-	"grades_serviced": ["01","02","03","04","05","KG","PK3","PK4"],
-	"grades_accepted": ["PK4","KG","01","02","03","PK3","05","04"],
+	"grades_serviced": ["PK3","PK4","KG","01","02","03","04","05"],
+	"grades_accepted": null,
 	"description": "With a demanding educational agenda that builds upon the active engagement of school, parents and community, Miner Elementary School seeks to inspire young learners. We promote academic, social and cultural excellence in a dynamic school environment. Our school is supported by numerous partnerships that assist in the improvement of student performance and educational excellence. Nestled in the Capitol Hill community of northeast Washington, DC, we provide an inspiring, exciting and enthusiastic learning environment, a clean, safe and state-of-the-art facility and a supportive and resourceful educational setting.",
-	 "address": {
+	"address": {
 		"line_1": "601 15TH ST  NE",
 		"line_2": null,
 		"city": "Washington",
@@ -23,7 +23,7 @@
 		"zip": "20002",
 		"lat": 38.89738,
 		"long": -76.9829
-	 },
+	},
 	"transit": "B2 (Mt Rainier - Anacostia), X1, X2, X3 (Minnesota Ave Station - Potomac Park/Lafayette Sq/McLean Gardens), X8 (Carver Terrace - Union Station), D6 (Stadium Armory Station - Sibley Hospital), D3, D4 (Ivy City - Dupont Circle/Franklin Sq), D8 (Washington Hospital)",
 	"website": "http://www.dcps.dc.gov",
 	"facebook": "http://www.facebook.com/dcpublicschools",
@@ -31,12 +31,10 @@
 	"external_report_card": "http://profiles.dcps.dc.gov/Miner+Elementary+School",
 	"equity_report_url": 
 "http://osse.dc.gov/sites/default/files/dc/sites/osse/publication/attachments/2015_Equity_Report_DCPS%20School_Miner%20ES_1.pdf",
-	"contact": [
-		{
-			"name": "Anne Evans (interim)",
-			"title": "Principal",
-			"phone": "(202) 397-3960",
-			"email": "anne.evans@dc.gov"
-		}
-		]
-	}
+	"contact": [{
+		"name": "Anne Evans (interim)",
+		"title": "Principal",
+		"phone": "(202) 397-3960",
+		"email": "anne.evans@dc.gov"
+		}]
+}

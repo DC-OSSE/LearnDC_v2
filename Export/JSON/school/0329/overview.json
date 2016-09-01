@@ -1,5 +1,5 @@
 {
-	"timestamp": "Thu Jun 02 23:41:36 2016",
+	"timestamp": "Thu Sep 01 15:55:11 2016",
 	"org_type": "school",
 	"org_name": "Turner ES",
 	"org_code": "0329",
@@ -12,18 +12,18 @@
 		"gs_url": "http://www.greatschools.org/washington-dc/washington/57-Turner-Elementary-School"
 	},
 	"ward": "8",
-	"grades_serviced": ["01","02","03","04","05","KG","PK3","PK4"],
-	"grades_accepted": ["PK3","05","02","01","04","03","KG","PK4"],
+	"grades_serviced": ["PK3","PK4","KG","01","02","03","04","05"],
+	"grades_accepted": null,
 	"description": "At Turner Elementary School we prepare students in every possible way for academic success. Our mission is to facilitate a love for learning and to transform our students into lifelong learners. We are fortunate to have the support of many community partners and organizations to supplement our rigorous academic program. We are poised for success because we are turning potential into reality. Parents, staff and administrators are fully committed to creating an inclusive, engaging and rich learning environment for all of our students.",
-	 "address": {
+	"address": {
 		"line_1": "3264 STANTON RD SE",
 		"line_2": null,
 		"city": "Washington",
 		"state": "DC",
-		"zip": "20020",
+		"zip": "20032",
 		"lat": 38.84764,
 		"long": -76.98031
-	 },
+	},
 	"transit": "W2, W3 (Washington Overlook - United Medical Center), 92, 93 (Ellington Bridge - Congress Heights), W4 (Deanwood - Anacostia), 94 (Anacostia/Stanton Rd loop)",
 	"website": "http://www.dcps.dc.gov",
 	"facebook": "http://www.facebook.com/TurnerElementarySchool?ref=ts&__a=11&",
@@ -31,12 +31,10 @@
 	"external_report_card": "http://profiles.dcps.dc.gov/Turner+Elementary+School",
 	"equity_report_url": 
 "http://osse.dc.gov/sites/default/files/dc/sites/osse/publication/attachments/2015_Equity_Report_DCPS%20School_Turner%20ES_0.pdf",
-	"contact": [
-		{
-			"name": "Robert Gregory",
-			"title": "Principal",
-			"phone": "(202) 645-3470",
-			"email": "robert.gregory@dc.gov"
-		}
-		]
-	}
+	"contact": [{
+		"name": "Robert Gregory",
+		"title": "Principal",
+		"phone": "(202) 645-3470",
+		"email": "robert.gregory@dc.gov"
+		}]
+}

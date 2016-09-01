@@ -1,7 +1,7 @@
 {
-	"timestamp": "Thu Jun 02 23:41:31 2016",
+	"timestamp": "Thu Sep 01 15:55:13 2016",
 	"org_type": "school",
-	"org_name": "Democracy Prep PCS-Congress Heights",
+	"org_name": "Democracy Prep Congress Heights PCS",
 	"org_code": "0234",
 	"closed": false,
 	"charter": true,
@@ -12,26 +12,24 @@
 		"gs_url": null
 	},
 	"ward": "8",
-	"grades_serviced": ["01","02","03","04","05","06","KG","PK3","PK4"],
-	"grades_accepted": ["07","04","05","06","PK3","PK4","KG","01","02","03"],
-	"description": "NA",
-	 "address": {
-		"line_1": "3100 MARTIN LUTHER KING AVENUE SE",
+	"grades_serviced": ["PK3","PK4","KG","01","02","03","04","05","06","07"],
+	"grades_accepted": null,
+	"description": null,
+	"address": {
+		"line_1": "3100 MARTIN LUTHER KING AVE SE",
 		"line_2": null,
 		"city": "Washington",
 		"state": "DC",
 		"zip": "20032",
 		"lat": 38.8435,
 		"long": -76.99814
-	 },
-	"transit": "NA",
+	},
+	"transit": null,
 	"website": "http://www.democracyprep.org/",
 	"facebook": null,
 	"twitter": null,
 	"external_report_card": null,
 	"equity_report_url": 
 "http://osse.dc.gov/sites/default/files/dc/sites/osse/publication/attachments/2015_Equity_Report_Public%20Charter%20School_Democracy%20Prep%20Congress%20Heights%20Public%20Charter%20School_0.pdf",
-	"contact": [
-
-		]
-	}
+	"contact": []
+}

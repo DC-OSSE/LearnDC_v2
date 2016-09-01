@@ -1,5 +1,5 @@
 {
-	"timestamp": "Thu Jun 02 23:41:28 2016",
+	"timestamp": "Thu Sep 01 15:55:13 2016",
 	"org_type": "school",
 	"org_name": "Roots PCS",
 	"org_code": "0173",
@@ -12,10 +12,10 @@
 		"gs_url": "http://www.greatschools.org/washington-dc/washington/267-Roots-PCS"
 	},
 	"ward": "4",
-	"grades_serviced": ["01","02","03","04","05","KG","PK3","PK4"],
-	"grades_accepted": ["01","02","03","04","05","KG","PK3","PK4"],
+	"grades_serviced": ["PK3","PK4","KG","01","02","03","04","05"],
+	"grades_accepted": null,
 	"description": "Promote & secure the connection of Mother Africa within our children; prepare students to break the chains of psychological conditioning that attempt to keep them powerless in all phases of society; provide students with a strong African-centered learning environment; guide students toward academic excellence, exemplary character & social responsibility; encourage success leading to self-reliance & economic, social/political contributions to society.",
-	 "address": {
+	"address": {
 		"line_1": "15 KENNEDY ST NW",
 		"line_2": null,
 		"city": "Washington",
@@ -23,7 +23,7 @@
 		"zip": "20011",
 		"lat": 38.95686,
 		"long": -77.01031
-	 },
+	},
 	"transit": "Fort Totten Metro Station/K6; E2; 64",
 	"website": "http://www.rootspcs.org",
 	"facebook": null,
@@ -31,18 +31,10 @@
 	"external_report_card": "http://dashboard.dcpcsb.org/detailed/94",
 	"equity_report_url": 
 "http://osse.dc.gov/sites/default/files/dc/sites/osse/publication/attachments/2015_Equity_Report_Public%20Charter%20School_Roots%20PCS_0.pdf",
-	"contact": [
-		{
-			"name": "Gilda Sherrod-Ali",
-			"title": "Board Chair",
-			"phone": null,
-			"email": null
-		},
-		{
-			"name": "Bernida Thompson, Ed.D.",
-			"title": "Principal",
-			"phone": null,
-			"email": null
-		}
-		]
-	}
+	"contact": [{
+		"name": "Gilda Sherrod-Ali",
+		"title": "Board Chair",
+		"phone": null,
+		"email": null
+		}]
+}

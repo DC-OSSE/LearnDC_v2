@@ -1,7 +1,7 @@
 {
-	"timestamp": "Thu Jun 02 23:41:27 2016",
+	"timestamp": "Thu Sep 01 15:55:12 2016",
 	"org_type": "school",
-	"org_name": "Mary McLeod Bethune Day Academy PCS Slowe Campus",
+	"org_name": "Mary McLeod Bethune Day Academy PCS",
 	"org_code": "0135",
 	"closed": false,
 	"charter": true,
@@ -12,43 +12,29 @@
 		"gs_url": "http://www.greatschools.org/washington-dc/washington/565-Mary-McLeod-Bethune-Day-Academy-PCS"
 	},
 	"ward": "5",
-	"grades_serviced": ["01","02","03","04","05","06","07","08","KG","PK3","PK4"],
-	"grades_accepted": ["01","02","03","04","05","06","07","08","KG","PK3","PK4"],
+	"grades_serviced": ["PK3","PK4","KG","01","02","03","04","05","06","07","08"],
+	"grades_accepted": null,
 	"description": "The mission of the Mary McLeod Bethune Day Academy Public Charter School is to implement a high performing day school that provides a challenging academic program in a supportive, parentally involved, and diverse learning environment to enable each student to achieve academic success, talent, and positive social development.",
-	 "address": {
-		"line_1": "1404 JACKSON STREET NE",
+	"address": {
+		"line_1": "1404 JACKSON ST NE",
 		"line_2": null,
 		"city": "Washington",
 		"state": "DC",
 		"zip": "20017",
 		"lat": 38.92961,
 		"long": -76.98686
-	 },
-	"transit": "Brookland-CUA Metro Station/H6 ",
+	},
+	"transit": "Brookland-CUA Metro Station/H6",
 	"website": "http://www.mmbethune.org",
 	"facebook": null,
 	"twitter": null,
 	"external_report_card": "http://dashboard.dcpcsb.org/detailed/81",
 	"equity_report_url": 
 "http://osse.dc.gov/sites/default/files/dc/sites/osse/publication/attachments/2015_Equity_Report_Public%20Charter%20School_Mary%20McLeod%20Bethune%20Day%20Academy%20PCS%20_0.pdf",
-	"contact": [
-		{
-			"name": "Valerie Smith",
-			"title": "Board Chair",
-			"phone": null,
-			"email": null
-		},
-		{
-			"name": "Mr. Jubria A. Lewis, ES Principal & Mr. C. Maurice Porter, MS Principal",
-			"title": "Principal",
-			"phone": null,
-			"email": null
-		},
-		{
-			"name": "Dr. Linda McKay",
-			"title": "Executive Director",
-			"phone": null,
-			"email": null
-		}
-		]
-	}
+	"contact": [{
+		"name": "Valerie Smith",
+		"title": "Board Chair",
+		"phone": null,
+		"email": null
+		}]
+}

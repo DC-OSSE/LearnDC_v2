@@ -1,7 +1,7 @@
 {
-	"timestamp": "Thu Jun 02 23:41:26 2016",
+	"timestamp": "Thu Sep 01 15:55:12 2016",
 	"org_type": "school",
-	"org_name": "Briya Public Charter School",
+	"org_name": "Briya PCS",
 	"org_code": "0126",
 	"closed": false,
 	"charter": true,
@@ -11,11 +11,11 @@
 	"great_schools": {
 		"gs_url": null
 	},
-	"ward": "1",
-	"grades_serviced": ["AO","PK3","PK4"],
-	"grades_accepted": ["AO","PK3","PK4"],
+	"ward": "6",
+	"grades_serviced": ["PK3","PK4","AO"],
+	"grades_accepted": null,
 	"description": "The mission of Briya PCS is to provide a high-quality education for adults and children that empowers families through a culturally sensitive family literacy model. The school offers six levels of family literacy classes including adult and early childhood education. Required components of adult family literacy classes include ESL, computers, parenting, and Parent and Child Together time. Briya PCS also offers Child Development Associate and Medical Assistant preparation.",
-	 "address": {
+	"address": {
 		"line_1": "2333 ONTARIO RD NW",
 		"line_2": null,
 		"city": "Washington",
@@ -23,7 +23,7 @@
 		"zip": "20009",
 		"lat": 38.92097,
 		"long": -77.03981
-	 },
+	},
 	"transit": "S1; S2,4",
 	"website": "http://briya.org/",
 	"facebook": null,
@@ -31,18 +31,10 @@
 	"external_report_card": null,
 	"equity_report_url": 
 "http://osse.dc.gov/sites/default/files/dc/sites/osse/publication/attachments/2015_Equity_Report_Public%20Charter%20School_Briya%20PCS.pdf",
-	"contact": [
-		{
-			"name": "Joel Goering",
-			"title": "Board Chair",
-			"phone": null,
-			"email": null
-		},
-		{
-			"name": "Christie McKay",
-			"title": "Principal",
-			"phone": null,
-			"email": null
-		}
-		]
-	}
+	"contact": [{
+		"name": "Joel Goering",
+		"title": "Board Chair",
+		"phone": null,
+		"email": null
+		}]
+}

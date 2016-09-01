@@ -1,5 +1,5 @@
 {
-	"timestamp": "Thu Jun 02 23:41:34 2016",
+	"timestamp": "Thu Sep 01 15:55:11 2016",
 	"org_type": "school",
 	"org_name": "Raymond EC",
 	"org_code": "0302",
@@ -12,10 +12,10 @@
 		"gs_url": "http://www.greatschools.org/washington-dc/washington/27-Raymond-Education-Campus"
 	},
 	"ward": "4",
-	"grades_serviced": ["01","02","03","04","05","06","07","08","KG","PK3","PK4"],
-	"grades_accepted": ["KG","04","02","03","PK3","05","06","07","PK4","08","01"],
+	"grades_serviced": ["PK3","PK4","KG","01","02","03","04","05","06","07","08"],
+	"grades_accepted": null,
 	"description": "Raymond Education Campus is focused on providing students with a positive learning environment and an array of opportunities to learn. We have a staff of dedicated and highly qualified teachers who inspire children to realize their individual dreams. Our instructional program incorporates RTI, co-teaching, small class sizes, PBIS and technology-driven instruction. In addition, our students receive a comprehensive arts education through Fillmore Arts. These academic and social interactions create exceptional opportunities for children to take pride in who they are and who they can become.",
-	 "address": {
+	"address": {
 		"line_1": "915 SPRING RD  NW",
 		"line_2": null,
 		"city": "Washington",
@@ -23,7 +23,7 @@
 		"zip": "20010",
 		"lat": 38.93581,
 		"long": -77.02643
-	 },
+	},
 	"transit": "63, 64 (Federal Triangle - Takoma/Fort Totten), 60, 62 (Fort Totten/Takoma - Georgia Ave/Petworth), 70, 71 (Buzzard Point/9th  &  Maine - Silver Spring), 79 (Archives - Silver Spring), H8 (Mt Pleasant - Rhode Island Ave), 52, 53, 54 (Takoma/14th  &  Buchanan - L'Enfant Plaza/McPherson Sq)",
 	"website": "http://www.dcps.dc.gov",
 	"facebook": "http://www.facebook.com/RaymondEducationCampus?ref=sgm",
@@ -31,12 +31,10 @@
 	"external_report_card": "http://profiles.dcps.dc.gov/Raymond+Education+Campus",
 	"equity_report_url": 
 "http://osse.dc.gov/sites/default/files/dc/sites/osse/publication/attachments/2015_Equity_Report_DCPS%20School_Raymond%20EC_0.pdf",
-	"contact": [
-		{
-			"name": "Natalie Hubbard",
-			"title": "Principal",
-			"phone": "(202) 576-6236",
-			"email": "natalie.hubbard@dc.gov"
-		}
-		]
-	}
+	"contact": [{
+		"name": "Natalie Hubbard",
+		"title": "Principal",
+		"phone": "(202) 576-6236",
+		"email": "natalie.hubbard@dc.gov"
+		}]
+}

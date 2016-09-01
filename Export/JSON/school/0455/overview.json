@@ -1,5 +1,5 @@
 {
-	"timestamp": "Thu Jun 02 23:41:39 2016",
+	"timestamp": "Thu Sep 01 15:55:12 2016",
 	"org_type": "school",
 	"org_name": "Coolidge HS",
 	"org_code": "0455",
@@ -13,9 +13,9 @@
 	},
 	"ward": "4",
 	"grades_serviced": ["09","10","11","12"],
-	"grades_accepted": ["11","09","12","10"],
+	"grades_accepted": null,
 	"description": "The mission of Calvin Coolidge High School is to provide its students with the opportunity to develop the academic, social and emotional skills necessary to make a smooth transition from high school to a post-secondary educational institution.",
-	 "address": {
+	"address": {
 		"line_1": "6315 5TH ST  NW",
 		"line_2": null,
 		"city": "Washington",
@@ -23,7 +23,7 @@
 		"zip": "20011",
 		"lat": 38.96728,
 		"long": -77.01958
-	 },
+	},
 	"transit": "62 (Takoma/Fort Totten - Petworth/Georgia Ave/Federal Triangle)",
 	"website": "http://www.dcps.dc.gov",
 	"facebook": "http://www.facebook.com/dcpublicschools",
@@ -31,12 +31,10 @@
 	"external_report_card": "http://profiles.dcps.dc.gov/Coolidge+High+School",
 	"equity_report_url": 
 "http://osse.dc.gov/sites/default/files/dc/sites/osse/publication/attachments/2015_Equity_Report_DCPS%20School_Coolidge%20HS_0.pdf",
-	"contact": [
-		{
-			"name": "Richard Lawrence",
-			"title": "Principal",
-			"phone": "(202) 671-6080",
-			"email": "richard.lawrence@dc.gov"
-		}
-		]
-	}
+	"contact": [{
+		"name": "Richard Lawrence",
+		"title": "Principal",
+		"phone": "(202) 671-6080",
+		"email": "richard.lawrence@dc.gov"
+		}]
+}

@@ -1,5 +1,5 @@
 {
-	"timestamp": "Thu Jun 02 23:41:35 2016",
+	"timestamp": "Thu Sep 01 15:55:11 2016",
 	"org_type": "school",
 	"org_name": "Smothers ES",
 	"org_code": "0322",
@@ -12,10 +12,10 @@
 		"gs_url": "http://www.greatschools.org/washington-dc/washington/48-Smothers-Elementary-School"
 	},
 	"ward": "7",
-	"grades_serviced": ["01","02","03","04","05","KG","PK3","PK4"],
-	"grades_accepted": ["03","PK3","04","05","02","PK4","KG","01"],
+	"grades_serviced": ["PK3","PK4","KG","01","02","03","04","05"],
+	"grades_accepted": null,
 	"description": "Smothers Elementary School is a small, close-knit community that challenges scholars academically in a safe and disciplined environment. In addition to our core curriculum, our scholars participate in art, music, physical education, Spanish and new technological ways of learning. We also offer a variety of extracurricular activities including a structured afterschool program, Boy Scouts, Girl Scouts, tennis and tutoring sessions for interested scholars. At Smothers, we assist our scholars in realizing their potential while helping them develop into well-rounded and productive citizens.",
-	 "address": {
+	"address": {
 		"line_1": "4400 BROOKS ST  NE",
 		"line_2": null,
 		"city": "Washington",
@@ -23,7 +23,7 @@
 		"zip": "20019",
 		"lat": 38.89355,
 		"long": -76.93847
-	 },
+	},
 	"transit": "U8 (Capitol/Benning Heights), 97 (Union Station - Capitol Heights), U5, U6 (Mayfair/Marshall Heights/Minnesota Ave), 96 (McLean Gardens - Capitol Heights Station), W4 (Deanwood - Anacostia)",
 	"website": "http://www.dcps.dc.gov",
 	"facebook": "http://www.facebook.com/SmothersES?ref=ts",
@@ -31,12 +31,10 @@
 	"external_report_card": "http://profiles.dcps.dc.gov/Smothers+Elementary+School",
 	"equity_report_url": 
 "http://osse.dc.gov/sites/default/files/dc/sites/osse/publication/attachments/2015_Equity_Report_DCPS%20School_Smothers%20ES_0.pdf",
-	"contact": [
-		{
-			"name": "Shannon Feinblatt",
-			"title": "Principal",
-			"phone": "(202) 939-3600",
-			"email": "shannon.feinblatt@dc.gov"
-		}
-		]
-	}
+	"contact": [{
+		"name": "Shannon Feinblatt",
+		"title": "Principal",
+		"phone": "(202) 939-3600",
+		"email": "shannon.feinblatt@dc.gov"
+		}]
+}

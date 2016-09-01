@@ -1,21 +1,21 @@
 {
-	"timestamp": "Thu Jun 02 23:41:26 2016",
+	"timestamp": "Thu Sep 01 15:55:12 2016",
 	"org_type": "school",
 	"org_name": "Friendship PCS Southeast Academy",
 	"org_code": "0113",
 	"closed": false,
 	"charter": true,
 	"school_type": [
-		"Special Education School"
+		"NA"
 	 ],
 	"great_schools": {
 		"gs_url": "http://www.greatschools.org/washington-dc/washington/270-Friendship-Southeast-Elementary-Academy-PCS"
 	},
-	"ward": "8",
-	"grades_serviced": ["01","02","03","04","05","KG","PK3","PK4"],
-	"grades_accepted": ["PK3","PK4","KG","01","02","03","04","05"],
+	"ward": "4",
+	"grades_serviced": ["PK3","PK4","KG","01","02","03","04","05"],
+	"grades_accepted": null,
 	"description": "The mission of Friendship Public Charter School is to provide a world-class education that motivates students to achieve high academic standards, enjoy learning and develop as ethical, literate, well-rounded and self-sufficient citizens who contribute actively to their communities.",
-	 "address": {
+	"address": {
 		"line_1": "645 MILWAUKEE PLACE SE",
 		"line_2": null,
 		"city": "Washington",
@@ -23,7 +23,7 @@
 		"zip": "20032",
 		"lat": 38.84779,
 		"long": -76.99701
-	 },
+	},
 	"transit": "Congress Heights Metro Station/A2",
 	"website": "http://www.friendshipschools.org",
 	"facebook": null,
@@ -31,18 +31,10 @@
 	"external_report_card": "http://dashboard.dcpcsb.org/detailed/55",
 	"equity_report_url": 
 "http://osse.dc.gov/sites/default/files/dc/sites/osse/publication/attachments/2015_Equity_Report_Public%20Charter%20School_Friendship%20PCS%20-%20Southeast%20Elementary%20Academy_0.pdf",
-	"contact": [
-		{
-			"name": "Donald L. Hense",
-			"title": "Board Chair",
-			"phone": null,
-			"email": null
-		},
-		{
-			"name": "Joseph Speight",
-			"title": "Principal",
-			"phone": null,
-			"email": null
-		}
-		]
-	}
+	"contact": [{
+		"name": "Donald L. Hense",
+		"title": "Board Chair",
+		"phone": null,
+		"email": null
+		}]
+}

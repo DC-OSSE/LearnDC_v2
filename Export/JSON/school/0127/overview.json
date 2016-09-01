@@ -1,7 +1,7 @@
 {
-	"timestamp": "Thu Jun 02 23:41:27 2016",
+	"timestamp": "Thu Sep 01 15:55:12 2016",
 	"org_type": "school",
-	"org_name": "Cesar Chavez PCS for Public Policy-Chavez Prep",
+	"org_name": "Cesar Chavez PCS for Public Policy Chavez Prep",
 	"org_code": "0127",
 	"closed": false,
 	"charter": true,
@@ -11,11 +11,11 @@
 	"great_schools": {
 		"gs_url": "http://www.greatschools.org/washington-dc/washington/566-Cesar-Chavez-PCS---Bruce-Prep"
 	},
-	"ward": "1",
+	"ward": "7",
 	"grades_serviced": ["06","07","08","09"],
-	"grades_accepted": ["06","08","07"],
+	"grades_accepted": null,
 	"description": "The Chavez Schools mission is to prepare scholars to enter and succeed in competitive colleges and empower scholars to use public policy to create a more just, free, and equal world.",
-	 "address": {
+	"address": {
 		"line_1": "770 KENYON ST NW",
 		"line_2": null,
 		"city": "Washington",
@@ -23,7 +23,7 @@
 		"zip": "20010",
 		"lat": 38.92961,
 		"long": -77.02588
-	 },
+	},
 	"transit": "Columbia Heights Metro Station/62,63; 70",
 	"website": "http://www.chavezschools.org",
 	"facebook": null,
@@ -31,18 +31,10 @@
 	"external_report_card": "http://dashboard.dcpcsb.org/detailed/32",
 	"equity_report_url": 
 "http://osse.dc.gov/sites/default/files/dc/sites/osse/publication/attachments/2015_Equity_Report_Public%20Charter%20School_C%C3%A9sar%20Ch%C3%A1vez%20PCS%20for%20Public%20Policy%20-%20Ch%C3%A1vez%20Prep.pdf",
-	"contact": [
-		{
-			"name": "Kathy Bihr",
-			"title": "Board Chair",
-			"phone": null,
-			"email": null
-		},
-		{
-			"name": "Bryan Eberwein",
-			"title": "Principal",
-			"phone": null,
-			"email": null
-		}
-		]
-	}
+	"contact": [{
+		"name": "Kathy Bihr",
+		"title": "Board Chair",
+		"phone": null,
+		"email": null
+		}]
+}

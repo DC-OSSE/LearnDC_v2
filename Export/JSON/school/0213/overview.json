@@ -1,5 +1,5 @@
 {
-	"timestamp": "Thu Jun 02 23:41:30 2016",
+	"timestamp": "Thu Sep 01 15:55:11 2016",
 	"org_type": "school",
 	"org_name": "Brightwood EC",
 	"org_code": "0213",
@@ -12,10 +12,10 @@
 		"gs_url": "http://www.greatschools.org/washington-dc/washington/88-Brightwood-Education-Campus"
 	},
 	"ward": "4",
-	"grades_serviced": ["01","02","03","04","05","06","07","08","KG","PK3","PK4"],
-	"grades_accepted": ["07","KG","06","PK3","PK4","04","01","02","03","08","05"],
+	"grades_serviced": ["PK3","PK4","KG","01","02","03","04","05","06","07","08"],
+	"grades_accepted": null,
 	"description": "Brightwood Education Campus is a diverse community of learners working together to reach high standards. Our mission is to enable the school, the family and the community to build a collaborative network that supports the full development of the child. The recent modernization of Brightwood marks an entirely new era for our school community and is leading the way toward improved instructional effectiveness as well as increased student achievement. Our enrollment has increased tremendously; we are now one of the largest PS–8 schools in the district and provide a wealth of opportunities to all students.",
-	 "address": {
+	"address": {
 		"line_1": "1300 NICHOLSON ST NW",
 		"line_2": null,
 		"city": "Washington",
@@ -23,7 +23,7 @@
 		"zip": "20011",
 		"lat": 38.96054,
 		"long": -77.03069
-	 },
+	},
 	"transit": "70 (9th & Maine St - Silver Spring Station), 71 (Buzzard Point - Silver Spring Station), 79 (Archives - Silver Spring Station), 52, 53, 54 (L'Enfant Plaza - Takoma Station), E2, E4 (L'Enfant Plaza/McPherson Sq - Friendship Heights), S1, S2, S4, S9 (Potomac Park/Federal Triangle/McPherson Square - Silver Spring Station)",
 	"website": "http://www.dcps.dc.gov",
 	"facebook": "http://www.facebook.com/dcpublicschools",
@@ -31,12 +31,10 @@
 	"external_report_card": "http://profiles.dcps.dc.gov/Brightwood+Education+Campus",
 	"equity_report_url": 
 "http://osse.dc.gov/sites/default/files/dc/sites/osse/publication/attachments/2015_Equity_Report_DCPS%20School_Brightwood%20EC_0.pdf",
-	"contact": [
-		{
-			"name": "Maurice Kennard",
-			"title": "Principal",
-			"phone": "(202) 722-5670",
-			"email": "maurice.kennard@dc.gov"
-		}
-		]
-	}
+	"contact": [{
+		"name": "Maurice Kennard",
+		"title": "Principal",
+		"phone": "(202) 722-5670",
+		"email": "maurice.kennard@dc.gov"
+		}]
+}

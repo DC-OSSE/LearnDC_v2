@@ -1,7 +1,7 @@
 {
-	"timestamp": "Thu Jun 02 23:41:41 2016",
+	"timestamp": "Thu Sep 01 15:55:13 2016",
 	"org_type": "school",
-	"org_name": "Center City Trinidad Campus PCS",
+	"org_name": "Center City PCS Trinidad",
 	"org_code": "1108",
 	"closed": false,
 	"charter": true,
@@ -11,19 +11,19 @@
 	"great_schools": {
 		"gs_url": "http://www.greatschools.org/washington-dc/washington/598-Center-City-PCS---Trinidad"
 	},
-	"ward": "5",
-	"grades_serviced": ["01","02","03","04","05","06","07","08","KG","PK4"],
-	"grades_accepted": ["KG","02","03","PK4","04","01","06","07","08","05"],
+	"ward": "1",
+	"grades_serviced": ["PK4","KG","01","02","03","04","05","06","07","08"],
+	"grades_accepted": null,
 	"description": "The Center City Public Charter Schools (Center City PCS) empower our children for success through a rigorous academic program and strong character education while challenging students to pursue personal excellence in character, conduct, and scholarship in order to develop the skills necessary to both serve and lead others in the 21st century.",
-	 "address": {
-		"line_1": "1217 W  VIRGINIA AVE NE",
+	"address": {
+		"line_1": "1217 W VIRGINIA AVE NE",
 		"line_2": null,
 		"city": "Washington",
 		"state": "DC",
 		"zip": "20002",
 		"lat": 38.9053,
 		"long": -76.9912
-	 },
+	},
 	"transit": "NoMa-Galludet U (New York Avenue) Metro Station/90,92,93; D3; D4; D8; X3",
 	"website": "http://www.centercitypcs.org",
 	"facebook": null,
@@ -31,24 +31,10 @@
 	"external_report_card": "http://dashboard.dcpcsb.org/detailed/23",
 	"equity_report_url": 
 "http://osse.dc.gov/sites/default/files/dc/sites/osse/publication/attachments/2015_Equity_Report_Public%20Charter%20School_Center%20City%20PCS%20-%20Trinidad_0.pdf",
-	"contact": [
-		{
-			"name": "Ralph F. Boyd, Jr.",
-			"title": "Board Chair",
-			"phone": null,
-			"email": null
-		},
-		{
-			"name": "Travis Bouldin",
-			"title": "Principal",
-			"phone": null,
-			"email": null
-		},
-		{
-			"name": "Russ Williams",
-			"title": "Executive Director",
-			"phone": null,
-			"email": null
-		}
-		]
-	}
+	"contact": [{
+		"name": "Ralph F. Boyd, Jr.",
+		"title": "Board Chair",
+		"phone": null,
+		"email": null
+		}]
+}

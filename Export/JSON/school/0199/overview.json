@@ -1,7 +1,7 @@
 {
-	"timestamp": "Thu Jun 02 23:41:30 2016",
+	"timestamp": "Thu Sep 01 15:55:12 2016",
 	"org_type": "school",
-	"org_name": "D C  Bilingual PCS",
+	"org_name": "DC Bilingual PCS",
 	"org_code": "0199",
 	"closed": false,
 	"charter": true,
@@ -11,19 +11,19 @@
 	"great_schools": {
 		"gs_url": "http://www.greatschools.org/washington-dc/washington/360-DC-Bilingual-PCS"
 	},
-	"ward": "1",
-	"grades_serviced": ["01","02","03","04","05","KG"],
-	"grades_accepted": ["03","04","05","01","PK3","PK4","KG","02"],
+	"ward": "4",
+	"grades_serviced": ["PK3","PK4","KG","01","02","03","04","05","06"],
+	"grades_accepted": null,
 	"description": "DCBPCS is a learning community that ensures high academic achievement for all students in both Spanish and English, develops leadership, and values all cultures...DCBPCS es una comunidad de aprendizaje que asegura un alto rendimiento académico para todos los estudiantes en español e inglés, desarrolla el liderazgo y valora todas las culturas.",
-	 "address": {
-		"line_1": "1420 COLUMBIA ROAD NW",
+	"address": {
+		"line_1": "33 RIGGS RD NE",
 		"line_2": null,
 		"city": "Washington",
 		"state": "DC",
-		"zip": "20009",
-		"lat": 38.9272,
-		"long": -77.03331
-	 },
+		"zip": "20011",
+		"lat": 38.95492,
+		"long": -77.00664
+	},
 	"transit": "Columbia Heights Metro Station/Metrobus lines: 52,53,54; S1,S2,S4",
 	"website": "http://www.dcbilingual.org",
 	"facebook": null,
@@ -31,18 +31,10 @@
 	"external_report_card": "http://dashboard.dcpcsb.org/detailed/35",
 	"equity_report_url": 
 "http://osse.dc.gov/sites/default/files/dc/sites/osse/publication/attachments/2015_Equity_Report_Public%20Charter%20School_DC%20Bilingual%20PCS_0.pdf",
-	"contact": [
-		{
-			"name": "Lester Matlock",
-			"title": "Board Chair",
-			"phone": null,
-			"email": null
-		},
-		{
-			"name": "Wanda Perez",
-			"title": "Principal",
-			"phone": null,
-			"email": null
-		}
-		]
-	}
+	"contact": [{
+		"name": "Lester Matlock",
+		"title": "Board Chair",
+		"phone": null,
+		"email": null
+		}]
+}

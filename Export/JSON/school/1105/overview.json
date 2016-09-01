@@ -1,7 +1,7 @@
 {
-	"timestamp": "Thu Jun 02 23:41:40 2016",
+	"timestamp": "Thu Sep 01 15:55:13 2016",
 	"org_type": "school",
-	"org_name": "Center City Congress Heights Campus PCS",
+	"org_name": "Center City PCS Congress Heights",
 	"org_code": "1105",
 	"closed": false,
 	"charter": true,
@@ -11,11 +11,11 @@
 	"great_schools": {
 		"gs_url": "http://www.greatschools.org/washington-dc/washington/595-Center-City-PCS---Congress-Heights"
 	},
-	"ward": "8",
-	"grades_serviced": ["01","02","03","04","05","06","07","08","KG","PK4"],
-	"grades_accepted": ["05","02","03","PK4","KG","01","08","04","07","06"],
+	"ward": "5",
+	"grades_serviced": ["PK3","PK4","KG","01","02","03","04","05","06","07","08"],
+	"grades_accepted": null,
 	"description": "The Center City Public Charter Schools (Center City PCS) empower our children for success through a rigorous academic program and strong character education while challenging students to pursue personal excellence in character, conduct, and scholarship in order to develop the skills necessary to both serve and lead others in the 21st century.",
-	 "address": {
+	"address": {
 		"line_1": "220 HIGH VIEW PL SE",
 		"line_2": null,
 		"city": "Washington",
@@ -23,7 +23,7 @@
 		"zip": "20032",
 		"lat": 38.84159,
 		"long": -77.00444
-	 },
+	},
 	"transit": "Congress Heights Metro Station/A2,42; A8,48",
 	"website": "http://www.centercitypcs.org",
 	"facebook": null,
@@ -31,24 +31,10 @@
 	"external_report_card": "http://dashboard.dcpcsb.org/detailed/20",
 	"equity_report_url": 
 "http://osse.dc.gov/sites/default/files/dc/sites/osse/publication/attachments/2015_Equity_Report_Public%20Charter%20School_Center%20City%20PCS%20-%20Congress%20Heights_0.pdf",
-	"contact": [
-		{
-			"name": "Ralph F. Boyd, Jr.",
-			"title": "Board Chair",
-			"phone": null,
-			"email": null
-		},
-		{
-			"name": "Niya White",
-			"title": "Principal",
-			"phone": null,
-			"email": null
-		},
-		{
-			"name": "Russ Williams",
-			"title": "Executive Director",
-			"phone": null,
-			"email": null
-		}
-		]
-	}
+	"contact": [{
+		"name": "Ralph F. Boyd, Jr.",
+		"title": "Board Chair",
+		"phone": null,
+		"email": null
+		}]
+}

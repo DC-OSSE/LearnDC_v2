@@ -1,5 +1,5 @@
 {
-	"timestamp": "Thu Jun 02 23:41:37 2016",
+	"timestamp": "Thu Sep 01 15:55:12 2016",
 	"org_type": "school",
 	"org_name": "Eliot Hine MS",
 	"org_code": "0407",
@@ -13,9 +13,9 @@
 	},
 	"ward": "6",
 	"grades_serviced": ["06","07","08"],
-	"grades_accepted": ["06","07","08"],
+	"grades_accepted": null,
 	"description": "Eliot-Hine Middle School is an official candidate school for International Baccalaureate Middle Years Programme. We offer a rigorous academic program supplemented by a variety of extracurricular activities like basketball, yearbook, a robotics team and the only radio broadcast program ran by middle school students in the city. At Eliot-Hine MS, we strive to provide a high-quality education in a nurturing environment where teachers and administrators care about their students and are committed to helping all students succeed at high levels.",
-	 "address": {
+	"address": {
 		"line_1": "1830 CONSTITUTION AVE  NE",
 		"line_2": null,
 		"city": "Washington",
@@ -23,7 +23,7 @@
 		"zip": "20002",
 		"lat": 38.89243,
 		"long": -76.97898
-	 },
+	},
 	"transit": "D6 (Sibley Hospital-Stadium/Armory Line), X3 (Benning Road-Potomac Park Line), 96, 97 (East Capitol St-Cardozo Line)",
 	"website": "http://www.dcps.dc.gov",
 	"facebook": "http://www.facebook.com/EliotHineMS?ref=ts",
@@ -31,12 +31,10 @@
 	"external_report_card": "http://profiles.dcps.dc.gov/Eliot-Hine+Middle+School",
 	"equity_report_url": 
 "http://osse.dc.gov/sites/default/files/dc/sites/osse/publication/attachments/2015_Equity_Report_DCPS%20School_Eliot-Hine%20MS_0.pdf",
-	"contact": [
-		{
-			"name": "Tynika Young",
-			"title": "Principal",
-			"phone": "(202) 939-5380",
-			"email": "tynika.young@dc.gov"
-		}
-		]
-	}
+	"contact": [{
+		"name": "Tynika Young",
+		"title": "Principal",
+		"phone": "(202) 939-5380",
+		"email": "tynika.young@dc.gov"
+		}]
+}

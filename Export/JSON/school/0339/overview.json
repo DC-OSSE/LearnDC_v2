@@ -1,5 +1,5 @@
 {
-	"timestamp": "Thu Jun 02 23:41:36 2016",
+	"timestamp": "Thu Sep 01 15:55:11 2016",
 	"org_type": "school",
 	"org_name": "J O Wilson ES",
 	"org_code": "0339",
@@ -12,18 +12,18 @@
 		"gs_url": "http://www.greatschools.org/washington-dc/washington/46-J.O.-Wilson-Elementary-School"
 	},
 	"ward": "6",
-	"grades_serviced": ["01","02","03","04","05","KG","PK3","PK4"],
-	"grades_accepted": ["PK3","KG","01","02","04","05","03","PK4"],
+	"grades_serviced": ["PK3","PK4","KG","01","02","03","04","05"],
+	"grades_accepted": null,
 	"description": "At J.O. Wilson, our mission is to provide a standards-based educational program in an environment that is nurturing, open and responsive to the needs of our children, staff and the community. We aim to facilitate the maximum academic, social and emotional growth of our children in order for them to become active and productive members of society. We are a 'Children-Centered, Data-Driven School.' At J.O. Wilson Elementary School, we promote the extended family concept of 'caring and sharing' and we are dedicated to excellence.",
-	 "address": {
-		"line_1": "660 K STREET NE",
+	"address": {
+		"line_1": "660 K ST NE",
 		"line_2": null,
 		"city": "Washington",
 		"state": "DC",
 		"zip": "20002",
 		"lat": 38.90276,
 		"long": -76.99659
-	 },
+	},
 	"transit": "D3 (Ivy City-Dupont Circle Line), D4 (Ivy City-Franklin Square Line), D8 (Hospital Center Line), 90, 92, 93 (U Street-Garfield Line), X1, X2, X3 (Benning Road Line)",
 	"website": "http://www.dcps.dc.gov",
 	"facebook": "http://www.facebook.com/JOWilsonES?v=info&ref=ts",
@@ -31,12 +31,10 @@
 	"external_report_card": "http://profiles.dcps.dc.gov/J.O.+Wilson+Elementary+School",
 	"equity_report_url": 
 "http://osse.dc.gov/sites/default/files/dc/sites/osse/publication/attachments/2015_Equity_Report_DCPS%20School_J.O.%20Wilson%20ES_0.pdf",
-	"contact": [
-		{
-			"name": "Heidi Haggerty",
-			"title": "Principal",
-			"phone": "(202) 698-4733",
-			"email": "heidi.haggerty@dc.gov"
-		}
-		]
-	}
+	"contact": [{
+		"name": "Heidi Haggerty",
+		"title": "Principal",
+		"phone": "(202) 698-4733",
+		"email": "heidi.haggerty@dc.gov"
+		}]
+}

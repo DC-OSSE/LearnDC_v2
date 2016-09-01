@@ -1,9 +1,9 @@
 {
-	"timestamp": "Thu Jun 02 23:41:28 2016",
+	"timestamp": "Thu Sep 01 15:55:12 2016",
 	"org_type": "school",
 	"org_name": "Hospitality High School",
 	"org_code": "0160",
-	"closed": false,
+	"closed": true,
 	"charter": false,
 	"school_type": [
 		"Regular School"
@@ -12,10 +12,10 @@
 		"gs_url": null
 	},
 	"ward": "1",
-	"grades_serviced": [],
-	"grades_accepted": [],
+	"grades_serviced": ["09","10","11","12"],
+	"grades_accepted": null,
 	"description": "The mission of Hospitality Public Charter High School is to ensure that students have access to an excellent educational program designed to promote success in college and in the hospitality industry.",
-	 "address": {
+	"address": {
 		"line_1": "1851 9TH STREET NW",
 		"line_2": null,
 		"city": "Washington",
@@ -23,7 +23,7 @@
 		"zip": "20001",
 		"lat": 38.91537,
 		"long": -77.02364
-	 },
+	},
 	"transit": "52,53,54",
 	"website": "http://www.washingtonhospitality.org",
 	"facebook": null,
@@ -31,18 +31,10 @@
 	"external_report_card": "http://dashboard.dcpcsb.org/detailed/103",
 	"equity_report_url": 
 null,
-	"contact": [
-		{
-			"name": "Michael Durso",
-			"title": "Board Chair",
-			"phone": null,
-			"email": null
-		},
-		{
-			"name": "Rodney McBride",
-			"title": "Principal",
-			"phone": null,
-			"email": null
-		}
-		]
-	}
+	"contact": [{
+		"name": "Michael Durso",
+		"title": "Board Chair",
+		"phone": null,
+		"email": null
+		}]
+}

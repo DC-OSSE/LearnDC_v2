@@ -1,7 +1,7 @@
 {
-	"timestamp": "Tue Jun 09 16:00:39 2015",
+	"timestamp": "Thu Sep 01 15:55:13 2016",
 	"org_type": "school",
-	"org_name": "Imagine Southeast PC",
+	"org_name": "Imagine Southeast PCS",
 	"org_code": "1116",
 	"closed": true,
 	"charter": true,
@@ -12,43 +12,29 @@
 		"gs_url": "http://www.greatschools.org/washington-dc/washington/607-Imagine-Southeast-PCS"
 	},
 	"ward": "8",
-	"grades_serviced": [],
-	"grades_accepted": [],
-	"description": "Imagine Southeast Public Charter School will prepare students to love learning, have outstanding character, and take responsibility for themselves and others through a culturally responsive, single-sex educational environment that emphasizes quality academic content, character development, community involvement and student leadership.",
-	 "address": {
-		"line_1": "3100 ML KING JR AVE SE",
-		"line_2": "",
+	"grades_serviced": ["PK3","PK4","KG","01","02","03","04","05","06"],
+	"grades_accepted": null,
+	"description": null,
+	"address": {
+		"line_1": "3100 MARTIN LUTHER KING JR AVE SE",
+		"line_2": null,
 		"city": "Washington",
 		"state": "DC",
 		"zip": "20032",
 		"lat": 38.8435,
 		"long": -76.99814
-	 },
-	"transit": "Congress Heights Metro Station, Anacostia Metro Station",
+	},
+	"transit": null,
 	"website": "http://www.imaginesoutheastpcs.org",
 	"facebook": null,
 	"twitter": null,
 	"external_report_card": null,
 	"equity_report_url": 
-"http://osse.dc.gov/sites/default/files/dc/sites/osse/publication/attachments/2013_Equity_Report_PCSB_External_Imagine%20Southeast%20PCS.pdf",
-	"contact": [
-		{
-			"name": "Barbara Bazron, Ph.D.",
-			"title": "Board Chair",
-			"phone": null,
-			"email": null
-		},
-		{
-			"name": "Leave this field blank",
-			"title": "Principal",
-			"phone": null,
-			"email": null
-		},
-		{
-			"name": "Michael DePass",
-			"title": "Executive Director",
-			"phone": null,
-			"email": null
-		}
-		]
-	}
+null,
+	"contact": [{
+		"name": "Michael DePass",
+		"title": "Executive Director",
+		"phone": null,
+		"email": null
+		}]
+}

@@ -1,5 +1,5 @@
 {
-	"timestamp": "Thu Jun 02 23:41:31 2016",
+	"timestamp": "Thu Sep 01 15:55:10 2016",
 	"org_type": "school",
 	"org_name": "Burroughs EC",
 	"org_code": "0220",
@@ -12,10 +12,10 @@
 		"gs_url": "http://www.greatschools.org/washington-dc/washington/84-Burroughs-Education-Campus"
 	},
 	"ward": "5",
-	"grades_serviced": ["01","02","03","04","05","KG","PK3","PK4"],
-	"grades_accepted": ["PK4","KG","PK3","02","03","04","01","05"],
+	"grades_serviced": ["PK3","PK4","KG","01","02","03","04","05"],
+	"grades_accepted": null,
 	"description": "John Burroughs Education Campus is a Science, Technology, Engineering and Mathematics (STEM) neighborhood school that serves students in preschool through 8th grade. Burroughs participates in the Catalyst program and makes a difference in our students' education with strong parent support, highly qualified staff and a 21st century learning environment. We provide strong standards-based programs that challenge and enrich all learners. Our administration and staff are committed to involving the community to assist in creating an atmosphere of higher learning focusing on excellence, not excuses!",
-	 "address": {
+	"address": {
 		"line_1": "1820 MONROE ST  NE",
 		"line_2": null,
 		"city": "Washington",
@@ -23,7 +23,7 @@
 		"zip": "20018",
 		"lat": 38.9335,
 		"long": -76.97846
-	 },
+	},
 	"transit": "84 (Rhode Island Ave-New Carrollton Line), E2 (Military Road-Crosstown Line), G8 (Rhode Island Ave Line), H6 (Brookland-Fort Lincoln Line)",
 	"website": "http://www.dcps.dc.gov",
 	"facebook": "http://www.facebook.com/pages/Burroughs-Education-Campus/128420077185202?ref=ts",
@@ -31,12 +31,10 @@
 	"external_report_card": "http://profiles.dcps.dc.gov/Burroughs+Education+Campus",
 	"equity_report_url": 
 "http://osse.dc.gov/sites/default/files/dc/sites/osse/publication/attachments/2015_Equity_Report_DCPS%20School_Burroughs%20ES_0.pdf",
-	"contact": [
-		{
-			"name": "Aqueelha James",
-			"title": "Principal",
-			"phone": "(202) 576-6150",
-			"email": "aqueelha.james@dc.gov"
-		}
-		]
-	}
+	"contact": [{
+		"name": "Aqueelha James",
+		"title": "Principal",
+		"phone": "(202) 576-6150",
+		"email": "aqueelha.james@dc.gov"
+		}]
+}

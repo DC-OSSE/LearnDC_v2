@@ -1,5 +1,5 @@
 {
-	"timestamp": "Thu Jun 02 23:41:36 2016",
+	"timestamp": "Thu Sep 01 15:55:11 2016",
 	"org_type": "school",
 	"org_name": "Whittier EC",
 	"org_code": "0338",
@@ -12,10 +12,10 @@
 		"gs_url": "http://www.greatschools.org/washington-dc/washington/49-Whittier-Education-Campus"
 	},
 	"ward": "4",
-	"grades_serviced": ["01","02","03","04","05","06","07","08","KG","PK3","PK4"],
-	"grades_accepted": ["07","PK3","PK4","KG","06","02","03","04","01","08","05"],
+	"grades_serviced": ["PK3","PK4","KG","01","02","03","04","05","06","07","08"],
+	"grades_accepted": null,
 	"description": "As a K–8 education campus, Whittier's activities focus on rigorous instruction that is inclusive of active learning strategies, differentiated instruction, excellence in technology instruction, hands-on experiences and authentic assessments. Advancements in the field of Science, Technology, Engineering and Mathematics (STEM) have radically changed the way we function. In order to adapt to the fast-changing technology in our world and be leaders in using, creating and developing the next line of advancements in any field or career, our students need exposure to and adequate training in the STEM field. Our STEM school designs lessons and a school culture to promote STEM issues and skills. In a STEM classroom at any level and in any subject, students actively learn through discovery. Students and teachers are engaged and motivated, and they work together as fellow-adventurers to explore while they learn.",
-	 "address": {
+	"address": {
 		"line_1": "6201 5TH ST  NW",
 		"line_2": null,
 		"city": "Washington",
@@ -23,7 +23,7 @@
 		"zip": "20011",
 		"lat": 38.96586,
 		"long": -77.01924
-	 },
+	},
 	"transit": "62, 63 (Takoma-Petworth Line), 70 (Georgia Avenue-7th Street Line)",
 	"website": "http://www.dcps.dc.gov",
 	"facebook": "http://www.facebook.com/WhittierEC",
@@ -31,12 +31,10 @@
 	"external_report_card": "http://profiles.dcps.dc.gov/Whittier+Education+Campus",
 	"equity_report_url": 
 "http://osse.dc.gov/sites/default/files/dc/sites/osse/publication/attachments/2015_Equity_Report_DCPS%20School_Whittier%20EC_0.pdf",
-	"contact": [
-		{
-			"name": "Tenia Pritchard",
-			"title": "Principal",
-			"phone": "(202) 576-6156",
-			"email": "tenia.pritchard@dc.gov"
-		}
-		]
-	}
+	"contact": [{
+		"name": "Tenia Pritchard",
+		"title": "Principal",
+		"phone": "(202) 576-6156",
+		"email": "tenia.pritchard@dc.gov"
+		}]
+}

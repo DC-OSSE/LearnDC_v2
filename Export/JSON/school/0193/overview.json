@@ -1,7 +1,7 @@
 {
-	"timestamp": "Thu Jun 02 23:41:29 2016",
+	"timestamp": "Thu Sep 01 15:55:12 2016",
 	"org_type": "school",
-	"org_name": "Latin American Montessori Bilingual (LAMB) PCS",
+	"org_name": "Latin American Montessori Bilingual PCS",
 	"org_code": "0193",
 	"closed": false,
 	"charter": true,
@@ -12,10 +12,10 @@
 		"gs_url": "http://www.greatschools.org/washington-dc/washington/338-Latin-American-Montessori-Bilingual-LAMB---Missouri-Ave"
 	},
 	"ward": "4",
-	"grades_serviced": ["01","02","03","04","05","KG","PK3","PK4"],
-	"grades_accepted": ["01","02","03","04","05","KG","PK3","PK4"],
+	"grades_serviced": ["PK3","PK4","KG","01","02","03","04","05"],
+	"grades_accepted": null,
 	"description": "The Latin American Montessori Bilingual Public Charter School's mission is to foster bilingualism in a self-directed learning environment in which children build a foundation of knowledge essential for a lifetime of learning.",
-	 "address": {
+	"address": {
 		"line_1": "1375 MISSOURI AVE NW",
 		"line_2": null,
 		"city": "Washington",
@@ -23,7 +23,7 @@
 		"zip": "20011",
 		"lat": 38.96216,
 		"long": -77.0324
-	 },
+	},
 	"transit": "53,54; 70; 79; S1; S2,4",
 	"website": "http://www.lambpcs.org",
 	"facebook": null,
@@ -31,24 +31,10 @@
 	"external_report_card": "http://dashboard.dcpcsb.org/detailed/80",
 	"equity_report_url": 
 "http://osse.dc.gov/sites/default/files/dc/sites/osse/publication/attachments/2015_Equity_Report_Public%20Charter%20School_Latin%20American%20Montessori%20Bilingual%20PCS_0.pdf",
-	"contact": [
-		{
-			"name": "Barrie Lynn Tapia",
-			"title": "Board Chair",
-			"phone": null,
-			"email": null
-		},
-		{
-			"name": "Cristina Encinas",
-			"title": "Principal",
-			"phone": null,
-			"email": null
-		},
-		{
-			"name": "Diane Cottman",
-			"title": "Executive Director",
-			"phone": null,
-			"email": null
-		}
-		]
-	}
+	"contact": [{
+		"name": "Barrie Lynn Tapia",
+		"title": "Board Chair",
+		"phone": null,
+		"email": null
+		}]
+}

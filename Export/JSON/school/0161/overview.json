@@ -1,7 +1,7 @@
 {
-	"timestamp": "Thu Jun 02 23:41:28 2016",
+	"timestamp": "Thu Sep 01 15:55:12 2016",
 	"org_type": "school",
-	"org_name": "Perry Street Prep PCS",
+	"org_name": "Perry Street Preparatory PCS",
 	"org_code": "0161",
 	"closed": false,
 	"charter": true,
@@ -12,18 +12,18 @@
 		"gs_url": "http://www.greatschools.org/washington-dc/washington/258-Perry-Street-Prep-PCS"
 	},
 	"ward": "5",
-	"grades_serviced": ["01","02","03","04","05","06","07","08","10","11","KG","PK3","PK4"],
-	"grades_accepted": ["PK3","PK4","KG","01","02","03","04","05","06","07","08"],
+	"grades_serviced": ["PK3","PK4","KG","01","02","03","04","05","06","07","08"],
+	"grades_accepted": null,
 	"description": "Perry Street Prep is a community of diverse learners that builds relationships with families and empowers students to be college-ready and to thrive in a global society.  Our philosophy is centered on the belief that every child deserves the right to a high quality education that prepares them for unlimited global opportunities..",
-	 "address": {
-		"line_1": "1800 PERRY STREET NE",
+	"address": {
+		"line_1": "1800 PERRY ST NE",
 		"line_2": null,
 		"city": "Washington",
 		"state": "DC",
 		"zip": "20018",
 		"lat": 38.9368,
 		"long": -76.9786
-	 },
+	},
 	"transit": "Brookland-CUA or Fort Totten Metro Station/G8; E2; H6; R4",
 	"website": "http://www.pspdc.org",
 	"facebook": null,
@@ -31,24 +31,10 @@
 	"external_report_card": "http://dashboard.dcpcsb.org/detailed/91",
 	"equity_report_url": 
 "http://osse.dc.gov/sites/default/files/dc/sites/osse/publication/attachments/2015_Equity_Report_Public%20Charter%20School_Perry%20Street%20Preparatory%20PCS_0.pdf",
-	"contact": [
-		{
-			"name": "Cynthia Brown",
-			"title": "Board Chair",
-			"phone": null,
-			"email": null
-		},
-		{
-			"name": "Tenina Reeves (PK-8) and Cordelia Postell (9-12)",
-			"title": "Principal",
-			"phone": null,
-			"email": null
-		},
-		{
-			"name": "Shadwick Jenkins",
-			"title": "Executive Director",
-			"phone": null,
-			"email": null
-		}
-		]
-	}
+	"contact": [{
+		"name": "Cynthia Brown",
+		"title": "Board Chair",
+		"phone": null,
+		"email": null
+		}]
+}

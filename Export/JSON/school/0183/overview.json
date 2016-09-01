@@ -1,9 +1,9 @@
 {
-	"timestamp": "Thu Jun 02 23:41:29 2016",
+	"timestamp": "Thu Sep 01 15:55:13 2016",
 	"org_type": "school",
 	"org_name": "Tree of Life PCS",
 	"org_code": "0183",
-	"closed": false,
+	"closed": true,
 	"charter": true,
 	"school_type": [
 		"Regular School"
@@ -12,10 +12,10 @@
 		"gs_url": "http://www.greatschools.org/washington-dc/washington/287-Tree-of-Life-PCS"
 	},
 	"ward": "5",
-	"grades_serviced": [],
-	"grades_accepted": [],
-	"description": "NA",
-	 "address": {
+	"grades_serviced": ["PK3","PK4","KG","01","02","03","04","05","06","07","08"],
+	"grades_accepted": null,
+	"description": null,
+	"address": {
 		"line_1": "2315 18TH PLACE NE",
 		"line_2": null,
 		"city": "Washington",
@@ -23,7 +23,7 @@
 		"zip": "20018",
 		"lat": 38.92078,
 		"long": -76.97784
-	 },
+	},
 	"transit": "86; D4; E2",
 	"website": "http://www.treeoflifepcs.org",
 	"facebook": null,
@@ -31,24 +31,10 @@
 	"external_report_card": "http://dashboard.dcpcsb.org/detailed/101",
 	"equity_report_url": 
 null,
-	"contact": [
-		{
-			"name": "Carl J. Hampton, Psy.D.",
-			"title": "Board Chair",
-			"phone": null,
-			"email": null
-		},
-		{
-			"name": "Tenika Holden",
-			"title": "Principal",
-			"phone": null,
-			"email": null
-		},
-		{
-			"name": "Patricia L. Williams",
-			"title": "Executive Director",
-			"phone": null,
-			"email": null
-		}
-		]
-	}
+	"contact": [{
+		"name": "Carl J. Hampton, Psy.D.",
+		"title": "Board Chair",
+		"phone": null,
+		"email": null
+		}]
+}

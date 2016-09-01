@@ -1,9 +1,9 @@
 {
-	"timestamp": "Thu Jun 02 23:41:28 2016",
+	"timestamp": "Thu Sep 01 15:55:11 2016",
 	"org_type": "school",
 	"org_name": "Community Academy Amos II",
 	"org_code": "0158",
-	"closed": false,
+	"closed": true,
 	"charter": true,
 	"school_type": [
 		"Regular School"
@@ -12,10 +12,10 @@
 		"gs_url": null
 	},
 	"ward": "5",
-	"grades_serviced": [],
-	"grades_accepted": ["PK3","PK4","KG","01","PK3","PK4","KG","01"],
+	"grades_serviced": ["PK3","PK4","KG","01"],
+	"grades_accepted": null,
 	"description": "The mission of the Dorothy I. Height Community Academy PCS is to create a caring learning community where students acquire the knowledge, skills, and habits of mind to think critically; to read, write, speak and listen effectively; to reason mathematically; to inquire scientifically; and to develop the social competence that ensures meeting qualifications for acceptance to a competitive high school.",
-	 "address": {
+	"address": {
 		"line_1": "33 RIGGS ROAD NE",
 		"line_2": null,
 		"city": "Washington",
@@ -23,7 +23,7 @@
 		"zip": "20011",
 		"lat": 38.95492,
 		"long": -77.00664
-	 },
+	},
 	"transit": "Fort Totten Metro Station, Bus E2, E4",
 	"website": "http://www.capcs.org",
 	"facebook": null,
@@ -31,18 +31,10 @@
 	"external_report_card": null,
 	"equity_report_url": 
 null,
-	"contact": [
-		{
-			"name": "Ernest Green, Jr.",
-			"title": "Board Chair",
-			"phone": null,
-			"email": null
-		},
-		{
-			"name": "Tanya Morgan",
-			"title": "Principal",
-			"phone": null,
-			"email": null
-		}
-		]
-	}
+	"contact": [{
+		"name": "Ernest Green, Jr.",
+		"title": "Board Chair",
+		"phone": null,
+		"email": null
+		}]
+}

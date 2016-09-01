@@ -1,7 +1,7 @@
 {
-	"timestamp": "Thu Jun 02 23:41:28 2016",
+	"timestamp": "Thu Sep 01 15:55:12 2016",
 	"org_type": "school",
-	"org_name": "Meridian PCS",
+	"org_name": "Meridian PCS 13th St",
 	"org_code": "0165",
 	"closed": false,
 	"charter": true,
@@ -12,10 +12,10 @@
 		"gs_url": "http://www.greatschools.org/washington-dc/washington/262-Meridian-PCS"
 	},
 	"ward": "1",
-	"grades_serviced": ["01","02","03","04","05","06","07","08","KG","PK3","PK4"],
-	"grades_accepted": ["PK3","PK4","KG","01","02","03","04","05","06","07","08"],
+	"grades_serviced": ["PK3","PK4","KG","01","02","03","04","05","06","07","08"],
+	"grades_accepted": null,
 	"description": "The mission of Meridian Public Charter School is to instill within our students a passion for learning and to build self-confidence and self-respect through academic achievement. It is our goal to ensure each student achieves the highest possible level in Reading and Mathematics. The love of learning and the foundation of knowledge and skills that our students acquire will serve them throughout their lifetime!",
-	 "address": {
+	"address": {
 		"line_1": "2120 13TH ST NW",
 		"line_2": null,
 		"city": "Washington",
@@ -23,7 +23,7 @@
 		"zip": "20009",
 		"lat": 38.91875,
 		"long": -77.02995
-	 },
+	},
 	"transit": "U Street Metro Station/52,53,54; 90,92,93; 96",
 	"website": "https://mpcs.learningstation.com/school",
 	"facebook": null,
@@ -31,18 +31,10 @@
 	"external_report_card": "http://dashboard.dcpcsb.org/detailed/85",
 	"equity_report_url": 
 "http://osse.dc.gov/sites/default/files/dc/sites/osse/publication/attachments/2015_Equity_Report_Public%20Charter%20School_Meridian%20PCS_0.pdf",
-	"contact": [
-		{
-			"name": "Christopher Siddall",
-			"title": "Board Chair",
-			"phone": null,
-			"email": null
-		},
-		{
-			"name": "Robinette Breedlove",
-			"title": "Principal",
-			"phone": null,
-			"email": null
-		}
-		]
-	}
+	"contact": [{
+		"name": "Christopher Siddall",
+		"title": "Board Chair",
+		"phone": null,
+		"email": null
+		}]
+}

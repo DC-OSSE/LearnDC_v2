@@ -1,21 +1,21 @@
 {
-	"timestamp": "Thu Jun 02 23:41:27 2016",
+	"timestamp": "Thu Sep 01 15:55:12 2016",
 	"org_type": "school",
 	"org_name": "Youthbuild PCS",
 	"org_code": "0128",
 	"closed": false,
 	"charter": true,
 	"school_type": [
-		"Alternative Education School"
+		"NA"
 	 ],
 	"great_schools": {
 		"gs_url": "http://www.greatschools.org/washington-dc/washington/384-YouthBuild-PCS"
 	},
 	"ward": "1",
-	"grades_serviced": ["UN"],
-	"grades_accepted": ["UN"],
-	"description": "NA",
-	 "address": {
+	"grades_serviced": ["AO"],
+	"grades_accepted": null,
+	"description": null,
+	"address": {
 		"line_1": "3014 14TH ST NW",
 		"line_2": null,
 		"city": "Washington",
@@ -23,7 +23,7 @@
 		"zip": "20009",
 		"lat": 38.92774,
 		"long": -77.03275
-	 },
+	},
 	"transit": "Columbia Heights Metro Station/52,53,54",
 	"website": "http://www.youthbuildpcs.org",
 	"facebook": null,
@@ -31,18 +31,10 @@
 	"external_report_card": null,
 	"equity_report_url": 
 "http://osse.dc.gov/sites/default/files/dc/sites/osse/publication/attachments/2015_Equity_Report_Public%20Charter%20School_YouthBuild%20PCS.pdf",
-	"contact": [
-		{
-			"name": "Mark Jordan",
-			"title": "Board Chair",
-			"phone": null,
-			"email": null
-		},
-		{
-			"name": "Andrea Hinson",
-			"title": "Principal",
-			"phone": null,
-			"email": null
-		}
-		]
-	}
+	"contact": [{
+		"name": "Mark Jordan",
+		"title": "Board Chair",
+		"phone": null,
+		"email": null
+		}]
+}

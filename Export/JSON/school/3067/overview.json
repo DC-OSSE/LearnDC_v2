@@ -1,5 +1,5 @@
 {
-	"timestamp": "Thu Jun 02 23:41:42 2016",
+	"timestamp": "Thu Sep 01 15:55:13 2016",
 	"org_type": "school",
 	"org_name": "Richard Wright PCS for Journalism and Media Arts",
 	"org_code": "3067",
@@ -12,18 +12,18 @@
 		"gs_url": "http://www.greatschools.org/washington-dc/washington/837-Richard-Wright-PCS"
 	},
 	"ward": "6",
-	"grades_serviced": ["08","09","10","11","12"],
-	"grades_accepted": ["08","09","10"],
+	"grades_serviced": ["09","10","11","12"],
+	"grades_accepted": null,
 	"description": "The mission of Richard Wright Public Charter School for Journalism and Media Arts is to transform students in grades 8-12 into well-versed media contributors by providing a studentcentered environment that connects them to the classics and modern languages and a curriculum focused on strong writing skills and vocabulary.",
-	 "address": {
-		"line_1": "770 M STREET SE",
+	"address": {
+		"line_1": "770 M ST SE",
 		"line_2": "2ND FL",
 		"city": "Washington",
 		"state": "DC",
 		"zip": "20003",
 		"lat": 38.877,
 		"long": -76.99558
-	 },
+	},
 	"transit": "Eastern Market or Navy Yardâ€“Ballpark Metro Station/90,92,93; A42,46; A48; P6; V7,8,9;",
 	"website": "http://www.richardwrightpcs.org",
 	"facebook": null,
@@ -31,24 +31,10 @@
 	"external_report_card": "http://dashboard.dcpcsb.org/detailed/93",
 	"equity_report_url": 
 "http://osse.dc.gov/sites/default/files/dc/sites/osse/publication/attachments/2015_Equity_Report_Public%20Charter%20School_Richard%20Wright%20PCS%20for%20Journalism%20and%20Media%20Arts_0.pdf",
-	"contact": [
-		{
-			"name": "Rhonda Wells-Wilbon, Ph.D.",
-			"title": "Board Chair",
-			"phone": null,
-			"email": null
-		},
-		{
-			"name": "Marco Clark, Ph.D.",
-			"title": "Principal",
-			"phone": null,
-			"email": null
-		},
-		{
-			"name": "Marco Clark, Ph.D.",
-			"title": "Executive Director",
-			"phone": null,
-			"email": null
-		}
-		]
-	}
+	"contact": [{
+		"name": "Rhonda Wells-Wilbon, Ph.D.",
+		"title": "Board Chair",
+		"phone": null,
+		"email": null
+		}]
+}

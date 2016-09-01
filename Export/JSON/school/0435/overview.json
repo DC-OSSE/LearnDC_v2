@@ -1,5 +1,5 @@
 {
-	"timestamp": "Thu Jun 02 23:41:38 2016",
+	"timestamp": "Thu Sep 01 15:55:10 2016",
 	"org_type": "school",
 	"org_name": "McKinley Middle School",
 	"org_code": "0435",
@@ -13,25 +13,23 @@
 	},
 	"ward": "5",
 	"grades_serviced": ["06","07","08"],
-	"grades_accepted": ["08","07","06"],
+	"grades_accepted": null,
 	"description": "Opening in August 2013, McKinley Middle is the only Science, Technology, Engineering and Mathematics (STEM) middle school in DCPS. It will offer extensive programs that will support STEM education. It offers state-of-the-art facilities with a wide array of special education classes including ID and ED. All students will take pre-engineering and computer science courses.",
-	 "address": {
-		"line_1": "151 T. ST. NE",
+	"address": {
+		"line_1": "151 T ST NE",
 		"line_2": null,
 		"city": "Washington",
 		"state": "DC",
 		"zip": "20002",
 		"lat": 38.91522,
 		"long": -77.00412
-	 },
-	"transit": "NA",
+	},
+	"transit": null,
 	"website": "http://www.dcps.dc.gov",
 	"facebook": null,
 	"twitter": null,
 	"external_report_card": "http://profiles.dcps.dc.gov/McKinley+Middle+School",
 	"equity_report_url": 
 "http://osse.dc.gov/sites/default/files/dc/sites/osse/publication/attachments/2015_Equity_Report_DCPS%20School_McKinley%20MS_1.pdf",
-	"contact": [
-
-		]
-	}
+	"contact": []
+}

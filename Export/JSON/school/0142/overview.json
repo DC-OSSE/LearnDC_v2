@@ -1,5 +1,5 @@
 {
-	"timestamp": "Thu Jun 02 23:41:27 2016",
+	"timestamp": "Thu Sep 01 15:55:12 2016",
 	"org_type": "school",
 	"org_name": "Bridges PCS",
 	"org_code": "0142",
@@ -11,19 +11,19 @@
 	"great_schools": {
 		"gs_url": "http://www.greatschools.org/washington-dc/washington/380-Bridges-PCS"
 	},
-	"ward": "4",
-	"grades_serviced": ["01","02","03","KG","PK3","PK4"],
-	"grades_accepted": ["PK4","KG","01","PK3","03","02"],
+	"ward": "5",
+	"grades_serviced": ["PK3","PK4","KG","01","02","03","04"],
+	"grades_accepted": null,
 	"description": "Bridges Public Charter School's mission is to provide an exemplary educational program that includes all students. Our developmentally-appropriate, student and family-centered educational approach nurtures students to expand their developmental skills, in order to build a foundation for life-long learning.",
-	 "address": {
-		"line_1": "1250 TAYLOR ST NW",
+	"address": {
+		"line_1": "100 GALLATIN ST NE",
 		"line_2": null,
 		"city": "Washington",
 		"state": "DC",
 		"zip": "20011",
-		"lat": 38.9405,
-		"long": -77.02862
-	 },
+		"lat": 38.95286,
+		"long": -77.00748
+	},
 	"transit": "Georgia Avenue Petworth Station/52,53,54; 70; S1; S2,4",
 	"website": "http://www.bridgespcs.org",
 	"facebook": null,
@@ -31,18 +31,10 @@
 	"external_report_card": null,
 	"equity_report_url": 
 "http://osse.dc.gov/sites/default/files/dc/sites/osse/publication/attachments/2015_Equity_Report_Public%20Charter%20School_Bridges%20PCS_0.pdf",
-	"contact": [
-		{
-			"name": "Vincent Baxter",
-			"title": "Board Chair",
-			"phone": null,
-			"email": null
-		},
-		{
-			"name": "Olivia Smith",
-			"title": "Principal",
-			"phone": null,
-			"email": null
-		}
-		]
-	}
+	"contact": [{
+		"name": "Vincent Baxter",
+		"title": "Board Chair",
+		"phone": null,
+		"email": null
+		}]
+}

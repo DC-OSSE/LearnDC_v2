@@ -1,5 +1,5 @@
 {
-	"timestamp": "Thu Jun 02 23:41:37 2016",
+	"timestamp": "Thu Sep 01 15:55:11 2016",
 	"org_type": "school",
 	"org_name": "Capitol Hill Montessori School at Logan",
 	"org_code": "0360",
@@ -12,18 +12,18 @@
 		"gs_url": "http://www.greatschools.org/washington-dc/washington/840-Capitol-Hill-Montessori--Logan"
 	},
 	"ward": "6",
-	"grades_serviced": ["01","02","03","04","05","06","07","08","KG","PK3","PK4"],
-	"grades_accepted": ["07","06","08","KG","01","PK3","03","04","05","02","PK4"],
+	"grades_serviced": ["PK3","PK4","KG","01","02","03","04","05","06","07"],
+	"grades_accepted": null,
 	"description": "We envision our school as a caring community where all students reach their fullest potential in preparation for becoming productive members of society. Our mission is to educate the whole child for a whole world through the use of the Montessori philosophy and materials. Our concept of whole child encompasses and celebrates the social, emotional, physical, spiritual (non-religious) and intellectual aspects of being human. Capitol Hill Montessori provides unique learning environments where students, under the guidance of Association of Montessori Internationale-trained and certified teachers, explore their world within a structured but creative framework. Parents will find several mixed-age groups of children when observing the Montessori classrooms at the Logan School building which allows more experienced children to share what they have learned with those who are new to the group.",
-	 "address": {
-		"line_1": "215 G STREET NE",
+	"address": {
+		"line_1": "215 G ST NE",
 		"line_2": null,
 		"city": "Washington",
 		"state": "DC",
 		"zip": "20002",
 		"lat": 38.89853,
 		"long": -77.00257
-	 },
+	},
 	"transit": "D3, D4, D6, D8 (Ivy City - Dupont Circle), X1, X2 (Benning Road)",
 	"website": "http://www.dcps.dc.gov",
 	"facebook": "https://www.facebook.com/pages/Capitol-Hill-Montessori-at-Logan/146801642056471",
@@ -31,12 +31,10 @@
 	"external_report_card": "http://profiles.dcps.dc.gov/Capitol+Hill+Montessori+%40+Logan",
 	"equity_report_url": 
 "http://osse.dc.gov/sites/default/files/dc/sites/osse/publication/attachments/2015_Equity_Report_DCPS%20School_Capitol%20Hill%20Montessori%20School%20%40%20Logan_0.pdf",
-	"contact": [
-		{
-			"name": "Brandon Eatman",
-			"title": "Principal",
-			"phone": "(202) 698-4467",
-			"email": "brandon.eatman@dc.gov"
-		}
-		]
-	}
+	"contact": [{
+		"name": "Brandon Eatman",
+		"title": "Principal",
+		"phone": "(202) 698-4467",
+		"email": "brandon.eatman@dc.gov"
+		}]
+}

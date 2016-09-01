@@ -1,5 +1,5 @@
 {
-	"timestamp": "Thu Jun 02 23:41:42 2016",
+	"timestamp": "Thu Sep 01 15:55:13 2016",
 	"org_type": "school",
 	"org_name": "Shining Stars Montessori Academy PCS",
 	"org_code": "3066",
@@ -11,38 +11,30 @@
 	"great_schools": {
 		"gs_url": "http://www.greatschools.org/washington-dc/washington/838-Shining-Stars-Montessori-Academy-PCS"
 	},
-	"ward": "4",
-	"grades_serviced": ["01","02","03","04","KG","PK3","PK4"],
-	"grades_accepted": ["PK3","PK4","KG","01","02","03","04"],
-	"description": "NA",
-	 "address": {
-		"line_1": "6017 CHILLUM PLACE NE",
+	"ward": "1",
+	"grades_serviced": ["PK3","PK4","KG","01","02","03","04","05"],
+	"grades_accepted": null,
+	"description": null,
+	"address": {
+		"line_1": "1240 RANDOLPH ST NE",
 		"line_2": null,
 		"city": "Washington",
 		"state": "DC",
-		"zip": "20011",
-		"lat": 38.96396,
-		"long": -77.00762
-	 },
+		"zip": "20017",
+		"lat": 38.9386,
+		"long": -76.98891
+	},
 	"transit": "U Street Metro Station/52,53,54; S1; S2,4",
-	"website": "http://www.ss-montessori.org",
+	"website": "http://www.shiningstarspcs.org",
 	"facebook": null,
 	"twitter": null,
 	"external_report_card": null,
 	"equity_report_url": 
 "http://osse.dc.gov/sites/default/files/dc/sites/osse/publication/attachments/2015_Equity_Report_Public%20Charter%20School_Shining%20Stars%20Montessori%20Academy%20PCS_0.pdf",
-	"contact": [
-		{
-			"name": "Allison Brown",
-			"title": "Board Chair",
-			"phone": null,
-			"email": null
-		},
-		{
-			"name": "Rhonda Sabater",
-			"title": "Principal",
-			"phone": null,
-			"email": null
-		}
-		]
-	}
+	"contact": [{
+		"name": "Allison Brown",
+		"title": "Board Chair",
+		"phone": null,
+		"email": null
+		}]
+}

@@ -1,5 +1,5 @@
 {
-	"timestamp": "Thu Jun 02 23:41:37 2016",
+	"timestamp": "Thu Sep 01 15:55:11 2016",
 	"org_type": "school",
 	"org_name": "Friendship PCS Woodridge Elementary",
 	"org_code": "0365",
@@ -12,10 +12,10 @@
 		"gs_url": null
 	},
 	"ward": "5",
-	"grades_serviced": ["01","02","03","KG","PK3","PK4"],
-	"grades_accepted": ["PK3","PK4","KG","01","02","03"],
+	"grades_serviced": ["PK3","PK4","KG","01","02","03"],
+	"grades_accepted": null,
 	"description": "",
-	 "address": {
+	"address": {
 		"line_1": "2959 CARLTON AVENUE NE",
 		"line_2": null,
 		"city": "Washington",
@@ -23,15 +23,13 @@
 		"zip": "20018",
 		"lat": 38.92955,
 		"long": -76.96651
-	 },
-	"transit": "NA",
+	},
+	"transit": null,
 	"website": "http://www.friendshipschools.org",
 	"facebook": null,
 	"twitter": null,
 	"external_report_card": null,
 	"equity_report_url": 
 "http://osse.dc.gov/sites/default/files/dc/sites/osse/publication/attachments/2015_Equity_Report_Public%20Charter%20School_Friendship%20PCS%20-%20Woodridge%20Elementary_0.pdf",
-	"contact": [
-
-		]
-	}
+	"contact": []
+}

@@ -1,5 +1,5 @@
 {
-	"timestamp": "Thu Jun 02 23:41:35 2016",
+	"timestamp": "Thu Sep 01 15:55:11 2016",
 	"org_type": "school",
 	"org_name": "Takoma EC",
 	"org_code": "0324",
@@ -12,10 +12,10 @@
 		"gs_url": "http://www.greatschools.org/washington-dc/washington/10-Takoma-Education-Campus"
 	},
 	"ward": "4",
-	"grades_serviced": ["01","02","03","04","05","06","07","08","KG","PK3","PK4"],
-	"grades_accepted": ["07","PK3","PK4","KG","06","02","03","01","04","05","08"],
-	"description": "At Takoma Education Campus, our motto is 'Takoma students work hard, get smarter, go to college.' Our goal for our students is to have a strong academic foundation that will lead to success in college and beyond. To that end, we have been committed to providing a high-quality education to students in preschool through 8th grade for more than 30 years. Takoma will be the only DCPS PS–8 school that is an Arts Integration school. In addition to our afterschool program, we also offer sports and a variety of extracurricular activities for our middle school students.",
-	 "address": {
+	"grades_serviced": ["PK3","PK4","KG","01","02","03","04","05","06","07","08"],
+	"grades_accepted": null,
+	"description": "At Takoma Education Campus, our motto is "Takoma students work hard, get smarter, go to college." Our goal for our students is to have a strong academic foundation that will lead to success in college and beyond. To that end, we have been committed to providing a high-quality education to students in preschool through 8th grade for more than 30 years. Takoma will be the only DCPS PS–8 school that is an Arts Integration school. In addition to our afterschool program, we also offer sports and a variety of extracurricular activities for our middle school students.",
+	"address": {
 		"line_1": "7010 PINEY BRANCH RD  NW",
 		"line_2": null,
 		"city": "Washington",
@@ -23,7 +23,7 @@
 		"zip": "20012",
 		"lat": 38.97504,
 		"long": -77.02279
-	 },
+	},
 	"transit": "52, 53, 54 (Takoma - L'Enfant Plaza/McPherson Sq), K1 (Walter Reed - Takoma Station), 62, 63 (Georgia Ave/Petworth/Takoma - Federal Triangle), F1, F2 (Cheverly), K2 (Fort Totten), 70, 71 (9th &  Maine/Buzzard Point - Silver Spring), 79 (Archives - Silver Spring)",
 	"website": "http://www.dcps.dc.gov",
 	"facebook": "http://www.facebook.com/dcpublicschools",
@@ -31,12 +31,10 @@
 	"external_report_card": "http://profiles.dcps.dc.gov/Takoma+Education+Campus",
 	"equity_report_url": 
 "http://osse.dc.gov/sites/default/files/dc/sites/osse/publication/attachments/2015_Equity_Report_DCPS%20School_Takoma%20EC_0.pdf",
-	"contact": [
-		{
-			"name": "Rikki Taylor",
-			"title": "Principal",
-			"phone": "(202) 671-6050",
-			"email": "rikki.taylor@dc.gov"
-		}
-		]
-	}
+	"contact": [{
+		"name": "Rikki Taylor",
+		"title": "Principal",
+		"phone": "(202) 671-6050",
+		"email": "rikki.taylor@dc.gov"
+		}]
+}

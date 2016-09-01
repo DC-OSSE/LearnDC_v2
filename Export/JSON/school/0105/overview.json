@@ -1,5 +1,5 @@
 {
-	"timestamp": "Thu Jun 02 23:41:26 2016",
+	"timestamp": "Thu Sep 01 15:55:11 2016",
 	"org_type": "school",
 	"org_name": "Community Academy Amos I",
 	"org_code": "0105",
@@ -12,10 +12,10 @@
 		"gs_url": "http://www.greatschools.org/washington-dc/washington/561-Community-Academy-PCS---Amos-I"
 	},
 	"ward": "4",
-	"grades_serviced": [],
-	"grades_accepted": ["05","PK3","PK4","01","02","03","KG","04"],
+	"grades_serviced": ["PK3","PK4","KG","01","02","03","04","05"],
+	"grades_accepted": null,
 	"description": "The mission of the Dorothy I. Height Community Academy PCS is to create a caring learning community where students acquire the knowledge, skills, and habits of mind to think critically; to read, write, speak and listen effectively; to reason mathematically; to inquire scientifically; and to develop the social competence that ensures meeting qualifications for acceptance to a competitive high school.",
-	 "address": {
+	"address": {
 		"line_1": "1300 ALLISON ST NW",
 		"line_2": null,
 		"city": "Washington",
@@ -23,7 +23,7 @@
 		"zip": "20011",
 		"lat": 38.9447,
 		"long": -77.03054
-	 },
+	},
 	"transit": "Add Bus line 70",
 	"website": "http://www.capcs.org",
 	"facebook": null,
@@ -31,18 +31,10 @@
 	"external_report_card": "http://dashboard.dcpcsb.org/detailed/25",
 	"equity_report_url": 
 null,
-	"contact": [
-		{
-			"name": "Ernest Green, Jr.",
-			"title": "Board Chair",
-			"phone": null,
-			"email": null
-		},
-		{
-			"name": "Masi Preston",
-			"title": "Principal",
-			"phone": null,
-			"email": null
-		}
-		]
-	}
+	"contact": [{
+		"name": "Ernest Green, Jr.",
+		"title": "Board Chair",
+		"phone": null,
+		"email": null
+		}]
+}

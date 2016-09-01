@@ -1,21 +1,21 @@
 {
-	"timestamp": "Thu Jun 02 23:41:37 2016",
+	"timestamp": "Thu Sep 01 15:55:12 2016",
 	"org_type": "school",
 	"org_name": "Benjamin Banneker HS",
 	"org_code": "0402",
 	"closed": false,
 	"charter": false,
 	"school_type": [
-		"Regular School"
+		"NA"
 	 ],
 	"great_schools": {
 		"gs_url": "http://www.greatschools.org/washington-dc/washington/120-Benjamin-Banneker-High-School"
 	},
 	"ward": "1",
 	"grades_serviced": ["09","10","11","12"],
-	"grades_accepted": ["09","10"],
+	"grades_accepted": null,
 	"description": "The Benjamin Banneker Academic High School is one of the District's International Baccalaureate (IB) Diploma Program sites and offers Pre-IB, Advanced Placement (AP) and its own summer institute as additional rigorous academic options. The Teacher-Advisor and Community Laboratory programs offer one-on-one advising and encourage students to engage in relationships that will shape their futures. Students are admitted through an application process and supported by a variety of character- and skills-building extracurricular activities. The Banneker student experience affords students the opportunity to develop knowledge, talents and exceptional post-secondary experiences.",
-	 "address": {
+	"address": {
 		"line_1": "800 EUCLID ST  NW",
 		"line_2": null,
 		"city": "Washington",
@@ -23,7 +23,7 @@
 		"zip": "20001",
 		"lat": 38.92383,
 		"long": -77.02398
-	 },
+	},
 	"transit": "64 (Fort Totten-Petworth Line), 70, 71 (Georgia Avenue-7th Street Line), 79 (Georgia Ave Metro Extra Line), H2 (Crosstown Line)",
 	"website": "http://www.dcps.dc.gov",
 	"facebook": "http://www.facebook.com/dcpublicschools",
@@ -31,12 +31,10 @@
 	"external_report_card": "http://profiles.dcps.dc.gov/Benjamin+Banneker+High+School",
 	"equity_report_url": 
 "http://osse.dc.gov/sites/default/files/dc/sites/osse/publication/attachments/2015_Equity_Report_DCPS%20School_Benjamin%20Banneker%20HS_0.pdf",
-	"contact": [
-		{
-			"name": "Anita Berger",
-			"title": "Principal",
-			"phone": "(202) 671-6320",
-			"email": "anita.berger@dc.gov"
-		}
-		]
-	}
+	"contact": [{
+		"name": "Anita Berger",
+		"title": "Principal",
+		"phone": "(202) 671-6320",
+		"email": "anita.berger@dc.gov"
+		}]
+}

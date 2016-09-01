@@ -1,5 +1,5 @@
 {
-	"timestamp": "Thu Jun 02 23:41:30 2016",
+	"timestamp": "Thu Sep 01 15:55:10 2016",
 	"org_type": "school",
 	"org_name": "Aiton ES",
 	"org_code": "0202",
@@ -12,10 +12,10 @@
 		"gs_url": "http://www.greatschools.org/washington-dc/washington/97-Aiton-Elementary-School"
 	},
 	"ward": "7",
-	"grades_serviced": ["01","02","03","04","05","KG","PK3","PK4"],
-	"grades_accepted": ["PK4","01","PK3","04","05","KG","03","02"],
+	"grades_serviced": ["PK3","PK4","KG","01","02","03","04","05"],
+	"grades_accepted": null,
 	"description": "Aiton Elementary School is a community of learners made up of staff, parents and student stakeholders. We are committed to providing all children with a rigorous, differentiated academic program that will enable them to be successful in middle school and beyond. We offer a variety of extracurricular activities and before and after care programs.",
-	 "address": {
+	"address": {
 		"line_1": "533 48TH PL  NE",
 		"line_2": null,
 		"city": "Washington",
@@ -23,7 +23,7 @@
 		"zip": "20019",
 		"lat": 38.897,
 		"long": -76.9337
-	 },
+	},
 	"transit": "U5, U6 (Mayfair-Marshall Heights Line), U8 (Capitol Hts-Benning Hts Line), W4 (Deanwood-Alabama Ave. Line), 96, 97 (East Capitol Street-Cardozo Line)",
 	"website": "http://www.dcps.dc.gov",
 	"facebook": "http://www.facebook.com/dcpublicschools",
@@ -31,12 +31,10 @@
 	"external_report_card": "http://profiles.dcps.dc.gov/Aiton+Elementary+School",
 	"equity_report_url": 
 "http://osse.dc.gov/sites/default/files/dc/sites/osse/publication/attachments/2015_Equity_Report_DCPS%20School_Aiton%20ES_1.pdf",
-	"contact": [
-		{
-			"name": "Suzette Huggins (Interim)",
-			"title": "Principal",
-			"phone": "(202) 671-6060",
-			"email": "suzette.huggins@dc.gov"
-		}
-		]
-	}
+	"contact": [{
+		"name": "Suzette Huggins (Interim)",
+		"title": "Principal",
+		"phone": "(202) 671-6060",
+		"email": "suzette.huggins@dc.gov"
+		}]
+}

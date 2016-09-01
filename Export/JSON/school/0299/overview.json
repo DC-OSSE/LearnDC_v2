@@ -1,5 +1,5 @@
 {
-	"timestamp": "Thu Jun 02 23:41:34 2016",
+	"timestamp": "Thu Sep 01 15:55:11 2016",
 	"org_type": "school",
 	"org_name": "Plummer ES",
 	"org_code": "0299",
@@ -12,10 +12,10 @@
 		"gs_url": "http://www.greatschools.org/washington-dc/washington/100-Plummer-Elementary-School"
 	},
 	"ward": "7",
-	"grades_serviced": ["01","02","03","04","05","KG","PK3","PK4"],
-	"grades_accepted": ["04","01","PK3","PK4","KG","05","02","03"],
+	"grades_serviced": ["PK3","PK4","KG","01","02","03","04","05"],
+	"grades_accepted": null,
 	"description": "Plummer Elementary is an exciting place to learn! Our vision at Plummer Elementary is to develop well-rounded, confident students who will have the necessary academic and social skills to be productive citizens in a global society.",
-	 "address": {
+	"address": {
 		"line_1": "4601 TEXAS AVE  SE",
 		"line_2": null,
 		"city": "Washington",
@@ -23,7 +23,7 @@
 		"zip": "20019",
 		"lat": 38.88724,
 		"long": -76.93993
-	 },
+	},
 	"transit": "U5, U6 (Mayfair/Marshall Heights/Minnesota Ave), V9 (Bureau of Engraving - Benning Heights), W4 (Deanwood - Anacostia Station), 96, 97 (Capitol Heights - McLean Gardens/Union Station)",
 	"website": "http://www.dcps.dc.gov",
 	"facebook": "http://www.facebook.com/pages/Plummer-Elementary-School/126268104069482?ref=ts",
@@ -31,12 +31,10 @@
 	"external_report_card": "http://profiles.dcps.dc.gov/Plummer+Elementary+School",
 	"equity_report_url": 
 "http://osse.dc.gov/sites/default/files/dc/sites/osse/publication/attachments/2015_Equity_Report_DCPS%20School_Plummer%20ES_1.pdf",
-	"contact": [
-		{
-			"name": "Christopher Gray",
-			"title": "Principal",
-			"phone": "(202) 939-4360",
-			"email": "christopher.gray@dc.gov"
-		}
-		]
-	}
+	"contact": [{
+		"name": "Christopher Gray",
+		"title": "Principal",
+		"phone": "(202) 939-4360",
+		"email": "christopher.gray@dc.gov"
+		}]
+}

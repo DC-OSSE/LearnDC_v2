@@ -1,7 +1,7 @@
 {
-	"timestamp": "Thu Jun 02 23:41:36 2016",
+	"timestamp": "Thu Sep 01 15:55:11 2016",
 	"org_type": "school",
-	"org_name": "King, M L ES",
+	"org_name": "King M L ES",
 	"org_code": "0344",
 	"closed": false,
 	"charter": false,
@@ -12,10 +12,10 @@
 		"gs_url": "http://www.greatschools.org/washington-dc/washington/80-King-Elementary-School"
 	},
 	"ward": "8",
-	"grades_serviced": ["01","02","03","04","05","KG","PK3","PK4"],
-	"grades_accepted": ["KG","01","03","PK4","04","05","PK3","02"],
+	"grades_serviced": ["PK3","PK4","KG","01","02","03","04","05"],
+	"grades_accepted": null,
 	"description": "Located in Congress Heights in Southeast DC, Martin Luther King, Jr. Elementary School seeks to inspire young learners to become highly motivated contributors to society. We believe in a demanding educational agenda that builds on the active engagement of school, parents and community and our staff maintains a steadfast commitment to continuous student achievement. King's best practices for academic excellence are enhanced by a variety of community partnerships. The success of King is a responsibility shared by dedicated staff, students, families and members of the community.",
-	 "address": {
+	"address": {
 		"line_1": "3200 6TH ST  SE",
 		"line_2": null,
 		"city": "Washington",
@@ -23,7 +23,7 @@
 		"zip": "20032",
 		"lat": 38.84244,
 		"long": -76.99824
-	 },
+	},
 	"transit": "A42, A46 (Archives - Livingston/Southern Ave Station), A6, A7 (Anacostia Station - Livingston Via Wheeler Rd), M8, M9 (Washington Highlands/Congress Heights), W4 (Deanwood - Anacostia), W2, W3 (United Medical Center - Washington Overlook/Anacostia Station)",
 	"website": "http://www.dcps.dc.gov",
 	"facebook": "http://www.facebook.com/dcpublicschools",
@@ -31,12 +31,10 @@
 	"external_report_card": "http://profiles.dcps.dc.gov/King+Elementary+School",
 	"equity_report_url": 
 "http://osse.dc.gov/sites/default/files/dc/sites/osse/publication/attachments/2015_Equity_Report_DCPS%20School_King%2C%20M.L.%20ES_1.pdf",
-	"contact": [
-		{
-			"name": "Asa Daniels",
-			"title": "Principal",
-			"phone": "(202) 939-4900",
-			"email": "asa.daniels@dc.gov"
-		}
-		]
-	}
+	"contact": [{
+		"name": "Asa Daniels",
+		"title": "Principal",
+		"phone": "(202) 939-4900",
+		"email": "asa.daniels@dc.gov"
+		}]
+}

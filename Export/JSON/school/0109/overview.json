@@ -1,7 +1,7 @@
 {
-	"timestamp": "Thu Jun 02 23:41:26 2016",
+	"timestamp": "Thu Sep 01 15:55:12 2016",
 	"org_type": "school",
-	"org_name": "Cesar Chavez PCS for Public Policy-Parkside HS",
+	"org_name": "Cesar Chavez PCS for Public Policy Parkside High",
 	"org_code": "0109",
 	"closed": false,
 	"charter": true,
@@ -11,11 +11,11 @@
 	"great_schools": {
 		"gs_url": "http://www.greatschools.org/washington-dc/washington/873-Cesar-Chavez-PCS-for-Public-Policy---Parkside-High-School"
 	},
-	"ward": "7",
+	"ward": "5",
 	"grades_serviced": ["09","10","11","12"],
-	"grades_accepted": ["10","09"],
+	"grades_accepted": null,
 	"description": "The Chavez Schools mission is to prepare scholars to enter and succeed in competitive colleges and empower scholars to use public policy to create a more just, free, and equal world.",
-	 "address": {
+	"address": {
 		"line_1": "3701 HAYES ST  NE",
 		"line_2": null,
 		"city": "Washington",
@@ -23,7 +23,7 @@
 		"zip": "20019",
 		"lat": 38.90144,
 		"long": -76.94907
-	 },
+	},
 	"transit": "Minnesota Avenue Metro Station/U5,6",
 	"website": "http://www.chavezschools.org",
 	"facebook": null,
@@ -31,18 +31,10 @@
 	"external_report_card": "http://dashboard.dcpcsb.org/detailed/33",
 	"equity_report_url": 
 "http://osse.dc.gov/sites/default/files/dc/sites/osse/publication/attachments/2015_Equity_Report_Public%20Charter%20School_C%C3%A9sar%20Ch%C3%A1vez%20PCS%20for%20Public%20Policy%20-%20Parkside%20High%20School.pdf",
-	"contact": [
-		{
-			"name": "Kathy Bihr",
-			"title": "Board Chair",
-			"phone": null,
-			"email": null
-		},
-		{
-			"name": "Dwan Jordan",
-			"title": "Principal",
-			"phone": null,
-			"email": null
-		}
-		]
-	}
+	"contact": [{
+		"name": "Kathy Bihr",
+		"title": "Board Chair",
+		"phone": null,
+		"email": null
+		}]
+}

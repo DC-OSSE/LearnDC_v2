@@ -1,7 +1,7 @@
 {
-	"timestamp": "Thu Jun 02 23:41:41 2016",
+	"timestamp": "Thu Sep 01 15:55:13 2016",
 	"org_type": "school",
-	"org_name": "National Collegiate Prep PCS",
+	"org_name": "National Collegiate Preparatory PCHS",
 	"org_code": "1120",
 	"closed": false,
 	"charter": true,
@@ -13,9 +13,9 @@
 	},
 	"ward": "8",
 	"grades_serviced": ["09","10","11","12"],
-	"grades_accepted": ["09","10","11","12"],
+	"grades_accepted": null,
 	"description": "The mission of National Collegiate Preparatory Public Charter High School is (1) to provide a rigorous 9th–12th grade standards-based college preparatory curriculum, (2) to provide an interdisciplinary curriculum which integrates international studies themes across the academic curriculum leading to an International Baccalaureate (IB) Diploma and (3) to prepare our students to be self-directed, life-long learners equipped to be engaged 21st century citizens of their school, community, country and world.",
-	 "address": {
+	"address": {
 		"line_1": "4600 LIVINGSTON RD SE",
 		"line_2": null,
 		"city": "Washington",
@@ -23,7 +23,7 @@
 		"zip": "20032",
 		"lat": 38.8239,
 		"long": -77.00309
-	 },
+	},
 	"transit": "Anacostia Metro Station/A4,5; A6",
 	"website": "http://www.nationalprepdc.org",
 	"facebook": null,
@@ -31,18 +31,10 @@
 	"external_report_card": "http://dashboard.dcpcsb.org/detailed/87",
 	"equity_report_url": 
 "http://osse.dc.gov/sites/default/files/dc/sites/osse/publication/attachments/2015_Equity_Report_Public%20Charter%20School_National%20Collegiate%20Preparatory%20PCHS_0.pdf",
-	"contact": [
-		{
-			"name": "Allison Mayas",
-			"title": "Board Chair",
-			"phone": null,
-			"email": null
-		},
-		{
-			"name": "Dianne Brown, Ed.D.",
-			"title": "Principal",
-			"phone": null,
-			"email": null
-		}
-		]
-	}
+	"contact": [{
+		"name": "Allison Mayas",
+		"title": "Board Chair",
+		"phone": null,
+		"email": null
+		}]
+}

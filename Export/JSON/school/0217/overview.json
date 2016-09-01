@@ -1,7 +1,7 @@
 {
-	"timestamp": "Thu Jun 02 23:41:31 2016",
+	"timestamp": "Thu Sep 01 15:55:13 2016",
 	"org_type": "school",
-	"org_name": "Achievement Preparatory PCS-Elementary",
+	"org_name": "Achievement Preparatory PCS Elementary",
 	"org_code": "0217",
 	"closed": false,
 	"charter": true,
@@ -12,26 +12,24 @@
 		"gs_url": null
 	},
 	"ward": "8",
-	"grades_serviced": ["01","02","03","KG"],
-	"grades_accepted": ["02","KG","01","03"],
+	"grades_serviced": ["KG","01","02","03"],
+	"grades_accepted": null,
 	"description": "",
-	 "address": {
-		"line_1": "1500 MISSISSIPPI AVENUE SE",
+	"address": {
+		"line_1": "1500 MISSISSIPPI AVE SE",
 		"line_2": null,
 		"city": "Washington",
 		"state": "DC",
 		"zip": "20032",
 		"lat": 38.84165,
 		"long": -76.9834
-	 },
-	"transit": "NA",
+	},
+	"transit": null,
 	"website": "http://www.aprepacademy.org",
 	"facebook": null,
 	"twitter": null,
 	"external_report_card": null,
 	"equity_report_url": 
 "http://osse.dc.gov/sites/default/files/dc/sites/osse/publication/attachments/2015_Equity_Report_Public%20Charter%20School_Achievement%20Preparatory%20Academy%20PCS%20-%20Elementary_0.pdf",
-	"contact": [
-
-		]
-	}
+	"contact": []
+}

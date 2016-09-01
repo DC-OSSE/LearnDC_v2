@@ -1,5 +1,5 @@
 {
-	"timestamp": "Thu Jun 02 23:41:38 2016",
+	"timestamp": "Thu Sep 01 15:55:12 2016",
 	"org_type": "school",
 	"org_name": "Kramer MS",
 	"org_code": "0417",
@@ -13,17 +13,17 @@
 	},
 	"ward": "8",
 	"grades_serviced": ["06","07","08"],
-	"grades_accepted": ["07","08","06"],
+	"grades_accepted": null,
 	"description": "Located in the historic Anacostia neighborhood of DC, Kramer Middle School is dedicated to serving students in grades 6 through 8. Our faculty and staff work extremely hard to ensure that our students are successful, both inside and outside the classroom. We are committed to providing a high-quality education for all of our students and we constantly seek to help our students develop academically, socially and emotionally.",
-	 "address": {
-		"line_1": "1700 Q ST  SE",
+	"address": {
+		"line_1": "1700 Q ST SE",
 		"line_2": null,
 		"city": "Washington",
 		"state": "DC",
 		"zip": "20020",
 		"lat": 38.87129,
 		"long": -76.98017
-	 },
+	},
 	"transit": "92 (U Street-Garfield Line), B2 (Bladensburg Road-Anacostia Line), U2 (Minnesota Avenue-Anacostia Line), V5 (Fairfax Village-L'Enfant Plaza Line), W6 (Garfield-Anacostia Loop Line)",
 	"website": "http://www.dcps.dc.gov",
 	"facebook": "http://www.facebook.com/dcpublicschools",
@@ -31,12 +31,10 @@
 	"external_report_card": "http://profiles.dcps.dc.gov/Kramer+Middle+School",
 	"equity_report_url": 
 "http://osse.dc.gov/sites/default/files/dc/sites/osse/publication/attachments/2015_Equity_Report_DCPS%20School_Kramer%20MS_1.pdf",
-	"contact": [
-		{
-			"name": "Kwame Simmons",
-			"title": "Principal",
-			"phone": "(202) 939-3150",
-			"email": "Kwame.simmons@dc.gov"
-		}
-		]
-	}
+	"contact": [{
+		"name": "Kwame Simmons",
+		"title": "Principal",
+		"phone": "(202) 939-3150",
+		"email": "Kwame.simmons@dc.gov"
+		}]
+}

@@ -1,5 +1,5 @@
 {
-	"timestamp": "Tue Jun 09 16:00:10 2015",
+	"timestamp": "Thu Sep 01 15:55:11 2016",
 	"org_type": "school",
 	"org_name": "Community Academy Amos III",
 	"org_code": "1109",
@@ -12,37 +12,29 @@
 		"gs_url": "http://www.greatschools.org/washington-dc/washington/599-Community-Academy-PCS---Amos-III"
 	},
 	"ward": "5",
-	"grades_serviced": [],
-	"grades_accepted": ["PK3","PK4","KG","01","02","03","04","05"],
-	"description": "The mission of the Dorothy I. Height Community Academy PCS is to create a caring learning community where students acquire the knowledge, skills, and habits of mind to think critically; to read, write, speak and listen effectively; to reason mathematically; to inquire scientifically; and to develop the social competence that ensures meeting qualifications for acceptance to a competitive high school.",
-	 "address": {
-		"line_1": "1400 1ST ST NW",
-		"line_2": "",
+	"grades_serviced": ["PK3","PK4","KG","01","02","03","04","05"],
+	"grades_accepted": null,
+	"description": null,
+	"address": {
+		"line_1": "1400 FIRST ST NW",
+		"line_2": null,
 		"city": "Washington",
 		"state": "DC",
 		"zip": "20001",
 		"lat": 38.90908,
 		"long": -77.01322
-	 },
-	"transit": "Add NOMA-Gallaudet U Metro",
+	},
+	"transit": null,
 	"website": "http://www.capcs.org",
 	"facebook": null,
 	"twitter": null,
 	"external_report_card": null,
 	"equity_report_url": 
-"http://osse.dc.gov/sites/default/files/dc/sites/osse/publication/attachments/2013_Equity_Report_PCSB_External_Community%20Academy%20PCS%20–%20Amos%203.pdf",
-	"contact": [
-		{
-			"name": "Ernest Green, Jr.",
-			"title": "Board Chair",
-			"phone": null,
-			"email": null
-		},
-		{
-			"name": "Rachelle Roberts",
-			"title": "Principal",
-			"phone": null,
-			"email": null
-		}
-		]
-	}
+null,
+	"contact": [{
+		"name": "Ernest Green, Jr.",
+		"title": "Board Chair",
+		"phone": null,
+		"email": null
+		}]
+}

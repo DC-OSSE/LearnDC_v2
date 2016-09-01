@@ -1,5 +1,5 @@
 {
-	"timestamp": "Thu Jun 02 23:41:36 2016",
+	"timestamp": "Thu Sep 01 15:55:11 2016",
 	"org_type": "school",
 	"org_name": "Tubman ES",
 	"org_code": "0328",
@@ -12,10 +12,10 @@
 		"gs_url": "http://www.greatschools.org/washington-dc/washington/58-Tubman-Elementary-School"
 	},
 	"ward": "1",
-	"grades_serviced": ["01","02","03","04","05","KG","PK3","PK4"],
-	"grades_accepted": ["KG","01","PK3","04","05","02","03","PK4"],
+	"grades_serviced": ["PK3","PK4","KG","01","02","03","04","05"],
+	"grades_accepted": null,
 	"description": "Tubman Elementary School is the highest achieving DCPS elementary school in Ward 1. From 2007–13, Tubman students had a growth of 54% in math and nearly 30% in reading. We offer a comprehensive and rigorous academic program serving the needs of all learners. We have a rich math and literacy program and also include rigorous science instruction with a science specialist and a wide array of specials where all students take Spanish, art, music and PE. We have a full-time librarian to support ongoing literacy. The Tubman community is hard-working, passionate about learning, committed to treating each other with compassion, and eager to partner with families to best support our children. Along with our community partners and families, we are putting students on a path to college.",
-	 "address": {
+	"address": {
 		"line_1": "3101 13TH ST  NW",
 		"line_2": null,
 		"city": "Washington",
@@ -23,7 +23,7 @@
 		"zip": "20010",
 		"lat": 38.9292,
 		"long": -77.02944
-	 },
+	},
 	"transit": "H1, H2, H3, H4 (Brookland - Potomac Park/Van Ness/Tenleytown), 64 (Fort Totten - Federal Triangle), 54, 53, 54 (L'Enfant Plaza/McPherson Sq - Takoma), H8 (Mt Pleasant - Rhode Island Ave), 62, 63 (Takoma - Federal Triangle), 70, 71 (Buzzard Point/9th  &  Maine - Silver Spring), S1, S2, S4, S9 (Silver Spring/16th  &  Colorado - Federal Triangle), 42 (Mt Pleasant - Metro Center)",
 	"website": "http://www.dcps.dc.gov",
 	"facebook": "http://www.facebook.com/pages/Tubman-Elementary-School/121729331199605?ref=ts",
@@ -31,12 +31,10 @@
 	"external_report_card": "http://profiles.dcps.dc.gov/Tubman+Elementary+School",
 	"equity_report_url": 
 "http://osse.dc.gov/sites/default/files/dc/sites/osse/publication/attachments/2015_Equity_Report_DCPS%20School_Tubman%20ES_0.pdf",
-	"contact": [
-		{
-			"name": "Amanda Delabar",
-			"title": "Principal",
-			"phone": "(202) 673-7285",
-			"email": "amanda.delabar@dc.gov"
-		}
-		]
-	}
+	"contact": [{
+		"name": "Amanda Delabar",
+		"title": "Principal",
+		"phone": "(202) 673-7285",
+		"email": "amanda.delabar@dc.gov"
+		}]
+}

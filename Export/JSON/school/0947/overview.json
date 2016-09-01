@@ -1,29 +1,29 @@
 {
-	"timestamp": "Thu Jun 02 23:41:40 2016",
+	"timestamp": "Thu Sep 01 15:55:12 2016",
 	"org_type": "school",
-	"org_name": "CHOICE Academy at Emery",
+	"org_name": "CHOICE Academy at Wash Met",
 	"org_code": "0947",
 	"closed": false,
 	"charter": false,
 	"school_type": [
-		"Alternative Education School"
+		"NA"
 	 ],
 	"great_schools": {
 		"gs_url": "http://www.greatschools.org/washington-dc/washington/292-C.H.O.I.C.E.-Academy--Emery"
 	},
-	"ward": "5",
+	"ward": "1",
 	"grades_serviced": ["06","07","08","09","10","11","12"],
-	"grades_accepted": ["06","07","08","09","10","11","12"],
+	"grades_accepted": null,
 	"description": "C.H.O.I.C.E. Academy school provides a specialized alternative setting for students in grades 6-12 who are in a long-term suspension or expulsion status due to an infraction of the Student Discipline Code of Conduct Chapter 25. Our goal is to offer a structured program of academic support with behavior modification strategies that prepares students for a successful re-entry into their home schools.",
-	 "address": {
-		"line_1": "1720 1ST ST. NE",
+	"address": {
+		"line_1": "300 BRYANT ST NW",
 		"line_2": null,
 		"city": "Washington",
 		"state": "DC",
-		"zip": "20002",
-		"lat": 38.9135,
-		"long": -77.00678
-	 },
+		"zip": "20001",
+		"lat": 38.92043,
+		"long": -77.01558
+	},
 	"transit": "90, 92, 93 (U Street-Garfield Line), X3 (Benning Road-Potomac Park Line)",
 	"website": "http://www.dcps.dc.gov",
 	"facebook": "http://www.facebook.com/dcpublicschools",
@@ -31,12 +31,10 @@
 	"external_report_card": "http://profiles.dcps.dc.gov/C.H.O.I.C.E.+Academy+%40+Emery",
 	"equity_report_url": 
 null,
-	"contact": [
-		{
-			"name": "William Chiselom",
-			"title": "Principal",
-			"phone": "(202) 939-4350",
-			"email": "william.chiselom@dc.gov"
-		}
-		]
-	}
+	"contact": [{
+		"name": "William Chiselom",
+		"title": "Principal",
+		"phone": "(202) 939-4350",
+		"email": "william.chiselom@dc.gov"
+		}]
+}

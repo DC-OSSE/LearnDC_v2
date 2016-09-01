@@ -1,7 +1,7 @@
 {
-	"timestamp": "Thu Jun 02 23:41:27 2016",
+	"timestamp": "Thu Sep 01 15:55:12 2016",
 	"org_type": "school",
-	"org_name": "Hope Community PCS Lamond Campus",
+	"org_name": "Hope Community PCS Lamond",
 	"org_code": "0131",
 	"closed": false,
 	"charter": true,
@@ -12,18 +12,18 @@
 		"gs_url": "http://www.greatschools.org/washington-dc/washington/563-Hope-Community-PCS---Lamond"
 	},
 	"ward": "4",
-	"grades_serviced": ["01","02","03","04","05","KG","PK3","PK4"],
-	"grades_accepted": ["PK3","PK4","KG","01","02","03","04","05"],
+	"grades_serviced": ["PK3","PK4","KG","01","02","03","04","05"],
+	"grades_accepted": null,
 	"description": "Hope Community Public Charter School's mission is to shape the hearts and minds of our students positively, by providing them with an academically rigorous, content rich curriculum, an environment in which character is modeled and promoted, and a community in which to build trusting relationships with others.",
-	 "address": {
-		"line_1": "6200 KANSAS AVENUE NE",
+	"address": {
+		"line_1": "6200 KANSAS AVE NE",
 		"line_2": null,
 		"city": "Washington",
 		"state": "DC",
 		"zip": "20011",
 		"lat": 38.96572,
 		"long": -77.00861
-	 },
+	},
 	"transit": "K6",
 	"website": "http://www.imaginehopelamond.com",
 	"facebook": null,
@@ -31,18 +31,10 @@
 	"external_report_card": "http://dashboard.dcpcsb.org/detailed/59",
 	"equity_report_url": 
 "http://osse.dc.gov/sites/default/files/dc/sites/osse/publication/attachments/2015_Equity_Report_Public%20Charter%20School_Hope%20Community%20PCS%20-%20Lamond_0.pdf",
-	"contact": [
-		{
-			"name": "James Kemp",
-			"title": "Board Chair",
-			"phone": null,
-			"email": null
-		},
-		{
-			"name": "Danah Telfaire",
-			"title": "Principal",
-			"phone": null,
-			"email": null
-		}
-		]
-	}
+	"contact": [{
+		"name": "James Kemp",
+		"title": "Board Chair",
+		"phone": null,
+		"email": null
+		}]
+}

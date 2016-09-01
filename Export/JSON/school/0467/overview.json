@@ -1,5 +1,5 @@
 {
-	"timestamp": "Thu Jun 02 23:41:39 2016",
+	"timestamp": "Thu Sep 01 15:55:12 2016",
 	"org_type": "school",
 	"org_name": "Dunbar HS",
 	"org_code": "0467",
@@ -13,17 +13,17 @@
 	},
 	"ward": "5",
 	"grades_serviced": ["09","10","11","12"],
-	"grades_accepted": ["10","11","09","12"],
+	"grades_accepted": null,
 	"description": "Our mission is to provide an all-inclusive instructional program for students that fosters maximum academic achievement, enabling them to enjoy lifelong learning while becoming productive citizens. Dunbar aims to serve as a learning community where students undergo diverse, meaningful opportunities and experiences and receive a quality education. All students are encouraged to be well-rounded scholars by participating in Dunbar's numerous extracurricular activities. Alumni continue to support the mission of the school with millions of dollars in scholarships annually.",
-	 "address": {
-		"line_1": "101 N ST. NW",
+	"address": {
+		"line_1": "101 N ST NW",
 		"line_2": null,
 		"city": "Washington",
 		"state": "DC",
 		"zip": "20001",
 		"lat": 38.90763,
 		"long": -77.01269
-	 },
+	},
 	"transit": "70, 71 (Georgia Ave-7th Street Line), 79 (Georgia Ave Extra Metro Line), 90 (U Street-Garfield Line), 96 (East Capitol Street-Cardozo Line), G2 (P Street-LeDroit Park Line), P6 (Anacostia-Eckington Line), DC Circulator (Convention Center-SW Waterfront)",
 	"website": "http://www.dcps.dc.gov",
 	"facebook": "http://www.facebook.com/dcpublicschools",
@@ -31,12 +31,10 @@
 	"external_report_card": "http://profiles.dcps.dc.gov/Dunbar+High+School",
 	"equity_report_url": 
 "http://osse.dc.gov/sites/default/files/dc/sites/osse/publication/attachments/2015_Equity_Report_DCPS%20School_Dunbar%20HS_0.pdf",
-	"contact": [
-		{
-			"name": "Stephen Jackson",
-			"title": "Principal",
-			"phone": "(202) 698-3762",
-			"email": "stephen.jackson@dc.gov"
-		}
-		]
-	}
+	"contact": [{
+		"name": "Stephen Jackson",
+		"title": "Principal",
+		"phone": "(202) 698-3762",
+		"email": "stephen.jackson@dc.gov"
+		}]
+}

@@ -1,7 +1,7 @@
 {
-	"timestamp": "Thu Jun 02 23:41:29 2016",
+	"timestamp": "Thu Sep 01 15:55:12 2016",
 	"org_type": "school",
-	"org_name": "Capital City Middle School",
+	"org_name": "Capital City PCS Middle",
 	"org_code": "0182",
 	"closed": false,
 	"charter": true,
@@ -13,9 +13,9 @@
 	},
 	"ward": "4",
 	"grades_serviced": ["05","06","07","08"],
-	"grades_accepted": ["08","05","06","07"],
+	"grades_accepted": null,
 	"description": "Capital City Public Charter School enables a diverse group of students to meet high expectations, develop creativity, critical thinking, and problem-solving skills, achieve a deep understanding of complex subjects, acquire a love of learning, along with a strong sense of community and character. We will graduate young adults who are self-directed, intellectually engaged and committed to personal and civic responsibility.",
-	 "address": {
+	"address": {
 		"line_1": "100 PEABODY ST NW",
 		"line_2": null,
 		"city": "Washington",
@@ -23,7 +23,7 @@
 		"zip": "20011",
 		"lat": 38.96216,
 		"long": -77.01287
-	 },
+	},
 	"transit": "Fort Totten or Takoma Metro Station/ 62,63 bus",
 	"website": "http://www.ccpcs.org",
 	"facebook": null,
@@ -31,24 +31,10 @@
 	"external_report_card": "http://dashboard.dcpcsb.org/detailed/15",
 	"equity_report_url": 
 "http://osse.dc.gov/sites/default/files/dc/sites/osse/publication/attachments/2015_Equity_Report_Public%20Charter%20School_Capital%20City%20PCS%20-%20Middle%20School_0.pdf",
-	"contact": [
-		{
-			"name": "Anne Wallestad",
-			"title": "Board Chair",
-			"phone": null,
-			"email": null
-		},
-		{
-			"name": "Laina Cox",
-			"title": "Principal",
-			"phone": null,
-			"email": null
-		},
-		{
-			"name": "Karen Dresden",
-			"title": "Executive Director",
-			"phone": null,
-			"email": null
-		}
-		]
-	}
+	"contact": [{
+		"name": "Anne Wallestad",
+		"title": "Board Chair",
+		"phone": null,
+		"email": null
+		}]
+}

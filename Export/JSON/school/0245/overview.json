@@ -1,7 +1,7 @@
 {
-	"timestamp": "Thu Jun 02 23:41:32 2016",
+	"timestamp": "Thu Sep 01 15:55:13 2016",
 	"org_type": "school",
-	"org_name": "Harmony DC PCS-School of Excellence",
+	"org_name": "Harmony DC PCS School of Excellence",
 	"org_code": "0245",
 	"closed": false,
 	"charter": true,
@@ -12,26 +12,24 @@
 		"gs_url": null
 	},
 	"ward": "5",
-	"grades_serviced": ["01","02","03","04","05","KG"],
-	"grades_accepted": ["KG","01","02","03","04","05","06"],
-	"description": "NA",
-	 "address": {
-		"line_1": "62 T STREET NE",
+	"grades_serviced": ["KG","01","02","03","04","05"],
+	"grades_accepted": null,
+	"description": null,
+	"address": {
+		"line_1": "62 T ST NE",
 		"line_2": null,
 		"city": "Washington",
 		"state": "DC",
 		"zip": "20002",
 		"lat": 38.91601,
 		"long": -77.00667
-	 },
-	"transit": "NA",
+	},
+	"transit": null,
 	"website": "http://www.harmonydc.org",
 	"facebook": null,
 	"twitter": null,
 	"external_report_card": null,
 	"equity_report_url": 
 "http://osse.dc.gov/sites/default/files/dc/sites/osse/publication/attachments/2015_Equity_Report_Public%20Charter%20School_Harmony%20DC%20PCS%20-%20School%20of%20Excellence_0.pdf",
-	"contact": [
-
-		]
-	}
+	"contact": []
+}

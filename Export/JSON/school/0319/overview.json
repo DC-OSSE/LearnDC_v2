@@ -1,5 +1,5 @@
 {
-	"timestamp": "Thu Jun 02 23:41:35 2016",
+	"timestamp": "Thu Sep 01 15:55:11 2016",
 	"org_type": "school",
 	"org_name": "Stanton ES",
 	"org_code": "0319",
@@ -12,10 +12,10 @@
 		"gs_url": "http://www.greatschools.org/washington-dc/washington/11-Stanton-Elementary-School"
 	},
 	"ward": "8",
-	"grades_serviced": ["01","02","03","04","05","KG","PK3","PK4","UN"],
-	"grades_accepted": ["PK4","02","03","KG","PK3","01","04","05"],
+	"grades_serviced": ["PK3","PK4","KG","01","02","03","04","05"],
+	"grades_accepted": null,
 	"description": "DC Scholars Stanton Elementary, operated as a partnership school by Scholar Academies, prepares students for the path to college and provides students with a foundation of life skills required to become productive members of their communities. We believe that every student can succeed when they are held to the highest expectations. DC Scholars Stanton Elementary students receive double reading and double math in addition to science, social studies, art and music. A core philosophy of DC Scholars Stanton Elementary is that we must make a collective commitment to ensure our students are receiving the highest quality education.",
-	 "address": {
+	"address": {
 		"line_1": "2701 NAYLOR RD  SE",
 		"line_2": null,
 		"city": "Washington",
@@ -23,7 +23,7 @@
 		"zip": "20020",
 		"lat": 38.85927,
 		"long": -76.96849
-	 },
+	},
 	"transit": "92 (Congress Heights - Ellington Bridge), W2, W3 (Washington Overlook - United Medical Center), 32 (Friendship Heights - Southern Ave), W4 (Anacostia Station - Deanwood Station), W6 (Anacostia Shuttle), 34, 36 (Friendship Heights - Naylor Rd), 39 (Naylor Road - Potomac Park), F14 (New Carrollton - Potomac Park) <br>",
 	"website": "http://www.dcps.dc.gov",
 	"facebook": "http://www.facebook.com/dcpublicschools",
@@ -31,12 +31,10 @@
 	"external_report_card": "http://profiles.dcps.dc.gov/Stanton+Elementary+School",
 	"equity_report_url": 
 "http://osse.dc.gov/sites/default/files/dc/sites/osse/publication/attachments/2015_Equity_Report_DCPS%20School_Stanton%20ES_0.pdf",
-	"contact": [
-		{
-			"name": "Rena Johnson",
-			"title": "Principal",
-			"phone": "(202) 671-6180",
-			"email": "rena.johnson@dc.gov"
-		}
-		]
-	}
+	"contact": [{
+		"name": "Rena Johnson",
+		"title": "Principal",
+		"phone": "(202) 671-6180",
+		"email": "rena.johnson@dc.gov"
+		}]
+}

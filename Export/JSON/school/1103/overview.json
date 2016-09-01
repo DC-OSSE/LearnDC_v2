@@ -1,7 +1,7 @@
 {
-	"timestamp": "Thu Jun 02 23:41:40 2016",
+	"timestamp": "Thu Sep 01 15:55:13 2016",
 	"org_type": "school",
-	"org_name": "Center City Brightwood Campus PCS",
+	"org_name": "Center City PCS Brightwood",
 	"org_code": "1103",
 	"closed": false,
 	"charter": true,
@@ -11,11 +11,11 @@
 	"great_schools": {
 		"gs_url": "http://www.greatschools.org/washington-dc/washington/593-Center-City-PCS---Brightwood"
 	},
-	"ward": "4",
-	"grades_serviced": ["01","02","03","04","05","06","07","08","KG","PK4"],
-	"grades_accepted": ["KG","01","PK4","03","04","05","02","07","08","06"],
+	"ward": "2",
+	"grades_serviced": ["PK3","PK4","KG","01","02","03","04","05","06","07","08"],
+	"grades_accepted": null,
 	"description": "The Center City Public Charter Schools (Center City PCS) empower our children for success through a rigorous academic program and strong character education while challenging students to pursue personal excellence in character, conduct, and scholarship in order to develop the skills necessary to both serve and lead others in the 21st century.",
-	 "address": {
+	"address": {
 		"line_1": "6008 GEORGIA AVE NW",
 		"line_2": null,
 		"city": "Washington",
@@ -23,7 +23,7 @@
 		"zip": "20011",
 		"lat": 38.96319,
 		"long": -77.02833
-	 },
+	},
 	"transit": "52,53,54; 70",
 	"website": "http://www.centercitypcs.org",
 	"facebook": null,
@@ -31,24 +31,10 @@
 	"external_report_card": "http://dashboard.dcpcsb.org/detailed/18",
 	"equity_report_url": 
 "http://osse.dc.gov/sites/default/files/dc/sites/osse/publication/attachments/2015_Equity_Report_Public%20Charter%20School_Center%20City%20PCS%20-%20Brightwood_0.pdf",
-	"contact": [
-		{
-			"name": "Ralph F. Boyd",
-			"title": "Board Chair",
-			"phone": null,
-			"email": null
-		},
-		{
-			"name": "Shavone Gibson",
-			"title": "Principal",
-			"phone": null,
-			"email": null
-		},
-		{
-			"name": "Russ Williams",
-			"title": "Executive Director",
-			"phone": null,
-			"email": null
-		}
-		]
-	}
+	"contact": [{
+		"name": "Ralph F. Boyd",
+		"title": "Board Chair",
+		"phone": null,
+		"email": null
+		}]
+}

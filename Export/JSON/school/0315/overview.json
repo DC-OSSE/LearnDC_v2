@@ -1,5 +1,5 @@
 {
-	"timestamp": "Thu Jun 02 23:41:35 2016",
+	"timestamp": "Thu Sep 01 15:55:11 2016",
 	"org_type": "school",
 	"org_name": "Simon ES",
 	"org_code": "0315",
@@ -12,10 +12,10 @@
 		"gs_url": "http://www.greatschools.org/washington-dc/washington/42-Simon-Elementary-School"
 	},
 	"ward": "8",
-	"grades_serviced": ["01","02","03","04","05","KG","PK3","PK4"],
-	"grades_accepted": ["KG","PK4","04","05","PK3","01","03","02"],
+	"grades_serviced": ["PK3","PK4","KG","01","02","03","04","05"],
+	"grades_accepted": null,
 	"description": "Abram Simon Elementary School has created a learning environment that educates the whole child. Core academic subjects are supported and enhanced through the arts and technology. Our school serves students in the general education setting as well as provides service for students requiring support services such as speech and language, social work services, occupational services and physical therapy services. Our mission is to, in concert with students, families, the broader community and the support of management and operations, prepare all students to be responsible citizens and afford them the opportunity to acquire the skills, knowledge and abilities necessary to make decisions that lead to meaningful and productive lives.",
-	 "address": {
+	"address": {
 		"line_1": "401 MISSISSIPPI AVE  SE",
 		"line_2": null,
 		"city": "Washington",
@@ -23,7 +23,7 @@
 		"zip": "20032",
 		"lat": 38.83598,
 		"long": -77.0002
-	 },
+	},
 	"transit": "A2 (Anacostia - Southern Ave), A42 (Archives - Southern Ave), M8, M9 (Washington Highlands/Congress Heights), A4, A5 (Anacostia - DC Village), A48 (Livingston via South Capitol - Archives), W2, W3 (United Medical Center - Washington Overlool), A6, A7 (Anacostia - Livingston via Wheeler Rd)",
 	"website": "http://www.dcps.dc.gov",
 	"facebook": "http://www.facebook.com/dcpublicschools",
@@ -31,12 +31,10 @@
 	"external_report_card": "http://profiles.dcps.dc.gov/Simon+Elementary+School",
 	"equity_report_url": 
 "http://osse.dc.gov/sites/default/files/dc/sites/osse/publication/attachments/2015_Equity_Report_DCPS%20School_Simon%20ES_0.pdf",
-	"contact": [
-		{
-			"name": "Adelaide Flamer",
-			"title": "Principal",
-			"phone": "(202) 645-3360",
-			"email": "adelaide.flamer@dc.gov"
-		}
-		]
-	}
+	"contact": [{
+		"name": "Adelaide Flamer",
+		"title": "Principal",
+		"phone": "(202) 645-3360",
+		"email": "adelaide.flamer@dc.gov"
+		}]
+}

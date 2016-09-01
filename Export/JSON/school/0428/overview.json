@@ -1,7 +1,7 @@
 {
-	"timestamp": "Thu Jun 02 23:41:38 2016",
+	"timestamp": "Thu Sep 01 15:55:12 2016",
 	"org_type": "school",
-	"org_name": "Stuart Hobson MS (Capitol Hill Cluster)",
+	"org_name": "Stuart Hobson MS Capitol Hill Cluster",
 	"org_code": "0428",
 	"closed": false,
 	"charter": false,
@@ -13,9 +13,9 @@
 	},
 	"ward": "6",
 	"grades_serviced": ["06","07","08"],
-	"grades_accepted": ["08","06","07"],
+	"grades_accepted": null,
 	"description": "We provide a wide range of enrichment and extracurricular activities for students, including beginning and intermediate band, chorus, clubs and sports, including cross country, track and football. Included in our dedicated faculty are a number of teachers who have received or are working toward national board certification, as well as a past recipient of the DCPS Art Teacher of the Year Award. Our students consistently win high honors, including National History Day and Science Fair regional and national awards as well as Young Playwrights' Theater recognition. Our graduates go on to attend the most competitive public and private high schools in DC and, ultimately, the most prestigious colleges and universities in the nation.",
-	 "address": {
+	"address": {
 		"line_1": "410 E ST  NE",
 		"line_2": null,
 		"city": "Washington",
@@ -23,7 +23,7 @@
 		"zip": "20002",
 		"lat": 38.8963,
 		"long": -77
-	 },
+	},
 	"transit": "92 (U Street-Garfield Line ), D6 (Sibley Hospital-Stadium-Armory Line), X2 (Benning Road-H Street Line ), X8 (Maryland Ave Line)",
 	"website": "http://www.dcps.dc.gov",
 	"facebook": "http://www.facebook.com/pages/Capitol-Hill-Cluster-School/135818373121456?ref=ts",
@@ -31,12 +31,10 @@
 	"external_report_card": "http://profiles.dcps.dc.gov/Stuart-Hobson+Middle+School",
 	"equity_report_url": 
 "http://osse.dc.gov/sites/default/files/dc/sites/osse/publication/attachments/2015_Equity_Report_DCPS%20School_Stuart-Hobson%20MS%20%28Capitol%20Hill%20Cluster%29_0.pdf",
-	"contact": [
-		{
-			"name": "Dawn Clemens",
-			"title": "Principal",
-			"phone": "(202) 671-6010",
-			"email": "dawn.clemens@dc.gov"
-		}
-		]
-	}
+	"contact": [{
+		"name": "Dawn Clemens",
+		"title": "Principal",
+		"phone": "(202) 671-6010",
+		"email": "dawn.clemens@dc.gov"
+		}]
+}

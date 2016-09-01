@@ -1,5 +1,5 @@
 {
-	"timestamp": "Thu Jun 02 23:41:33 2016",
+	"timestamp": "Thu Sep 01 15:55:11 2016",
 	"org_type": "school",
 	"org_name": "Leckie ES",
 	"org_code": "0266",
@@ -12,10 +12,10 @@
 		"gs_url": "http://www.greatschools.org/washington-dc/washington/32-Leckie-Elementary-School"
 	},
 	"ward": "8",
-	"grades_serviced": ["01","02","03","04","05","06","KG","PK3","PK4"],
-	"grades_accepted": ["PK4","05","01","03","KG","02","PK3","04"],
+	"grades_serviced": ["PK3","PK4","KG","01","02","03","04","05","06","07"],
+	"grades_accepted": null,
 	"description": "Leckie ES is a Multicultural School housed in the far Southwest area of DC near the South Gate of Bolling AFB. We serve students from 3 to 10 years of age. Our vision at Madeline Victoria Leckie School is a child-centered and diverse learning community that provides each student with the opportunity, resources and foundation to reach his or her full potential, achieve well-rounded citizenship and enjoy multicultural enrichment in a safe, supportive and challenging environment. We strive to increase students' awareness of personal responsibility and to instill a love of lifelong learning. We actively involve parents and the community in supporting student learning and development. We are committed to the academic success of every student and will ensure each student has access to quality learning opportunities within a rigorous and relevant curriculum. We strive to create and maintain a safe and culturally enriched community where students leave motivated to reach their goals and inspired to fulfill their dreams.",
-	 "address": {
+	"address": {
 		"line_1": "4201 M L  KING AVE  SW",
 		"line_2": null,
 		"city": "Washington",
@@ -23,7 +23,7 @@
 		"zip": "20032",
 		"lat": 38.8282,
 		"long": -77.01289
-	 },
+	},
 	"transit": "A4, A5 (DC Village - Anacostia Station), A48, A8, A9 (Livingston - Archives/L'Enfant Plaza/Anacostia Metro), P17, P18, P19 (Fort Washigton - Anacostia Station), W13, W14 (Fort Washington Forest/Friendly - Anacostia Station) <br>A2. A42 (Southern Ave Station - Archives/Anacostia Station)",
 	"website": "http://www.dcps.dc.gov",
 	"facebook": "http://www.facebook.com/dcpublicschools",
@@ -31,12 +31,10 @@
 	"external_report_card": "http://profiles.dcps.dc.gov/Leckie+Elementary+School",
 	"equity_report_url": 
 "http://osse.dc.gov/sites/default/files/dc/sites/osse/publication/attachments/2015_Equity_Report_DCPS%20School_Leckie%20ES_1.pdf",
-	"contact": [
-		{
-			"name": "Atasha James",
-			"title": "Principal",
-			"phone": "(202) 645-3330",
-			"email": "atasha.james@dc.gov"
-		}
-		]
-	}
+	"contact": [{
+		"name": "Atasha James",
+		"title": "Principal",
+		"phone": "(202) 645-3330",
+		"email": "atasha.james@dc.gov"
+		}]
+}
