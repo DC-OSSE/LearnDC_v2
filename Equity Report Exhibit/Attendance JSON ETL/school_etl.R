@@ -1,10 +1,9 @@
-setwd("U:/LearnDC ETL V2/Equity Report Exhibit/Attendance JSON ETL")
-source("U:/R/tomkit.R")
+source(paste(root_dir,'imports/helpers.R',sep=''))
 library(jsonlite)
 library(reshape2)
 library(dplyr)
 
-isa <- sqlQuery(dbrepcard_prod,"select * from equity_report_school_longitudinal where metric in ('In-Seat Attendance Rate') and reported=1") %>% 
+isa <- sqlQuery(dbrepcard_prod,"select * from equity_report_school_longitudinal where metric in ('In-Seat Attendance Rate') and school_year ='2015-2016' and reported=1") %>% 
 	mutate(lea_code=sapply(lea_code,leadgr,4),school_code=sapply(school_code,leadgr,4),subgroup=ifelse(subgroup %in% c('Male','Female'),toupper(subgroup),ifelse(toupper(subgroup) %in% "ELL","LEP",subgroup))) %>% select(school_code,year,subgroup,metric,school_score,average_score,nsize)
 
 att_long <- melt(isa,id.vars=c("year","school_code","subgroup","metric"))
@@ -28,7 +27,7 @@ num_orphans <- 0
 
 
 for(i in unique(attw$school_code)){
-	setwd("U:/LearnDC ETL V2/Export/JSON/school")
+	setwd(paste(root_dir, 'Export/JSON/school', sep=''))
 
 	if(file.exists(i)){
 	    setwd(file.path(i))
