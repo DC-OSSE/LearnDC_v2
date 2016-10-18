@@ -1,5 +1,5 @@
 {
-"timestamp": "Wed Nov 18 12:46:04 2015",
+"timestamp": "Tue Oct 18 18:05:13 2016",
 "org_type": "school",
 "org_name": "",
 "org_code": "0294",
@@ -9,79 +9,79 @@
 [
     {
         "key": {
-            "year": 2015,
+            "year": 2016,
             "subgroup": "All"
         },
         "val": {
-            "suspended_1": 0.168,
+            "suspended_1": 0.126,
             "suspended_11": 0,
-            "state_suspended_1": 0.057,
-            "state_suspended_11": 0.0001,
-            "incidents": 180
+            "state_suspended_1": 0.047,
+            "state_suspended_11": 0,
+            "incidents": 120
         }
     },
     {
         "key": {
-            "year": 2015,
+            "year": 2016,
             "subgroup": "BL7"
         },
         "val": {
-            "suspended_1": 0.168,
+            "suspended_1": 0.128,
             "suspended_11": 0,
-            "state_suspended_1": 0.077,
-            "state_suspended_11": 0.0001,
-            "incidents": 0
-        }
-    },
-    {
-        "key": {
-            "year": 2015,
-            "subgroup": "Economy"
-        },
-        "val": {
-            "suspended_1": 0.168,
-            "suspended_11": 0,
-            "state_suspended_1": 0.068,
-            "state_suspended_11": 0.0001,
-            "incidents": 0
-        }
-    },
-    {
-        "key": {
-            "year": 2015,
-            "subgroup": "FEMALE"
-        },
-        "val": {
-            "suspended_1": 0.101,
-            "suspended_11": 0,
-            "state_suspended_1": 0.032,
+            "state_suspended_1": 0.064,
             "state_suspended_11": 0,
             "incidents": 0
         }
     },
     {
         "key": {
-            "year": 2015,
-            "subgroup": "MALE"
+            "year": 2016,
+            "subgroup": "Economy"
         },
         "val": {
-            "suspended_1": 0.222,
+            "suspended_1": 0.126,
             "suspended_11": 0,
-            "state_suspended_1": 0.081,
-            "state_suspended_11": 0.0002,
+            "state_suspended_1": 0.056,
+            "state_suspended_11": 0,
             "incidents": 0
         }
     },
     {
         "key": {
-            "year": 2015,
+            "year": 2016,
+            "subgroup": "FEMALE"
+        },
+        "val": {
+            "suspended_1": 0.057,
+            "suspended_11": 0,
+            "state_suspended_1": 0.027,
+            "state_suspended_11": 0,
+            "incidents": 0
+        }
+    },
+    {
+        "key": {
+            "year": 2016,
+            "subgroup": "MALE"
+        },
+        "val": {
+            "suspended_1": 0.179,
+            "suspended_11": 0,
+            "state_suspended_1": 0.066,
+            "state_suspended_11": 0,
+            "incidents": 0
+        }
+    },
+    {
+        "key": {
+            "year": 2016,
             "subgroup": "SPED"
         },
         "val": {
-            "suspended_1": 0.211,
+            "suspended_1": 0.128,
             "suspended_11": 0,
-            "state_suspended_1": 0.114,
-            "state_suspended_11": 0.0006,
+            "state_suspended_1": 0.094,
+            "state_suspended_11": 0,
             "incidents": 0
         }
     }

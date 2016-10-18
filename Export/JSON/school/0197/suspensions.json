@@ -1,5 +1,5 @@
 {
-"timestamp": "Wed Nov 18 12:45:54 2015",
+"timestamp": "Tue Oct 18 18:05:09 2016",
 "org_type": "school",
 "org_name": "",
 "org_code": "0197",
@@ -9,91 +9,117 @@
 [
     {
         "key": {
-            "year": 2015,
+            "year": 2016,
             "subgroup": "All"
         },
         "val": {
-            "suspended_1": 0.023,
+            "suspended_1": 0.007,
             "suspended_11": 0,
-            "state_suspended_1": 0.037,
-            "state_suspended_11": 0.0001,
-            "incidents": 4
+            "state_suspended_1": 0.025,
+            "state_suspended_11": 0,
+            "incidents": 1
         }
     },
     {
         "key": {
-            "year": 2015,
+            "year": 2016,
             "subgroup": "BL7"
-        },
-        "val": {
-            "suspended_1": 0.031,
-            "suspended_11": 0,
-            "state_suspended_1": 0.052,
-            "state_suspended_11": 0.0002,
-            "incidents": 0
-        }
-    },
-    {
-        "key": {
-            "year": 2015,
-            "subgroup": "Economy"
-        },
-        "val": {
-            "suspended_1": 0.039,
-            "suspended_11": 0,
-            "state_suspended_1": 0.046,
-            "state_suspended_11": 0.0001,
-            "incidents": 0
-        }
-    },
-    {
-        "key": {
-            "year": 2015,
-            "subgroup": "FEMALE"
         },
         "val": {
             "suspended_1": 0,
             "suspended_11": 0,
-            "state_suspended_1": 0.018,
+            "state_suspended_1": 0.035,
             "state_suspended_11": 0,
             "incidents": 0
         }
     },
     {
         "key": {
-            "year": 2015,
+            "year": 2016,
+            "subgroup": "Economy"
+        },
+        "val": {
+            "suspended_1": 0.012,
+            "suspended_11": 0,
+            "state_suspended_1": 0.031,
+            "state_suspended_11": 0,
+            "incidents": 0
+        }
+    },
+    {
+        "key": {
+            "year": 2016,
+            "subgroup": "FEMALE"
+        },
+        "val": {
+            "suspended_1": 0,
+            "suspended_11": 0,
+            "state_suspended_1": 0.013,
+            "state_suspended_11": 0,
+            "incidents": 0
+        }
+    },
+    {
+        "key": {
+            "year": 2016,
+            "subgroup": "HI7"
+        },
+        "val": {
+            "suspended_1": 0,
+            "suspended_11": 0,
+            "state_suspended_1": 0.007,
+            "state_suspended_11": 0,
+            "incidents": 0
+        }
+    },
+    {
+        "key": {
+            "year": 2016,
+            "subgroup": "LEP"
+        },
+        "val": {
+            "suspended_1": 0,
+            "suspended_11": 0,
+            "state_suspended_1": 0.007,
+            "state_suspended_11": 0,
+            "incidents": 0
+        }
+    },
+    {
+        "key": {
+            "year": 2016,
             "subgroup": "MALE"
         },
         "val": {
-            "suspended_1": 0.049,
+            "suspended_1": 0.016,
             "suspended_11": 0,
-            "state_suspended_1": 0.057,
-            "state_suspended_11": 0.0002,
+            "state_suspended_1": 0.038,
+            "state_suspended_11": 0,
             "incidents": 0
         }
     },
     {
         "key": {
-            "year": 2015,
+            "year": 2016,
             "subgroup": "SPED"
         },
         "val": {
-            "suspended_1": 0.091,
+            "suspended_1": 0.077,
             "suspended_11": 0,
-            "state_suspended_1": 0.074,
-            "state_suspended_11": 0.0006,
+            "state_suspended_1": 0.054,
+            "state_suspended_11": 0,
             "incidents": 0
         }
     },
     {
         "key": {
-            "year": 2015,
+            "year": 2016,
             "subgroup": "WH7"
         },
         "val": {
             "suspended_1": 0,
             "suspended_11": 0,
-            "state_suspended_1": 0.004,
+            "state_suspended_1": 0.002,
             "state_suspended_11": 0,
             "incidents": 0
         }

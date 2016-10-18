@@ -1,0 +1,91 @@
+{
+"timestamp": "Tue Oct 18 18:05:11 2016",
+"org_type": "school",
+"org_name": "",
+"org_code": "0260",
+"exhibit": {
+	"id": "suspensions",
+	"data":  
+[
+    {
+        "key": {
+            "year": 2016,
+            "subgroup": "All"
+        },
+        "val": {
+            "suspended_1": 0.375,
+            "suspended_11": 0,
+            "state_suspended_1": 0.071,
+            "state_suspended_11": 0.005,
+            "incidents": 39
+        }
+    },
+    {
+        "key": {
+            "year": 2016,
+            "subgroup": "BL7"
+        },
+        "val": {
+            "suspended_1": 0.375,
+            "suspended_11": 0,
+            "state_suspended_1": 0.076,
+            "state_suspended_11": 0.005,
+            "incidents": 0
+        }
+    },
+    {
+        "key": {
+            "year": 2016,
+            "subgroup": "Economy"
+        },
+        "val": {
+            "suspended_1": 0.375,
+            "suspended_11": 0,
+            "state_suspended_1": 0.079,
+            "state_suspended_11": 0.006,
+            "incidents": 0
+        }
+    },
+    {
+        "key": {
+            "year": 2016,
+            "subgroup": "FEMALE"
+        },
+        "val": {
+            "suspended_1": 0.167,
+            "suspended_11": 0,
+            "state_suspended_1": 0.058,
+            "state_suspended_11": 0.003,
+            "incidents": 0
+        }
+    },
+    {
+        "key": {
+            "year": 2016,
+            "subgroup": "MALE"
+        },
+        "val": {
+            "suspended_1": 0.545,
+            "suspended_11": 0,
+            "state_suspended_1": 0.085,
+            "state_suspended_11": 0.008,
+            "incidents": 0
+        }
+    },
+    {
+        "key": {
+            "year": 2016,
+            "subgroup": "SPED"
+        },
+        "val": {
+            "suspended_1": 0.409,
+            "suspended_11": 0,
+            "state_suspended_1": 0.163,
+            "state_suspended_11": 0.007,
+            "incidents": 0
+        }
+    }
+]
+
+	}
+}
