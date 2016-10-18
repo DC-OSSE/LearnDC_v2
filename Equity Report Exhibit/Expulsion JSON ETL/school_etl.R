@@ -1,10 +1,9 @@
-setwd("U:/LearnDC ETL V2/Equity Report Exhibit/Expulsion JSON ETL")
-source("U:/R/tomkit.R")
+source(paste(root_dir,'imports/helpers.R',sep=''))
 library(jsonlite)
 library(reshape2)
 library(dplyr)
 
-disc <- sqlQuery(dbrepcard_prod,"select * from equity_report_school_longitudinal where reported=1 and metric in('Total Expulsions','Expulsion Rate','Suspended 1+','Suspended 11+','Total Suspensions')") %>% mutate(lea_code=sapply(lea_code,leadgr,4),school_code=sapply(school_code,leadgr,4),subgroup=ifelse(subgroup %in% c('Male','Female'),toupper(subgroup),subgroup)) %>% select(-(school_year),-(lea_code),-(school_name),-(lea_name),-(reported),-(reported),-(reason_not_reported),-(grade),-(enrollment),-(month))
+disc <- sqlQuery(dbrepcard_prod,"select * from equity_report_school_longitudinal where school_year = '2015-2016' and reported=1 and metric in('Total Expulsions','Expulsion Rate','Suspended 1+','Suspended 11+','Total Suspensions')") %>% mutate(lea_code=sapply(lea_code,leadgr,4),school_code=sapply(school_code,leadgr,4),subgroup=ifelse(subgroup %in% c('Male','Female'),toupper(subgroup),subgroup)) %>% select(-(school_year),-(lea_code),-(school_name),-(lea_name),-(reported),-(reported),-(reason_not_reported),-(grade),-(enrollment),-(month))
 
 expel <- disc %>% filter(metric %in% c('Total Expulsions','Expulsion Rate'))
 exp_long <- melt(expel, id.vars = c("year","school_code","subgroup","metric"))
@@ -16,6 +15,8 @@ exp_wide$explusion_rate_n <- NULL
 exp_wide$expulsions_n <- NULL
 exp_wide$expulsion_rate <- round(exp_wide$expulsion_rate, 4)
 exp_wide$state_expulsion_rate <- round(exp_wide$state_expulsion_rate,4)
+exp_wide$expulsions <- ifelse(is.na(exp_wide$expulsions), 0, exp_wide$expulsions)
+exp_wide$state_expulsions <- ifelse(is.na(exp_wide$state_expulsions), 0, exp_wide$state_expulsions)
 
 exp <- select(exp_wide,school_code,year,subgroup,expulsions,expulsion_rate,state_expulsions,state_expulsion_rate)
 
@@ -27,7 +28,7 @@ num_orphans <- 0
 
 
 for(i in unique(exp$school_code)){
-	setwd("U:/LearnDC ETL V2/Export/JSON/school")
+	setwd(paste(root_dir, 'Export/JSON/school', sep=''))
 	
 	if(file.exists(i)){
 	    setwd(file.path(i))
