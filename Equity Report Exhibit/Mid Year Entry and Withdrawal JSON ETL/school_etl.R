@@ -1,11 +1,10 @@
-setwd("U:/LearnDC ETL V2/Equity Report Exhibit/Mid Year Entry and Withdrawal JSON ETL")
-source("U:/R/tomkit.R")
+source(paste(root_dir,'imports/helpers.R',sep=''))
 library(jsonlite)
 library(reshape2)
 library(dplyr)
 
 ##
-myew <- sqlQuery(dbrepcard_prod,"select * from equity_report_school_longitudinal where reported=1 and metric in('Withdrawal','Entry','Net Cumulative')") %>% mutate(school_code=sapply(school_code,leadgr,4),month=ifelse(month %in% 'October',10,ifelse(month %in% 'November',11,ifelse(month %in% 'December',12,ifelse(month %in% 'January',1,ifelse(month %in% 'February',2,ifelse(month %in% 'March',3,ifelse(month %in% 'April',4,ifelse(month %in% 'May',5,NA))))))))) %>% select(-(starts_with("lea")),-(starts_with("re")),-(school_year),-(enrollment),-(grade),-(school_name),-(nsize))
+myew <- sqlQuery(dbrepcard_prod,"select * from equity_report_school_longitudinal where school_year='2015-2016' and reported=1 and metric in('Withdrawal','Entry','Net Cumulative')") %>% mutate(school_code=sapply(school_code,leadgr,4),month=ifelse(month %in% 'October',10,ifelse(month %in% 'November',11,ifelse(month %in% 'December',12,ifelse(month %in% 'January',1,ifelse(month %in% 'February',2,ifelse(month %in% 'March',3,ifelse(month %in% 'April',4,ifelse(month %in% 'May',5,NA))))))))) %>% select(-(starts_with("lea")),-(starts_with("re")),-(school_year),-(enrollment),-(grade),-(school_name),-(nsize))
 move_long <- melt(myew,id.vars=c("year","school_code","subgroup","month","metric"))
 move_long$metric <- paste0(move_long$metric,"_",move_long$variable)
 move_long$variable <- NULL
@@ -27,7 +26,7 @@ num_orphans <- 0
 
 
 for(i in unique(mvmt$school_code)){
-	setwd("U:/LearnDC ETL V2/Export/JSON/school")
+	setwd(paste(root_dir, 'Export/JSON/school', sep=''))
 	
 	if(file.exists(i)){
 	    setwd(file.path(i))
