@@ -1,5 +1,5 @@
 {
-"timestamp": "Tue Oct 18 13:00:59 2016",
+"timestamp": "Tue Oct 18 18:20:08 2016",
 "org_type": "state",
 "org_name": "District of Columbia",
 "org_code": "dc",
@@ -276,6 +276,24 @@
             "population": "All"
         },
         "val": 5199
+    },
+    {
+        "key": {
+            "year": 2016,
+            "grade": "All",
+            "subgroup": "SPED Level 4",
+            "population": "PK3-12"
+        },
+        "val": 0.218
+    },
+    {
+        "key": {
+            "year": 2016,
+            "grade": "All",
+            "subgroup": "WH7",
+            "population": "PK3-12"
+        },
+        "val": 0.101
     },
     {
         "key": {
@@ -807,24 +825,6 @@
             "population": "PK3-12"
         },
         "val": 0.115
-    },
-    {
-        "key": {
-            "year": 2016,
-            "grade": "All",
-            "subgroup": "SPED Level 4",
-            "population": "PK3-12"
-        },
-        "val": 0.218
-    },
-    {
-        "key": {
-            "year": 2016,
-            "grade": "All",
-            "subgroup": "WH7",
-            "population": "PK3-12"
-        },
-        "val": 0.101
     }
 ]
 
