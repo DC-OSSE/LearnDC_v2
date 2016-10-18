@@ -1,10 +1,9 @@
-setwd("U:/LearnDC ETL V2/Enrollment Exhibit/JSON ETL")
-source("U:/R/tomkit.R")
+source(paste(root_dir,'imports/helpers.R',sep=''))
 library(jsonlite)
 library(dplyr)
 
-er <- sqlFetch(dbrepcard_prod,"dbo.equity_report_school_longitudinal") %>% filter(reported==1 & metric %in% 'Student Characteristics') %>%
-mutate(lea_code=sapply(lea_code,leadgr,4),school_code=sapply(school_code,leadgr,4),enrollment=ifelse(grade %notin% 'All' | subgroup %in% 'All' & grade %in% 'All',enrollment,round(school_score,3)),subgroup=ifelse(subgroup %in% c('Male','Female'),toupper(subgroup),subgroup),grade=ifelse(grade %in% c("All","PK3","PK4","KG","UN"),grade,paste0("grade ",grade))) %>%
+er <- sqlQuery(dbrepcard_prod,"select * from equity_report_school_longitudinal where school_year = '2015-2016' and reported=1 and metric='Student Characteristics'") %>%
+mutate(lea_code=sapply(lea_code,leadgr,4),school_code=sapply(school_code,leadgr,4),enrollment=ifelse(subgroup %in% 'All' & grade %in% 'All',nsize,round(school_score,3)),subgroup=ifelse(subgroup %in% c('Male','Female'),toupper(subgroup),subgroup),grade=ifelse(grade %in% c("All","PK3","PK4","KG","UN"),grade,paste0("grade ",grade))) %>%
 select(school_code,year,subgroup,grade,enrollment)
 
 strtable(er)
@@ -15,7 +14,7 @@ num_orphans <- 0
 
 
 for(i in unique(er$school_code)){
-	setwd("U:/LearnDC ETL V2/Export/JSON/school")
+	setwd(paste(root_dir, 'Export/JSON/school', sep=''))
 	
 	if (file.exists(i)){
 	    setwd(file.path(i))
