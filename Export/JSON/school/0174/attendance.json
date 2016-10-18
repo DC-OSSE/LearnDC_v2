@@ -1,5 +1,5 @@
 {
-"timestamp": "Tue Oct 27 10:42:33 2015",
+"timestamp": "Tue Oct 18 17:03:46 2016",
 "org_type": "school",
 "org_name": "",
 "org_code": "0174",
@@ -9,23 +9,35 @@
 [
     {
         "key": {
-            "year": 2015,
+            "year": 2016,
             "subgroup": "All"
         },
         "val": {
-            "in_seat_attendance": 0.903,
-            "state_in_seat_attendance": 0.874,
+            "in_seat_attendance": 0.954,
+            "state_in_seat_attendance": 0.875,
             "average_daily_attendance": null,
             "state_average_daily_attendance": null
         }
     },
     {
         "key": {
-            "year": 2015,
+            "year": 2016,
             "subgroup": "BL7"
         },
         "val": {
-            "in_seat_attendance": 0.902,
+            "in_seat_attendance": 0.954,
+            "state_in_seat_attendance": 0.867,
+            "average_daily_attendance": null,
+            "state_average_daily_attendance": null
+        }
+    },
+    {
+        "key": {
+            "year": 2016,
+            "subgroup": "Economy"
+        },
+        "val": {
+            "in_seat_attendance": 0.953,
             "state_in_seat_attendance": 0.863,
             "average_daily_attendance": null,
             "state_average_daily_attendance": null
@@ -33,48 +45,36 @@
     },
     {
         "key": {
-            "year": 2015,
-            "subgroup": "Economy"
-        },
-        "val": {
-            "in_seat_attendance": 0.9,
-            "state_in_seat_attendance": 0.856,
-            "average_daily_attendance": null,
-            "state_average_daily_attendance": null
-        }
-    },
-    {
-        "key": {
-            "year": 2015,
+            "year": 2016,
             "subgroup": "FEMALE"
         },
         "val": {
-            "in_seat_attendance": 0.914,
-            "state_in_seat_attendance": 0.878,
+            "in_seat_attendance": 0.956,
+            "state_in_seat_attendance": 0.879,
             "average_daily_attendance": null,
             "state_average_daily_attendance": null
         }
     },
     {
         "key": {
-            "year": 2015,
+            "year": 2016,
             "subgroup": "MALE"
         },
         "val": {
-            "in_seat_attendance": 0.891,
-            "state_in_seat_attendance": 0.87,
+            "in_seat_attendance": 0.952,
+            "state_in_seat_attendance": 0.872,
             "average_daily_attendance": null,
             "state_average_daily_attendance": null
         }
     },
     {
         "key": {
-            "year": 2015,
+            "year": 2016,
             "subgroup": "SPED"
         },
         "val": {
-            "in_seat_attendance": 0.891,
-            "state_in_seat_attendance": 0.821,
+            "in_seat_attendance": 0.938,
+            "state_in_seat_attendance": 0.832,
             "average_daily_attendance": null,
             "state_average_daily_attendance": null
         }
