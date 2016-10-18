@@ -1,5 +1,5 @@
 {
-"timestamp": "Wed Oct 28 12:42:06 2015",
+"timestamp": "Tue Oct 18 16:58:13 2016",
 "org_type": "school",
 "org_code": "1117",
 "exhibit": {
@@ -8,63 +8,71 @@
 [
     {
         "key": {
-            "year": 2014,
+            "year": 2016,
+            "subgroup": "AS7",
+            "grade": "All"
+        },
+        "val": 0.109
+    },
+    {
+        "key": {
+            "year": 2016,
             "subgroup": "All",
             "grade": "grade 1"
+        },
+        "val": 73
+    },
+    {
+        "key": {
+            "year": 2016,
+            "subgroup": "All",
+            "grade": "grade 2"
+        },
+        "val": 74
+    },
+    {
+        "key": {
+            "year": 2016,
+            "subgroup": "All",
+            "grade": "grade 3"
+        },
+        "val": 99
+    },
+    {
+        "key": {
+            "year": 2016,
+            "subgroup": "All",
+            "grade": "grade 4"
+        },
+        "val": 60
+    },
+    {
+        "key": {
+            "year": 2016,
+            "subgroup": "All",
+            "grade": "grade 5"
+        },
+        "val": 45
+    },
+    {
+        "key": {
+            "year": 2016,
+            "subgroup": "All",
+            "grade": "All"
+        },
+        "val": 551
+    },
+    {
+        "key": {
+            "year": 2016,
+            "subgroup": "All",
+            "grade": "KG"
         },
         "val": 76
     },
     {
         "key": {
-            "year": 2014,
-            "subgroup": "All",
-            "grade": "grade 2"
-        },
-        "val": 106
-    },
-    {
-        "key": {
-            "year": 2014,
-            "subgroup": "All",
-            "grade": "grade 3"
-        },
-        "val": 65
-    },
-    {
-        "key": {
-            "year": 2014,
-            "subgroup": "All",
-            "grade": "grade 4"
-        },
-        "val": 55
-    },
-    {
-        "key": {
-            "year": 2014,
-            "subgroup": "All",
-            "grade": "grade 5"
-        },
-        "val": 47
-    },
-    {
-        "key": {
-            "year": 2014,
-            "subgroup": "All",
-            "grade": "All"
-        },
-        "val": 528
-    },
-    {
-        "key": {
-            "year": 2014,
-            "subgroup": "All",
-            "grade": "KG"
-        },
-        "val": 77
-    },
-    {
-        "key": {
-            "year": 2014,
+            "year": 2016,
             "subgroup": "All",
             "grade": "PK3"
         },
@@ -72,79 +80,71 @@
     },
     {
         "key": {
-            "year": 2014,
+            "year": 2016,
             "subgroup": "All",
             "grade": "PK4"
         },
-        "val": 54
+        "val": 76
     },
     {
         "key": {
-            "year": 2014,
-            "subgroup": "AS7",
-            "grade": "All"
-        },
-        "val": 0.108
-    },
-    {
-        "key": {
-            "year": 2014,
+            "year": 2016,
             "subgroup": "BL7",
             "grade": "All"
         },
-        "val": 0.369
+        "val": 0.368
     },
     {
         "key": {
-            "year": 2014,
+            "year": 2016,
             "subgroup": "Economy",
             "grade": "All"
         },
-        "val": 0.095
+        "val": 0.114
     },
     {
         "key": {
-            "year": 2014,
+            "year": 2016,
             "subgroup": "FEMALE",
             "grade": "All"
         },
-        "val": 0.506
+        "val": 0.503
     },
     {
         "key": {
-            "year": 2014,
+            "year": 2016,
             "subgroup": "HI7",
             "grade": "All"
         },
-        "val": 0.063
+        "val": 0.054
     },
     {
         "key": {
-            "year": 2014,
+            "year": 2016,
             "subgroup": "LEP",
             "grade": "All"
         },
-        "val": 0.059
+        "val": 0.067
     },
     {
         "key": {
-            "year": 2014,
-            "subgroup": "MALE",
-            "grade": "All"
-        },
-        "val": 0.494
-    },
-    {
-        "key": {
-            "year": 2014,
+            "year": 2016,
             "subgroup": "MU7",
             "grade": "All"
         },
-        "val": 0.17
+        "val": 0.169
     },
     {
         "key": {
-            "year": 2014,
+            "year": 2016,
+            "subgroup": "MALE",
+            "grade": "All"
+        },
+        "val": 0.497
+    },
+    {
+        "key": {
+            "year": 2016,
             "subgroup": "SPED",
             "grade": "All"
         },
@@ -152,43 +152,43 @@
     },
     {
         "key": {
-            "year": 2014,
+            "year": 2016,
             "subgroup": "SPED Level 1",
             "grade": "All"
         },
-        "val": 0.636
+        "val": 0.674
     },
     {
         "key": {
-            "year": 2014,
+            "year": 2016,
             "subgroup": "SPED Level 2",
             "grade": "All"
         },
-        "val": 0.091
+        "val": 0.065
     },
     {
         "key": {
-            "year": 2014,
+            "year": 2016,
             "subgroup": "SPED Level 3",
             "grade": "All"
         },
-        "val": 0.25
+        "val": 0.217
     },
     {
         "key": {
-            "year": 2014,
+            "year": 2016,
             "subgroup": "SPED Level 4",
             "grade": "All"
         },
-        "val": 0.023
+        "val": 0.043
     },
     {
         "key": {
-            "year": 2014,
+            "year": 2016,
             "subgroup": "WH7",
             "grade": "All"
         },
-        "val": 0.29
+        "val": 0.299
     }
 ]
 
