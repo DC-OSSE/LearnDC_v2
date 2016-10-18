@@ -2,7 +2,7 @@ source(paste(root_dir,'imports/helpers.R',sep=''))
 library(jsonlite)
 library(dplyr)
 
-enr <- sqlQuery(dbrepcard_prod,"select * from equity_report_state_longitudinal where reported=1 and metric='Student Characteristics'") %>%
+enr <- sqlQuery(dbrepcard_prod,"select * from equity_report_state_longitudinal where school_year = '2015-2016' and reported=1 and metric='Student Characteristics'") %>%
 mutate(enrollment=round(score,3),subgroup=ifelse(subgroup %in% c('Male','Female'),toupper(subgroup),subgroup),grade=ifelse(substr(grade,0,1) %in% 0,substr(grade,2,2),grade),grade=ifelse(grade %in% c("All","PK3","PK4","KG","UN"),grade,paste0("grade ",grade))) %>% filter(subgroup %notin% 'AtRisk' & reported==1) %>% select(year,grade,subgroup,population,enrollment)
 
 strtable(enr)
