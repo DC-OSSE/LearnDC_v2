@@ -1,12 +1,67 @@
 {
-"timestamp": "Thu Mar 10 15:03:45 2016",
+"timestamp": "Wed Oct 19 23:29:11 2016",
 "org_type": "school",
-"org_name": "LUKE MOORE ALTERNATIVE HS",
+"org_name": "NA",
 "org_code": "0884",
 "exhibit": {
 	"id": "graduation",
 	"data":  
 [
+    {
+        "key": {
+            "subgroup": "All",
+            "year": 2016,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 71,
+            "cohort_size": 138
+        }
+    },
+    {
+        "key": {
+            "subgroup": "BL7",
+            "year": 2016,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 64,
+            "cohort_size": 129
+        }
+    },
+    {
+        "key": {
+            "subgroup": "Economy",
+            "year": 2016,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 71,
+            "cohort_size": 136
+        }
+    },
+    {
+        "key": {
+            "subgroup": "FEMALE",
+            "year": 2016,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 39,
+            "cohort_size": 61
+        }
+    },
+    {
+        "key": {
+            "subgroup": "MALE",
+            "year": 2016,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 32,
+            "cohort_size": 77
+        }
+    },
     {
         "key": {
             "subgroup": "All",

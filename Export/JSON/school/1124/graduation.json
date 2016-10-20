@@ -1,12 +1,45 @@
 {
-"timestamp": "Thu Mar 10 15:03:45 2016",
+"timestamp": "Wed Oct 19 23:29:11 2016",
 "org_type": "school",
-"org_name": "Friendship PCS- Tech Prep                                  ",
+"org_name": "NA",
 "org_code": "1124",
 "exhibit": {
 	"id": "graduation",
 	"data":  
 [
+    {
+        "key": {
+            "subgroup": "All",
+            "year": 2016,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 29,
+            "cohort_size": 32
+        }
+    },
+    {
+        "key": {
+            "subgroup": "BL7",
+            "year": 2016,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 29,
+            "cohort_size": 31
+        }
+    },
+    {
+        "key": {
+            "subgroup": "Economy",
+            "year": 2016,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 29,
+            "cohort_size": 32
+        }
+    },
     {
         "key": {
             "subgroup": "All",

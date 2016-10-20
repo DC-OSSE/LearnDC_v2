@@ -1,12 +1,67 @@
 {
-"timestamp": "Thu Mar 10 15:03:44 2016",
+"timestamp": "Wed Oct 19 23:29:10 2016",
 "org_type": "school",
-"org_name": "MCKINLEY TECHNOLOGY HS",
+"org_name": "NA",
 "org_code": "0458",
 "exhibit": {
 	"id": "graduation",
 	"data":  
 [
+    {
+        "key": {
+            "subgroup": "All",
+            "year": 2016,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 140,
+            "cohort_size": 144
+        }
+    },
+    {
+        "key": {
+            "subgroup": "BL7",
+            "year": 2016,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 131,
+            "cohort_size": 134
+        }
+    },
+    {
+        "key": {
+            "subgroup": "Economy",
+            "year": 2016,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 87,
+            "cohort_size": 88
+        }
+    },
+    {
+        "key": {
+            "subgroup": "FEMALE",
+            "year": 2016,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 76,
+            "cohort_size": 77
+        }
+    },
+    {
+        "key": {
+            "subgroup": "MALE",
+            "year": 2016,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 64,
+            "cohort_size": 67
+        }
+    },
     {
         "key": {
             "subgroup": "All",

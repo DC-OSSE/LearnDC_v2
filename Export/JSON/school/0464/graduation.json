@@ -1,12 +1,78 @@
 {
-"timestamp": "Thu Mar 10 15:03:45 2016",
+"timestamp": "Wed Oct 19 23:29:10 2016",
 "org_type": "school",
-"org_name": "WOODSON H D HS",
+"org_name": "NA",
 "org_code": "0464",
 "exhibit": {
 	"id": "graduation",
 	"data":  
 [
+    {
+        "key": {
+            "subgroup": "All",
+            "year": 2016,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 159,
+            "cohort_size": 217
+        }
+    },
+    {
+        "key": {
+            "subgroup": "BL7",
+            "year": 2016,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 159,
+            "cohort_size": 217
+        }
+    },
+    {
+        "key": {
+            "subgroup": "Economy",
+            "year": 2016,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 159,
+            "cohort_size": 210
+        }
+    },
+    {
+        "key": {
+            "subgroup": "FEMALE",
+            "year": 2016,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 58,
+            "cohort_size": 79
+        }
+    },
+    {
+        "key": {
+            "subgroup": "MALE",
+            "year": 2016,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 101,
+            "cohort_size": 138
+        }
+    },
+    {
+        "key": {
+            "subgroup": "SPED",
+            "year": 2016,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 43,
+            "cohort_size": 65
+        }
+    },
     {
         "key": {
             "subgroup": "All",

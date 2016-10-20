@@ -1,12 +1,78 @@
 {
-"timestamp": "Thu Mar 10 15:03:44 2016",
+"timestamp": "Wed Oct 19 23:29:10 2016",
 "org_type": "school",
-"org_name": "ANACOSTIA HS",
+"org_name": "NA",
 "org_code": "0450",
 "exhibit": {
 	"id": "graduation",
 	"data":  
 [
+    {
+        "key": {
+            "subgroup": "All",
+            "year": 2016,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 118,
+            "cohort_size": 233
+        }
+    },
+    {
+        "key": {
+            "subgroup": "BL7",
+            "year": 2016,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 118,
+            "cohort_size": 233
+        }
+    },
+    {
+        "key": {
+            "subgroup": "Economy",
+            "year": 2016,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 118,
+            "cohort_size": 223
+        }
+    },
+    {
+        "key": {
+            "subgroup": "FEMALE",
+            "year": 2016,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 72,
+            "cohort_size": 118
+        }
+    },
+    {
+        "key": {
+            "subgroup": "MALE",
+            "year": 2016,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 46,
+            "cohort_size": 115
+        }
+    },
+    {
+        "key": {
+            "subgroup": "SPED",
+            "year": 2016,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 19,
+            "cohort_size": 66
+        }
+    },
     {
         "key": {
             "subgroup": "All",

@@ -1,12 +1,56 @@
 {
-"timestamp": "Thu Mar 10 15:03:45 2016",
+"timestamp": "Wed Oct 19 23:29:12 2016",
 "org_type": "school",
-"org_name": "WASHINGTON LATIN PCS HS",
+"org_name": "NA",
 "org_code": "1118",
 "exhibit": {
 	"id": "graduation",
 	"data":  
 [
+    {
+        "key": {
+            "subgroup": "All",
+            "year": 2016,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 56,
+            "cohort_size": 62
+        }
+    },
+    {
+        "key": {
+            "subgroup": "BL7",
+            "year": 2016,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 37,
+            "cohort_size": 40
+        }
+    },
+    {
+        "key": {
+            "subgroup": "Economy",
+            "year": 2016,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 33,
+            "cohort_size": 36
+        }
+    },
+    {
+        "key": {
+            "subgroup": "FEMALE",
+            "year": 2016,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 40,
+            "cohort_size": 41
+        }
+    },
     {
         "key": {
             "subgroup": "All",

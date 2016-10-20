@@ -1,12 +1,100 @@
 {
-"timestamp": "Thu Mar 10 15:03:44 2016",
+"timestamp": "Wed Oct 19 23:29:10 2016",
 "org_type": "school",
-"org_name": "CARDOZO EC",
+"org_name": "NA",
 "org_code": "0454",
 "exhibit": {
 	"id": "graduation",
 	"data":  
 [
+    {
+        "key": {
+            "subgroup": "All",
+            "year": 2016,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 95,
+            "cohort_size": 162
+        }
+    },
+    {
+        "key": {
+            "subgroup": "BL7",
+            "year": 2016,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 64,
+            "cohort_size": 97
+        }
+    },
+    {
+        "key": {
+            "subgroup": "Economy",
+            "year": 2016,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 95,
+            "cohort_size": 148
+        }
+    },
+    {
+        "key": {
+            "subgroup": "FEMALE",
+            "year": 2016,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 41,
+            "cohort_size": 62
+        }
+    },
+    {
+        "key": {
+            "subgroup": "HI7",
+            "year": 2016,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 26,
+            "cohort_size": 59
+        }
+    },
+    {
+        "key": {
+            "subgroup": "LEP",
+            "year": 2016,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 26,
+            "cohort_size": 56
+        }
+    },
+    {
+        "key": {
+            "subgroup": "MALE",
+            "year": 2016,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 54,
+            "cohort_size": 100
+        }
+    },
+    {
+        "key": {
+            "subgroup": "SPED",
+            "year": 2016,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 15,
+            "cohort_size": 38
+        }
+    },
     {
         "key": {
             "subgroup": "All",

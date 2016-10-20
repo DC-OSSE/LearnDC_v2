@@ -1,12 +1,67 @@
 {
-"timestamp": "Thu Mar 10 15:03:45 2016",
+"timestamp": "Wed Oct 19 23:29:11 2016",
 "org_type": "school",
-"org_name": "KIPP DC COLLEGE PREP PCS",
+"org_name": "NA",
 "org_code": "1123",
 "exhibit": {
 	"id": "graduation",
 	"data":  
 [
+    {
+        "key": {
+            "subgroup": "All",
+            "year": 2016,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 78,
+            "cohort_size": 84
+        }
+    },
+    {
+        "key": {
+            "subgroup": "BL7",
+            "year": 2016,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 78,
+            "cohort_size": 83
+        }
+    },
+    {
+        "key": {
+            "subgroup": "Economy",
+            "year": 2016,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 70,
+            "cohort_size": 75
+        }
+    },
+    {
+        "key": {
+            "subgroup": "FEMALE",
+            "year": 2016,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 50,
+            "cohort_size": 53
+        }
+    },
+    {
+        "key": {
+            "subgroup": "MALE",
+            "year": 2016,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 28,
+            "cohort_size": 31
+        }
+    },
     {
         "key": {
             "subgroup": "All",

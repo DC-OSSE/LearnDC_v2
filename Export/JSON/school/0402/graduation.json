@@ -1,12 +1,56 @@
 {
-"timestamp": "Thu Mar 10 15:03:44 2016",
+"timestamp": "Wed Oct 19 23:29:12 2016",
 "org_type": "school",
-"org_name": "BENJAMIN BANNEKER HS",
+"org_name": "NA",
 "org_code": "0402",
 "exhibit": {
 	"id": "graduation",
 	"data":  
 [
+    {
+        "key": {
+            "subgroup": "All",
+            "year": 2016,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 94,
+            "cohort_size": 94
+        }
+    },
+    {
+        "key": {
+            "subgroup": "BL7",
+            "year": 2016,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 76,
+            "cohort_size": 76
+        }
+    },
+    {
+        "key": {
+            "subgroup": "Economy",
+            "year": 2016,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 67,
+            "cohort_size": 67
+        }
+    },
+    {
+        "key": {
+            "subgroup": "FEMALE",
+            "year": 2016,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 72,
+            "cohort_size": 72
+        }
+    },
     {
         "key": {
             "subgroup": "All",

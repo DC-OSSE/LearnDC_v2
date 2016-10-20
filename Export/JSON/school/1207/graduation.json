@@ -1,12 +1,67 @@
 {
-"timestamp": "Thu Mar 10 15:03:45 2016",
+"timestamp": "Wed Oct 19 23:29:11 2016",
 "org_type": "school",
-"org_name": "Capital City High School PCS                               ",
+"org_name": "NA",
 "org_code": "1207",
 "exhibit": {
 	"id": "graduation",
 	"data":  
 [
+    {
+        "key": {
+            "subgroup": "All",
+            "year": 2016,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 65,
+            "cohort_size": 77
+        }
+    },
+    {
+        "key": {
+            "subgroup": "Economy",
+            "year": 2016,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 58,
+            "cohort_size": 70
+        }
+    },
+    {
+        "key": {
+            "subgroup": "FEMALE",
+            "year": 2016,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 42,
+            "cohort_size": 48
+        }
+    },
+    {
+        "key": {
+            "subgroup": "HI7",
+            "year": 2016,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 41,
+            "cohort_size": 52
+        }
+    },
+    {
+        "key": {
+            "subgroup": "MALE",
+            "year": 2016,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 23,
+            "cohort_size": 29
+        }
+    },
     {
         "key": {
             "subgroup": "All",

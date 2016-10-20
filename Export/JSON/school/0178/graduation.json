@@ -1,12 +1,67 @@
 {
-"timestamp": "Thu Mar 10 15:03:44 2016",
+"timestamp": "Wed Oct 19 23:29:12 2016",
 "org_type": "school",
-"org_name": "WASHINGTON MATH SCIENCE TECH PCS",
+"org_name": "NA",
 "org_code": "0178",
 "exhibit": {
 	"id": "graduation",
 	"data":  
 [
+    {
+        "key": {
+            "subgroup": "All",
+            "year": 2016,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 78,
+            "cohort_size": 89
+        }
+    },
+    {
+        "key": {
+            "subgroup": "BL7",
+            "year": 2016,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 76,
+            "cohort_size": 87
+        }
+    },
+    {
+        "key": {
+            "subgroup": "Economy",
+            "year": 2016,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 78,
+            "cohort_size": 88
+        }
+    },
+    {
+        "key": {
+            "subgroup": "FEMALE",
+            "year": 2016,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 35,
+            "cohort_size": 35
+        }
+    },
+    {
+        "key": {
+            "subgroup": "MALE",
+            "year": 2016,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 43,
+            "cohort_size": 54
+        }
+    },
     {
         "key": {
             "subgroup": "All",

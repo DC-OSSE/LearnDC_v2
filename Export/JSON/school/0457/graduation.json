@@ -1,12 +1,78 @@
 {
-"timestamp": "Fri Apr 08 18:42:38 2016",
+"timestamp": "Wed Oct 19 23:29:10 2016",
 "org_type": "school",
-"org_name": "EASTERN HS",
+"org_name": "NA",
 "org_code": "0457",
 "exhibit": {
 	"id": "graduation",
 	"data":  
 [
+    {
+        "key": {
+            "subgroup": "All",
+            "year": 2016,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 211,
+            "cohort_size": 281
+        }
+    },
+    {
+        "key": {
+            "subgroup": "BL7",
+            "year": 2016,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 208,
+            "cohort_size": 278
+        }
+    },
+    {
+        "key": {
+            "subgroup": "Economy",
+            "year": 2016,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 211,
+            "cohort_size": 271
+        }
+    },
+    {
+        "key": {
+            "subgroup": "FEMALE",
+            "year": 2016,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 107,
+            "cohort_size": 132
+        }
+    },
+    {
+        "key": {
+            "subgroup": "MALE",
+            "year": 2016,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 104,
+            "cohort_size": 149
+        }
+    },
+    {
+        "key": {
+            "subgroup": "SPED",
+            "year": 2016,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": 28,
+            "cohort_size": 62
+        }
+    },
     {
         "key": {
             "subgroup": "All",
