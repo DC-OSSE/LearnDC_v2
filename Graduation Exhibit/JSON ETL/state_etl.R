@@ -1,7 +1,7 @@
 source(paste(root_dir,'imports/helpers.R',sep=''))
 library(jsonlite)
 
-state_grad <- sqlQuery(dbrepcard_prod, "SELECT * FROM [dbo].[graduation_state_exhibit] where reported = 1 and cohort_size >= 25 and isnull(graduates,'')!=''")
+state_grad <- sqlQuery(dbrepcard_prod, "SELECT * FROM [dbo].[graduation_state_exhibit] where reported = 1 and population='all' and cohort_size >= 25 and isnull(graduates,'')!=''")
 
 key_index <- c(1:4)
 value_index <- c(5:6)
