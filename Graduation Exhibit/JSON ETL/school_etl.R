@@ -3,9 +3,10 @@ library(jsonlite)
 
 school_grad <- sqlQuery(dbrepcard_prod, "SELECT * FROM [dbo].[graduation_school_exhibit] where reported = 1 and cohort_size >= 25 and isnull(graduates,'')!=''")
 school_grad$school_code <- sapply(school_grad$school_code, leadgr, 4)
+school_grad$acgr <- round(school_grad$graduates/school_grad$cohort_size,3)
 
 key_index <- c(5,6,7)
-value_index <- c(8,9)
+value_index <- c(8,9,12)
 num_orphans <- 0
 
 for(i in unique(school_grad$school_code)){
