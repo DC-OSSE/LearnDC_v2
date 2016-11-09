@@ -1,5 +1,5 @@
 {
-"timestamp": "Wed Nov 09 08:58:30 2016",
+"timestamp": "Wed Nov 09 10:23:15 2016",
 "org_type": "school",
 "org_name": "NA",
 "org_code": "0457",
@@ -14,8 +14,8 @@
             "type": "Five Year ACGR"
         },
         "val": {
-            "graduates": 211,
-            "cohort_size": 281,
+            "graduates": null,
+            "cohort_size": null,
             "acgr": 0.751
         }
     },
@@ -26,8 +26,8 @@
             "type": "Five Year ACGR"
         },
         "val": {
-            "graduates": 208,
-            "cohort_size": 278,
+            "graduates": null,
+            "cohort_size": null,
             "acgr": 0.748
         }
     },
@@ -38,8 +38,8 @@
             "type": "Five Year ACGR"
         },
         "val": {
-            "graduates": 211,
-            "cohort_size": 271,
+            "graduates": null,
+            "cohort_size": null,
             "acgr": 0.779
         }
     },
@@ -50,8 +50,8 @@
             "type": "Five Year ACGR"
         },
         "val": {
-            "graduates": 107,
-            "cohort_size": 132,
+            "graduates": null,
+            "cohort_size": null,
             "acgr": 0.811
         }
     },
@@ -62,8 +62,8 @@
             "type": "Five Year ACGR"
         },
         "val": {
-            "graduates": 104,
-            "cohort_size": 149,
+            "graduates": null,
+            "cohort_size": null,
             "acgr": 0.698
         }
     },
@@ -74,8 +74,8 @@
             "type": "Five Year ACGR"
         },
         "val": {
-            "graduates": 28,
-            "cohort_size": 62,
+            "graduates": null,
+            "cohort_size": null,
             "acgr": 0.452
         }
     },
@@ -86,8 +86,8 @@
             "type": "Four Year ACGR"
         },
         "val": {
-            "graduates": 135,
-            "cohort_size": 194,
+            "graduates": null,
+            "cohort_size": null,
             "acgr": 0.696
         }
     },
@@ -98,8 +98,8 @@
             "type": "Four Year ACGR"
         },
         "val": {
-            "graduates": 52,
-            "cohort_size": 84,
+            "graduates": null,
+            "cohort_size": null,
             "acgr": 0.619
         }
     },
@@ -110,8 +110,8 @@
             "type": "Four Year ACGR"
         },
         "val": {
-            "graduates": 83,
-            "cohort_size": 108,
+            "graduates": null,
+            "cohort_size": null,
             "acgr": 0.769
         }
     },
@@ -122,8 +122,8 @@
             "type": "Four Year ACGR"
         },
         "val": {
-            "graduates": 133,
-            "cohort_size": 191,
+            "graduates": null,
+            "cohort_size": null,
             "acgr": 0.696
         }
     },
@@ -134,8 +134,8 @@
             "type": "Four Year ACGR"
         },
         "val": {
-            "graduates": 29,
-            "cohort_size": 50,
+            "graduates": null,
+            "cohort_size": null,
             "acgr": 0.58
         }
     },
@@ -146,9 +146,21 @@
             "type": "Four Year ACGR"
         },
         "val": {
-            "graduates": 90,
-            "cohort_size": 136,
+            "graduates": null,
+            "cohort_size": null,
             "acgr": 0.662
+        }
+    },
+    {
+        "key": {
+            "subgroup": "All",
+            "year": 2013,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "graduates": null,
+            "cohort_size": null,
+            "acgr": 1
         }
     },
     {
@@ -158,8 +170,8 @@
             "type": "Four Year ACGR"
         },
         "val": {
-            "graduates": 199,
-            "cohort_size": 281,
+            "graduates": null,
+            "cohort_size": null,
             "acgr": 0.708
         }
     },
@@ -170,8 +182,8 @@
             "type": "Four Year ACGR"
         },
         "val": {
-            "graduates": 196,
-            "cohort_size": 278,
+            "graduates": null,
+            "cohort_size": null,
             "acgr": 0.705
         }
     },
@@ -182,8 +194,8 @@
             "type": "Four Year ACGR"
         },
         "val": {
-            "graduates": 199,
-            "cohort_size": 271,
+            "graduates": null,
+            "cohort_size": null,
             "acgr": 0.734
         }
     },
@@ -194,8 +206,8 @@
             "type": "Four Year ACGR"
         },
         "val": {
-            "graduates": 103,
-            "cohort_size": 132,
+            "graduates": null,
+            "cohort_size": null,
             "acgr": 0.78
         }
     },
@@ -206,8 +218,8 @@
             "type": "Four Year ACGR"
         },
         "val": {
-            "graduates": 96,
-            "cohort_size": 149,
+            "graduates": null,
+            "cohort_size": null,
             "acgr": 0.644
         }
     },
@@ -218,9 +230,21 @@
             "type": "Four Year ACGR"
         },
         "val": {
-            "graduates": 25,
-            "cohort_size": 62,
+            "graduates": null,
+            "cohort_size": null,
             "acgr": 0.403
+        }
+    },
+    {
+        "key": {
+            "subgroup": "All",
+            "year": 2015,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": null,
+            "cohort_size": null,
+            "acgr": 0.115
         }
     }
 ]

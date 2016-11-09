@@ -1,7 +1,7 @@
 {
-"timestamp": "Wed Nov 09 08:58:32 2016",
+"timestamp": "Wed Nov 09 10:23:17 2016",
 "org_type": "school",
-"org_name": "SCHOOL FOR EDUCATIONAL EVOLUTION AND DEVELOPMENT (SEED) PCS",
+"org_name": "NA",
 "org_code": "0174",
 "exhibit": {
 	"id": "graduation",
@@ -10,12 +10,24 @@
     {
         "key": {
             "subgroup": "All",
+            "year": 2016,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": null,
+            "cohort_size": null,
+            "acgr": 0.619
+        }
+    },
+    {
+        "key": {
+            "subgroup": "All",
             "year": 2011,
             "type": "Four Year ACGR"
         },
         "val": {
-            "graduates": 36,
-            "cohort_size": 40,
+            "graduates": null,
+            "cohort_size": null,
             "acgr": 0.9
         }
     },
@@ -26,8 +38,8 @@
             "type": "Four Year ACGR"
         },
         "val": {
-            "graduates": 36,
-            "cohort_size": 40,
+            "graduates": null,
+            "cohort_size": null,
             "acgr": 0.9
         }
     },
@@ -38,8 +50,8 @@
             "type": "Four Year ACGR"
         },
         "val": {
-            "graduates": 27,
-            "cohort_size": 29,
+            "graduates": null,
+            "cohort_size": null,
             "acgr": 0.931
         }
     },
@@ -50,8 +62,8 @@
             "type": "Four Year ACGR"
         },
         "val": {
-            "graduates": 48,
-            "cohort_size": 55,
+            "graduates": null,
+            "cohort_size": null,
             "acgr": 0.873
         }
     },
@@ -62,8 +74,8 @@
             "type": "Four Year ACGR"
         },
         "val": {
-            "graduates": 21,
-            "cohort_size": 28,
+            "graduates": null,
+            "cohort_size": null,
             "acgr": 0.75
         }
     },
@@ -74,8 +86,8 @@
             "type": "Four Year ACGR"
         },
         "val": {
-            "graduates": 27,
-            "cohort_size": 27,
+            "graduates": null,
+            "cohort_size": null,
             "acgr": 1
         }
     },
@@ -86,8 +98,8 @@
             "type": "Four Year ACGR"
         },
         "val": {
-            "graduates": 48,
-            "cohort_size": 55,
+            "graduates": null,
+            "cohort_size": null,
             "acgr": 0.873
         }
     },
@@ -98,8 +110,8 @@
             "type": "Four Year ACGR"
         },
         "val": {
-            "graduates": 38,
-            "cohort_size": 43,
+            "graduates": null,
+            "cohort_size": null,
             "acgr": 0.884
         }
     },
@@ -110,8 +122,8 @@
             "type": "Four Year ACGR"
         },
         "val": {
-            "graduates": 32,
-            "cohort_size": 36,
+            "graduates": null,
+            "cohort_size": null,
             "acgr": 0.889
         }
     },
@@ -122,8 +134,8 @@
             "type": "Four Year ACGR"
         },
         "val": {
-            "graduates": 31,
-            "cohort_size": 35,
+            "graduates": null,
+            "cohort_size": null,
             "acgr": 0.886
         }
     },
@@ -134,9 +146,33 @@
             "type": "Four Year ACGR"
         },
         "val": {
-            "graduates": 27,
-            "cohort_size": 30,
+            "graduates": null,
+            "cohort_size": null,
             "acgr": 0.9
+        }
+    },
+    {
+        "key": {
+            "subgroup": "All",
+            "year": 2015,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "graduates": null,
+            "cohort_size": null,
+            "acgr": 0.524
+        }
+    },
+    {
+        "key": {
+            "subgroup": "All",
+            "year": 2015,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": null,
+            "cohort_size": null,
+            "acgr": 0.958
         }
     }
 ]
