@@ -1,5 +1,5 @@
 {
-"timestamp": "Wed Nov 09 10:23:16 2016",
+"timestamp": "Wed Nov 09 12:42:33 2016",
 "org_type": "school",
 "org_name": "NA",
 "org_code": "0109",
@@ -10,181 +10,13 @@
     {
         "key": {
             "subgroup": "All",
-            "year": 2016,
-            "type": "Five Year ACGR"
-        },
-        "val": {
-            "graduates": null,
-            "cohort_size": null,
-            "acgr": 0.841
-        }
-    },
-    {
-        "key": {
-            "subgroup": "BL7",
-            "year": 2016,
-            "type": "Five Year ACGR"
-        },
-        "val": {
-            "graduates": null,
-            "cohort_size": null,
-            "acgr": 0.836
-        }
-    },
-    {
-        "key": {
-            "subgroup": "Economy",
-            "year": 2016,
-            "type": "Five Year ACGR"
-        },
-        "val": {
-            "graduates": null,
-            "cohort_size": null,
-            "acgr": 0.841
-        }
-    },
-    {
-        "key": {
-            "subgroup": "FEMALE",
-            "year": 2016,
-            "type": "Five Year ACGR"
-        },
-        "val": {
-            "graduates": null,
-            "cohort_size": null,
-            "acgr": 0.794
-        }
-    },
-    {
-        "key": {
-            "subgroup": "MALE",
-            "year": 2016,
-            "type": "Five Year ACGR"
-        },
-        "val": {
-            "graduates": null,
-            "cohort_size": null,
-            "acgr": 0.897
-        }
-    },
-    {
-        "key": {
-            "subgroup": "All",
-            "year": 2011,
-            "type": "Four Year ACGR"
-        },
-        "val": {
-            "graduates": null,
-            "cohort_size": null,
-            "acgr": 0.825
-        }
-    },
-    {
-        "key": {
-            "subgroup": "FEMALE",
-            "year": 2011,
-            "type": "Four Year ACGR"
-        },
-        "val": {
-            "graduates": null,
-            "cohort_size": null,
-            "acgr": 0.886
-        }
-    },
-    {
-        "key": {
-            "subgroup": "BL7",
-            "year": 2011,
-            "type": "Four Year ACGR"
-        },
-        "val": {
-            "graduates": null,
-            "cohort_size": null,
-            "acgr": 0.816
-        }
-    },
-    {
-        "key": {
-            "subgroup": "Economy",
-            "year": 2011,
-            "type": "Four Year ACGR"
-        },
-        "val": {
-            "graduates": null,
-            "cohort_size": null,
-            "acgr": 0.953
-        }
-    },
-    {
-        "key": {
-            "subgroup": "All",
-            "year": 2013,
-            "type": "Four Year ACGR"
-        },
-        "val": {
-            "graduates": null,
-            "cohort_size": null,
-            "acgr": 0.713
-        }
-    },
-    {
-        "key": {
-            "subgroup": "MALE",
-            "year": 2013,
-            "type": "Four Year ACGR"
-        },
-        "val": {
-            "graduates": null,
-            "cohort_size": null,
-            "acgr": 0.536
-        }
-    },
-    {
-        "key": {
-            "subgroup": "FEMALE",
-            "year": 2013,
-            "type": "Four Year ACGR"
-        },
-        "val": {
-            "graduates": null,
-            "cohort_size": null,
-            "acgr": 0.797
-        }
-    },
-    {
-        "key": {
-            "subgroup": "BL7",
-            "year": 2013,
-            "type": "Four Year ACGR"
-        },
-        "val": {
-            "graduates": null,
-            "cohort_size": null,
-            "acgr": 0.75
-        }
-    },
-    {
-        "key": {
-            "subgroup": "Economy",
-            "year": 2013,
-            "type": "Four Year ACGR"
-        },
-        "val": {
-            "graduates": null,
-            "cohort_size": null,
-            "acgr": 0.686
-        }
-    },
-    {
-        "key": {
-            "subgroup": "All",
             "year": 2015,
             "type": "Four Year ACGR"
         },
         "val": {
             "graduates": null,
             "cohort_size": null,
-            "acgr": 0.794
+            "acgr": "0.794"
         }
     },
     {
@@ -196,7 +28,7 @@
         "val": {
             "graduates": null,
             "cohort_size": null,
-            "acgr": 0.787
+            "acgr": "0.787"
         }
     },
     {
@@ -208,7 +40,7 @@
         "val": {
             "graduates": null,
             "cohort_size": null,
-            "acgr": 0.794
+            "acgr": "0.794"
         }
     },
     {
@@ -220,7 +52,7 @@
         "val": {
             "graduates": null,
             "cohort_size": null,
-            "acgr": 0.794
+            "acgr": "0.794"
         }
     },
     {
@@ -232,7 +64,67 @@
         "val": {
             "graduates": null,
             "cohort_size": null,
-            "acgr": 0.793
+            "acgr": "0.793"
+        }
+    },
+    {
+        "key": {
+            "subgroup": "All",
+            "year": 2016,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": null,
+            "cohort_size": null,
+            "acgr": "0.841"
+        }
+    },
+    {
+        "key": {
+            "subgroup": "BL7",
+            "year": 2016,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": null,
+            "cohort_size": null,
+            "acgr": "0.836"
+        }
+    },
+    {
+        "key": {
+            "subgroup": "Economy",
+            "year": 2016,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": null,
+            "cohort_size": null,
+            "acgr": "0.841"
+        }
+    },
+    {
+        "key": {
+            "subgroup": "FEMALE",
+            "year": 2016,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": null,
+            "cohort_size": null,
+            "acgr": "0.794"
+        }
+    },
+    {
+        "key": {
+            "subgroup": "MALE",
+            "year": 2016,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": null,
+            "cohort_size": null,
+            "acgr": "0.897"
         }
     },
     {
@@ -244,7 +136,7 @@
         "val": {
             "graduates": null,
             "cohort_size": null,
-            "acgr": 0.73
+            "acgr": "0.73"
         }
     },
     {
@@ -256,7 +148,7 @@
         "val": {
             "graduates": null,
             "cohort_size": null,
-            "acgr": 0.732
+            "acgr": "0.732"
         }
     },
     {
@@ -268,7 +160,7 @@
         "val": {
             "graduates": null,
             "cohort_size": null,
-            "acgr": 0.627
+            "acgr": "0.627"
         }
     },
     {
@@ -280,7 +172,7 @@
         "val": {
             "graduates": null,
             "cohort_size": null,
-            "acgr": 0.75
+            "acgr": "0.75"
         }
     },
     {
@@ -292,7 +184,115 @@
         "val": {
             "graduates": null,
             "cohort_size": null,
-            "acgr": 0.82
+            "acgr": "0.82"
+        }
+    },
+    {
+        "key": {
+            "subgroup": "All",
+            "year": 2011,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "graduates": null,
+            "cohort_size": null,
+            "acgr": "0.825"
+        }
+    },
+    {
+        "key": {
+            "subgroup": "FEMALE",
+            "year": 2011,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "graduates": null,
+            "cohort_size": null,
+            "acgr": "0.886"
+        }
+    },
+    {
+        "key": {
+            "subgroup": "BL7",
+            "year": 2011,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "graduates": null,
+            "cohort_size": null,
+            "acgr": "0.816"
+        }
+    },
+    {
+        "key": {
+            "subgroup": "Economy",
+            "year": 2011,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "graduates": null,
+            "cohort_size": null,
+            "acgr": "0.953"
+        }
+    },
+    {
+        "key": {
+            "subgroup": "All",
+            "year": 2013,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "graduates": null,
+            "cohort_size": null,
+            "acgr": "0.713"
+        }
+    },
+    {
+        "key": {
+            "subgroup": "MALE",
+            "year": 2013,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "graduates": null,
+            "cohort_size": null,
+            "acgr": "0.536"
+        }
+    },
+    {
+        "key": {
+            "subgroup": "FEMALE",
+            "year": 2013,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "graduates": null,
+            "cohort_size": null,
+            "acgr": "0.797"
+        }
+    },
+    {
+        "key": {
+            "subgroup": "BL7",
+            "year": 2013,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "graduates": null,
+            "cohort_size": null,
+            "acgr": "0.75"
+        }
+    },
+    {
+        "key": {
+            "subgroup": "Economy",
+            "year": 2013,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "graduates": null,
+            "cohort_size": null,
+            "acgr": "0.686"
         }
     }
 ]

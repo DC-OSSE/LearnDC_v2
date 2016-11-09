@@ -1,5 +1,5 @@
 {
-"timestamp": "Wed Nov 09 10:23:16 2016",
+"timestamp": "Wed Nov 09 12:42:33 2016",
 "org_type": "school",
 "org_name": "NA",
 "org_code": "1207",
@@ -10,13 +10,73 @@
     {
         "key": {
             "subgroup": "All",
+            "year": 2015,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "graduates": null,
+            "cohort_size": null,
+            "acgr": "0.779"
+        }
+    },
+    {
+        "key": {
+            "subgroup": "Economy",
+            "year": 2015,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "graduates": null,
+            "cohort_size": null,
+            "acgr": "0.757"
+        }
+    },
+    {
+        "key": {
+            "subgroup": "FEMALE",
+            "year": 2015,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "graduates": null,
+            "cohort_size": null,
+            "acgr": "0.813"
+        }
+    },
+    {
+        "key": {
+            "subgroup": "HI7",
+            "year": 2015,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "graduates": null,
+            "cohort_size": null,
+            "acgr": "0.692"
+        }
+    },
+    {
+        "key": {
+            "subgroup": "MALE",
+            "year": 2015,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "graduates": null,
+            "cohort_size": null,
+            "acgr": "0.724"
+        }
+    },
+    {
+        "key": {
+            "subgroup": "All",
             "year": 2016,
             "type": "Five Year ACGR"
         },
         "val": {
             "graduates": null,
             "cohort_size": null,
-            "acgr": 0.844
+            "acgr": "0.844"
         }
     },
     {
@@ -28,7 +88,7 @@
         "val": {
             "graduates": null,
             "cohort_size": null,
-            "acgr": 0.829
+            "acgr": "0.829"
         }
     },
     {
@@ -40,7 +100,7 @@
         "val": {
             "graduates": null,
             "cohort_size": null,
-            "acgr": 0.875
+            "acgr": "0.875"
         }
     },
     {
@@ -52,7 +112,7 @@
         "val": {
             "graduates": null,
             "cohort_size": null,
-            "acgr": 0.788
+            "acgr": "0.788"
         }
     },
     {
@@ -64,79 +124,19 @@
         "val": {
             "graduates": null,
             "cohort_size": null,
-            "acgr": 0.793
+            "acgr": "0.793"
         }
     },
     {
         "key": {
             "subgroup": "All",
             "year": 2015,
-            "type": "Four Year ACGR"
-        },
-        "val": {
-            "graduates": null,
-            "cohort_size": null,
-            "acgr": 0.779
-        }
-    },
-    {
-        "key": {
-            "subgroup": "Economy",
-            "year": 2015,
-            "type": "Four Year ACGR"
-        },
-        "val": {
-            "graduates": null,
-            "cohort_size": null,
-            "acgr": 0.757
-        }
-    },
-    {
-        "key": {
-            "subgroup": "FEMALE",
-            "year": 2015,
-            "type": "Four Year ACGR"
-        },
-        "val": {
-            "graduates": null,
-            "cohort_size": null,
-            "acgr": 0.813
-        }
-    },
-    {
-        "key": {
-            "subgroup": "HI7",
-            "year": 2015,
-            "type": "Four Year ACGR"
-        },
-        "val": {
-            "graduates": null,
-            "cohort_size": null,
-            "acgr": 0.692
-        }
-    },
-    {
-        "key": {
-            "subgroup": "MALE",
-            "year": 2015,
-            "type": "Four Year ACGR"
-        },
-        "val": {
-            "graduates": null,
-            "cohort_size": null,
-            "acgr": 0.724
-        }
-    },
-    {
-        "key": {
-            "subgroup": "All",
-            "year": 2015,
             "type": "Five Year ACGR"
         },
         "val": {
             "graduates": null,
             "cohort_size": null,
-            "acgr": 0.845
+            "acgr": "0.845"
         }
     },
     {
@@ -148,7 +148,7 @@
         "val": {
             "graduates": null,
             "cohort_size": null,
-            "acgr": 0.844
+            "acgr": "0.844"
         }
     },
     {
@@ -160,7 +160,7 @@
         "val": {
             "graduates": null,
             "cohort_size": null,
-            "acgr": 0.862
+            "acgr": "0.862"
         }
     },
     {
@@ -172,7 +172,7 @@
         "val": {
             "graduates": null,
             "cohort_size": null,
-            "acgr": 0.813
+            "acgr": "0.813"
         }
     },
     {
@@ -184,7 +184,7 @@
         "val": {
             "graduates": null,
             "cohort_size": null,
-            "acgr": 0.833
+            "acgr": "0.833"
         }
     }
 ]

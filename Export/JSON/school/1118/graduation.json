@@ -1,12 +1,96 @@
 {
-"timestamp": "Wed Nov 09 10:23:17 2016",
+"timestamp": "Wed Nov 09 12:42:35 2016",
 "org_type": "school",
-"org_name": "NA",
+"org_name": "Washington Latin PCS - Upper School",
 "org_code": "1118",
 "exhibit": {
 	"id": "graduation",
 	"data":  
 [
+    {
+        "key": {
+            "subgroup": "All",
+            "year": 2015,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": null,
+            "cohort_size": null,
+            "acgr": "0.87"
+        }
+    },
+    {
+        "key": {
+            "subgroup": "Economy",
+            "year": 2015,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": null,
+            "cohort_size": null,
+            "acgr": "0.833"
+        }
+    },
+    {
+        "key": {
+            "subgroup": "BL7",
+            "year": 2015,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": null,
+            "cohort_size": null,
+            "acgr": "0.872"
+        }
+    },
+    {
+        "key": {
+            "subgroup": "All",
+            "year": 2015,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "graduates": null,
+            "cohort_size": null,
+            "acgr": "0.871"
+        }
+    },
+    {
+        "key": {
+            "subgroup": "BL7",
+            "year": 2015,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "graduates": null,
+            "cohort_size": null,
+            "acgr": "0.9"
+        }
+    },
+    {
+        "key": {
+            "subgroup": "Economy",
+            "year": 2015,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "graduates": null,
+            "cohort_size": null,
+            "acgr": "0.861"
+        }
+    },
+    {
+        "key": {
+            "subgroup": "FEMALE",
+            "year": 2015,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "graduates": null,
+            "cohort_size": null,
+            "acgr": "0.976"
+        }
+    },
     {
         "key": {
             "subgroup": "All",
@@ -16,7 +100,7 @@
         "val": {
             "graduates": null,
             "cohort_size": null,
-            "acgr": 0.903
+            "acgr": "0.903"
         }
     },
     {
@@ -28,7 +112,7 @@
         "val": {
             "graduates": null,
             "cohort_size": null,
-            "acgr": 0.925
+            "acgr": "0.925"
         }
     },
     {
@@ -40,7 +124,7 @@
         "val": {
             "graduates": null,
             "cohort_size": null,
-            "acgr": 0.917
+            "acgr": "0.917"
         }
     },
     {
@@ -52,7 +136,7 @@
         "val": {
             "graduates": null,
             "cohort_size": null,
-            "acgr": 0.976
+            "acgr": "0.976"
         }
     },
     {
@@ -64,7 +148,7 @@
         "val": {
             "graduates": null,
             "cohort_size": null,
-            "acgr": 0.932
+            "acgr": "0.932"
         }
     },
     {
@@ -76,7 +160,7 @@
         "val": {
             "graduates": null,
             "cohort_size": null,
-            "acgr": 0.889
+            "acgr": "0.889"
         }
     },
     {
@@ -88,7 +172,7 @@
         "val": {
             "graduates": null,
             "cohort_size": null,
-            "acgr": 0.957
+            "acgr": "0.957"
         }
     },
     {
@@ -100,7 +184,7 @@
         "val": {
             "graduates": null,
             "cohort_size": null,
-            "acgr": 0.926
+            "acgr": "0.926"
         }
     },
     {
@@ -112,91 +196,7 @@
         "val": {
             "graduates": null,
             "cohort_size": null,
-            "acgr": 0.933
-        }
-    },
-    {
-        "key": {
-            "subgroup": "All",
-            "year": 2015,
-            "type": "Four Year ACGR"
-        },
-        "val": {
-            "graduates": null,
-            "cohort_size": null,
-            "acgr": 0.871
-        }
-    },
-    {
-        "key": {
-            "subgroup": "BL7",
-            "year": 2015,
-            "type": "Four Year ACGR"
-        },
-        "val": {
-            "graduates": null,
-            "cohort_size": null,
-            "acgr": 0.9
-        }
-    },
-    {
-        "key": {
-            "subgroup": "Economy",
-            "year": 2015,
-            "type": "Four Year ACGR"
-        },
-        "val": {
-            "graduates": null,
-            "cohort_size": null,
-            "acgr": 0.861
-        }
-    },
-    {
-        "key": {
-            "subgroup": "FEMALE",
-            "year": 2015,
-            "type": "Four Year ACGR"
-        },
-        "val": {
-            "graduates": null,
-            "cohort_size": null,
-            "acgr": 0.976
-        }
-    },
-    {
-        "key": {
-            "subgroup": "All",
-            "year": 2015,
-            "type": "Five Year ACGR"
-        },
-        "val": {
-            "graduates": null,
-            "cohort_size": null,
-            "acgr": 0.87
-        }
-    },
-    {
-        "key": {
-            "subgroup": "Economy",
-            "year": 2015,
-            "type": "Five Year ACGR"
-        },
-        "val": {
-            "graduates": null,
-            "cohort_size": null,
-            "acgr": 0.833
-        }
-    },
-    {
-        "key": {
-            "subgroup": "BL7",
-            "year": 2015,
-            "type": "Five Year ACGR"
-        },
-        "val": {
-            "graduates": null,
-            "cohort_size": null,
-            "acgr": 0.872
+            "acgr": "0.933"
         }
     }
 ]

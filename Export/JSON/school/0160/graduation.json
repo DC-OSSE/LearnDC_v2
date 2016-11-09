@@ -1,7 +1,7 @@
 {
-"timestamp": "Wed Nov 09 10:23:17 2016",
+"timestamp": "Wed Nov 09 12:42:35 2016",
 "org_type": "school",
-"org_name": "HOSPITALITY PCS",
+"org_name": "Hospitality PCS",
 "org_code": "0160",
 "exhibit": {
 	"id": "graduation",
@@ -10,13 +10,25 @@
     {
         "key": {
             "subgroup": "All",
+            "year": 2015,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": null,
+            "cohort_size": null,
+            "acgr": "0.373"
+        }
+    },
+    {
+        "key": {
+            "subgroup": "All",
             "year": 2011,
             "type": "Four Year ACGR"
         },
         "val": {
             "graduates": null,
             "cohort_size": null,
-            "acgr": 0.633
+            "acgr": "0.633"
         }
     },
     {
@@ -28,7 +40,7 @@
         "val": {
             "graduates": null,
             "cohort_size": null,
-            "acgr": 0.63
+            "acgr": "0.63"
         }
     },
     {
@@ -40,7 +52,7 @@
         "val": {
             "graduates": null,
             "cohort_size": null,
-            "acgr": 0.5
+            "acgr": "0.5"
         }
     },
     {
@@ -52,7 +64,7 @@
         "val": {
             "graduates": null,
             "cohort_size": null,
-            "acgr": 0.516
+            "acgr": "0.516"
         }
     },
     {
@@ -64,7 +76,7 @@
         "val": {
             "graduates": null,
             "cohort_size": null,
-            "acgr": 0.538
+            "acgr": "0.538"
         }
     },
     {
@@ -76,7 +88,7 @@
         "val": {
             "graduates": null,
             "cohort_size": null,
-            "acgr": 0.761
+            "acgr": "0.761"
         }
     },
     {
@@ -88,7 +100,7 @@
         "val": {
             "graduates": null,
             "cohort_size": null,
-            "acgr": 0.724
+            "acgr": "0.724"
         }
     },
     {
@@ -100,7 +112,7 @@
         "val": {
             "graduates": null,
             "cohort_size": null,
-            "acgr": 0.775
+            "acgr": "0.775"
         }
     },
     {
@@ -112,31 +124,7 @@
         "val": {
             "graduates": null,
             "cohort_size": null,
-            "acgr": 0.761
-        }
-    },
-    {
-        "key": {
-            "subgroup": "All",
-            "year": 2015,
-            "type": "Four Year ACGR"
-        },
-        "val": {
-            "graduates": null,
-            "cohort_size": null,
-            "acgr": 0.491
-        }
-    },
-    {
-        "key": {
-            "subgroup": "All",
-            "year": 2015,
-            "type": "Five Year ACGR"
-        },
-        "val": {
-            "graduates": null,
-            "cohort_size": null,
-            "acgr": 0.373
+            "acgr": "0.761"
         }
     }
 ]

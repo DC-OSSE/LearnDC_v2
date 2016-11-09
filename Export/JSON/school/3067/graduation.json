@@ -1,7 +1,7 @@
 {
-"timestamp": "Wed Nov 09 10:23:17 2016",
+"timestamp": "Wed Nov 09 12:42:35 2016",
 "org_type": "school",
-"org_name": "NA",
+"org_name": "Richard Wright PCS for Journalism and Media Arts",
 "org_code": "3067",
 "exhibit": {
 	"id": "graduation",
@@ -10,61 +10,13 @@
     {
         "key": {
             "subgroup": "All",
-            "year": 2016,
+            "year": 2015,
             "type": "Five Year ACGR"
         },
         "val": {
             "graduates": null,
             "cohort_size": null,
-            "acgr": 0.67
-        }
-    },
-    {
-        "key": {
-            "subgroup": "BL7",
-            "year": 2016,
-            "type": "Five Year ACGR"
-        },
-        "val": {
-            "graduates": null,
-            "cohort_size": null,
-            "acgr": 0.667
-        }
-    },
-    {
-        "key": {
-            "subgroup": "Economy",
-            "year": 2016,
-            "type": "Five Year ACGR"
-        },
-        "val": {
-            "graduates": null,
-            "cohort_size": null,
-            "acgr": 0.686
-        }
-    },
-    {
-        "key": {
-            "subgroup": "FEMALE",
-            "year": 2016,
-            "type": "Five Year ACGR"
-        },
-        "val": {
-            "graduates": null,
-            "cohort_size": null,
-            "acgr": 0.681
-        }
-    },
-    {
-        "key": {
-            "subgroup": "MALE",
-            "year": 2016,
-            "type": "Five Year ACGR"
-        },
-        "val": {
-            "graduates": null,
-            "cohort_size": null,
-            "acgr": 0.659
+            "acgr": "n<25"
         }
     },
     {
@@ -76,7 +28,7 @@
         "val": {
             "graduates": null,
             "cohort_size": null,
-            "acgr": 0.602
+            "acgr": "0.602"
         }
     },
     {
@@ -88,7 +40,7 @@
         "val": {
             "graduates": null,
             "cohort_size": null,
-            "acgr": 0.598
+            "acgr": "0.598"
         }
     },
     {
@@ -100,7 +52,7 @@
         "val": {
             "graduates": null,
             "cohort_size": null,
-            "acgr": 0.616
+            "acgr": "0.616"
         }
     },
     {
@@ -112,7 +64,7 @@
         "val": {
             "graduates": null,
             "cohort_size": null,
-            "acgr": 0.66
+            "acgr": "0.66"
         }
     },
     {
@@ -124,19 +76,67 @@
         "val": {
             "graduates": null,
             "cohort_size": null,
-            "acgr": 0.537
+            "acgr": "0.537"
         }
     },
     {
         "key": {
             "subgroup": "All",
-            "year": 2015,
+            "year": 2016,
             "type": "Five Year ACGR"
         },
         "val": {
             "graduates": null,
             "cohort_size": null,
-            "acgr": 0.273
+            "acgr": "0.67"
+        }
+    },
+    {
+        "key": {
+            "subgroup": "BL7",
+            "year": 2016,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": null,
+            "cohort_size": null,
+            "acgr": "0.667"
+        }
+    },
+    {
+        "key": {
+            "subgroup": "Economy",
+            "year": 2016,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": null,
+            "cohort_size": null,
+            "acgr": "0.686"
+        }
+    },
+    {
+        "key": {
+            "subgroup": "FEMALE",
+            "year": 2016,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": null,
+            "cohort_size": null,
+            "acgr": "0.681"
+        }
+    },
+    {
+        "key": {
+            "subgroup": "MALE",
+            "year": 2016,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": null,
+            "cohort_size": null,
+            "acgr": "0.659"
         }
     }
 ]

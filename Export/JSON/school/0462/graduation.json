@@ -1,12 +1,24 @@
 {
-"timestamp": "Wed Nov 09 10:23:17 2016",
+"timestamp": "Wed Nov 09 12:42:35 2016",
 "org_type": "school",
-"org_name": "BALLOU STAY",
+"org_name": "Ballou STAY",
 "org_code": "0462",
 "exhibit": {
 	"id": "graduation",
 	"data":  
 [
+    {
+        "key": {
+            "subgroup": "All",
+            "year": 2015,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": null,
+            "cohort_size": null,
+            "acgr": "0.067"
+        }
+    },
     {
         "key": {
             "subgroup": "All",
@@ -16,7 +28,7 @@
         "val": {
             "graduates": null,
             "cohort_size": null,
-            "acgr": 0.11
+            "acgr": "0.11"
         }
     },
     {
@@ -28,7 +40,7 @@
         "val": {
             "graduates": null,
             "cohort_size": null,
-            "acgr": 0.096
+            "acgr": "0.096"
         }
     },
     {
@@ -40,7 +52,7 @@
         "val": {
             "graduates": null,
             "cohort_size": null,
-            "acgr": 0.12
+            "acgr": "0.12"
         }
     },
     {
@@ -52,7 +64,7 @@
         "val": {
             "graduates": null,
             "cohort_size": null,
-            "acgr": 0.097
+            "acgr": "0.097"
         }
     },
     {
@@ -64,7 +76,7 @@
         "val": {
             "graduates": null,
             "cohort_size": null,
-            "acgr": 0.105
+            "acgr": "0.105"
         }
     },
     {
@@ -76,7 +88,7 @@
         "val": {
             "graduates": null,
             "cohort_size": null,
-            "acgr": 0.111
+            "acgr": "0.111"
         }
     },
     {
@@ -88,7 +100,7 @@
         "val": {
             "graduates": null,
             "cohort_size": null,
-            "acgr": 0.081
+            "acgr": "0.081"
         }
     },
     {
@@ -100,7 +112,7 @@
         "val": {
             "graduates": null,
             "cohort_size": null,
-            "acgr": 0.088
+            "acgr": "0.088"
         }
     },
     {
@@ -112,7 +124,7 @@
         "val": {
             "graduates": null,
             "cohort_size": null,
-            "acgr": 0.074
+            "acgr": "0.074"
         }
     },
     {
@@ -124,7 +136,7 @@
         "val": {
             "graduates": null,
             "cohort_size": null,
-            "acgr": 0.076
+            "acgr": "0.076"
         }
     },
     {
@@ -136,31 +148,7 @@
         "val": {
             "graduates": null,
             "cohort_size": null,
-            "acgr": 0.065
-        }
-    },
-    {
-        "key": {
-            "subgroup": "All",
-            "year": 2015,
-            "type": "Four Year ACGR"
-        },
-        "val": {
-            "graduates": null,
-            "cohort_size": null,
-            "acgr": 0.028
-        }
-    },
-    {
-        "key": {
-            "subgroup": "All",
-            "year": 2015,
-            "type": "Five Year ACGR"
-        },
-        "val": {
-            "graduates": null,
-            "cohort_size": null,
-            "acgr": 0.067
+            "acgr": "0.065"
         }
     }
 ]

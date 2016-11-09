@@ -1,5 +1,5 @@
 {
-"timestamp": "Wed Nov 09 10:23:17 2016",
+"timestamp": "Wed Nov 09 12:42:34 2016",
 "org_type": "school",
 "org_name": "NA",
 "org_code": "0174",
@@ -10,13 +10,37 @@
     {
         "key": {
             "subgroup": "All",
+            "year": 2015,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "graduates": null,
+            "cohort_size": null,
+            "acgr": "n<25"
+        }
+    },
+    {
+        "key": {
+            "subgroup": "All",
             "year": 2016,
             "type": "Five Year ACGR"
         },
         "val": {
             "graduates": null,
             "cohort_size": null,
-            "acgr": 0.619
+            "acgr": "n<25"
+        }
+    },
+    {
+        "key": {
+            "subgroup": "All",
+            "year": 2015,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "graduates": null,
+            "cohort_size": null,
+            "acgr": "n<25"
         }
     },
     {
@@ -28,7 +52,7 @@
         "val": {
             "graduates": null,
             "cohort_size": null,
-            "acgr": 0.9
+            "acgr": "0.9"
         }
     },
     {
@@ -40,7 +64,7 @@
         "val": {
             "graduates": null,
             "cohort_size": null,
-            "acgr": 0.9
+            "acgr": "0.9"
         }
     },
     {
@@ -52,7 +76,7 @@
         "val": {
             "graduates": null,
             "cohort_size": null,
-            "acgr": 0.931
+            "acgr": "0.931"
         }
     },
     {
@@ -64,7 +88,7 @@
         "val": {
             "graduates": null,
             "cohort_size": null,
-            "acgr": 0.873
+            "acgr": "0.873"
         }
     },
     {
@@ -76,7 +100,7 @@
         "val": {
             "graduates": null,
             "cohort_size": null,
-            "acgr": 0.75
+            "acgr": "0.75"
         }
     },
     {
@@ -88,7 +112,7 @@
         "val": {
             "graduates": null,
             "cohort_size": null,
-            "acgr": 1
+            "acgr": "1"
         }
     },
     {
@@ -100,7 +124,7 @@
         "val": {
             "graduates": null,
             "cohort_size": null,
-            "acgr": 0.873
+            "acgr": "0.873"
         }
     },
     {
@@ -112,7 +136,7 @@
         "val": {
             "graduates": null,
             "cohort_size": null,
-            "acgr": 0.884
+            "acgr": "0.884"
         }
     },
     {
@@ -124,7 +148,7 @@
         "val": {
             "graduates": null,
             "cohort_size": null,
-            "acgr": 0.889
+            "acgr": "0.889"
         }
     },
     {
@@ -136,7 +160,7 @@
         "val": {
             "graduates": null,
             "cohort_size": null,
-            "acgr": 0.886
+            "acgr": "0.886"
         }
     },
     {
@@ -148,31 +172,7 @@
         "val": {
             "graduates": null,
             "cohort_size": null,
-            "acgr": 0.9
-        }
-    },
-    {
-        "key": {
-            "subgroup": "All",
-            "year": 2015,
-            "type": "Four Year ACGR"
-        },
-        "val": {
-            "graduates": null,
-            "cohort_size": null,
-            "acgr": 0.524
-        }
-    },
-    {
-        "key": {
-            "subgroup": "All",
-            "year": 2015,
-            "type": "Five Year ACGR"
-        },
-        "val": {
-            "graduates": null,
-            "cohort_size": null,
-            "acgr": 0.958
+            "acgr": "0.9"
         }
     }
 ]
