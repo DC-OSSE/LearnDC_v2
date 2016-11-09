@@ -12,7 +12,7 @@ sector_grad$cohort_size <- NA
 
 
 key_index <- c(3,4,5)
-value_index <- c(6,7,10)
+value_index <- c(10)
 num_orphans <- 0
 
 
