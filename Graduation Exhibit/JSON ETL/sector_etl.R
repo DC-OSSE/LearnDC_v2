@@ -5,10 +5,14 @@ sector_grad <- sqlQuery(dbrepcard_prod, "SELECT * FROM [dbo].[graduation_sector_
 
 sector_grad <- subset(sector_grad, lea_code==0)
 sector_grad$lea_code <- sapply(sector_grad$lea_code, leadgr, 4)
+sector_grad$acgr <- round(sector_grad$graduates/sector_grad$cohort_size,3)
+sector_grad$acgr <- ifelse(sector_grad$reported == 0 & sector_grad$reason_not_reported == 'n<25','n<25',sector_grad$acgr)
+sector_grad$graduates <- NA
+sector_grad$cohort_size <- NA
 
 
 key_index <- c(3,4,5)
-value_index <- c(6,7)
+value_index <- c(6,7,10)
 num_orphans <- 0
 
 
