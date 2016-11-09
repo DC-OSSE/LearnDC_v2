@@ -9,7 +9,7 @@ school_grad$graduates <- NA
 school_grad$cohort_size <- NA
 
 key_index <- c(5,6,7)
-value_index <- c(8,9,12)
+value_index <- c(12)
 num_orphans <- 0
 
 for(i in unique(school_grad$school_code)){
