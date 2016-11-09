@@ -8,7 +8,7 @@ state_grad$graduates <- NA
 state_grad$cohort_size <- NA
 
 key_index <- c(1:4)
-value_index <- c(5:6,9)
+value_index <- c(9)
 
 
 nested_list <- lapply(1:nrow(state_grad), FUN = function(i){ 
