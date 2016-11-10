@@ -1,5 +1,5 @@
 {
-"timestamp": "Wed Nov 09 15:46:08 2016",
+"timestamp": "Wed Nov 09 21:45:03 2016",
 "org_type": "school",
 "org_name": "WILLIAM E. DOAR JR PCS",
 "org_code": "0210",
@@ -13,7 +13,10 @@
             "year": 2011,
             "type": "Four Year ACGR"
         },
-        "val": "0.421"
+        "val": {
+            "acgr": 0.421,
+            "suppressed": 0
+        }
     },
     {
         "key": {
@@ -21,7 +24,10 @@
             "year": 2012,
             "type": "Four Year ACGR"
         },
-        "val": "0"
+        "val": {
+            "acgr": 0,
+            "suppressed": 0
+        }
     }
 ]
 

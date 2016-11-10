@@ -1,5 +1,5 @@
 {
-"timestamp": "Wed Nov 09 15:46:06 2016",
+"timestamp": "Wed Nov 09 21:45:01 2016",
 "org_type": "school",
 "org_name": "NA",
 "org_code": "1124",
@@ -13,7 +13,10 @@
             "year": 2015,
             "type": "Four Year ACGR"
         },
-        "val": "0.906"
+        "val": {
+            "acgr": 0.906,
+            "suppressed": 0
+        }
     },
     {
         "key": {
@@ -21,7 +24,10 @@
             "year": 2015,
             "type": "Four Year ACGR"
         },
-        "val": "0.935"
+        "val": {
+            "acgr": 0.935,
+            "suppressed": 0
+        }
     },
     {
         "key": {
@@ -29,7 +35,10 @@
             "year": 2015,
             "type": "Four Year ACGR"
         },
-        "val": "0.906"
+        "val": {
+            "acgr": 0.906,
+            "suppressed": 0
+        }
     },
     {
         "key": {
@@ -37,7 +46,10 @@
             "year": 2016,
             "type": "Five Year ACGR"
         },
-        "val": "0.906"
+        "val": {
+            "acgr": 0.906,
+            "suppressed": 0
+        }
     },
     {
         "key": {
@@ -45,7 +57,10 @@
             "year": 2016,
             "type": "Five Year ACGR"
         },
-        "val": "0.935"
+        "val": {
+            "acgr": 0.935,
+            "suppressed": 0
+        }
     },
     {
         "key": {
@@ -53,7 +68,10 @@
             "year": 2016,
             "type": "Five Year ACGR"
         },
-        "val": "0.906"
+        "val": {
+            "acgr": 0.906,
+            "suppressed": 0
+        }
     }
 ]
 

@@ -1,5 +1,5 @@
 {
-"timestamp": "Wed Nov 09 15:46:08 2016",
+"timestamp": "Wed Nov 09 21:45:02 2016",
 "org_type": "school",
 "org_name": "Richard Wright PCS for Journalism and Media Arts",
 "org_code": "3067",
@@ -13,7 +13,10 @@
             "year": 2015,
             "type": "Five Year ACGR"
         },
-        "val": "n<25"
+        "val": {
+            "acgr": null,
+            "suppressed": 1
+        }
     },
     {
         "key": {
@@ -21,7 +24,10 @@
             "year": 2015,
             "type": "Four Year ACGR"
         },
-        "val": "0.602"
+        "val": {
+            "acgr": 0.602,
+            "suppressed": 0
+        }
     },
     {
         "key": {
@@ -29,7 +35,10 @@
             "year": 2015,
             "type": "Four Year ACGR"
         },
-        "val": "0.598"
+        "val": {
+            "acgr": 0.598,
+            "suppressed": 0
+        }
     },
     {
         "key": {
@@ -37,7 +46,10 @@
             "year": 2015,
             "type": "Four Year ACGR"
         },
-        "val": "0.616"
+        "val": {
+            "acgr": 0.616,
+            "suppressed": 0
+        }
     },
     {
         "key": {
@@ -45,7 +57,10 @@
             "year": 2015,
             "type": "Four Year ACGR"
         },
-        "val": "0.66"
+        "val": {
+            "acgr": 0.66,
+            "suppressed": 0
+        }
     },
     {
         "key": {
@@ -53,7 +68,10 @@
             "year": 2015,
             "type": "Four Year ACGR"
         },
-        "val": "0.537"
+        "val": {
+            "acgr": 0.537,
+            "suppressed": 0
+        }
     },
     {
         "key": {
@@ -61,7 +79,10 @@
             "year": 2016,
             "type": "Five Year ACGR"
         },
-        "val": "0.67"
+        "val": {
+            "acgr": 0.67,
+            "suppressed": 0
+        }
     },
     {
         "key": {
@@ -69,7 +90,10 @@
             "year": 2016,
             "type": "Five Year ACGR"
         },
-        "val": "0.667"
+        "val": {
+            "acgr": 0.667,
+            "suppressed": 0
+        }
     },
     {
         "key": {
@@ -77,7 +101,10 @@
             "year": 2016,
             "type": "Five Year ACGR"
         },
-        "val": "0.686"
+        "val": {
+            "acgr": 0.686,
+            "suppressed": 0
+        }
     },
     {
         "key": {
@@ -85,7 +112,10 @@
             "year": 2016,
             "type": "Five Year ACGR"
         },
-        "val": "0.681"
+        "val": {
+            "acgr": 0.681,
+            "suppressed": 0
+        }
     },
     {
         "key": {
@@ -93,7 +123,10 @@
             "year": 2016,
             "type": "Five Year ACGR"
         },
-        "val": "0.659"
+        "val": {
+            "acgr": 0.659,
+            "suppressed": 0
+        }
     }
 ]
 

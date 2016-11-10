@@ -1,5 +1,5 @@
 {
-"timestamp": "Wed Nov 09 15:46:07 2016",
+"timestamp": "Wed Nov 09 21:45:02 2016",
 "org_type": "school",
 "org_name": "NA",
 "org_code": "0174",
@@ -13,7 +13,10 @@
             "year": 2015,
             "type": "Four Year ACGR"
         },
-        "val": "n<25"
+        "val": {
+            "acgr": null,
+            "suppressed": 1
+        }
     },
     {
         "key": {
@@ -21,7 +24,10 @@
             "year": 2016,
             "type": "Five Year ACGR"
         },
-        "val": "n<25"
+        "val": {
+            "acgr": null,
+            "suppressed": 1
+        }
     },
     {
         "key": {
@@ -29,7 +35,10 @@
             "year": 2015,
             "type": "Five Year ACGR"
         },
-        "val": "n<25"
+        "val": {
+            "acgr": null,
+            "suppressed": 1
+        }
     },
     {
         "key": {
@@ -37,7 +46,10 @@
             "year": 2011,
             "type": "Four Year ACGR"
         },
-        "val": "0.9"
+        "val": {
+            "acgr": 0.9,
+            "suppressed": 0
+        }
     },
     {
         "key": {
@@ -45,7 +57,10 @@
             "year": 2011,
             "type": "Four Year ACGR"
         },
-        "val": "0.9"
+        "val": {
+            "acgr": 0.9,
+            "suppressed": 0
+        }
     },
     {
         "key": {
@@ -53,7 +68,10 @@
             "year": 2011,
             "type": "Four Year ACGR"
         },
-        "val": "0.931"
+        "val": {
+            "acgr": 0.931,
+            "suppressed": 0
+        }
     },
     {
         "key": {
@@ -61,7 +79,10 @@
             "year": 2012,
             "type": "Four Year ACGR"
         },
-        "val": "0.873"
+        "val": {
+            "acgr": 0.873,
+            "suppressed": 0
+        }
     },
     {
         "key": {
@@ -69,7 +90,10 @@
             "year": 2012,
             "type": "Four Year ACGR"
         },
-        "val": "0.75"
+        "val": {
+            "acgr": 0.75,
+            "suppressed": 0
+        }
     },
     {
         "key": {
@@ -77,7 +101,10 @@
             "year": 2012,
             "type": "Four Year ACGR"
         },
-        "val": "1"
+        "val": {
+            "acgr": 1,
+            "suppressed": 0
+        }
     },
     {
         "key": {
@@ -85,7 +112,10 @@
             "year": 2012,
             "type": "Four Year ACGR"
         },
-        "val": "0.873"
+        "val": {
+            "acgr": 0.873,
+            "suppressed": 0
+        }
     },
     {
         "key": {
@@ -93,7 +123,10 @@
             "year": 2012,
             "type": "Four Year ACGR"
         },
-        "val": "0.884"
+        "val": {
+            "acgr": 0.884,
+            "suppressed": 0
+        }
     },
     {
         "key": {
@@ -101,7 +134,10 @@
             "year": 2013,
             "type": "Four Year ACGR"
         },
-        "val": "0.889"
+        "val": {
+            "acgr": 0.889,
+            "suppressed": 0
+        }
     },
     {
         "key": {
@@ -109,7 +145,10 @@
             "year": 2013,
             "type": "Four Year ACGR"
         },
-        "val": "0.886"
+        "val": {
+            "acgr": 0.886,
+            "suppressed": 0
+        }
     },
     {
         "key": {
@@ -117,7 +156,10 @@
             "year": 2013,
             "type": "Four Year ACGR"
         },
-        "val": "0.9"
+        "val": {
+            "acgr": 0.9,
+            "suppressed": 0
+        }
     }
 ]
 
