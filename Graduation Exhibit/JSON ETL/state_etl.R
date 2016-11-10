@@ -3,12 +3,13 @@ library(jsonlite)
 
 state_grad <- sqlQuery(dbrepcard_prod, "SELECT * FROM [dbo].[graduation_state_exhibit] where reported = 1 and population='all' and cohort_size >= 25 and isnull(graduates,'')!=''")
 state_grad$acgr <- round(state_grad$graduates/state_grad$cohort_size,3)
-state_grad$acgr <- ifelse(state_grad$reported == 0 & state_grad$reason_not_reported == 'n<25','n<25',state_grad$acgr)
+state_grad$acgr <- ifelse(state_grad$reported == 0 & state_grad$reason_not_reported == 'n<25',NA,state_grad$acgr)
+state_grad$suppressed <-ifelse(state_grad$reported == 0 & state_grad$reason_not_reported == 'n<25',1,0)
 state_grad$graduates <- NA
 state_grad$cohort_size <- NA
 
 key_index <- c(1:4)
-value_index <- c(9)
+value_index <- c(9,10)
 
 
 nested_list <- lapply(1:nrow(state_grad), FUN = function(i){ 
