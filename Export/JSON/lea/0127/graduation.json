@@ -1,5 +1,5 @@
 {
-"timestamp": "Wed Nov 09 15:51:08 2016",
+"timestamp": "Wed Nov 09 21:51:27 2016",
 "org_type": "lea",
 "org_name": "IDEAL ACADEMY PCS",
 "org_code": "0127",
@@ -13,7 +13,10 @@
             "year": 2011,
             "type": "Four Year ACGR"
         },
-        "val": 0.686
+        "val": {
+            "acgr": 0.686,
+            "suppressed": 0
+        }
     },
     {
         "key": {
@@ -21,7 +24,10 @@
             "year": 2011,
             "type": "Four Year ACGR"
         },
-        "val": 0.686
+        "val": {
+            "acgr": 0.686,
+            "suppressed": 0
+        }
     },
     {
         "key": {
@@ -29,7 +35,10 @@
             "year": 2011,
             "type": "Four Year ACGR"
         },
-        "val": 0.75
+        "val": {
+            "acgr": 0.75,
+            "suppressed": 0
+        }
     }
 ]
 

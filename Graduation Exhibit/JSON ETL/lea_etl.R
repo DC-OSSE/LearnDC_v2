@@ -5,13 +5,14 @@ lea_grad <- sqlQuery(dbrepcard_prod, "SELECT * FROM [dbo].[graduation_lea_exhibi
 
 lea_grad$lea_code <- sapply(lea_grad$lea_code, leadgr, 4)
 lea_grad$acgr <- round(lea_grad$graduates/lea_grad$cohort_size,3)
-lea_grad$acgr <- ifelse(lea_grad$reported == 0 & lea_grad$reason_not_reported == 'n<25','n<25',lea_grad$acgr)
+lea_grad$acgr <- ifelse(lea_grad$reported == 0 & lea_grad$reason_not_reported == 'n<25',NA,lea_grad$acgr)
+lea_grad$suppressed <-ifelse(lea_grad$reported == 0 & lea_grad$reason_not_reported == 'n<25',1,0)
 lea_grad$graduates <- NA
 lea_grad$cohort_size <- NA
 
 
 key_index <- c(3,4,5)
-value_index <- c(10)
+value_index <- c(10,11)
 num_orphans <- 0
 
 school_dir <- sqlFetch(dbrepcard, 'schooldir_sy1314')
