@@ -1,51 +1,11 @@
 {
-"timestamp": "Tue Oct 18 16:58:13 2016",
+"timestamp": "Thu Dec 01 21:43:23 2016",
 "org_type": "school",
 "org_code": "1119",
 "exhibit": {
 	"id": "enrollment_equity",
 	"data":  
 [
-    {
-        "key": {
-            "year": 2016,
-            "subgroup": "AM7",
-            "grade": "All"
-        },
-        "val": 0
-    },
-    {
-        "key": {
-            "year": 2016,
-            "subgroup": "AS7",
-            "grade": "All"
-        },
-        "val": 0.042
-    },
-    {
-        "key": {
-            "year": 2016,
-            "subgroup": "All",
-            "grade": "grade AO"
-        },
-        "val": 2011
-    },
-    {
-        "key": {
-            "year": 2016,
-            "subgroup": "All",
-            "grade": "All"
-        },
-        "val": 2011
-    },
-    {
-        "key": {
-            "year": 2016,
-            "subgroup": "BL7",
-            "grade": "All"
-        },
-        "val": 0.207
-    },
     {
         "key": {
             "year": 2016,
@@ -93,6 +53,46 @@
             "grade": "All"
         },
         "val": 0.02
+    },
+    {
+        "key": {
+            "year": 2016,
+            "subgroup": "AM7",
+            "grade": "All"
+        },
+        "val": 0
+    },
+    {
+        "key": {
+            "year": 2016,
+            "subgroup": "AS7",
+            "grade": "All"
+        },
+        "val": 0.042
+    },
+    {
+        "key": {
+            "year": 2016,
+            "subgroup": "All",
+            "grade": "grade AO"
+        },
+        "val": 2011
+    },
+    {
+        "key": {
+            "year": 2016,
+            "subgroup": "All",
+            "grade": "All"
+        },
+        "val": 2011
+    },
+    {
+        "key": {
+            "year": 2016,
+            "subgroup": "BL7",
+            "grade": "All"
+        },
+        "val": 0.207
     }
 ]
 
