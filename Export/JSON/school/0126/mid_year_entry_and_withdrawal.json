@@ -1,8 +1,8 @@
 {
-"timestamp": "Fri Dec 02 10:15:53 2016",
+"timestamp": "Fri Dec 02 10:15:49 2016",
 "org_type": "school",
 "org_name": "",
-"org_code": "0285",
+"org_code": "0126",
 "exhibit": {
 	"id": "mid_year_entry_and_withdrawal",
 	"data":  
@@ -13,12 +13,12 @@
             "month": 1
         },
         "val": {
-            "entry": 0.066,
-            "withdrawal": 0.019,
-            "net_cumulative": 0.047,
+            "entry": 0.089,
+            "withdrawal": 0.089,
+            "net_cumulative": 0,
             "state_entry": 0.027,
-            "state_withdrawal": 0.018,
-            "state_net_cumulative": 0.009
+            "state_withdrawal": 0.017,
+            "state_net_cumulative": 0.01
         }
     },
     {
@@ -27,12 +27,12 @@
             "month": 2
         },
         "val": {
-            "entry": 0.078,
-            "withdrawal": 0.033,
-            "net_cumulative": 0.045,
-            "state_entry": 0.03,
+            "entry": 0.089,
+            "withdrawal": 0.089,
+            "net_cumulative": 0,
+            "state_entry": 0.029,
             "state_withdrawal": 0.021,
-            "state_net_cumulative": 0.008
+            "state_net_cumulative": 0.009
         }
     },
     {
@@ -41,10 +41,10 @@
             "month": 3
         },
         "val": {
-            "entry": 0.08,
-            "withdrawal": 0.043,
-            "net_cumulative": 0.038,
-            "state_entry": 0.032,
+            "entry": 0.089,
+            "withdrawal": 0.089,
+            "net_cumulative": 0,
+            "state_entry": 0.031,
             "state_withdrawal": 0.024,
             "state_net_cumulative": 0.008
         }
@@ -55,11 +55,11 @@
             "month": 4
         },
         "val": {
-            "entry": 0.092,
-            "withdrawal": 0.047,
-            "net_cumulative": 0.045,
-            "state_entry": 0.034,
-            "state_withdrawal": 0.027,
+            "entry": 0.089,
+            "withdrawal": 0.111,
+            "net_cumulative": -0.022,
+            "state_entry": 0.033,
+            "state_withdrawal": 0.026,
             "state_net_cumulative": 0.007
         }
     },
@@ -69,11 +69,11 @@
             "month": 5
         },
         "val": {
-            "entry": 0.092,
-            "withdrawal": 0.047,
-            "net_cumulative": 0.045,
-            "state_entry": 0.036,
-            "state_withdrawal": 0.03,
+            "entry": 0.089,
+            "withdrawal": 0.111,
+            "net_cumulative": -0.022,
+            "state_entry": 0.035,
+            "state_withdrawal": 0.029,
             "state_net_cumulative": 0.006
         }
     },
@@ -83,11 +83,11 @@
             "month": 10
         },
         "val": {
-            "entry": 0.038,
-            "withdrawal": 0,
-            "net_cumulative": 0.038,
-            "state_entry": 0.018,
-            "state_withdrawal": 0.008,
+            "entry": 0,
+            "withdrawal": 0.022,
+            "net_cumulative": -0.022,
+            "state_entry": 0.02,
+            "state_withdrawal": 0.009,
             "state_net_cumulative": 0.011
         }
     },
@@ -97,12 +97,12 @@
             "month": 11
         },
         "val": {
-            "entry": 0.045,
-            "withdrawal": 0.012,
-            "net_cumulative": 0.033,
-            "state_entry": 0.021,
-            "state_withdrawal": 0.011,
-            "state_net_cumulative": 0.01
+            "entry": 0.022,
+            "withdrawal": 0.022,
+            "net_cumulative": 0,
+            "state_entry": 0.023,
+            "state_withdrawal": 0.012,
+            "state_net_cumulative": 0.011
         }
     },
     {
@@ -111,10 +111,10 @@
             "month": 12
         },
         "val": {
-            "entry": 0.057,
-            "withdrawal": 0.014,
-            "net_cumulative": 0.043,
-            "state_entry": 0.024,
+            "entry": 0.022,
+            "withdrawal": 0.067,
+            "net_cumulative": -0.044,
+            "state_entry": 0.025,
             "state_withdrawal": 0.014,
             "state_net_cumulative": 0.01
         }
