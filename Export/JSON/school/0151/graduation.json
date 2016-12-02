@@ -1,23 +1,12 @@
 {
-"timestamp": "Wed Nov 09 21:45:03 2016",
+"timestamp": "Thu Dec 01 13:53:25 2016",
 "org_type": "school",
-"org_name": "Booker T  Washington PCS",
+"org_name": "BOOKER T  WASHINGTON PCS",
 "org_code": "0151",
 "exhibit": {
 	"id": "graduation",
 	"data":  
 [
-    {
-        "key": {
-            "subgroup": "All",
-            "year": 2015,
-            "type": "Five Year ACGR"
-        },
-        "val": {
-            "acgr": 0.568,
-            "suppressed": 0
-        }
-    },
     {
         "key": {
             "subgroup": "All",
@@ -180,6 +169,17 @@
         },
         "val": {
             "acgr": 0.678,
+            "suppressed": 0
+        }
+    },
+    {
+        "key": {
+            "subgroup": "All",
+            "year": 2015,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "acgr": 0.568,
             "suppressed": 0
         }
     }

@@ -1,23 +1,12 @@
 {
-"timestamp": "Wed Nov 09 21:45:03 2016",
+"timestamp": "Thu Dec 01 13:53:26 2016",
 "org_type": "school",
-"org_name": "Options PCS",
+"org_name": "OPTIONS PCS",
 "org_code": "0169",
 "exhibit": {
 	"id": "graduation",
 	"data":  
 [
-    {
-        "key": {
-            "subgroup": "All",
-            "year": 2015,
-            "type": "Five Year ACGR"
-        },
-        "val": {
-            "acgr": 0.558,
-            "suppressed": 0
-        }
-    },
     {
         "key": {
             "subgroup": "All",
@@ -191,6 +180,17 @@
         },
         "val": {
             "acgr": 0.52,
+            "suppressed": 0
+        }
+    },
+    {
+        "key": {
+            "subgroup": "All",
+            "year": 2015,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "acgr": 0.558,
             "suppressed": 0
         }
     }

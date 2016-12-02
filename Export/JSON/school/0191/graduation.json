@@ -1,67 +1,12 @@
 {
-"timestamp": "Wed Nov 09 21:45:03 2016",
+"timestamp": "Thu Dec 01 13:53:25 2016",
 "org_type": "school",
-"org_name": "Thurgood Marshall Academy PCS",
+"org_name": "NA",
 "org_code": "0191",
 "exhibit": {
 	"id": "graduation",
 	"data":  
 [
-    {
-        "key": {
-            "subgroup": "MALE",
-            "year": 2015,
-            "type": "Five Year ACGR"
-        },
-        "val": {
-            "acgr": 0.757,
-            "suppressed": 0
-        }
-    },
-    {
-        "key": {
-            "subgroup": "FEMALE",
-            "year": 2015,
-            "type": "Five Year ACGR"
-        },
-        "val": {
-            "acgr": 0.885,
-            "suppressed": 0
-        }
-    },
-    {
-        "key": {
-            "subgroup": "BL7",
-            "year": 2015,
-            "type": "Five Year ACGR"
-        },
-        "val": {
-            "acgr": 0.831,
-            "suppressed": 0
-        }
-    },
-    {
-        "key": {
-            "subgroup": "Economy",
-            "year": 2015,
-            "type": "Five Year ACGR"
-        },
-        "val": {
-            "acgr": 0.824,
-            "suppressed": 0
-        }
-    },
-    {
-        "key": {
-            "subgroup": "All",
-            "year": 2015,
-            "type": "Five Year ACGR"
-        },
-        "val": {
-            "acgr": 0.831,
-            "suppressed": 0
-        }
-    },
     {
         "key": {
             "subgroup": "All",
@@ -301,6 +246,61 @@
         },
         "val": {
             "acgr": 0.74,
+            "suppressed": 0
+        }
+    },
+    {
+        "key": {
+            "subgroup": "MALE",
+            "year": 2015,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "acgr": 0.757,
+            "suppressed": 0
+        }
+    },
+    {
+        "key": {
+            "subgroup": "FEMALE",
+            "year": 2015,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "acgr": 0.885,
+            "suppressed": 0
+        }
+    },
+    {
+        "key": {
+            "subgroup": "BL7",
+            "year": 2015,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "acgr": 0.831,
+            "suppressed": 0
+        }
+    },
+    {
+        "key": {
+            "subgroup": "Economy",
+            "year": 2015,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "acgr": 0.824,
+            "suppressed": 0
+        }
+    },
+    {
+        "key": {
+            "subgroup": "All",
+            "year": 2015,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "acgr": 0.831,
             "suppressed": 0
         }
     }

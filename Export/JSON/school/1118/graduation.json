@@ -1,45 +1,12 @@
 {
-"timestamp": "Wed Nov 09 21:45:02 2016",
+"timestamp": "Thu Dec 01 13:53:25 2016",
 "org_type": "school",
-"org_name": "Washington Latin PCS - Upper School",
+"org_name": "NA",
 "org_code": "1118",
 "exhibit": {
 	"id": "graduation",
 	"data":  
 [
-    {
-        "key": {
-            "subgroup": "All",
-            "year": 2015,
-            "type": "Five Year ACGR"
-        },
-        "val": {
-            "acgr": 0.87,
-            "suppressed": 0
-        }
-    },
-    {
-        "key": {
-            "subgroup": "Economy",
-            "year": 2015,
-            "type": "Five Year ACGR"
-        },
-        "val": {
-            "acgr": 0.833,
-            "suppressed": 0
-        }
-    },
-    {
-        "key": {
-            "subgroup": "BL7",
-            "year": 2015,
-            "type": "Five Year ACGR"
-        },
-        "val": {
-            "acgr": 0.872,
-            "suppressed": 0
-        }
-    },
     {
         "key": {
             "subgroup": "All",
@@ -180,6 +147,39 @@
         },
         "val": {
             "acgr": 0.933,
+            "suppressed": 0
+        }
+    },
+    {
+        "key": {
+            "subgroup": "All",
+            "year": 2015,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "acgr": 0.87,
+            "suppressed": 0
+        }
+    },
+    {
+        "key": {
+            "subgroup": "Economy",
+            "year": 2015,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "acgr": 0.833,
+            "suppressed": 0
+        }
+    },
+    {
+        "key": {
+            "subgroup": "BL7",
+            "year": 2015,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "acgr": 0.872,
             "suppressed": 0
         }
     }

@@ -1,23 +1,12 @@
 {
-"timestamp": "Wed Nov 09 21:45:03 2016",
+"timestamp": "Thu Dec 01 13:53:27 2016",
 "org_type": "school",
-"org_name": "Ballou STAY",
+"org_name": "BALLOU STAY",
 "org_code": "0462",
 "exhibit": {
 	"id": "graduation",
 	"data":  
 [
-    {
-        "key": {
-            "subgroup": "All",
-            "year": 2015,
-            "type": "Five Year ACGR"
-        },
-        "val": {
-            "acgr": 0.067,
-            "suppressed": 0
-        }
-    },
     {
         "key": {
             "subgroup": "All",
@@ -136,6 +125,17 @@
         },
         "val": {
             "acgr": 0.065,
+            "suppressed": 0
+        }
+    },
+    {
+        "key": {
+            "subgroup": "All",
+            "year": 2015,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "acgr": 0.067,
             "suppressed": 0
         }
     }

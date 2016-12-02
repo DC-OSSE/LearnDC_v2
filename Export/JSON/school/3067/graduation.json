@@ -1,23 +1,12 @@
 {
-"timestamp": "Wed Nov 09 21:45:02 2016",
+"timestamp": "Thu Dec 01 13:53:28 2016",
 "org_type": "school",
-"org_name": "Richard Wright PCS for Journalism and Media Arts",
+"org_name": "NA",
 "org_code": "3067",
 "exhibit": {
 	"id": "graduation",
 	"data":  
 [
-    {
-        "key": {
-            "subgroup": "All",
-            "year": 2015,
-            "type": "Five Year ACGR"
-        },
-        "val": {
-            "acgr": null,
-            "suppressed": 1
-        }
-    },
     {
         "key": {
             "subgroup": "All",
@@ -126,6 +115,17 @@
         "val": {
             "acgr": 0.659,
             "suppressed": 0
+        }
+    },
+    {
+        "key": {
+            "subgroup": "All",
+            "year": 2015,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "acgr": null,
+            "suppressed": 1
         }
     }
 ]

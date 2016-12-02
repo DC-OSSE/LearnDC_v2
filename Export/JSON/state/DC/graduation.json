@@ -1,5 +1,5 @@
 {
-"timestamp": "Wed Nov 09 21:50:38 2016",
+"timestamp": "Thu Dec 01 21:41:40 2016",
 "org_type": "state",
 "org_name": "District of Columbia",
 "org_code": "dc",
@@ -9,61 +9,61 @@
 [
     {
         "key": {
-            "subgroup": "LEP",
-            "year": 2016,
-            "type": "Five Year ACGR",
+            "subgroup": "AS7",
+            "year": 2015,
+            "type": "Four Year ACGR",
             "population": "All"
         },
         "val": {
-            "acgr": 0.66,
+            "acgr": 0.794,
             "suppressed": 0
         }
     },
     {
         "key": {
-            "subgroup": "MU7",
-            "year": 2016,
-            "type": "Five Year ACGR",
+            "subgroup": "All",
+            "year": 2015,
+            "type": "Four Year ACGR",
             "population": "All"
         },
         "val": {
-            "acgr": 0.767,
+            "acgr": 0.654,
             "suppressed": 0
         }
     },
     {
         "key": {
-            "subgroup": "MALE",
-            "year": 2016,
-            "type": "Five Year ACGR",
+            "subgroup": "BL7",
+            "year": 2015,
+            "type": "Four Year ACGR",
             "population": "All"
         },
         "val": {
-            "acgr": 0.646,
+            "acgr": 0.639,
             "suppressed": 0
         }
     },
     {
         "key": {
-            "subgroup": "SPED",
-            "year": 2016,
-            "type": "Five Year ACGR",
+            "subgroup": "Economy",
+            "year": 2015,
+            "type": "Four Year ACGR",
             "population": "All"
         },
         "val": {
-            "acgr": 0.506,
+            "acgr": 0.658,
             "suppressed": 0
         }
     },
     {
         "key": {
-            "subgroup": "WH7",
-            "year": 2016,
-            "type": "Five Year ACGR",
+            "subgroup": "FEMALE",
+            "year": 2015,
+            "type": "Four Year ACGR",
             "population": "All"
         },
         "val": {
-            "acgr": 0.863,
+            "acgr": 0.72,
             "suppressed": 0
         }
     },
@@ -717,66 +717,6 @@
     },
     {
         "key": {
-            "subgroup": "WH7",
-            "year": 2015,
-            "type": "Four Year ACGR",
-            "population": "All"
-        },
-        "val": {
-            "acgr": 0.845,
-            "suppressed": 0
-        }
-    },
-    {
-        "key": {
-            "subgroup": "AS7",
-            "year": 2015,
-            "type": "Four Year ACGR",
-            "population": "All"
-        },
-        "val": {
-            "acgr": 0.794,
-            "suppressed": 0
-        }
-    },
-    {
-        "key": {
-            "subgroup": "MU7",
-            "year": 2015,
-            "type": "Four Year ACGR",
-            "population": "All"
-        },
-        "val": {
-            "acgr": 0.744,
-            "suppressed": 0
-        }
-    },
-    {
-        "key": {
-            "subgroup": "FEMALE",
-            "year": 2015,
-            "type": "Four Year ACGR",
-            "population": "All"
-        },
-        "val": {
-            "acgr": 0.72,
-            "suppressed": 0
-        }
-    },
-    {
-        "key": {
-            "subgroup": "Economy",
-            "year": 2015,
-            "type": "Four Year ACGR",
-            "population": "All"
-        },
-        "val": {
-            "acgr": 0.658,
-            "suppressed": 0
-        }
-    },
-    {
-        "key": {
             "subgroup": "HI7",
             "year": 2015,
             "type": "Four Year ACGR",
@@ -789,30 +729,6 @@
     },
     {
         "key": {
-            "subgroup": "All",
-            "year": 2015,
-            "type": "Four Year ACGR",
-            "population": "All"
-        },
-        "val": {
-            "acgr": 0.654,
-            "suppressed": 0
-        }
-    },
-    {
-        "key": {
-            "subgroup": "BL7",
-            "year": 2015,
-            "type": "Four Year ACGR",
-            "population": "All"
-        },
-        "val": {
-            "acgr": 0.639,
-            "suppressed": 0
-        }
-    },
-    {
-        "key": {
             "subgroup": "LEP",
             "year": 2015,
             "type": "Four Year ACGR",
@@ -820,6 +736,18 @@
         },
         "val": {
             "acgr": 0.596,
+            "suppressed": 0
+        }
+    },
+    {
+        "key": {
+            "subgroup": "MU7",
+            "year": 2015,
+            "type": "Four Year ACGR",
+            "population": "All"
+        },
+        "val": {
+            "acgr": 0.744,
             "suppressed": 0
         }
     },
@@ -844,6 +772,150 @@
         },
         "val": {
             "acgr": 0.429,
+            "suppressed": 0
+        }
+    },
+    {
+        "key": {
+            "subgroup": "WH7",
+            "year": 2015,
+            "type": "Four Year ACGR",
+            "population": "All"
+        },
+        "val": {
+            "acgr": 0.845,
+            "suppressed": 0
+        }
+    },
+    {
+        "key": {
+            "subgroup": "AS7",
+            "year": 2016,
+            "type": "Five Year ACGR",
+            "population": "All"
+        },
+        "val": {
+            "acgr": 0.824,
+            "suppressed": 0
+        }
+    },
+    {
+        "key": {
+            "subgroup": "All",
+            "year": 2016,
+            "type": "Five Year ACGR",
+            "population": "All"
+        },
+        "val": {
+            "acgr": 0.705,
+            "suppressed": 0
+        }
+    },
+    {
+        "key": {
+            "subgroup": "BL7",
+            "year": 2016,
+            "type": "Five Year ACGR",
+            "population": "All"
+        },
+        "val": {
+            "acgr": 0.692,
+            "suppressed": 0
+        }
+    },
+    {
+        "key": {
+            "subgroup": "Economy",
+            "year": 2016,
+            "type": "Five Year ACGR",
+            "population": "All"
+        },
+        "val": {
+            "acgr": 0.716,
+            "suppressed": 0
+        }
+    },
+    {
+        "key": {
+            "subgroup": "FEMALE",
+            "year": 2016,
+            "type": "Five Year ACGR",
+            "population": "All"
+        },
+        "val": {
+            "acgr": 0.765,
+            "suppressed": 0
+        }
+    },
+    {
+        "key": {
+            "subgroup": "HI7",
+            "year": 2016,
+            "type": "Five Year ACGR",
+            "population": "All"
+        },
+        "val": {
+            "acgr": 0.709,
+            "suppressed": 0
+        }
+    },
+    {
+        "key": {
+            "subgroup": "LEP",
+            "year": 2016,
+            "type": "Five Year ACGR",
+            "population": "All"
+        },
+        "val": {
+            "acgr": 0.66,
+            "suppressed": 0
+        }
+    },
+    {
+        "key": {
+            "subgroup": "MU7",
+            "year": 2016,
+            "type": "Five Year ACGR",
+            "population": "All"
+        },
+        "val": {
+            "acgr": 0.767,
+            "suppressed": 0
+        }
+    },
+    {
+        "key": {
+            "subgroup": "MALE",
+            "year": 2016,
+            "type": "Five Year ACGR",
+            "population": "All"
+        },
+        "val": {
+            "acgr": 0.646,
+            "suppressed": 0
+        }
+    },
+    {
+        "key": {
+            "subgroup": "SPED",
+            "year": 2016,
+            "type": "Five Year ACGR",
+            "population": "All"
+        },
+        "val": {
+            "acgr": 0.506,
+            "suppressed": 0
+        }
+    },
+    {
+        "key": {
+            "subgroup": "WH7",
+            "year": 2016,
+            "type": "Five Year ACGR",
+            "population": "All"
+        },
+        "val": {
+            "acgr": 0.863,
             "suppressed": 0
         }
     },
@@ -976,78 +1048,6 @@
         },
         "val": {
             "acgr": 0.832,
-            "suppressed": 0
-        }
-    },
-    {
-        "key": {
-            "subgroup": "AS7",
-            "year": 2016,
-            "type": "Five Year ACGR",
-            "population": "All"
-        },
-        "val": {
-            "acgr": 0.824,
-            "suppressed": 0
-        }
-    },
-    {
-        "key": {
-            "subgroup": "All",
-            "year": 2016,
-            "type": "Five Year ACGR",
-            "population": "All"
-        },
-        "val": {
-            "acgr": 0.705,
-            "suppressed": 0
-        }
-    },
-    {
-        "key": {
-            "subgroup": "BL7",
-            "year": 2016,
-            "type": "Five Year ACGR",
-            "population": "All"
-        },
-        "val": {
-            "acgr": 0.692,
-            "suppressed": 0
-        }
-    },
-    {
-        "key": {
-            "subgroup": "Economy",
-            "year": 2016,
-            "type": "Five Year ACGR",
-            "population": "All"
-        },
-        "val": {
-            "acgr": 0.716,
-            "suppressed": 0
-        }
-    },
-    {
-        "key": {
-            "subgroup": "FEMALE",
-            "year": 2016,
-            "type": "Five Year ACGR",
-            "population": "All"
-        },
-        "val": {
-            "acgr": 0.765,
-            "suppressed": 0
-        }
-    },
-    {
-        "key": {
-            "subgroup": "HI7",
-            "year": 2016,
-            "type": "Five Year ACGR",
-            "population": "All"
-        },
-        "val": {
-            "acgr": 0.709,
             "suppressed": 0
         }
     }
