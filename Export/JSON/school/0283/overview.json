@@ -1,10 +1,10 @@
 {
-	"timestamp": "Thu Jan 12 10:09:55 2017",
+	"timestamp": "Fri Oct 27 16:06:15 2017",
 	"org_type": "school",
 	"org_name": "Washington Leadership Academy PCS",
 	"org_code": "0283",
 	"closed": false,
-	"charter": true,
+	"charter": false,
 	"school_type": [
 		"Regular School"
 	 ],
@@ -12,7 +12,7 @@
 		"gs_url": null
 	},
 	"ward": "5",
-	"grades_serviced": ["09"],
+	"grades_serviced": ["09","10"],
 	"grades_accepted": null,
 	"description": null,
 	"address": {
@@ -21,8 +21,8 @@
 		"city": "Washington",
 		"state": "DC",
 		"zip": "20017",
-		"lat": 38.92786,
-		"long": -76.99867
+		"lat": null,
+		"long": null
 	},
 	"transit": null,
 	"website": "http://www.washingtonleadershipacademy.org/",
