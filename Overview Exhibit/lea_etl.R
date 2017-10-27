@@ -13,7 +13,7 @@ for(i in unique(lea_dir$lea_code)){
 	.tmp <- subset(lea_dir, lea_code == i)
 	.lea_name <- .tmp$lea_name[1]
 
-	if(!file.exists(i) && .tmp$school_year[1] == '2016-2017'){
+	if(!file.exists(i) && .tmp$school_year[1] == '2017-2018'){
 		dir.create(file.path(i))
 	}
 	if(file.exists(i)){
