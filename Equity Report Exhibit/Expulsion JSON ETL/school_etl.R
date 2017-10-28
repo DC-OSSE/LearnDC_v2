@@ -3,7 +3,7 @@ library(jsonlite)
 library(reshape2)
 library(dplyr)
 
-disc <- sqlQuery(dbrepcard_prod,"select * from equity_report_school_longitudinal where school_year = '2015-2016' and reported=1 and metric in('Total Expulsions','Expulsion Rate','Suspended 1+','Suspended 11+','Total Suspensions')") %>% mutate(lea_code=sapply(lea_code,leadgr,4),school_code=sapply(school_code,leadgr,4),subgroup=ifelse(subgroup %in% c('Male','Female'),toupper(subgroup),subgroup)) %>% select(-(school_year),-(lea_code),-(school_name),-(lea_name),-(reported),-(reported),-(reason_not_reported),-(grade),-(enrollment),-(month))
+disc <- sqlQuery(dbrepcard_prod,"select * from equity_report_school_longitudinal where school_year = '2016-2017' and reported=1 and metric in('Total Expulsions','Expulsion Rate','Suspended 1+','Suspended 11+','Total Suspensions')") %>% mutate(lea_code=sapply(lea_code,leadgr,4),school_code=sapply(school_code,leadgr,4),subgroup=ifelse(subgroup %in% c('Male','Female'),toupper(subgroup),subgroup)) %>% select(-(school_year),-(lea_code),-(school_name),-(lea_name),-(reported),-(reported),-(reason_not_reported),-(grade),-(enrollment),-(month))
 
 expel <- disc %>% filter(metric %in% c('Total Expulsions','Expulsion Rate'))
 exp_long <- melt(expel, id.vars = c("year","school_code","subgroup","metric"))
