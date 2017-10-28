@@ -1,5 +1,5 @@
 {
-"timestamp": "Thu Dec 01 21:52:51 2016",
+"timestamp": "Sat Oct 28 19:06:39 2017",
 "org_type": "school",
 "org_name": "",
 "org_code": "0233",
@@ -9,63 +9,76 @@
 [
     {
         "key": {
-            "year": 2016,
+            "year": 2017,
             "subgroup": "All"
         },
         "val": {
-            "suspended_1": 0.018,
+            "suspended_1": 0.021,
             "suspended_11": 0,
-            "state_suspended_1": 0.006,
-            "state_suspended_11": 0,
-            "incidents": 7
+            "state_suspended_1": 0.007,
+            "state_suspended_11": 0.001,
+            "incidents": 9
         }
     },
     {
         "key": {
-            "year": 2016,
+            "year": 2017,
             "subgroup": "BL7"
         },
         "val": {
-            "suspended_1": 0.019,
+            "suspended_1": 0.02,
             "suspended_11": 0,
-            "state_suspended_1": 0.013,
+            "state_suspended_1": 0.015,
             "state_suspended_11": 0.001,
             "incidents": 0
         }
     },
     {
         "key": {
-            "year": 2016,
+            "year": 2017,
+            "subgroup": "Economy"
+        },
+        "val": {
+            "suspended_1": 0.027,
+            "suspended_11": 0,
+            "state_suspended_1": 0.015,
+            "state_suspended_11": 0.001,
+            "incidents": 0
+        }
+    },
+    {
+        "key": {
+            "year": 2017,
             "subgroup": "FEMALE"
         },
         "val": {
-            "suspended_1": 0.022,
+            "suspended_1": 0.016,
             "suspended_11": 0,
-            "state_suspended_1": 0.003,
+            "state_suspended_1": 0.005,
             "state_suspended_11": 0,
             "incidents": 0
         }
     },
     {
         "key": {
-            "year": 2016,
+            "year": 2017,
             "subgroup": "HI7"
         },
         "val": {
-            "suspended_1": 0,
+            "suspended_1": 0.063,
             "suspended_11": 0,
-            "state_suspended_1": 0.001,
+            "state_suspended_1": 0,
             "state_suspended_11": 0,
             "incidents": 0
         }
     },
     {
         "key": {
-            "year": 2016,
+            "year": 2017,
             "subgroup": "MALE"
         },
         "val": {
-            "suspended_1": 0.01,
+            "suspended_1": 0.033,
             "suspended_11": 0,
             "state_suspended_1": 0.009,
             "state_suspended_11": 0.001,

@@ -1,0 +1,78 @@
+{
+"timestamp": "Sat Oct 28 19:06:41 2017",
+"org_type": "school",
+"org_name": "",
+"org_code": "0436",
+"exhibit": {
+	"id": "suspensions",
+	"data":  
+[
+    {
+        "key": {
+            "year": 2017,
+            "subgroup": "All"
+        },
+        "val": {
+            "suspended_1": 0.048,
+            "suspended_11": 0.01,
+            "state_suspended_1": 0.156,
+            "state_suspended_11": 0.007,
+            "incidents": 7
+        }
+    },
+    {
+        "key": {
+            "year": 2017,
+            "subgroup": "BL7"
+        },
+        "val": {
+            "suspended_1": 0.05,
+            "suspended_11": 0.01,
+            "state_suspended_1": 0.205,
+            "state_suspended_11": 0.01,
+            "incidents": 0
+        }
+    },
+    {
+        "key": {
+            "year": 2017,
+            "subgroup": "Economy"
+        },
+        "val": {
+            "suspended_1": 0.048,
+            "suspended_11": 0.01,
+            "state_suspended_1": 0.176,
+            "state_suspended_11": 0.008,
+            "incidents": 0
+        }
+    },
+    {
+        "key": {
+            "year": 2017,
+            "subgroup": "MALE"
+        },
+        "val": {
+            "suspended_1": 0.048,
+            "suspended_11": 0.01,
+            "state_suspended_1": 0.173,
+            "state_suspended_11": 0.009,
+            "incidents": 0
+        }
+    },
+    {
+        "key": {
+            "year": 2017,
+            "subgroup": "SPED"
+        },
+        "val": {
+            "suspended_1": 0,
+            "suspended_11": 0,
+            "state_suspended_1": 0.254,
+            "state_suspended_11": 0.013,
+            "incidents": 0
+        }
+    }
+]
+
+	}
+}
