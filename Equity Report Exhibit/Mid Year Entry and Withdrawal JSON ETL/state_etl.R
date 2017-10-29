@@ -3,7 +3,7 @@ library(jsonlite)
 library(reshape2)
 library(dplyr)
 
-myew <- sqlQuery(dbrepcard_prod,"select * from equity_report_state_longitudinal where school_year='2015-2016' and reported=1 and metric in ('Withdrawal','Entry','Net Cumulative')") %>% mutate(month=ifelse(month %in% 'October',10,ifelse(month %in% 'November',11,ifelse(month %in% 'December',12,ifelse(month %in% 'January',1,ifelse(month %in% 'February',2,ifelse(month %in% 'March',3,ifelse(month %in% 'April',4,ifelse(month %in% 'May',5,NA))))))))) %>% arrange(month_order) %>% select(-starts_with("days"),-(school_year),-(grade),-(month_order),-starts_with("re"),-starts_with("days"),-(count),-(nsize),-(enrollment))
+myew <- sqlQuery(dbrepcard_prod,"select * from equity_report_state_longitudinal where school_year='2016-2017' and reported=1 and metric in ('Withdrawal','Entry','Net Cumulative')") %>% mutate(month=ifelse(month %in% 'October',10,ifelse(month %in% 'November',11,ifelse(month %in% 'December',12,ifelse(month %in% 'January',1,ifelse(month %in% 'February',2,ifelse(month %in% 'March',3,ifelse(month %in% 'April',4,ifelse(month %in% 'May',5,NA))))))))) %>% arrange(month_order) %>% select(-starts_with("days"),-(school_year),-(grade),-(month_order),-starts_with("re"),-starts_with("days"),-(count),-(nsize),-(enrollment))
 
 move_long <- melt(myew,id.vars=c("year","subgroup","month","metric","population"))
 move_long$metric <- paste0(move_long$metric,"_",move_long$variable)

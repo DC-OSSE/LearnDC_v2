@@ -3,7 +3,7 @@ library(jsonlite)
 library(reshape2)
 library(dplyr)
 
-susp <- sqlQuery(dbrepcard_prod,"select * from equity_report_state_longitudinal where school_year='2015-2016' and reported=1 and metric in ('Suspended 1+','Suspended 11+','Total Suspensions')") %>%
+susp <- sqlQuery(dbrepcard_prod,"select * from equity_report_state_longitudinal where school_year='2016-2017' and reported=1 and metric in ('Suspended 1+','Suspended 11+','Total Suspensions')") %>%
 mutate(subgroup=ifelse(subgroup %in% c('Male','Female'),toupper(subgroup),subgroup)) %>% select(-starts_with("days"),-(school_year),-(grade),-starts_with("mo"),-starts_with("re"),-(count),-(nsize),-(enrollment))
 
 susp_long <- melt(susp, id.vars = c("year","subgroup","metric","population"))
