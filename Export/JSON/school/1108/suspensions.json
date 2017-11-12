@@ -1,5 +1,5 @@
 {
-"timestamp": "Sat Oct 28 19:06:42 2017",
+"timestamp": "Sun Nov 12 12:00:13 2017",
 "org_type": "school",
 "org_name": "",
 "org_code": "1108",
@@ -17,7 +17,7 @@
             "suspended_11": 0,
             "state_suspended_1": 0.076,
             "state_suspended_11": 0.001,
-            "incidents": 14
+            "incidents": 28
         }
     },
     {
@@ -28,7 +28,7 @@
         "val": {
             "suspended_1": 0.067,
             "suspended_11": 0,
-            "state_suspended_1": 0.103,
+            "state_suspended_1": 0.104,
             "state_suspended_11": 0.002,
             "incidents": 0
         }
@@ -75,12 +75,25 @@
     {
         "key": {
             "year": 2017,
+            "subgroup": "LEP"
+        },
+        "val": {
+            "suspended_1": 0,
+            "suspended_11": 0,
+            "state_suspended_1": 0.022,
+            "state_suspended_11": 0,
+            "incidents": 0
+        }
+    },
+    {
+        "key": {
+            "year": 2017,
             "subgroup": "MALE"
         },
         "val": {
             "suspended_1": 0.08,
             "suspended_11": 0,
-            "state_suspended_1": 0.098,
+            "state_suspended_1": 0.099,
             "state_suspended_11": 0.002,
             "incidents": 0
         }
@@ -93,7 +106,7 @@
         "val": {
             "suspended_1": 0.143,
             "suspended_11": 0,
-            "state_suspended_1": 0.145,
+            "state_suspended_1": 0.142,
             "state_suspended_11": 0.003,
             "incidents": 0
         }
