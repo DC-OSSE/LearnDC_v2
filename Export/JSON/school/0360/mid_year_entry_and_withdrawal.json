@@ -1,5 +1,5 @@
 {
-"timestamp": "Sat Oct 28 18:47:28 2017",
+"timestamp": "Sun Nov 12 11:42:16 2017",
 "org_type": "school",
 "org_name": "",
 "org_code": "0360",
@@ -13,11 +13,11 @@
             "month": 1
         },
         "val": {
-            "entry": 0,
-            "withdrawal": 0.014,
-            "net_cumulative": -0.014,
-            "state_entry": 0.012,
-            "state_withdrawal": 0.012,
+            "entry": 0.003,
+            "withdrawal": 0.028,
+            "net_cumulative": -0.025,
+            "state_entry": 0.034,
+            "state_withdrawal": 0.034,
             "state_net_cumulative": 0
         }
     },
@@ -27,11 +27,11 @@
             "month": 2
         },
         "val": {
-            "entry": 0,
-            "withdrawal": 0,
-            "net_cumulative": 0,
-            "state_entry": 0.006,
-            "state_withdrawal": 0.006,
+            "entry": 0.003,
+            "withdrawal": 0.028,
+            "net_cumulative": -0.025,
+            "state_entry": 0.039,
+            "state_withdrawal": 0.04,
             "state_net_cumulative": -0.001
         }
     },
@@ -41,12 +41,12 @@
             "month": 3
         },
         "val": {
-            "entry": 0,
-            "withdrawal": 0.014,
-            "net_cumulative": -0.014,
-            "state_entry": 0.004,
-            "state_withdrawal": 0.005,
-            "state_net_cumulative": -0.002
+            "entry": 0.003,
+            "withdrawal": 0.042,
+            "net_cumulative": -0.039,
+            "state_entry": 0.043,
+            "state_withdrawal": 0.046,
+            "state_net_cumulative": -0.003
         }
     },
     {
@@ -55,12 +55,12 @@
             "month": 4
         },
         "val": {
-            "entry": 0.003,
-            "withdrawal": 0,
-            "net_cumulative": 0.003,
-            "state_entry": 0.005,
-            "state_withdrawal": 0.003,
-            "state_net_cumulative": 0.002
+            "entry": 0.006,
+            "withdrawal": 0.042,
+            "net_cumulative": -0.036,
+            "state_entry": 0.048,
+            "state_withdrawal": 0.049,
+            "state_net_cumulative": -0.001
         }
     },
     {
@@ -69,12 +69,12 @@
             "month": 5
         },
         "val": {
-            "entry": 0,
-            "withdrawal": 0,
-            "net_cumulative": 0,
-            "state_entry": 0.002,
-            "state_withdrawal": 0.003,
-            "state_net_cumulative": 0
+            "entry": 0.006,
+            "withdrawal": 0.042,
+            "net_cumulative": -0.036,
+            "state_entry": 0.05,
+            "state_withdrawal": 0.051,
+            "state_net_cumulative": -0.001
         }
     },
     {
@@ -86,9 +86,9 @@
             "entry": 0,
             "withdrawal": 0.014,
             "net_cumulative": -0.014,
-            "state_entry": 0.014,
+            "state_entry": 0.009,
             "state_withdrawal": 0.009,
-            "state_net_cumulative": 0.005
+            "state_net_cumulative": 0.001
         }
     },
     {
@@ -98,11 +98,11 @@
         },
         "val": {
             "entry": 0,
-            "withdrawal": 0,
-            "net_cumulative": 0,
-            "state_entry": 0.009,
-            "state_withdrawal": 0.008,
-            "state_net_cumulative": 0
+            "withdrawal": 0.014,
+            "net_cumulative": -0.014,
+            "state_entry": 0.018,
+            "state_withdrawal": 0.017,
+            "state_net_cumulative": 0.001
         }
     },
     {
@@ -112,11 +112,11 @@
         },
         "val": {
             "entry": 0.003,
-            "withdrawal": 0,
-            "net_cumulative": 0.003,
-            "state_entry": 0.004,
-            "state_withdrawal": 0.006,
-            "state_net_cumulative": -0.002
+            "withdrawal": 0.014,
+            "net_cumulative": -0.011,
+            "state_entry": 0.022,
+            "state_withdrawal": 0.023,
+            "state_net_cumulative": -0.001
         }
     }
 ]
