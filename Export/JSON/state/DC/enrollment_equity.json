@@ -1,5 +1,5 @@
 {
-"timestamp": "Sat Oct 28 19:49:54 2017",
+"timestamp": "Sun Nov 12 12:12:02 2017",
 "org_type": "state",
 "org_name": "District of Columbia",
 "org_code": "dc",
@@ -7,6 +7,618 @@
 	"id": "enrollment_equity",
 	"data":  
 [
+    {
+        "key": {
+            "year": 2017,
+            "grade": "All",
+            "subgroup": "AM7",
+            "population": "All"
+        },
+        "val": 0.001
+    },
+    {
+        "key": {
+            "year": 2017,
+            "grade": "All",
+            "subgroup": "AS7",
+            "population": "All"
+        },
+        "val": 0.016
+    },
+    {
+        "key": {
+            "year": 2017,
+            "grade": "grade 1",
+            "subgroup": "All",
+            "population": "All"
+        },
+        "val": 7122
+    },
+    {
+        "key": {
+            "year": 2017,
+            "grade": "grade 2",
+            "subgroup": "All",
+            "population": "All"
+        },
+        "val": 6808
+    },
+    {
+        "key": {
+            "year": 2017,
+            "grade": "grade 3",
+            "subgroup": "All",
+            "population": "All"
+        },
+        "val": 6551
+    },
+    {
+        "key": {
+            "year": 2017,
+            "grade": "grade 4",
+            "subgroup": "All",
+            "population": "All"
+        },
+        "val": 6245
+    },
+    {
+        "key": {
+            "year": 2017,
+            "grade": "grade 5",
+            "subgroup": "All",
+            "population": "All"
+        },
+        "val": 5538
+    },
+    {
+        "key": {
+            "year": 2017,
+            "grade": "grade 6",
+            "subgroup": "All",
+            "population": "All"
+        },
+        "val": 4970
+    },
+    {
+        "key": {
+            "year": 2017,
+            "grade": "grade 7",
+            "subgroup": "All",
+            "population": "All"
+        },
+        "val": 4574
+    },
+    {
+        "key": {
+            "year": 2017,
+            "grade": "grade 8",
+            "subgroup": "All",
+            "population": "All"
+        },
+        "val": 4481
+    },
+    {
+        "key": {
+            "year": 2017,
+            "grade": "grade 9",
+            "subgroup": "All",
+            "population": "All"
+        },
+        "val": 5932
+    },
+    {
+        "key": {
+            "year": 2017,
+            "grade": "grade 10",
+            "subgroup": "All",
+            "population": "All"
+        },
+        "val": 4491
+    },
+    {
+        "key": {
+            "year": 2017,
+            "grade": "grade 11",
+            "subgroup": "All",
+            "population": "All"
+        },
+        "val": 4044
+    },
+    {
+        "key": {
+            "year": 2017,
+            "grade": "grade 12",
+            "subgroup": "All",
+            "population": "All"
+        },
+        "val": 3839
+    },
+    {
+        "key": {
+            "year": 2017,
+            "grade": "grade AO",
+            "subgroup": "All",
+            "population": "All"
+        },
+        "val": 4931
+    },
+    {
+        "key": {
+            "year": 2017,
+            "grade": "All",
+            "subgroup": "All",
+            "population": "All"
+        },
+        "val": 90001
+    },
+    {
+        "key": {
+            "year": 2017,
+            "grade": "KG",
+            "subgroup": "All",
+            "population": "All"
+        },
+        "val": 7556
+    },
+    {
+        "key": {
+            "year": 2017,
+            "grade": "PK3",
+            "subgroup": "All",
+            "population": "All"
+        },
+        "val": 5583
+    },
+    {
+        "key": {
+            "year": 2017,
+            "grade": "PK4",
+            "subgroup": "All",
+            "population": "All"
+        },
+        "val": 6953
+    },
+    {
+        "key": {
+            "year": 2017,
+            "grade": "UN",
+            "subgroup": "All",
+            "population": "All"
+        },
+        "val": 382
+    },
+    {
+        "key": {
+            "year": 2017,
+            "grade": "All",
+            "subgroup": "BL7",
+            "population": "All"
+        },
+        "val": 0.681
+    },
+    {
+        "key": {
+            "year": 2017,
+            "grade": "All",
+            "subgroup": "Economy",
+            "population": "All"
+        },
+        "val": 0.803
+    },
+    {
+        "key": {
+            "year": 2017,
+            "grade": "All",
+            "subgroup": "FEMALE",
+            "population": "All"
+        },
+        "val": 0.502
+    },
+    {
+        "key": {
+            "year": 2017,
+            "grade": "All",
+            "subgroup": "HI7",
+            "population": "All"
+        },
+        "val": 0.181
+    },
+    {
+        "key": {
+            "year": 2017,
+            "grade": "All",
+            "subgroup": "LEP",
+            "population": "All"
+        },
+        "val": 0.127
+    },
+    {
+        "key": {
+            "year": 2017,
+            "grade": "All",
+            "subgroup": "MU7",
+            "population": "All"
+        },
+        "val": 0.02
+    },
+    {
+        "key": {
+            "year": 2017,
+            "grade": "All",
+            "subgroup": "MALE",
+            "population": "All"
+        },
+        "val": 0.498
+    },
+    {
+        "key": {
+            "year": 2017,
+            "grade": "All",
+            "subgroup": "PI7",
+            "population": "All"
+        },
+        "val": 0.001
+    },
+    {
+        "key": {
+            "year": 2017,
+            "grade": "All",
+            "subgroup": "SPED",
+            "population": "All"
+        },
+        "val": 0.158
+    },
+    {
+        "key": {
+            "year": 2017,
+            "grade": "All",
+            "subgroup": "SPED Level 1",
+            "population": "All"
+        },
+        "val": 0.367
+    },
+    {
+        "key": {
+            "year": 2017,
+            "grade": "All",
+            "subgroup": "SPED Level 2",
+            "population": "All"
+        },
+        "val": 0.3
+    },
+    {
+        "key": {
+            "year": 2017,
+            "grade": "All",
+            "subgroup": "SPED Level 3",
+            "population": "All"
+        },
+        "val": 0.112
+    },
+    {
+        "key": {
+            "year": 2017,
+            "grade": "All",
+            "subgroup": "SPED Level 4",
+            "population": "All"
+        },
+        "val": 0.222
+    },
+    {
+        "key": {
+            "year": 2017,
+            "grade": "All",
+            "subgroup": "WH7",
+            "population": "All"
+        },
+        "val": 0.1
+    },
+    {
+        "key": {
+            "year": 2017,
+            "grade": "All",
+            "subgroup": "AM7",
+            "population": "PK3-12"
+        },
+        "val": 0.001
+    },
+    {
+        "key": {
+            "year": 2017,
+            "grade": "All",
+            "subgroup": "AS7",
+            "population": "PK3-12"
+        },
+        "val": 0.016
+    },
+    {
+        "key": {
+            "year": 2017,
+            "grade": "grade 1",
+            "subgroup": "All",
+            "population": "PK3-12"
+        },
+        "val": 7083
+    },
+    {
+        "key": {
+            "year": 2017,
+            "grade": "grade 2",
+            "subgroup": "All",
+            "population": "PK3-12"
+        },
+        "val": 6780
+    },
+    {
+        "key": {
+            "year": 2017,
+            "grade": "grade 3",
+            "subgroup": "All",
+            "population": "PK3-12"
+        },
+        "val": 6502
+    },
+    {
+        "key": {
+            "year": 2017,
+            "grade": "grade 4",
+            "subgroup": "All",
+            "population": "PK3-12"
+        },
+        "val": 6191
+    },
+    {
+        "key": {
+            "year": 2017,
+            "grade": "grade 5",
+            "subgroup": "All",
+            "population": "PK3-12"
+        },
+        "val": 5474
+    },
+    {
+        "key": {
+            "year": 2017,
+            "grade": "grade 6",
+            "subgroup": "All",
+            "population": "PK3-12"
+        },
+        "val": 4866
+    },
+    {
+        "key": {
+            "year": 2017,
+            "grade": "grade 7",
+            "subgroup": "All",
+            "population": "PK3-12"
+        },
+        "val": 4524
+    },
+    {
+        "key": {
+            "year": 2017,
+            "grade": "grade 8",
+            "subgroup": "All",
+            "population": "PK3-12"
+        },
+        "val": 4445
+    },
+    {
+        "key": {
+            "year": 2017,
+            "grade": "grade 9",
+            "subgroup": "All",
+            "population": "PK3-12"
+        },
+        "val": 5345
+    },
+    {
+        "key": {
+            "year": 2017,
+            "grade": "grade 10",
+            "subgroup": "All",
+            "population": "PK3-12"
+        },
+        "val": 4352
+    },
+    {
+        "key": {
+            "year": 2017,
+            "grade": "grade 11",
+            "subgroup": "All",
+            "population": "PK3-12"
+        },
+        "val": 3946
+    },
+    {
+        "key": {
+            "year": 2017,
+            "grade": "grade 12",
+            "subgroup": "All",
+            "population": "PK3-12"
+        },
+        "val": 3743
+    },
+    {
+        "key": {
+            "year": 2017,
+            "grade": "grade AO",
+            "subgroup": "All",
+            "population": "PK3-12"
+        },
+        "val": 4931
+    },
+    {
+        "key": {
+            "year": 2017,
+            "grade": "All",
+            "subgroup": "All",
+            "population": "PK3-12"
+        },
+        "val": 88384
+    },
+    {
+        "key": {
+            "year": 2017,
+            "grade": "KG",
+            "subgroup": "All",
+            "population": "PK3-12"
+        },
+        "val": 7534
+    },
+    {
+        "key": {
+            "year": 2017,
+            "grade": "PK3",
+            "subgroup": "All",
+            "population": "PK3-12"
+        },
+        "val": 5583
+    },
+    {
+        "key": {
+            "year": 2017,
+            "grade": "PK4",
+            "subgroup": "All",
+            "population": "PK3-12"
+        },
+        "val": 6953
+    },
+    {
+        "key": {
+            "year": 2017,
+            "grade": "UN",
+            "subgroup": "All",
+            "population": "PK3-12"
+        },
+        "val": 131
+    },
+    {
+        "key": {
+            "year": 2017,
+            "grade": "All",
+            "subgroup": "BL7",
+            "population": "PK3-12"
+        },
+        "val": 0.677
+    },
+    {
+        "key": {
+            "year": 2017,
+            "grade": "All",
+            "subgroup": "Economy",
+            "population": "PK3-12"
+        },
+        "val": 0.801
+    },
+    {
+        "key": {
+            "year": 2017,
+            "grade": "All",
+            "subgroup": "FEMALE",
+            "population": "PK3-12"
+        },
+        "val": 0.502
+    },
+    {
+        "key": {
+            "year": 2017,
+            "grade": "All",
+            "subgroup": "HI7",
+            "population": "PK3-12"
+        },
+        "val": 0.184
+    },
+    {
+        "key": {
+            "year": 2017,
+            "grade": "All",
+            "subgroup": "LEP",
+            "population": "PK3-12"
+        },
+        "val": 0.129
+    },
+    {
+        "key": {
+            "year": 2017,
+            "grade": "All",
+            "subgroup": "MU7",
+            "population": "PK3-12"
+        },
+        "val": 0.02
+    },
+    {
+        "key": {
+            "year": 2017,
+            "grade": "All",
+            "subgroup": "MALE",
+            "population": "PK3-12"
+        },
+        "val": 0.498
+    },
+    {
+        "key": {
+            "year": 2017,
+            "grade": "All",
+            "subgroup": "PI7",
+            "population": "PK3-12"
+        },
+        "val": 0.001
+    },
+    {
+        "key": {
+            "year": 2017,
+            "grade": "All",
+            "subgroup": "SPED",
+            "population": "PK3-12"
+        },
+        "val": 0.152
+    },
+    {
+        "key": {
+            "year": 2017,
+            "grade": "All",
+            "subgroup": "SPED Level 1",
+            "population": "PK3-12"
+        },
+        "val": 0.385
+    },
+    {
+        "key": {
+            "year": 2017,
+            "grade": "All",
+            "subgroup": "SPED Level 2",
+            "population": "PK3-12"
+        },
+        "val": 0.307
+    },
+    {
+        "key": {
+            "year": 2017,
+            "grade": "All",
+            "subgroup": "SPED Level 3",
+            "population": "PK3-12"
+        },
+        "val": 0.113
+    },
+    {
+        "key": {
+            "year": 2017,
+            "grade": "All",
+            "subgroup": "SPED Level 4",
+            "population": "PK3-12"
+        },
+        "val": 0.195
+    },
+    {
+        "key": {
+            "year": 2017,
+            "grade": "All",
+            "subgroup": "WH7",
+            "population": "PK3-12"
+        },
+        "val": 0.102
+    },
     {
         "key": {
             "year": 2017,
@@ -86,7 +698,7 @@
             "subgroup": "All",
             "population": "Adult_ALT"
         },
-        "val": 48
+        "val": 50
     },
     {
         "key": {
@@ -95,7 +707,7 @@
             "subgroup": "All",
             "population": "Adult_ALT"
         },
-        "val": 32
+        "val": 36
     },
     {
         "key": {
@@ -104,7 +716,7 @@
             "subgroup": "All",
             "population": "Adult_ALT"
         },
-        "val": 286
+        "val": 587
     },
     {
         "key": {
@@ -113,7 +725,7 @@
             "subgroup": "All",
             "population": "Adult_ALT"
         },
-        "val": 102
+        "val": 139
     },
     {
         "key": {
@@ -122,7 +734,7 @@
             "subgroup": "All",
             "population": "Adult_ALT"
         },
-        "val": 80
+        "val": 98
     },
     {
         "key": {
@@ -131,16 +743,7 @@
             "subgroup": "All",
             "population": "Adult_ALT"
         },
-        "val": 88
-    },
-    {
-        "key": {
-            "year": 2017,
-            "grade": "grade AO",
-            "subgroup": "All",
-            "population": "Adult_ALT"
-        },
-        "val": 229
+        "val": 96
     },
     {
         "key": {
@@ -149,619 +752,7 @@
             "subgroup": "All",
             "population": "Adult_ALT"
         },
-        "val": 1476
-    },
-    {
-        "key": {
-            "year": 2017,
-            "grade": "All",
-            "subgroup": "AM7",
-            "population": "All"
-        },
-        "val": 0.001
-    },
-    {
-        "key": {
-            "year": 2017,
-            "grade": "All",
-            "subgroup": "AS7",
-            "population": "All"
-        },
-        "val": 0.016
-    },
-    {
-        "key": {
-            "year": 2017,
-            "grade": "grade 1",
-            "subgroup": "All",
-            "population": "All"
-        },
-        "val": 7111
-    },
-    {
-        "key": {
-            "year": 2017,
-            "grade": "grade 2",
-            "subgroup": "All",
-            "population": "All"
-        },
-        "val": 6800
-    },
-    {
-        "key": {
-            "year": 2017,
-            "grade": "grade 3",
-            "subgroup": "All",
-            "population": "All"
-        },
-        "val": 6535
-    },
-    {
-        "key": {
-            "year": 2017,
-            "grade": "grade 4",
-            "subgroup": "All",
-            "population": "All"
-        },
-        "val": 6230
-    },
-    {
-        "key": {
-            "year": 2017,
-            "grade": "grade 5",
-            "subgroup": "All",
-            "population": "All"
-        },
-        "val": 5533
-    },
-    {
-        "key": {
-            "year": 2017,
-            "grade": "grade 6",
-            "subgroup": "All",
-            "population": "All"
-        },
-        "val": 4965
-    },
-    {
-        "key": {
-            "year": 2017,
-            "grade": "grade 7",
-            "subgroup": "All",
-            "population": "All"
-        },
-        "val": 4570
-    },
-    {
-        "key": {
-            "year": 2017,
-            "grade": "grade 8",
-            "subgroup": "All",
-            "population": "All"
-        },
-        "val": 4469
-    },
-    {
-        "key": {
-            "year": 2017,
-            "grade": "grade 9",
-            "subgroup": "All",
-            "population": "All"
-        },
-        "val": 5529
-    },
-    {
-        "key": {
-            "year": 2017,
-            "grade": "grade 10",
-            "subgroup": "All",
-            "population": "All"
-        },
-        "val": 4382
-    },
-    {
-        "key": {
-            "year": 2017,
-            "grade": "grade 11",
-            "subgroup": "All",
-            "population": "All"
-        },
-        "val": 3942
-    },
-    {
-        "key": {
-            "year": 2017,
-            "grade": "grade 12",
-            "subgroup": "All",
-            "population": "All"
-        },
-        "val": 3663
-    },
-    {
-        "key": {
-            "year": 2017,
-            "grade": "grade AO",
-            "subgroup": "All",
-            "population": "All"
-        },
-        "val": 4522
-    },
-    {
-        "key": {
-            "year": 2017,
-            "grade": "All",
-            "subgroup": "All",
-            "population": "All"
-        },
-        "val": 88700
-    },
-    {
-        "key": {
-            "year": 2017,
-            "grade": "KG",
-            "subgroup": "All",
-            "population": "All"
-        },
-        "val": 7547
-    },
-    {
-        "key": {
-            "year": 2017,
-            "grade": "PK3",
-            "subgroup": "All",
-            "population": "All"
-        },
-        "val": 5583
-    },
-    {
-        "key": {
-            "year": 2017,
-            "grade": "PK4",
-            "subgroup": "All",
-            "population": "All"
-        },
-        "val": 6936
-    },
-    {
-        "key": {
-            "year": 2017,
-            "grade": "UN",
-            "subgroup": "All",
-            "population": "All"
-        },
-        "val": 382
-    },
-    {
-        "key": {
-            "year": 2017,
-            "grade": "All",
-            "subgroup": "BL7",
-            "population": "All"
-        },
-        "val": 0.678
-    },
-    {
-        "key": {
-            "year": 2017,
-            "grade": "All",
-            "subgroup": "Economy",
-            "population": "All"
-        },
-        "val": 0.801
-    },
-    {
-        "key": {
-            "year": 2017,
-            "grade": "All",
-            "subgroup": "FEMALE",
-            "population": "All"
-        },
-        "val": 0.502
-    },
-    {
-        "key": {
-            "year": 2017,
-            "grade": "All",
-            "subgroup": "HI7",
-            "population": "All"
-        },
-        "val": 0.182
-    },
-    {
-        "key": {
-            "year": 2017,
-            "grade": "All",
-            "subgroup": "LEP",
-            "population": "All"
-        },
-        "val": 0.104
-    },
-    {
-        "key": {
-            "year": 2017,
-            "grade": "All",
-            "subgroup": "MU7",
-            "population": "All"
-        },
-        "val": 0.02
-    },
-    {
-        "key": {
-            "year": 2017,
-            "grade": "All",
-            "subgroup": "MALE",
-            "population": "All"
-        },
-        "val": 0.498
-    },
-    {
-        "key": {
-            "year": 2017,
-            "grade": "All",
-            "subgroup": "PI7",
-            "population": "All"
-        },
-        "val": 0.001
-    },
-    {
-        "key": {
-            "year": 2017,
-            "grade": "All",
-            "subgroup": "SPED",
-            "population": "All"
-        },
-        "val": 0.151
-    },
-    {
-        "key": {
-            "year": 2017,
-            "grade": "All",
-            "subgroup": "SPED Level 1",
-            "population": "All"
-        },
-        "val": 0.4
-    },
-    {
-        "key": {
-            "year": 2017,
-            "grade": "All",
-            "subgroup": "SPED Level 2",
-            "population": "All"
-        },
-        "val": 0.298
-    },
-    {
-        "key": {
-            "year": 2017,
-            "grade": "All",
-            "subgroup": "SPED Level 3",
-            "population": "All"
-        },
-        "val": 0.104
-    },
-    {
-        "key": {
-            "year": 2017,
-            "grade": "All",
-            "subgroup": "SPED Level 4",
-            "population": "All"
-        },
-        "val": 0.198
-    },
-    {
-        "key": {
-            "year": 2017,
-            "grade": "All",
-            "subgroup": "WH7",
-            "population": "All"
-        },
-        "val": 0.101
-    },
-    {
-        "key": {
-            "year": 2017,
-            "grade": "All",
-            "subgroup": "AM7",
-            "population": "PK3-12"
-        },
-        "val": 0.001
-    },
-    {
-        "key": {
-            "year": 2017,
-            "grade": "All",
-            "subgroup": "AS7",
-            "population": "PK3-12"
-        },
-        "val": 0.016
-    },
-    {
-        "key": {
-            "year": 2017,
-            "grade": "grade 1",
-            "subgroup": "All",
-            "population": "PK3-12"
-        },
-        "val": 7072
-    },
-    {
-        "key": {
-            "year": 2017,
-            "grade": "grade 2",
-            "subgroup": "All",
-            "population": "PK3-12"
-        },
-        "val": 6772
-    },
-    {
-        "key": {
-            "year": 2017,
-            "grade": "grade 3",
-            "subgroup": "All",
-            "population": "PK3-12"
-        },
-        "val": 6486
-    },
-    {
-        "key": {
-            "year": 2017,
-            "grade": "grade 4",
-            "subgroup": "All",
-            "population": "PK3-12"
-        },
-        "val": 6176
-    },
-    {
-        "key": {
-            "year": 2017,
-            "grade": "grade 5",
-            "subgroup": "All",
-            "population": "PK3-12"
-        },
-        "val": 5469
-    },
-    {
-        "key": {
-            "year": 2017,
-            "grade": "grade 6",
-            "subgroup": "All",
-            "population": "PK3-12"
-        },
-        "val": 4861
-    },
-    {
-        "key": {
-            "year": 2017,
-            "grade": "grade 7",
-            "subgroup": "All",
-            "population": "PK3-12"
-        },
-        "val": 4522
-    },
-    {
-        "key": {
-            "year": 2017,
-            "grade": "grade 8",
-            "subgroup": "All",
-            "population": "PK3-12"
-        },
-        "val": 4437
-    },
-    {
-        "key": {
-            "year": 2017,
-            "grade": "grade 9",
-            "subgroup": "All",
-            "population": "PK3-12"
-        },
-        "val": 5243
-    },
-    {
-        "key": {
-            "year": 2017,
-            "grade": "grade 10",
-            "subgroup": "All",
-            "population": "PK3-12"
-        },
-        "val": 4280
-    },
-    {
-        "key": {
-            "year": 2017,
-            "grade": "grade 11",
-            "subgroup": "All",
-            "population": "PK3-12"
-        },
-        "val": 3862
-    },
-    {
-        "key": {
-            "year": 2017,
-            "grade": "grade 12",
-            "subgroup": "All",
-            "population": "PK3-12"
-        },
-        "val": 3575
-    },
-    {
-        "key": {
-            "year": 2017,
-            "grade": "grade AO",
-            "subgroup": "All",
-            "population": "PK3-12"
-        },
-        "val": 4293
-    },
-    {
-        "key": {
-            "year": 2017,
-            "grade": "All",
-            "subgroup": "All",
-            "population": "PK3-12"
-        },
-        "val": 87224
-    },
-    {
-        "key": {
-            "year": 2017,
-            "grade": "KG",
-            "subgroup": "All",
-            "population": "PK3-12"
-        },
-        "val": 7525
-    },
-    {
-        "key": {
-            "year": 2017,
-            "grade": "PK3",
-            "subgroup": "All",
-            "population": "PK3-12"
-        },
-        "val": 5583
-    },
-    {
-        "key": {
-            "year": 2017,
-            "grade": "PK4",
-            "subgroup": "All",
-            "population": "PK3-12"
-        },
-        "val": 6936
-    },
-    {
-        "key": {
-            "year": 2017,
-            "grade": "UN",
-            "subgroup": "All",
-            "population": "PK3-12"
-        },
-        "val": 131
-    },
-    {
-        "key": {
-            "year": 2017,
-            "grade": "All",
-            "subgroup": "BL7",
-            "population": "PK3-12"
-        },
-        "val": 0.674
-    },
-    {
-        "key": {
-            "year": 2017,
-            "grade": "All",
-            "subgroup": "Economy",
-            "population": "PK3-12"
-        },
-        "val": 0.799
-    },
-    {
-        "key": {
-            "year": 2017,
-            "grade": "All",
-            "subgroup": "FEMALE",
-            "population": "PK3-12"
-        },
-        "val": 0.502
-    },
-    {
-        "key": {
-            "year": 2017,
-            "grade": "All",
-            "subgroup": "HI7",
-            "population": "PK3-12"
-        },
-        "val": 0.185
-    },
-    {
-        "key": {
-            "year": 2017,
-            "grade": "All",
-            "subgroup": "LEP",
-            "population": "PK3-12"
-        },
-        "val": 0.105
-    },
-    {
-        "key": {
-            "year": 2017,
-            "grade": "All",
-            "subgroup": "MU7",
-            "population": "PK3-12"
-        },
-        "val": 0.02
-    },
-    {
-        "key": {
-            "year": 2017,
-            "grade": "All",
-            "subgroup": "MALE",
-            "population": "PK3-12"
-        },
-        "val": 0.498
-    },
-    {
-        "key": {
-            "year": 2017,
-            "grade": "All",
-            "subgroup": "PI7",
-            "population": "PK3-12"
-        },
-        "val": 0.001
-    },
-    {
-        "key": {
-            "year": 2017,
-            "grade": "All",
-            "subgroup": "SPED",
-            "population": "PK3-12"
-        },
-        "val": 0.146
-    },
-    {
-        "key": {
-            "year": 2017,
-            "grade": "All",
-            "subgroup": "SPED Level 1",
-            "population": "PK3-12"
-        },
-        "val": 0.417
-    },
-    {
-        "key": {
-            "year": 2017,
-            "grade": "All",
-            "subgroup": "SPED Level 2",
-            "population": "PK3-12"
-        },
-        "val": 0.307
-    },
-    {
-        "key": {
-            "year": 2017,
-            "grade": "All",
-            "subgroup": "SPED Level 3",
-            "population": "PK3-12"
-        },
-        "val": 0.105
-    },
-    {
-        "key": {
-            "year": 2017,
-            "grade": "All",
-            "subgroup": "SPED Level 4",
-            "population": "PK3-12"
-        },
-        "val": 0.171
-    },
-    {
-        "key": {
-            "year": 2017,
-            "grade": "All",
-            "subgroup": "WH7",
-            "population": "PK3-12"
-        },
-        "val": 0.103
+        "val": 1617
     },
     {
         "key": {
@@ -788,7 +779,7 @@
             "subgroup": "BL7",
             "population": "Adult_ALT"
         },
-        "val": 0.945
+        "val": 0.946
     },
     {
         "key": {
@@ -797,7 +788,7 @@
             "subgroup": "FEMALE",
             "population": "Adult_ALT"
         },
-        "val": 0.509
+        "val": 0.479
     },
     {
         "key": {
@@ -806,7 +797,7 @@
             "subgroup": "HI7",
             "population": "Adult_ALT"
         },
-        "val": 0.028
+        "val": 0.029
     },
     {
         "key": {
@@ -833,7 +824,7 @@
             "subgroup": "MALE",
             "population": "Adult_ALT"
         },
-        "val": 0.491
+        "val": 0.521
     },
     {
         "key": {
@@ -851,7 +842,7 @@
             "subgroup": "SPED",
             "population": "Adult_ALT"
         },
-        "val": 0.564
+        "val": 0.571
     },
     {
         "key": {
@@ -860,7 +851,7 @@
             "subgroup": "SPED Level 1",
             "population": "Adult_ALT"
         },
-        "val": 0.082
+        "val": 0.055
     },
     {
         "key": {
@@ -869,7 +860,7 @@
             "subgroup": "SPED Level 2",
             "population": "Adult_ALT"
         },
-        "val": 0.139
+        "val": 0.171
     },
     {
         "key": {
@@ -878,7 +869,7 @@
             "subgroup": "SPED Level 3",
             "population": "Adult_ALT"
         },
-        "val": 0.083
+        "val": 0.088
     },
     {
         "key": {
@@ -887,7 +878,7 @@
             "subgroup": "SPED Level 4",
             "population": "Adult_ALT"
         },
-        "val": 0.695
+        "val": 0.686
     },
     {
         "key": {
@@ -896,7 +887,7 @@
             "subgroup": "WH7",
             "population": "Adult_ALT"
         },
-        "val": 0.011
+        "val": 0.01
     }
 ]
 
