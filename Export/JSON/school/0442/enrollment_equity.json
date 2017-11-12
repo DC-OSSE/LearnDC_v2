@@ -1,11 +1,67 @@
 {
-"timestamp": "Sat Oct 28 17:59:51 2017",
+"timestamp": "Sun Nov 12 11:34:58 2017",
 "org_type": "school",
 "org_code": "0442",
 "exhibit": {
 	"id": "enrollment_equity",
 	"data":  
 [
+    {
+        "key": {
+            "year": 2017,
+            "subgroup": "PI7",
+            "grade": "All"
+        },
+        "val": 0.001
+    },
+    {
+        "key": {
+            "year": 2017,
+            "subgroup": "SPED",
+            "grade": "All"
+        },
+        "val": 0.102
+    },
+    {
+        "key": {
+            "year": 2017,
+            "subgroup": "SPED Level 1",
+            "grade": "All"
+        },
+        "val": 0.603
+    },
+    {
+        "key": {
+            "year": 2017,
+            "subgroup": "SPED Level 2",
+            "grade": "All"
+        },
+        "val": 0.191
+    },
+    {
+        "key": {
+            "year": 2017,
+            "subgroup": "SPED Level 3",
+            "grade": "All"
+        },
+        "val": 0.154
+    },
+    {
+        "key": {
+            "year": 2017,
+            "subgroup": "SPED Level 4",
+            "grade": "All"
+        },
+        "val": 0.051
+    },
+    {
+        "key": {
+            "year": 2017,
+            "subgroup": "WH7",
+            "grade": "All"
+        },
+        "val": 0.004
+    },
     {
         "key": {
             "year": 2017,
@@ -116,7 +172,7 @@
             "subgroup": "LEP",
             "grade": "All"
         },
-        "val": 0.359
+        "val": 0.403
     },
     {
         "key": {
@@ -133,62 +189,6 @@
             "grade": "All"
         },
         "val": 0.503
-    },
-    {
-        "key": {
-            "year": 2017,
-            "subgroup": "PI7",
-            "grade": "All"
-        },
-        "val": 0.001
-    },
-    {
-        "key": {
-            "year": 2017,
-            "subgroup": "SPED",
-            "grade": "All"
-        },
-        "val": 0.1
-    },
-    {
-        "key": {
-            "year": 2017,
-            "subgroup": "SPED Level 1",
-            "grade": "All"
-        },
-        "val": 0.694
-    },
-    {
-        "key": {
-            "year": 2017,
-            "subgroup": "SPED Level 2",
-            "grade": "All"
-        },
-        "val": 0.172
-    },
-    {
-        "key": {
-            "year": 2017,
-            "subgroup": "SPED Level 3",
-            "grade": "All"
-        },
-        "val": 0.119
-    },
-    {
-        "key": {
-            "year": 2017,
-            "subgroup": "SPED Level 4",
-            "grade": "All"
-        },
-        "val": 0.015
-    },
-    {
-        "key": {
-            "year": 2017,
-            "subgroup": "WH7",
-            "grade": "All"
-        },
-        "val": 0.004
     }
 ]
 

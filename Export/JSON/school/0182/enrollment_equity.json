@@ -1,43 +1,11 @@
 {
-"timestamp": "Sat Oct 28 17:59:52 2017",
+"timestamp": "Sun Nov 12 11:34:59 2017",
 "org_type": "school",
 "org_code": "0182",
 "exhibit": {
 	"id": "enrollment_equity",
 	"data":  
 [
-    {
-        "key": {
-            "year": 2017,
-            "subgroup": "AM7",
-            "grade": "All"
-        },
-        "val": 0.003
-    },
-    {
-        "key": {
-            "year": 2017,
-            "subgroup": "AS7",
-            "grade": "All"
-        },
-        "val": 0.015
-    },
-    {
-        "key": {
-            "year": 2017,
-            "subgroup": "All",
-            "grade": "grade 5"
-        },
-        "val": 84
-    },
-    {
-        "key": {
-            "year": 2017,
-            "subgroup": "All",
-            "grade": "grade 6"
-        },
-        "val": 84
-    },
     {
         "key": {
             "year": 2017,
@@ -100,7 +68,7 @@
             "subgroup": "LEP",
             "grade": "All"
         },
-        "val": 0.105
+        "val": 0.206
     },
     {
         "key": {
@@ -124,7 +92,7 @@
             "subgroup": "SPED",
             "grade": "All"
         },
-        "val": 0.172
+        "val": 0.175
     },
     {
         "key": {
@@ -132,7 +100,7 @@
             "subgroup": "SPED Level 1",
             "grade": "All"
         },
-        "val": 0.089
+        "val": 0.088
     },
     {
         "key": {
@@ -140,7 +108,7 @@
             "subgroup": "SPED Level 2",
             "grade": "All"
         },
-        "val": 0.482
+        "val": 0.404
     },
     {
         "key": {
@@ -148,7 +116,7 @@
             "subgroup": "SPED Level 3",
             "grade": "All"
         },
-        "val": 0.214
+        "val": 0.281
     },
     {
         "key": {
@@ -156,7 +124,7 @@
             "subgroup": "SPED Level 4",
             "grade": "All"
         },
-        "val": 0.214
+        "val": 0.228
     },
     {
         "key": {
@@ -165,6 +133,38 @@
             "grade": "All"
         },
         "val": 0.083
+    },
+    {
+        "key": {
+            "year": 2017,
+            "subgroup": "AM7",
+            "grade": "All"
+        },
+        "val": 0.003
+    },
+    {
+        "key": {
+            "year": 2017,
+            "subgroup": "AS7",
+            "grade": "All"
+        },
+        "val": 0.015
+    },
+    {
+        "key": {
+            "year": 2017,
+            "subgroup": "All",
+            "grade": "grade 5"
+        },
+        "val": 84
+    },
+    {
+        "key": {
+            "year": 2017,
+            "subgroup": "All",
+            "grade": "grade 6"
+        },
+        "val": 84
     }
 ]
 

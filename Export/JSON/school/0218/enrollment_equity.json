@@ -1,5 +1,5 @@
 {
-"timestamp": "Sat Oct 28 17:59:52 2017",
+"timestamp": "Sun Nov 12 11:34:59 2017",
 "org_type": "school",
 "org_code": "0218",
 "exhibit": {
@@ -89,6 +89,14 @@
     {
         "key": {
             "year": 2017,
+            "subgroup": "LEP",
+            "grade": "All"
+        },
+        "val": 0.004
+    },
+    {
+        "key": {
+            "year": 2017,
             "subgroup": "MU7",
             "grade": "All"
         },
@@ -108,7 +116,7 @@
             "subgroup": "SPED",
             "grade": "All"
         },
-        "val": 0.185
+        "val": 0.181
     },
     {
         "key": {
@@ -116,7 +124,7 @@
             "subgroup": "SPED Level 1",
             "grade": "All"
         },
-        "val": 0.135
+        "val": 0.078
     },
     {
         "key": {
@@ -124,7 +132,7 @@
             "subgroup": "SPED Level 2",
             "grade": "All"
         },
-        "val": 0.519
+        "val": 0.569
     },
     {
         "key": {
@@ -132,7 +140,7 @@
             "subgroup": "SPED Level 3",
             "grade": "All"
         },
-        "val": 0.192
+        "val": 0.176
     },
     {
         "key": {
@@ -140,7 +148,7 @@
             "subgroup": "SPED Level 4",
             "grade": "All"
         },
-        "val": 0.154
+        "val": 0.176
     }
 ]
 

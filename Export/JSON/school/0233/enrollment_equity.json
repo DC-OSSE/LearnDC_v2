@@ -1,5 +1,5 @@
 {
-"timestamp": "Sat Oct 28 17:59:54 2017",
+"timestamp": "Sun Nov 12 11:34:57 2017",
 "org_type": "school",
 "org_code": "0233",
 "exhibit": {
@@ -84,15 +84,23 @@
             "subgroup": "SPED",
             "grade": "All"
         },
-        "val": 0.067
+        "val": 0.1
     },
     {
         "key": {
             "year": 2017,
-            "subgroup": "SPED Level 1",
+            "subgroup": "SPED Level 2",
             "grade": "All"
         },
-        "val": 1
+        "val": 0.667
+    },
+    {
+        "key": {
+            "year": 2017,
+            "subgroup": "SPED Level 3",
+            "grade": "All"
+        },
+        "val": 0.333
     }
 ]
 
