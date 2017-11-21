@@ -1,5 +1,5 @@
 {
-"timestamp": "Sun Nov 12 11:42:14 2017",
+"timestamp": "Tue Nov 21 16:10:19 2017",
 "org_type": "school",
 "org_name": "",
 "org_code": "0165",
@@ -13,12 +13,12 @@
             "month": 1
         },
         "val": {
-            "entry": 0.001,
-            "withdrawal": 0.027,
+            "entry": 0,
+            "withdrawal": 0.026,
             "net_cumulative": -0.026,
-            "state_entry": 0.034,
+            "state_entry": 0.033,
             "state_withdrawal": 0.034,
-            "state_net_cumulative": 0
+            "state_net_cumulative": -0.001
         }
     },
     {
@@ -27,8 +27,8 @@
             "month": 2
         },
         "val": {
-            "entry": 0.001,
-            "withdrawal": 0.035,
+            "entry": 0,
+            "withdrawal": 0.033,
             "net_cumulative": -0.033,
             "state_entry": 0.039,
             "state_withdrawal": 0.04,
@@ -41,10 +41,10 @@
             "month": 3
         },
         "val": {
-            "entry": 0.001,
-            "withdrawal": 0.038,
+            "entry": 0,
+            "withdrawal": 0.036,
             "net_cumulative": -0.036,
-            "state_entry": 0.043,
+            "state_entry": 0.042,
             "state_withdrawal": 0.046,
             "state_net_cumulative": -0.003
         }
@@ -55,10 +55,10 @@
             "month": 4
         },
         "val": {
-            "entry": 0.001,
-            "withdrawal": 0.042,
+            "entry": 0,
+            "withdrawal": 0.04,
             "net_cumulative": -0.04,
-            "state_entry": 0.048,
+            "state_entry": 0.047,
             "state_withdrawal": 0.049,
             "state_net_cumulative": -0.001
         }
@@ -69,12 +69,12 @@
             "month": 5
         },
         "val": {
-            "entry": 0.001,
-            "withdrawal": 0.043,
+            "entry": 0,
+            "withdrawal": 0.042,
             "net_cumulative": -0.042,
             "state_entry": 0.05,
             "state_withdrawal": 0.051,
-            "state_net_cumulative": -0.001
+            "state_net_cumulative": -0.002
         }
     },
     {
@@ -98,8 +98,8 @@
         },
         "val": {
             "entry": 0,
-            "withdrawal": 0.014,
-            "net_cumulative": -0.014,
+            "withdrawal": 0.013,
+            "net_cumulative": -0.013,
             "state_entry": 0.018,
             "state_withdrawal": 0.017,
             "state_net_cumulative": 0.001
@@ -111,8 +111,8 @@
             "month": 12
         },
         "val": {
-            "entry": 0.001,
-            "withdrawal": 0.017,
+            "entry": 0,
+            "withdrawal": 0.016,
             "net_cumulative": -0.016,
             "state_entry": 0.022,
             "state_withdrawal": 0.023,
