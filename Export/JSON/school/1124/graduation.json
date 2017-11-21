@@ -1,5 +1,5 @@
 {
-"timestamp": "Mon Nov 06 16:55:02 2017",
+"timestamp": "Tue Nov 21 16:17:25 2017",
 "org_type": "school",
 "org_name": "FRIENDSHIP PCS TECHNOLOGY PREPARATORY MIDDLE",
 "org_code": "1124",
@@ -9,28 +9,6 @@
 [
     {
         "key": {
-            "subgroup": "FEMALE",
-            "year": 2016,
-            "type": "Four Year ACGR"
-        },
-        "val": {
-            "acgr": 0.923,
-            "suppressed": 0
-        }
-    },
-    {
-        "key": {
-            "subgroup": "MALE",
-            "year": 2016,
-            "type": "Four Year ACGR"
-        },
-        "val": {
-            "acgr": 0.929,
-            "suppressed": 0
-        }
-    },
-    {
-        "key": {
             "subgroup": "Economy",
             "year": 2016,
             "type": "Four Year ACGR"
@@ -43,6 +21,17 @@
     {
         "key": {
             "subgroup": "BL7",
+            "year": 2016,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "acgr": 0.926,
+            "suppressed": 0
+        }
+    },
+    {
+        "key": {
+            "subgroup": "All",
             "year": 2016,
             "type": "Four Year ACGR"
         },
@@ -119,20 +108,31 @@
     },
     {
         "key": {
-            "subgroup": "Economy",
-            "year": 2017,
-            "type": "Five Year ACGR"
+            "subgroup": "FEMALE",
+            "year": 2016,
+            "type": "Four Year ACGR"
         },
         "val": {
-            "acgr": 0.943,
+            "acgr": 0.923,
+            "suppressed": 0
+        }
+    },
+    {
+        "key": {
+            "subgroup": "MALE",
+            "year": 2016,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "acgr": 0.929,
             "suppressed": 0
         }
     },
     {
         "key": {
             "subgroup": "All",
-            "year": 2016,
-            "type": "Four Year ACGR"
+            "year": 2017,
+            "type": "Five Year ACGR"
         },
         "val": {
             "acgr": 0.926,
@@ -163,18 +163,18 @@
     },
     {
         "key": {
-            "subgroup": "BL7",
+            "subgroup": "Economy",
             "year": 2017,
             "type": "Five Year ACGR"
         },
         "val": {
-            "acgr": 0.926,
+            "acgr": 0.943,
             "suppressed": 0
         }
     },
     {
         "key": {
-            "subgroup": "All",
+            "subgroup": "BL7",
             "year": 2017,
             "type": "Five Year ACGR"
         },

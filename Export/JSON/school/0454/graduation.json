@@ -1,5 +1,5 @@
 {
-"timestamp": "Mon Nov 06 16:55:02 2017",
+"timestamp": "Tue Nov 21 16:17:24 2017",
 "org_type": "school",
 "org_name": "CARDOZO EC",
 "org_code": "0454",
@@ -9,45 +9,34 @@
 [
     {
         "key": {
-            "subgroup": "LEP",
+            "subgroup": "SPED",
             "year": 2016,
             "type": "Four Year ACGR"
         },
         "val": {
-            "acgr": 0.425,
+            "acgr": 0.422,
             "suppressed": 0
         }
     },
     {
         "key": {
-            "subgroup": "Economy",
+            "subgroup": "FEMALE",
             "year": 2016,
             "type": "Four Year ACGR"
         },
         "val": {
-            "acgr": 0.602,
+            "acgr": 0.692,
             "suppressed": 0
         }
     },
     {
         "key": {
-            "subgroup": "BL7",
+            "subgroup": "MALE",
             "year": 2016,
             "type": "Four Year ACGR"
         },
         "val": {
-            "acgr": 0.682,
-            "suppressed": 0
-        }
-    },
-    {
-        "key": {
-            "subgroup": "HI7",
-            "year": 2016,
-            "type": "Four Year ACGR"
-        },
-        "val": {
-            "acgr": 0.472,
+            "acgr": 0.528,
             "suppressed": 0
         }
     },
@@ -59,6 +48,50 @@
         },
         "val": {
             "acgr": 0.592,
+            "suppressed": 0
+        }
+    },
+    {
+        "key": {
+            "subgroup": "SPED",
+            "year": 2017,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "acgr": 0.578,
+            "suppressed": 0
+        }
+    },
+    {
+        "key": {
+            "subgroup": "LEP",
+            "year": 2017,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "acgr": 0.538,
+            "suppressed": 0
+        }
+    },
+    {
+        "key": {
+            "subgroup": "FEMALE",
+            "year": 2017,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "acgr": 0.756,
+            "suppressed": 0
+        }
+    },
+    {
+        "key": {
+            "subgroup": "MALE",
+            "year": 2017,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "acgr": 0.626,
             "suppressed": 0
         }
     },
@@ -592,34 +625,56 @@
     },
     {
         "key": {
-            "subgroup": "FEMALE",
+            "subgroup": "BL7",
             "year": 2016,
             "type": "Four Year ACGR"
         },
         "val": {
-            "acgr": 0.692,
+            "acgr": 0.682,
             "suppressed": 0
         }
     },
     {
         "key": {
-            "subgroup": "MALE",
+            "subgroup": "HI7",
             "year": 2016,
             "type": "Four Year ACGR"
         },
         "val": {
-            "acgr": 0.528,
+            "acgr": 0.472,
             "suppressed": 0
         }
     },
     {
         "key": {
-            "subgroup": "SPED",
+            "subgroup": "Economy",
             "year": 2016,
             "type": "Four Year ACGR"
         },
         "val": {
-            "acgr": 0.422,
+            "acgr": 0.602,
+            "suppressed": 0
+        }
+    },
+    {
+        "key": {
+            "subgroup": "Economy",
+            "year": 2017,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "acgr": 0.691,
+            "suppressed": 0
+        }
+    },
+    {
+        "key": {
+            "subgroup": "LEP",
+            "year": 2016,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "acgr": 0.425,
             "suppressed": 0
         }
     },
@@ -642,61 +697,6 @@
         },
         "val": {
             "acgr": 0.562,
-            "suppressed": 0
-        }
-    },
-    {
-        "key": {
-            "subgroup": "SPED",
-            "year": 2017,
-            "type": "Five Year ACGR"
-        },
-        "val": {
-            "acgr": 0.578,
-            "suppressed": 0
-        }
-    },
-    {
-        "key": {
-            "subgroup": "LEP",
-            "year": 2017,
-            "type": "Five Year ACGR"
-        },
-        "val": {
-            "acgr": 0.538,
-            "suppressed": 0
-        }
-    },
-    {
-        "key": {
-            "subgroup": "FEMALE",
-            "year": 2017,
-            "type": "Five Year ACGR"
-        },
-        "val": {
-            "acgr": 0.756,
-            "suppressed": 0
-        }
-    },
-    {
-        "key": {
-            "subgroup": "MALE",
-            "year": 2017,
-            "type": "Five Year ACGR"
-        },
-        "val": {
-            "acgr": 0.626,
-            "suppressed": 0
-        }
-    },
-    {
-        "key": {
-            "subgroup": "Economy",
-            "year": 2017,
-            "type": "Five Year ACGR"
-        },
-        "val": {
-            "acgr": 0.691,
             "suppressed": 0
         }
     },

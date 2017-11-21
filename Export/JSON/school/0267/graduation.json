@@ -1,5 +1,5 @@
 {
-"timestamp": "Mon Nov 06 16:55:03 2017",
+"timestamp": "Tue Nov 21 16:17:26 2017",
 "org_type": "school",
 "org_name": "KINGSMAN ACADEMY",
 "org_code": "0267",
@@ -7,17 +7,6 @@
 	"id": "graduation",
 	"data":  
 [
-    {
-        "key": {
-            "subgroup": "MALE",
-            "year": 2016,
-            "type": "Four Year ACGR"
-        },
-        "val": {
-            "acgr": 0.676,
-            "suppressed": 0
-        }
-    },
     {
         "key": {
             "subgroup": "Economy",
@@ -37,28 +26,6 @@
         },
         "val": {
             "acgr": 0.679,
-            "suppressed": 0
-        }
-    },
-    {
-        "key": {
-            "subgroup": "SPED",
-            "year": 2016,
-            "type": "Four Year ACGR"
-        },
-        "val": {
-            "acgr": 0.576,
-            "suppressed": 0
-        }
-    },
-    {
-        "key": {
-            "subgroup": "Economy",
-            "year": 2017,
-            "type": "Five Year ACGR"
-        },
-        "val": {
-            "acgr": 0.719,
             "suppressed": 0
         }
     },
@@ -87,22 +54,11 @@
     {
         "key": {
             "subgroup": "MALE",
-            "year": 2017,
-            "type": "Five Year ACGR"
+            "year": 2016,
+            "type": "Four Year ACGR"
         },
         "val": {
-            "acgr": 0.703,
-            "suppressed": 0
-        }
-    },
-    {
-        "key": {
-            "subgroup": "BL7",
-            "year": 2017,
-            "type": "Five Year ACGR"
-        },
-        "val": {
-            "acgr": 0.714,
+            "acgr": 0.676,
             "suppressed": 0
         }
     },
@@ -114,6 +70,50 @@
         },
         "val": {
             "acgr": 0.719,
+            "suppressed": 0
+        }
+    },
+    {
+        "key": {
+            "subgroup": "MALE",
+            "year": 2017,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "acgr": 0.703,
+            "suppressed": 0
+        }
+    },
+    {
+        "key": {
+            "subgroup": "Economy",
+            "year": 2017,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "acgr": 0.719,
+            "suppressed": 0
+        }
+    },
+    {
+        "key": {
+            "subgroup": "SPED",
+            "year": 2016,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "acgr": 0.576,
+            "suppressed": 0
+        }
+    },
+    {
+        "key": {
+            "subgroup": "BL7",
+            "year": 2017,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "acgr": 0.714,
             "suppressed": 0
         }
     }

@@ -1,5 +1,5 @@
 {
-"timestamp": "Mon Nov 06 16:55:03 2017",
+"timestamp": "Tue Nov 21 16:17:25 2017",
 "org_type": "school",
 "org_name": "CAPITAL CITY HIGH SCHOOL PCS",
 "org_code": "1207",
@@ -9,12 +9,45 @@
 [
     {
         "key": {
+            "subgroup": "FEMALE",
+            "year": 2016,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "acgr": 0.774,
+            "suppressed": 0
+        }
+    },
+    {
+        "key": {
+            "subgroup": "MALE",
+            "year": 2016,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "acgr": 0.625,
+            "suppressed": 0
+        }
+    },
+    {
+        "key": {
             "subgroup": "Economy",
             "year": 2016,
             "type": "Four Year ACGR"
         },
         "val": {
             "acgr": 0.704,
+            "suppressed": 0
+        }
+    },
+    {
+        "key": {
+            "subgroup": "All",
+            "year": 2016,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "acgr": 0.698,
             "suppressed": 0
         }
     },
@@ -185,28 +218,6 @@
     },
     {
         "key": {
-            "subgroup": "FEMALE",
-            "year": 2016,
-            "type": "Four Year ACGR"
-        },
-        "val": {
-            "acgr": 0.774,
-            "suppressed": 0
-        }
-    },
-    {
-        "key": {
-            "subgroup": "MALE",
-            "year": 2016,
-            "type": "Four Year ACGR"
-        },
-        "val": {
-            "acgr": 0.625,
-            "suppressed": 0
-        }
-    },
-    {
-        "key": {
             "subgroup": "BL7",
             "year": 2016,
             "type": "Four Year ACGR"
@@ -224,6 +235,39 @@
         },
         "val": {
             "acgr": 0.667,
+            "suppressed": 0
+        }
+    },
+    {
+        "key": {
+            "subgroup": "All",
+            "year": 2017,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "acgr": 0.794,
+            "suppressed": 0
+        }
+    },
+    {
+        "key": {
+            "subgroup": "FEMALE",
+            "year": 2017,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "acgr": 0.871,
+            "suppressed": 0
+        }
+    },
+    {
+        "key": {
+            "subgroup": "MALE",
+            "year": 2017,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "acgr": 0.719,
             "suppressed": 0
         }
     },
@@ -257,50 +301,6 @@
         },
         "val": {
             "acgr": 0.7,
-            "suppressed": 0
-        }
-    },
-    {
-        "key": {
-            "subgroup": "All",
-            "year": 2016,
-            "type": "Four Year ACGR"
-        },
-        "val": {
-            "acgr": 0.698,
-            "suppressed": 0
-        }
-    },
-    {
-        "key": {
-            "subgroup": "FEMALE",
-            "year": 2017,
-            "type": "Five Year ACGR"
-        },
-        "val": {
-            "acgr": 0.871,
-            "suppressed": 0
-        }
-    },
-    {
-        "key": {
-            "subgroup": "MALE",
-            "year": 2017,
-            "type": "Five Year ACGR"
-        },
-        "val": {
-            "acgr": 0.719,
-            "suppressed": 0
-        }
-    },
-    {
-        "key": {
-            "subgroup": "All",
-            "year": 2017,
-            "type": "Five Year ACGR"
-        },
-        "val": {
-            "acgr": 0.794,
             "suppressed": 0
         }
     }

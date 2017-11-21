@@ -1,5 +1,5 @@
 {
-"timestamp": "Mon Nov 06 16:55:02 2017",
+"timestamp": "Tue Nov 21 16:17:25 2017",
 "org_type": "school",
 "org_name": "PAUL PCS-INTERNATIONAL HIGH SCHOOL",
 "org_code": "0222",
@@ -9,28 +9,6 @@
 [
     {
         "key": {
-            "subgroup": "FEMALE",
-            "year": 2016,
-            "type": "Four Year ACGR"
-        },
-        "val": {
-            "acgr": 0.825,
-            "suppressed": 0
-        }
-    },
-    {
-        "key": {
-            "subgroup": "MALE",
-            "year": 2016,
-            "type": "Four Year ACGR"
-        },
-        "val": {
-            "acgr": 0.717,
-            "suppressed": 0
-        }
-    },
-    {
-        "key": {
             "subgroup": "Economy",
             "year": 2016,
             "type": "Four Year ACGR"
@@ -53,20 +31,42 @@
     },
     {
         "key": {
-            "subgroup": "Economy",
-            "year": 2017,
-            "type": "Five Year ACGR"
+            "subgroup": "All",
+            "year": 2016,
+            "type": "Four Year ACGR"
         },
         "val": {
-            "acgr": 0.772,
+            "acgr": 0.767,
+            "suppressed": 0
+        }
+    },
+    {
+        "key": {
+            "subgroup": "FEMALE",
+            "year": 2016,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "acgr": 0.825,
+            "suppressed": 0
+        }
+    },
+    {
+        "key": {
+            "subgroup": "MALE",
+            "year": 2016,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "acgr": 0.717,
             "suppressed": 0
         }
     },
     {
         "key": {
             "subgroup": "All",
-            "year": 2016,
-            "type": "Four Year ACGR"
+            "year": 2017,
+            "type": "Five Year ACGR"
         },
         "val": {
             "acgr": 0.767,
@@ -97,23 +97,23 @@
     },
     {
         "key": {
+            "subgroup": "Economy",
+            "year": 2017,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "acgr": 0.772,
+            "suppressed": 0
+        }
+    },
+    {
+        "key": {
             "subgroup": "BL7",
             "year": 2017,
             "type": "Five Year ACGR"
         },
         "val": {
             "acgr": 0.762,
-            "suppressed": 0
-        }
-    },
-    {
-        "key": {
-            "subgroup": "All",
-            "year": 2017,
-            "type": "Five Year ACGR"
-        },
-        "val": {
-            "acgr": 0.767,
             "suppressed": 0
         }
     }

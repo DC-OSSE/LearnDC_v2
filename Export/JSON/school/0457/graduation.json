@@ -1,5 +1,5 @@
 {
-"timestamp": "Mon Nov 06 16:55:03 2017",
+"timestamp": "Tue Nov 21 16:17:24 2017",
 "org_type": "school",
 "org_name": "EASTERN HS",
 "org_code": "0457",
@@ -9,23 +9,67 @@
 [
     {
         "key": {
-            "subgroup": "Economy",
+            "subgroup": "SPED",
             "year": 2016,
             "type": "Four Year ACGR"
         },
         "val": {
-            "acgr": 0.804,
+            "acgr": 0.644,
             "suppressed": 0
         }
     },
     {
         "key": {
-            "subgroup": "BL7",
+            "subgroup": "FEMALE",
             "year": 2016,
             "type": "Four Year ACGR"
         },
         "val": {
-            "acgr": 0.798,
+            "acgr": 0.84,
+            "suppressed": 0
+        }
+    },
+    {
+        "key": {
+            "subgroup": "MALE",
+            "year": 2016,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "acgr": 0.755,
+            "suppressed": 0
+        }
+    },
+    {
+        "key": {
+            "subgroup": "All",
+            "year": 2016,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "acgr": 0.795,
+            "suppressed": 0
+        }
+    },
+    {
+        "key": {
+            "subgroup": "SPED",
+            "year": 2017,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "acgr": 0.699,
+            "suppressed": 0
+        }
+    },
+    {
+        "key": {
+            "subgroup": "FEMALE",
+            "year": 2017,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "acgr": 0.847,
             "suppressed": 0
         }
     },
@@ -251,78 +295,23 @@
     },
     {
         "key": {
-            "subgroup": "FEMALE",
-            "year": 2016,
-            "type": "Four Year ACGR"
-        },
-        "val": {
-            "acgr": 0.84,
-            "suppressed": 0
-        }
-    },
-    {
-        "key": {
-            "subgroup": "MALE",
-            "year": 2016,
-            "type": "Four Year ACGR"
-        },
-        "val": {
-            "acgr": 0.755,
-            "suppressed": 0
-        }
-    },
-    {
-        "key": {
-            "subgroup": "SPED",
-            "year": 2016,
-            "type": "Four Year ACGR"
-        },
-        "val": {
-            "acgr": 0.644,
-            "suppressed": 0
-        }
-    },
-    {
-        "key": {
             "subgroup": "BL7",
-            "year": 2017,
-            "type": "Five Year ACGR"
-        },
-        "val": {
-            "acgr": 0.816,
-            "suppressed": 0
-        }
-    },
-    {
-        "key": {
-            "subgroup": "All",
             "year": 2016,
             "type": "Four Year ACGR"
         },
         "val": {
-            "acgr": 0.795,
+            "acgr": 0.798,
             "suppressed": 0
         }
     },
     {
         "key": {
-            "subgroup": "SPED",
-            "year": 2017,
-            "type": "Five Year ACGR"
+            "subgroup": "Economy",
+            "year": 2016,
+            "type": "Four Year ACGR"
         },
         "val": {
-            "acgr": 0.699,
-            "suppressed": 0
-        }
-    },
-    {
-        "key": {
-            "subgroup": "FEMALE",
-            "year": 2017,
-            "type": "Five Year ACGR"
-        },
-        "val": {
-            "acgr": 0.847,
+            "acgr": 0.804,
             "suppressed": 0
         }
     },
@@ -345,6 +334,17 @@
         },
         "val": {
             "acgr": 0.823,
+            "suppressed": 0
+        }
+    },
+    {
+        "key": {
+            "subgroup": "BL7",
+            "year": 2017,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "acgr": 0.816,
             "suppressed": 0
         }
     },

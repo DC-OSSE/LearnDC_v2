@@ -1,5 +1,5 @@
 {
-"timestamp": "Mon Nov 06 16:55:03 2017",
+"timestamp": "Tue Nov 21 16:17:25 2017",
 "org_type": "school",
 "org_name": "PERRY STREET PREP PCS",
 "org_code": "0161",
@@ -26,6 +26,17 @@
         },
         "val": {
             "acgr": 0.361,
+            "suppressed": 0
+        }
+    },
+    {
+        "key": {
+            "subgroup": "All",
+            "year": 2016,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "acgr": 0.292,
             "suppressed": 0
         }
     },
@@ -207,6 +218,17 @@
     },
     {
         "key": {
+            "subgroup": "All",
+            "year": 2017,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "acgr": 0.292,
+            "suppressed": 0
+        }
+    },
+    {
+        "key": {
             "subgroup": "Economy",
             "year": 2017,
             "type": "Five Year ACGR"
@@ -218,34 +240,12 @@
     },
     {
         "key": {
-            "subgroup": "All",
-            "year": 2016,
-            "type": "Four Year ACGR"
-        },
-        "val": {
-            "acgr": 0.292,
-            "suppressed": 0
-        }
-    },
-    {
-        "key": {
             "subgroup": "BL7",
             "year": 2017,
             "type": "Five Year ACGR"
         },
         "val": {
             "acgr": 0.361,
-            "suppressed": 0
-        }
-    },
-    {
-        "key": {
-            "subgroup": "All",
-            "year": 2017,
-            "type": "Five Year ACGR"
-        },
-        "val": {
-            "acgr": 0.292,
             "suppressed": 0
         }
     }

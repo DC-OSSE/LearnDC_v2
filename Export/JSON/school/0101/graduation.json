@@ -1,5 +1,5 @@
 {
-"timestamp": "Mon Nov 06 16:55:02 2017",
+"timestamp": "Tue Nov 21 16:17:25 2017",
 "org_type": "school",
 "org_name": "MAYA ANGELOU PCS-EVANS HIGH SCHOOL",
 "org_code": "0101",
@@ -9,23 +9,12 @@
 [
     {
         "key": {
-            "subgroup": "FEMALE",
+            "subgroup": "SPED",
             "year": 2016,
             "type": "Four Year ACGR"
         },
         "val": {
-            "acgr": 0.432,
-            "suppressed": 0
-        }
-    },
-    {
-        "key": {
-            "subgroup": "MALE",
-            "year": 2016,
-            "type": "Four Year ACGR"
-        },
-        "val": {
-            "acgr": 0.205,
+            "acgr": 0.296,
             "suppressed": 0
         }
     },
@@ -48,6 +37,28 @@
         },
         "val": {
             "acgr": 0.316,
+            "suppressed": 0
+        }
+    },
+    {
+        "key": {
+            "subgroup": "All",
+            "year": 2016,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "acgr": 0.316,
+            "suppressed": 0
+        }
+    },
+    {
+        "key": {
+            "subgroup": "SPED",
+            "year": 2017,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "acgr": 0.481,
             "suppressed": 0
         }
     },
@@ -361,45 +372,34 @@
     },
     {
         "key": {
-            "subgroup": "SPED",
+            "subgroup": "FEMALE",
             "year": 2016,
             "type": "Four Year ACGR"
         },
         "val": {
-            "acgr": 0.296,
+            "acgr": 0.432,
             "suppressed": 0
         }
     },
     {
         "key": {
-            "subgroup": "Economy",
-            "year": 2017,
-            "type": "Five Year ACGR"
+            "subgroup": "MALE",
+            "year": 2016,
+            "type": "Four Year ACGR"
         },
         "val": {
-            "acgr": 0.48,
+            "acgr": 0.205,
             "suppressed": 0
         }
     },
     {
         "key": {
             "subgroup": "All",
-            "year": 2016,
-            "type": "Four Year ACGR"
-        },
-        "val": {
-            "acgr": 0.316,
-            "suppressed": 0
-        }
-    },
-    {
-        "key": {
-            "subgroup": "SPED",
             "year": 2017,
             "type": "Five Year ACGR"
         },
         "val": {
-            "acgr": 0.481,
+            "acgr": 0.474,
             "suppressed": 0
         }
     },
@@ -427,18 +427,18 @@
     },
     {
         "key": {
-            "subgroup": "BL7",
+            "subgroup": "Economy",
             "year": 2017,
             "type": "Five Year ACGR"
         },
         "val": {
-            "acgr": 0.474,
+            "acgr": 0.48,
             "suppressed": 0
         }
     },
     {
         "key": {
-            "subgroup": "All",
+            "subgroup": "BL7",
             "year": 2017,
             "type": "Five Year ACGR"
         },

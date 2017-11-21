@@ -1,5 +1,5 @@
 {
-"timestamp": "Mon Nov 06 16:55:03 2017",
+"timestamp": "Tue Nov 21 16:17:25 2017",
 "org_type": "school",
 "org_name": "SCHOOL WITHOUT WALLS HS",
 "org_code": "0466",
@@ -9,7 +9,40 @@
 [
     {
         "key": {
+            "subgroup": "FEMALE",
+            "year": 2016,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "acgr": 1,
+            "suppressed": 0
+        }
+    },
+    {
+        "key": {
+            "subgroup": "MALE",
+            "year": 2016,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "acgr": 1,
+            "suppressed": 0
+        }
+    },
+    {
+        "key": {
             "subgroup": "Economy",
+            "year": 2016,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "acgr": 1,
+            "suppressed": 0
+        }
+    },
+    {
+        "key": {
+            "subgroup": "All",
             "year": 2016,
             "type": "Four Year ACGR"
         },
@@ -394,28 +427,6 @@
     },
     {
         "key": {
-            "subgroup": "FEMALE",
-            "year": 2016,
-            "type": "Four Year ACGR"
-        },
-        "val": {
-            "acgr": 1,
-            "suppressed": 0
-        }
-    },
-    {
-        "key": {
-            "subgroup": "MALE",
-            "year": 2016,
-            "type": "Four Year ACGR"
-        },
-        "val": {
-            "acgr": 1,
-            "suppressed": 0
-        }
-    },
-    {
-        "key": {
             "subgroup": "BL7",
             "year": 2016,
             "type": "Four Year ACGR"
@@ -430,6 +441,39 @@
             "subgroup": "WH7",
             "year": 2016,
             "type": "Four Year ACGR"
+        },
+        "val": {
+            "acgr": 1,
+            "suppressed": 0
+        }
+    },
+    {
+        "key": {
+            "subgroup": "All",
+            "year": 2017,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "acgr": 1,
+            "suppressed": 0
+        }
+    },
+    {
+        "key": {
+            "subgroup": "FEMALE",
+            "year": 2017,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "acgr": 1,
+            "suppressed": 0
+        }
+    },
+    {
+        "key": {
+            "subgroup": "MALE",
+            "year": 2017,
+            "type": "Five Year ACGR"
         },
         "val": {
             "acgr": 1,
@@ -461,50 +505,6 @@
     {
         "key": {
             "subgroup": "WH7",
-            "year": 2017,
-            "type": "Five Year ACGR"
-        },
-        "val": {
-            "acgr": 1,
-            "suppressed": 0
-        }
-    },
-    {
-        "key": {
-            "subgroup": "All",
-            "year": 2016,
-            "type": "Four Year ACGR"
-        },
-        "val": {
-            "acgr": 1,
-            "suppressed": 0
-        }
-    },
-    {
-        "key": {
-            "subgroup": "FEMALE",
-            "year": 2017,
-            "type": "Five Year ACGR"
-        },
-        "val": {
-            "acgr": 1,
-            "suppressed": 0
-        }
-    },
-    {
-        "key": {
-            "subgroup": "MALE",
-            "year": 2017,
-            "type": "Five Year ACGR"
-        },
-        "val": {
-            "acgr": 1,
-            "suppressed": 0
-        }
-    },
-    {
-        "key": {
-            "subgroup": "All",
             "year": 2017,
             "type": "Five Year ACGR"
         },

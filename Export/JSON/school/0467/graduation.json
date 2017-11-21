@@ -1,5 +1,5 @@
 {
-"timestamp": "Mon Nov 06 16:55:03 2017",
+"timestamp": "Tue Nov 21 16:17:25 2017",
 "org_type": "school",
 "org_name": "DUNBAR HS",
 "org_code": "0467",
@@ -9,12 +9,67 @@
 [
     {
         "key": {
+            "subgroup": "SPED",
+            "year": 2016,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "acgr": 0.553,
+            "suppressed": 0
+        }
+    },
+    {
+        "key": {
+            "subgroup": "FEMALE",
+            "year": 2016,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "acgr": 0.81,
+            "suppressed": 0
+        }
+    },
+    {
+        "key": {
+            "subgroup": "MALE",
+            "year": 2016,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "acgr": 0.678,
+            "suppressed": 0
+        }
+    },
+    {
+        "key": {
             "subgroup": "Economy",
             "year": 2016,
             "type": "Four Year ACGR"
         },
         "val": {
             "acgr": 0.766,
+            "suppressed": 0
+        }
+    },
+    {
+        "key": {
+            "subgroup": "All",
+            "year": 2016,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "acgr": 0.743,
+            "suppressed": 0
+        }
+    },
+    {
+        "key": {
+            "subgroup": "SPED",
+            "year": 2017,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "acgr": 0.605,
             "suppressed": 0
         }
     },
@@ -416,28 +471,6 @@
     },
     {
         "key": {
-            "subgroup": "FEMALE",
-            "year": 2016,
-            "type": "Four Year ACGR"
-        },
-        "val": {
-            "acgr": 0.81,
-            "suppressed": 0
-        }
-    },
-    {
-        "key": {
-            "subgroup": "MALE",
-            "year": 2016,
-            "type": "Four Year ACGR"
-        },
-        "val": {
-            "acgr": 0.678,
-            "suppressed": 0
-        }
-    },
-    {
-        "key": {
             "subgroup": "BL7",
             "year": 2016,
             "type": "Four Year ACGR"
@@ -449,56 +482,12 @@
     },
     {
         "key": {
-            "subgroup": "SPED",
-            "year": 2016,
-            "type": "Four Year ACGR"
-        },
-        "val": {
-            "acgr": 0.553,
-            "suppressed": 0
-        }
-    },
-    {
-        "key": {
-            "subgroup": "Economy",
-            "year": 2017,
-            "type": "Five Year ACGR"
-        },
-        "val": {
-            "acgr": 0.816,
-            "suppressed": 0
-        }
-    },
-    {
-        "key": {
-            "subgroup": "BL7",
-            "year": 2017,
-            "type": "Five Year ACGR"
-        },
-        "val": {
-            "acgr": 0.801,
-            "suppressed": 0
-        }
-    },
-    {
-        "key": {
             "subgroup": "All",
-            "year": 2016,
-            "type": "Four Year ACGR"
-        },
-        "val": {
-            "acgr": 0.743,
-            "suppressed": 0
-        }
-    },
-    {
-        "key": {
-            "subgroup": "SPED",
             "year": 2017,
             "type": "Five Year ACGR"
         },
         "val": {
-            "acgr": 0.605,
+            "acgr": 0.807,
             "suppressed": 0
         }
     },
@@ -526,12 +515,23 @@
     },
     {
         "key": {
-            "subgroup": "All",
+            "subgroup": "Economy",
             "year": 2017,
             "type": "Five Year ACGR"
         },
         "val": {
-            "acgr": 0.807,
+            "acgr": 0.816,
+            "suppressed": 0
+        }
+    },
+    {
+        "key": {
+            "subgroup": "BL7",
+            "year": 2017,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "acgr": 0.801,
             "suppressed": 0
         }
     }

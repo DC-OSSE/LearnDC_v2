@@ -1,5 +1,5 @@
 {
-"timestamp": "Mon Nov 06 16:55:03 2017",
+"timestamp": "Tue Nov 21 16:17:25 2017",
 "org_type": "school",
 "org_name": "MCKINLEY TECHNOLOGY HS",
 "org_code": "0458",
@@ -9,23 +9,34 @@
 [
     {
         "key": {
-            "subgroup": "Economy",
+            "subgroup": "FEMALE",
             "year": 2016,
             "type": "Four Year ACGR"
         },
         "val": {
-            "acgr": 0.991,
+            "acgr": 1,
             "suppressed": 0
         }
     },
     {
         "key": {
-            "subgroup": "BL7",
+            "subgroup": "MALE",
             "year": 2016,
             "type": "Four Year ACGR"
         },
         "val": {
-            "acgr": 0.986,
+            "acgr": 0.967,
+            "suppressed": 0
+        }
+    },
+    {
+        "key": {
+            "subgroup": "All",
+            "year": 2016,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "acgr": 0.987,
             "suppressed": 0
         }
     },
@@ -361,31 +372,9 @@
     },
     {
         "key": {
-            "subgroup": "FEMALE",
-            "year": 2016,
-            "type": "Four Year ACGR"
-        },
-        "val": {
-            "acgr": 1,
-            "suppressed": 0
-        }
-    },
-    {
-        "key": {
-            "subgroup": "MALE",
-            "year": 2016,
-            "type": "Four Year ACGR"
-        },
-        "val": {
-            "acgr": 0.967,
-            "suppressed": 0
-        }
-    },
-    {
-        "key": {
             "subgroup": "BL7",
-            "year": 2017,
-            "type": "Five Year ACGR"
+            "year": 2016,
+            "type": "Four Year ACGR"
         },
         "val": {
             "acgr": 0.986,
@@ -394,12 +383,12 @@
     },
     {
         "key": {
-            "subgroup": "All",
+            "subgroup": "Economy",
             "year": 2016,
             "type": "Four Year ACGR"
         },
         "val": {
-            "acgr": 0.987,
+            "acgr": 0.991,
             "suppressed": 0
         }
     },
@@ -433,6 +422,17 @@
         },
         "val": {
             "acgr": 0.991,
+            "suppressed": 0
+        }
+    },
+    {
+        "key": {
+            "subgroup": "BL7",
+            "year": 2017,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "acgr": 0.986,
             "suppressed": 0
         }
     },

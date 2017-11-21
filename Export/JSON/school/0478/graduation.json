@@ -1,5 +1,5 @@
 {
-"timestamp": "Mon Nov 06 16:55:03 2017",
+"timestamp": "Tue Nov 21 16:17:25 2017",
 "org_type": "school",
 "org_name": "PHELPS ARCHITECTURE CONSTRUCTION AND ENGINEERING HS",
 "org_code": "0478",
@@ -9,7 +9,29 @@
 [
     {
         "key": {
+            "subgroup": "MALE",
+            "year": 2016,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "acgr": 0.92,
+            "suppressed": 0
+        }
+    },
+    {
+        "key": {
             "subgroup": "Economy",
+            "year": 2016,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "acgr": 0.936,
+            "suppressed": 0
+        }
+    },
+    {
+        "key": {
+            "subgroup": "All",
             "year": 2016,
             "type": "Four Year ACGR"
         },
@@ -284,23 +306,34 @@
     },
     {
         "key": {
-            "subgroup": "MALE",
-            "year": 2016,
-            "type": "Four Year ACGR"
-        },
-        "val": {
-            "acgr": 0.92,
-            "suppressed": 0
-        }
-    },
-    {
-        "key": {
             "subgroup": "BL7",
             "year": 2016,
             "type": "Four Year ACGR"
         },
         "val": {
             "acgr": 0.933,
+            "suppressed": 0
+        }
+    },
+    {
+        "key": {
+            "subgroup": "All",
+            "year": 2017,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "acgr": 0.957,
+            "suppressed": 0
+        }
+    },
+    {
+        "key": {
+            "subgroup": "MALE",
+            "year": 2017,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "acgr": 0.96,
             "suppressed": 0
         }
     },
@@ -323,39 +356,6 @@
         },
         "val": {
             "acgr": 0.956,
-            "suppressed": 0
-        }
-    },
-    {
-        "key": {
-            "subgroup": "All",
-            "year": 2016,
-            "type": "Four Year ACGR"
-        },
-        "val": {
-            "acgr": 0.936,
-            "suppressed": 0
-        }
-    },
-    {
-        "key": {
-            "subgroup": "MALE",
-            "year": 2017,
-            "type": "Five Year ACGR"
-        },
-        "val": {
-            "acgr": 0.96,
-            "suppressed": 0
-        }
-    },
-    {
-        "key": {
-            "subgroup": "All",
-            "year": 2017,
-            "type": "Five Year ACGR"
-        },
-        "val": {
-            "acgr": 0.957,
             "suppressed": 0
         }
     }

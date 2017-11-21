@@ -1,5 +1,5 @@
 {
-"timestamp": "Mon Nov 06 16:55:03 2017",
+"timestamp": "Tue Nov 21 16:17:25 2017",
 "org_type": "school",
 "org_name": "ROOSEVELT STAY AT MACFARLAND",
 "org_code": "0456",
@@ -9,56 +9,12 @@
 [
     {
         "key": {
-            "subgroup": "Economy",
-            "year": 2016,
-            "type": "Four Year ACGR"
-        },
-        "val": {
-            "acgr": 0.048,
-            "suppressed": 0
-        }
-    },
-    {
-        "key": {
-            "subgroup": "BL7",
-            "year": 2016,
-            "type": "Four Year ACGR"
-        },
-        "val": {
-            "acgr": 0.1,
-            "suppressed": 0
-        }
-    },
-    {
-        "key": {
-            "subgroup": "All",
-            "year": 2015,
-            "type": "Five Year ACGR"
-        },
-        "val": {
-            "acgr": 0.03,
-            "suppressed": 0
-        }
-    },
-    {
-        "key": {
             "subgroup": "MALE",
             "year": 2016,
             "type": "Four Year ACGR"
         },
         "val": {
             "acgr": 0.08,
-            "suppressed": 0
-        }
-    },
-    {
-        "key": {
-            "subgroup": "BL7",
-            "year": 2017,
-            "type": "Five Year ACGR"
-        },
-        "val": {
-            "acgr": 0.2,
             "suppressed": 0
         }
     },
@@ -86,12 +42,56 @@
     },
     {
         "key": {
+            "subgroup": "All",
+            "year": 2015,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "acgr": 0.03,
+            "suppressed": 0
+        }
+    },
+    {
+        "key": {
+            "subgroup": "BL7",
+            "year": 2016,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "acgr": 0.1,
+            "suppressed": 0
+        }
+    },
+    {
+        "key": {
+            "subgroup": "Economy",
+            "year": 2016,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "acgr": 0.048,
+            "suppressed": 0
+        }
+    },
+    {
+        "key": {
             "subgroup": "Economy",
             "year": 2017,
             "type": "Five Year ACGR"
         },
         "val": {
             "acgr": 0.167,
+            "suppressed": 0
+        }
+    },
+    {
+        "key": {
+            "subgroup": "BL7",
+            "year": 2017,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "acgr": 0.2,
             "suppressed": 0
         }
     },

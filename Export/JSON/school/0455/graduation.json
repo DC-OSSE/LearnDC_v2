@@ -1,5 +1,5 @@
 {
-"timestamp": "Mon Nov 06 16:55:03 2017",
+"timestamp": "Tue Nov 21 16:17:24 2017",
 "org_type": "school",
 "org_name": "COOLIDGE HS",
 "org_code": "0455",
@@ -9,34 +9,78 @@
 [
     {
         "key": {
-            "subgroup": "Economy",
+            "subgroup": "SPED",
             "year": 2016,
             "type": "Four Year ACGR"
         },
         "val": {
-            "acgr": 0.675,
+            "acgr": 0.24,
             "suppressed": 0
         }
     },
     {
         "key": {
-            "subgroup": "BL7",
+            "subgroup": "FEMALE",
             "year": 2016,
             "type": "Four Year ACGR"
         },
         "val": {
-            "acgr": 0.725,
+            "acgr": 0.683,
             "suppressed": 0
         }
     },
     {
         "key": {
-            "subgroup": "HI7",
+            "subgroup": "MALE",
             "year": 2016,
             "type": "Four Year ACGR"
         },
         "val": {
-            "acgr": 0.44,
+            "acgr": 0.639,
+            "suppressed": 0
+        }
+    },
+    {
+        "key": {
+            "subgroup": "All",
+            "year": 2016,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "acgr": 0.659,
+            "suppressed": 0
+        }
+    },
+    {
+        "key": {
+            "subgroup": "SPED",
+            "year": 2017,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "acgr": 0.28,
+            "suppressed": 0
+        }
+    },
+    {
+        "key": {
+            "subgroup": "FEMALE",
+            "year": 2017,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "acgr": 0.717,
+            "suppressed": 0
+        }
+    },
+    {
+        "key": {
+            "subgroup": "MALE",
+            "year": 2017,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "acgr": 0.681,
             "suppressed": 0
         }
     },
@@ -493,34 +537,45 @@
     },
     {
         "key": {
-            "subgroup": "FEMALE",
+            "subgroup": "BL7",
             "year": 2016,
             "type": "Four Year ACGR"
         },
         "val": {
-            "acgr": 0.683,
+            "acgr": 0.725,
             "suppressed": 0
         }
     },
     {
         "key": {
-            "subgroup": "MALE",
+            "subgroup": "HI7",
             "year": 2016,
             "type": "Four Year ACGR"
         },
         "val": {
-            "acgr": 0.639,
+            "acgr": 0.44,
             "suppressed": 0
         }
     },
     {
         "key": {
-            "subgroup": "SPED",
+            "subgroup": "Economy",
             "year": 2016,
             "type": "Four Year ACGR"
         },
         "val": {
-            "acgr": 0.24,
+            "acgr": 0.675,
+            "suppressed": 0
+        }
+    },
+    {
+        "key": {
+            "subgroup": "Economy",
+            "year": 2017,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "acgr": 0.707,
             "suppressed": 0
         }
     },
@@ -543,61 +598,6 @@
         },
         "val": {
             "acgr": 0.48,
-            "suppressed": 0
-        }
-    },
-    {
-        "key": {
-            "subgroup": "All",
-            "year": 2016,
-            "type": "Four Year ACGR"
-        },
-        "val": {
-            "acgr": 0.659,
-            "suppressed": 0
-        }
-    },
-    {
-        "key": {
-            "subgroup": "SPED",
-            "year": 2017,
-            "type": "Five Year ACGR"
-        },
-        "val": {
-            "acgr": 0.28,
-            "suppressed": 0
-        }
-    },
-    {
-        "key": {
-            "subgroup": "FEMALE",
-            "year": 2017,
-            "type": "Five Year ACGR"
-        },
-        "val": {
-            "acgr": 0.717,
-            "suppressed": 0
-        }
-    },
-    {
-        "key": {
-            "subgroup": "MALE",
-            "year": 2017,
-            "type": "Five Year ACGR"
-        },
-        "val": {
-            "acgr": 0.681,
-            "suppressed": 0
-        }
-    },
-    {
-        "key": {
-            "subgroup": "Economy",
-            "year": 2017,
-            "type": "Five Year ACGR"
-        },
-        "val": {
-            "acgr": 0.707,
             "suppressed": 0
         }
     },

@@ -1,5 +1,5 @@
 {
-"timestamp": "Mon Nov 06 16:55:02 2017",
+"timestamp": "Tue Nov 21 16:17:24 2017",
 "org_type": "school",
 "org_name": "NA",
 "org_code": "1118",
@@ -97,34 +97,23 @@
     },
     {
         "key": {
-            "subgroup": "FEMALE",
-            "year": 2016,
-            "type": "Four Year ACGR"
-        },
-        "val": {
-            "acgr": 0.938,
-            "suppressed": 0
-        }
-    },
-    {
-        "key": {
-            "subgroup": "MALE",
-            "year": 2016,
-            "type": "Four Year ACGR"
-        },
-        "val": {
-            "acgr": 0.867,
-            "suppressed": 0
-        }
-    },
-    {
-        "key": {
             "subgroup": "BL7",
             "year": 2016,
             "type": "Four Year ACGR"
         },
         "val": {
             "acgr": 0.857,
+            "suppressed": 0
+        }
+    },
+    {
+        "key": {
+            "subgroup": "All",
+            "year": 2016,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "acgr": 0.903,
             "suppressed": 0
         }
     },
@@ -218,12 +207,34 @@
     },
     {
         "key": {
-            "subgroup": "All",
+            "subgroup": "FEMALE",
             "year": 2016,
             "type": "Four Year ACGR"
         },
         "val": {
-            "acgr": 0.903,
+            "acgr": 0.938,
+            "suppressed": 0
+        }
+    },
+    {
+        "key": {
+            "subgroup": "MALE",
+            "year": 2016,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "acgr": 0.867,
+            "suppressed": 0
+        }
+    },
+    {
+        "key": {
+            "subgroup": "All",
+            "year": 2017,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "acgr": 1,
             "suppressed": 0
         }
     },
@@ -252,17 +263,6 @@
     {
         "key": {
             "subgroup": "BL7",
-            "year": 2017,
-            "type": "Five Year ACGR"
-        },
-        "val": {
-            "acgr": 1,
-            "suppressed": 0
-        }
-    },
-    {
-        "key": {
-            "subgroup": "All",
             "year": 2017,
             "type": "Five Year ACGR"
         },

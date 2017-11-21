@@ -1,5 +1,5 @@
 {
-"timestamp": "Mon Nov 06 16:55:03 2017",
+"timestamp": "Tue Nov 21 16:17:26 2017",
 "org_type": "school",
 "org_name": "RICHARD WRIGHT PCS FOR JOURNALISM AND MEDIA ARTS",
 "org_code": "3067",
@@ -7,28 +7,6 @@
 	"id": "graduation",
 	"data":  
 [
-    {
-        "key": {
-            "subgroup": "FEMALE",
-            "year": 2016,
-            "type": "Four Year ACGR"
-        },
-        "val": {
-            "acgr": 0.743,
-            "suppressed": 0
-        }
-    },
-    {
-        "key": {
-            "subgroup": "MALE",
-            "year": 2016,
-            "type": "Four Year ACGR"
-        },
-        "val": {
-            "acgr": 0.84,
-            "suppressed": 0
-        }
-    },
     {
         "key": {
             "subgroup": "Economy",
@@ -48,6 +26,17 @@
         },
         "val": {
             "acgr": 0.78,
+            "suppressed": 0
+        }
+    },
+    {
+        "key": {
+            "subgroup": "All",
+            "year": 2016,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "acgr": 0.783,
             "suppressed": 0
         }
     },
@@ -174,23 +163,34 @@
     },
     {
         "key": {
-            "subgroup": "Economy",
-            "year": 2017,
-            "type": "Five Year ACGR"
+            "subgroup": "FEMALE",
+            "year": 2016,
+            "type": "Four Year ACGR"
         },
         "val": {
-            "acgr": 0.881,
+            "acgr": 0.743,
+            "suppressed": 0
+        }
+    },
+    {
+        "key": {
+            "subgroup": "MALE",
+            "year": 2016,
+            "type": "Four Year ACGR"
+        },
+        "val": {
+            "acgr": 0.84,
             "suppressed": 0
         }
     },
     {
         "key": {
             "subgroup": "All",
-            "year": 2016,
-            "type": "Four Year ACGR"
+            "year": 2017,
+            "type": "Five Year ACGR"
         },
         "val": {
-            "acgr": 0.783,
+            "acgr": 0.867,
             "suppressed": 0
         }
     },
@@ -218,23 +218,23 @@
     },
     {
         "key": {
+            "subgroup": "Economy",
+            "year": 2017,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "acgr": 0.881,
+            "suppressed": 0
+        }
+    },
+    {
+        "key": {
             "subgroup": "BL7",
             "year": 2017,
             "type": "Five Year ACGR"
         },
         "val": {
             "acgr": 0.864,
-            "suppressed": 0
-        }
-    },
-    {
-        "key": {
-            "subgroup": "All",
-            "year": 2017,
-            "type": "Five Year ACGR"
-        },
-        "val": {
-            "acgr": 0.867,
             "suppressed": 0
         }
     }
