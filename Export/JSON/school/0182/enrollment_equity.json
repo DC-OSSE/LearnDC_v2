@@ -1,11 +1,43 @@
 {
-"timestamp": "Sun Nov 12 11:34:59 2017",
+"timestamp": "Tue Nov 21 15:58:27 2017",
 "org_type": "school",
 "org_code": "0182",
 "exhibit": {
 	"id": "enrollment_equity",
 	"data":  
 [
+    {
+        "key": {
+            "year": 2017,
+            "subgroup": "AM7",
+            "grade": "All"
+        },
+        "val": 0.003
+    },
+    {
+        "key": {
+            "year": 2017,
+            "subgroup": "AS7",
+            "grade": "All"
+        },
+        "val": 0.015
+    },
+    {
+        "key": {
+            "year": 2017,
+            "subgroup": "All",
+            "grade": "grade 5"
+        },
+        "val": 84
+    },
+    {
+        "key": {
+            "year": 2017,
+            "subgroup": "All",
+            "grade": "grade 6"
+        },
+        "val": 84
+    },
     {
         "key": {
             "year": 2017,
@@ -68,7 +100,7 @@
             "subgroup": "LEP",
             "grade": "All"
         },
-        "val": 0.206
+        "val": 0.105
     },
     {
         "key": {
@@ -133,38 +165,6 @@
             "grade": "All"
         },
         "val": 0.083
-    },
-    {
-        "key": {
-            "year": 2017,
-            "subgroup": "AM7",
-            "grade": "All"
-        },
-        "val": 0.003
-    },
-    {
-        "key": {
-            "year": 2017,
-            "subgroup": "AS7",
-            "grade": "All"
-        },
-        "val": 0.015
-    },
-    {
-        "key": {
-            "year": 2017,
-            "subgroup": "All",
-            "grade": "grade 5"
-        },
-        "val": 84
-    },
-    {
-        "key": {
-            "year": 2017,
-            "subgroup": "All",
-            "grade": "grade 6"
-        },
-        "val": 84
     }
 ]
 

@@ -1,27 +1,11 @@
 {
-"timestamp": "Sun Nov 12 11:34:59 2017",
+"timestamp": "Tue Nov 21 15:58:25 2017",
 "org_type": "school",
 "org_code": "0884",
 "exhibit": {
 	"id": "enrollment_equity",
 	"data":  
 [
-    {
-        "key": {
-            "year": 2017,
-            "subgroup": "All",
-            "grade": "grade 9"
-        },
-        "val": 46
-    },
-    {
-        "key": {
-            "year": 2017,
-            "subgroup": "All",
-            "grade": "grade 10"
-        },
-        "val": 58
-    },
     {
         "key": {
             "year": 2017,
@@ -133,6 +117,22 @@
             "grade": "All"
         },
         "val": 0.05
+    },
+    {
+        "key": {
+            "year": 2017,
+            "subgroup": "All",
+            "grade": "grade 9"
+        },
+        "val": 46
+    },
+    {
+        "key": {
+            "year": 2017,
+            "subgroup": "All",
+            "grade": "grade 10"
+        },
+        "val": 58
     }
 ]
 

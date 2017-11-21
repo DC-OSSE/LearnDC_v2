@@ -1,19 +1,11 @@
 {
-"timestamp": "Sun Nov 12 11:35:00 2017",
+"timestamp": "Tue Nov 21 15:58:26 2017",
 "org_type": "school",
 "org_code": "1119",
 "exhibit": {
 	"id": "enrollment_equity",
 	"data":  
 [
-    {
-        "key": {
-            "year": 2017,
-            "subgroup": "AM7",
-            "grade": "All"
-        },
-        "val": 0
-    },
     {
         "key": {
             "year": 2017,
@@ -101,6 +93,14 @@
             "grade": "All"
         },
         "val": 0.02
+    },
+    {
+        "key": {
+            "year": 2017,
+            "subgroup": "AM7",
+            "grade": "All"
+        },
+        "val": 0
     }
 ]
 

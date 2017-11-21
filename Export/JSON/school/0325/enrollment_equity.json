@@ -1,99 +1,11 @@
 {
-"timestamp": "Sun Nov 12 11:34:58 2017",
+"timestamp": "Tue Nov 21 15:58:26 2017",
 "org_type": "school",
 "org_code": "0325",
 "exhibit": {
 	"id": "enrollment_equity",
 	"data":  
 [
-    {
-        "key": {
-            "year": 2017,
-            "subgroup": "FEMALE",
-            "grade": "All"
-        },
-        "val": 0.477
-    },
-    {
-        "key": {
-            "year": 2017,
-            "subgroup": "HI7",
-            "grade": "All"
-        },
-        "val": 0.022
-    },
-    {
-        "key": {
-            "year": 2017,
-            "subgroup": "LEP",
-            "grade": "All"
-        },
-        "val": 0.012
-    },
-    {
-        "key": {
-            "year": 2017,
-            "subgroup": "MU7",
-            "grade": "All"
-        },
-        "val": 0.005
-    },
-    {
-        "key": {
-            "year": 2017,
-            "subgroup": "MALE",
-            "grade": "All"
-        },
-        "val": 0.523
-    },
-    {
-        "key": {
-            "year": 2017,
-            "subgroup": "SPED",
-            "grade": "All"
-        },
-        "val": 0.186
-    },
-    {
-        "key": {
-            "year": 2017,
-            "subgroup": "SPED Level 1",
-            "grade": "All"
-        },
-        "val": 0.329
-    },
-    {
-        "key": {
-            "year": 2017,
-            "subgroup": "SPED Level 2",
-            "grade": "All"
-        },
-        "val": 0.145
-    },
-    {
-        "key": {
-            "year": 2017,
-            "subgroup": "SPED Level 3",
-            "grade": "All"
-        },
-        "val": 0.105
-    },
-    {
-        "key": {
-            "year": 2017,
-            "subgroup": "SPED Level 4",
-            "grade": "All"
-        },
-        "val": 0.421
-    },
-    {
-        "key": {
-            "year": 2017,
-            "subgroup": "WH7",
-            "grade": "All"
-        },
-        "val": 0.005
-    },
     {
         "key": {
             "year": 2017,
@@ -197,6 +109,94 @@
             "grade": "All"
         },
         "val": 1
+    },
+    {
+        "key": {
+            "year": 2017,
+            "subgroup": "FEMALE",
+            "grade": "All"
+        },
+        "val": 0.477
+    },
+    {
+        "key": {
+            "year": 2017,
+            "subgroup": "HI7",
+            "grade": "All"
+        },
+        "val": 0.022
+    },
+    {
+        "key": {
+            "year": 2017,
+            "subgroup": "LEP",
+            "grade": "All"
+        },
+        "val": 0.012
+    },
+    {
+        "key": {
+            "year": 2017,
+            "subgroup": "MU7",
+            "grade": "All"
+        },
+        "val": 0.005
+    },
+    {
+        "key": {
+            "year": 2017,
+            "subgroup": "MALE",
+            "grade": "All"
+        },
+        "val": 0.523
+    },
+    {
+        "key": {
+            "year": 2017,
+            "subgroup": "SPED",
+            "grade": "All"
+        },
+        "val": 0.186
+    },
+    {
+        "key": {
+            "year": 2017,
+            "subgroup": "SPED Level 1",
+            "grade": "All"
+        },
+        "val": 0.329
+    },
+    {
+        "key": {
+            "year": 2017,
+            "subgroup": "SPED Level 2",
+            "grade": "All"
+        },
+        "val": 0.145
+    },
+    {
+        "key": {
+            "year": 2017,
+            "subgroup": "SPED Level 3",
+            "grade": "All"
+        },
+        "val": 0.105
+    },
+    {
+        "key": {
+            "year": 2017,
+            "subgroup": "SPED Level 4",
+            "grade": "All"
+        },
+        "val": 0.421
+    },
+    {
+        "key": {
+            "year": 2017,
+            "subgroup": "WH7",
+            "grade": "All"
+        },
+        "val": 0.005
     }
 ]
 
