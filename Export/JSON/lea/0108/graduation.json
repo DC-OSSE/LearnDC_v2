@@ -1,5 +1,5 @@
 {
-"timestamp": "Mon Nov 06 16:53:31 2017",
+"timestamp": "Tue Nov 21 16:20:54 2017",
 "org_type": "lea",
 "org_name": "CAPITAL CITY PCS",
 "org_code": "0108",
@@ -9,45 +9,23 @@
 [
     {
         "key": {
-            "subgroup": "Economy",
-            "year": 2017,
-            "type": "Five Year ACGR"
+            "subgroup": "FEMALE",
+            "year": 2016,
+            "type": "Four Year ACGR"
         },
         "val": {
-            "acgr": 0.796,
+            "acgr": 0.774,
             "suppressed": 0
         }
     },
     {
         "key": {
-            "subgroup": "BL7",
-            "year": 2017,
-            "type": "Five Year ACGR"
+            "subgroup": "MALE",
+            "year": 2016,
+            "type": "Four Year ACGR"
         },
         "val": {
-            "acgr": 0.889,
-            "suppressed": 0
-        }
-    },
-    {
-        "key": {
-            "subgroup": "HI7",
-            "year": 2017,
-            "type": "Five Year ACGR"
-        },
-        "val": {
-            "acgr": 0.7,
-            "suppressed": 0
-        }
-    },
-    {
-        "key": {
-            "subgroup": "All",
-            "year": 2017,
-            "type": "Five Year ACGR"
-        },
-        "val": {
-            "acgr": 0.794,
+            "acgr": 0.625,
             "suppressed": 0
         }
     },
@@ -119,23 +97,45 @@
     },
     {
         "key": {
-            "subgroup": "FEMALE",
-            "year": 2016,
-            "type": "Four Year ACGR"
+            "subgroup": "Economy",
+            "year": 2017,
+            "type": "Five Year ACGR"
         },
         "val": {
-            "acgr": 0.774,
+            "acgr": 0.796,
             "suppressed": 0
         }
     },
     {
         "key": {
-            "subgroup": "MALE",
-            "year": 2016,
-            "type": "Four Year ACGR"
+            "subgroup": "BL7",
+            "year": 2017,
+            "type": "Five Year ACGR"
         },
         "val": {
-            "acgr": 0.625,
+            "acgr": 0.889,
+            "suppressed": 0
+        }
+    },
+    {
+        "key": {
+            "subgroup": "HI7",
+            "year": 2017,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "acgr": 0.7,
+            "suppressed": 0
+        }
+    },
+    {
+        "key": {
+            "subgroup": "All",
+            "year": 2017,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "acgr": 0.794,
             "suppressed": 0
         }
     },

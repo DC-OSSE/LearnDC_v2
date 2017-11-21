@@ -1,5 +1,5 @@
 {
-"timestamp": "Mon Nov 06 16:53:32 2017",
+"timestamp": "Tue Nov 21 16:20:54 2017",
 "org_type": "lea",
 "org_name": "NATIONAL COLLEGIATE PREPARATORY PCS",
 "org_code": "0163",
@@ -9,34 +9,12 @@
 [
     {
         "key": {
-            "subgroup": "Economy",
-            "year": 2017,
-            "type": "Five Year ACGR"
+            "subgroup": "SPED",
+            "year": 2016,
+            "type": "Four Year ACGR"
         },
         "val": {
-            "acgr": 0.62,
-            "suppressed": 0
-        }
-    },
-    {
-        "key": {
-            "subgroup": "BL7",
-            "year": 2017,
-            "type": "Five Year ACGR"
-        },
-        "val": {
-            "acgr": 0.588,
-            "suppressed": 0
-        }
-    },
-    {
-        "key": {
-            "subgroup": "All",
-            "year": 2017,
-            "type": "Five Year ACGR"
-        },
-        "val": {
-            "acgr": 0.588,
+            "acgr": 0.44,
             "suppressed": 0
         }
     },
@@ -130,12 +108,34 @@
     },
     {
         "key": {
-            "subgroup": "SPED",
-            "year": 2016,
-            "type": "Four Year ACGR"
+            "subgroup": "Economy",
+            "year": 2017,
+            "type": "Five Year ACGR"
         },
         "val": {
-            "acgr": 0.44,
+            "acgr": 0.62,
+            "suppressed": 0
+        }
+    },
+    {
+        "key": {
+            "subgroup": "BL7",
+            "year": 2017,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "acgr": 0.588,
+            "suppressed": 0
+        }
+    },
+    {
+        "key": {
+            "subgroup": "All",
+            "year": 2017,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "acgr": 0.588,
             "suppressed": 0
         }
     },

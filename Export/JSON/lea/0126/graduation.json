@@ -1,5 +1,5 @@
 {
-"timestamp": "Mon Nov 06 16:53:31 2017",
+"timestamp": "Tue Nov 21 16:20:54 2017",
 "org_type": "lea",
 "org_name": "IDEA PCS",
 "org_code": "0126",
@@ -9,34 +9,23 @@
 [
     {
         "key": {
-            "subgroup": "Economy",
-            "year": 2017,
-            "type": "Five Year ACGR"
+            "subgroup": "FEMALE",
+            "year": 2016,
+            "type": "Four Year ACGR"
         },
         "val": {
-            "acgr": 0.804,
+            "acgr": 0.857,
             "suppressed": 0
         }
     },
     {
         "key": {
-            "subgroup": "BL7",
-            "year": 2017,
-            "type": "Five Year ACGR"
+            "subgroup": "MALE",
+            "year": 2016,
+            "type": "Four Year ACGR"
         },
         "val": {
-            "acgr": 0.732,
-            "suppressed": 0
-        }
-    },
-    {
-        "key": {
-            "subgroup": "All",
-            "year": 2017,
-            "type": "Five Year ACGR"
-        },
-        "val": {
-            "acgr": 0.729,
+            "acgr": 0.484,
             "suppressed": 0
         }
     },
@@ -97,23 +86,34 @@
     },
     {
         "key": {
-            "subgroup": "FEMALE",
-            "year": 2016,
-            "type": "Four Year ACGR"
+            "subgroup": "Economy",
+            "year": 2017,
+            "type": "Five Year ACGR"
         },
         "val": {
-            "acgr": 0.857,
+            "acgr": 0.804,
             "suppressed": 0
         }
     },
     {
         "key": {
-            "subgroup": "MALE",
-            "year": 2016,
-            "type": "Four Year ACGR"
+            "subgroup": "BL7",
+            "year": 2017,
+            "type": "Five Year ACGR"
         },
         "val": {
-            "acgr": 0.484,
+            "acgr": 0.732,
+            "suppressed": 0
+        }
+    },
+    {
+        "key": {
+            "subgroup": "All",
+            "year": 2017,
+            "type": "Five Year ACGR"
+        },
+        "val": {
+            "acgr": 0.729,
             "suppressed": 0
         }
     },
