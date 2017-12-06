@@ -1,11 +1,19 @@
 {
-"timestamp": "Tue Nov 21 15:58:24 2017",
+"timestamp": "Wed Dec 06 02:17:03 2017",
 "org_type": "school",
 "org_code": "0416",
 "exhibit": {
 	"id": "enrollment_equity",
 	"data":  
 [
+    {
+        "key": {
+            "year": 2017,
+            "subgroup": "SPED",
+            "grade": "All"
+        },
+        "val": 0.19
+    },
     {
         "key": {
             "year": 2017,
@@ -125,14 +133,6 @@
             "grade": "All"
         },
         "val": 0.004
-    },
-    {
-        "key": {
-            "year": 2017,
-            "subgroup": "SPED",
-            "grade": "All"
-        },
-        "val": 0.19
     }
 ]
 

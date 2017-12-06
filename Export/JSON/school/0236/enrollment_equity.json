@@ -1,11 +1,43 @@
 {
-"timestamp": "Tue Nov 21 15:58:25 2017",
+"timestamp": "Wed Dec 06 02:17:24 2017",
 "org_type": "school",
 "org_code": "0236",
 "exhibit": {
 	"id": "enrollment_equity",
 	"data":  
 [
+    {
+        "key": {
+            "year": 2017,
+            "subgroup": "All",
+            "grade": "All"
+        },
+        "val": 277
+    },
+    {
+        "key": {
+            "year": 2017,
+            "subgroup": "All",
+            "grade": "KG"
+        },
+        "val": 78
+    },
+    {
+        "key": {
+            "year": 2017,
+            "subgroup": "All",
+            "grade": "PK3"
+        },
+        "val": 107
+    },
+    {
+        "key": {
+            "year": 2017,
+            "subgroup": "All",
+            "grade": "PK4"
+        },
+        "val": 92
+    },
     {
         "key": {
             "year": 2017,
@@ -85,38 +117,6 @@
             "grade": "All"
         },
         "val": 0.087
-    },
-    {
-        "key": {
-            "year": 2017,
-            "subgroup": "All",
-            "grade": "All"
-        },
-        "val": 277
-    },
-    {
-        "key": {
-            "year": 2017,
-            "subgroup": "All",
-            "grade": "KG"
-        },
-        "val": 78
-    },
-    {
-        "key": {
-            "year": 2017,
-            "subgroup": "All",
-            "grade": "PK3"
-        },
-        "val": 107
-    },
-    {
-        "key": {
-            "year": 2017,
-            "subgroup": "All",
-            "grade": "PK4"
-        },
-        "val": 92
     }
 ]
 

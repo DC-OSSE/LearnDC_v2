@@ -1,27 +1,11 @@
 {
-"timestamp": "Tue Nov 21 15:58:24 2017",
+"timestamp": "Wed Dec 06 02:17:02 2017",
 "org_type": "school",
 "org_code": "0204",
 "exhibit": {
 	"id": "enrollment_equity",
 	"data":  
 [
-    {
-        "key": {
-            "year": 2017,
-            "subgroup": "SPED Level 4",
-            "grade": "All"
-        },
-        "val": 0.089
-    },
-    {
-        "key": {
-            "year": 2017,
-            "subgroup": "WH7",
-            "grade": "All"
-        },
-        "val": 0.157
-    },
     {
         "key": {
             "year": 2017,
@@ -189,6 +173,22 @@
             "grade": "All"
         },
         "val": 0.025
+    },
+    {
+        "key": {
+            "year": 2017,
+            "subgroup": "SPED Level 4",
+            "grade": "All"
+        },
+        "val": 0.089
+    },
+    {
+        "key": {
+            "year": 2017,
+            "subgroup": "WH7",
+            "grade": "All"
+        },
+        "val": 0.157
     }
 ]
 

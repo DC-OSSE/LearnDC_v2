@@ -1,11 +1,83 @@
 {
-"timestamp": "Tue Nov 21 15:58:26 2017",
+"timestamp": "Wed Dec 06 02:17:25 2017",
 "org_type": "school",
 "org_code": "0248",
 "exhibit": {
 	"id": "enrollment_equity",
 	"data":  
 [
+    {
+        "key": {
+            "year": 2017,
+            "subgroup": "AM7",
+            "grade": "All"
+        },
+        "val": 0.012
+    },
+    {
+        "key": {
+            "year": 2017,
+            "subgroup": "AS7",
+            "grade": "All"
+        },
+        "val": 0.027
+    },
+    {
+        "key": {
+            "year": 2017,
+            "subgroup": "All",
+            "grade": "grade 6"
+        },
+        "val": 146
+    },
+    {
+        "key": {
+            "year": 2017,
+            "subgroup": "All",
+            "grade": "grade 7"
+        },
+        "val": 168
+    },
+    {
+        "key": {
+            "year": 2017,
+            "subgroup": "All",
+            "grade": "grade 8"
+        },
+        "val": 116
+    },
+    {
+        "key": {
+            "year": 2017,
+            "subgroup": "All",
+            "grade": "grade 9"
+        },
+        "val": 90
+    },
+    {
+        "key": {
+            "year": 2017,
+            "subgroup": "All",
+            "grade": "All"
+        },
+        "val": 520
+    },
+    {
+        "key": {
+            "year": 2017,
+            "subgroup": "BL7",
+            "grade": "All"
+        },
+        "val": 0.352
+    },
+    {
+        "key": {
+            "year": 2017,
+            "subgroup": "Economy",
+            "grade": "All"
+        },
+        "val": 0.508
+    },
     {
         "key": {
             "year": 2017,
@@ -101,78 +173,6 @@
             "grade": "All"
         },
         "val": 0.15
-    },
-    {
-        "key": {
-            "year": 2017,
-            "subgroup": "AM7",
-            "grade": "All"
-        },
-        "val": 0.012
-    },
-    {
-        "key": {
-            "year": 2017,
-            "subgroup": "AS7",
-            "grade": "All"
-        },
-        "val": 0.027
-    },
-    {
-        "key": {
-            "year": 2017,
-            "subgroup": "All",
-            "grade": "grade 6"
-        },
-        "val": 146
-    },
-    {
-        "key": {
-            "year": 2017,
-            "subgroup": "All",
-            "grade": "grade 7"
-        },
-        "val": 168
-    },
-    {
-        "key": {
-            "year": 2017,
-            "subgroup": "All",
-            "grade": "grade 8"
-        },
-        "val": 116
-    },
-    {
-        "key": {
-            "year": 2017,
-            "subgroup": "All",
-            "grade": "grade 9"
-        },
-        "val": 90
-    },
-    {
-        "key": {
-            "year": 2017,
-            "subgroup": "All",
-            "grade": "All"
-        },
-        "val": 520
-    },
-    {
-        "key": {
-            "year": 2017,
-            "subgroup": "BL7",
-            "grade": "All"
-        },
-        "val": 0.352
-    },
-    {
-        "key": {
-            "year": 2017,
-            "subgroup": "Economy",
-            "grade": "All"
-        },
-        "val": 0.508
     }
 ]
 

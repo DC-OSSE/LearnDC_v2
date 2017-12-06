@@ -1,11 +1,19 @@
 {
-"timestamp": "Tue Nov 21 15:58:26 2017",
+"timestamp": "Wed Dec 06 02:17:12 2017",
 "org_type": "school",
 "org_code": "0198",
 "exhibit": {
 	"id": "enrollment_equity",
 	"data":  
 [
+    {
+        "key": {
+            "year": 2017,
+            "subgroup": "All",
+            "grade": "PK3"
+        },
+        "val": 36
+    },
     {
         "key": {
             "year": 2017,
@@ -205,14 +213,6 @@
             "grade": "KG"
         },
         "val": 50
-    },
-    {
-        "key": {
-            "year": 2017,
-            "subgroup": "All",
-            "grade": "PK3"
-        },
-        "val": 36
     }
 ]
 
